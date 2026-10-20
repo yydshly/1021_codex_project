@@ -1,0 +1,57 @@
+# GitHub 项目研究室
+
+记录值得研究的 GitHub 项目与技术实践：从发现、理解，到运行、改造和总结。
+
+这里是研究总仓库。每个子项目使用稳定编号，独立保存研究笔记、实践代码、截图和可选的 Web 演示；本页负责索引和引导。
+
+## 项目索引
+
+按编号升序排列。编号一经分配便保留，归档后也不重复使用。
+
+<!-- PROJECT_INDEX:START -->
+暂无研究项目。第一个项目将从 **001** 开始。
+<!-- PROJECT_INDEX:END -->
+
+## 从这里开始
+
+- **浏览研究**：从上方索引进入子项目，查看原项目介绍、研究结论和运行方式。
+- **新增研究**：阅读 [项目维护指南](docs/project-guide.md)，复制 [研究模板](templates/project/README.md)。
+- **发布演示**：阅读 [GitHub Pages 部署指南](docs/deployment.md)，为每个 Web 应用分配独立路径。
+- **查看图片**：每个子项目在自己的 `assets/` 目录保存截图，在研究 README 和首页索引中展示。
+
+## 仓库结构
+
+```text
+.
+├── README.md                 # 总索引与项目入口
+├── projects.json             # 项目元数据，驱动首页索引和演示门户
+├── projects/                 # 按 001-slug、002-slug 编号的研究项目
+├── templates/project/        # 新研究项目模板
+├── docs/                     # 维护规范、部署说明
+├── scripts/catalog.py        # 校验索引、生成静态演示门户
+├── tests/                    # 索引与发布边界检查
+└── .github/workflows/        # 自动校验与手动 Pages 发布
+```
+
+## 维护命令
+
+需要 Python 3.10 或更高版本，无第三方依赖。
+
+```sh
+# 编辑 projects.json 后，同步本页索引并生成本地静态站点
+python scripts/catalog.py --update-readme
+
+# 校验元数据、本页索引与静态站点构建
+python scripts/catalog.py --check
+python -m unittest discover -s tests
+
+# 预览生成的门户；打开 http://localhost:8000
+python -m http.server 8000 --directory _site
+```
+
+GitHub Pages 尚未启用。未来的站点入口为：
+[`yydshly.github.io/1021_codex_project/`](https://yydshly.github.io/1021_codex_project/)。
+
+## 来源与授权
+
+各研究页保留原仓库链接及其许可证说明。优先使用链接和可复现的操作说明；引入上游代码、图片或数据时，遵守原项目许可证并保留必要声明。本仓库目前未为原创内容选择统一开源许可证。
