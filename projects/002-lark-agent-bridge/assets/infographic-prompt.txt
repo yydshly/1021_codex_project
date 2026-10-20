@@ -1,0 +1,73 @@
+Use case: infographic-diagram
+Asset type: One standalone Chinese architecture infographic for the existing Lark Agent Bridge research project.
+Primary request: Explain what this library does, how it works with a clear diagram as the main module, the responsibilities of its agent adapters, and its future value to our own engineering work.
+
+Create one polished, high-resolution landscape infographic, ideally 2560 × 1600, with excellent legibility when enlarged. Use Simplified Chinese, accurate technical English, clean typography, warm ivory background, forest-green headings and structural lines, pale sage panels, restrained amber for boundaries and future proposals. Editorial technical publication aesthetic, consistent with a Chinese open-source research notebook. Flat vector-like drawing, generous margins, precise aligned grids, minimal line icons. No photographs, devices in perspective, extraneous decoration, invented logos, or watermarks.
+
+Layout: Header at top. Two main rows. Upper row: compact capability module on left (about one third); large architecture module on right (about two thirds). Lower row: adapter responsibility module on left; future value module on right. A full-width conclusion strip and discreet research evidence footer. Architecture diagram is the visual focal point. All text must be sharp, correct, non-overlapping, with readable minimum font size; do not add unrequested text.
+
+HEADER exact text:
+"Lark Agent Bridge"
+"把聊天入口，接到本地 Agent 的执行能力"
+"能力 · 工作原理 · 适配器 · 后续价值"
+
+MODULE 01 exact heading: "01 这个库能做什么"
+Short introduction: "飞书里的编程助手遥控入口"
+Four compact rows:
+"接收任务" / "私聊、群内 @、图片与文件"
+"维护上下文" / "关联会话 ID，切换工作目录"
+"组织运行" / "消息合并、排队、并发限制、停止"
+"回传结果" / "过程事件、流式卡片、最终回复"
+Small emphasis label: "已实现重点：会话管理 + 运行管理"
+
+MODULE 02 exact heading: "02 一条消息的执行链路"
+Diagram: left-to-right chain of three large nodes with two small supporting nodes below the last node.
+Node 1: "飞书" and "用户消息 / 回复卡片".
+Node 2: a larger outlined container labeled "本机 Bridge". Inside it, stacked components connected downward:
+"会话与目录匹配"
+"消息队列 + 运行调度"
+"Agent 适配器"
+Node 3: "本机 Agent CLI" and "Claude Code / Codex".
+Between Feishu and Bridge draw TWO clearly separated opposing arrows:
+Feishu to Bridge labeled "WebSocket 消息事件"
+Bridge to Feishu labeled "消息 / 卡片接口"
+Between Bridge's adapter and the Agent CLI draw TWO clearly separated opposing arrows:
+Bridge to CLI labeled "启动进程 + stdin 任务"
+CLI to Bridge labeled "stdout 结构化事件"
+Below CLI, connect to two supporting nodes:
+"项目文件与工具" labeled on connection "读取 / 修改 / 执行"
+"所配置的模型服务" labeled on connection "请求 / 响应"
+Below the diagram put two short lines:
+"下一轮：带会话 ID 恢复上下文"
+"Agent 负责实际执行，Bridge 负责连接与运行组织"
+Make arrow directions unambiguous, do not merge the model service into the local computer. The CLI-to-model connection may be bidirectional. Do not depict a direct Feishu-to-files connection. Do not imply the bridge directly executes the agent's tools.
+
+MODULE 03 exact heading: "03 适配器：不止转发"
+Subtitle: "把统一执行请求，转换成具体 Agent 的调用"
+Four numbered items:
+"启动执行" / "检查可用性，设置目录、权限与参数"
+"传入上下文" / "写入任务、附件，传递恢复会话标识"
+"统一输出" / "文本、工具事件、结果、错误与结束状态"
+"控制生命周期" / "停止执行、等待退出，向上报告状态"
+Small separated note:
+"分工边界：优先级、任务依赖与验收，由上层任务系统负责。"
+
+MODULE 04 exact heading: "04 对我们后期的价值"
+Three rows, distinguish immediate use versus future architecture with explicit tags:
+"直接价值" / "从聊天发起本机工作，复用项目与工具"
+"架构复用" / "两端分别适配，逐步连接更多平台与 Agent"
+"下一步建设" / "持久化任务、项目隔离、故障恢复、产物验收"
+The last row uses an amber tag "未来设计方向" to avoid implying the current repo already implements it.
+Bottom note:
+"扩展需匹配接口能力，不是更换名称即可接入。"
+
+FULL-WIDTH CONCLUSION STRIP exact text:
+"飞书提供入口，Bridge 管会话与运行，Agent 执行，验收确认完成。"
+Secondary line:
+"消息 ≠ 任务 ≠ 运行；运行结束 ≠ 目标达成。"
+
+FOOTER exact text:
+"研究 002 · 上游 v0.7.1 / 5898681 · 2026-10-20"
+"依据：README 与核心源码；未做真实飞书 / Agent 联调"
+
+Constraints: All four modules must be present on the same single image. No additional pages or variants. Faithful technical responsibilities. Do not present independent durable task orchestration, arbitrary live steering, or multi-agent collaboration as existing capabilities. Preserve the explicit distinction between current capabilities and future design. All Chinese text must be rendered accurately.

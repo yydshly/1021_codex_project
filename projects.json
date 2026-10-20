@@ -1,3 +1,13 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "id": "002",
+      "slug": "lark-agent-bridge",
+      "title": "Lark Agent Bridge 原理研究",
+      "summary": "把飞书消息接入本地 Claude Code / Codex，通过适配器调用 Agent 的命令行、会话恢复与结构化输出，管理会话、排队和运行，为多平台、多 Agent 接入及后续任务系统提供基础。",
+      "repository": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
+      "status": "已完成",
+      "image": "assets/understanding-map.png"
+    }
+  ]
 }

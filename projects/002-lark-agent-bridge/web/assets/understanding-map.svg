@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2880" height="2040" viewBox="0 0 2880 2040">
+<title>Lark Agent Bridge：从聊天入口到本地执行</title>
+<desc>解释库的能力、飞书到本地 agent 的通信链路、适配器职责及未来任务系统建设方向。</desc>
+<rect width="2880" height="2040" fill="#f6f7f1"/>
+<rect x="84" y="72" width="8" height="43" rx="0" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="112" y="80" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">研究 002  /  ARCHITECTURE FIELDNOTES</text>
+<text x="84" y="140" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="76" font-weight="700" dominant-baseline="text-before-edge">Lark Agent Bridge</text>
+<text x="87" y="242" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="38" font-weight="400" dominant-baseline="text-before-edge">把聊天入口，接到本地 Agent 的执行能力</text>
+<rect x="2360" y="158" width="318" height="46" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="2375" y="168" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">能力 × 原理 × 适配 × 价值</text>
+<rect x="84" y="340" width="700" height="700" rx="20" fill="#ffffff" stroke="#d8e2d4" stroke-width="2"/>
+<text x="124" y="382" fill="#1c604b" font-family="Consolas,monospace" font-size="27" font-weight="400" dominant-baseline="text-before-edge">01</text>
+<text x="184" y="376" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="40" font-weight="700" dominant-baseline="text-before-edge">这个库能做什么</text>
+<text x="124" y="444" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">飞书里的编程助手遥控入口</text>
+<rect x="124" y="527" width="8" height="29" rx="2" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="151" y="520" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="31" font-weight="700" dominant-baseline="text-before-edge">接收任务</text>
+<text x="151" y="566.0" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">私聊、群内 @、图片与文件</text>
+<rect x="124" y="633" width="8" height="29" rx="2" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="151" y="626" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="31" font-weight="700" dominant-baseline="text-before-edge">维护上下文</text>
+<text x="151" y="672.0" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">关联会话 ID，切换工作目录</text>
+<rect x="124" y="739" width="8" height="29" rx="2" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="151" y="732" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="31" font-weight="700" dominant-baseline="text-before-edge">组织运行</text>
+<text x="151" y="778.0" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">消息合并、排队、并发限制、停止</text>
+<rect x="124" y="845" width="8" height="29" rx="2" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="151" y="838" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="31" font-weight="700" dominant-baseline="text-before-edge">回传结果</text>
+<text x="151" y="884.0" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">过程事件、流式卡片、最终回复</text>
+<rect x="124" y="958" width="383" height="45" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="139" y="968" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">已实现重点：会话管理 + 运行管理</text>
+<rect x="816" y="340" width="1980" height="700" rx="20" fill="#ffffff" stroke="#d8e2d4" stroke-width="2"/>
+<text x="860" y="382" fill="#1c604b" font-family="Consolas,monospace" font-size="27" font-weight="400" dominant-baseline="text-before-edge">02</text>
+<text x="920" y="376" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="40" font-weight="700" dominant-baseline="text-before-edge">一条消息的执行链路</text>
+<rect x="2610" y="379" width="118" height="44" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="2625" y="389" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">工作原理</text>
+<rect x="872" y="579" width="250" height="180" rx="16" fill="#eaf1e5" stroke="#d8e2d4" stroke-width="2"/>
+<text x="950" y="616" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="40" font-weight="700" dominant-baseline="text-before-edge">飞书</text>
+<text x="892" y="687" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">用户消息 / 回复卡片</text>
+<rect x="1370" y="490" width="550" height="365" rx="20" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="1410" y="522" fill="#ffffff" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="39" font-weight="700" dominant-baseline="text-before-edge">本机 Bridge</text>
+<rect x="1410" y="596" width="470" height="55" rx="8" fill="#31745c" stroke="#498168" stroke-width="1"/>
+<text x="1430" y="608" fill="#ffffff" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">会话与目录匹配</text>
+<polyline points="1645,652 1645,668" fill="none" stroke="#b1ceb8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1645.00,668.00 1638.49,654.49 1651.51,654.49" fill="#b1ceb8"/>
+<rect x="1410" y="670" width="470" height="55" rx="8" fill="#31745c" stroke="#498168" stroke-width="1"/>
+<text x="1430" y="682" fill="#ffffff" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">消息队列 + 运行调度</text>
+<polyline points="1645,726 1645,742" fill="none" stroke="#b1ceb8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1645.00,742.00 1638.49,728.49 1651.51,728.49" fill="#b1ceb8"/>
+<rect x="1410" y="744" width="470" height="55" rx="8" fill="#31745c" stroke="#498168" stroke-width="1"/>
+<text x="1430" y="756" fill="#ffffff" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">Agent 适配器</text>
+<rect x="2200" y="579" width="540" height="180" rx="16" fill="#eaf1e5" stroke="#d8e2d4" stroke-width="2"/>
+<text x="2257" y="616" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="38" font-weight="700" dominant-baseline="text-before-edge">本机 Agent CLI</text>
+<text x="2284" y="685" fill="#203d33" font-family="Consolas,monospace" font-size="29" font-weight="400" dominant-baseline="text-before-edge">Claude Code / Codex</text>
+<polyline points="1122,615 1370,615" fill="none" stroke="#1c604b" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1370.00,615.00 1356.49,621.51 1356.49,608.49" fill="#1c604b"/>
+<text x="1173" y="552" fill="#1c604b" font-family="Consolas,monospace" font-size="23" font-weight="400" dominant-baseline="text-before-edge">WebSocket</text>
+<text x="1200" y="580" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">消息事件</text>
+<polyline points="1370,715 1122,715" fill="none" stroke="#8a9f82" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1122.00,715.00 1135.51,708.49 1135.51,721.51" fill="#8a9f82"/>
+<text x="1162" y="736" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">消息 / 卡片接口</text>
+<polyline points="1920,615 2200,615" fill="none" stroke="#1c604b" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2200.00,615.00 2186.49,621.51 2186.49,608.49" fill="#1c604b"/>
+<text x="1952" y="552" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">启动进程 + stdin</text>
+<text x="1990" y="581" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">任务与上下文</text>
+<polyline points="2200,715 1920,715" fill="none" stroke="#8a9f82" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1920.00,715.00 1933.51,708.49 1933.51,721.51" fill="#8a9f82"/>
+<text x="1960" y="736" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">stdout 结构化事件</text>
+<polyline points="2390,759 2390,795 2280,795 2280,863" fill="none" stroke="#708b68" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2280.00,863.00 2273.49,849.49 2286.51,849.49" fill="#708b68"/>
+<polyline points="2550,759 2550,795 2605,795 2605,863" fill="none" stroke="#ad855e" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2605.00,863.00 2598.49,849.49 2611.51,849.49" fill="#ad855e"/>
+<polygon points="2550.00,759.00 2556.51,772.51 2543.49,772.51" fill="#ad855e"/>
+<text x="2141" y="817" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="21" font-weight="400" dominant-baseline="text-before-edge">读取 / 修改 / 执行</text>
+<text x="2547" y="817" fill="#a96935" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="21" font-weight="400" dominant-baseline="text-before-edge">请求 / 响应</text>
+<rect x="2115" y="865" width="315" height="85" rx="12" fill="#f0f4eb" stroke="#d8e2d4" stroke-width="2"/>
+<text x="2172" y="892" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="28" font-weight="700" dominant-baseline="text-before-edge">项目文件与工具</text>
+<rect x="2460" y="865" width="285" height="85" rx="12" fill="#faf0df" stroke="#eadcc6" stroke-width="2"/>
+<text x="2482" y="894" fill="#a96935" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">模型服务（按配置）</text>
+<text x="878" y="905" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" dominant-baseline="text-before-edge">下一轮：带会话 ID 恢复上下文</text>
+<text x="878" y="971" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">Agent 负责实际执行，Bridge 负责连接与运行组织。</text>
+<rect x="84" y="1072" width="1340" height="628" rx="20" fill="#ffffff" stroke="#d8e2d4" stroke-width="2"/>
+<text x="126" y="1117" fill="#1c604b" font-family="Consolas,monospace" font-size="27" font-weight="400" dominant-baseline="text-before-edge">03</text>
+<text x="186" y="1110" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="40" font-weight="700" dominant-baseline="text-before-edge">适配器：不止转发</text>
+<text x="126" y="1182" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">把统一执行请求，转换成具体 Agent 的调用</text>
+<rect x="126" y="1252" width="56" height="44" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="141" y="1262" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">01</text>
+<text x="210" y="1254" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">启动执行</text>
+<text x="480" y="1256" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">检查可用性，设置目录、权限与参数</text>
+<rect x="126" y="1332" width="56" height="44" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="141" y="1342" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">02</text>
+<text x="210" y="1334" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">传入上下文</text>
+<text x="480" y="1336" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">写入任务与附件，传递恢复会话标识</text>
+<rect x="126" y="1412" width="56" height="44" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="141" y="1422" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">03</text>
+<text x="210" y="1414" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">统一输出</text>
+<text x="480" y="1416" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">文本、工具事件、结果、错误与结束状态</text>
+<rect x="126" y="1492" width="56" height="44" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="141" y="1502" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" font-weight="400" dominant-baseline="text-before-edge">04</text>
+<text x="210" y="1494" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="30" font-weight="700" dominant-baseline="text-before-edge">控制生命周期</text>
+<text x="480" y="1496" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="400" dominant-baseline="text-before-edge">停止执行、等待退出，向上报告状态</text>
+<rect x="124" y="1600" width="1260" height="62" rx="10" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="147" y="1617" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="26" font-weight="400" dominant-baseline="text-before-edge">分工边界：优先级、任务依赖与验收，由上层任务系统负责。</text>
+<rect x="1456" y="1072" width="1340" height="628" rx="20" fill="#ffffff" stroke="#d8e2d4" stroke-width="2"/>
+<text x="1498" y="1117" fill="#1c604b" font-family="Consolas,monospace" font-size="27" font-weight="400" dominant-baseline="text-before-edge">04</text>
+<text x="1558" y="1110" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="40" font-weight="700" dominant-baseline="text-before-edge">对我们后期的价值</text>
+<text x="1498" y="1182" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="28" font-weight="400" dominant-baseline="text-before-edge">从一个聊天入口，走向可复用的执行架构</text>
+<rect x="1498" y="1253" width="126" height="46" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="1513" y="1263" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">直接价值</text>
+<text x="1663" y="1261" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">从聊天发起本机工作，复用项目与工具</text>
+<text x="1663" y="1308" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">降低远程操作门槛，把结果带回讨论现场。</text>
+<polyline points="1498,1364 2754,1364" fill="none" stroke="#d8e2d4" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1498" y="1391" width="126" height="46" rx="8" fill="#eaf1e5" stroke="#eaf1e5" stroke-width="2"/>
+<text x="1513" y="1401" fill="#1c604b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">架构复用</text>
+<text x="1663" y="1398" fill="#203d33" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="29" font-weight="700" dominant-baseline="text-before-edge">两端分别适配，连接更多平台与 Agent</text>
+<text x="1663" y="1445" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">逐步复用会话关联、事件展示和运行控制。</text>
+<polyline points="1498,1500 2754,1500" fill="none" stroke="#d8e2d4" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1498" y="1520" width="126" height="46" rx="8" fill="#faf0df" stroke="#faf0df" stroke-width="2"/>
+<text x="1513" y="1530" fill="#a96935" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">未来设计</text>
+<text x="1663" y="1527" fill="#a96935" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="27" font-weight="700" dominant-baseline="text-before-edge">持久化任务、项目隔离、故障恢复、产物验收</text>
+<text x="1663" y="1573" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="400" dominant-baseline="text-before-edge">这是后续建设方向，不是当前完整实现。</text>
+<text x="1498" y="1640" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">扩展需匹配接口能力，不是更换名称即可接入。</text>
+<rect x="84" y="1736" width="2712" height="172" rx="20" fill="#1c604b" stroke="#1c604b" stroke-width="2"/>
+<text x="136" y="1772" fill="#ffffff" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="43" font-weight="700" dominant-baseline="text-before-edge">飞书提供入口，Bridge 管会话与运行，Agent 执行，验收确认完成。</text>
+<text x="138" y="1844" fill="#bed3bb" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="30" font-weight="400" dominant-baseline="text-before-edge">消息 ≠ 任务 ≠ 运行；运行结束 ≠ 目标达成。</text>
+<text x="88" y="1952" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="400" dominant-baseline="text-before-edge">研究 002 · 上游 v0.7.1 / 5898681 · 2026-10-20</text>
+<text x="2018" y="1954" fill="#64796b" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" font-weight="400" dominant-baseline="text-before-edge">依据：README 与核心源码；未做真实飞书 / Agent 联调</text>
+</svg>
