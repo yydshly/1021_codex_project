@@ -49,7 +49,7 @@ python -m unittest discover -s tests
 python -m http.server 8000 --directory _site
 ```
 
-GitHub Pages 尚未启用。未来的站点入口为：
+GitHub Pages 已启用，研究门户入口为：
 [`yydshly.github.io/1021_codex_project/`](https://yydshly.github.io/1021_codex_project/)。
 
 ## 来源与授权

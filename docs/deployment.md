@@ -4,17 +4,17 @@
 
 一个仓库对应一个 GitHub Pages 站点，多个静态应用使用不同子路径：
 
-| 内容 | 预期地址 |
+| 内容 | 地址 |
 | --- | --- |
 | 演示门户 | `https://yydshly.github.io/1021_codex_project/` |
 | 001 示例 | `https://yydshly.github.io/1021_codex_project/projects/001-example/` |
 | 002 示例 | `https://yydshly.github.io/1021_codex_project/projects/002-example/` |
 
-以上子项目名称仅说明路径规则，当前没有已部署项目。
+研究门户已启用 GitHub Pages。以上子项目名称仅说明路径规则，当前没有已登记的研究子项目。
 
-## 首次启用
+## 发布方式
 
-1. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+1. 仓库 **Settings → Pages → Build and deployment → Source** 已设为 **GitHub Actions**。
 2. 在 **Actions → Deploy GitHub Pages → Run workflow** 手动运行，选择 `main`。
 3. 等待部署成功，在 Actions 的 `github-pages` 环境链接中打开站点。
 
