@@ -12,7 +12,7 @@
 | 上游许可证 | Apache-2.0；第三方连接器与外部市场插件另行核查 |
 | 研究 Commit | [`a266ab8c3c754a3ccf7a634044fc1595fc06e50e`](https://github.com/anthropics/knowledge-work-plugins/tree/a266ab8c3c754a3ccf7a634044fc1595fc06e50e) |
 | 研究日期 | 2026-10-20；业务控制深化：2026-10-21（Asia/Shanghai） |
-| 状态 | 已完成本次静态研究与参考文档；业务运行效果未验证 |
+| 状态 | 静态研究、本地演示与网页发布完成；Claude 业务运行效果未验证 |
 | 覆盖范围 | 17 个顶层插件、181 个 Skill 文件、5 个独立 Command 文件 |
 | 市场边界 | 123 条市场记录：17 个顶层、5 个仓内合作伙伴、101 个外部仓库入口 |
 | 展示方式 | [GitHub Pages 中文研究网页](https://yydshly.github.io/1021_codex_project/projects/003-knowledge-work-plugins/)、[本地网页](web/index.html)、Markdown 文档与 JSON 索引；线上展示静态研究与演示记录回放 |
@@ -43,6 +43,8 @@
 ![Knowledge Work Plugins 能力与研究理解全景](assets/capability-map.png)
 
 PNG 为 4000×6280，可用于放大阅读；[SVG](assets/capability-map.svg) 为可编辑矢量版本。网页导航新增“全景图”，可查看或打开原图。源文件与生成方法见 [app/README.md](app/README.md)。
+
+线上默认从全景图与理解摘要开始；[Pages 发布记录](https://github.com/yydshly/1021_codex_project/actions/runs/39613148168) 和 [线上验收截图](assets/published-overview.png) 已保留，具体范围见 [研究记录](notes.md)。
 
 ### 工单实操与能力查阅
 

@@ -178,3 +178,22 @@
 验证：检查全部 17 个中文角色、关键范围与控制标签、SVG XML、PNG 尺寸和源 / 导出文件一致性；实际检查 SVG 在网页加载（自然尺寸 2000×3140）、中文排版、图示到工单回放的跳转，控制台无错误。390×844 窄屏页面宽度为 375，没有横向溢出，恢复默认视口。截图 `capability-map-page.png` 为本地网页实际预览。
 
 `python -m unittest discover -s tests` 6 项通过，`catalog.py --update-readme` 和 `catalog.py --check` 通过，保留当前 8 个项目；JS 语法与 `git diff --check` 通过。以上为图示、网页与仓库检查，不是新的业务或模型效果测试。
+
+
+## 2026-10-21 · 理解摘要整理与远端发布
+
+整理 `understanding.md`，将本质明确为 Claude 的插件与 Skill 集合：按岗位和业务场景组织方法，由宿主 / 模型匹配请求、加载 Skill 并配合已授权工具执行。对我们的意义是复用业务 SOP、设计需求、组织异常与验收，以及为高频任务封装能力；没有将插件包装等同于推理质量或效率已提升。
+
+更新项目标题、projects.json 摘要和 README，使用 `assets/capability-map.png` 作为目录封面，网页默认进入全景图。线上工单演示直接使用已保存的本地响应回放，不尝试调用 GitHub Pages 上不存在的后端；现场操作仍需本地服务。
+
+发布在从 origin/main 最新版本建立的独立工作树中完成，只加入 003 项目、对应元数据及自动目录。远端已有 002、005 保留；共享工作区其他未提交研究未纳入此次提交。
+
+- 研究与网页提交：`253a8b37e08c4b7d01387bdeed59588198212c7a`，已推送远端 main。
+- 部署方式：仓库已有 GitHub Pages 手动工作流 `pages.yml`，未新建独立托管服务。
+- 发布运行：[39613148168](https://github.com/yydshly/1021_codex_project/actions/runs/39613148168)，build 与 deploy 均成功。
+- 在线地址：[中文研究网页](https://yydshly.github.io/1021_codex_project/projects/003-knowledge-work-plugins/)。
+- 验证：6 项仓库测试、5 项工单专项测试、目录校验、JS 语法、发布范围、链接资源、导出一致性和凭据模式扫描均通过。
+- 在线 HTTP 核对：首页 HTML、app.js、live-demo.js、引导图 SVG 与回放 JSON 均与部署提交中的 Git 文件字节一致；门户摘要与 003 引导图路径正确。
+- 浏览器实测：默认全景图、理解摘要、2000×3140 SVG 加载、工单回放第 4 步的 403 记录、ticket-triage 搜索及控制详情均正常，控制台无错误。保存 `assets/published-overview.png` 作为线上验收截图。
+
+本次发布不包含真实业务连接或 Claude 插件执行服务，原先认证过期和未完成模型效果对比的结论保留。后续发布记录提交仅补充文档与截图，不修改已部署的 web 文件。
