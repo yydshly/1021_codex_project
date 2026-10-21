@@ -1,0 +1,28 @@
+God's Eye View setup doctor
+
+[OK] Node 24.14.0: supported LTS and calibrated for release gates
+[OK] npm 11.9.0
+[OK] dependencies installed
+
+Map:     Esri World Imagery (keyless satellite basemap) with keyless terrain
+Flights: OpenSky keyless anonymous access (rate-limited)
+Voice:   off until an OpenAI key is added, or a Codex ChatGPT sign-in is selected in Provider Settings (experimental)
+Vessels: off until an AISStream key is added
+Fires:   off until a FIRMS key is added
+Traffic: built-in traffic simulation
+Missions: Launch Library 2 public access
+
+Configured providers:
+  [--] Google Maps
+  [--] Google Places / Street View server
+  [--] Cesium ion
+  [--] OpenAI voice
+  [--] AISStream vessels
+  [--] NASA FIRMS fires
+  [--] TomTom traffic
+  [--] OpenSky client ID
+  [--] OpenSky client secret
+  [--] Launch Library 2
+  [--] Mapillary street level
+
+Ready. Run npm run dev, then open http://localhost:4173.

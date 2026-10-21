@@ -1,0 +1,20 @@
+{
+  "checkedAtUtc": "2026-10-20T15:05:31.6490211Z",
+  "endpoint": "/api/flights?lat=31.1443&lon=121.8083",
+  "httpStatus": 200,
+  "providerShownInUI": "OpenSky Network",
+  "feedTime": 1792508674,
+  "globalStates": 13125,
+  "sampleBounds": {
+    "longitude": [
+      120,
+      123
+    ],
+    "latitude": [
+      30,
+      32.5
+    ]
+  },
+  "sampleStates": 0,
+  "limitation": "Single response only; not a claim about all China coverage or future availability."
+}

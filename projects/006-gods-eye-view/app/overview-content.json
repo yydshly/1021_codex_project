@@ -1,0 +1,129 @@
+{
+  "title": "God’s Eye View 研究总览",
+  "subtitle": "公开信息如何进入地球，以及我们真正值得吸收什么",
+  "version": "0.2.1 / 064d51f7be2675f1c69e16068e9c49d1a60144d1",
+  "compiled": "2026-10-22",
+  "evidencePeriod": "2026-10-20—21",
+  "sources": [
+    {
+      "name": "01  空间背景",
+      "question": "在哪里？周围有什么？",
+      "source": "Esri 影像、OSM、Re:Earth 地形；Google 摄影三维为可选源。",
+      "method": "Cesium 按视野／层级读取影像、地形与 3D Tiles；Google 用 Key 或 ion Token。",
+      "effect": "地球连续缩放、俯视／斜视、地形与模型叠加 → 建立共同位置与尺度。",
+      "evidence": "上海 Esri 影像已显示；地形仅测描述入口；Google 三维未配置、未验证。",
+      "status": "partial"
+    },
+    {
+      "name": "02  飞机",
+      "question": "哪些飞机正在活动？",
+      "source": "OpenSky + adsb.lol 汇集 ADS-B；adsbdb 补身份；另支持本地接收入口。",
+      "method": "状态快照 → 服务端缓存 → 区域备用源；可受限匿名，OpenSky 认证用 OAuth。",
+      "effect": "位置标记、属性、轨迹与跟随等 → 观察航路和区域联系，不是完整交通统计。",
+      "evidence": "Austin 航班图层曾成功；上海框 0、浦东周边 250 海里 7，范围不同；接收设备未部署。",
+      "status": "partial"
+    },
+    {
+      "name": "03  船舶",
+      "question": "船、港口、航道怎样联系？",
+      "source": "AISStream：AIS 位置与静态消息，含 MMSI、航速、部分船名等。",
+      "method": "服务端持 AISSTREAM_API_KEY，按区域订阅 WebSocket，维护最近状态。",
+      "effect": "船位、身份和航迹 → 观察港口与航道活动；接收盲区不能补齐。",
+      "evidence": "未配置 Key、未订阅；中国港口、近海、远海和内河覆盖均未验证。",
+      "status": "pending"
+    },
+    {
+      "name": "04  卫星／发射",
+      "question": "上空有什么？何时经过？",
+      "source": "CelesTrak 轨道参数；Launch Library 2 发射任务资料。",
+      "method": "下载 TLE、约 6 小时缓存，satellite.js 推算位置；发射另取 JSON。通常无需 Key。",
+      "effect": "轨道、位置、过境与任务背景 → 理解空间关系；提供的是计算位置。",
+      "evidence": "stations 返回 17 组 TLE 基本行对；未验传播精度／发射源；TLE 有编号范围限制。",
+      "status": "partial"
+    },
+    {
+      "name": "05  地震",
+      "question": "何时何地发生了什么？",
+      "source": "USGS 一日事件目录：事件编号、震级、时间、位置与深度。",
+      "method": "浏览器直接 GET GeoJSON；固定版校验、筛至 M≥2.5；无需 Key。",
+      "effect": "事件点、规模、时间与详情 → 作为核实线索，不提供地震预测或自动损失判断。",
+      "evidence": "207 条全球事件，50 条符合筛选；仅接口／计数证据，未核对中国子集。",
+      "status": "partial"
+    },
+    {
+      "name": "06  热异常",
+      "question": "哪里出现了异常高温？",
+      "source": "NASA FIRMS：VIIRS / MODIS 卫星热异常观测及时间、置信字段。",
+      "method": "免费申请 MAP_KEY；Area CSV 接口，固定版取全球 2 日后筛最近 24h，约 30 分钟缓存。",
+      "effect": "热点、时间、传感器与置信信息 → 发现火情／工业热源线索，再核实。",
+      "evidence": "未配置 Key；中国区域响应未测。云、过境、尺度和延迟影响结果；热点≠确认火灾。",
+      "status": "pending"
+    },
+    {
+      "name": "07  天气与环境",
+      "question": "环境怎样变化？",
+      "source": "NOAA GFS、ECMWF IFS；Open-Meteo 点位模式值；另有 NOAA 区域影像产品。",
+      "method": "GRIB2 索引／网格下载与解码、点位 JSON、云图／雷达等影像；各自范围与条件。",
+      "effect": "风粒子、天气卡片、时间轴和影像叠加 → 解释对应时次背景，不能替代长期气候。",
+      "evidence": "GFS／IFS 目录、上海点位成功；完整风场解码未验。全球云图不等于全球雷达。",
+      "status": "partial"
+    },
+    {
+      "name": "08  公开摄像头",
+      "question": "地面实际拍到了什么？",
+      "source": "地区公开目录／媒体：香港运输署、台湾高速公路及其他已适配地区。",
+      "method": "XML / JSON 目录 → 编号与坐标 → 服务端图像／媒体接口；香港路径为周期快照。",
+      "effect": "相机点、估计视锥、图片／部分视频 → 补近景材料；替代图片不能当当前监控帧。",
+      "evidence": "香港／台湾目录未获 HTTP 响应，原因未定位；未取得画面；大陆通用接入未验证。",
+      "status": "failed"
+    },
+    {
+      "name": "09  街景",
+      "question": "道路沿线是什么样？",
+      "source": "Mapillary、KartaView、Panoramax、Google Street View。",
+      "method": "覆盖瓦片 → 附近图片／序列 → 观看器；Mapillary 用 Token，Google 用 Key，另两者有公开路径。",
+      "effect": "街景照片、序列、位置和拍摄日期 → 认识沿线地物；历史照片不是实时监控。",
+      "evidence": "中国具体线路覆盖、取图和完整播放均未验证；拍摄日期与照片许可分别核对。",
+      "status": "pending"
+    },
+    {
+      "name": "10  道路与交通",
+      "question": "怎样通行？地方怎样连接？",
+      "source": "OSM／配置的 Overpass、地名服务；TomTom 路段流速；OSRM 路径规划。",
+      "method": "道路／地点查询、瓦片、流速 PBF、沿路网计算；Overpass 要配置，TomTom 要 Key。",
+      "effect": "路网、地名、路线、拥堵颜色和车辆动画 → 理解通行；小车位置是模拟。",
+      "evidence": "仅 OSM 全球层级图片成功；国内在线道路查询、流速与规划未验。广州模型不证明在线覆盖。",
+      "status": "partial"
+    },
+    {
+      "name": "11  地方网络／生活",
+      "question": "有哪些设施与服务？",
+      "source": "内置专题／OSM 设施；城市 GTFS-Realtime 公交；GBFS 单车；Radio Browser 电台。",
+      "method": "固定文件／目录／地区实时接口；公交、站点可用数和广播分别适配。",
+      "effect": "设施网络、公交位置、单车余量、地理电台 → 补地方结构与生活背景。",
+      "evidence": "国内同类服务未验；地区与许可各异；内置资料不是当前观测，电台不是现场传感器。",
+      "status": "pending"
+    }
+  ],
+  "extras": [
+    ["GNSS 完整性", "adsb.lol 质量字段；GPSJAM 仅为汇总方法参考。异常评分不能确认干扰原因。"],
+    ["火场边界", "NIFC WFIGS / InciWeb 美国事件资料；和 FIRMS 热异常点属于不同产品。"],
+    ["空气质量", "ECCC MSC GeoMet 的 AQHI；固定版仅加拿大，不能外推中国 AQI。"],
+    ["沿路网规划", "OSRM / FOSSGIS 计算路径与转向步骤；不代表真实行程或当前逐车流量。"]
+  ],
+  "screenshots": [
+    {"file":"hefei-photogrammetry-close.png","title":"合肥：本地实景摄影（我们扩展）","text":"约 1.6×2.3 km · 68 GLB · 10.9 MB · 1024² 纹理；范围与清晰度有限，商业／再分发授权未核实。"},
+    {"file":"guangzhou-local-city.png","title":"广州：简化建筑白模（我们扩展）","text":"2,251 条建筑 · 36 块；真实轮廓、部分估计高度，无航拍立面纹理；不能称摄影三维城市。"},
+    {"file":"austin-live-flights.png","title":"Austin：航班叠加（上游实机运行）","text":"历史备用源曾显示 289 条区域航班，保留失败提示；界面动效与真实报告共存，不是当前数量。"}
+  ],
+  "presentation": [
+    ["多尺度地球", "按视野／距离／层级加载；相机从全球到局部，影像、地形与建筑分别提供信息。"],
+    ["目标与时间", "标记、对象属性、轨迹、跟随／驾驶舱、时间轴；功能是否可用取决于来源与时间。"],
+    ["交互与表达", "图层切换、导演巡游、共享链接／场景、HUD／滤镜、语音查询与标注；多数未逐项验收。"]
+  ],
+  "values": [
+    ["第一价值：信息选型与来源调查", "问题 → 信号 → 发布者 → 接口／字段 → 时间／覆盖 → 能支撑什么判断。为我们形成可复查的信息调查方法。"],
+    ["配套价值：把取数做得可靠", "快照、订阅、参数计算与瓦片适配；校验坐标／单位／时间，管理凭据、缓存、配额、旧数据与备用源。"],
+    ["按需吸收：地球与信息呈现", "已有点位、轨迹、图层和讲述可以复用；Cesium 适合自由探索与多尺度叠加。不必替换所有旧场景，未做性能基准，不保证更快或更清晰。"]
+  ]
+}

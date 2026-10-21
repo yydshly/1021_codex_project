@@ -1,0 +1,376 @@
+{
+  "name": "合肥 · 天鹅湖倾斜摄影",
+  "source": "https://opensource.cdn.icegl.cn/3Dtiles/%E5%90%88%E8%82%A5_%E5%A4%A9%E9%B9%85%E6%B9%96/",
+  "sourcePage": "https://www.icegl.cn/tvtstore/gisPlaneEditor",
+  "license": "公开测试样例；原始航测商业及公开再分发授权未核实",
+  "blocks": 68,
+  "textures": 68,
+  "extensions": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_unlit"
+  ],
+  "tileset": "/local-city-data/hefei/tileset.json",
+  "files": [
+    {
+      "path": "SOURCE-AND-USAGE.md",
+      "bytes": 892,
+      "sha256": "c01b2c4bd63ac7981018529a9b2d625a921bf4cf5db00d768bc868dcc842e60a"
+    },
+    {
+      "path": "tileset.json",
+      "bytes": 918,
+      "sha256": "f0e8bf1a9296f8869375a396f1e62f1291d83423d00dd7f82c246e8c9a994035"
+    },
+    {
+      "path": "top/0-1202-2020.glb",
+      "bytes": 165612,
+      "sha256": "ae70bcf5a4aaa30a5b9025f9f0a90e3a3c268630c4f86e75a31a5eb94acefd4e"
+    },
+    {
+      "path": "top/0-1202-2021.glb",
+      "bytes": 166380,
+      "sha256": "e176439ea08e41b8d7eaa9004f46378bb9a4ac53d2d89e4e0cfcbc24faf5c155"
+    },
+    {
+      "path": "top/0-1202-2030.glb",
+      "bytes": 168848,
+      "sha256": "a0ebf74231a754631b8b47fe03a7aac98b6519947f40769149a007e1385a344f"
+    },
+    {
+      "path": "top/0-1202-2031.glb",
+      "bytes": 163800,
+      "sha256": "c2dff87a01d496126d043802b1e18e80f7712cdcbc6841338a42183798b61c63"
+    },
+    {
+      "path": "top/0-1202-2120-30.glb",
+      "bytes": 150808,
+      "sha256": "738769b87ebc40ebc31919ec4b1fe105896af8e1b9a16f6a49d8c6d661527f16"
+    },
+    {
+      "path": "top/0-1202-2120-31.glb",
+      "bytes": 162380,
+      "sha256": "da91a5a7882c1456d7874f30f9252541ba327364a7a2f98a830b3085c9ffa116"
+    },
+    {
+      "path": "top/0-1202-2120.glb",
+      "bytes": 161856,
+      "sha256": "f6f6ea0fafb0ffc2661ff0219413b17499a81892f4cf92215a3ad71b51a9df02"
+    },
+    {
+      "path": "top/0-1202-2121.glb",
+      "bytes": 161672,
+      "sha256": "04df6e6165a157143de84e51320a0a1f80384be46544e086ea15c0d15e8bc1d6"
+    },
+    {
+      "path": "top/0-1202-2130.glb",
+      "bytes": 146756,
+      "sha256": "04da31507cbdce6608603a5866646df1292c0b9d856db4724394617eaaae3fb7"
+    },
+    {
+      "path": "top/0-1202-2131.glb",
+      "bytes": 153300,
+      "sha256": "8fec2fe4f822107896ad44ab7e2e587d7d760ba498eaa1bf210314aeee0b7666"
+    },
+    {
+      "path": "top/0-1202.glb",
+      "bytes": 169684,
+      "sha256": "42de68ac4be8c3fb220347aaff088461c6d79db2a963921548c04c3c401eb77c"
+    },
+    {
+      "path": "top/0-1203-200.glb",
+      "bytes": 167116,
+      "sha256": "10938e93bf85565970198f94a52cfa0f2cf352bc6337eea0abe4c92a271cee1a"
+    },
+    {
+      "path": "top/0-1203-201.glb",
+      "bytes": 173024,
+      "sha256": "19c71555a835c5203bc212b0cfa96db83bf1247b9fdaf132a620e43628380b49"
+    },
+    {
+      "path": "top/0-1203-21202.glb",
+      "bytes": 135196,
+      "sha256": "2106655dcfcdc309c94f04d056b0cd3f372a2063b3eb70bbbc9e906f2f513536"
+    },
+    {
+      "path": "top/0-1203-21203.glb",
+      "bytes": 167496,
+      "sha256": "3b7ead93bc772658976c35ff223852d2931cb8ff0aef305bf545a3d639f78b23"
+    },
+    {
+      "path": "top/0-1203-2121.glb",
+      "bytes": 95548,
+      "sha256": "68567c1755c3c7f9cd0f529695a29041f41536fc9145252f5c6b6c6be00b012c"
+    },
+    {
+      "path": "top/0-1203-2130.glb",
+      "bytes": 175564,
+      "sha256": "eee66a2590d244e86ffc4e8d55e7b833d7f3e93a0be0dd664da268c7240facd4"
+    },
+    {
+      "path": "top/0-1203-2131.glb",
+      "bytes": 176200,
+      "sha256": "d9bce46364139b6ff7ad6663103a7e1d8abcd4849e7b36c17c28c2292252e0bc"
+    },
+    {
+      "path": "top/0-1203.glb",
+      "bytes": 168128,
+      "sha256": "597bbdec9bdf5dc3c5dc7ff2c71b57f1c4b91664b352996d77665d471a93b645"
+    },
+    {
+      "path": "top/0-1212-2020.glb",
+      "bytes": 162924,
+      "sha256": "c48ae67a13d6369fed3f9d8dc34cf7e735cef2859656203dcc792f7adfd5e2f9"
+    },
+    {
+      "path": "top/0-1212-2021.glb",
+      "bytes": 179684,
+      "sha256": "955989be7416993eea0fdcd8aae4bda95e54a4b411eef3d261c153b253a2391c"
+    },
+    {
+      "path": "top/0-1212-2030.glb",
+      "bytes": 128412,
+      "sha256": "8eaaebd2a97e70fcc26fb5c7861a771550ae95165f6118930c68d88b82c58d21"
+    },
+    {
+      "path": "top/0-1212-2031.glb",
+      "bytes": 108500,
+      "sha256": "7147c3381d7edd9ad0fa0195389dc034715861c8ca73886f1814f42eecf0732d"
+    },
+    {
+      "path": "top/0-1212-2120.glb",
+      "bytes": 178276,
+      "sha256": "1ab67c682eb83c2c1e29543b737e8065e0a01a04f836628fcaf6dc7360191126"
+    },
+    {
+      "path": "top/0-1212-2121.glb",
+      "bytes": 180072,
+      "sha256": "bbec9a4f35b0f7c4c0b991e7972255b36edeb31cd04f30dd481ac6da39fae180"
+    },
+    {
+      "path": "top/0-1212-2130.glb",
+      "bytes": 106008,
+      "sha256": "7f87959f73cec3fefeb09b52f09ff8d60baf3bc1ac5a9d09b21d63ff7770cf0b"
+    },
+    {
+      "path": "top/0-1212-2131.glb",
+      "bytes": 145804,
+      "sha256": "99c96c1406c3583ae53b72c2fc0ace9437ba8a48a6f3e5e0410f7c8cc6f6d3e5"
+    },
+    {
+      "path": "top/0-1212.glb",
+      "bytes": 164080,
+      "sha256": "5ab528cdfe96eb829d6dddc4f33673710bb890b5a58224be4b398bc0f4739a07"
+    },
+    {
+      "path": "top/0-1213-2020.glb",
+      "bytes": 108952,
+      "sha256": "9a4bc58c16a3d44f37d98aa754379d1083f8b5ca3ed83feade6b8ffacc56275b"
+    },
+    {
+      "path": "top/0-1213-2021.glb",
+      "bytes": 49432,
+      "sha256": "e9ffa24b401a66e46d039579dfbd465c78b4f3bf5e77e5e74d800e279d59eb9b"
+    },
+    {
+      "path": "top/0-1213-2032.glb",
+      "bytes": 117176,
+      "sha256": "b5cfca0e636965047ed91bbdf89542924a64bc5b87a9658e365932e17f4f4280"
+    },
+    {
+      "path": "top/0-1213-2033-30.glb",
+      "bytes": 160724,
+      "sha256": "1360830ed298d2c94bb7866510a87583e0d3d637b13c1ed476638e262ee52e97"
+    },
+    {
+      "path": "top/0-1213-2033-31.glb",
+      "bytes": 131296,
+      "sha256": "83da87d01ed019b0cb87c70be5a1db9f24622e010763533805a8d796ca2c16c6"
+    },
+    {
+      "path": "top/0-1213-2033.glb",
+      "bytes": 150608,
+      "sha256": "57ff6a6a9a2b3dddfafd31816317bfa490aceaa445016d569e488f8bdbcf3853"
+    },
+    {
+      "path": "top/0-1213-2120.glb",
+      "bytes": 43876,
+      "sha256": "b9d4c1771553fb93dc80f089007d5a60a16aa44834c7bc7993d48ca2166e46e3"
+    },
+    {
+      "path": "top/0-1213-2121.glb",
+      "bytes": 152628,
+      "sha256": "b35887eeb91c0daccf245502206508bbb4985c5274c0e51c89508989019fc275"
+    },
+    {
+      "path": "top/0-1213-2130.glb",
+      "bytes": 138828,
+      "sha256": "a598ac7851af984488bde4e0f9bc3640193025fa958582e383a9a974417f8601"
+    },
+    {
+      "path": "top/0-1213-2131-32.glb",
+      "bytes": 162692,
+      "sha256": "6f297caa88644bee523405ce1d2c782ed270bb389560aa73d298fee7b465fb67"
+    },
+    {
+      "path": "top/0-1213-2131-33.glb",
+      "bytes": 173652,
+      "sha256": "2abb48c33108d6b1add791a21d62d7d4d11687f322307441c901d28f36a7a946"
+    },
+    {
+      "path": "top/0-1213-2131.glb",
+      "bytes": 167708,
+      "sha256": "3b8fe890807d56cbde5a65533c5a933f35dc178ade41c536d755c6850deb7555"
+    },
+    {
+      "path": "top/0-1213.glb",
+      "bytes": 142520,
+      "sha256": "3f7f4f603514075754c3fff70d2911efca2b657f4e5080704dc8b91ba1a81e91"
+    },
+    {
+      "path": "top/0-1213.json",
+      "bytes": 3369,
+      "sha256": "201c825c6eb30214dd92f666e6a4328d4149a6459761e8ea548cc86b61e1bce3"
+    },
+    {
+      "path": "top/0-1302-202.glb",
+      "bytes": 189968,
+      "sha256": "8a72d460f90646bb07084137af648c122b4d3be2dd2c624ba6857f8abd1fd03b"
+    },
+    {
+      "path": "top/0-1302-2032.glb",
+      "bytes": 176832,
+      "sha256": "795dc1456c75244808ab3c17327255caced8d9b2ca41620b36bacee42a3ae578"
+    },
+    {
+      "path": "top/0-1302-2033.glb",
+      "bytes": 170560,
+      "sha256": "2a21a80fd816045245bc97372b34720d9d5310bce2dcc04b49fff757c1bda0b3"
+    },
+    {
+      "path": "top/0-1302-212.glb",
+      "bytes": 172864,
+      "sha256": "8e0c1e843ce92b71440e711564a0cfdcb7d5f531948f07081796333213d286c9"
+    },
+    {
+      "path": "top/0-1302-2132.glb",
+      "bytes": 170764,
+      "sha256": "8e820874ef3ed2fed72a253a455895354c3ca996c280369733f5253ac8b35c1f"
+    },
+    {
+      "path": "top/0-1302-2133.glb",
+      "bytes": 170792,
+      "sha256": "b2e06189fc0168f5ff453e06b04caad04d63f73f91f34389273cf5e2817994ab"
+    },
+    {
+      "path": "top/0-1302.glb",
+      "bytes": 190696,
+      "sha256": "8742ecee6c42b7ca66b62e17f47a3570169ab1504654ebf6b696c4bf9550a83f"
+    },
+    {
+      "path": "top/0-1303-220.glb",
+      "bytes": 152428,
+      "sha256": "d55f9f0a1bfe9f8dcb1ac28ee7b699a71cc5310f63a3d90176cf82659dba76c6"
+    },
+    {
+      "path": "top/0-1303-2212.glb",
+      "bytes": 167036,
+      "sha256": "b3b6eb2e82b64880979bdc08072819f972d1e1a39d517863db7c9ba6631ae683"
+    },
+    {
+      "path": "top/0-1303-2213.glb",
+      "bytes": 193148,
+      "sha256": "5a4825a4811604f455fe329ccf55b6d88f4a0817bee79eff127e1ed1c5e7101e"
+    },
+    {
+      "path": "top/0-1303-230.glb",
+      "bytes": 181124,
+      "sha256": "28b58083cbf741b8ffb91ee01941e4cb06b81e293031628c1cc01ddad3977abc"
+    },
+    {
+      "path": "top/0-1303-231.glb",
+      "bytes": 202260,
+      "sha256": "1d73438c2769e4f8d0d8e21869bc4245b8378c2a579f3aa9608253cae7e91bfd"
+    },
+    {
+      "path": "top/0-1303.glb",
+      "bytes": 191264,
+      "sha256": "27b5a7c207ee8395b9881ea2f77f964e2a5ef9ec317520edf81d74662fc105c6"
+    },
+    {
+      "path": "top/0-1312-202.glb",
+      "bytes": 175468,
+      "sha256": "e9fa96357a52225a6ef227a9410a0b0056b6adb916cffaa16df51d00b37b23d0"
+    },
+    {
+      "path": "top/0-1312-2032.glb",
+      "bytes": 174156,
+      "sha256": "26a6b43b6d17a4c104fdbb7f2ad18ce370093fb0b32b14f38b1929f1c5fd5b15"
+    },
+    {
+      "path": "top/0-1312-2033.glb",
+      "bytes": 170068,
+      "sha256": "f0e84488cf93467a51538b89b9fc996e1ff6ec2d21ab82aa8c9a5a1bb3e4c8ec"
+    },
+    {
+      "path": "top/0-1312-212.glb",
+      "bytes": 181044,
+      "sha256": "01b140f2f7c114aadb142028b3426bdc07b5a1736bc8a4a2ef7dabff69347657"
+    },
+    {
+      "path": "top/0-1312-2132.glb",
+      "bytes": 171408,
+      "sha256": "22f8254f351a1adf6e64c9cdbccfed26c73eb6717ff3b31ce713c2bc5effced3"
+    },
+    {
+      "path": "top/0-1312-2133.glb",
+      "bytes": 172080,
+      "sha256": "059c24d6611b323d634b045c3d83b352bc7d1d6cdb680470ee5ff03698855094"
+    },
+    {
+      "path": "top/0-1312.glb",
+      "bytes": 185164,
+      "sha256": "bbd91a9b97b5f3655f4791fcbb3d37c5827a976415a371bbe85df0c2f017843f"
+    },
+    {
+      "path": "top/0-1313-202.glb",
+      "bytes": 174184,
+      "sha256": "4a3289941e9c70b641c6a0c179484baf8e8f43a1e3417ad07b1413369a0389e4"
+    },
+    {
+      "path": "top/0-1313-2030.glb",
+      "bytes": 192580,
+      "sha256": "1494a718ae10bdbb00b4180d30f7a3f18825fe058b41abf41791da007495211b"
+    },
+    {
+      "path": "top/0-1313-2031.glb",
+      "bytes": 169976,
+      "sha256": "597b023a8008fd0012458881ab06ee0bdc67190887b698a126c0e1d547f51078"
+    },
+    {
+      "path": "top/0-1313-212.glb",
+      "bytes": 178888,
+      "sha256": "436fa439130f14f89741b307b151aff69afe7ed69fa58c76694286eee551af38"
+    },
+    {
+      "path": "top/0-1313-213.glb",
+      "bytes": 184124,
+      "sha256": "baf8d128fd4f3d032cce29c830a5f71b2a02a9750b398d9bdd5e50b55d90052d"
+    },
+    {
+      "path": "top/0-1313.glb",
+      "bytes": 189592,
+      "sha256": "c9f2b2fc4beba0217e2d3a07efb7428b637b27c25fc33980e5fde6ba62f9b608"
+    },
+    {
+      "path": "top/0.glb",
+      "bytes": 173816,
+      "sha256": "e97c6a71c0bc5a45fd2af5769b1dbbfeedd507b144dbcc42e949e339b94165d0"
+    },
+    {
+      "path": "top/0.json",
+      "bytes": 13856,
+      "sha256": "61568ea35822e24773b0481d958fb5d14bb8e6dcb2c5a449861f435d699c80f9"
+    }
+  ],
+  "note": "原始摄影网格与内嵌摄影纹理；完整缓存发布方此入口引用的所有层级。采集时间未核实。"
+}

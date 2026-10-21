@@ -1,0 +1,227 @@
+{
+  "name": "广州 · 珠江新城简化建筑",
+  "source": "https://github.com/Tsdsj/guangzhou-3d",
+  "commit": "8e985efd338e85692b78c28c163c77e3daf08342",
+  "license": "ODbL 1.0 (data); MIT (upstream code)",
+  "osmTimestamp": "2026-09-23T22:20:37Z",
+  "center": [
+    113.31944198197127,
+    23.12301467268623
+  ],
+  "blocks": 36,
+  "buildings": 2251,
+  "tileset": "/local-city-data/guangzhou/tileset.json",
+  "note": "真实 OSM 轮廓，部分高度为上游估计；平屋顶、单色立面，没有航拍纹理。局部投影近似，仅作可视化。",
+  "files": [
+    {
+      "path": "source-guangzhou.json",
+      "bytes": 46092,
+      "sha256": "5b3eb3147e895e373ba208b7f63832c0536654e61539361b67b9b188581a9c98"
+    },
+    {
+      "path": "source-guangzhou.bin.gz",
+      "bytes": 5263073,
+      "sha256": "ee922e93366bd4588ce3f5aaedf0cbb579ff56f6be4766b759614626b37b1da9"
+    },
+    {
+      "path": "SOURCE-README.md",
+      "bytes": 22236,
+      "sha256": "86d69c43cf6ae44f0e16ab59c06bc24a38c4583eec6ed0a8b6de90dcf7cedf79"
+    },
+    {
+      "path": "SOURCE-CODE-LICENSE.txt",
+      "bytes": 1613,
+      "sha256": "fa96366e5b351ca07e993c528e3b65413078e0125cb5c80a2229e961de50136e"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "bytes": 436,
+      "sha256": "6bb670b6507bec50396e5417f25b0de37d103f5d3c8fe591fc1e955cb09796bf"
+    },
+    {
+      "path": "tileset.json",
+      "bytes": 7221,
+      "sha256": "7c5fd8111cff4220805f8ddb6f04fa5189096dfed2651b82ca897040fa7e88cb"
+    },
+    {
+      "path": "tiles/-1_0.glb",
+      "bytes": 64416,
+      "sha256": "0aab76a064f71d423ca0c505ed0e4ca9136a7e26ebb86ab83b92f86e68634d88"
+    },
+    {
+      "path": "tiles/0_-3.glb",
+      "bytes": 153516,
+      "sha256": "937700f96668b5f5ccc0eb73eb474315807deb31ba3e9930daf1173d609826e7"
+    },
+    {
+      "path": "tiles/-1_-3.glb",
+      "bytes": 100376,
+      "sha256": "1e2d26fe4ae134c047efb293c3c7f9c683a31c8b1a59ae20a59a03458315debd"
+    },
+    {
+      "path": "tiles/-2_-1.glb",
+      "bytes": 103200,
+      "sha256": "6d686579497b50f7256aa7cd74471b2d8f665e3ee9d0dd372ccccf94aef6cb6e"
+    },
+    {
+      "path": "tiles/0_0.glb",
+      "bytes": 69916,
+      "sha256": "3e93eea6cd639e7b99217b73d497dfaadfde1ca5f78ab9d0b2bfd19e7480809d"
+    },
+    {
+      "path": "tiles/0_1.glb",
+      "bytes": 23272,
+      "sha256": "912e92172ef08316788150ddd7ff61502c7580eaf67b31afe6a3cfdd86e634a8"
+    },
+    {
+      "path": "tiles/-1_1.glb",
+      "bytes": 41624,
+      "sha256": "3d2f2396d03130bd09f87d0373f373f3035330c7d60830d11aa1bd1a6bf40a55"
+    },
+    {
+      "path": "tiles/-2_1.glb",
+      "bytes": 32988,
+      "sha256": "2e0d78b61031715a2f90f6b945a5366c4515a1dc682d4a51ef040e868a58bd49"
+    },
+    {
+      "path": "tiles/0_-1.glb",
+      "bytes": 64856,
+      "sha256": "51281835911cfd8196ab30c4528895fef111bf5d2946ee6e4b0404e2a561379f"
+    },
+    {
+      "path": "tiles/0_-2.glb",
+      "bytes": 244140,
+      "sha256": "de4df9b955c630be5eca765cc4f69518daef1166d0a6efda8ebea494e6287caa"
+    },
+    {
+      "path": "tiles/-1_-2.glb",
+      "bytes": 233016,
+      "sha256": "c34bafd414e851d7f190d7dedf0f52efa6653100d1d1d4a52ebb66f77bdd6ba1"
+    },
+    {
+      "path": "tiles/1_0.glb",
+      "bytes": 52548,
+      "sha256": "68b59da42a0c3de1ad3a30ffed4de18980bbfc0541fcea85356f777d9912d823"
+    },
+    {
+      "path": "tiles/-1_-1.glb",
+      "bytes": 105568,
+      "sha256": "d0deda2ee0743bee4393a0575b1057006ac7d14e08302a7b4c3b155307ebc2a9"
+    },
+    {
+      "path": "tiles/-3_-2.glb",
+      "bytes": 87096,
+      "sha256": "090e453e26f3015fb6c846a26543acb71aecc07562547e4994caf75daed0e72b"
+    },
+    {
+      "path": "tiles/2_-1.glb",
+      "bytes": 90128,
+      "sha256": "5fa7b0fb074c7b5c822be3ce3f2aff9de659ac62e3f1201009b556a6a19dd00d"
+    },
+    {
+      "path": "tiles/-2_-2.glb",
+      "bytes": 66580,
+      "sha256": "7d65418ab0b794b8fdd43d1586fea34721b0f2b70cac2b06db973b9dd2df085c"
+    },
+    {
+      "path": "tiles/-3_2.glb",
+      "bytes": 40656,
+      "sha256": "ddf533d69ba368a82c868e9c64e742e593bae0b98a16559e8d4217c670214b4f"
+    },
+    {
+      "path": "tiles/-3_1.glb",
+      "bytes": 141096,
+      "sha256": "756542c293c5d9d5212230a05815e3021c4421d886dcf0d837ae5c80a6faa1f6"
+    },
+    {
+      "path": "tiles/-2_0.glb",
+      "bytes": 171988,
+      "sha256": "2e389a60bbffb52c7272aa27e76d2b09d5c535fa7008628a041ea4218a721792"
+    },
+    {
+      "path": "tiles/-3_0.glb",
+      "bytes": 305480,
+      "sha256": "3b79e4517b7ee2e663a365cceb7a392271d9e1c09e3503cdca0db348aca4efac"
+    },
+    {
+      "path": "tiles/1_-2.glb",
+      "bytes": 240364,
+      "sha256": "32f44929855f26d7c47e9138b34855632ee189aa71a8846e981282aaa7a28b9c"
+    },
+    {
+      "path": "tiles/1_-3.glb",
+      "bytes": 126312,
+      "sha256": "bb646db99b10cafe39cfe910e65d894b5cf380dd4b874475ca5e422bf131f10b"
+    },
+    {
+      "path": "tiles/-2_-3.glb",
+      "bytes": 39592,
+      "sha256": "5b53b2d53335f0d5331c1b04d3c66d994deda6bfaa5d608e94f1a89dea483570"
+    },
+    {
+      "path": "tiles/2_-3.glb",
+      "bytes": 1126064,
+      "sha256": "3b691250b9222073fc7df15a7ce41f355bb6c9cec3d6624fb7aef516e7881827"
+    },
+    {
+      "path": "tiles/-1_2.glb",
+      "bytes": 8136,
+      "sha256": "249f878487914c2e533b8236d3ee171a181e18b18c318d4b8e236caa63aef410"
+    },
+    {
+      "path": "tiles/-3_-1.glb",
+      "bytes": 293272,
+      "sha256": "b9c56333abc2641b66fcac1214de750b2721f2827fc86b016a6353257332c8f9"
+    },
+    {
+      "path": "tiles/-3_-3.glb",
+      "bytes": 63352,
+      "sha256": "3129353c285d8d3a3b8f728542f77bd1a628117448ecb8a5ee47b3430deadccb"
+    },
+    {
+      "path": "tiles/2_0.glb",
+      "bytes": 48752,
+      "sha256": "b3e4458f2fcf026342b2f8a403b7d1274812799f7a6ee1c9fd990f9e49c3b1cb"
+    },
+    {
+      "path": "tiles/1_1.glb",
+      "bytes": 17760,
+      "sha256": "bcb756adfd9c6f4864b26a5b61e31ac5a6c85acf8115101be2def69a9dcc6b4d"
+    },
+    {
+      "path": "tiles/1_-1.glb",
+      "bytes": 176420,
+      "sha256": "56b4741be5dbbbe8f25d90371dcb1ca8831fd9f8bff93b7de681a49bab9312b6"
+    },
+    {
+      "path": "tiles/2_-2.glb",
+      "bytes": 158604,
+      "sha256": "4ce94cfb234bfb46c0f8829c008ba65028589c67f89959b6fc83ce5e196ac90d"
+    },
+    {
+      "path": "tiles/2_1.glb",
+      "bytes": 57388,
+      "sha256": "7fb58eddd5dd4e95cd8360bb7603cbe2dcae6d21fb0cab258764a156cffa2c22"
+    },
+    {
+      "path": "tiles/-2_2.glb",
+      "bytes": 21420,
+      "sha256": "657653129da47bf22c4b4b26d8ff2b475c0bf9ac558b71ef6cb717116df8b77f"
+    },
+    {
+      "path": "tiles/2_2.glb",
+      "bytes": 14632,
+      "sha256": "39c946b0210cf38801265bf5a9b0b8ffa26a428e7f0fe1ac06ec3c864496cbe8"
+    },
+    {
+      "path": "tiles/1_2.glb",
+      "bytes": 22836,
+      "sha256": "711462f0b72b456948e4990ef7a88d42f771961f4336036394259b895dfd875f"
+    },
+    {
+      "path": "tiles/0_2.glb",
+      "bytes": 35900,
+      "sha256": "dc9b4429f51ea42c4bcc403ec0e583d5a05cbafdf854e0e7bcc8af2eef7b0359"
+    }
+  ]
+}

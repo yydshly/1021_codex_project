@@ -1,0 +1,26 @@
+{
+  "tiles": 68,
+  "tilesetDocuments": 3,
+  "embeddedPhotographicTextures": 68,
+  "texturedPrimitives": 68,
+  "textureDimensions": [
+    [
+      1024,
+      1024
+    ]
+  ],
+  "bytes": 10924539,
+  "approximateExtentMeters": [
+    1633,
+    2267
+  ],
+  "checksums": "passed",
+  "externalModelUrls": 0,
+  "checks": [
+    "dependency closure",
+    "GLB chunks and binary ranges",
+    "embedded KTX2 images",
+    "material-to-image bindings",
+    "ECEF origin"
+  ]
+}

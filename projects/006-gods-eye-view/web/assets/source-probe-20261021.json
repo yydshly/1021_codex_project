@@ -1,0 +1,165 @@
+{
+  "checkedAtUtc": "2026-10-20T17:53:48.122340+00:00",
+  "displayTimezone": "Asia/Shanghai",
+  "scope": "Current machine and configured network only; no cross-ISP or mainland-direct-route audit.",
+  "proxyEnvironmentPresent": false,
+  "method": "One unauthenticated GET per source, normal TLS verification, no retries, 20 s timeout, 2 MiB cap.",
+  "limitations": "Format success is not freshness, China completeness, licensing, imagery playback or end-to-end UI proof. No credentials or full feeds saved.",
+  "results": [
+    {
+      "source": "esri",
+      "endpoint": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+      "expectedFormat": "esri",
+      "checkedAtUtc": "2026-10-20T17:53:40.542396+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 11142,
+      "summary": {},
+      "outcome": "format-validated",
+      "elapsedSeconds": 0.78
+    },
+    {
+      "source": "osm-tile",
+      "endpoint": "https://tile.openstreetmap.org/0/0/0.png",
+      "expectedFormat": "png",
+      "checkedAtUtc": "2026-10-20T17:53:40.543492+00:00",
+      "httpStatus": 200,
+      "contentType": "image/png",
+      "bytes": 6799,
+      "summary": {},
+      "outcome": "format-validated",
+      "elapsedSeconds": 0.84
+    },
+    {
+      "source": "reearth-terrain",
+      "endpoint": "https://terrain.reearth.land/cesium-mesh/ellipsoid/layer.json",
+      "expectedFormat": "terrain",
+      "checkedAtUtc": "2026-10-20T17:53:40.543492+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 1410,
+      "summary": {},
+      "outcome": "format-validated",
+      "elapsedSeconds": 0.7
+    },
+    {
+      "source": "opensky-shanghai",
+      "endpoint": "https://opensky-network.org/api/states/all?lamin=30&lomin=120&lamax=32.5&lomax=123",
+      "expectedFormat": "opensky",
+      "checkedAtUtc": "2026-10-20T17:53:40.544524+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 33,
+      "summary": {
+        "records": 0,
+        "feedTime": 1792518819
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 1.05
+    },
+    {
+      "source": "adsblol-shanghai",
+      "endpoint": "https://api.adsb.lol/v2/lat/31.1443/lon/121.8083/dist/250",
+      "expectedFormat": "adsblol",
+      "checkedAtUtc": "2026-10-20T17:53:41.246978+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 4600,
+      "summary": {
+        "records": 7,
+        "feedTime": 1792518822501
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 0.97
+    },
+    {
+      "source": "celestrak-stations",
+      "endpoint": "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle",
+      "expectedFormat": "tle",
+      "checkedAtUtc": "2026-10-20T17:53:41.332478+00:00",
+      "httpStatus": 200,
+      "contentType": "text/plain; charset=UTF-8",
+      "bytes": 2856,
+      "summary": {
+        "elementSets": 17
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 6.8
+    },
+    {
+      "source": "usgs-day",
+      "endpoint": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+      "expectedFormat": "geojson",
+      "checkedAtUtc": "2026-10-20T17:53:41.392715+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 147771,
+      "summary": {
+        "records": 207,
+        "generated": 1792518778000,
+        "magnitudeAtLeast2_5": 50
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 1.08
+    },
+    {
+      "source": "gfs-bucket",
+      "endpoint": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/?list-type=2&max-keys=1",
+      "expectedFormat": "s3",
+      "checkedAtUtc": "2026-10-20T17:53:41.590170+00:00",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 652,
+      "summary": {
+        "rootTag": "{http://s3.amazonaws.com/doc/2006-03-01/}ListBucketResult",
+        "elements": 13
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 0.73
+    },
+    {
+      "source": "ecmwf-index",
+      "endpoint": "https://data.ecmwf.int/forecasts/",
+      "expectedFormat": "index",
+      "checkedAtUtc": "2026-10-20T17:53:42.229293+00:00",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 430614,
+      "summary": {},
+      "outcome": "format-validated",
+      "elapsedSeconds": 2.89
+    },
+    {
+      "source": "openmeteo-shanghai",
+      "endpoint": "https://api.open-meteo.com/v1/forecast?latitude=31.1443&longitude=121.8083&current=temperature_2m,wind_speed_10m",
+      "expectedFormat": "weather",
+      "checkedAtUtc": "2026-10-20T17:53:42.335574+00:00",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 370,
+      "summary": {
+        "dataTime": "2026-10-20T17:45"
+      },
+      "outcome": "format-validated",
+      "elapsedSeconds": 1.12
+    },
+    {
+      "source": "hk-cctv-catalog",
+      "endpoint": "https://static.data.gov.hk/td/traffic-snapshot-images/code/Traffic_Camera_Locations_En.xml",
+      "expectedFormat": "xml",
+      "checkedAtUtc": "2026-10-20T17:53:42.473608+00:00",
+      "outcome": "failed",
+      "error": "<urlopen error [Errno 2] No such file or directory>",
+      "elapsedSeconds": 0.28
+    },
+    {
+      "source": "taiwan-cctv-catalog",
+      "endpoint": "https://tisvcloud.freeway.gov.tw/history/motc20/CCTV.xml",
+      "expectedFormat": "xml",
+      "checkedAtUtc": "2026-10-20T17:53:42.753136+00:00",
+      "outcome": "failed",
+      "error": "<urlopen error [Errno 2] No such file or directory>",
+      "elapsedSeconds": 0.33
+    }
+  ]
+}

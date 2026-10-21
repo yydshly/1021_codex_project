@@ -1,0 +1,194 @@
+{
+  "name": "法国里昂 · 2018 年建筑街区",
+  "source": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/",
+  "license": "Etalab Open Licence 2.0",
+  "blocks": 16,
+  "center": [
+    4.829773699151217,
+    45.77114774677939
+  ],
+  "tileset": "/local-city-data/lyon/tileset.json",
+  "note": "EPSG:3946 converted using local affine frames; source Z retained without geoid correction. Visualization only.",
+  "files": [
+    {
+      "path": "LICENSE.pdf",
+      "bytes": 99941,
+      "sha256": "2ca11865de9902a03d38c771c8b25d544f54b0255dc2d97deb508f51ed5b8f4f"
+    },
+    {
+      "path": "SOURCE-README.txt",
+      "bytes": 2045,
+      "sha256": "f4622e744c316e2b4c34044a73dcbb4d434c6696f29ff06d23754d50256d984c"
+    },
+    {
+      "path": "source-tileset.json",
+      "bytes": 198032,
+      "sha256": "16c3fc45251c66a5a731e7f70120712da75bb943c45809989e9f9a2673396478"
+    },
+    {
+      "path": "tiles/133.b3dm",
+      "bytes": 92348,
+      "sha256": "e69ff05c1302a5b4f18c63a728602cc1fe8650f413cc1961ead65a821799a91f"
+    },
+    {
+      "path": "tiles/138.b3dm",
+      "bytes": 72836,
+      "sha256": "22fb3ab73d698f19e2f495952169a3052f63b544db0a4d7c935a62c64b9250ea"
+    },
+    {
+      "path": "tiles/153.b3dm",
+      "bytes": 82088,
+      "sha256": "ab5bda6224865e40d529fb41f976123e97e58a8c5d10186763a48648a13e81f3"
+    },
+    {
+      "path": "tiles/158.b3dm",
+      "bytes": 117956,
+      "sha256": "f40503ccd5966c34d975e9a2e661ca26670f5b879b16431cb6420d24c83d77a1"
+    },
+    {
+      "path": "tiles/243.b3dm",
+      "bytes": 75412,
+      "sha256": "b0e4de1ff109d8db74091a117b5ee17267a7128ee74ee2998867a56866585340"
+    },
+    {
+      "path": "tiles/248.b3dm",
+      "bytes": 115856,
+      "sha256": "45ca9263426a93466dec814e443335487ed205bd4d15931711c1c05491ec1579"
+    },
+    {
+      "path": "tiles/253.b3dm",
+      "bytes": 92688,
+      "sha256": "ac2eb1844d3dee6b9aa0059714dc2d035decf87ed0df8148edf3e985b81c99f4"
+    },
+    {
+      "path": "tiles/258.b3dm",
+      "bytes": 95404,
+      "sha256": "41e331b9704f8254acd87e52346719840422498fd10269f038893738a33b6958"
+    },
+    {
+      "path": "tiles/263.b3dm",
+      "bytes": 146800,
+      "sha256": "a4d48ccd3d5892fdce0237c030e3d334c345b3a1346145279fba251ebe0bdc14"
+    },
+    {
+      "path": "tiles/268.b3dm",
+      "bytes": 91940,
+      "sha256": "86aab923995bb4789c25a0f3f5352465cf517d60a1d8069027d7fc1b616802fd"
+    },
+    {
+      "path": "tiles/273.b3dm",
+      "bytes": 95552,
+      "sha256": "c30c32315990311e386f7cdd3acefba56089de8b1daae3775dc544e425d109e6"
+    },
+    {
+      "path": "tiles/278.b3dm",
+      "bytes": 103068,
+      "sha256": "b91e95b434991cbf552bf17aa1bd8919adb7ac64cd4476907201a50fe565dc63"
+    },
+    {
+      "path": "tiles/303.b3dm",
+      "bytes": 131692,
+      "sha256": "15349d21de30beed02d56c790e2d874c72a3ac9a0e2f0f7549668f40fde59a8c"
+    },
+    {
+      "path": "tiles/493.b3dm",
+      "bytes": 124832,
+      "sha256": "1e9ac0f980ec6505af7f91738588174c04cc0e9026922015ef4c5adb12bbb29c"
+    },
+    {
+      "path": "tiles/523.b3dm",
+      "bytes": 79260,
+      "sha256": "aee7f66992a5dcd717b2e0a9572c7d0225ea97eb6b4637b80b78e58bf0a6284b"
+    },
+    {
+      "path": "tiles/78.b3dm",
+      "bytes": 126672,
+      "sha256": "774c7ca700eb5d0b91aac2826ac9ce4cdcd90307a6e512369e5c0d58ff2a83cd"
+    },
+    {
+      "path": "tiles/ATLAS_133.jpg",
+      "bytes": 411170,
+      "sha256": "7ce12a970cd76d9caea53a625b0573882f14975bf22337c1e479f7b35cf82317"
+    },
+    {
+      "path": "tiles/ATLAS_138.jpg",
+      "bytes": 399234,
+      "sha256": "eaa332ebbfa4f266b696aa783a87b8411a521764d19ecfba19f4c63fdbbda0bc"
+    },
+    {
+      "path": "tiles/ATLAS_153.jpg",
+      "bytes": 429456,
+      "sha256": "98ecc0936672e1117f5fa856e691b0ab912518eb718c36faae523993dde590b3"
+    },
+    {
+      "path": "tiles/ATLAS_158.jpg",
+      "bytes": 350323,
+      "sha256": "8b9be373eff155ccbe8d868dd0d9b16e73ef01b3d5794fcc975b4ba2347eca1b"
+    },
+    {
+      "path": "tiles/ATLAS_243.jpg",
+      "bytes": 423377,
+      "sha256": "fd8ce599e7b9113c2b7c970170d48e9ad3085a6bed600aabfc2a30c41e76805b"
+    },
+    {
+      "path": "tiles/ATLAS_248.jpg",
+      "bytes": 740087,
+      "sha256": "9413a248e8bc3db0ae4ec16976be22f5c04a4ea7ac7b314d05bb2df4c3999088"
+    },
+    {
+      "path": "tiles/ATLAS_253.jpg",
+      "bytes": 279473,
+      "sha256": "c1376982b55a718e84d9f779016682cbd209e089344b0cd3a3241b241b0f0ee6"
+    },
+    {
+      "path": "tiles/ATLAS_258.jpg",
+      "bytes": 525609,
+      "sha256": "1ec4e59758f758367ea7ea238531e78540d6eab61a03f4e607023e125ba3a1aa"
+    },
+    {
+      "path": "tiles/ATLAS_263.jpg",
+      "bytes": 610715,
+      "sha256": "b919ded28f47e433150f96c487521cee064a1e35b7b8d5c6f9ab80bd0851a8ae"
+    },
+    {
+      "path": "tiles/ATLAS_268.jpg",
+      "bytes": 227396,
+      "sha256": "a41bf3be0d56a16bde7f690b1aafc6dda6ccf61fdf46ab00f50c49682c25d840"
+    },
+    {
+      "path": "tiles/ATLAS_273.jpg",
+      "bytes": 488088,
+      "sha256": "615765814e07238dcc0232d8b61315e04b9f2fe145dcbe4a1942d0e8b727d8f7"
+    },
+    {
+      "path": "tiles/ATLAS_278.jpg",
+      "bytes": 531935,
+      "sha256": "85f6d8593b362154d8d71422e276d1ee569864cf67fba5ddc23b2fa172e858de"
+    },
+    {
+      "path": "tiles/ATLAS_303.jpg",
+      "bytes": 352253,
+      "sha256": "7ffc6e0be2c2221fefba52f51a6c1a90c9a0a60321bf24e940a67c76ebf593e7"
+    },
+    {
+      "path": "tiles/ATLAS_493.jpg",
+      "bytes": 338358,
+      "sha256": "128e91b0bf0ac3b052d178638f317c2b5c2b07567974eae747cb96bf4b020658"
+    },
+    {
+      "path": "tiles/ATLAS_523.jpg",
+      "bytes": 274548,
+      "sha256": "1ec77285fad9b11f2b82f4ae11d46ef4b7e1e725253840233fec2b620e865d56"
+    },
+    {
+      "path": "tiles/ATLAS_78.jpg",
+      "bytes": 508925,
+      "sha256": "394ffe810e8f77551ac58b459c00c0a022e3beb0086c94dd9ff46e99b908412b"
+    },
+    {
+      "path": "tileset.json",
+      "bytes": 8428,
+      "sha256": "eedaf70280af54940ee60eebfc5b2fc81e9f256b3992aabd1bb8b1324bd80e8d"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "compiled": "2026-10-22",
+  "evidencePeriod": "2026-10-20—21",
+  "renderer": {
+    "pillow": "11.3.0",
+    "regularFont": "C:/Windows/Fonts/msyh.ttc",
+    "boldFont": "C:/Windows/Fonts/msyhbd.ttc"
+  },
+  "dimensions": [
+    3600,
+    5885
+  ],
+  "sourceGroups": 11,
+  "screenshots": 3,
+  "inputs": {
+    "app/overview-content.json": "870ba08f1fd9d98389f5722527abff75f45905c205aae15d91638c85fa63fd96",
+    "app/build-overview-image.py": "49c5c8dd7f9fdbd544a22c8332f470b68a91048fce6cb278ee39f071168c83df",
+    "assets/hefei-photogrammetry-close.png": "d964356a659a14487a3d962ea5488b3978897b1420a6e5749648a13bc970dbe1",
+    "assets/guangzhou-local-city.png": "cc74d15bfdf2f91d5a4e0b65a73b2e183ee411ac7936a04b6ced438bbe189fad",
+    "assets/austin-live-flights.png": "22e5a53f5835925d440979d12c86cbd8b36478f8e31f759baa61c75399db70c9",
+    "STUDY-GUIDE.md": "77129ba06fc5e812a5c06c1218a5d5ed4446a2ff486c7928e4311239eed99147",
+    "INFORMATION-SOURCES.md": "c34c3ba69c629ba9b9df5eb74515f524c6f6117d87f0f41d86ce0ae96399ee6e",
+    "RUNNING.md": "116b50ca6a07a3b80b011446e1a62545d77475367671bff221bd02c924a5feef",
+    "assets/source-probe-20261021.json": "c2253b8ec59baa19ce71e176c076a55637f641941dd78b7f834f1b2272066e25"
+  },
+  "outputs": {
+    "research-overview-20261022.png": "ce7d79435b2214aee03483fc70928ae7e95cae9b388fbabbd681c1cbfb7fd889",
+    "research-overview-20261022.svg": "f8470865f05eaddc84515b712c3b0cba3b52ba6f3e3008641c67541525739082",
+    "research-overview-20261022-preview.webp": "3b6e4778334ed15c37a08bfced1a30591f56623b7c188916608db271df4b5bf8"
+  }
+}

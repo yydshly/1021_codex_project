@@ -1,0 +1,23 @@
+{
+  "researchVersion": "0.2.1",
+  "sourceCards": 11,
+  "probeEntries": 12,
+  "scope": "Full study, capability map, real screenshots, source catalog, saved probes and document readers; no live provider requests.",
+  "inputs": {
+    "README.md": "dfec756ab1190246463d7fefae0da9264c15552f6f46860dd2189ee4e8cef1e4",
+    "STUDY-GUIDE.md": "77129ba06fc5e812a5c06c1218a5d5ed4446a2ff486c7928e4311239eed99147",
+    "REVIEW.md": "b41dcc6ecc4ffe60d80aec200ef3775cd080c10ce42dd15c48c11dc5ab02d90f",
+    "INFORMATION-SOURCES.md": "c34c3ba69c629ba9b9df5eb74515f524c6f6117d87f0f41d86ce0ae96399ee6e",
+    "RUNNING.md": "116b50ca6a07a3b80b011446e1a62545d77475367671bff221bd02c924a5feef",
+    "notes.md": "9c2ff9db27a0a33277b9952df542be0c4709a48defdaab3059dadeccfc9e2bd2",
+    "app/LOCAL-DATA.md": "a21bcf79b2dadaac07a9eca2e05d28a8a61080f50b8a04f9b4bed68ca0555bab",
+    "web/README.md": "a9869fa5b741e431e8fcc8b74ad364a210fa33c2f15e5f1e6a3f422b3b85cc65",
+    "assets/source-probe-20261021.json": "c2253b8ec59baa19ce71e176c076a55637f641941dd78b7f834f1b2272066e25",
+    "app/build-research-web.py": "277c9cf42b335fe2daaa708120efffe4d22c8996ed76056192519ca9bd9965d4",
+    "app/research-web/index.template.html": "1f4a6278aaf5872a0dc50344f3ff944deb32ef9c7ca2a31d3da5229ebc5bced0",
+    "app/research-web/style.css": "926378c7e0325fd07b67a5c7eff671010919b42d0a2cd75af9bc8b4fdaa2bfeb",
+    "app/research-web/app.js": "6d1982eb8d56f5e1d871240edbce09716c61a953a70d37410c12c7da43d2bc34",
+    "app/research-web/effects.json": "dd985faac7283f8f0d6f4fa9482ed8e9731a69d786a2d38fc21fd0d0d54da897",
+    "app/research-web/icon.svg": "36e24f3c47e494d56e3aa799e32badcb0d4b5f5b445252faa598ffac1c255ebc"
+  }
+}

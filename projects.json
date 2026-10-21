@@ -35,6 +35,15 @@
       "repository": "https://github.com/SamG-Coder/RealGrass",
       "status": "已完成",
       "image": "assets/grass-effect-comparison.png"
+    },
+    {
+      "id": "006",
+      "slug": "gods-eye-view",
+      "title": "God’s Eye View：公开信息与三维地球研究",
+      "summary": "汇集航班、船舶、卫星、天气、事件与公开影像，以接口取数、参数推算和 Cesium 按需加载呈现三维地球；结合实机效果与国内限制，提炼信息选型、来源接入和空间表达方法。",
+      "repository": "https://github.com/bilawalsidhu/gods-eye-view",
+      "status": "已完成",
+      "image": "assets/research-overview-20261022.png"
     }
   ]
 }

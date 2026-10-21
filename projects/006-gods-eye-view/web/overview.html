@@ -1,0 +1,202 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>006 · God’s Eye View：公开信息与三维地球研究 · God’s Eye View 研究</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head><body><main class="reader-shell"><nav class="reader-top" aria-label="研究阅读导航"><a href="index.html">← 返回研究网页</a><a href="guide.html">理解与取舍</a><a href="research.html">来源详表</a><a href="practice.html">实践记录</a><a href="notes.html">研究过程</a></nav><article class="reader"><h1 id="006-gods-eye-view">006 · God’s Eye View：公开信息与三维地球研究</h1>
+<p><strong>God’s Eye View 汇集航班、船舶、卫星、天气、事件与公开影像，通过接口取数、参数推算和 Cesium 按需加载，将信息呈现在可浏览、可跟踪的三维地球上。</strong> 摄影城市效果由接入模型的几何、纹理和覆盖决定，战术风格由界面与着色器呈现；各层信息分别可能是观测、资料、计算或模拟。</p>
+<p>我们的研究围绕 <strong>能力 → 效果 → 原理 → 支持方向 → 来源与获取 → 国内限制 → 研究价值</strong> 展开。最重要的收获是信息选型与来源调查：先明确问题，再确认所需信号、发布者、接口、时间和覆盖；随后按场景复用取数适配、缓存与降级、三维地球和空间表达。现有点位、轨迹、图层与讲述能力可以复用；西藏／新疆迁移方案尚未实施。</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游仓库</td>
+<td><a target="_blank" rel="noreferrer" href="https://github.com/bilawalsidhu/gods-eye-view">bilawalsidhu/gods-eye-view</a></td>
+</tr>
+<tr>
+<td>研究版本</td>
+<td>0.2.1 / <code>064d51f7be2675f1c69e16068e9c49d1a60144d1</code></td>
+</tr>
+<tr>
+<td>上游代码许可</td>
+<td>MIT；各数据源、影像、模型另有条款</td>
+</tr>
+<tr>
+<td>整理与发布准备</td>
+<td>2026-10-22，Asia/Shanghai；实机与接口证据为 2026-10-20—21</td>
+</tr>
+<tr>
+<td>状态</td>
+<td>来源与获取路径已整理；国内可用性按实测范围分别记录</td>
+</tr>
+<tr>
+<td>阅读入口</td>
+<td><a href="research.html">信息采集研究与来源详表</a> · <a href="notes.html">实测记录</a> · <a href="practice.html">运行与模型附录</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="2026-10-22">一图总览（2026-10-22）</h2>
+<p><a href="assets/research-overview-20261022.png"><img alt="God’s Eye View 能力、来源、原理、效果与研究价值引导图" src="assets/research-overview-20261022-preview.webp" /></a></p>
+<p>汇总能力与方向、具体信息源、获取方式、呈现效果、国内证据与对我们的价值，含 11 类来源、补充专题和 3 张历史实机截图。<a href="assets/research-overview-20261022.png">查看高清图</a> · <a href="assets/research-overview-20261022.svg">查看矢量图</a>。汇总时间不等于重新取数；验证证据仍为 2026-10-20—21。</p>
+<p>总览图由 <code>app/overview-content.json</code> 与已有研究材料生成，PNG 宽 3600 像素；图内文字可在 SVG 中放大阅读。它没有替代来源详表中的全部接口、授权与运行说明。</p>
+<h2 id="_1">研究网页</h2>
+<p>发布入口：<a target="_blank" rel="noreferrer" href="https://yydshly.github.io/1021_codex_project/projects/006-gods-eye-view/">God’s Eye View 研究网页</a>。该地址对应 GitHub Pages 的静态研究页；原地球应用需要从完整研究仓库在本机单独启动。</p>
+<p>已整理为<a href="index.html">完整研究网页</a>，主页面直接展示我们的理解、能力与使用场景、6 张可切换的实机效果、真实与模拟的区别、地球加载与旧项目比较、信息采集设计、11 类可搜索/筛选/展开的来源、12 个入口的实测、免费与 API Key、本地缓存、价值、常见疑问及进展缺口。详细内容另有 8 个文档阅读页。页面读取已保存的研究快照，不自动请求第三方数据源。</p>
+<p><a href="guide.html">理解、效果与使用取舍</a>汇总了讨论形成的判断，并明确标注上游能力、本机证据和未验证项；它与来源详表一起生成网页主要内容。</p>
+<p>补充了按问题选用来源的矩阵、国内候选调查入口与从接口到页面的验收链路；候选尚未接入。长页可通过随页章节选择器和整页搜索定位，搜索包括折叠的来源与问答。</p>
+<p>本次<a href="review.html">网页与完整性复核</a>保留 3 条阅读路径的截图、修正和剩余缺口。</p>
+<p><img alt="信息采集研究网页实际预览" src="assets/research-web-preview.png" /></p>
+<p>本机预览地址：<a target="_blank" rel="noreferrer" href="http://localhost:8766/">http://localhost:8766/</a>。服务关闭后，在仓库根目录执行下面命令，再打开该地址：</p>
+<pre><code class="language-powershell">python -m http.server 8766 --bind 127.0.0.1 --directory projects/006-gods-eye-view/web
+</code></pre>
+<p>网页由研究文档生成，构建方式见 <a href="web-guide.html">web/README.md</a>。原地球应用与研究页独立，实机应用的启动方法仍见 <a href="practice.html">RUNNING.md</a>。</p>
+<h2 id="_2">为什么选择这些信息</h2>
+<p>从源码与数据源结构可以归纳出一套选取思路：先建立一个地方的空间背景，再看移动目标、环境变化与现场影像；优先选择能定位、带时间、可通过接口持续取得的信号。<strong>这是本研究的归纳，不是作者公开解释过的完整选型过程。</strong></p>
+<table>
+<thead>
+<tr>
+<th>需要认识什么</th>
+<th>为什么采集</th>
+<th>对应来源与信息</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>地方在哪里、有什么</td>
+<td>为其他资料提供位置和尺度</td>
+<td>Esri 影像、OSM 道路/地点、Re:Earth 地形</td>
+</tr>
+<tr>
+<td>哪些对象正在移动</td>
+<td>认识交通活动和空间联系</td>
+<td>OpenSky / adsb.lol 飞机状态；AISStream 船舶消息</td>
+</tr>
+<tr>
+<td>上空有哪些轨道对象</td>
+<td>认识轨道位置与过境</td>
+<td>CelesTrak 轨道参数，由程序推算位置</td>
+</tr>
+<tr>
+<td>自然条件怎样变化</td>
+<td>给观察和事件提供环境背景</td>
+<td>NOAA / ECMWF 风场预报、Open-Meteo 点位天气、部分云图和雷达</td>
+</tr>
+<tr>
+<td>哪些地方发生了事件</td>
+<td>找到需要核实的时间与地点</td>
+<td>USGS 地震、NASA FIRMS 热异常</td>
+</tr>
+<tr>
+<td>地面实际拍到了什么</td>
+<td>提供有来源、有日期的近景材料</td>
+<td>已公开的摄像头快照及 Mapillary、KartaView、Panoramax 等街景</td>
+</tr>
+<tr>
+<td>地方之间如何连接</td>
+<td>认识道路、设施和服务网络</td>
+<td>OSM、内置专题数据、部分城市公交与单车接口</td>
+</tr>
+</tbody>
+</table>
+<p>这些类别可扩展。迁移到西藏、新疆研究时，先选问题，再决定需要哪些信号，不必照搬所有图层。字段、接口、凭据和来源选择理由见<a href="research.html#source-details">来源详表</a>。</p>
+<h2 id="_3">怎么获取：四种主要方式</h2>
+<table>
+<thead>
+<tr>
+<th>方式</th>
+<th>上游实例</th>
+<th>可以复用的做法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>按时间或区域取快照</td>
+<td>飞机 JSON、地震 GeoJSON、FIRMS CSV</td>
+<td>限定范围，校验格式和时间，再更新记录</td>
+</tr>
+<tr>
+<td>订阅持续消息</td>
+<td>AISStream WebSocket</td>
+<td>服务端保管 Key、按区域订阅、处理断线和过期</td>
+</tr>
+<tr>
+<td>下载参数后计算</td>
+<td>CelesTrak TLE + satellite.js</td>
+<td>保存参数历元，区分计算位置与实际观测</td>
+</tr>
+<tr>
+<td>获取瓦片、网格、目录或固定数据</td>
+<td>地图瓦片、气象 GRIB2、摄像头 XML、设施数据</td>
+<td>按需读取、解析索引、保留来源与数据日期</td>
+</tr>
+</tbody>
+</table>
+<p>上游已经实现部分代理、缓存、刷新、备用源和状态标记。新增来源仍需按格式适配；数据是否可靠、足以回答什么问题，要在采集阶段判断。<a href="research.html#acquisition">获取链路与源码索引</a>。</p>
+<h2 id="_4">国内可用性：网络、覆盖和使用条件分别判断</h2>
+<p>2026-10-21 01:53（北京时间），在当前机器与配置下，对 12 个公开入口各执行一次无凭据、限时、限大小请求：<strong>10 个通过格式检查，2 个未取得 HTTP 响应</strong>。这是有限探测，未做跨运营商测试或网络出口审计。未见代理环境变量，不等于已证明大陆直连。</p>
+<table>
+<thead>
+<tr>
+<th>信息</th>
+<th>当前证据</th>
+<th>能支持的判断与限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>地图/地形</td>
+<td>Esri 元数据、OSM 全球层级瓦片、Re:Earth 描述文件成功；此前上海影像实机显示</td>
+<td>本机能取入口；不证明全国各层级完整加载</td>
+</tr>
+<tr>
+<td>飞机</td>
+<td>OpenSky 上海框 0 条；adsb.lol 浦东周边 250 海里 7 条</td>
+<td>两次查询范围不同；7 条不是上海或中国大陆完整航班数量</td>
+</tr>
+<tr>
+<td>船舶</td>
+<td>未配置 AISStream Key，未实测订阅</td>
+<td>中国港口、近海与远海覆盖均未验证</td>
+</tr>
+<tr>
+<td>卫星</td>
+<td>CelesTrak <code>stations</code> 返回 17 组 TLE</td>
+<td>该组参数可下载；不代表全量卫星或推算精度</td>
+</tr>
+<tr>
+<td>地震</td>
+<td>USGS 一日目录 207 条；库的 M≥2.5 条件可留 50 条</td>
+<td>是全球目录，未核对中国子集与完整性</td>
+</tr>
+<tr>
+<td>天气</td>
+<td>上海 Open-Meteo 点位返回；GFS 桶目录与 ECMWF 目录成功</td>
+<td>未验证完整风场下载解码；模式值不等于本站实测</td>
+</tr>
+<tr>
+<td>摄像头</td>
+<td>源码有香港/台湾目录；本次两目录请求均失败</td>
+<td>未验证画面；没有取得大陆通用公开来源</td>
+</tr>
+<tr>
+<td>热异常、街景、路况等</td>
+<td>未配置凭据或未做本次实测</td>
+<td>依据源码与官方说明整理，逐来源核实</td>
+</tr>
+</tbody>
+</table>
+<p>请求、时间、格式和错误摘要见 <a href="assets/source-probe-20261021.json">source-probe-20261021.json</a>；<a href="research.html#china">国内限制与判定方法</a>区分了文档存在、网络可达、数据可用、区域覆盖及用途适用。</p>
+<h2 id="_5">对我们的研究有什么价值</h2>
+<p>应沉淀的是：<strong>研究问题 → 信息类别 → 信息产生机制 → 具体来源 → 获取方法 → 覆盖、时间与限制</strong>。对已有点位、轨迹、图层和讲述能力的项目，基础展示可以复用；主要新增收获是找到实际入口，理解何时适合使用它。</p>
+<p>研究西藏、新疆的环境差异，可优先调查地形、风场、降水和地点资料；研究交通联系，再调查道路、航班或沿线设施。某次天气只能解释相应时次，长期气候和历史事件要另找匹配年代的资料。此为迁移建议，尚未接入旧项目。</p>
+<h2 id="_6">实践与历史证据</h2>
+<ul>
+<li><a href="practice.html">RUNNING.md</a>：固定版本启动方法、航班/上海底图截图，以及合肥、广州、里昂模型实践。</li>
+<li><a href="local-data.html">app/LOCAL-DATA.md</a>：模型来源、准备脚本和许可边界；本次不继续模型研究。</li>
+<li><a href="notes.html">notes.md</a>：历次实机记录与本次来源复核方法。</li>
+<li><a target="_blank" rel="noreferrer" href="https://github.com/yydshly/1021_codex_project/blob/main/projects/006-gods-eye-view/app/probe-public-sources.py">app/probe-public-sources.py</a>：有限公开入口探测，不保存凭据或完整数据流。</li>
+</ul>
+<p>复跑会产生新请求，另存结果以保留历史证据：</p>
+<pre><code class="language-powershell">python -X utf8 projects/006-gods-eye-view/app/probe-public-sources.py --output projects/006-gods-eye-view/app/.logs/source-probe-latest.json
+</code></pre>
+<p>代码许可不替代数据许可。免费试用、无需 Key、允许长期缓存、允许公开再分发与允许商用分别判断，并在实际使用前复核服务方当前条款。</p></article></main></body></html>
