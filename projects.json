@@ -8,6 +8,15 @@
       "repository": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
       "status": "已完成",
       "image": "assets/understanding-map.png"
+    },
+    {
+      "id": "005",
+      "slug": "storm-breaker",
+      "title": "Storm-Breaker 浏览器权限研究",
+      "summary": "用原创信息图与交互网页梳理环境信息、定位、相机抓拍、分段录音和结果管理，解释 22 项浏览器权限边界、关页差异与研究价值。",
+      "repository": "https://github.com/ultrasecurity/Storm-Breaker",
+      "status": "已完成",
+      "image": "assets/cover.png"
     }
   ]
 }

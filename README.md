@@ -12,12 +12,19 @@
 | 编号 | 项目 | 研究摘要 | 状态 | 原仓库 | 演示 |
 | --- | --- | --- | --- | --- | --- |
 | 002 | [Lark Agent Bridge 原理研究](projects/002-lark-agent-bridge/README.md) | 把飞书消息接入本地 Claude Code / Codex，通过适配器调用 Agent 的命令行、会话恢复与结构化输出，管理会话、排队和运行，为多平台、多 Agent 接入及后续任务系统提供基础。 | 已完成 | [GitHub](https://github.com/zarazhangrui/lark-coding-agent-bridge) | [打开](https://yydshly.github.io/1021_codex_project/projects/002-lark-agent-bridge/) |
+| 005 | [Storm-Breaker 浏览器权限研究](projects/005-storm-breaker/README.md) | 用原创信息图与交互网页梳理环境信息、定位、相机抓拍、分段录音和结果管理，解释 22 项浏览器权限边界、关页差异与研究价值。 | 已完成 | [GitHub](https://github.com/ultrasecurity/Storm-Breaker) | [打开](https://yydshly.github.io/1021_codex_project/projects/005-storm-breaker/) |
 
 ### 002 · Lark Agent Bridge 原理研究
 
 把飞书消息接入本地 Claude Code / Codex，通过适配器调用 Agent 的命令行、会话恢复与结构化输出，管理会话、排队和运行，为多平台、多 Agent 接入及后续任务系统提供基础。
 
 [![Lark Agent Bridge 原理研究预览](projects/002-lark-agent-bridge/assets/understanding-map.png)](projects/002-lark-agent-bridge/README.md)
+
+### 005 · Storm-Breaker 浏览器权限研究
+
+用原创信息图与交互网页梳理环境信息、定位、相机抓拍、分段录音和结果管理，解释 22 项浏览器权限边界、关页差异与研究价值。
+
+[![Storm-Breaker 浏览器权限研究预览](projects/005-storm-breaker/assets/cover.png)](projects/005-storm-breaker/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始
