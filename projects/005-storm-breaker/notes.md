@@ -94,3 +94,11 @@
 - 发布前检查：6 项仓库单元测试通过，catalog --check 通过；页面 ID 唯一、内部锚点与本地资源存在、源码与静态产物一致，发布目录 PNG / SVG 与原图逐字节一致。
 - 发布目标：https://yydshly.github.io/1021_codex_project/projects/005-storm-breaker/ 。通过仓库 pages.yml 工作流部署；具体执行状态以 GitHub Actions 为准。
 - 本次发布仅为原创研究网页，上游采集器的运行验证范围保持不变。
+
+### 发布结果
+
+- 2026-10-21 已推送网页提交 e630c0e 到远端 main。
+- GitHub Pages 工作流成功：https://github.com/yydshly/1021_codex_project/actions/runs/39604350419 。
+- 公开网页、CSS、JavaScript、PNG 与 SVG 均返回 HTTP 200。HTML / CSS 经换行规范化后与本地产物一致，JS 和两种图稿逐字节一致。
+- 在线门户包含 005，并保留原有 002 入口；真实浏览器确认线上首页与导读入口可见。部署截图为 assets/deployed-preview.png。
+- 前文“未验证”的线上部署项是 2026-10-20 的历史记录，已由本节完成；上游采集效果仍未验证。
