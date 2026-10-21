@@ -117,3 +117,15 @@ python projects/007-realgrass-lab/app/build.py
 ### 目标入口
 
 https://yydshly.github.io/1021_codex_project/projects/007-realgrass-lab/
+
+
+### 发布与线上验收结果
+
+- 展示代码提交：`336276dfc34a9fac152bf508070ebaf569e9180a`，已推送到 `origin/main`。
+- GitHub Pages 部署成功：[Deploy GitHub Pages #39638796087](https://github.com/yydshly/1021_codex_project/actions/runs/39638796087)。
+- 远端目录校验成功：[Validate research catalog #39638795057](https://github.com/yydshly/1021_codex_project/actions/runs/39638795057)。
+- 网页、入口 JavaScript 和 CSS 通过 HTTP 200 验证，忽略 Git 的换行规范化后内容与发布产物完全一致；引导图二进制 SHA-256 与本地发布文件一致。
+- 远端浏览器确认新摘要、AI 引导图、自然感分析均显示，默认仍加载原库。原库实际显示 `GPU SIMULATION LIVE`；切换后自研版显示 `GPU 顶点动画` 与 56,000 个草叶实例，当前页面 error 日志为空。
+- 新增引导图与结论区在 390 × 844 视口覆盖下无页面横向溢出；手机测试是布局验证，不代表移动 GPU 性能验证。
+- 本轮代码没有改变自研渲染算法；6 项仓库测试、4 项模型测试和 catalog 校验全部通过。
+- 本次发布只包含 007 与对应远端索引，保留远端此前已有的研究项目。
