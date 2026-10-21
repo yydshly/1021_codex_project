@@ -44,6 +44,15 @@
       "repository": "https://github.com/bilawalsidhu/gods-eye-view",
       "status": "已完成",
       "image": "assets/research-overview-20261022.png"
+    },
+    {
+      "id": "009",
+      "slug": "lcm-memory",
+      "title": "LCM：AI 编程助手的外部项目记忆",
+      "summary": "为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。",
+      "repository": "https://github.com/lossless-claude/lcm",
+      "status": "已完成",
+      "image": "assets/lcm-external-memory.png"
     }
   ]
 }

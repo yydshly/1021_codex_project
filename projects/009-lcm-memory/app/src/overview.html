@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="LCM 外部项目记忆：一张图说明本质、Hooks/MCP 交互、分层存储、检索、场景、意义与限制。"><title>LCM 外部记忆 · 一图全解</title><link rel="stylesheet" href="./style.css"><script src="./overview.js" defer></script></head>
+<body class="map-standalone">
+  <header class="topbar"><a class="brand" href="./index.html#essence-map"><span class="brand-mark">L</span> MEMORY NOTES / 总图</a><a class="repo-link" href="./index.html#essence-map">返回研究网页 ↗</a></header>
+  <main class="section-wrap chapter">
+    <div class="section-heading"><p class="section-number">LCM / EXTERNAL PROJECT MEMORY</p><h1>本质，就是外部记忆。</h1><p>一张图串起接入、存储、整理、检索与使用价值。切换模块可放大阅读图中的不同区域。</p></div>
+    <div class="map-tools"><a class="button primary" href="./media/lcm-external-memory.png" download>下载 2400 × 4220 PNG ↓</a><a href="./media/lcm-external-memory.svg" download>下载可缩放 SVG ↓</a><a href="./index.html#sources">查看源码依据 →</a></div>
+    <div class="map-tabs" role="group" aria-label="选择总图模块"><button type="button" data-map="all" aria-pressed="true">一图全貌</button><button type="button" data-map="architecture" aria-pressed="false">本质与交互</button><button type="button" data-map="lifecycle" aria-pressed="false">记忆形成</button><button type="button" data-map="retrieval" aria-pressed="false">如何取回</button><button type="button" data-map="scenarios" aria-pressed="false">场景与意义</button><button type="button" data-map="limits" aria-pressed="false">成立条件</button></div>
+    <figure class="overview-figure"><img id="memory-map-image" src="./media/lcm-external-memory.svg" alt="LCM 完整图解：以外部记忆为中心，连接自动 Hooks 和主动 MCP/CLI，说明原始历史、工作上下文、长期条目，启动恢复、自动提示、主动追查，以及四类场景和效果成立的条件。" width="2400" height="4220"><figcaption id="map-caption" aria-live="polite">一图全貌。绿色箭头表示请求 / 写入，橙色箭头表示返回结果；各客户端的自动化能力不同。</figcaption></figure>
+    <div class="map-reading" aria-live="polite"><article><span>整张图的核心</span><h3 id="map-reading-title">把历史保存到模型外部，再让相关材料回到当前上下文。</h3><p id="map-reading-body">LCM 负责项目档案与查询。Hooks 随宿主事件自动触发，MCP / CLI 供 AI 主动调用，模型最终读取返回材料并作出判断。</p></article><aside><span>效果成立的条件</span><p id="map-reading-limit">保存完整 → 找回相关 → 依据有效 → AI 正确使用。图中收益为机制预期，尚未运行上游实测。</p></aside></div>
+    <p class="inline-note">源码版本：0c17dbffda452cf7fae46929af427dff355aeaa3 · 更新于 2026-10-22 · 本图为原创解释图，不连接真实 LCM 服务。</p>
+  </main>
+</body></html>

@@ -16,6 +16,7 @@
 | 005 | [Storm-Breaker 浏览器权限研究](projects/005-storm-breaker/README.md) | 用原创信息图与交互网页梳理环境信息、定位、相机抓拍、分段录音和结果管理，解释 22 项浏览器权限边界、关页差异与研究价值。 | 已完成 | [GitHub](https://github.com/ultrasecurity/Storm-Breaker) | [打开](https://yydshly.github.io/1021_codex_project/projects/005-storm-breaker/) |
 | 006 | [God’s Eye View：公开信息与三维地球研究](projects/006-gods-eye-view/README.md) | 汇集航班、船舶、卫星、天气、事件与公开影像，以接口取数、参数推算和 Cesium 按需加载呈现三维地球；结合实机效果与国内限制，提炼信息选型、来源接入和空间表达方法。 | 已完成 | [GitHub](https://github.com/bilawalsidhu/gods-eye-view) | [打开](https://yydshly.github.io/1021_codex_project/projects/006-gods-eye-view/) |
 | 007 | [RealGrass 草地效果展示与对比](projects/007-realgrass-lab/README.md) | 一个可交互的草地效果展示：对比 RealGrass 原库与自研 WebGL2 草地，解释自然感、运动与云层的差异，并提供技术原理和实现路线分析。 | 已完成 | [GitHub](https://github.com/SamG-Coder/RealGrass) | [打开](https://yydshly.github.io/1021_codex_project/projects/007-realgrass-lab/) |
+| 009 | [LCM：AI 编程助手的外部项目记忆](projects/009-lcm-memory/README.md) | 为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。 | 已完成 | [GitHub](https://github.com/lossless-claude/lcm) | [打开](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/) |
 
 ### 002 · Lark Agent Bridge 原理研究
 
@@ -46,6 +47,12 @@ Claude 的插件与 Skill 集合，按岗位和业务场景匹配调用工作方
 一个可交互的草地效果展示：对比 RealGrass 原库与自研 WebGL2 草地，解释自然感、运动与云层的差异，并提供技术原理和实现路线分析。
 
 [![RealGrass 草地效果展示与对比预览](projects/007-realgrass-lab/assets/grass-effect-comparison.png)](projects/007-realgrass-lab/README.md)
+
+### 009 · LCM：AI 编程助手的外部项目记忆
+
+为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。
+
+[![LCM：AI 编程助手的外部项目记忆预览](projects/009-lcm-memory/assets/lcm-external-memory.png)](projects/009-lcm-memory/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始
