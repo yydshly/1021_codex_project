@@ -26,6 +26,15 @@
       "repository": "https://github.com/anthropics/knowledge-work-plugins",
       "status": "已完成",
       "image": "assets/capability-map.png"
+    },
+    {
+      "id": "007",
+      "slug": "realgrass-lab",
+      "title": "RealGrass 草地效果展示与对比",
+      "summary": "一个可交互的草地效果展示：对比 RealGrass 原库与自研 WebGL2 草地，解释自然感、运动与云层的差异，并提供技术原理和实现路线分析。",
+      "repository": "https://github.com/SamG-Coder/RealGrass",
+      "status": "已完成",
+      "image": "assets/grass-effect-comparison.png"
     }
   ]
 }

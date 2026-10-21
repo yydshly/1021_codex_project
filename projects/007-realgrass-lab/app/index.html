@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="一个可交互的草地效果展示：对比 RealGrass 原库与自研 WebGL2 草地，解释自然感、运动与云层的差异，并提供技术原理和实现路线分析。">
+  <meta name="theme-color" content="#f4f3eb">
+  <title>RealGrass 草地效果展示与对比 · 007 / GitHub 项目研究室</title>
+  <meta property="og:title" content="RealGrass 草地效果展示与对比">
+  <meta property="og:description" content="体验原库与自研草地，理解植物结构、运动回弹和体积云为什么影响自然感。">
+  <meta property="og:image" content="https://yydshly.github.io/1021_codex_project/projects/007-realgrass-lab/assets/grass-effect-comparison.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="../../../" aria-label="返回研究室">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28C16 17 13 10 5 5M16 28C16 16 20 6 28 3M16 28C13 20 9 17 3 17M16 28C20 19 24 15 30 14"/></svg>
+      <span>开源研究室<small>OPEN SOURCE FIELD NOTES</small></span>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#experience">效果实验</a><a href="#principles">技术原理</a><a href="#comparison">差异对照</a><a href="#routes">其他路线</a>
+    </nav>
+    <a class="repo-link" href="https://github.com/SamG-Coder/RealGrass" target="_blank" rel="noopener noreferrer">原仓库 <span>↗</span></a>
+  </header>
+  <main id="main">
+    <section class="intro wrap">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="dot"></span> FIELD STUDY / 007 <span class="divider">—</span> REALGRASS</p>
+        <h1>草地效果展示。<br><span>原库 × 自研。</span></h1>
+      </div>
+      <div class="intro-note">
+        <span class="tiny-label">一个可交互的草地效果展示</span>
+        <p>体验 RealGrass 原库与我们独立实现的 WebGL2 草地，<br class="desktop">比较植物、风与云层，理解自然感从哪里来。</p>
+        <div class="intro-tags"><span>原库实时体验</span><span>独立实现对照</span><span>技术选型分析</span></div>
+      </div>
+    </section>
+
+    <figure class="effect-guide wrap" aria-labelledby="guide-caption">
+      <img src="./assets/grass-effect-comparison.png" width="1672" height="941" alt="AI 生成的草地效果对比示意：左侧 RealGrass 原库强调自然草丛与三维体积云，右侧自研 WebGL2 强调简化草叶与二维云影。">
+      <figcaption id="guide-caption"><span><strong>AI 生成效果示意</strong> · 用于引导理解，不是实测截图或性能对比。</span><a href="#experience">查看下方实时效果 ↓</a></figcaption>
+    </figure>
+
+    <section class="experience wrap" id="experience" aria-labelledby="experience-title">
+      <div class="section-line">
+        <h2 id="experience-title"><span>01</span> 先看见，再理解</h2>
+        <span class="section-aside">可交互的草地实验台</span>
+      </div>
+      <div class="lab">
+        <div class="lab-toolbar">
+          <div class="view-switch" role="group" aria-label="演示视图">
+            <button type="button" data-view="source" aria-pressed="true"><span>A</span> 原库效果</button>
+            <button type="button" data-view="ours" aria-pressed="false"><span>B</span> 我们的实现</button>
+            <button type="button" data-view="split" aria-pressed="false">并排对照 <span class="split-icon">▥</span></button>
+          </div>
+          <a href="https://samg-coder.github.io/RealGrass/" target="_blank" rel="noopener noreferrer">独立打开原库 ↗</a>
+        </div>
+        <div class="stages" data-mode="source">
+          <div class="stage source-stage" id="source-stage">
+            <div class="stage-caption"><span class="stage-letter">A</span><strong>RealGrass</strong><span>WebGPU · 原库在线演示</span></div>
+            <iframe id="upstream" src="https://samg-coder.github.io/RealGrass/" title="RealGrass 原库实时草地演示" allow="fullscreen" referrerpolicy="no-referrer" loading="eager"></iframe>
+          </div>
+          <div class="stage own-stage" id="own-stage" hidden>
+            <canvas id="meadow" tabindex="0" aria-label="自研 WebGL2 草地。拖动转向，滚轮或 W/S 前后移动，方向键转向，Shift 加移动拨草。"></canvas>
+            <div class="stage-caption own-caption"><span class="stage-letter">B</span><strong>Meadow / Lite</strong><span>独立编写 · WebGL2</span></div>
+            <div class="own-badge"><span class="dot"></span><span id="renderer-status">等待启动</span></div>
+            <div class="camera-presets" role="group" aria-label="相机预设">
+              <button data-camera="meadow" type="button" aria-pressed="true">草地</button>
+              <button data-camera="close" type="button" aria-pressed="false">近看</button>
+              <button data-camera="overhead" type="button" aria-pressed="false">俯瞰</button>
+            </div>
+            <div class="own-stats" aria-label="自研演示运行数据">
+              <div><strong id="stat-count">—</strong><span>草叶实例</span></div>
+              <div><strong id="stat-fps">—</strong><span>帧 / 秒 · 当前环境</span></div>
+              <div><strong id="stat-draws">—</strong><span>绘制调用 / 帧</span></div>
+            </div>
+            <div class="canvas-hint">拖动转向 <i>·</i> 滚轮前后移动 <i>·</i> Shift + 移动拨草</div>
+            <div class="render-error" id="render-error" hidden role="alert">
+              <strong>自研演示暂时无法启动</strong><p id="render-error-text"></p>
+              <button id="retry" type="button">重新启动自研演示</button>
+            </div>
+          </div>
+        </div>
+        <div class="lab-status"><span class="status-light"></span><p id="view-note" aria-live="polite">默认加载原库在线页面。首次 GPU 编译可能需要数十秒；若没有画面，请独立打开。外部在线版本可能随上游更新。</p><button id="reload-source" type="button">重新加载原库 ↻</button></div>
+      </div>
+      <div class="control-panel" id="controls" hidden>
+        <div class="control-heading"><div><span class="tiny-label">B / 自研实验参数</span><p>改动一个变量，观察画面付出了什么。</p></div><div class="control-actions"><button id="pause" type="button" aria-pressed="false">Ⅱ 暂停动画</button><button id="reset" type="button">重置实验 ↻</button></div></div>
+        <div class="sliders">
+          <label>风力 <output id="wind-value">1.2</output><input id="wind" type="range" min="0" max="3.5" step="0.1" value="1.2"></label>
+          <label>草高 <output id="height-value">0.80 m</output><input id="height" type="range" min="0.25" max="1.5" step="0.05" value="0.8"></label>
+          <label>云量 <output id="clouds-value">55%</output><input id="clouds" type="range" min="0" max="1" step="0.05" value="0.55"></label>
+          <label>湿润度 / 配色 <output id="moisture-value">70%</output><input id="moisture" type="range" min="0" max="1" step="0.05" value="0.7"></label>
+        </div>
+        <div class="field-settings">
+          <label for="density">草叶密度</label><select id="density"><option value="16000">轻量 · 16,000</option><option value="56000" selected>标准 · 56,000</option><option value="100000">茂密 · 100,000</option></select>
+          <label for="seed">世界种子</label><input id="seed" type="number" min="0" max="999999" step="1" value="1337">
+          <label class="check"><input id="flowers" type="checkbox" checked> 显示野花</label>
+          <span id="buffer-info">实例缓冲 —</span>
+        </div>
+        <p class="control-footnote">自研版为固定范围场景，湿润度仅改变配色；局部拨草为衰减位移，无逐叶物理状态。FPS 是页面帧率，不是 GPU 耗时。</p>
+      </div>
+      <div class="observation">
+        <div><span class="tiny-label">带着问题看</span><h3>四个小实验</h3></div>
+        <div class="experiment-buttons" role="group" aria-label="观察实验">
+          <button type="button" data-experiment="wind"><b>01</b> 风从哪里来？ <span>↗</span></button>
+          <button type="button" data-experiment="touch"><b>02</b> 拨草之后呢？ <span>↗</span></button>
+          <button type="button" data-experiment="cloud"><b>03</b> 云影是否一致？ <span>↗</span></button>
+          <button type="button" data-experiment="distance"><b>04</b> 远处还有草吗？ <span>↗</span></button>
+        </div>
+        <p id="experiment-note" aria-live="polite">点击实验会切到自研版并设置观察条件。也可以回到原库，手动复现同样的观察动作。</p>
+      </div>
+    </section>
+
+    <section class="principles wrap section-space" id="principles" aria-labelledby="principles-title">
+      <div class="section-line"><h2 id="principles-title"><span>02</span> 原库在计算什么？</h2><span class="section-aside">从植物身份到屏幕像素</span></div>
+      <div class="section-intro"><h3>真正值得拆的，<br>是画面背后的数据流。</h3><p>RealGrass 的重点是让大量植物的生成、运动和可见性处理留在 GPU。CPU 主要传入相机与参数，渲染器直接读取 GPU 缓冲。下面按固定版本源码解释；这不代表完成了全套上游回归测试。</p></div>
+      <div class="pipeline" role="group" aria-label="选择原库技术环节">
+        <button type="button" data-step="growth" aria-pressed="true"><span>01 / GENERATE</span><strong>生成植物</strong><small>种子 → 植株 → 分蘖 → 叶片</small></button><i aria-hidden="true">→</i>
+        <button type="button" data-step="motion" aria-pressed="false"><span>02 / SIMULATE</span><strong>保存运动</strong><small>受力 → 速度 → 弯曲状态</small></button><i aria-hidden="true">→</i>
+        <button type="button" data-step="visibility" aria-pressed="false"><span>03 / SELECT</span><strong>选择可见草叶</strong><small>距离分级 → GPU 间接绘制</small></button><i aria-hidden="true">→</i>
+        <button type="button" data-step="weather" aria-pressed="false"><span>04 / SHADE</span><strong>统一天气与光照</strong><small>体积云 → 云影 + 阵风</small></button>
+      </div>
+      <article class="pipeline-detail">
+        <div><span class="tiny-label" id="step-tag">种子化生成 / GPU COMPUTE</span><h3 id="step-title">草叶有身份，草丛有结构。</h3><p id="step-copy">按植株、分蘖与叶序生成形态，而不是把所有叶片完全随机撒在地上。世界种子让同一位置能够复现；滑块修改的是生长快照，未连续模拟植物生命过程。</p><a id="step-link" data-source="kernels/plant-model.cuh">查看对应源码 ↗</a></div>
+        <div class="formula-panel"><span>原理示意 · 非上游代码摘录</span><pre id="step-formula">世界种子 + 空间位置
+          ↓
+     植物类型 / 植株
+          ↓
+     分蘖 / 叶序 / 成熟度
+          ↓
+   位置 + 形态 + 生长信息</pre><p id="step-cost">代价：更复杂的身份规则、状态布局和近远景一致性维护。</p></div>
+      </article>
+      <div class="architecture-note"><span>C → WGSL → GPU</span><p>CUDA C 内核通过 <a href="https://github.com/SamG-Coder/cuda-webshader" target="_blank" rel="noopener noreferrer">cuda-webshader</a> 编译为 WGSL，再交给浏览器 WebGPU 执行。运行者不需要安装原生 CUDA，也不限定使用 NVIDIA 显卡；实际支持取决于浏览器与 GPU。</p><a data-source="src/main.js">核对运行链路 ↗</a></div>
+    </section>
+
+    <section class="value-section section-space" id="value">
+      <div class="wrap">
+        <div class="section-line"><h2><span>03</span> 这次研究，增加了什么？</h2><span class="section-aside">研究价值，而非效果收藏</span></div>
+        <div class="value-layout"><div class="value-heading"><span class="tiny-label">OUR RESEARCH QUESTION</span><h3>相似的视觉感受，<br>需要同样复杂的系统吗？</h3><p>研究产出是一份可运行的取舍样本：保留草地氛围，逐项移除昂贵机制，判断哪些能力值得为真实需求买单。</p><span class="value-stamp">结论 · 按需求选择复杂度</span></div>
+          <div class="value-list">
+            <article><span>01</span><div><h4>视觉近似能走多远</h4><p>解析风场无需逐叶保存速度，也能产生连贯的草浪。代价是触碰后的回弹缺少独立历史。</p></div></article>
+            <article><span>02</span><div><h4>什么情况下需要原库架构</h4><p>当需求包含持续交互、大范围移动和真实空间云层时，GPU 状态、流式加载与体积采样才开始体现价值。</p></div></article>
+            <article><span>03</span><div><h4>下一次能复用什么</h4><p>带种子的实例布局、草叶顶点变形、局部射线拾取、共享云影函数，以及下面的技术路线决策表。</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison wrap section-space" id="comparison" aria-labelledby="comparison-title">
+      <div class="section-line"><h2 id="comparison-title"><span>04</span> 看起来相似，能力并不相同</h2><span class="section-aside">实现事实 / 尚未量化的结论</span></div>
+      <article class="naturalness-verdict">
+        <div class="verdict-intro"><span class="tiny-label">我们的理解 / 当前两个版本的对照</span><h3>原库整体更自然，<br>复杂机制有可见的价值。</h3><p>这次观察中，原库在植物形态与云层空间感上更接近自然景观。自研版实现了草地氛围和基本交互，但尚未复现这些层次。这里的“更真实”指视觉可信度和运动连续性；两套方案都采用近似模型，尚未证明严格的植物学或物理准确性。</p></div>
+        <div class="naturalness-points">
+          <article><span>01 / 植物结构</span><h4>从草叶到一株草。</h4><p>原库用植株、分蘖、叶序与成熟度组织变化，草丛更有结构。自研版主要分布简化叶片，形态重复更明显。</p><a data-source="kernels/plant-model.cuh">植物生成依据 ↗</a></article>
+          <article><span>02 / 运动状态</span><h4>风停了，运动仍有历史。</h4><p>原库保存弯曲和速度，支持局部受力后的持续回弹。自研版由时间函数与当前笔刷计算位移，缺少逐叶运动历史；尚未做动力学拟合比较。</p><a data-source="kernels/grass.cu#L43">弹簧状态依据 ↗</a></article>
+          <article><span>03 / 云层空间</span><h4>云是一团体积，也可以是一层图案。</h4><p>原库对三维云密度做体积采样，有明显的厚度与自遮光。自研版投影二维噪声云，能做云影，但空间层次更薄。</p><a data-source="docs/implemented-growth.md">天气实现依据 ↗</a></article>
+        </div>
+        <p class="verdict-conclusion"><strong>这次实践的意义：</strong>简单方案足以搭建草地效果展示；当目标转向自然写实、持续交互和大范围漫游时，原库的额外机制就有明确用途。视觉判断基于当前演示与源码阅读，不代表已完成定量保真度或性能评测。</p>
+      </article>
+      <div class="compare-heading"><p>自研版独立实现，无第三方运行依赖。目标是解释取舍，不宣称达到原库的完整功能或保真度。</p><button type="button" data-open-split>回到并排对照 ↑</button></div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="原库与自研方案差异表">
+        <table><thead><tr><th>观察维度</th><th><span class="table-badge">A</span> RealGrass 原库</th><th><span class="table-badge ours">B</span> 自研 Meadow / Lite</th><th>这意味着什么</th></tr></thead><tbody>
+          <tr><th>草地的生成</th><td>GPU 生成植物、分蘖和叶序</td><td>CPU 生成种子化叶片实例，一次上传</td><td>自研版保留分布变化，未复现植物层级</td></tr>
+          <tr><th>风与触碰</th><td>GPU 保存逐叶弯曲与速度；阻尼弹簧积分</td><td>顶点阶段解析风场 + 当前笔刷衰减</td><td>自研版无需逐叶动态状态，不能保留多处触碰历史</td></tr>
+          <tr><th>天空与云影</th><td>演化三维密度场 + 体积光线步进</td><td>二维噪声云平面 + 同一场的投影云影</td><td>自研版没有进入云层后的体积层次</td></tr>
+          <tr><th>大范围移动</th><td>相机周围流式加载，近场 LOD 与远景植被</td><td>有限草地范围，统一 4 段叶片，无流式加载</td><td>自研版俯瞰能暴露范围边界，远方主要由地面补足</td></tr>
+          <tr><th>密度计数</th><td>262,144–8,388,608 个器官容量槽位</td><td>16,000 / 56,000 / 100,000 个实际叶片实例</td><td>容量、活跃叶片、可见数量不是同一个指标</td></tr>
+          <tr><th>资源与提交</th><td>计算管线、状态缓冲、可见性压缩、间接绘制</td><td>背景 + 草叶 + 花朵，最多 3 次绘制调用</td><td>3 次调用仍可能提交大量顶点，不能据此断言更快</td></tr>
+          <tr><th>生长控制</th><td>成熟度与水分重建植物快照</td><td>草高与湿润配色；无生长模型</td><td>两者都不能用于农业生长预测</td></tr>
+          <tr><th>性能结论</th><td>本研究未取得可比的 GPU 时间数据</td><td>界面显示当前运行帧率与实例缓冲大小</td><td>未建立同机、同视角、同分辨率的公平基准</td></tr>
+        </tbody></table>
+      </div>
+      <div class="benchmark-note"><strong>如何公平比较？</strong><p>分别运行两者，固定设备、浏览器、画布分辨率、视角和观察时长，再记录帧时间与 GPU 耗时。并排运行会竞争 GPU；原库跨域嵌入无法同步相机、控制参数或读取内部 FPS，因此本页只提供人工视觉对照。</p></div>
+    </section>
+
+    <section class="routes wrap section-space" id="routes" aria-labelledby="routes-title">
+      <div class="section-line"><h2 id="routes-title"><span>05</span> 还有哪些技术可以实现？</h2><span class="section-aside">先选目标，再选工具</span></div>
+      <div class="section-intro"><h3>画草、算风、画云，<br>可以分别选择。</h3><p>Three.js 是封装层，WebGL / WebGPU 是图形接口，弹簧是运动模型，体积步进是云的渲染方法。这些不是互相排斥的一组“库”，而是可以组合的不同层次。</p></div>
+      <div class="route-picker" role="group" aria-label="按目标查看建议">
+        <span>你的目标是</span><button type="button" data-goal="decoration" aria-pressed="false">网页氛围</button><button type="button" data-goal="interactive" aria-pressed="true">可交互草地</button><button type="button" data-goal="simulation" aria-pressed="false">持续状态仿真</button><button type="button" data-goal="game" aria-pressed="false">原生游戏场景</button>
+      </div>
+      <div class="recommendation" aria-live="polite"><span>建议从这里开始 ↘</span><p id="recommendation-text">WebGL2 / Three.js 实例化草叶 + 顶点风场。先验证交互需求；需要逐叶回弹历史时，再引入状态缓冲。</p><small>选型判断；除本页自研 WebGL2 外，其余路线未在本项目中实现或跑分。</small></div>
+      <div class="route-grid">
+        <article class="route-card" data-route="canvas"><div class="route-top"><span>01 / 2D</span><span class="route-tag">轻量氛围</span></div><h3>Canvas 2D / SVG</h3><p>曲线画草，时间函数驱动摆动。适合固定镜头的装饰场景。</p><dl><div><dt>优势</dt><dd>结构简单，便于设计控制</dd></div><div><dt>边界</dt><dd>三维漫游、遮挡和大规模密度需另作处理</dd></div></dl><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank" rel="noopener noreferrer">Canvas API ↗</a></article>
+        <article class="route-card recommended" data-route="webgl"><div class="route-top"><span>02 / INSTANCING</span><span class="route-tag">本页已实现</span></div><h3>WebGL2 / Three.js</h3><p>共享草叶几何，逐实例保存位置与形态；顶点着色器计算风。</p><dl><div><dt>优势</dt><dd>适合网页可交互植被，封装层可自由选择</dd></div><div><dt>边界</dt><dd>实例化本身不提供物理状态或云体积</dd></div></dl><a href="https://threejs.org/docs/pages/InstancedMesh.html" target="_blank" rel="noopener noreferrer">InstancedMesh 文档 ↗</a></article>
+        <article class="route-card" data-route="feedback"><div class="route-top"><span>03 / STATE</span><span class="route-tag">WebGL2 扩展路线</span></div><h3>Transform Feedback</h3><p>把顶点处理结果写回缓冲，用双缓冲保存弯曲和速度，随后绘制。</p><dl><div><dt>优势</dt><dd>可在 WebGL2 路线上加入持续运动状态</dd></div><div><dt>边界</dt><dd>需管理缓冲交换与同步，通用计算能力受限</dd></div></dl><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/transformFeedbackVaryings" target="_blank" rel="noopener noreferrer">Transform Feedback 文档 ↗</a></article>
+        <article class="route-card" data-route="webgpu"><div class="route-top"><span>04 / COMPUTE</span><span class="route-tag">更接近原库</span></div><h3>原生 WebGPU / WGSL</h3><p>直接编写计算着色器，管理逐叶状态、可见性筛选和间接绘制。</p><dl><div><dt>优势</dt><dd>可构建同类 GPU 数据流，不依赖 C → WGSL 编译</dd></div><div><dt>边界</dt><dd>兼容性与资源布局需要验证；工程复杂度更高</dd></div></dl><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API" target="_blank" rel="noopener noreferrer">WebGPU API ↗</a></article>
+        <article class="route-card" data-route="engine"><div class="route-top"><span>05 / ENGINE</span><span class="route-tag">游戏生产流程</span></div><h3>Unity / Unreal 植被系统</h3><p>结合引擎的地形、植被实例、材质与 LOD 工具，接入游戏世界。</p><dl><div><dt>优势</dt><dd>可融入关卡编辑、光照与资产制作流程</dd></div><div><dt>边界</dt><dd>具体风、碰撞和交互仍依赖材质与项目实现</dd></div></dl><a href="https://dev.epicgames.com/documentation/unreal-engine/foliage-mode-in-unreal-engine" target="_blank" rel="noopener noreferrer">Unreal Foliage 文档 ↗</a></article>
+        <article class="route-card" data-route="mesh"><div class="route-top"><span>06 / NATIVE GPU</span><span class="route-tag">高级渲染研究</span></div><h3>Mesh Shader 草簇</h3><p>按草簇在 GPU 中生成曲线叶片、调整几何细节，再输出三角形。</p><dl><div><dt>优势</dt><dd>几何生成与细节控制更贴近 GPU 工作组织</dd></div><div><dt>边界</dt><dd>需要原生图形接口和对应硬件，不能直接当网页通用方案</dd></div></dl><a href="https://gpuopen.com/learn/mesh_shaders/mesh_shaders-procedural_grass_rendering/" target="_blank" rel="noopener noreferrer">AMD GPUOpen 技术文章 ↗</a></article>
+      </div>
+      <div class="cloud-options"><div><span class="tiny-label">天空可以独立选型</span><h3>云也不必只有一种做法。</h3></div><div><strong>天空盒 / 云贴片</strong><p>用于固定或远景天空。资源与美术控制直接，但形变和空间深度有限。</p></div><div><strong>二维程序噪声</strong><p>本页方案。可共享场计算云影，少量采样即可表达变化；缺少体积穿行。</p></div><div><strong>三维体积步进</strong><p>原库方案。沿视线积累密度与透射，能进入云层；成本随采样与分辨率增加。</p></div></div>
+    </section>
+
+    <section class="evidence wrap section-space" id="evidence">
+      <div class="section-line"><h2><span>06</span> 证据与复现边界</h2><span class="section-aside">研究日期 / 2026.10.20</span></div>
+      <div class="evidence-grid">
+        <article><span class="tiny-label">固定研究版本</span><h3>源码固定，在线演示是动态入口。</h3><p>上游 Commit <code>f68b918796bb</code>。源码链接固定到该版本；嵌入的 GitHub Pages 由上游维护，后续可能变化。</p><a data-source="README.md">查看固定版本说明 ↗</a></article>
+        <article><span class="tiny-label">实现与验证</span><h3>区分可运行事实和选型判断。</h3><p>自研版有种子复现、密度稳定与相机拾取测试，浏览器实测记录见研究笔记。原库全套自动测试、其他引擎方案及公平性能基准未在本项目运行。</p><a href="https://github.com/yydshly/1021_codex_project/tree/main/projects/007-realgrass-lab" target="_blank" rel="noopener noreferrer">研究记录与实践源码 ↗</a></article>
+        <article><span class="tiny-label">来源与授权</span><h3>独立实现，保留来源边界。</h3><p>该版本未发现 RealGrass 主项目许可证；其 cuda-webshader 子模块有独立 MIT 授权。引导图为 AI 生成示意，原库实际效果从作者站点实时加载；本页未打包原库源码或运行时。</p><a data-source="docs/implemented-growth.md">上游实现与限制 ↗</a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><div><strong>FIELD NOTES / 007</strong><span>先复现，再比较，最后决定是否采用。</span></div><a href="#main">回到顶部 ↑</a></footer>
+  <noscript><p class="no-script">实时演示与交互分析需要 JavaScript。你仍可阅读静态研究内容，或<a href="https://samg-coder.github.io/RealGrass/">独立打开原库</a>。</p></noscript>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "reviewed_on": "2026-10-20",
+  "upstream": {
+    "repository": "https://github.com/SamG-Coder/RealGrass",
+    "commit": "f68b918796bbe3409d399e9640ca1f63164d7d26",
+    "committed_at": "2026-09-21T08:28:41Z",
+    "main_license": "未发现明确许可证；GitHub API license=null",
+    "live_demo": "https://samg-coder.github.io/RealGrass/",
+    "submodule": {
+      "repository": "https://github.com/SamG-Coder/cuda-webshader",
+      "commit": "d1abd25c32b93d40ce13c7757fccdd0ce6e2f01a",
+      "license": "MIT"
+    }
+  },
+  "evidence": [
+    {
+      "path": "src/main.js",
+      "type": "源码阅读",
+      "supports": "编译、四个积分子步、流式网格、GPU 筛选、间接绘制、控制参数"
+    },
+    {
+      "path": "kernels/grass.cu",
+      "type": "源码阅读",
+      "supports": "生成、阻尼弹簧、状态布局、云场调制与局部笔刷"
+    },
+    {
+      "path": "kernels/plant-model.cuh",
+      "type": "源码阅读",
+      "supports": "植物层级、成熟度规则、共享云密度与阵风函数"
+    },
+    {
+      "path": "src/shaders.js",
+      "type": "源码阅读",
+      "supports": "草叶几何、LOD、远景与云渲染"
+    },
+    {
+      "path": "docs/implemented-growth.md",
+      "type": "上游自述，非本研究复测",
+      "supports": "容量、内存、云优化历史、已移除山体及模型限制"
+    }
+  ],
+  "alternatives": [
+    {
+      "title": "Canvas API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+    },
+    {
+      "title": "Three.js InstancedMesh",
+      "url": "https://threejs.org/docs/pages/InstancedMesh.html"
+    },
+    {
+      "title": "WebGL2 Transform Feedback",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/transformFeedbackVaryings"
+    },
+    {
+      "title": "WebGPU API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API"
+    },
+    {
+      "title": "Unreal Engine Foliage Mode",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/foliage-mode-in-unreal-engine"
+    },
+    {
+      "title": "AMD GPUOpen Procedural Grass Rendering",
+      "url": "https://gpuopen.com/learn/mesh_shaders/mesh_shaders-procedural_grass_rendering/"
+    }
+  ],
+  "limits": [
+    "在线原库为可变入口，不能保证始终与固定 Commit 一致",
+    "其他路线为官方文档分析，没有实现或性能测试",
+    "没有公平性能基准，不能把并排 FPS 用作原库和自研版的优劣结论",
+    "未运行上游完整自动测试"
+  ],
+  "guide_image": {
+    "path": "assets/grass-effect-comparison.png",
+    "created_on": "2026-10-22",
+    "method": "Imagegen AI 生成效果对比示意",
+    "references": [
+      "原库在线画面的临时参考截图",
+      "本项目独立实现的实际运行截图 assets/cover.png"
+    ],
+    "purpose": "网页引导、README 与项目索引封面",
+    "limits": "不是实测截图、相机对齐结果、保真度测量或性能证据"
+  }
+}
