@@ -16,6 +16,8 @@
 
 ## 一图总览
 
+![Storm-Breaker 能力、浏览器权限与关页差异总览](assets/storm-breaker-overview.png)
+
 [高清 PNG 信息长图](assets/storm-breaker-overview.png) · [可缩放 SVG](assets/storm-breaker-overview.svg)
 
 单图涵盖上游实际能力、采集链路、浏览器信息权限分类、关页前后差异、场景价值与关键误解。2400 像素宽，建议放大阅读；具体高度以实际文件为准。

@@ -24,7 +24,7 @@
 
 用原创信息图与交互网页梳理环境信息、定位、相机抓拍、分段录音和结果管理，解释 22 项浏览器权限边界、关页差异与研究价值。
 
-[![Storm-Breaker 浏览器权限研究预览](projects/005-storm-breaker/assets/cover.png)](projects/005-storm-breaker/README.md)
+[![Storm-Breaker 浏览器权限研究预览](projects/005-storm-breaker/assets/storm-breaker-overview.png)](projects/005-storm-breaker/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始
