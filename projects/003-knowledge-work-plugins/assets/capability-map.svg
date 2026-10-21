@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="3140" viewBox="0 0 2000 3140" role="img" aria-labelledby="title desc">
+<title id="title">Knowledge Work Plugins：插件、Skill、岗位场景与业务落地全景</title>
+<desc id="desc">一张图汇总固定版本的17个顶层插件、181个Skill、角色场景、模型执行方式、白屏工单演示、三层控制与价值。演示客户为虚构，本地HTTP实际运行，Claude调用认证失败。</desc>
+<rect width="2000" height="3140" fill="#f6f5ef"/>
+<rect x="0" y="0" width="2000" height="210" rx="0" fill="#194c40" stroke="none"/>
+<text x="68" y="32" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#d1dfce">KNOWLEDGE WORK PLUGINS / 研究 003</text>
+<text x="68" y="79" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="52" font-weight="700" fill="#fffefa">把岗位经验，封装成 AI 可复用的工作流</text>
+<text x="68" y="151" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#d1dfce">插件是包装 · Skill 是方法 · Claude 理解并执行 · 业务系统承担强制控制</text>
+<text x="68" y="248" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">01</text>
+<text x="128" y="246" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">本质：Claude 的业务插件集合</text>
+<rect x="68" y="308" width="600" height="186" rx="14" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="92" y="329" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#194c40">Plugin｜按领域打包</text>
+<text x="92" y="378" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">把相关 Skill、命令、连接配置、模板或脚本组织成</text>
+<text x="92" y="414" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">一个能力包。</text>
+<text x="92" y="456" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#9b582c">固定版本：17 个顶层插件</text>
+<path d="M673 401L693 401" stroke="#194c40" stroke-width="3"/>
+<path d="M685 394L693 401" stroke="#194c40" stroke-width="3"/>
+<path d="M685 408L693 401" stroke="#194c40" stroke-width="3"/>
+<rect x="700" y="308" width="600" height="186" rx="14" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="724" y="329" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#194c40">Skill｜一项任务的操作说明</text>
+<text x="724" y="378" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">规定何时使用、需要什么输入、怎样执行、遵守什么</text>
+<text x="724" y="414" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">规则、交付什么。</text>
+<text x="724" y="456" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#9b582c">181 个 Skill，另有 5 个 Command</text>
+<path d="M1305 401L1325 401" stroke="#194c40" stroke-width="3"/>
+<path d="M1317 394L1325 401" stroke="#194c40" stroke-width="3"/>
+<path d="M1317 408L1325 401" stroke="#194c40" stroke-width="3"/>
+<rect x="1332" y="308" width="600" height="186" rx="14" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1356" y="329" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#194c40">Claude + 工具｜理解与执行</text>
+<text x="1356" y="378" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">模型选择步骤、理解材料、生成内容；MCP 或脚本</text>
+<text x="1356" y="414" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">负责取数、计算与操作。</text>
+<text x="1356" y="456" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#9b582c">需要宿主、数据、工具与实际授权</text>
+<text x="68" y="521" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#253e35">我们的理解：业务 SOP 的可复用知识包。普通对话也能执行同样方法；插件把方法的加载、触发、配置和维护标准化。</text>
+<text x="68" y="600" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">02</text>
+<text x="128" y="598" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">服务谁、做什么：全 17 类角色与能力</text>
+<text x="128" y="645" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">岗位是使用视角，不是账号身份或权限；181 个入口包含知识、动作和组合流程。</text>
+<text x="68" y="690" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">增长与客户</text>
+<path d="M68 729L513 729" stroke="#194c40" stroke-width="3"/>
+<rect x="68" y="746" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="85" y="758" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">销售与客户成功</text>
+<text x="432.0" y="763" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">36 Skill</text>
+<text x="85" y="795" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">客户研究 / 会议 / 商机与续约</text>
+<rect x="68" y="860" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="85" y="872" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">客户支持</text>
+<text x="443.0" y="877" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">5 Skill</text>
+<text x="85" y="909" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">分诊 / 回复升级 / 知识沉淀</text>
+<rect x="68" y="974" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="85" y="986" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">市场与内容</text>
+<text x="443.0" y="991" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">8 Skill</text>
+<text x="85" y="1023" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">品牌内容 / 活动邮件 / SEO</text>
+<text x="541" y="690" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">产品与技术</text>
+<path d="M541 729L986 729" stroke="#194c40" stroke-width="3"/>
+<rect x="541" y="746" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="558" y="758" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">产品管理</text>
+<text x="916.0" y="763" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">8 Skill</text>
+<text x="558" y="795" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">PRD / 路线图 / 用户研究与指标</text>
+<rect x="541" y="860" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="558" y="872" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">设计与用户研究</text>
+<text x="916.0" y="877" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">7 Skill</text>
+<text x="558" y="909" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">设计评审 / 开发交付 / 无障碍</text>
+<rect x="541" y="974" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="558" y="986" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">软件研发</text>
+<text x="905.0" y="991" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">10 Skill</text>
+<text x="558" y="1023" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">代码调试 / 架构 / 事故与测试</text>
+<rect x="541" y="1088" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="558" y="1100" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">数据分析</text>
+<text x="905.0" y="1105" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">10 Skill</text>
+<text x="558" y="1137" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">SQL / 数据验证 / 分析与看板</text>
+<text x="1014" y="690" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">组织与经营</text>
+<path d="M1014 729L1459 729" stroke="#194c40" stroke-width="3"/>
+<rect x="1014" y="746" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1031" y="758" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">财务与会计</text>
+<text x="1389.0" y="763" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">8 Skill</text>
+<text x="1031" y="795" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">对账分录 / 报表 / 关账与审计</text>
+<rect x="1014" y="860" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1031" y="872" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">企业法务</text>
+<text x="1389.0" y="877" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">9 Skill</text>
+<text x="1031" y="909" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">合同与 NDA / 风险 / 签署辅助</text>
+<rect x="1014" y="974" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1031" y="986" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">人力与管理</text>
+<text x="1389.0" y="991" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">9 Skill</text>
+<text x="1031" y="1023" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">招聘入职 / 绩效 / 薪酬与政策</text>
+<rect x="1014" y="1088" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1031" y="1100" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">业务运营</text>
+<text x="1389.0" y="1105" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">9 Skill</text>
+<text x="1031" y="1137" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">SOP / 供应商 / 变更与资源</text>
+<rect x="1014" y="1202" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1031" y="1214" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">小企业经营</text>
+<text x="1378.0" y="1219" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">44 Skill</text>
+<text x="1031" y="1251" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">账单现金 / 增长 / 经营组合流程</text>
+<text x="1487" y="690" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">专业研究与通用能力</text>
+<path d="M1487 729L1932 729" stroke="#194c40" stroke-width="3"/>
+<rect x="1487" y="746" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1504" y="758" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">生命科学研究</text>
+<text x="1862.0" y="763" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">6 Skill</text>
+<text x="1504" y="795" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">单细胞 QC / 测序 / 研究工具</text>
+<rect x="1487" y="860" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1504" y="872" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">个人工作管理</text>
+<text x="1862.0" y="877" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">4 Skill</text>
+<text x="1504" y="909" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">个人任务 / 工作记忆 / 看板</text>
+<rect x="1487" y="974" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1504" y="986" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">企业信息搜索</text>
+<text x="1862.0" y="991" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">5 Skill</text>
+<text x="1504" y="1023" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">跨源检索 / 去重综合 / 来源引用</text>
+<rect x="1487" y="1088" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1504" y="1100" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">插件创建与定制</text>
+<text x="1862.0" y="1105" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">2 Skill</text>
+<text x="1504" y="1137" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">创建定制 / 组件配置 / 插件打包</text>
+<rect x="1487" y="1202" width="445" height="102" rx="8" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1504" y="1214" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#253e35">PDF 协作审阅</text>
+<text x="1862.0" y="1219" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#596d63">1 Skill</text>
+<text x="1504" y="1251" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">查看批注 / 填表 / 放置签名图</text>
+<text x="68" y="1324" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">12 类职能 + 1 个跨职能小企业经营 + 4 种通用能力。上图场景为归纳，181 项详细入口保留在研究网页。</text>
+<text x="68" y="1370" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">03</text>
+<text x="128" y="1368" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">怎样工作：把自然语言需求变成可检查的交付</text>
+<rect x="68" y="1434" width="344" height="106" rx="10" fill="#e9eee4" stroke="none"/>
+<text x="86" y="1454" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">输入业务目标</text>
+<text x="86" y="1500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">资料 / 范围 / 公司规则</text>
+<path d="M418 1486L438 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M430 1479L438 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M430 1493L438 1486" stroke="#194c40" stroke-width="3"/>
+<rect x="448" y="1434" width="344" height="106" rx="10" fill="#e9eee4" stroke="none"/>
+<text x="466" y="1454" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">匹配 Skill</text>
+<text x="466" y="1500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">触发条件 / 所需输入</text>
+<path d="M798 1486L818 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M810 1479L818 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M810 1493L818 1486" stroke="#194c40" stroke-width="3"/>
+<rect x="828" y="1434" width="344" height="106" rx="10" fill="#e9eee4" stroke="none"/>
+<text x="846" y="1454" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">Claude 理解与判断</text>
+<text x="846" y="1500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">补缺口 / 选步骤 / 分析</text>
+<path d="M1178 1486L1198 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M1190 1479L1198 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M1190 1493L1198 1486" stroke="#194c40" stroke-width="3"/>
+<rect x="1208" y="1434" width="344" height="106" rx="10" fill="#e9eee4" stroke="none"/>
+<text x="1226" y="1454" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">调用工具或脚本</text>
+<text x="1226" y="1500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">搜索 / 取数 / 计算 / 操作</text>
+<path d="M1558 1486L1578 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M1570 1479L1578 1486" stroke="#194c40" stroke-width="3"/>
+<path d="M1570 1493L1578 1486" stroke="#194c40" stroke-width="3"/>
+<rect x="1588" y="1434" width="344" height="106" rx="10" fill="#e9eee4" stroke="none"/>
+<text x="1606" y="1454" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">交付并核验</text>
+<text x="1606" y="1500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">结果 / 证据 / 未完成项</text>
+<text x="68" y="1560" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#596d63">Skill 用自然语言指导模型；程序按明确规则执行检查。两者可以组合，可靠程度需要分别验证。</text>
+<text x="68" y="1612" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">04</text>
+<text x="128" y="1610" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">一个贴近实际的场景：客户反馈“登录白屏，非常急”</text>
+<rect x="68" y="1674" width="1864" height="64" rx="8" fill="#e9eee4" stroke="none"/>
+<text x="90" y="1693" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#194c40">先问：生产还是测试？影响多少人？有无替代方案？再查关联记录；情绪不能单独决定优先级。</text>
+<rect x="68" y="1760" width="916" height="125" rx="10" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="90" y="1775" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#253e35">生产 · 120/120 人 · 无替代方案</text>
+<text x="90" y="1818" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">P1 → 工程值班队列</text>
+<text x="90" y="1860" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">按本演示公司规则，核心业务大范围受阻。</text>
+<rect x="1016" y="1760" width="916" height="125" rx="10" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="1038" y="1775" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#253e35">测试 · 1/120 人 · 有替代方案</text>
+<text x="1038" y="1818" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">P3 → 一线支持队列</text>
+<text x="1038" y="1860" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">症状相同，影响与紧急程度不同，处理方式随之改变。</text>
+<text x="68" y="1910" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#253e35">业务交付：分级依据 + 关联线索 + 根因未确认 + 路由建议 + 回复草稿；“已分派”不等于“已解决”。</text>
+<rect x="68" y="1960" width="600" height="108" rx="10" fill="#f7edde" stroke="none"/>
+<text x="90" y="1978" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#9b582c">未批准就分派</text>
+<text x="90" y="2026" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#253e35">403 拒绝，0 条分派</text>
+<rect x="700" y="1960" width="600" height="108" rx="10" fill="#f7edde" stroke="none"/>
+<text x="722" y="1978" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#9b582c">批准后改变事实</text>
+<text x="722" y="2026" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#253e35">原批准失效；旧版本返回 409</text>
+<rect x="1332" y="1960" width="600" height="108" rx="10" fill="#f7edde" stroke="none"/>
+<text x="1354" y="1978" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#9b582c">重新批准再分派</text>
+<text x="1354" y="2026" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#253e35">写入 1 条；重复提交仍 1 条</text>
+<text x="68" y="2092" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">已验证的是本研究新增的本地程序：15 次 HTTP 请求与最终读回。客户、资料和公司规则均为虚构；分级由预设程序计算。</text>
+<text x="68" y="2164" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#9b582c">Claude 实际请求因令牌过期失败，未取得有效模型回答；未完成插件与直接对话的效果对比。</text>
+<text x="68" y="2240" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">05</text>
+<text x="128" y="2238" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">控制要分层：写下规则 ≠ 系统已经强制执行</text>
+<rect x="68" y="2304" width="600" height="150" rx="10" fill="#e9eee4" stroke="#d8e0d5"/>
+<text x="90" y="2323" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">提示词 / Skill 约束</text>
+<text x="90" y="2370" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">先查证、不要编造、何时确认、怎样输出。</text>
+<text x="90" y="2422" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">依赖模型遵守，需检查结果。</text>
+<rect x="700" y="2304" width="600" height="150" rx="10" fill="#fffefa" stroke="#d8e0d5"/>
+<text x="722" y="2323" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">程序化检查</text>
+<text x="722" y="2370" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">脚本按规则校验和计算；如上游 QC 过滤。</text>
+<text x="722" y="2422" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">存在程序不等于已跑通或参数适用。</text>
+<rect x="1332" y="2304" width="600" height="150" rx="10" fill="#f7edde" stroke="#d8e0d5"/>
+<text x="1354" y="2323" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">系统强制控制</text>
+<text x="1354" y="2370" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#596d63">身份权限、审批版本、幂等、状态转换。</text>
+<text x="1354" y="2422" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#596d63">需业务系统实现；本轮仅验证本地演示门。</text>
+<text x="68" y="2500" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#9b582c">06</text>
+<text x="128" y="2498" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#194c40">意义：把经验变成可以复用、检查和交接的方法</text>
+<text x="71" y="2564" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">对提出需求的人</text>
+<text x="71" y="2613" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">少重复交代背景与规则，明确输入、范围和完成标准</text>
+<text x="71" y="2651" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">。</text>
+<text x="703" y="2564" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">对团队协作</text>
+<text x="703" y="2613" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">统一检查点与交付结构，让异常、责任和后续事项更</text>
+<text x="703" y="2651" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">容易交接。</text>
+<text x="1335" y="2564" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#194c40">对业务落地</text>
+<text x="1335" y="2613" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">结合模型判断、工具执行与系统控制，逐步建立可验</text>
+<text x="1335" y="2651" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#596d63">证的流程。</text>
+<rect x="68" y="2710" width="1864" height="101" rx="10" fill="#194c40" stroke="none"/>
+<text x="94" y="2731" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#fffefa">核心价值在具体业务方法的质量与复用；插件包装本身不保证更聪明、更准确或更高效。</text>
+<text x="94" y="2776" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#d1dfce">一次性任务可直接对话；反复发生、规则稳定、多人交接的任务，更适合沉淀为 Skill 与业务流程。</text>
+<path d="M68 2841L1932 2841" stroke="#d8e0d5" stroke-width="2"/>
+<text x="68" y="2866" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#194c40">证据范围与研究边界</text>
+<text x="68" y="2907" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#596d63">上游固定版本：a266ab8 · 2026-10-21 · Apache-2.0 · 源码静态研究，真实业务效率尚无量化验证。</text>
+<text x="68" y="2945" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#596d63">市场共 123 条记录：17 个顶层、5 个仓内合作伙伴、101 个外部仓库；伙伴与外部源仅清点，未逐项审核。</text>
+<text x="68" y="2983" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#596d63">研究交付：17 条业务深化 / 14 类约束 / 13 份模板 / 工单实操与记录回放；均可在研究网页继续查阅。</text>
+<text x="68" y="3043" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#596d63">上游：github.com/anthropics/knowledge-work-plugins     图示与本地演示：研究仓库 projects/003-knowledge-work-plugins</text>
+</svg>

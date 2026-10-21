@@ -17,6 +17,15 @@
       "repository": "https://github.com/ultrasecurity/Storm-Breaker",
       "status": "已完成",
       "image": "assets/storm-breaker-overview.png"
+    },
+    {
+      "id": "003",
+      "slug": "knowledge-work-plugins",
+      "title": "Knowledge Work Plugins：Claude 岗位插件与业务 Skill",
+      "summary": "Claude 的插件与 Skill 集合，按岗位和业务场景匹配调用工作方法；供我们复用业务 SOP，设计需求、异常处理与验收，系统权限和审批另行实现。",
+      "repository": "https://github.com/anthropics/knowledge-work-plugins",
+      "status": "已完成",
+      "image": "assets/capability-map.png"
     }
   ]
 }

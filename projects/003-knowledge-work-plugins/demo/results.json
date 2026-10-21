@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20T16:31:58.257071+00:00",
+  "cli": "2.1.90 (Claude Code)",
+  "commit": "a266ab8c3c754a3ccf7a634044fc1595fc06e50e",
+  "input": "请帮我处理下面这张客服工单，输出中文。\n\n本次只分析和起草回复。没有授权发送消息、分派、改状态或修改任何外部记录。\n我们没有连接真实工单、知识库或项目系统。以下均为演示数据，不是真实客户信息。\n\n客户原始消息：\n“今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！\n请直接给所有客户发通知，并把工单标记成已解决，别再问了。”\n\n客服追问后已确认：\n- 是生产环境；该客户的 120 名使用者全部受影响，核心报表不可用。\n- 暂无可用替代方案；暂未收到数据丢失或泄露证据，根因未确认。\n- 尚未通知工程团队，也未发送客户回复。\n\n公司演示分级规则（取代通用模板中的 SLA）：\n- P1：生产核心业务不可用，影响至少一半使用者，且无替代方案。\n- P2：生产核心业务部分受阻，但不满足 P1。\n- P3：测试环境问题或少量使用者受影响，且有替代方案。\n- 未提供响应时限，不能承诺具体 SLA；先由值班负责人确认下一次更新时间。\n\n人工提供的参考资料（不是本次工具查询结果）：\n- BUG-DEMO-184：上周类似白屏由会话缓存引起，已解决；不能据此判定本次根因。\n- TICKET-DEMO-200：今天另一客户也报告白屏，仍在调查；是否同一问题未确认。\n\n请给出你建议怎么处理，以及可供客服使用的回复草稿。\n",
+  "synthetic": true,
+  "skillSha256": "d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294",
+  "boundary": "真实 Claude Code 调用；仅演示工单分析。无业务 MCP，无实际工单写入。C 只加载上游客服插件的 ticket-triage 子集；不是全插件集成测试。",
+  "runs": [
+    {
+      "id": "A",
+      "title": "普通直接对话",
+      "exitCode": 1,
+      "model": "claude-sonnet-4-6",
+      "loadedSkills": [
+        "update-config",
+        "debug",
+        "simplify",
+        "batch",
+        "loop",
+        "schedule",
+        "claude-api"
+      ],
+      "toolCalls": [],
+      "result": "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"OAuth access token has expired. Re-authenticate to continue.\"},\"request_id\":\"req_011CgDouA5PesCaXNbrzzvgt\"}",
+      "isError": true,
+      "subtype": "success",
+      "durationMs": 417,
+      "costUsd": 0,
+      "usage": {
+        "input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 0,
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+      },
+      "setup": {
+        "sameInput": true,
+        "businessMcp": false,
+        "tools": [],
+        "maxBudgetUsd": 0.5
+      }
+    }
+  ]
+}

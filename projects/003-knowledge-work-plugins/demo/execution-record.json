@@ -1,0 +1,2177 @@
+{
+  "date": "2026-10-20T16:38:09.162068+00:00",
+  "kind": "actual-local-http-execution",
+  "syntheticData": true,
+  "llmInvoked": false,
+  "externalBusinessWrites": false,
+  "method": "15 次真实 HTTP POST，加最终 GET 读回；断言状态码、分派数量和未发送 / 未解决状态。",
+  "checks": [
+    {
+      "title": "缺关键事实时尝试批准",
+      "request": {
+        "action": "approve",
+        "body": {
+          "revision": 1
+        }
+      },
+      "status": 422,
+      "code": "MISSING_FACTS",
+      "receiptCount": 0,
+      "revision": 1,
+      "priority": "待补信息",
+      "lastEvent": {
+        "sequence": 2,
+        "time": "2026-10-20T16:38:09.004426+00:00",
+        "action": "拒绝：approve",
+        "code": "MISSING_FACTS",
+        "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 1,
+        "profile": "incomplete",
+        "lookup": null,
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          }
+        ],
+        "sequence": 2,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "只有客户原话",
+          "environment": "未知",
+          "affected": null,
+          "total": null,
+          "workaround": "未知",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "待补信息",
+          "reason": "客户很着急，但无法仅凭情绪确定影响范围。",
+          "queue": null,
+          "missing": [
+            "生产还是测试环境",
+            "受影响人数 / 总人数",
+            "是否有替代方案"
+          ],
+          "sourceStatus": "尚未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。请确认这是生产还是测试环境、受影响人数和是否有替代方案。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "e842a6e9c60509b141084e3fcd4c1532f52e70e8b63f280c414b1834a20e28ed",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "补齐生产环境事实",
+      "request": {
+        "action": "profile",
+        "body": {
+          "profile": "production"
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 0,
+      "revision": 2,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 3,
+        "time": "2026-10-20T16:38:09.022156+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v2，原批准失效。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 2,
+        "profile": "production",
+        "lookup": null,
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          }
+        ],
+        "sequence": 3,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "尚未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "b748ca5127405b8dd12c35e3834cb89c03928fdd94b46d91a01ffcb911097032",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "查询本地演示资料",
+      "request": {
+        "action": "lookup",
+        "body": {
+          "mode": "available"
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 0,
+      "revision": 3,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 4,
+        "time": "2026-10-20T16:38:09.037208+00:00",
+        "action": "查询本地演示资料",
+        "code": "OK",
+        "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 3,
+        "profile": "production",
+        "lookup": "available",
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          }
+        ],
+        "sequence": 4,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "19db0862e536321ae6f3b5624a8d36bdea84e564da9e59cc517d356ad788baec",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "绕过按钮直接请求未批准分派",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 3
+        }
+      },
+      "status": 403,
+      "code": "APPROVAL_REQUIRED",
+      "receiptCount": 0,
+      "revision": 3,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 5,
+        "time": "2026-10-20T16:38:09.053119+00:00",
+        "action": "拒绝：dispatch",
+        "code": "APPROVAL_REQUIRED",
+        "detail": "没有当前版本的批准，服务端拒绝分派。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 3,
+        "profile": "production",
+        "lookup": "available",
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          }
+        ],
+        "sequence": 5,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "19db0862e536321ae6f3b5624a8d36bdea84e564da9e59cc517d356ad788baec",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "批准当前 P1 分派",
+      "request": {
+        "action": "approve",
+        "body": {
+          "revision": 3
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 0,
+      "revision": 3,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 6,
+        "time": "2026-10-20T16:38:09.068294+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 3,
+        "profile": "production",
+        "lookup": "available",
+        "approval": {
+          "revision": 3,
+          "digest": "19db0862e536321ae6f3b5624a8d36bdea84e564da9e59cc517d356ad788baec",
+          "actor": "演示主管（非认证身份）",
+          "queue": "工程值班队列",
+          "priority": "P1"
+        },
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          }
+        ],
+        "sequence": 6,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "19db0862e536321ae6f3b5624a8d36bdea84e564da9e59cc517d356ad788baec",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "改为测试环境使原批准失效",
+      "request": {
+        "action": "profile",
+        "body": {
+          "profile": "testing"
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 0,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 7,
+        "time": "2026-10-20T16:38:09.097671+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v4，原批准失效。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          }
+        ],
+        "sequence": 7,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "提交旧版本分派",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 3
+        }
+      },
+      "status": 409,
+      "code": "STALE_REVISION",
+      "receiptCount": 0,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 8,
+        "time": "2026-10-20T16:38:09.100369+00:00",
+        "action": "拒绝：dispatch",
+        "code": "STALE_REVISION",
+        "detail": "工单已更新，请读取当前版本后重新决定。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          }
+        ],
+        "sequence": 8,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "新版本未重新批准就分派",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 4
+        }
+      },
+      "status": 403,
+      "code": "APPROVAL_REQUIRED",
+      "receiptCount": 0,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 9,
+        "time": "2026-10-20T16:38:09.103130+00:00",
+        "action": "拒绝：dispatch",
+        "code": "APPROVAL_REQUIRED",
+        "detail": "没有当前版本的批准，服务端拒绝分派。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": null,
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          }
+        ],
+        "sequence": 9,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "重新批准当前 P3 分派",
+      "request": {
+        "action": "approve",
+        "body": {
+          "revision": 4
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 0,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 10,
+        "time": "2026-10-20T16:38:09.105329+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": {
+          "revision": 4,
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "actor": "演示主管（非认证身份）",
+          "queue": "一线支持队列",
+          "priority": "P3"
+        },
+        "receipts": [],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          }
+        ],
+        "sequence": 10,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "执行本地分派",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 4
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 1,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 11,
+        "time": "2026-10-20T16:38:09.108334+00:00",
+        "action": "本地分派已写入",
+        "code": "OK",
+        "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": {
+          "revision": 4,
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "actor": "演示主管（非认证身份）",
+          "queue": "一线支持队列",
+          "priority": "P3"
+        },
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          }
+        ],
+        "sequence": 11,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "重复提交分派请求",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 4
+        }
+      },
+      "status": 200,
+      "code": "ALREADY_DISPATCHED",
+      "receiptCount": 1,
+      "revision": 4,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 12,
+        "time": "2026-10-20T16:38:09.129111+00:00",
+        "action": "重复提交已去重",
+        "code": "ALREADY_DISPATCHED",
+        "detail": "返回已有分派结果，没有新增分派。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 4,
+        "profile": "testing",
+        "lookup": "available",
+        "approval": {
+          "revision": 4,
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "actor": "演示主管（非认证身份）",
+          "queue": "一线支持队列",
+          "priority": "P3"
+        },
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T16:38:09.129111+00:00",
+            "action": "重复提交已去重",
+            "code": "ALREADY_DISPATCHED",
+            "detail": "返回已有分派结果，没有新增分派。"
+          }
+        ],
+        "sequence": 12,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "已查询本地演示资料",
+          "matches": [
+            {
+              "id": "BUG-DEMO-184",
+              "title": "上周类似白屏",
+              "status": "已解决",
+              "detail": "当时原因是会话缓存；不能据此认定本次根因。"
+            },
+            {
+              "id": "TICKET-DEMO-200",
+              "title": "今天另一演示客户白屏",
+              "status": "调查中",
+              "detail": "仅症状相似，是否同一故障尚未确认。"
+            }
+          ],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "模拟资料源不可用",
+      "request": {
+        "action": "lookup",
+        "body": {
+          "mode": "unavailable"
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 1,
+      "revision": 5,
+      "priority": "P3",
+      "lastEvent": {
+        "sequence": 13,
+        "time": "2026-10-20T16:38:09.142254+00:00",
+        "action": "资料源不可用",
+        "code": "OK",
+        "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 5,
+        "profile": "testing",
+        "lookup": "unavailable",
+        "approval": null,
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T16:38:09.129111+00:00",
+            "action": "重复提交已去重",
+            "code": "ALREADY_DISPATCHED",
+            "detail": "返回已有分派结果，没有新增分派。"
+          },
+          {
+            "sequence": 13,
+            "time": "2026-10-20T16:38:09.142254+00:00",
+            "action": "资料源不可用",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          }
+        ],
+        "sequence": 13,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "测试环境 · 有替代方案",
+          "environment": "测试",
+          "affected": 1,
+          "total": 120,
+          "workaround": "有",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P3",
+          "reason": "测试环境，1/120 人受影响且有替代方案。",
+          "queue": "一线支持队列",
+          "missing": [],
+          "sourceStatus": "资料源不可用，未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。目前确认是测试环境，1/120名使用者受影响，替代方案：有。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "bdbef293ae7c6887e2847fa6336bcc875a9d8273f5f8508e2ae02268dc16e220",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "切回生产环境",
+      "request": {
+        "action": "profile",
+        "body": {
+          "profile": "production"
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 1,
+      "revision": 6,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 14,
+        "time": "2026-10-20T16:38:09.144683+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v6，原批准失效。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 6,
+        "profile": "production",
+        "lookup": "unavailable",
+        "approval": null,
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T16:38:09.129111+00:00",
+            "action": "重复提交已去重",
+            "code": "ALREADY_DISPATCHED",
+            "detail": "返回已有分派结果，没有新增分派。"
+          },
+          {
+            "sequence": 13,
+            "time": "2026-10-20T16:38:09.142254+00:00",
+            "action": "资料源不可用",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 14,
+            "time": "2026-10-20T16:38:09.144683+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v6，原批准失效。"
+          }
+        ],
+        "sequence": 14,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "资料源不可用，未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "披露资料缺口后批准 P1 分派",
+      "request": {
+        "action": "approve",
+        "body": {
+          "revision": 6
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 1,
+      "revision": 6,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 15,
+        "time": "2026-10-20T16:38:09.158064+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v6 / P1 / 工程值班队列；不批准群发或关闭。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 6,
+        "profile": "production",
+        "lookup": "unavailable",
+        "approval": {
+          "revision": 6,
+          "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+          "actor": "演示主管（非认证身份）",
+          "queue": "工程值班队列",
+          "priority": "P1"
+        },
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T16:38:09.129111+00:00",
+            "action": "重复提交已去重",
+            "code": "ALREADY_DISPATCHED",
+            "detail": "返回已有分派结果，没有新增分派。"
+          },
+          {
+            "sequence": 13,
+            "time": "2026-10-20T16:38:09.142254+00:00",
+            "action": "资料源不可用",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 14,
+            "time": "2026-10-20T16:38:09.144683+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v6，原批准失效。"
+          },
+          {
+            "sequence": 15,
+            "time": "2026-10-20T16:38:09.158064+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v6 / P1 / 工程值班队列；不批准群发或关闭。"
+          }
+        ],
+        "sequence": 15,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "资料源不可用，未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    },
+    {
+      "title": "实际写入 P1 分派",
+      "request": {
+        "action": "dispatch",
+        "body": {
+          "revision": 6
+        }
+      },
+      "status": 200,
+      "code": "OK",
+      "receiptCount": 2,
+      "revision": 6,
+      "priority": "P1",
+      "lastEvent": {
+        "sequence": 16,
+        "time": "2026-10-20T16:38:09.160069+00:00",
+        "action": "本地分派已写入",
+        "code": "OK",
+        "detail": "ASSIGN-DEMO-002 / 工程值班队列；工单未关闭，客户回复未发送。"
+      },
+      "snapshot": {
+        "ticketId": "TICKET-DEMO-001",
+        "revision": 6,
+        "profile": "production",
+        "lookup": "unavailable",
+        "approval": {
+          "revision": 6,
+          "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+          "actor": "演示主管（非认证身份）",
+          "queue": "工程值班队列",
+          "priority": "P1"
+        },
+        "receipts": [
+          {
+            "id": "ASSIGN-DEMO-001",
+            "revision": 4,
+            "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+            "priority": "P3",
+            "queue": "一线支持队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          },
+          {
+            "id": "ASSIGN-DEMO-002",
+            "revision": 6,
+            "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+            "priority": "P1",
+            "queue": "工程值班队列",
+            "status": "已分派，未解决",
+            "replySent": false
+          }
+        ],
+        "events": [
+          {
+            "sequence": 1,
+            "time": "2026-10-20T16:38:08.974128+00:00",
+            "action": "创建演示工单",
+            "code": "OK",
+            "detail": "只有客户原话；未读取任何真实客户资料。"
+          },
+          {
+            "sequence": 2,
+            "time": "2026-10-20T16:38:09.004426+00:00",
+            "action": "拒绝：approve",
+            "code": "MISSING_FACTS",
+            "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+          },
+          {
+            "sequence": 3,
+            "time": "2026-10-20T16:38:09.022156+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v2，原批准失效。"
+          },
+          {
+            "sequence": 4,
+            "time": "2026-10-20T16:38:09.037208+00:00",
+            "action": "查询本地演示资料",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 5,
+            "time": "2026-10-20T16:38:09.053119+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 6,
+            "time": "2026-10-20T16:38:09.068294+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 7,
+            "time": "2026-10-20T16:38:09.097671+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v4，原批准失效。"
+          },
+          {
+            "sequence": 8,
+            "time": "2026-10-20T16:38:09.100369+00:00",
+            "action": "拒绝：dispatch",
+            "code": "STALE_REVISION",
+            "detail": "工单已更新，请读取当前版本后重新决定。"
+          },
+          {
+            "sequence": 9,
+            "time": "2026-10-20T16:38:09.103130+00:00",
+            "action": "拒绝：dispatch",
+            "code": "APPROVAL_REQUIRED",
+            "detail": "没有当前版本的批准，服务端拒绝分派。"
+          },
+          {
+            "sequence": 10,
+            "time": "2026-10-20T16:38:09.105329+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 11,
+            "time": "2026-10-20T16:38:09.108334+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+          },
+          {
+            "sequence": 12,
+            "time": "2026-10-20T16:38:09.129111+00:00",
+            "action": "重复提交已去重",
+            "code": "ALREADY_DISPATCHED",
+            "detail": "返回已有分派结果，没有新增分派。"
+          },
+          {
+            "sequence": 13,
+            "time": "2026-10-20T16:38:09.142254+00:00",
+            "action": "资料源不可用",
+            "code": "OK",
+            "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+          },
+          {
+            "sequence": 14,
+            "time": "2026-10-20T16:38:09.144683+00:00",
+            "action": "更新事实",
+            "code": "OK",
+            "detail": "版本变为 v6，原批准失效。"
+          },
+          {
+            "sequence": 15,
+            "time": "2026-10-20T16:38:09.158064+00:00",
+            "action": "人工批准本次分派",
+            "code": "OK",
+            "detail": "v6 / P1 / 工程值班队列；不批准群发或关闭。"
+          },
+          {
+            "sequence": 16,
+            "time": "2026-10-20T16:38:09.160069+00:00",
+            "action": "本地分派已写入",
+            "code": "OK",
+            "detail": "ASSIGN-DEMO-002 / 工程值班队列；工单未关闭，客户回复未发送。"
+          }
+        ],
+        "sequence": 16,
+        "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+        "facts": {
+          "label": "生产环境 · 全员受阻",
+          "environment": "生产",
+          "affected": 120,
+          "total": 120,
+          "workaround": "无",
+          "coreBlocked": true
+        },
+        "analysis": {
+          "priority": "P1",
+          "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+          "queue": "工程值班队列",
+          "missing": [],
+          "sourceStatus": "资料源不可用，未查询",
+          "matches": [],
+          "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+          "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+          "rootCause": "未确认",
+          "category": "Bug（暂定）",
+          "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+        },
+        "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+      }
+    }
+  ],
+  "finalState": {
+    "ticketId": "TICKET-DEMO-001",
+    "revision": 6,
+    "profile": "production",
+    "lookup": "unavailable",
+    "approval": {
+      "revision": 6,
+      "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+      "actor": "演示主管（非认证身份）",
+      "queue": "工程值班队列",
+      "priority": "P1"
+    },
+    "receipts": [
+      {
+        "id": "ASSIGN-DEMO-001",
+        "revision": 4,
+        "digest": "6ad751abe8edaa35457730e0dfcacfc81a9a1c674386f637956e5a92a273e079",
+        "priority": "P3",
+        "queue": "一线支持队列",
+        "status": "已分派，未解决",
+        "replySent": false
+      },
+      {
+        "id": "ASSIGN-DEMO-002",
+        "revision": 6,
+        "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+        "priority": "P1",
+        "queue": "工程值班队列",
+        "status": "已分派，未解决",
+        "replySent": false
+      }
+    ],
+    "events": [
+      {
+        "sequence": 1,
+        "time": "2026-10-20T16:38:08.974128+00:00",
+        "action": "创建演示工单",
+        "code": "OK",
+        "detail": "只有客户原话；未读取任何真实客户资料。"
+      },
+      {
+        "sequence": 2,
+        "time": "2026-10-20T16:38:09.004426+00:00",
+        "action": "拒绝：approve",
+        "code": "MISSING_FACTS",
+        "detail": "缺关键事实，不能批准或分派：生产还是测试环境、受影响人数 / 总人数、是否有替代方案"
+      },
+      {
+        "sequence": 3,
+        "time": "2026-10-20T16:38:09.022156+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v2，原批准失效。"
+      },
+      {
+        "sequence": 4,
+        "time": "2026-10-20T16:38:09.037208+00:00",
+        "action": "查询本地演示资料",
+        "code": "OK",
+        "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+      },
+      {
+        "sequence": 5,
+        "time": "2026-10-20T16:38:09.053119+00:00",
+        "action": "拒绝：dispatch",
+        "code": "APPROVAL_REQUIRED",
+        "detail": "没有当前版本的批准，服务端拒绝分派。"
+      },
+      {
+        "sequence": 6,
+        "time": "2026-10-20T16:38:09.068294+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v3 / P1 / 工程值班队列；不批准群发或关闭。"
+      },
+      {
+        "sequence": 7,
+        "time": "2026-10-20T16:38:09.097671+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v4，原批准失效。"
+      },
+      {
+        "sequence": 8,
+        "time": "2026-10-20T16:38:09.100369+00:00",
+        "action": "拒绝：dispatch",
+        "code": "STALE_REVISION",
+        "detail": "工单已更新，请读取当前版本后重新决定。"
+      },
+      {
+        "sequence": 9,
+        "time": "2026-10-20T16:38:09.103130+00:00",
+        "action": "拒绝：dispatch",
+        "code": "APPROVAL_REQUIRED",
+        "detail": "没有当前版本的批准，服务端拒绝分派。"
+      },
+      {
+        "sequence": 10,
+        "time": "2026-10-20T16:38:09.105329+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v4 / P3 / 一线支持队列；不批准群发或关闭。"
+      },
+      {
+        "sequence": 11,
+        "time": "2026-10-20T16:38:09.108334+00:00",
+        "action": "本地分派已写入",
+        "code": "OK",
+        "detail": "ASSIGN-DEMO-001 / 一线支持队列；工单未关闭，客户回复未发送。"
+      },
+      {
+        "sequence": 12,
+        "time": "2026-10-20T16:38:09.129111+00:00",
+        "action": "重复提交已去重",
+        "code": "ALREADY_DISPATCHED",
+        "detail": "返回已有分派结果，没有新增分派。"
+      },
+      {
+        "sequence": 13,
+        "time": "2026-10-20T16:38:09.142254+00:00",
+        "action": "资料源不可用",
+        "code": "OK",
+        "detail": "不会将未查询写成没有重复问题；更新后需要重新批准。"
+      },
+      {
+        "sequence": 14,
+        "time": "2026-10-20T16:38:09.144683+00:00",
+        "action": "更新事实",
+        "code": "OK",
+        "detail": "版本变为 v6，原批准失效。"
+      },
+      {
+        "sequence": 15,
+        "time": "2026-10-20T16:38:09.158064+00:00",
+        "action": "人工批准本次分派",
+        "code": "OK",
+        "detail": "v6 / P1 / 工程值班队列；不批准群发或关闭。"
+      },
+      {
+        "sequence": 16,
+        "time": "2026-10-20T16:38:09.160069+00:00",
+        "action": "本地分派已写入",
+        "code": "OK",
+        "detail": "ASSIGN-DEMO-002 / 工程值班队列；工单未关闭，客户回复未发送。"
+      }
+    ],
+    "sequence": 16,
+    "message": "今天上午 9:10 开始，登录云报表后就是白屏，好多人都用不了，非常急！请直接给所有客户发通知，并把工单标记成已解决，别再问了。",
+    "facts": {
+      "label": "生产环境 · 全员受阻",
+      "environment": "生产",
+      "affected": 120,
+      "total": 120,
+      "workaround": "无",
+      "coreBlocked": true
+    },
+    "analysis": {
+      "priority": "P1",
+      "reason": "生产核心报表不可用，120/120 人受影响且无替代方案。",
+      "queue": "工程值班队列",
+      "missing": [],
+      "sourceStatus": "资料源不可用，未查询",
+      "matches": [],
+      "reply": "收到你反馈的登录白屏问题。目前确认是生产环境，120/120名使用者受影响，替代方案：无。目前原因尚未确认。下一次更新时间由值班负责人确认后告知；此回复是草稿，尚未发送。",
+      "digest": "b62bb96b081db638fd61795ed8960e9a3c8515f4032f8b7d02c0fa92159e446d",
+      "rootCause": "未确认",
+      "category": "Bug（暂定）",
+      "blockedInstructions": "客户要求群发和标记解决，仅作为请求记录；本次没有该授权，也未执行。"
+    },
+    "boundary": "虚构工单；本地真实执行；无 Claude 调用及外部业务写入；演示审批无人员身份认证。"
+  }
+}
