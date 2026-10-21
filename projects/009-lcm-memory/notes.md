@@ -119,3 +119,21 @@ usageBoost = 1 + 0.75 × n / (n + 1)
 - `python -m unittest discover -s tests`：6 项通过；`python scripts/catalog.py --check`：9 个项目通过；`git diff --check` 通过。
 
 未运行上游 LCM，没有新增真实效果数据。所有来源仍固定为 0c17dbf。
+
+
+## 远端提交与网页部署（2026-10-22）
+
+- 从远端最新 main 建立独立发布工作区，只提交 009 子项目及其索引，保留已发布项目与本地并行研究。
+- 发布提交：`c93c03ef33779dbeb9f81e743c0f0a12073b7011`。
+- 项目名称：LCM：AI 编程助手的外部项目记忆。
+- 索引摘要直接说明外部记忆能力、Hooks / MCP / CLI 接入、SQLite 与分层摘要原理、持续研究 / 排错 / 决策追溯场景和预期价值；未将收益表述成实测结果。
+- 引导图：`assets/lcm-external-memory.png`，使用本研究生成的总图。
+- 发布工作区：6 项单元测试通过；6 个远端索引条目校验通过；JavaScript 语法与暂存差异检查通过。
+- [提交校验 CI](https://github.com/yydshly/1021_codex_project/actions/runs/39640016913)：成功。
+- [GitHub Pages 部署](https://github.com/yydshly/1021_codex_project/actions/runs/39640020426)：成功。
+- [在线研究网页](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/) 与 [独立图解](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/overview.html) 返回 HTTP 200。
+- 在线 main.js、overview.js、SVG、PNG、门户封面资源均返回 HTTP 200；PNG 与本地生成图的 SHA-256 一致。
+- 门户 HTML 已核对能力摘要与生成总图路径；浏览器验证图解切换、年龄衰减、重置至 5.10，未捕获控制台错误。
+- 实际线上截图：`assets/deployed-page-20261022.png`。
+
+本次发布的是研究网页和解释图，仍未运行上游 LCM 做收益实测。

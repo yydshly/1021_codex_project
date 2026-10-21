@@ -14,7 +14,7 @@ LCM 为 AI 编程助手提供模型之外的项目记忆。它保存捕获的交
 | 研究日期 | 2026-10-21；总图更新于 2026-10-22（Asia/Shanghai） |
 | 状态 | 已完成，限定为源码分析与解释网页；上游运行效果未验证 |
 | 网页入口 | [在线研究网页](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/) · [本地网页](web/index.html) |
-| 发布目标 | GitHub Pages；部署结果见 [notes.md](notes.md) |
+| 部署状态 | 已于 2026-10-22 部署到 GitHub Pages；[部署记录](https://github.com/yydshly/1021_codex_project/actions/runs/39640020426) |
 
 ## 一图理解：本质是外部项目记忆
 
