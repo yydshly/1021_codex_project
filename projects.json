@@ -71,6 +71,15 @@
       "repository": "https://github.com/Vincentwei1021/mg-styles-15",
       "status": "已归档",
       "image": "assets/capability-map-019/mg-styles-capability-map.png"
+    },
+    {
+      "id": "011",
+      "slug": "alphadesk-terminal",
+      "title": "AlphaDesk：金融研究工作台的能力、架构与扩展",
+      "summary": "聚合行情、新闻、公司披露与事件，支持市场观察、公司研究和事件跟踪。通过来源适配、字段整理、缓存与确定性计算，向 React 网页及只读 MCP/REST 输出研究材料；结合架构图与历史实测，研究向 A 股、每日资讯和行业情报扩展的方式与边界。",
+      "repository": "https://github.com/vigneshv1cky/alphadesk-terminal",
+      "status": "研究中",
+      "image": "assets/architecture-full.png"
     }
   ]
 }

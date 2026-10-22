@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-10-21T18:18:04.908836+00:00",
+  "synthetic": false,
+  "mode": "original application, public sources, no commercial keys",
+  "checks": [
+    {
+      "name": "chart_provider",
+      "path": "/api/chart/capabilities",
+      "status": 200,
+      "sha256": "9c6b132b2a2683707ff6f95dc24a49ca4de5af5a3c0cf496eee181563a967b27",
+      "provider": "yahoo"
+    },
+    {
+      "name": "treasury",
+      "path": "/api/movers/bonds",
+      "status": 200,
+      "sha256": "207c429c7aac553dd5eb824ce14a50a16beb7ccdc512c12fbcde5727e9c7d35e",
+      "source": "treasury",
+      "records": 12,
+      "data_dates": [
+        "2026-10-20"
+      ]
+    },
+    {
+      "name": "chart",
+      "path": "/api/chart/NVDA?range=1M&interval=1d",
+      "status": 200,
+      "sha256": "53d84fc857513534b1ef3e767e5d712d66fcdacd4ea23521c57a6f5db56c21cd",
+      "source": null,
+      "records": 23,
+      "first_at": "2026-09-21T13:30:00+00:00",
+      "last_at": "2026-10-21T13:30:00+00:00"
+    },
+    {
+      "name": "halts",
+      "path": "/api/halts?limit=60",
+      "status": 200,
+      "sha256": "2c0eb1de90b7ae76f7256f9ba9336aa5e211c530d2a2482b79ec0254f4c2792d",
+      "records": 39,
+      "sources": [
+        "nasdaq"
+      ],
+      "fields": [
+        "halts"
+      ]
+    },
+    {
+      "name": "government",
+      "path": "/api/gov/feed?days=30&limit=40",
+      "status": 200,
+      "sha256": "129240aadb26fb80dc914c5982d81967ade6008c7d7106f34291c44e14601668",
+      "records": 40,
+      "sources": [
+        "agencies",
+        "fed"
+      ],
+      "unavailable": {},
+      "read_at": {
+        "agencies": "2026-10-21T18:16:03+00:00",
+        "fed": "2026-10-21T18:16:04+00:00",
+        "treasury": "2026-10-21T18:16:06+00:00"
+      }
+    },
+    {
+      "name": "ipos",
+      "path": "/api/calendars/ipos",
+      "status": 200,
+      "sha256": "20cf59d8f80bb041259e2bc167d5a506c514d3b6a476d98f187bd83670258704",
+      "records": 2,
+      "source": "nasdaq",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "quote",
+      "path": "/api/quote/NVDA",
+      "status": 200,
+      "sha256": "a588a60d41efc11c40f67ada9df74e4e816176aef52743edc8a6f2b155e70594",
+      "source": "yahoo",
+      "official": false,
+      "has_price": true,
+      "fields": [
+        "symbol",
+        "name",
+        "exchange",
+        "exchange_name",
+        "currency",
+        "price",
+        "change",
+        "change_pct",
+        "change_from",
+        "previous_close",
+        "open",
+        "day_low",
+        "day_high",
+        "volume",
+        "extended_hours",
+        "quote_source",
+        "vendor",
+        "official"
+      ]
+    }
+  ],
+  "mcp": [
+    {
+      "name": "quote",
+      "protocol_success": true,
+      "data_present": true,
+      "has_price": true,
+      "source": "yahoo"
+    },
+    {
+      "name": "government_actions",
+      "protocol_success": true,
+      "data_present": true,
+      "records": 10
+    },
+    {
+      "name": "trading_halts",
+      "protocol_success": true,
+      "data_present": true,
+      "records": 10
+    }
+  ],
+  "revoked_token_status": 401,
+  "limitations": [
+    "Yahoo is a public scraped source, not an exchange real-time feed",
+    "SEC disabled at user request",
+    "Commercial news, options and analyst data not connected",
+    "TreasuryDirect probe returned an empty list; completeness unverified",
+    "Chart endpoint omits provenance; chart_provider endpoint identifies active adapter"
+  ]
+}

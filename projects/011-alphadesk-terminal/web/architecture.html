@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AlphaDesk · 从信息到研究工作台</title><meta name="description" content="先看支持哪类信息，再看来源与获取、处理和展示；上方说明核心架构，真实运行截图嵌在对应信息链中。"><link rel="stylesheet" href="architecture.css?v=business-1"></head>
+<body><header class="diagram-toolbar"><a href="index.html#architecture" class="back">← 返回研究专题</a><div class="diagram-title"><strong>AlphaDesk · 从信息到研究工作台</strong><span>上方看核心架构；下方每一行，都是一条具体业务链。</span></div><div class="diagram-controls" role="group" aria-label="架构图缩放"><button data-zoom="fit" aria-pressed="true">看全图</button><button data-zoom="1" aria-pressed="false">100%</button><button data-zoom="1.5" aria-pressed="false">150%</button><button data-zoom="2" aria-pressed="false">200%</button></div><a href="media/architecture-full.png?v=business-1" download="AlphaDesk-信息到研究工作台.png">下载高清 PNG ↓</a><a href="media/architecture-full.svg?v=business-1" download="AlphaDesk-信息到研究工作台.svg">下载 SVG ↓</a></header>
+<main><div class="diagram-help"><p><strong>怎么读：</strong>先选行情、新闻、公司或政策日历中的一行，向右看它从哪里来、怎么取、怎么处理，最后变成什么画面。第五行是把前面的材料组合成研究工作台。</p><div class="diagram-reading" role="group" aria-label="分栏放大阅读"><span>分栏放大：</span><button data-region="70,640,450" aria-pressed="false">① 支持哪些信息</button><button data-region="550,640,750" aria-pressed="false">② 来源与获取</button><button data-region="1300,640,740" aria-pressed="false">③ 处理与分析</button><button data-region="2040,640,700" aria-pressed="false">④ 展示与效果</button><a href="media/architecture-full.svg?v=business-1" target="_blank" rel="noreferrer">打开矢量原图 ↗</a></div></div><div class="diagram-viewport" id="diagramViewport" tabindex="0" aria-label="可滚动的完整信息与架构图"><img id="fullDiagram" src="media/architecture-full.svg?v=business-1" width="2800" height="2630" alt="AlphaDesk 信息与架构图。上方说明人或 AI 发起研究、服务检查请求、共享后端取材料做计算、向网页和 AI 返回结果。下方每行按支持的信息、来源与获取、处理与分析、最终展示四列展开：行情与市场、新闻、公司财务与披露、政策日历、组合研究。图表、政府事件和看板的三张真实历史截图嵌在对应行内；新闻和 SEC 未接通部分明确标为功能示意。"></div></main>
+<footer>固定版本 cef8991d / 0.2.1 · 源码实现、已验证数据、功能示意分别标注。PNG 5600 × 5260；SVG 文字与连线可无损缩放，截图保留原始分辨率。<a href="validation-public.json">历史实测报告</a></footer>
+<script>
+(() => {
+  const viewport=document.querySelector('#diagramViewport'), picture=document.querySelector('#fullDiagram');
+  const baseWidth=Number(picture.getAttribute('width')),baseHeight=Number(picture.getAttribute('height'));
+  let selected='fit';
+  function resize(){const width=selected==='fit'?Math.max(280,viewport.clientWidth-2):baseWidth*Number(selected);picture.style.width=width+'px';picture.style.height=width*baseHeight/baseWidth+'px';}
+  function activate(button){document.querySelectorAll('[data-zoom],[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}
+  document.querySelectorAll('[data-region]').forEach(button=>button.addEventListener('click',()=>{const [left,top,width]=button.dataset.region.split(',').map(Number);selected=Math.min(1.5,(viewport.clientWidth-20)/width);resize();viewport.scrollLeft=(left-10)*selected;viewport.scrollTop=(top-12)*selected;activate(button);}));
+  document.querySelectorAll('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{selected=button.dataset.zoom;activate(button);resize();if(selected==='fit'){viewport.scrollLeft=0;viewport.scrollTop=0;}}));
+  window.addEventListener('resize',resize);resize();
+})();
+</script></body></html>

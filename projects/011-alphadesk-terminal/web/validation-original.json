@@ -1,0 +1,176 @@
+{
+  "upstream_commit": "cef8991daa16ab03799f49c56939e48a1d247964",
+  "python": "3.12",
+  "mode": "isolated; no vendor keys; outgoing TCP blocked; ingest loops disabled",
+  "tool_registration_count": 53,
+  "all_tools_read_only": true,
+  "checks": [
+    {
+      "route": "/markets",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/chart",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/analysis",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/profile",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/news",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/filings",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/posts",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/portfolio",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/sectors",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/earnings",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/calendars",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/options",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/account",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/agent-access",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/disclaimer",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/themes/ai",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/views/demo",
+      "status": 200,
+      "check": "SPA shell only; data not verified",
+      "passed": true
+    },
+    {
+      "route": "/api/auth/me",
+      "status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "route": "/api/agent/tools/mcp",
+      "status": 401,
+      "expected": 401,
+      "passed": true
+    },
+    {
+      "route": "/api/quote/NVDA",
+      "status": 428,
+      "expected": 428,
+      "passed": true
+    },
+    {
+      "route": "/api/chart/NVDA",
+      "status": 428,
+      "expected": 428,
+      "passed": true
+    }
+  ],
+  "mcp_protocol": {
+    "initialize": true,
+    "tools_list": 53,
+    "calls": [
+      {
+        "name": "data_sources",
+        "passed": true,
+        "mode": "real upstream tool, no external data"
+      },
+      {
+        "name": "baskets",
+        "passed": true,
+        "mode": "real upstream tool, no external data"
+      }
+    ],
+    "revoked_token_status": 401
+  },
+  "limits": [
+    "SPA shell 200 does not verify page data",
+    "No vendor connectivity tested",
+    "No embedding model installed",
+    "No external AI client or OAuth flow tested"
+  ]
+}

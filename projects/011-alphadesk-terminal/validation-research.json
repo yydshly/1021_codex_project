@@ -1,0 +1,306 @@
+{
+  "checked_at": "2026-10-21T19:03:42.069622+00:00",
+  "subject": "Chinese research overview, not an additional live-provider verification",
+  "entry": "index.html",
+  "teaching_entry": "lab.html",
+  "upstream_commit": "cef8991daa16ab03799f49c56939e48a1d247964",
+  "method": "Actual browser interactions via cua, DOM assertions and screenshot inspection",
+  "checks": [
+    {
+      "name": "architecture",
+      "result": "passed",
+      "nodes": 7,
+      "assertion": "Each node changes heading and source-linked explanation"
+    },
+    {
+      "name": "principles",
+      "result": "passed",
+      "flows": 4,
+      "steps_per_flow": 5
+    },
+    {
+      "name": "source_filters",
+      "result": "passed",
+      "counts": {
+        "public": 4,
+        "licensed": 7,
+        "scraped": 3,
+        "all": 14
+      }
+    },
+    {
+      "name": "screenshots",
+      "result": "passed",
+      "tabs": 4,
+      "dialog_open_and_close": true
+    },
+    {
+      "name": "tool_index",
+      "result": "passed",
+      "total": 53,
+      "quote_search": 2,
+      "market_price_group": 4,
+      "empty_search_message": true,
+      "parameter_expansion": true
+    },
+    {
+      "name": "chapter_progress",
+      "result": "passed",
+      "before": 0,
+      "checked": 1,
+      "after_reload": 1,
+      "restored": 0
+    },
+    {
+      "name": "responsive",
+      "result": "passed",
+      "viewports": [
+        {
+          "width": 1280,
+          "height": 900,
+          "document_width": 1265,
+          "scroll_width": 1265
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "document_width": 375,
+          "scroll_width": 375
+        }
+      ],
+      "narrow_screen_news_flow": true,
+      "override_reset": true
+    },
+    {
+      "name": "internal_anchors",
+      "result": "passed",
+      "missing": []
+    },
+    {
+      "name": "legacy_profile",
+      "result": "passed",
+      "redirect_to": "lab.html#profile",
+      "heading_present": true
+    },
+    {
+      "name": "teaching_link",
+      "result": "passed",
+      "target": "lab.html#overview",
+      "synthetic_label_visible": true
+    },
+    {
+      "name": "browser_console",
+      "result": "passed",
+      "captured_errors": []
+    }
+  ],
+  "screenshots": [
+    "assets/research-cover.jpg",
+    "assets/research-architecture.jpg",
+    "assets/research-mobile.jpg"
+  ],
+  "limitations": [
+    "Real-data report and screenshots describe the earlier public-source run; this UI change does not re-verify current supplier availability.",
+    "SEC remains disabled at user request.",
+    "Commercial news credentials remain absent and semantic model remains off.",
+    "Narrow-screen verification is CSS viewport testing, not physical mobile hardware."
+  ],
+  "thinking_extension": {
+    "checked_at": "2026-10-22T03:27:51.598987+00:00",
+    "entry": "index.html#thinking",
+    "dimensions_checked": 7,
+    "scenarios_checked": 6,
+    "columns_per_scenario": 3,
+    "mouse_and_keyboard_activation": "passed",
+    "narrow_screen_dimension_and_scenario_switch": "passed",
+    "layout": [
+      {
+        "viewport": 1280,
+        "client": 1265,
+        "scroll": 1265
+      },
+      {
+        "viewport": 390,
+        "client": 375,
+        "scroll": 375
+      }
+    ],
+    "console_errors": [],
+    "viewport_override_reset": true,
+    "screenshot": "assets/research-thinking.jpg",
+    "scope": "Research commentary and hypothetical transfer designs; no additional provider integrations or financial data verification"
+  },
+  "architecture_diagram": {
+    "checked_at": "2026-10-22T04:06:57.402969+00:00",
+    "entry": "architecture.html",
+    "upstream_commit": "cef8991daa16ab03799f49c56939e48a1d247964",
+    "source_review": "Pinned local source inspected; independent read-only review checked routing, lifecycle, storage and optional stream path.",
+    "svg_dimensions": [
+      2800,
+      2190
+    ],
+    "png_dimensions": [
+      5600,
+      4380
+    ],
+    "diagram_loaded_in_research_page": true,
+    "research_page_to_viewer": "passed: keyboard activation after transient browser click dispatch error",
+    "zoom_checks": [
+      {
+        "selection": "fit",
+        "result": "responsive"
+      },
+      {
+        "selection": "100%",
+        "width": 2800
+      },
+      {
+        "selection": "150%",
+        "width": 4200
+      },
+      {
+        "selection": "200%",
+        "width": 5600
+      }
+    ],
+    "responsive_checks": [
+      {
+        "viewport": 1280,
+        "client": 1265,
+        "scroll": 1265,
+        "fit_diagram_width": 1213
+      },
+      {
+        "viewport": 390,
+        "client": 375,
+        "scroll": 375,
+        "fit_diagram_width": 332,
+        "zoomed_diagram_width": 2800,
+        "zoomed_container_scroll": 2800,
+        "zoomed_container_client": 334
+      }
+    ],
+    "viewport_override_reset": true,
+    "console_errors": [],
+    "visual_inspection": "Full browser SVG rendering inspected: Chinese text, arrows, lower optional stream and three example traces visible.",
+    "screenshot": "assets/architecture-browser.jpg",
+    "scope": "Source-grounded architecture diagram and local UI only; no additional supplier, SEC, model, streaming or commercial-source verification."
+  },
+  "architecture_runtime_evidence": {
+    "checked_at": "2026-10-22T05:28:46.982244+00:00",
+    "svg_dimensions": [
+      4000,
+      2190
+    ],
+    "png_dimensions": [
+      8000,
+      4380
+    ],
+    "embedded_captures": {
+      "real-chart.jpg": "b115825890152ced64a835b19fd3dc8fdf7e3a40dc9f654ff2f03d54e0470bdc",
+      "real-markets.jpg": "b252fb08600e79fd7adecefd00428fcf61f26503f22a19e1046b17c3b7c3570b",
+      "real-calendars.jpg": "36dcef2e8a5d71467a5f55d75f4dfb235251638e11147ecb31f86e7fa4cfe611"
+    },
+    "embedded_jpeg_bytes_match_originals": true,
+    "thinking_section_preview_and_navigation": "passed",
+    "effects_focus_button": "passed: selected button, scaled to panel width, scrolled to runtime evidence",
+    "fit_resets_scroll": "passed: left=0, top=0",
+    "narrow_layout": {
+      "viewport": 390,
+      "page_client": 375,
+      "page_scroll": 375,
+      "viewer_client": 375,
+      "viewer_scroll": 375
+    },
+    "viewport_override_reset": true,
+    "browser_rendering": "Three embedded screenshots present and full SVG browser capture visually inspected",
+    "screenshot": "assets/architecture-browser.jpg",
+    "source_caption_corrections": [
+      "Markets capture shows NVDA chart and quote; Treasury is outside the captured viewport.",
+      "Calendars capture shows government table and missing economic-calendar credentials; IPO is outside the captured viewport."
+    ],
+    "limitations": "Uses 2026-10-22 historical captures. No new market/provider requests or SEC access. Embedded raster screenshots retain original resolution."
+  },
+  "business_first_architecture": {
+    "checked_at": "2026-10-22T05:47:21.170533+00:00",
+    "svg_dimensions": [
+      2800,
+      2630
+    ],
+    "png_dimensions": [
+      5600,
+      5260
+    ],
+    "structure": {
+      "top_core_nodes": 4,
+      "information_directions": 4,
+      "combination_research_rows": 1,
+      "columns": [
+        "information",
+        "sources_and_access",
+        "processing",
+        "presentation"
+      ]
+    },
+    "original_images_embedded_unchanged": [
+      "real-chart.jpg",
+      "real-calendars.jpg",
+      "real-markets.jpg"
+    ],
+    "unverified_output_schematics": [
+      "commercial news",
+      "SEC/company disclosures"
+    ],
+    "source_review": "Independent review checked factual mapping; social RSS mirror shown as separate post stream.",
+    "column_focus_controls_tested": 4,
+    "fit_scroll_reset": true,
+    "responsive": {
+      "viewport": 390,
+      "document_client": 375,
+      "document_scroll": 375,
+      "source_column_focus": "passed"
+    },
+    "viewport_override_reset": true,
+    "console_errors": [],
+    "screenshot": "assets/architecture-browser.jpg",
+    "scope": "Presentation restructure only; historical provider evidence unchanged. No SEC or new live-source requests."
+  },
+  "publication_summary": {
+    "checked_at": "2026-10-22T09:05:58.409811+00:00",
+    "entry": "index.html#guide",
+    "scope": "Publication summary and static navigation only; historical provider evidence unchanged.",
+    "summary_dimensions": [
+      "capabilities",
+      "scenarios",
+      "web/MCP/REST entries",
+      "architecture",
+      "possible extensions"
+    ],
+    "lead_image": "assets/architecture-full.png",
+    "guide_images_on_homepage": 1,
+    "summary_cards": 4,
+    "source_review": "Pinned source and reports independently checked: 53 tools, 29 routes, 20 component types, 14 source entries.",
+    "responsive": [
+      {
+        "viewport": 1280,
+        "client": 1265,
+        "scroll": 1265
+      },
+      {
+        "viewport": 390,
+        "client": 375,
+        "scroll": 375,
+        "summary_columns": 1
+      }
+    ],
+    "guide_loaded_in_browser": true,
+    "browser_errors": [],
+    "viewport_override_reset": true,
+    "local_checks": [
+      "app/build.py: 53 tools / 29 routes / 14 source entries",
+      "unittest: 8 passed",
+      "catalog.py --check: 12 local entries passed"
+    ],
+    "publication_boundary": "Static research, historical screenshots and synthetic teaching lab; original backend and MCP require local startup."
+  }
+}

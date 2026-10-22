@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>真实数据接入 · AlphaDesk</title><link rel="stylesheet" href="styles.css"><style>body{max-width:1150px;margin:0 auto;padding:40px 24px}h1{margin:16px 0}h2{margin:28px 0 14px}p{line-height:1.8;color:var(--muted)}.links{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}td{white-space:normal}.panel{margin-top:20px}code{overflow-wrap:anywhere}small{line-height:1.6}</style></head>
+<body><div class="eyebrow">011 / REAL DATA CONNECTION</div><h1>真实数据：先看实测，再在本机复现。</h1><p>本站展示原版通过上游适配器读取公开数据的历史验证结果。GitHub Pages 提供静态研究内容；联网终端与 MCP 服务需另行启动本机后端。此前的中文 18 页界面仍是带标识的教学样例，两者使用独立数据。</p><div class="links"><a class="button" href="index.html#running">返回运行证据 →</a><a class="button" href="https://github.com/yydshly/1021_codex_project/tree/main/projects/011-alphadesk-terminal#公开真实数据的历史验证与本机复现" target="_blank" rel="noreferrer">安装与复现说明 ↗</a><a class="button active" href="http://127.0.0.1:8782/markets?symbols=NVDA&amp;symbol=NVDA" target="_blank" rel="noreferrer">本机原版市场看板 ↗</a><a class="button" href="http://127.0.0.1:8782/chart?symbols=NVDA&amp;symbol=NVDA" target="_blank" rel="noreferrer">本机 K 线 ↗</a><a class="button" href="http://127.0.0.1:8782/calendars" target="_blank" rel="noreferrer">本机事件与 IPO ↗</a><a class="button" href="lab.html#overview">教学样例 →</a></div>
+<div class="callout">这些入口连接本机 <code>127.0.0.1:8782</code> 服务，需在运行原版的电脑上使用。Yahoo 为公开采集来源，不能等同于交易所实时行情；以每条记录的日期和来源为准。</div>
+<h2>已经取得真实记录</h2><div class="panel table-wrap"><table><thead><tr><th>能力</th><th>来源</th><th>本次验证</th><th>在哪里看</th></tr></thead><tbody>
+<tr><td>股票报价与图表</td><td>Yahoo Finance · scraped</td><td>NVDA 报价；1 个月日 K 共 23 根，2026-09-21 至 10-21</td><td>Markets / Chart</td></tr>
+<tr><td>国债收益率</td><td>US Treasury 官方</td><td>12 个期限；曲线数据日期 2026-10-20</td><td>Markets → Treasury Yields</td></tr>
+<tr><td>政府行动</td><td>Federal Register / Federal Reserve 官方</td><td>days=30 请求返回 40 条；Fed RSS 按条数返回，未强制按天过滤</td><td>Calendars → Government actions</td></tr>
+<tr><td>IPO 日历</td><td>Nasdaq · 公开采集</td><td>2026-10-19 至 25 周：2 条记录</td><td>Calendars → IPO calendar</td></tr>
+<tr><td>停牌记录</td><td>Nasdaq Trader RSS · 公开采集</td><td>39 条，包含历史未恢复停牌；不能全部解读为今日停牌</td><td><a class="positive" href="http://127.0.0.1:8782/api/halts?limit=60" target="_blank" rel="noreferrer">本机 API JSON ↗</a> / MCP trading_halts</td></tr>
+</tbody></table></div>
+<p>已通过真实 HTTP MCP 调用 quote、government_actions、trading_halts，返回内容包含实际数据。完整机器可读证据：<a class="positive" href="validation-public.json" target="_blank">validation-public.json ↗</a>。记录数量是本次检查结果，之后可能变化。</p>
+<h2>尚未接通的部分</h2><div class="panel table-wrap"><table><thead><tr><th>能力</th><th>当前状态</th></tr></thead><tbody>
+<tr><td>SEC 公告、财务、公司披露</td><td>按用户选择暂不接入，没有向 SEC 发送请求。</td></tr>
+<tr><td>商业新闻、期权链、分析师预期、完整涨跌榜与经济日历</td><td>需要相应供应商密钥/套餐。原版 Account 可配置；不向聊天发送密钥。</td></tr>
+<tr><td>Nasdaq 分红 / 拆股</td><td>分红周查询超过 45 秒；拆股未取得可用记录，未列为接通。</td></tr>
+<tr><td>国债拍卖</td><td>TreasuryDirect 接口返回空列表，不能据此断言没有拍卖。</td></tr>
+<tr><td>向量模型 / 外部 AI 授权</td><td>仍未验证；本次 MCP 数据读取使用临时测试令牌，测试后已撤销。</td></tr>
+</tbody></table></div>
+<h2>复现</h2><p>在总仓库目录执行以下命令，首次安装步骤见项目 README。</p><pre class="code">projects/011-alphadesk-terminal/app/.venv/Scripts/python.exe projects/011-alphadesk-terminal/app/launch_original.py --public</pre><p>当前研究数据目录已保存 Yahoo / Nasdaq 开启状态。新环境首次运行时，在原版 Account 的可选公开来源区开启这两项。公共模式固定关闭 SEC、不载入供应商环境密钥、只监听本机。需要退出时停止该服务即可。</p>
+<p>实测时间：2026-10-22（Asia/Shanghai；报告以 UTC 记录）。此页是接入说明，行情始终从原版读取，不把样例替换成“看起来真实”的数字。</p></body></html>

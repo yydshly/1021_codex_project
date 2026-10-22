@@ -19,6 +19,7 @@
 | 007 | [RealGrass 草地效果展示与对比](projects/007-realgrass-lab/README.md) | 一个可交互的草地效果展示：对比 RealGrass 原库与自研 WebGL2 草地，解释自然感、运动与云层的差异，并提供技术原理和实现路线分析。 | 已完成 | [GitHub](https://github.com/SamG-Coder/RealGrass) | [打开](https://yydshly.github.io/1021_codex_project/projects/007-realgrass-lab/) |
 | 008 | [纸间故事 · 风格能力工作台](projects/008-cel-story-studio/README.md) | 参考mg-styles-15，将手绘、三维材质、形变、玻璃折射等十五种视觉语言整理为独立模板与故事工作台，适合品牌传播、产品说明、知识科普和简短故事；沉淀风格规范、资产组件、分镜方法与程序管线，按简报→选风格→分镜→补资产→输出→审片复用；AI与新片渲染需本地服务。 | 已归档 | [GitHub](https://github.com/Vincentwei1021/mg-styles-15) | [打开](https://yydshly.github.io/1021_codex_project/projects/008-cel-story-studio/) |
 | 009 | [LCM：AI 编程助手的外部项目记忆](projects/009-lcm-memory/README.md) | 为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。 | 已完成 | [GitHub](https://github.com/lossless-claude/lcm) | [打开](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/) |
+| 011 | [AlphaDesk：金融研究工作台的能力、架构与扩展](projects/011-alphadesk-terminal/README.md) | 聚合行情、新闻、公司披露与事件，支持市场观察、公司研究和事件跟踪。通过来源适配、字段整理、缓存与确定性计算，向 React 网页及只读 MCP/REST 输出研究材料；结合架构图与历史实测，研究向 A 股、每日资讯和行业情报扩展的方式与边界。 | 研究中 | [GitHub](https://github.com/vigneshv1cky/alphadesk-terminal) | [打开](https://yydshly.github.io/1021_codex_project/projects/011-alphadesk-terminal/) |
 
 ### 002 · Lark Agent Bridge 原理研究
 
@@ -67,6 +68,12 @@ Claude 的插件与 Skill 集合，按岗位和业务场景匹配调用工作方
 为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。
 
 [![LCM：AI 编程助手的外部项目记忆预览](projects/009-lcm-memory/assets/lcm-external-memory.png)](projects/009-lcm-memory/README.md)
+
+### 011 · AlphaDesk：金融研究工作台的能力、架构与扩展
+
+聚合行情、新闻、公司披露与事件，支持市场观察、公司研究和事件跟踪。通过来源适配、字段整理、缓存与确定性计算，向 React 网页及只读 MCP/REST 输出研究材料；结合架构图与历史实测，研究向 A 股、每日资讯和行业情报扩展的方式与边界。
+
+[![AlphaDesk：金融研究工作台的能力、架构与扩展预览](projects/011-alphadesk-terminal/assets/architecture-full.png)](projects/011-alphadesk-terminal/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始

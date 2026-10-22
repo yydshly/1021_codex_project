@@ -1,0 +1,501 @@
+{
+  "date": "2026-10-22",
+  "scope": "中文原创教学演示；不验证外部数据",
+  "navigation": [
+    {
+      "href": "#overview",
+      "label": "◈能力总览",
+      "hasMain": true,
+      "heading": "把市场信息，放回同一张研究桌。"
+    },
+    {
+      "href": "#markets",
+      "label": "01市场总览",
+      "hasMain": true,
+      "heading": "市场总览"
+    },
+    {
+      "href": "#chart",
+      "label": "02图表工作区",
+      "hasMain": true,
+      "heading": "价格与指标工作区"
+    },
+    {
+      "href": "#sectors",
+      "label": "03板块与宽度",
+      "hasMain": true,
+      "heading": "板块表现与市场宽度"
+    },
+    {
+      "href": "#baskets",
+      "label": "04主题篮子",
+      "hasMain": true,
+      "heading": "把相关公司放进同一个研究主题。"
+    },
+    {
+      "href": "#portfolio",
+      "label": "05我的研究板",
+      "hasMain": true,
+      "heading": "保存一张适合自己的研究板。"
+    },
+    {
+      "href": "#analysis",
+      "label": "06公司分析",
+      "hasMain": true,
+      "heading": "星际算力 · 公司研究"
+    },
+    {
+      "href": "#profile",
+      "label": "07公司档案",
+      "hasMain": true,
+      "heading": "星际算力 · 原始资料与业务"
+    },
+    {
+      "href": "#news",
+      "label": "08新闻检索",
+      "hasMain": true,
+      "heading": "新闻检索与阅读"
+    },
+    {
+      "href": "#filings",
+      "label": "09公告阅读",
+      "hasMain": true,
+      "heading": "公告原文，始终可以回到出处。"
+    },
+    {
+      "href": "#earnings",
+      "label": "10财报日历",
+      "hasMain": true,
+      "heading": "财报周：时间、预期与实际。"
+    },
+    {
+      "href": "#calendars",
+      "label": "11公司与经济日历",
+      "hasMain": true,
+      "heading": "将未来事件放在时间轴上。"
+    },
+    {
+      "href": "#options",
+      "label": "12期权链与成交",
+      "hasMain": true,
+      "heading": "从到期日，读到每一份合约。"
+    },
+    {
+      "href": "#catalysts",
+      "label": "13事件与波动",
+      "hasMain": true,
+      "heading": "看到同时发生的事，也保留不确定性。"
+    },
+    {
+      "href": "#sources",
+      "label": "14数据源路由",
+      "hasMain": true,
+      "heading": "每一条结果，都应该说明它从哪里来。"
+    },
+    {
+      "href": "#mcp",
+      "label": "15MCP 工具实验室53",
+      "hasMain": true,
+      "heading": "53 项工具，一份可追溯的能力清单。"
+    },
+    {
+      "href": "#gallery",
+      "label": "16原版画面",
+      "hasMain": true,
+      "heading": "原版画面，和教学演示分开看。"
+    },
+    {
+      "href": "#evidence",
+      "label": "17覆盖与验证",
+      "hasMain": true,
+      "heading": "覆盖完整，验证不越界。"
+    }
+  ],
+  "tools": [
+    {
+      "name": "quote",
+      "passed": true
+    },
+    {
+      "name": "movers",
+      "passed": true
+    },
+    {
+      "name": "market_sessions",
+      "passed": true
+    },
+    {
+      "name": "catalysts",
+      "passed": true
+    },
+    {
+      "name": "price_chart",
+      "passed": true
+    },
+    {
+      "name": "find_symbol",
+      "passed": true
+    },
+    {
+      "name": "market_today",
+      "passed": true
+    },
+    {
+      "name": "symbol_news",
+      "passed": true
+    },
+    {
+      "name": "news_search",
+      "passed": true
+    },
+    {
+      "name": "list_filings",
+      "passed": true
+    },
+    {
+      "name": "earnings_calendar",
+      "passed": true
+    },
+    {
+      "name": "quotes",
+      "passed": true
+    },
+    {
+      "name": "price_history",
+      "passed": true
+    },
+    {
+      "name": "my_board",
+      "passed": true
+    },
+    {
+      "name": "news_story",
+      "passed": true
+    },
+    {
+      "name": "key_stats",
+      "passed": true
+    },
+    {
+      "name": "analyst_view",
+      "passed": true
+    },
+    {
+      "name": "ownership",
+      "passed": true
+    },
+    {
+      "name": "insider_activity",
+      "passed": true
+    },
+    {
+      "name": "earnings_history",
+      "passed": true
+    },
+    {
+      "name": "company_profile",
+      "passed": true
+    },
+    {
+      "name": "fund_profile",
+      "passed": true
+    },
+    {
+      "name": "financial_statements",
+      "passed": true
+    },
+    {
+      "name": "filing_text",
+      "passed": true
+    },
+    {
+      "name": "what_moved",
+      "passed": true
+    },
+    {
+      "name": "move_state",
+      "passed": true
+    },
+    {
+      "name": "candidates",
+      "passed": true
+    },
+    {
+      "name": "movers_in_context",
+      "passed": true
+    },
+    {
+      "name": "news_scan",
+      "passed": true
+    },
+    {
+      "name": "entry_facts",
+      "passed": true
+    },
+    {
+      "name": "related_assets",
+      "passed": true
+    },
+    {
+      "name": "priced_in",
+      "passed": true
+    },
+    {
+      "name": "economic_calendar",
+      "passed": true
+    },
+    {
+      "name": "corporate_calendar",
+      "passed": true
+    },
+    {
+      "name": "sector_performance",
+      "passed": true
+    },
+    {
+      "name": "sector_breadth",
+      "passed": true
+    },
+    {
+      "name": "option_expirations",
+      "passed": true
+    },
+    {
+      "name": "option_chain",
+      "passed": true
+    },
+    {
+      "name": "options_flow",
+      "passed": true
+    },
+    {
+      "name": "baskets",
+      "passed": true
+    },
+    {
+      "name": "peers",
+      "passed": true
+    },
+    {
+      "name": "compare_metrics",
+      "passed": true
+    },
+    {
+      "name": "transcripts",
+      "passed": true
+    },
+    {
+      "name": "transcript_text",
+      "passed": true
+    },
+    {
+      "name": "related_funds",
+      "passed": true
+    },
+    {
+      "name": "symbol_events",
+      "passed": true
+    },
+    {
+      "name": "filed_report",
+      "passed": true
+    },
+    {
+      "name": "index_board",
+      "passed": true
+    },
+    {
+      "name": "social_posts",
+      "passed": true
+    },
+    {
+      "name": "government_actions",
+      "passed": true
+    },
+    {
+      "name": "filing_feed",
+      "passed": true
+    },
+    {
+      "name": "trading_halts",
+      "passed": true
+    },
+    {
+      "name": "data_sources",
+      "passed": true
+    }
+  ],
+  "interactions": [
+    {
+      "case": "keyword search excludes no-title match",
+      "passed": true
+    },
+    {
+      "case": "semantic teaching lexicon adds related sample",
+      "passed": true
+    },
+    {
+      "case": "filing filter and page 2",
+      "passed": true
+    },
+    {
+      "case": "area chart and RSI and 1M",
+      "passed": true
+    },
+    {
+      "case": "expiry changes sample chain",
+      "passed": true
+    },
+    {
+      "case": "missing vendor explains 428",
+      "passed": true
+    },
+    {
+      "case": "custom basket stored",
+      "passed": true
+    },
+    {
+      "case": "board module toggle",
+      "passed": true
+    },
+    {
+      "case": "board persists after reload",
+      "passed": true
+    },
+    {
+      "case": "six step tour completes",
+      "passed": true
+    }
+  ],
+  "responsive": {
+    "method": "390 × 844 CSS px iframe，含滚动条可用宽度 375px；不是手机硬件或触控测试",
+    "pages": [
+      {
+        "page": "#overview",
+        "heading": "把市场信息，放回同一张研究桌。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#markets",
+        "heading": "市场总览",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#chart",
+        "heading": "价格与指标工作区",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#sectors",
+        "heading": "板块表现与市场宽度",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#baskets",
+        "heading": "把相关公司放进同一个研究主题。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#portfolio",
+        "heading": "保存一张适合自己的研究板。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#analysis",
+        "heading": "星际算力 · 公司研究",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#profile",
+        "heading": "星际算力 · 原始资料与业务",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#news",
+        "heading": "新闻检索与阅读",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#filings",
+        "heading": "公告原文，始终可以回到出处。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#earnings",
+        "heading": "财报周：时间、预期与实际。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#calendars",
+        "heading": "将未来事件放在时间轴上。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#options",
+        "heading": "从到期日，读到每一份合约。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#catalysts",
+        "heading": "看到同时发生的事，也保留不确定性。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#sources",
+        "heading": "每一条结果，都应该说明它从哪里来。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#mcp",
+        "heading": "53 项工具，一份可追溯的能力清单。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#gallery",
+        "heading": "原版画面，和教学演示分开看。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      },
+      {
+        "page": "#evidence",
+        "heading": "覆盖完整，验证不越界。",
+        "scrollWidth": 375,
+        "width": 375,
+        "passed": true
+      }
+    ]
+  }
+}
