@@ -29,6 +29,8 @@
 
 `_site/` 是生成目录，不提交到 Git。构建工具会先清空它，再生成门户、复制已登记项目的封面与静态演示。各项目可以使用不同的前端技术；统一部署流程不负责安装或编译各个应用。
 
+`python scripts/catalog.py --check` 只校验，不生成或改写站点。需要构建 `_site/` 时执行 `python scripts/catalog.py`；Pages 构建工作流使用此命令后上传产物。完成本地预览或发布打包后，可清理不再使用的根目录 `_site/`，各项目 `web/` 继续保留。
+
 ## 子路径与运行限制
 
 - 资源链接优先用相对路径。使用 Vite 等工具时，将 base 配置为 `/1021_codex_project/projects/NNN-slug/`，或在适用时使用 `./`。

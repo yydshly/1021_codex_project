@@ -1,8 +1,12 @@
+from contextlib import redirect_stdout
+import io
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
+from scripts import catalog
 from scripts.catalog import build_site, index_markdown, load_projects, synced_readme
 
 
@@ -50,9 +54,49 @@ class CatalogTests(unittest.TestCase):
         project["source_url"] = "https://melies.co/cinematic-techniques"
         self.write_catalog([project])
         projects = load_projects(self.root)
-        self.assertIn("[网站](https://melies.co/cinematic-techniques)", index_markdown(self.root, projects))
+        self.assertIn("[melies.co](https://melies.co/cinematic-techniques)", index_markdown(self.root, projects))
         build_site(self.root, projects)
-        self.assertIn("来源网站 ↗", (self.root / "_site/index.html").read_text(encoding="utf-8"))
+        self.assertIn("melies.co ↗", (self.root / "_site/index.html").read_text(encoding="utf-8"))
+        project["source_name"] = "Melies Cinematic Techniques"
+        self.write_catalog([project])
+        projects = load_projects(self.root)
+        self.assertIn("[Melies Cinematic Techniques](https://melies.co/cinematic-techniques)", index_markdown(self.root, projects))
+        build_site(self.root, projects)
+        self.assertIn("Melies Cinematic Techniques ↗", (self.root / "_site/index.html").read_text(encoding="utf-8"))
+
+    def test_overview_and_structured_summary_preserve_safe_formatting(self):
+        project = self.project()
+        project["repository"] = "https://github.com/owner/RealGrass"
+        project["highlights"] = {
+            "capability": "比较 <script> 与 A|B",
+            "principle": "共享 **时间点**",
+            "value": "复用组件",
+            "boundary": "效果尚未验证",
+        }
+        self.write_catalog([project])
+        index = index_markdown(self.root, load_projects(self.root))
+        self.assertLess(index.index("### 项目速览"), index.index("### 详细索引"))
+        self.assertIn("- **[001 · Example](projects/001-example/README.md)**：A research project", index)
+        self.assertIn("**能力**：比较 &lt;script&gt; 与 A\\|B<br>**原理**：共享 \\*\\*时间点\\*\\*<br>**价值**：复用组件<br>**边界**：效果尚未验证", index)
+        self.assertIn("[RealGrass](https://github.com/owner/RealGrass)", index)
+        self.assertNotIn("<script>", index)
+
+    def test_invalid_highlights_and_source_names_rejected(self):
+        project = self.project()
+        valid = {"capability": "能力", "principle": "原理", "value": "价值"}
+        for highlights in (None, [], {}, {**valid, "value": ""}, {**valid, "principle": "含\n换行"}, {**valid, "boundary": None}):
+            project["highlights"] = highlights
+            self.write_catalog([project])
+            with self.subTest(highlights=highlights), self.assertRaisesRegex(ValueError, "highlights"):
+                load_projects(self.root)
+        project["highlights"] = valid
+        self.write_catalog([project])
+        self.assertEqual(load_projects(self.root)[0]["highlights"], valid)
+        for name in (None, "", "含\r换行"):
+            project["source_name"] = name
+            self.write_catalog([project])
+            with self.subTest(source_name=name), self.assertRaisesRegex(ValueError, "source_name"):
+                load_projects(self.root)
 
     def test_invalid_sources_rejected(self):
         project = self.project()
@@ -110,6 +154,35 @@ class CatalogTests(unittest.TestCase):
         (self.root / "README.md").write_text("No markers", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "标记"):
             synced_readme(self.root, [])
+
+    def test_check_does_not_create_or_modify_site(self):
+        self.write_catalog([])
+        (self.root / "README.md").write_text(synced_readme(self.root, []), encoding="utf-8")
+        output = self.root / "_site"
+        for existing in (False, True):
+            with self.subTest(existing_site=existing):
+                if existing:
+                    output.mkdir()
+                    (output / "sentinel.txt").write_bytes(b"keep existing output")
+                with patch.object(catalog, "ROOT", self.root), patch(
+                    "sys.argv", ["catalog.py", "--check"]
+                ), redirect_stdout(io.StringIO()):
+                    catalog.main()
+                if existing:
+                    self.assertEqual(list(output.iterdir()), [output / "sentinel.txt"])
+                    self.assertEqual((output / "sentinel.txt").read_bytes(), b"keep existing output")
+                else:
+                    self.assertFalse(output.exists())
+
+    def test_default_command_still_builds_site(self):
+        self.write_catalog([])
+        (self.root / "README.md").write_text(synced_readme(self.root, []), encoding="utf-8")
+        with patch.object(catalog, "ROOT", self.root), patch(
+            "sys.argv", ["catalog.py"]
+        ), redirect_stdout(io.StringIO()):
+            catalog.main()
+        self.assertTrue((self.root / "_site/index.html").is_file())
+        self.assertTrue((self.root / "_site/.nojekyll").is_file())
 
 
 if __name__ == "__main__":

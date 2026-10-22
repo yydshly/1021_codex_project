@@ -14,6 +14,7 @@ PAGES = "https://yydshly.github.io/1021_codex_project"
 START = "<!-- PROJECT_INDEX:START -->"
 END = "<!-- PROJECT_INDEX:END -->"
 STATUSES = {"待研究", "研究中", "已完成", "已归档"}
+HIGHLIGHTS = (("capability", "能力"), ("principle", "原理"), ("value", "价值"), ("boundary", "边界"))
 
 
 def project_path(project):
@@ -47,6 +48,20 @@ def load_projects(root):
             value = project.get(field)
             if not isinstance(value, str) or not value.strip() or "\n" in value or "\r" in value:
                 raise ValueError(f"字段 {field} 必须是非空的单行字符串")
+        if "source_name" in project:
+            value = project["source_name"]
+            if not isinstance(value, str) or not value.strip() or "\n" in value or "\r" in value:
+                raise ValueError("字段 source_name 必须是非空的单行字符串")
+        if "highlights" in project:
+            highlights = project["highlights"]
+            if not isinstance(highlights, dict):
+                raise ValueError("highlights 必须是包含能力、原理和价值的对象")
+            for field, _ in HIGHLIGHTS:
+                if field == "boundary" and field not in highlights:
+                    continue
+                value = highlights.get(field)
+                if not isinstance(value, str) or not value.strip() or "\n" in value or "\r" in value:
+                    raise ValueError(f"字段 highlights.{field} 必须是非空的单行字符串")
         number = project["id"]
         if not re.fullmatch(r"[0-9]{3}", number) or number == "000" or number in ids:
             raise ValueError(f"编号必须唯一且位于 001–999：{number}")
@@ -97,31 +112,63 @@ def md(value):
     return re.sub(r"([\\`*_\[\]{}()!|])", r"\\\1", value)
 
 
+def source_name(project):
+    if project.get("repository"):
+        return urlparse(project["repository"]).path.rstrip("/").rsplit("/", 1)[-1]
+    return project.get("source_name") or urlparse(project["source_url"]).hostname
+
+
+def summary_markdown(project):
+    if "highlights" not in project:
+        return md(project["summary"])
+    return "<br>".join(
+        f"**{label}**：{md(project['highlights'][field])}"
+        for field, label in HIGHLIGHTS if field in project["highlights"]
+    )
+
+
 def index_markdown(root, projects):
     if not projects:
         return "暂无研究项目。第一个项目将从 **001** 开始。"
     lines = [
-        "| 编号 | 项目 | 研究摘要 | 状态 | 来源 | 演示 |",
-        "| --- | --- | --- | --- | --- | --- |",
+        "### 项目速览", "",
     ]
     for project in projects:
         path = project_path(project)
+        lines.append(
+            f"- **[{project['id']} · {md(project['title'])}]({path}/README.md)**：{md(project['summary'])}"
+        )
+    lines.extend([
+        "", "### 详细索引", "",
+        "**能力**看能做什么，**原理**看如何实现，**价值**看我们能复用什么，**边界**看验证范围与后续缺口。项目状态表示研究进展，具体可用程度以边界和研究记录为准。", "",
+        "演示栏的“—”表示未提供本仓库网页入口，相关成片或历史成果见该项目的研究记录。", "",
+        "| 编号 | 项目 / 研究记录 | 能力、原理与价值 | 状态 | 源仓库 / 网站 | 演示 |",
+        "| --- | --- | --- | --- | --- | --- |",
+    ])
+    for project in projects:
+        path = project_path(project)
         source = project.get("repository") or project["source_url"]
-        source_label = "GitHub" if project.get("repository") else "网站"
         demo = f"[打开]({PAGES}/{path}/)" if has_demo(root, project) else "—"
         lines.append(
             f"| {project['id']} | [{md(project['title'])}]({path}/README.md) | "
-            f"{md(project['summary'])} | {project['status']} | "
-            f"[{source_label}]({source}) | {demo} |"
+            f"{summary_markdown(project)} | {project['status']} | "
+            f"[{md(source_name(project))}]({source}) | {demo} |"
         )
-    for project in projects:
-        if project.get("image"):
-            path = project_path(project)
-            lines.extend([
-                "", f"### {project['id']} · {md(project['title'])}",
-                "", md(project["summary"]), "",
-                f"[![{md(project['title'])}预览]({path}/{project['image']})]({path}/README.md)",
-            ])
+    covers = [project for project in projects if project.get("image")]
+    if covers:
+        lines.extend([
+            "", "### 项目图览", "",
+            "<details>", f"<summary>展开项目封面与总结图（{len(covers)} 项）</summary>",
+        ])
+    for project in covers:
+        path = project_path(project)
+        lines.extend([
+            "", f"#### {project['id']} · {md(project['title'])}",
+            "", md(project["summary"]), "",
+            f"[![{md(project['title'])}预览]({path}/{project['image']})]({path}/README.md)",
+        ])
+    if covers:
+        lines.extend(["", "</details>"])
     return "\n".join(lines)
 
 
@@ -147,7 +194,7 @@ def build_site(root, projects):
         path = project_path(project)
         folder = root / path
         source = project.get("repository") or project["source_url"]
-        source_label = "原仓库" if project.get("repository") else "来源网站"
+        source_label = html.escape(source_name(project))
         cover = ""
         if project.get("image"):
             image = f"_covers/{project['id']}-{project['slug']}/{project['image']}"
@@ -205,7 +252,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--update-readme", action="store_true")
-    mode.add_argument("--check", action="store_true")
+    mode.add_argument("--check", action="store_true", help="Validate without generating _site")
     args = parser.parse_args()
     try:
         projects = load_projects(ROOT)
@@ -214,10 +261,14 @@ def main():
             (ROOT / "README.md").write_text(expected, encoding="utf-8")
         elif (ROOT / "README.md").read_text(encoding="utf-8") != expected:
             raise ValueError("README 索引未同步，请运行 python scripts/catalog.py --update-readme")
-        build_site(ROOT, projects)
+        if not args.check:
+            build_site(ROOT, projects)
     except (ValueError, KeyError, TypeError, OSError) as error:
         parser.exit(1, f"Catalog error: {error}\n")
-    print(f"Validated {len(projects)} projects; generated _site/index.html")
+    if args.check:
+        print(f"Validated {len(projects)} projects; README index is synchronized")
+    else:
+        print(f"Validated {len(projects)} projects; generated _site/index.html")
 
 
 if __name__ == "__main__":

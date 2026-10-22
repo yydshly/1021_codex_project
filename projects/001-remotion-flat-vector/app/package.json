@@ -1,0 +1,26 @@
+{
+  "name": "one-dot-motion-study",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.tsx",
+    "audio": "python scripts/audio.py",
+    "render": "remotion render src/index.tsx OneDot ../web/one-dot.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p",
+    "still": "remotion still src/index.tsx OneDot ../assets/cover.png --frame=265",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.8.3"
+  },
+  "optionalDependencies": {
+    "@rspack/binding-win32-x64-msvc": "1.7.11"
+  }
+}

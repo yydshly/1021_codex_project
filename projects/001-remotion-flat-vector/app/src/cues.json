@@ -1,0 +1,24 @@
+{
+  "fps": 30,
+  "duration": 10,
+  "bpm": 120,
+  "cues": [
+    {"time": 0.0, "type": "chime", "note": 72, "label": "开场"},
+    {"time": 0.6, "type": "pop", "note": 60, "label": "圆点落地"},
+    {"time": 1.0, "type": "pop", "note": 64, "label": "圆点回弹"},
+    {"time": 1.5, "type": "chime", "note": 79, "label": "灵感点亮"},
+    {"time": 2.0, "type": "whoosh", "label": "蓝色圆形扩张"},
+    {"time": 2.5, "type": "pop", "note": 67, "label": "人物入场"},
+    {"time": 3.0, "type": "chime", "note": 76, "label": "想法生长"},
+    {"time": 3.5, "type": "pop", "note": 79, "label": "叶片展开"},
+    {"time": 4.0, "type": "whoosh", "label": "橙色遮罩"},
+    {"time": 4.5, "type": "pop", "note": 72, "label": "点"},
+    {"time": 5.0, "type": "pop", "note": 76, "label": "线"},
+    {"time": 5.5, "type": "chime", "note": 79, "label": "面"},
+    {"time": 6.0, "type": "chime", "note": 84, "label": "形态组合"},
+    {"time": 7.0, "type": "whoosh", "label": "片尾揭示"},
+    {"time": 7.5, "type": "chime", "note": 72, "label": "从一点"},
+    {"time": 8.0, "type": "chime", "note": 76, "label": "到无限可能"},
+    {"time": 8.5, "type": "chime", "note": 79, "label": "落版"}
+  ]
+}
