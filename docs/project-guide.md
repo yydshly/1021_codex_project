@@ -33,6 +33,10 @@
 
 不要手动编辑首页 `PROJECT_INDEX` 标记之间的内容；该区域由元数据生成。标记之外的介绍和导航可自由维护。
 
+### 网站研究来源
+
+研究对象是网站且未确认公开源码时，使用 `"repository": null` 并提供 `"source_url": "https://example.com/page"`。来源链接须为无凭据的 HTTPS URL；括号使用 URL 编码。README 中明确记录“未确认公开仓库”、授权情况与访问日期，不编造 GitHub 地址或开源许可证。已有开源项目继续使用原来的 `repository` 字段。
+
 ## 子项目建议结构
 
 ```text

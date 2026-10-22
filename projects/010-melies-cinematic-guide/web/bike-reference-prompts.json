@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bike-kindness",
+  "provider": "built-in image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "status": "generated_reference_images_only",
+  "runs": [
+    {
+      "id": "bike-world",
+      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 cinematic video identity and initial composition reference, a single realistic film still, no collage or labels. Fictional story A Little Help Along the Way: a commuter arrives to collect an already repaired bicycle from an ordinary neighborhood repair stall, under soft overcast early-evening light after rain. The scene is quiet everyday care, not a heroic rescue or luxury advertising. Show exactly two adults and exactly one bicycle, both adults full length and both bicycle wheels fully visible on the same ground. Camera is fixed at an oblique side view from the pavement, remaining outside the stall. The rear workbench is at back left, an open entrance is behind the bicycle, clear pavement extends toward screen right. The single bicycle is unbranded dark green step-through city bicycle, rigid black saddle, visible seatpost, silver slightly swept-back handlebar with black rubber grips, two ordinary matching wheels, front wheel to SCREEN RIGHT and rear wheel to SCREEN LEFT, simple black mudguards, no basket or extra bicycle. Both wheels touch the flat ground; the bicycle is upright because the mechanic holds its handlebar stem. On the FAR SIDE of the bicycle near its front stands a roughly 50-year-old male mechanic with short salt-and-pepper hair, gray work shirt and faded brown work apron, plain dark trousers. His LEFT hand visibly steadies the silver handlebar stem; his right arm rests naturally, he is looking down at the bicycle before looking up. On the NEAR SIDE toward the left stands a roughly 34-year-old female commuter with short straight dark hair, a navy light jacket, khaki trousers, practical low shoes, and a plain beige canvas crossbody bag. Her feet are planted, she is not yet touching the bicycle, her hands rest naturally. She carries the slight tiredness of a normal workday and looks toward the mechanic, no tears, slumped misery or big smile. Keep the bicycle between them without hiding their eye contact or faces. A few tiny water marks remain on the black saddle, not a soaked or broken bicycle. Practical everyday repair tools only on the distant bench, no readable signs, brands, text or logos. Natural skin, fabric and damp pavement textures, restrained natural colors, sufficient depth of field to read the people, bicycle geometry, hands and grounded tires together. No golden beam, cinematic fog, exaggerated lens flare, generated lettering, extra people, duplicate wheels, floating frame, kickstand support replacing the mechanic, cropped feet, or hands intersecting metal.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/world-initial.png",
+        "sha256": "b3db37b7711ca9f9a5395f56197becf027137e502b4fa9474af5403d5c4f78b4",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "scene/person/bicycle identity and bike-1 initial arrangement; not video evidence",
+      "observation": "两人、一车、两轮接地与左右方向可读。修车人左手在车把握套附近，未按原文字明确落在立管；暖工作灯较明显。后续专用参考先校正接触点。"
+    },
+    {
+      "id": "bike-world-contact",
+      "prompt": "Edit this single 16:9 film still with one precise change: move the mechanic's LEFT hand from the handlebar/grip area down to a clear continuous grasp around the SILVER HANDLEBAR STEM, the upright metal connector directly below the handlebar center. This is the man's hand on SCREEN RIGHT. His left fingers should wrap around that stem without intersecting the brake cables. Keep his other hand relaxed at his side, the woman not touching the bicycle, both wheels grounded. Preserve the exact same two people and faces, clothing, bag, bicycle geometry and front-wheel-right orientation, body positions, shop, rainy pavement, camera framing, natural textures and lighting. No other change, no new objects, no text, no cropping.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/world-initial.png",
+          "role": "edit target; preserve all except mechanic left-hand contact",
+          "sha256": "b3db37b7711ca9f9a5395f56197becf027137e502b4fa9474af5403d5c4f78b4"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-1-start.png",
+        "sha256": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-1 initial reference with corrected contact location",
+      "observation": "左手已环握银色立管，支撑点比初稿明确。两轮接地、身份与朝向保留；仅为静态参考。"
+    },
+    {
+      "id": "bike-wipe-start",
+      "prompt": "Create a new 16:9 realistic film still from the supplied identity reference, for the NEXT CLOSE INSERT of the same story. Image 1 defines the exact bicycle, mechanic clothing, workshop and evening light, not the wide framing. Bring the camera close to the SAME black saddle, fixed silver seatpost and a readable section of the dark-green frame; front of the bicycle remains to screen RIGHT, saddle rear left and narrow nose right. The gray-shirted brown-apron mechanic is partly visible behind the bicycle. His LEFT hand continues to steady the SILVER HANDLEBAR STEM toward the right edge. His RIGHT hand holds ONE soft light-gray cleaning cloth hovering a centimeter above the rear-left portion of the saddle, not yet wiping. A few tiny rain marks on the saddle surface, ordinary scale, no puddle. Show saddle, cloth, right hand and fixed seatpost clearly together, enough depth of field for contact geometry, no extreme macro. The close framing may crop heads and wheels, but do not invent another person, hand, saddle or bicycle; the commuter may be outside frame. Keep the supported upright geometry and the same relative shop/pavement geography. Preserve realistic skin, gray sleeve, apron wear, bicycle color and soft overcast evening with the same distant practical shop lamp. Not polishing a floating loose saddle. No cloth penetration, warped seatpost, extra fingers, motion blur, text, brand or collage. This is the BEFORE-contact pose; no video or process is claimed.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-1-start.png",
+          "role": "identity and scene reference; preserve objects but design dedicated framing/pose",
+          "sha256": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-2-start.png",
+        "sha256": "9c7368c8def709ea8fa83c331a2556568b0f3e9df6d730c36b9aa7b2e0fbc2ca",
+        "width": 1672,
+        "height": 940
+      },
+      "role": "bike-2 saddle/contact starting composition",
+      "observation": "座垫、座杆、车架、左手扶立管与右手持布可读；布已很接近或轻触座垫后缘，不当作严格一厘米悬空量测。"
+    },
+    {
+      "id": "bike-handover-start",
+      "prompt": "Use the supplied single film still as the exact person, bicycle and place identity. Create a new 16:9 realistic film still for a later HANDOVER START in the same story, from the SAME oblique side of the bicycle. Keep the dark-green step-through bicycle and ALL its structure, both wheels entirely visible and grounded, front wheel to SCREEN RIGHT. Keep the same gray-shirted brown-apron mechanic on the FAR SIDE, with his LEFT hand clearly gripping the silver handlebar stem below the handlebar. His right hand is relaxed, and the cleaning cloth has been put away outside frame. Change only the commuter's position and readiness: the SAME short-haired woman in navy jacket, khaki trousers and beige crossbody bag now stands on the NEAR SIDE alongside the bicycle middle, close enough to reach its near black handlebar grip with her RIGHT hand and the saddle with her LEFT. Her feet are both on the pavement, body outside the frame triangle and off the pedals. Her right palm begins with a small visible gap just below the NEAR handlebar grip, and her left palm hovers just above the black saddle, not yet gripping either. Keep her hands distinct from the man's left hand, on different bicycle parts. The saddle surface is now dry. Both people look calmly at the handover area, equal adults, restrained everyday service, not a romantic tableau or rescue. Same shop entrance, workbench at back left and pavement opening toward the right, same natural colors and practical lamp. No vehicle movement, riding, kickstand replacing hand support, extra hands or people, duplicated wheels, crossing fingers through the metal, altered bicycle geometry, text, watermark, or collage. Frame both bodies, contacts and grounded tires together.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-1-start.png",
+          "role": "identity and scene reference; preserve objects but design dedicated framing/pose",
+          "sha256": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-3-initial.png",
+        "sha256": "0e31ea1842bb157278492bf45107a2535d26d1be266eb0a959cc9142f07e818c",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-3 before commuter contact; mechanic still supports",
+      "observation": "两人接近，车轮接地；女方一手已搭座垫，身体侧向使左右手角色不够明确，需再校正交接起态。"
+    },
+    {
+      "id": "bike-handover-start-contact",
+      "prompt": "Edit only the commuter woman's orientation and hand readiness in this 16:9 handover still. Keep the man, his LEFT hand holding the SILVER HANDLEBAR STEM, his other hand at his side, every bicycle part and both grounded wheels exactly unchanged. Keep the shop, lighting and framing. The woman stays on the NEAR side alongside the bicycle middle but rotates her torso to FACE THE MECHANIC ACROSS THE BICYCLE, so we see the BACK of her navy jacket in a gentle back-three-quarter view, not her profile facing along the bicycle. Her RIGHT shoulder is toward SCREEN RIGHT, her LEFT shoulder toward SCREEN LEFT. Her anatomically RIGHT forearm reaches forward to SCREEN RIGHT, her RIGHT palm hovering a centimeter just below the NEAR BLACK HANDLEBAR GRIP without touching it yet. Her anatomically LEFT forearm reaches to SCREEN LEFT toward the SADDLE, her LEFT palm hovering a centimeter above the saddle without touching it yet. Do not cross or swap these arm roles. Leave visible gaps at both prospective contacts. Her feet remain planted and her body remains outside the bicycle frame. Same short bob, navy jacket, khaki trousers, beige bag hanging at the left hip. She looks down toward the offered bicycle, calm equal exchange, no exaggerated smile. Exactly two people, one bicycle, four human arms, no extra hands, duplicated grip, new wheel, text or crop.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-3-initial.png",
+          "role": "edit target, correct woman orientation and hand roles; retain mechanic/bicycle/scene",
+          "sha256": "0e31ea1842bb157278492bf45107a2535d26d1be266eb0a959cc9142f07e818c"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-3-start.png",
+        "sha256": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-3 before contact, precise hand roles",
+      "observation": "女方改为背向三分之四、面向修车人，右手朝近侧握套，左手朝座垫，末端可见小间隙。修车人左手仍握立管；间隙不做厘米量测。"
+    },
+    {
+      "id": "bike-handover-end",
+      "prompt": "Edit this 16:9 handover still into the exact AFTER-support-transfer pose, preserving the same two adults, their identities and clothes, bicycle geometry, location, wheel positions, camera, lighting and background. Only change the necessary hand contacts and subtle acknowledgment. The woman's RIGHT hand now wraps around the NEAR BLACK HANDLEBAR GRIP; her LEFT palm now rests securely on the SAME BLACK SADDLE. She alone steadies the bicycle with both wheels planted, feet unchanged. The mechanic has RELEASED the SILVER STEM: move his LEFT hand a small clear distance away from the bicycle and relax it down beside his apron, without touching any other bicycle part. His other hand stays naturally at his side. The woman remains back-three-quarter toward the man, head raised slightly toward him with a calm small acknowledgment; the man looks calmly toward her. No large smile or theatrical gratitude. Keep the dry saddle, bag at her left hip, green frame, two wheels, metal stem, shop and pavement unchanged. Do not start walking, add arms, fuse fingers, cross hands through metal, add a stand, make the bicycle float, move a wheel, or add text. This is one static END STATE, not evidence that the intermediate handover motion happened.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-3-start.png",
+          "role": "identity and scene reference; specified contact/pose changes",
+          "sha256": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-3-end.png",
+        "sha256": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-3 after commuter supports and mechanic releases",
+      "observation": "女方右手握近侧握套、左手扶座垫，男方左手已松开；两轮落地、同一机位。静态终态不能证明中间支撑转移正确。"
+    },
+    {
+      "id": "bike-follow-start",
+      "prompt": "Create a single new 16:9 realistic film still for the NEXT SHOT of the same two people, dark-green bicycle and repair stall. Image 1 defines exact identities, clothing, bicycle parts and neighborhood, NOT the camera angle or the earlier not-yet-contact pose. Now the handover is complete. Place the camera BEHIND and a little to the commuter's LEFT, looking along the pavement toward upper SCREEN RIGHT; we see the back of the same short bob and navy jacket, khaki trousers, low shoes and beige canvas bag at her left hip. She stands on the LEFT side of the bicycle, already facing the clear pavement away from the stall, both feet planted ready to take her first step. Her anatomically RIGHT hand securely holds the near black handlebar grip and her LEFT palm rests on the black saddle. Keep both contacts physically plausible and visible enough to inspect. The same single bicycle is upright and angled away along the pavement; show both grounded wheels and consistent green step-through frame, silver handlebar, black saddle, mudguards and rear rack. No riding, straddling or feet on pedals. The same gray-shirted mechanic in brown apron remains a few steps BEHIND at the shop entrance, both hands released and relaxed, not following or touching the bicycle. The familiar workbench and practical lamp are behind-left; damp pavement continues forward-right, same soft overcast early-evening light and neighborhood wall, no new sunny location or mirrored shop. The woman and bicycle should fill a readable medium-wide full-body composition with feet and tires; this is the stationary START of a subsequent rear follow, not already a blurred walking pose. Restrained everyday ease, no sad silhouette, huge grin, crowds, road traffic, floating wheels, duplicate people/bicycle parts, text, brand, title or collage.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-3-start.png",
+          "role": "identity and scene reference; specified contact/pose changes",
+          "sha256": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-4-initial.png",
+        "sha256": "2fe3d3d56449e8e2e5f5213655b6e4b38cbf0cf982b6c2e837467bf6b6b4f04d",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-4 rear-side initial stance; transfer complete before forward walking",
+      "observation": "后方店面与人物身份保留，但女方站位贴近座垫、左手扶座垫被身体遮挡；需把身体与车架分开，避免像跨坐。"
+    },
+    {
+      "id": "bike-follow-start-stance",
+      "prompt": "Edit this 16:9 rear-view film still to correct ONLY the woman's beside-bicycle stance and show both hand supports. Preserve exact same short-haired woman, navy jacket, khaki trousers, beige left-hip bag, mechanic in brown apron at doorway, bicycle parts, shop, camera viewpoint, light and pavement. The woman must clearly STAND BESIDE the bicycle, not over its saddle or frame. Shift her standing body slightly toward SCREEN LEFT / camera-left so her hips, knees and BOTH planted feet are entirely outside and left of the green frame and wheels, with a clear visible gap between her legs and the bicycle frame. Both legs are on the SAME side of the bicycle, no straddling, no sitting, no foot on a pedal. Keep her RIGHT hand on the near BLACK HANDLEBAR GRIP. Her LEFT elbow extends a little behind and away from her jacket so her LEFT forearm and LEFT PALM can be visibly traced to the top REAR of the black saddle, rather than hidden behind her body or bag. Adjust only the natural arm reach needed for these two continuous supports. The bicycle remains on both grounded tires at the same location. The man remains released and stationary behind, both hands down. She faces the path away to upper right but has not taken a step yet. Keep all identities, geometry and directions, no extra limbs or bicycle, no text. Make this an unmistakable ordinary standing-beside stance ready to WALK the bike.",
+      "toolOptions": {
+        "transparent_background": false
+      },
+      "inputs": [
+        {
+          "path": "assets/generated/bike-kindness/reference/bike-4-initial.png",
+          "role": "edit target; separate woman stance from bicycle and expose left saddle support",
+          "sha256": "2fe3d3d56449e8e2e5f5213655b6e4b38cbf0cf982b6c2e837467bf6b6b4f04d"
+        }
+      ],
+      "output": {
+        "path": "assets/generated/bike-kindness/reference/bike-4-start.png",
+        "sha256": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5",
+        "width": 1672,
+        "height": 941
+      },
+      "role": "bike-4 dedicated initial stance",
+      "observation": "身体移至车旁，双脚在车架同一侧，右手握把、左手扶座垫可见，男方留在后方且松手。透视更斜向、细部几何跨参考仍须视频复核，不以静态正确代替推车过程。"
+    }
+  ],
+  "videoStatus": "not_submitted",
+  "selectedRunIds": [
+    "bike-world-contact",
+    "bike-wipe-start",
+    "bike-handover-start-contact",
+    "bike-handover-end",
+    "bike-follow-start-stance"
+  ],
+  "boundary": "八次内置图片调用，保留初稿与定向修改。只观察静态身份、接触和站位，未生成或验证视频、声音、动作过程或观众感受。"
+}

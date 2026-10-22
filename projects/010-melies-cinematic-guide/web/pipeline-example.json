@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 3,
+  "kind": "creative_direction_pipeline",
+  "brief": {
+    "goal": "为社区修车摊做一支短片，让通勤者记住这里不止修好车，也会认真照应来取车的人。",
+    "subject": "一位下班来取车的通勤者、一位修车人、一辆已完成维修的城市自行车。",
+    "audience": "日常骑车通勤、愿意选择附近小店的人。",
+    "feeling": "从带着一天疲惫的等待，走向被认真照应后的安心，再从容继续回家的路。",
+    "avoidFeeling": "煽情救赎、怜悯、夸张神修、速度炫技或孤独的空镜。",
+    "setting": "普通社区修车摊，雨已停的傍晚。表现取车与交接，不演示完整维修，也不声称几秒钟修好。",
+    "assets": "尚无人物、自行车或店面参考图；身份图与交接起止构图需在制作前准备。",
+    "duration": 20,
+    "aspectRatio": "16:9",
+    "shotCount": 4
+  },
+  "title": {
+    "zh": "有人，帮你一把",
+    "en": "A Little Help Along the Way"
+  },
+  "concept": {
+    "zh": "用一次取车，把“认真照应”变成行动：看见来人、擦干座垫、扶稳交接、目送离开。车在开场前已修好；我们拍服务发生的关系，不把机械奇迹或暖色滤镜当作安心的原因。",
+    "en": "Make attentive care visible through a bicycle pickup: acknowledge the visitor, dry the saddle, steady the handover, and let them leave. The repair is already complete before the opening; care comes from an exchange, not a mechanical miracle or a warm filter."
+  },
+  "anchor": {
+    "zh": "同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。",
+    "en": "The same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent."
+  },
+  "constraints": {
+    "zh": "写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+    "en": "Restrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post."
+  },
+  "emotion": {
+    "viewerExperience": "希望看到的不是一个被拯救的人，而是疲惫的日常被另一人认真接住一下。",
+    "progression": "turn",
+    "opening": "来取车的人还带着工作日的疲惫，站在门边等待。",
+    "event": "修车人注意到来人，先擦干座垫，再扶稳车身等待对方接稳。",
+    "ending": "被照应后的安心，落实为自己稳稳推车继续走，而不是夸张感激。",
+    "contextReason": "安心有具体原因：对方主动做了一点额外照料，且把支撑完整交给我。我重新接回自己的行动能力。"
+  },
+  "creativeDirection": {
+    "audience": "日常骑车通勤、愿意选择附近小店的人。",
+    "viewingContext": "暂定用于小店社交账号的20秒横屏介绍，允许静音观看；不是维修教程。",
+    "proposition": "不止修好车，也认真对待来取车的人。",
+    "intendedResponse": "观众愿意把小店与细致、可靠的日常服务联系起来；这是传播意图，尚未测试。",
+    "assumptions": [
+      "本题材由当前助手选择，用来检验跨题材迁移，不是用户提供的真实商家故事。",
+      "维修发生在开场前；本片表现取车服务，不能据此证明维修质量。",
+      "暂定两位成年人、雨后普通街道、无对白；人物身份与道具图片尚未提供。"
+    ],
+    "options": [
+      {
+        "id": "craft",
+        "title": "手艺的可靠",
+        "promise": "用机械细节与操作过程证明技术认真。",
+        "tradeoff": "需要准确维修工艺和更长因果链，现有旧书案例已提示机械结构风险；不适合在20秒里压成神修。"
+      },
+      {
+        "id": "care",
+        "title": "日常被照应",
+        "promise": "让额外照料和稳妥交接成为安心的可见理由。",
+        "tradeoff": "画面较朴素，需确保双方注意与回应清楚，否则只像普通交车。"
+      },
+      {
+        "id": "speed",
+        "title": "迅速重新出发",
+        "promise": "用快切、骑行和动感表达恢复效率。",
+        "tradeoff": "容易变成速度广告，增加骑行物理与路面风险，也弱化人与人的照应。"
+      }
+    ],
+    "selectedOptionId": "care",
+    "selectionReason": "目标是让人记住小店认真照应人的服务关系。旧书交还关系在一次实片中可读，陶器又提醒我们动作状态比氛围词更需要明确。因此选择细小照料与支撑交接，而不是堆机械细节或炫技运镜。",
+    "successSignals": [
+      "不听声音，也能看出修车人先注意到来人、再提供照料。",
+      "座垫擦拭与交接的接触位置清楚，车辆始终有支撑。",
+      "最后是取回车辆后继续行动，不能突然变成站着发呆或独处。",
+      "另请观看者描述感受，检验是否读到认真照应，而非预先填写“治愈成功”。"
+    ],
+    "misreadRisk": "没有疲惫处境和主动回应，可能只读成常规交车；表情或配乐用力过度，又可能变成苦情救赎。"
+  },
+  "situation": {
+    "who": "一位疲惫但自主的通勤者，与认真做事的社区修车人。",
+    "whereWhen": "雨停后的傍晚，社区修车摊门内外相连；自行车已修好，停在门内。",
+    "startingState": "通勤者按约来取车，站在门边；车已修好但座垫还留少量水痕，修车人正在车旁。",
+    "motivation": "来人想平稳结束工作日并回家；修车人希望交出一辆可以舒服接手的车。",
+    "trigger": "修车人抬眼注意到来人，选择先擦干座垫，再把车扶到可接的位置。",
+    "outcome": "接车者接稳后，修车人才松手；接车者自己推车离开，生活继续。",
+    "causalChain": [
+      {
+        "shotId": "bike-1",
+        "event": "来人站在门边，修车人抬眼并轻点头。",
+        "change": "独自等待变成被明确注意到。",
+        "meaning": "先让“有人回应”成立，再用动作证明照应。"
+      },
+      {
+        "shotId": "bike-2",
+        "event": "修车人稳住车身，沿座垫表面擦拭一次。",
+        "change": "有水痕的座垫变成可接手的干净表面。",
+        "meaning": "多做一点小事，给关心一个可见落点；不是瞬间修车。"
+      },
+      {
+        "shotId": "bike-3",
+        "event": "接车者握住车把并扶住座垫，修车人确认支撑后松手，接车者轻点头回应。",
+        "change": "支撑由修车人转移到接车者，车辆不失稳。",
+        "meaning": "关系由单向服务变成被接住与回应。"
+      },
+      {
+        "shotId": "bike-4",
+        "event": "接车者保持上一镜握持，平稳推车离开；相机从后方跟随。",
+        "change": "已接稳的静止状态转为自主前行。",
+        "meaning": "安心不是留在原地，而是能够从容继续。"
+      }
+    ],
+    "continuityRules": [
+      "维修在片前已完成，镜间不发生魔法修复；第二镜擦拭只处理座垫表面水痕。",
+      "同一辆车、两人身份、出门方向一致；近景参考不可替代整车结构参考。",
+      "第二镜车身由修车人扶住；第三镜先建立接车者支撑再松手；第四镜承接同一握持。",
+      "车轮接地滚动，车体不整体横滑；第四镜继续走是有意状态变化，不套用陶器末镜必须静止的要求。"
+    ]
+  },
+  "referenceSelection": {
+    "selected": [
+      {
+        "type": "case",
+        "id": "book-repair",
+        "reason": "要表现两人通过物品交接建立照应关系。",
+        "transfer": "book-4两种袖口及共同托物停顿让交还可读；先查接触与固定结构。",
+        "adapt": "换为车身支撑交接，改用衣服身份与车把、座垫接触；不是复制旧书剧情。",
+        "boundary": "先读book-repair-r2的孔位与小角度合书改善，再保留首版问题；一本书的交还不证明自行车支撑一定正确，完整维修未验证。"
+      },
+      {
+        "type": "case",
+        "id": "tea-moment",
+        "reason": "新片有从等待、接稳到继续行走的跨镜状态。",
+        "transfer": "人物运动、相机运动、接触和持时分别检查；首尾姿态不替代过程。",
+        "adapt": "第三镜先接稳再释放，第四镜明确从静止起步且继续走，跟拍用于恢复行动而不是安静停留。",
+        "boundary": "陶器本次末镜额外行走削弱目标；这里的行走有不同意义。迁移的是检查方法，未验证新片情绪效果。"
+      },
+      {
+        "type": "technique",
+        "id": "framing-two-shot",
+        "reason": "同时看见主动照应的人和回应的人，避免仅拍手而丢掉关系。",
+        "transfer": "同一画面保留两人及相对距离变化。",
+        "adapt": "从原例对坐紧张关系改成门边取车，构图扩到看清支撑；不照搬咖啡馆和后靠动作。",
+        "boundary": "原站为效果参考，原例不证明此关系适合所有模型；人物与车辆同框仍需实际审片。"
+      },
+      {
+        "type": "technique",
+        "id": "framing-insert",
+        "reason": "擦干座垫是这次照料的具体动作，需要单独看清。",
+        "transfer": "从整体关系切近一个推动情节的物件细节。",
+        "adapt": "用座垫与布的一次接触替换信封故事，景深保留接触与固定座杆。",
+        "boundary": "本条reviewNotes提示原站提示词疑似错配；仅借技巧定义，不采用原信封提示词，也未观看原站示例。"
+      },
+      {
+        "type": "technique",
+        "id": "camera-movement-follow",
+        "reason": "结尾要让观众经历接车者重新开始行动。",
+        "transfer": "相机从人物后方同步向前，保留方向、速度和空间视差。",
+        "adapt": "跟随推车的人走出修车摊，不骑行、不在末尾要求站住。",
+        "boundary": "陶器一次跟拍未做到预定停镜；本片无需停镜，但行走、车轮与真实相机前移仍待验证。"
+      }
+    ],
+    "rejected": [
+      {
+        "type": "technique",
+        "id": "camera-movement-dolly-out",
+        "reason": "本片结尾要继续前行，后拉让人变小并留在门口会弱化目标。它可用于其他方向，不设为安心的固定方法。"
+      },
+      {
+        "type": "technique",
+        "id": "framing-extreme-close-up",
+        "reason": "只拍眼部可能放大疲惫或苦情，丢掉主动照料的事件。这里优先交代双方关系。"
+      }
+    ],
+    "gaps": [
+      "库里没有自行车支撑交接已验证动作；交车位置与推车运动是本次新增设计。",
+      "未提供人物与车辆参考图，跨镜身份尚未具备实际输入材料。",
+      "没有本题材的原片、听感或观众反馈；这里只跑通创作设计与提示词整理。"
+    ]
+  },
+  "provenance": {
+    "mode": "assistant_authored",
+    "mediaStatus": "design_only",
+    "modelVersion": null,
+    "referenceCaseIds": [
+      "book-repair",
+      "tea-moment"
+    ],
+    "reusedLogic": "迁移旧书交还的角色可辨与支撑停顿，以及陶器对主体运动、摄影机运动和跨镜状态的分开检查。",
+    "newDesign": "新增社区取车情境、修车人的额外座垫照料、稳定交车与继续步行；比较手艺、照应、效率三个方向后选择照应。",
+    "evidence": "本轮读取所选技巧完整文字记录、旧书首版与book-repair-r2及陶器案例的文字、实际输入和复盘。未在本轮重新观看旧视频或原站媒体、未听评声音。案例的既有视觉判断属于先前单次复盘；本题材没有生成图片或视频，也没有观众情绪验证。"
+  },
+  "shots": [
+    {
+      "id": "bike-1",
+      "title": "被注意到",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "从疲惫等待到被回应。",
+        "visibleCause": "来人站在门边停住；修车人抬眼并轻点头。",
+        "why": "让后续照料回应一个具体来人，气氛才有事件依据。",
+        "alternativeReading": "点头太弱会像偶然对视；垂头太重会像苦情。"
+      },
+      "direction": {
+        "zh": "用克制的等待和明确的抬眼回应建立关系，不演悲伤或感激。",
+        "en": "Establish a relationship through restrained waiting and a clear acknowledging look, without sadness or grateful overacting."
+      },
+      "action": {
+        "before": {
+          "zh": "接车者已站在门口近侧，修车人在车的远侧扶住车把立管，车已修好、两轮落地。",
+          "en": "The commuter is already waiting at the near side of the doorway. The mechanic steadies the handlebar stem from the far side; the repaired bicycle rests on both wheels."
+        },
+        "performance": {
+          "zh": "接车者轻放松肩部、抬眼；修车人看向来人，轻点头一次，手仍扶车。",
+          "en": "The commuter relaxes their shoulders slightly and looks up. The mechanic looks toward them and gives one small nod while keeping the bicycle supported."
+        },
+        "after": {
+          "zh": "两人都不走动，修车人回看座垫，准备照料。",
+          "en": "Both remain in place; the mechanic glances back toward the saddle, preparing to attend to it."
+        },
+        "relations": {
+          "zh": "车位于两人之间且不遮视线，修车人手与车把立管连续接触，另一人尚未接车。",
+          "en": "The bicycle stands between them without blocking their sightline. The mechanic maintains contact with the stem; the commuter has not taken the bicycle yet."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "固定斜侧双人全中景，无推拉摇移。",
+          "en": "Locked oblique medium-wide two-shot, without camera movement or zoom."
+        },
+        "composition": {
+          "zh": "能同时看清双方上身、目光和同一车体的两轮落地；门外方向留在右侧。",
+          "en": "Keep both upper bodies, exchanged looks and both grounded wheels readable; the exit remains screen right."
+        },
+        "lighting": {
+          "zh": "雨后阴天自然光，肤色与店内暗部清楚，不用光束替代情境。",
+          "en": "Natural overcast light after rain, readable skin and interior shadows, without expressive light beams."
+        },
+        "timing": {
+          "zh": "前两秒建立等待，约2至3秒抬眼回应，余下时间让观众读清双方。",
+          "en": "Establish waiting over two seconds, exchange the look around seconds two to three, then allow time to read both people."
+        },
+        "sound": {
+          "zh": "计划为远处城市底噪和衣料声，无对白、旁白或配乐；静音也应读懂回应。",
+          "en": "Plan distant street ambience and fabric sounds, with no speech, narration or music; the acknowledgment should read when muted."
+        }
+      },
+      "references": [
+        {
+          "id": "framing-two-shot",
+          "purpose": "看见双方注意与回应",
+          "retain": "两人在同一画面的关系",
+          "adapt": "扩展到车与落地支撑，不复制对坐紧张"
+        }
+      ],
+      "referencePlan": "需准备两人／店面身份图与双人空间构图；尚未提供。不能把身份图当成已经点头的动作证据。",
+      "transition": {
+        "zh": "视线落向座垫后硬切同一座垫细节。",
+        "en": "Cut straight to the same saddle detail after the glance toward it."
+      },
+      "checks": {
+        "action": [
+          "车只有一辆、两轮接地，修车人持续扶住车。",
+          "确认点头对象是来人而不是画外第三人。"
+        ],
+        "expression": [
+          "静音看能否读到等待被回应，而非只有两个人站着。",
+          "克制表现疲惫，不以压暗脸部代替情境。"
+        ]
+      }
+    },
+    {
+      "id": "bike-2",
+      "title": "多做一点",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "让认真照应有明确可见的动作。",
+        "visibleCause": "一只手扶车，另一只手用布沿有水痕的座垫轻擦一次。",
+        "why": "额外的小照料比抽象的“温暖”更具体，也给下一镜交接一个准备过程。",
+        "alternativeReading": "可能被读成普通清洁；需保留前镜来人和后镜接车的因果。"
+      },
+      "direction": {
+        "zh": "关注布与座垫的真实接触，表现小事被认真做完，不拍机械奇迹。",
+        "en": "Attend to real cloth-to-saddle contact, showing a small task completed with care rather than a mechanical miracle."
+      },
+      "action": {
+        "before": {
+          "zh": "同一黑座垫表面有少量水痕，车已修好且直立，修车人左手扶住车把立管。",
+          "en": "The same black saddle has a small surface water mark. The already-repaired bicycle is upright and the mechanic steadies its handlebar stem with the left hand."
+        },
+        "performance": {
+          "zh": "修车人右手用一块浅灰布沿座垫表面从后向前擦过一次，布贴着表面，再提起离开。",
+          "en": "The mechanic makes one rear-to-front pass over the saddle with a light-gray cloth in the right hand, maintaining surface contact before lifting it away."
+        },
+        "after": {
+          "zh": "水痕减少，布离开座垫，车体仍由左手支撑；座垫和座杆不转动。",
+          "en": "The water mark is reduced, the cloth leaves the saddle, and the bicycle remains supported by the left hand. The saddle and seatpost do not rotate."
+        },
+        "relations": {
+          "zh": "保留座垫、固定座杆与一段车架作为结构依据。布只接触表面，不穿透、不让座垫整体变形；镜外左手支撑须在参考构图和下一镜核对。",
+          "en": "Retain the saddle, fixed seatpost and part of the frame as structural cues. The cloth touches the surface without penetration or reshaping the saddle; offscreen left-hand support must be established in reference framing and checked in the following shot."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "固定的局部插入镜头，普通近景，不要求极端微距或转移焦点。",
+          "en": "Locked insert detail at a normal close distance, without extreme macro or a focus pull."
+        },
+        "composition": {
+          "zh": "座垫表面和布接触区清楚；保留座杆，不只拍失去支撑关系的材质纹理。",
+          "en": "Keep the saddle surface and cloth contact sharp; include the seatpost rather than showing unsupported texture alone."
+        },
+        "lighting": {
+          "zh": "延续前镜阴天傍晚光，水痕可辨但不夸张发亮。",
+          "en": "Continue the overcast evening light; make the water mark readable without exaggerated shine."
+        },
+        "timing": {
+          "zh": "前一秒保持，约1至3秒擦一次并提布，3至5秒保留完成状态。",
+          "en": "Hold for one second, make one wiping pass and lift the cloth around seconds one to three, then retain the completed state through second five."
+        },
+        "sound": {
+          "zh": "计划轻微布料摩擦与持续街道底噪，不用音乐替擦拭制造情绪。",
+          "en": "Plan soft cloth friction and continuous street ambience, without music supplying the emotional meaning."
+        }
+      },
+      "references": [
+        {
+          "id": "framing-insert",
+          "purpose": "看清额外照料的细节",
+          "retain": "切近推动事件的具体物件",
+          "adapt": "只用技巧定义；原信封提示词疑似错配，不采用"
+        }
+      ],
+      "referencePlan": "需同一车身份图及座垫／座杆专用近景参考；车扶稳的支撑角色另标明，尚未生成。",
+      "transition": {
+        "zh": "布提起后硬切交车双人机位，车头朝向与上一镜一致。",
+        "en": "Cut to the handover two-shot after the cloth lifts, preserving the bicycle direction."
+      },
+      "checks": {
+        "action": [
+          "擦拭只作用于座垫表面，座杆与车架稳定。",
+          "只有一次接触路径，不反复刷、不让布穿透。"
+        ],
+        "expression": [
+          "细节需在前后情境中读成照料，不把擦座垫宣称为修好了车。",
+          "擦完后确有可读完成状态。"
+        ]
+      }
+    },
+    {
+      "id": "bike-3",
+      "title": "接稳，再松手",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "通过稳定交接和轻微回应表达安心。",
+        "visibleCause": "接车者先握车把并扶座垫，修车人才放开，接车者轻点头。",
+        "why": "照应让人接回自己的行动；支撑顺序同时是内容逻辑与关系表达。",
+        "alternativeReading": "交接过快可能像递物流水线；夸张鞠躬会变成救赎。"
+      },
+      "direction": {
+        "zh": "让支撑转移清楚，接车者自己稳住车辆，回应克制、平等。",
+        "en": "Make the support transfer readable. The commuter steadies the bicycle independently, with a restrained response between equals."
+      },
+      "action": {
+        "before": {
+          "zh": "同一车在门口静止、两轮落地，修车人远侧左手扶车把立管；接车者站在近侧。",
+          "en": "The same bicycle is stationary at the doorway on both wheels. The mechanic on its far side holds the stem with the left hand; the commuter stands on the near side."
+        },
+        "performance": {
+          "zh": "接车者右手握近侧车把握套、左手轻扶座垫。两人共同扶稳约一秒后，修车人左手离开车把立管，接车者轻点头一次。",
+          "en": "The commuter places the right hand on the near handlebar grip and the left on the saddle. After both steady the bicycle together for about one second, the mechanic releases the stem and the commuter gives one small nod."
+        },
+        "after": {
+          "zh": "接车者独自扶稳车，双方仍站着，尚未迈步；车轮位置不变。",
+          "en": "The commuter alone supports the bicycle. Both people remain standing without stepping yet, and the wheel positions are unchanged."
+        },
+        "relations": {
+          "zh": "固定同一车把、座垫、车轮与地面；接车者双脚落地。先接触再释放，不交换车把左右，不让车身失去支撑。",
+          "en": "Keep the same handlebar, saddle, wheels and ground relationships. The commuter has both feet planted. Contact precedes release, with no swapped handlebar sides or unsupported frame."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "固定斜侧双人宽景，和第一镜保持同一侧观察，不越轴。",
+          "en": "Locked oblique wide two-shot from the same side as the opening, without crossing the action axis."
+        },
+        "composition": {
+          "zh": "同时保留两人上身、握持和轮胎接地；交接区不被前景遮住。",
+          "en": "Include both upper bodies, hand contacts and tire-to-ground contact, without foreground occlusion of the exchange."
+        },
+        "lighting": {
+          "zh": "同一阴天傍晚光，无突然金色光束或亮度跳变。",
+          "en": "Maintain the same overcast evening light without sudden golden beams or exposure jumps."
+        },
+        "timing": {
+          "zh": "约0至2秒建立接触，2至3秒共同扶稳，3至4秒修车人松手并回应，最后一秒接稳保持。",
+          "en": "Establish contacts around seconds zero to two, share support around seconds two to three, release and acknowledge around seconds three to four, then hold the stable state for the final second."
+        },
+        "sound": {
+          "zh": "计划轻微握持和衣料声，保留同一街道空间，不加感激对白。",
+          "en": "Plan quiet contact and clothing sounds in the same street ambience, without grateful dialogue."
+        }
+      },
+      "references": [
+        {
+          "id": "framing-two-shot",
+          "purpose": "同时看交接双方与支撑变化",
+          "retain": "同框观察行动和回应",
+          "adapt": "宽到看清车轮；不是照抄书的共同托举"
+        }
+      ],
+      "referencePlan": "需要明确近远两侧人物、车头与握持点的交接起止图，另与第一镜身份对齐；未提供。",
+      "transition": {
+        "zh": "接车者扶稳后切后方机位；下一镜从同一静止握持开始再起步。",
+        "en": "Cut behind the commuter after independent support is established. Begin the next shot from that same stationary grip before stepping."
+      },
+      "checks": {
+        "action": [
+          "接车者握住近侧握套并扶座垫后，修车人才松手。",
+          "比较中间状态而非只看首尾，车体不可悬空或跳位。"
+        ],
+        "expression": [
+          "共同扶稳的停顿和轻点头都应可读。",
+          "另问观众是否读到照应，不预设安心已经传达。"
+        ]
+      }
+    },
+    {
+      "id": "bike-4",
+      "title": "从容继续",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "让被照应落实为继续自己的路。",
+        "visibleCause": "接车者承接握持状态，推同一辆车走出，修车人留在店内。",
+        "why": "结尾的行动能力属于接车者；前面的照料有了实际后果。",
+        "alternativeReading": "只有背影可能显孤独，因此片尾不靠孤立长空镜，保留前面交接因果。"
+      },
+      "direction": {
+        "zh": "跟随人的自主前行，平稳而非追赶；这里的继续走是目标，不要求停在门口。",
+        "en": "Follow the commuter resuming their own movement, steadily rather than in pursuit. Continued walking is intentional here, not a pause at the doorway."
+      },
+      "action": {
+        "before": {
+          "zh": "接车者站在车的近侧，双脚已落地，右手握近侧车把、左手扶座垫，修车人已松手。",
+          "en": "The commuter stands beside the near side of the bicycle with both feet planted, right hand on the near grip and left hand on the saddle. The mechanic has already released it."
+        },
+        "performance": {
+          "zh": "接车者先自然迈步，再缓慢推车沿右前方人行道离开；保持在车旁，不跨坐，车轮沿地面随位移滚动。",
+          "en": "The commuter starts a natural step, then slowly walks the bicycle along the pavement toward front right, remaining beside it without mounting. The wheels roll on the ground with its travel."
+        },
+        "after": {
+          "zh": "接车者与车持续向前，修车人留在后方摊位；不突然转身或额外挥手。",
+          "en": "The commuter and bicycle continue forward while the mechanic stays at the stall behind, without a sudden turn or extra wave."
+        },
+        "relations": {
+          "zh": "手与车把、座垫持续接触，车与人同速前进，车头承接前镜朝向。腿和车轮各自运动，不让整车平移滑行。",
+          "en": "Maintain hand contact with the grip and saddle. The person and bicycle advance together in the established direction; legs step and wheels roll rather than the whole bicycle sliding."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "摄影机在人物后方略偏近侧，平稳跟随向前；固定焦距，不变焦、环绕或后拉。",
+          "en": "Follow smoothly from behind and slightly toward the near side at a fixed focal length, without zooming, orbiting or dollying backward."
+        },
+        "composition": {
+          "zh": "保留接车者上身、推车握持和轮胎接地，起始还能辨认后方摊位，之后自然离开背景。",
+          "en": "Retain the commuter upper body, pushing contacts and grounded tires. The stall is initially readable behind and naturally recedes."
+        },
+        "lighting": {
+          "zh": "延续同一天的阴天光，不因离开就突然变成晴天或夕阳。",
+          "en": "Continue the same overcast daylight without a sudden sun or sunset transformation."
+        },
+        "timing": {
+          "zh": "前约0.5秒承接站稳状态，随后正常速度起步并持续前行到结束；不要求最后两秒静止。",
+          "en": "Continue the planted start for roughly half a second, then begin walking at normal speed and keep moving through the end, without a two-second still hold."
+        },
+        "sound": {
+          "zh": "计划脚步、轮胎滚动与连续街道底噪；声画需实际制作后单独检查。",
+          "en": "Plan footsteps, rolling tires and continuous street ambience; check audio content and synchronization separately after production."
+        }
+      },
+      "references": [
+        {
+          "id": "camera-movement-follow",
+          "purpose": "把继续前行作为结尾经历",
+          "retain": "人物前行、相机后方同速跟随",
+          "adapt": "推车而非端杯，不要求停步停镜"
+        }
+      ],
+      "referencePlan": "需承接第三镜握持的后方起始构图与出门方向参考；不是任意骑车素材，尚未提供。",
+      "transition": {
+        "zh": "在继续前行时结束，必要时后期短收声，不用定格伪造停留；片名另在后期处理。",
+        "en": "End during continued travel, with a short audio tail in post if needed. Do not fabricate a pause with a freeze frame; handle titles separately in post."
+      },
+      "checks": {
+        "action": [
+          "先承接已接稳状态再起步，修车人不重新扶车。",
+          "检查脚步、车轮转动与位移，不以背景变动冒充跟拍。"
+        ],
+        "expression": [
+          "最后应读作从容继续，不是追逐或悲伤离开。",
+          "本镜持续走符合目标，不能机械套用陶器末镜停住的标准。"
+        ]
+      }
+    }
+  ]
+}

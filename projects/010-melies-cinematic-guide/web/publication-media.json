@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-22",
+  "purpose": "Exact-byte media hosting for GitHub Pages capacity; original execution and references stay unchanged.",
+  "releaseTag": "melies-media-20261022",
+  "releaseUrl": "https://github.com/yydshly/1021_codex_project/releases/tag/melies-media-20261022",
+  "files": [
+    {
+      "path": "generated/bike-kindness/a-little-help.mp4",
+      "assetName": "bike-kindness--a-little-help.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--a-little-help.mp4",
+      "sha256": "6d2648ada6663cf7908df923f23a4269de6e7890a74989e674a10ac5b6d68b8d",
+      "bytes": 16993252,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/bike-kindness/bike-1.mp4",
+      "assetName": "bike-kindness--bike-1.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-1.mp4",
+      "sha256": "14db9c4e774252e3e144975e5e8789f3d8c640e8befa4bf55501adcdf8840cb6",
+      "bytes": 4610324,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/bike-kindness/bike-2.mp4",
+      "assetName": "bike-kindness--bike-2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-2.mp4",
+      "sha256": "4125951bd5b3964cdd829e6d67b46423b1b3463e851b7a65f7aa2607626c918a",
+      "bytes": 4214363,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/bike-kindness/bike-3.mp4",
+      "assetName": "bike-kindness--bike-3.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-3.mp4",
+      "sha256": "8c50881e132d7ee3bca69500f6d3e8c0e43458db5dbc897bd52530814f3e4eb7",
+      "bytes": 4367682,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/bike-kindness/bike-4.mp4",
+      "assetName": "bike-kindness--bike-4.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-4.mp4",
+      "sha256": "77f5e40f02e775678aa75534c5a8cc3f6ad79eafd0d9c5f751b7ceee910313c1",
+      "bytes": 7153922,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/bike-kindness/reference/bike-1-start.png",
+      "assetName": "bike-kindness--reference--bike-1-start.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-1-start.png",
+      "sha256": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86",
+      "bytes": 2641393,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/bike-kindness/reference/bike-2-start.png",
+      "assetName": "bike-kindness--reference--bike-2-start.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-2-start.png",
+      "sha256": "9c7368c8def709ea8fa83c331a2556568b0f3e9df6d730c36b9aa7b2e0fbc2ca",
+      "bytes": 2225038,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/bike-kindness/reference/bike-3-end.png",
+      "assetName": "bike-kindness--reference--bike-3-end.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-3-end.png",
+      "sha256": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5",
+      "bytes": 2535770,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/bike-kindness/reference/bike-3-start.png",
+      "assetName": "bike-kindness--reference--bike-3-start.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-3-start.png",
+      "sha256": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60",
+      "bytes": 2549775,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/bike-kindness/reference/bike-4-start.png",
+      "assetName": "bike-kindness--reference--bike-4-start.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-4-start.png",
+      "sha256": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5",
+      "bytes": 2588006,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/book-repair/book-1.mp4",
+      "assetName": "book-repair--book-1.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-1.mp4",
+      "sha256": "175be6b8b92bd06d08eb3da7252d2bf402b051b6567c6c244e167639015e0219",
+      "bytes": 4403311,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair/book-2.mp4",
+      "assetName": "book-repair--book-2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-2.mp4",
+      "sha256": "dec926f166107c365a2f01bf4b5dbd43ce1d7290865082d0da468187f2eb59a4",
+      "bytes": 6441698,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair/book-3.mp4",
+      "assetName": "book-repair--book-3.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-3.mp4",
+      "sha256": "574590397b2b44ec405951bc3a6da0c920efed414e2bdbcefbae973330827e94",
+      "bytes": 3867307,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair/book-4.mp4",
+      "assetName": "book-repair--book-4.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-4.mp4",
+      "sha256": "45a23e411f9ae73db0eb8efcce6f9265fcdcc1c1033ae2229956c65ea74d0259",
+      "bytes": 5208656,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair/book-reference.png",
+      "assetName": "book-repair--book-reference.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-reference.png",
+      "sha256": "cddcfd08b0253ab26319b87048c71151be921d2f2faacbaeede95c58937b5151",
+      "bytes": 2306103,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/book-repair/let-the-story-continue.mp4",
+      "assetName": "book-repair--let-the-story-continue.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--let-the-story-continue.mp4",
+      "sha256": "6220d3665d32661191ec0d38a18ea4641c3e235ba25b3a7174fb4ecd3bf52e83",
+      "bytes": 13421765,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair-r2/book-2-r2.mp4",
+      "assetName": "book-repair-r2--book-2-r2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--book-2-r2.mp4",
+      "sha256": "076ac80f21c5256ffe107ba25e30e00a25ab0a11a470e3d7834a7a82e3b34137",
+      "bytes": 7995875,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair-r2/book-3-r2.mp4",
+      "assetName": "book-repair-r2--book-3-r2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--book-3-r2.mp4",
+      "sha256": "c49c6c764313e80a6800db8f7ef12633dc2d733620aecb9f602445d74f58e92b",
+      "bytes": 4079382,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair-r2/let-the-story-continue-r2.mp4",
+      "assetName": "book-repair-r2--let-the-story-continue-r2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--let-the-story-continue-r2.mp4",
+      "sha256": "7261f61ce8af8e7f9c616240013719e93f9e84b24ed4b5a3bc9f2ad85b3fb15c",
+      "bytes": 13991619,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/book-repair-r2/reference/closure-first.png",
+      "assetName": "book-repair-r2--reference--closure-first.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--closure-first.png",
+      "sha256": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2",
+      "bytes": 2410728,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/book-repair-r2/reference/closure-last.png",
+      "assetName": "book-repair-r2--reference--closure-last.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--closure-last.png",
+      "sha256": "405993e81e6bb497b985afef4646253f7b918f7f854e3194a12f0b2c0cea04a3",
+      "bytes": 2328914,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/book-repair-r2/reference/needle-first.png",
+      "assetName": "book-repair-r2--reference--needle-first.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--needle-first.png",
+      "sha256": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599",
+      "bytes": 2456847,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/book-repair-r2/reference/needle-last.png",
+      "assetName": "book-repair-r2--reference--needle-last.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--needle-last.png",
+      "sha256": "236e32d7c83cb4262a09532ae51dbd009847da02fd081cde8dc5229d550b7456",
+      "bytes": 2366933,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/rain-to-forest/product-reference.png",
+      "assetName": "rain-to-forest--product-reference.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--product-reference.png",
+      "sha256": "1e1715555d990d89529d0d0107c73c7e34ad89ed5bdd4adba40df3c33b8c50e1",
+      "bytes": 2068435,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/rain-to-forest/rain-to-forest.mp4",
+      "assetName": "rain-to-forest--rain-to-forest.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--rain-to-forest.mp4",
+      "sha256": "752fe4dfc4ac00634d028a358ea4e96a5f8d08d19f48f4c14daa7afd9ba5db6f",
+      "bytes": 12907150,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/rain-to-forest/s1.mp4",
+      "assetName": "rain-to-forest--s1.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s1.mp4",
+      "sha256": "fac2ea9a32113a87e3d9d9b1e3fc68225fd0104a0ba47a0b54aa42281b8ec784",
+      "bytes": 2899208,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/rain-to-forest/s2.mp4",
+      "assetName": "rain-to-forest--s2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s2.mp4",
+      "sha256": "b15d1dec097ee08c3e0d9f16766abe234fe8c8bfc50883d613a75d34d33b4274",
+      "bytes": 2683118,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/rain-to-forest/s3.mp4",
+      "assetName": "rain-to-forest--s3.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s3.mp4",
+      "sha256": "9acfdda7402260f2abb3275fdf82c2cc61ad7ebd9db96e27b3b56dce7f596876",
+      "bytes": 8158068,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/rain-to-forest/s4.mp4",
+      "assetName": "rain-to-forest--s4.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s4.mp4",
+      "sha256": "1706e8759115da61c03e5a9e0482935e38b30b72d78eef56e17265c6a196181e",
+      "bytes": 2977374,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/tea-moment/keep-a-moment.mp4",
+      "assetName": "tea-moment--keep-a-moment.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--keep-a-moment.mp4",
+      "sha256": "6908d5c24cb6d4dbe2267c58fcd33faa9518a155956289a1f440e176e7a9b8b8",
+      "bytes": 13039064,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/tea-moment/source/room-and-person-reference.png",
+      "assetName": "tea-moment--source--room-and-person-reference.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--source--room-and-person-reference.png",
+      "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb",
+      "bytes": 2272854,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/source/tea-3-initial.png",
+      "assetName": "tea-moment--source--tea-3-initial.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--source--tea-3-initial.png",
+      "sha256": "46e1a2e36d0aa9650ea7c8e91842673cd9fb5f7514351df23b4eb3a543c54569",
+      "bytes": 2375850,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/tea-1-touch.png",
+      "assetName": "tea-moment--tea-1-touch.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-1-touch.png",
+      "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b",
+      "bytes": 2107146,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/tea-1.mp4",
+      "assetName": "tea-moment--tea-1.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-1.mp4",
+      "sha256": "186335219e39b60f76589ddfc3c351392a8ed8c8cdb6b9f60ba99dc5d9ec9b70",
+      "bytes": 2906561,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/tea-moment/tea-2-walk.png",
+      "assetName": "tea-moment--tea-2-walk.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-2-walk.png",
+      "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a",
+      "bytes": 2285043,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/tea-2.mp4",
+      "assetName": "tea-moment--tea-2.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-2.mp4",
+      "sha256": "48c545e7664ba03afc6aa93e44b9a1bc212c59a315d1fd8ea29e795d810c7d52",
+      "bytes": 6360299,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/tea-moment/tea-3-pause.png",
+      "assetName": "tea-moment--tea-3-pause.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-3-pause.png",
+      "sha256": "4f4c26a11ca125ade5c1b4c61304916a7ea9f08cbf189727107e5d184a13bc4a",
+      "bytes": 2327242,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/tea-3.mp4",
+      "assetName": "tea-moment--tea-3.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-3.mp4",
+      "sha256": "d4c8c0c8bc4768bf1dcb3c02535f1ef836be2b5099509d63ad2a6729a566f748",
+      "bytes": 6396424,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "generated/tea-moment/video-reference/tea-1-before.png",
+      "assetName": "tea-moment--video-reference--tea-1-before.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-1-before.png",
+      "sha256": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78",
+      "bytes": 2087096,
+      "contentType": "image/png"
+    },
+    {
+      "path": "generated/tea-moment/video-reference/tea-2-stop.png",
+      "assetName": "tea-moment--video-reference--tea-2-stop.png",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-2-stop.png",
+      "sha256": "5b7ea5b1cf372652229e325b8598029047a0fe0cbc3ad931d49e0570def8377f",
+      "bytes": 2270056,
+      "contentType": "image/png"
+    }
+  ]
+}

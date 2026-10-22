@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 2,
+  "kind": "emotion_action_direction",
+  "brief": {
+    "goal": "为手作陶器品牌设计一支日常短片：从杯子的触感，走到人在窗边为自己停留的片刻。",
+    "subject": "一只带蓝色小点的米白陶瓷杯，以及端杯走向窗边的人",
+    "audience": "喜欢手作器物、希望在日常中留出片刻的人",
+    "feeling": "日常的安静逐步加深，结尾有愿意为自己停留片刻的感受。",
+    "avoidFeeling": "忧伤、孤独、奢侈品陈列或刻意煽情。",
+    "setting": "同一间有木桌和窗户的普通茶室，白天左侧柔和窗光；人物穿深灰针织衣，背向镜头，不拍脸。",
+    "assets": "尚无本题材身份图或动作参考；生成前另做同一杯子与人物的参考。",
+    "duration": 15,
+    "aspectRatio": "16:9",
+    "shotCount": 3
+  },
+  "title": {
+    "zh": "把片刻，留给自己",
+    "en": "Keep a Moment for Yourself"
+  },
+  "concept": {
+    "zh": "从一个可触摸的细节，跟随端杯的行动来到窗边，再让空间展开，把主动停留留作余味。",
+    "en": "Begin with a tactile detail, follow the cup-bearer to the window, then reveal the room and hold on the choice to pause."
+  },
+  "emotion": {
+    "viewerExperience": "让日常器物与主动停步的行动支持安静、愿意停留的预期感受。",
+    "progression": "deepen",
+    "opening": "注意到一件平常但可感知的器物。",
+    "event": "人物端杯走向窗边并停下。",
+    "ending": "在安静空间里留住片刻。",
+    "contextReason": "杯子伴随人的日常行动；主动停止行走、稳定托杯和留出停顿，让片刻具有被选择的意义。光色与慢节奏只是配合，这些感受仍需观看反馈。"
+  },
+  "anchor": {
+    "zh": "同一只米白陶瓷杯，略带细小斑点，杯柄根部有一个蓝色小点，杯中茶水不满。人物一直穿深灰针织衣，背向镜头，不露脸。普通木桌与同一扇窗，左侧柔和白天窗光，窗外只有静止绿意。",
+    "en": "The same speckled ivory ceramic cup has one small blue dot at the handle base and is partly filled with tea. The person wears the same dark-gray knit top, remains back to camera, and shows no face. Keep the ordinary wooden table and same window, soft daylight from the left, and still greenery outside."
+  },
+  "constraints": {
+    "zh": "保持一杯一人、杯柄和蓝点一致，手与杯子的支撑关系合理，茶水不洒。不加哭泣、夸张表演、漂浮物、品牌字或奢侈品展台。",
+    "en": "Keep one cup and one person, consistent handle and blue dot, plausible hand support, and no spilled tea. No crying, exaggerated acting, floating objects, brand lettering or luxury display pedestal."
+  },
+  "provenance": {
+    "mode": "assistant_authored",
+    "mediaStatus": "design_only",
+    "modelVersion": null,
+    "referenceCaseIds": [
+      "book-repair",
+      "rain-to-forest"
+    ],
+    "reusedLogic": "参考旧书的手与道具接触、身份与构图分别检查，以及香水从细节到更大空间的表达组织。",
+    "newDesign": "陶瓷杯、端杯前行、在窗边主动停步和后拉揭示空间，均为本次新设计；引用跟拍和后拉，验证全库引用流程。",
+    "evidence": "依据相关条目原文与已有案例文字复盘设计，本轮未重新观看原站视频，未生成本题材视频，也无观众反馈。不继承案例验证状态。"
+  },
+  "shots": [
+    {
+      "id": "tea-1",
+      "title": "触到日常",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "把注意力放到可触摸的日常细节。",
+        "visibleCause": "手指接触杯柄后停住，杯子仍在桌面。",
+        "why": "谨慎且明确的接触让人与器物的关系可见，为后续端杯行动建立依据。",
+        "alternativeReading": "过度磨皮、强高光或手指摆拍可能读成昂贵商品陈列，削弱日常感。"
+      },
+      "direction": {
+        "zh": "通过真实陶面与一次轻触建立可感知的日常，不夸张表演；接触后给观众时间观察。",
+        "en": "Establish tangible everyday life through the ceramic surface and one light touch, with restrained performance and time to observe after contact."
+      },
+      "action": {
+        "before": {
+          "zh": "杯子平放在木桌上，杯柄朝右，右手尚未碰到杯柄。",
+          "en": "The cup rests on the wooden table, handle to the right, with the right hand not yet touching it."
+        },
+        "performance": {
+          "zh": "右手拇指和食指轻轻接触同一杯柄，保持杯子在桌面，然后停住。",
+          "en": "The right thumb and forefinger gently contact the same handle, keeping the cup on the table, then pause."
+        },
+        "after": {
+          "zh": "手指留在杯柄，杯子的位置和朝向不变。",
+          "en": "The fingers remain on the handle; the cup position and orientation stay unchanged."
+        },
+        "relations": {
+          "zh": "只有一只杯子和一只可见右手，指尖贴在杯柄表面，不穿透杯柄，杯底保持接触木桌。",
+          "en": "Show one cup and one visible right hand. Fingertips meet the handle surface without penetrating it; the base remains on the table."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "固定近距离细节机位，杯柄根部与手指接触点清楚，保持足够景深。",
+          "en": "Locked close detail view with enough depth of field to keep the handle base and finger contact clear."
+        },
+        "composition": {
+          "zh": "杯柄和蓝点在中部，桌面保留少量使用痕迹，远处背景自然虚化。",
+          "en": "Place the handle and blue dot near center, retain minor signs of use on the table, and let the distant background soften."
+        },
+        "lighting": {
+          "zh": "左侧窗户柔和漫射光，陶面有层次，不做夸张亮斑。",
+          "en": "Soft diffuse window light from the left models the ceramic without exaggerated highlights."
+        },
+        "timing": {
+          "zh": "前一秒静置，约一至三秒完成轻触，随后停留，不做慢动作重放。",
+          "en": "Hold still for the first second, make the light contact around seconds one to three, then hold; no slow-motion replay."
+        },
+        "sound": {
+          "zh": "只计划轻微衣料声、指尖触杯声与自然室内底噪，无配乐和旁白。",
+          "en": "Plan only soft clothing, fingertip-to-cup contact and natural room tone, without music or narration."
+        }
+      },
+      "references": [
+        {
+          "id": "lenses-macro",
+          "purpose": "让细节与接触清楚可见。",
+          "retain": "明确细节尺度和清晰接触区。",
+          "adapt": "将原例的机械细节替换为杯柄、蓝点与手指；景深按本次接触可读性调整。"
+        }
+      ],
+      "referencePlan": "生成前准备杯子身份图和手指尚未接触／已接触的起止参考；当前尚未提供。",
+      "transition": {
+        "zh": "接触后的停顿处硬切；下一镜已经端起同一杯子，省略抬杯过程并保持右手持柄。",
+        "en": "Hard-cut during the contact pause. The next shot starts with the same cup already lifted, preserving the right-hand grip and omitting the lift."
+      },
+      "checks": {
+        "action": [
+          "一杯一手，手指与杯柄接触位置稳定，杯底不漂浮。"
+        ],
+        "expression": [
+          "轻触与停顿可读；记录观看者是否感到日常亲近，不能只凭柔光认定情绪达标。"
+        ]
+      }
+    },
+    {
+      "id": "tea-2",
+      "title": "走向窗边",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "让观众陪伴一个明确而平常的行动。",
+        "visibleCause": "人物端杯走向窗户，抵达后停止脚步。",
+        "why": "行动有可见目的地，停止行走使接下来的停留具有主动选择的依据。",
+        "alternativeReading": "行走过快、跟拍晃动过强或路程不清可能读成赶路与不安。"
+      },
+      "direction": {
+        "zh": "通过陪伴式行走与清楚的停步，把注意力从杯子带到人的日常选择。",
+        "en": "Bring attention from the cup to an everyday choice through an accompanying walk and a clearly readable stop."
+      },
+      "action": {
+        "before": {
+          "zh": "同一人物背向镜头，右手持杯柄，左手托杯底，站在木桌旁，窗户在前方。",
+          "en": "The same person stands beside the wooden table, back to camera, right hand on the handle and left hand supporting the base, with the window ahead."
+        },
+        "performance": {
+          "zh": "人物稳定端杯向窗户走两步，抵达后自然停住；杯子始终在身体前方。",
+          "en": "The person carries the cup steadily for two steps toward the window and naturally stops, keeping it in front of the body."
+        },
+        "after": {
+          "zh": "人物背向镜头站在窗前，双手继续稳住同一杯子。",
+          "en": "The person stands at the window, back to camera, with both hands still supporting the same cup."
+        },
+        "relations": {
+          "zh": "同一右手持同一杯柄、左手托底，双脚交替接地；人物、窗户和桌子的空间顺序持续一致。",
+          "en": "The same right hand holds the same handle and the left supports the base. Feet alternate contact with the floor; the person, window and table maintain consistent spatial order."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "摄影机从人物后方同步跟随，距离大致稳定，不同时变焦或环绕；停步时摄影机也平稳停下。",
+          "en": "Follow behind the person at roughly constant distance, without added zoom or orbit; settle smoothly when the person stops."
+        },
+        "composition": {
+          "zh": "背影居中略偏左，杯子部分可见，前方窗户始终提供目的地方向。",
+          "en": "Keep the back slightly left of center, the cup partly visible, and the window ahead as a continuous destination cue."
+        },
+        "lighting": {
+          "zh": "延续同一左侧窗光，走近窗户时亮度自然变化，深灰针织衣保持细节。",
+          "en": "Continue the same left window light, allowing natural brightness change near the window while retaining knit texture."
+        },
+        "timing": {
+          "zh": "约前三秒走两步，后二秒停住；步伐自然，不用突然加速。",
+          "en": "Take two natural steps over roughly the first three seconds and pause for the last two, without sudden acceleration."
+        },
+        "sound": {
+          "zh": "计划轻脚步、衣料声与连续室内底噪；不加入催促性节拍。",
+          "en": "Plan soft footsteps, fabric and continuous room tone, without an insistent beat."
+        }
+      },
+      "references": [
+        {
+          "id": "camera-movement-follow",
+          "purpose": "陪伴人物穿行空间并保持方向。",
+          "retain": "后方同步跟随主体。",
+          "adapt": "换成端杯走向同一茶室窗户的人，加入停步与摄影机同步停下。"
+        }
+      ],
+      "referencePlan": "准备同一人物、杯子及桌子到窗户的空间参考，手的支撑关系明确；当前尚未提供。",
+      "transition": {
+        "zh": "人物停步后硬切到同一窗前位置的杯子与背影近景，持杯姿态不变。",
+        "en": "After the stop, hard-cut to a closer view of the cup and back at the same window position, preserving the grip."
+      },
+      "checks": {
+        "action": [
+          "双脚接地与双手支撑合理，茶水不洒，窗户不换边。"
+        ],
+        "expression": [
+          "停步清楚，后方跟随不读成追逐；脚步声音需生成后实际听评。"
+        ]
+      }
+    },
+    {
+      "id": "tea-3",
+      "title": "留住片刻",
+      "duration": 5,
+      "emotionalBeat": {
+        "intent": "加深主动停留的余味。",
+        "visibleCause": "人物已经停止行走，双手稳住杯子，空间展开后仍留有停顿。",
+        "why": "人物安稳处于可辨的日常环境中，持续停留让这段时间具有被保留的意味。",
+        "alternativeReading": "空房过冷、人物被放得过远或停留过长，可能读成孤独与疏离。"
+      },
+      "direction": {
+        "zh": "让已停步的人与日常空间共同承担安静的余味，保留人的在场感。",
+        "en": "Let the paused person and ordinary room support a quiet aftertaste while retaining a clear sense of human presence."
+      },
+      "action": {
+        "before": {
+          "zh": "人物仍在同一窗前，双手持同一杯子，背向镜头，身体已停止移动。",
+          "en": "The person remains at the same window, holding the same cup in both hands, back to camera and already still."
+        },
+        "performance": {
+          "zh": "人物保持稳定托杯，只允许自然细微呼吸，整个镜头不再走动或额外摆姿势。",
+          "en": "Maintain the supported cup with only subtle natural breathing, without further walking or extra posing."
+        },
+        "after": {
+          "zh": "人物与杯子仍留在同一窗前，环境已被看见，动作状态保持。",
+          "en": "The person and cup remain at the same window as the room has been revealed, with the held state unchanged."
+        },
+        "relations": {
+          "zh": "一人一杯保持身份和支撑关系，窗户与木桌的方位承接上一镜，摄影机后退不带动物体漂移。",
+          "en": "Maintain one person and one cup, consistent identity and support, and the previous window/table layout. Camera retreat must not make objects drift."
+        }
+      },
+      "expression": {
+        "camera": {
+          "zh": "从杯子与背影的近景缓慢向后拉轨，焦距保持固定，约前三秒揭示窗边与木桌，随后机位停住。",
+          "en": "Dolly backward slowly from a close view of the cup and back at a fixed focal length, revealing the window corner and table over roughly three seconds, then hold the camera still."
+        },
+        "composition": {
+          "zh": "人物仍清楚可辨，普通茶室逐渐进入画面，保留适量空间而不让人缩成孤点。",
+          "en": "Keep the person clearly readable as the ordinary tea room enters frame, allowing space without reducing the figure to an isolated speck."
+        },
+        "lighting": {
+          "zh": "延续同一柔和左侧窗光，室内暗部保留层次，窗外绿意不过曝。",
+          "en": "Continue the same soft left window light, preserving interior shadow detail and exterior greenery."
+        },
+        "timing": {
+          "zh": "约三秒后停止拉轨，留两秒静止余味，末尾后期轻淡出。",
+          "en": "Finish the dolly around three seconds, hold for a two-second aftertaste, and add a gentle ending fade in post."
+        },
+        "sound": {
+          "zh": "计划保留连续室内底噪，动作声减少后仍有空间感，片尾自然收声。",
+          "en": "Plan continuous room tone that retains a sense of space after action sounds diminish, with a natural audio ending."
+        }
+      },
+      "references": [
+        {
+          "id": "camera-movement-dolly-out",
+          "purpose": "从局部揭示环境，并给停留提供空间。",
+          "retain": "固定焦距后退，逐渐带入更大环境。",
+          "adapt": "将原例的钢琴与舞厅改成端杯的人与同一茶室，结尾停止拉轨并停留。"
+        }
+      ],
+      "referencePlan": "准备与上一镜一致的近景起始和茶室宽景空间参考，确认同一窗与桌子位置；当前尚未提供。",
+      "transition": {
+        "zh": "最后两秒保持画面，后期淡出；片名如需添加另行选择实际空位。",
+        "en": "Hold the final two seconds and fade in post. If a title is needed, choose an actual clear area after reviewing the footage."
+      },
+      "checks": {
+        "action": [
+          "人、杯和房间不随后拉变形，持杯姿态与上一镜一致。"
+        ],
+        "expression": [
+          "人物仍有在场感；用观看反馈判断安静或孤独的实际解读，不用镜头名称代替感受判断。"
+        ]
+      }
+    }
+  ]
+}

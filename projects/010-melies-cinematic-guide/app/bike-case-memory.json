@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "id": "bike-kindness",
+  "title": "有人，帮你一把",
+  "recordedAt": "2026-10-22",
+  "tags": [
+    "社区修车摊",
+    "取车",
+    "认真照应",
+    "情绪与动作",
+    "双人关系",
+    "支撑交接",
+    "先接稳再松手",
+    "擦拭次数",
+    "车旁推行",
+    "跟拍",
+    "方向选择",
+    "状态连续性"
+  ],
+  "goal": {
+    "product": "虚构社区修车摊；同一辆深绿色低跨城市自行车。维修发生在片前，片中只拍取车与照料。",
+    "audience": "日常骑车通勤、愿意选择附近小店的人。为创作设定，未做受众测试。",
+    "communicationGoal": "为社区修车摊做一支短片，让通勤者记住这里不止修好车，也会认真照应来取车的人。",
+    "intendedEmotion": "从带着一天疲惫的等待，走向被认真照应后的安心，再从容继续回家的路。属于意图，未验证所有观看者感受。",
+    "coreMessage": "不止修好车，也认真对待来取车的人。",
+    "constraints": [
+      "20秒、16:9、四镜、两位成年人和一辆车",
+      "同一车身／服装／雨后店面身份，修车人先扶立管",
+      "只擦一次、接触建立后松手、在车旁推行而非骑行",
+      "不演完整维修、不以暖灯代替人物回应，不生成片名"
+    ],
+    "successCriteria": [
+      "不听声音，也能看出修车人先注意到来人、再提供照料。",
+      "座垫擦拭与交接的接触位置清楚，车辆始终有支撑。",
+      "最后是取回车辆后继续行动，不能突然变成站着发呆或独处。",
+      "另请观看者描述感受，检验是否读到认真照应，而非预先填写“治愈成功”。"
+    ]
+  },
+  "review": {
+    "status": "one_run_qualitative_review",
+    "sampleSize": 1,
+    "summary": "四镜已生成并剪成20秒：注意来人、擦拭座垫、接触后松手与推车离开都可读。擦拭变成多次往返，末镜约2.5秒才起步且后段左手未持续清楚扶座垫。细致友善的照料线索较充分，但从疲惫到安心的明显转折较弱，尚无观众验证。",
+    "effectiveParts": [
+      "同一店面、人物服装与绿色自行车提供了四镜身份线索；不代表几何和所有细节严格相同。",
+      "修车人抬眼回应、擦拭接触和交车后的相互注视，让照料有可见事件，不只依靠色调。",
+      "交接原片从女方手在接触处外，到搭住车把／座垫，再到男方松开立管，基本顺序可读。",
+      "末镜人物保持在车旁行走，车与人一起离开，给前面的服务一个行动结果。"
+    ],
+    "evidenceBasis": "四段原片完整解码并量测；读取每0.25秒的动作序列、关键原尺寸帧，围绕接触、松手、擦拭方向和脚步复核。20秒成片及四段5.056秒原片均在网页完整播放到结束，无媒体错误。属于本轮视觉定性观察，不是三维刚体量测或受众实验。",
+    "limits": [
+      "一套题材的一次首版执行，四镜不计为四个独立样本；没有复现率、对照实验或跨模型验证。",
+      "八次静态图片调用包含定向修改；参考构图、姿态与文字共同作用，不从单次输出确定唯一原因。",
+      "精确握稳时间、手指拓扑、车轮转速与位移匹配、景深／焦距和细部几何没有量测，不能宣称全部物理正确。",
+      "音轨存在并完成技术解码和后期处理，未听评声音内容；不据此声称无对白／无配乐和声画同步都达标。",
+      "情绪判断来自模型对事件、表演与节奏的解释，观众感受尚未采集；不宣称安心、治愈或商业效果稳定命中。",
+      "下一轮候选均未执行，不将其作为已验证的修正配方。"
+    ],
+    "logicPriority": "先核对支撑对象、作用点、接触—释放次序、两腿是否同侧和跨镜动作状态，再评价友善、安心与镜头美术。",
+    "webPlayback": {
+      "checkedAt": "2026-10-22T13:52:25.490176+00:00",
+      "browser": "ChatGPT in-app browser",
+      "filmDuration": 20,
+      "filmReachedEnd": true,
+      "rawDurations": [
+        5.056,
+        5.056,
+        5.056,
+        5.056
+      ],
+      "allRawReachedEnd": true,
+      "mediaErrors": false,
+      "evidenceImagesLoaded": 14,
+      "actualPromptCopyCheck": {
+        "shotId": "bike-3",
+        "enMatchesExecution": true,
+        "zhMatchesTranslation": true
+      },
+      "reuseTaskCopy": {
+        "characters": 45533,
+        "includesActionReview": true,
+        "includesEmotionReview": true,
+        "includesTimedEvidence": true,
+        "includesUnverifiedCandidateBoundary": true
+      }
+    }
+  },
+  "emotionReview": {
+    "basis": "assistant_visual_review",
+    "judgment": "我的画面判断是：认真照料与平等交接的关系比较清楚，温和友善的服务氛围基本成立；但“从一天的疲惫转为安心”的明显情绪转折只部分可读。",
+    "visibleBasis": "抬眼回应、给座垫擦水、接住车后再松手和继续自己的路构成具体照料线索。不过开场来人已较平静，缺少足够清楚的受阻或疲惫状态；末镜又静等约2.5秒才行动，主动继续的余味被缩短。",
+    "alternativeReading": "也可以读作普通清洁、礼貌交车或小店服务展示；不能预设每个观看者都会感到被照应。",
+    "boundary": "本轮仅做画面判断。音轨只检查存在与解码，未听评内容；没有观众反馈，不填写情绪命中率或商业效果。",
+    "audienceFeedback": null
+  },
+  "shotReviews": [
+    {
+      "shotId": "bike-1",
+      "intent": "从疲惫等待到被回应。",
+      "selectionReason": "让后续照料回应一个具体来人，气氛才有事件依据。",
+      "outcome": "observed_unquantified",
+      "observedEffect": "约0.75–1秒修车人抬眼看向来人，随后有克制的头部变化，约4.5秒后又看向车。两人、一车、两轮接地与左手扶立管持续可辨。",
+      "problems": [
+        "回应比原计划约2–3秒更早发生；轻点头的独立次数与精确时刻未量测。",
+        "开场来人已经相当平静，疲惫与后续安心之间的反差较弱。"
+      ],
+      "causeAssessment": "初始参考本来就比较平静，文字又要求克制；这可能影响表演幅度，但未隔离参考与文本因素。",
+      "actionReview": {
+        "assessment": "visually_readable",
+        "assessmentLabel": "人物回应与扶车基本可读",
+        "summary": "人物未提前接车，修车人持续扶住车；未见明显车体悬空或额外人物。抬眼提供回应，不能据此认定观众情绪已经转折。",
+        "checks": [
+          "0.05秒修车人仍看向车，女方等待。",
+          "1.00秒修车人已看向来人，左手仍扶立管，车轮接地。",
+          "4.75秒视线回到车，承接下一镜照料。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/bike-kindness/evidence/bike-1-0.05.jpg",
+            "sourceSeconds": 0.05,
+            "filmSeconds": 0.05,
+            "caption": "修车人看向车，来人等待"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-1-1.00.jpg",
+            "sourceSeconds": 1.0,
+            "filmSeconds": 1.0,
+            "caption": "修车人已抬眼看向来人，车仍被扶住"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-1-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 4.75,
+            "caption": "视线回到车，准备下一步照料"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "较清楚地建立了“有人注意到我”，疲惫的情绪起点不够明确。",
+        "visibleBasis": "同框可读修车人的抬眼与接车者的等待，没有依赖对白。",
+        "alternativeReading": "可以只是平静、礼貌的等待与接待，不必然有情绪变化。"
+      },
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "若需要更强转折，先补明确的疲惫／受阻行为，再保留克制的回应；不要仅强化暖色。",
+        "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+        "promptZh": "来人先短暂调整肩上的沉重帆布包，停住看向修车人；修车人抬眼回应后，来人才自然放松肩部。保留车的支撑关系，不加哭泣或夸张表演。",
+        "promptEn": "The visitor briefly adjusts the heavy canvas bag on their shoulder and waits for the mechanic. Only after the acknowledging look do their shoulders ease naturally. Preserve bicycle support without tears or exaggerated acting.",
+        "check": "比较回应前后可见行为是否有清楚差别，再问观看者如何理解；不能从色调判断。"
+      }
+    },
+    {
+      "shotId": "bike-2",
+      "intent": "让认真照应有明确可见的动作。",
+      "selectionReason": "额外的小照料比抽象的“温暖”更具体，也给下一镜交接一个准备过程。",
+      "outcome": "partially_met",
+      "observedEffect": "约1秒后布接触座垫并来回擦拭数次，约4.25秒后布移开，4.75秒座垫和支撑仍在。左手扶立管、座杆与座垫固定关系可读。",
+      "problems": [
+        "没有遵守一次从后向前擦过：1.25秒到前部，2.0秒回到后部，2.25秒又到前部。",
+        "动作持续到约4.25秒，完成后的干净保持不足原计划两秒。",
+        "水痕减少可见，但未量测擦净比例；细节不是维修工艺证明。"
+      ],
+      "causeAssessment": "静态参考清楚规定了接触位置，却不能规定擦拭次数；本次模型把擦拭扩展为多个往返，未测试改法。",
+      "actionReview": {
+        "assessment": "plausible_contact_count_not_met",
+        "assessmentLabel": "接触与支撑可读 · 擦拭次数偏离",
+        "summary": "布作用于同一座垫表面，车由另一只手支撑，座杆保持连接；反复擦本身可理解，但不符合本镜一次擦拭的任务。",
+        "checks": [
+          "按1.25、2.0、2.25秒顺序追踪布的位置，能看到往返。",
+          "4.75秒布已经离开，左手仍扶立管。",
+          "不能把自然擦拭的外观当作次数与持时均达标。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/bike-kindness/evidence/bike-2-1.25.jpg",
+            "sourceSeconds": 1.25,
+            "filmSeconds": 6.25,
+            "caption": "布已擦到座垫前部"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-2-2.00.jpg",
+            "sourceSeconds": 2.0,
+            "filmSeconds": 7.0,
+            "caption": "布又回到后部，出现反向擦拭"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-2-2.25.jpg",
+            "sourceSeconds": 2.25,
+            "filmSeconds": 7.25,
+            "caption": "再次向前擦，未遵守一次擦过"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-2-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 9.75,
+            "caption": "布离开后，左手仍扶立管"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "额外照料有具体落点，支持认真服务；重复擦拭让节奏比设计更忙。",
+        "visibleBasis": "同一座垫、布接触与另一只手的支撑可读，之后切向交接。",
+        "alternativeReading": "脱离前后镜，也可能只是常规清洁，并非额外关心。"
+      },
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "下一次先单测次数与停止，保持现有近景和支撑，不同时改风格或镜头。",
+        "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+        "promptZh": "只沿座垫表面从后向前擦一个短行程，立即把布完全提离表面，并在画外保持到结束；不得返回座垫，不做第二次接触。",
+        "promptEn": "Make one short rear-to-front pass across the saddle, immediately lift the cloth completely clear, and keep it outside the contact area through the end. Do not return to the saddle or make a second contact.",
+        "check": "从接触开始计数到结束，只有一个单向行程且布提离后不再接触。"
+      }
+    },
+    {
+      "shotId": "bike-3",
+      "intent": "通过稳定交接和轻微回应表达安心。",
+      "selectionReason": "照应让人接回自己的行动；支撑顺序同时是内容逻辑与关系表达。",
+      "outcome": "partially_met",
+      "observedEffect": "0.05秒女方手在握套与座垫外；约1–1.5秒两手搭住对应部位。男方随后约2.25–2.75秒移开扶立管的左手，末段女方保持接触并抬眼，双方回应可读。",
+      "problems": [
+        "男方释放比计划约3–4秒更早。",
+        "释放附近女方右手更像搭住握套，完整包握到位时点不够清晰，不能把“已接触”直接当成“已充分握稳”。",
+        "两人看向彼此可读，独立的一次轻点头未作精确识别或量测；手指局部几何未逐帧验证。"
+      ],
+      "causeAssessment": "两张普通参考把起止状态限定得较清楚，但中间握稳程度和节奏仍由模型完成；不能单因引用了旧书经验就认为过程无误。",
+      "actionReview": {
+        "assessment": "contact_before_release_readable_grip_uncertain",
+        "assessmentLabel": "先接触再释放基本可读 · 握稳程度仍有边界",
+        "summary": "同一车有连续可见支撑线索，未见明显无人支撑的跳段；女方先搭住、男方后移开可读。完整握稳的程度与精确先后仍需保留不确定。",
+        "checks": [
+          "0.05秒检查接触前间隙与男方左手支撑。",
+          "1.50秒两手已搭住，男方尚未完成释放。",
+          "2.75秒男方手已离开立管，4.75秒女方继续扶车并与对方对视。",
+          "把触碰、包握、实际承重和释放四件事分别检查。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/bike-kindness/evidence/bike-3-0.05.jpg",
+            "sourceSeconds": 0.05,
+            "filmSeconds": 10.05,
+            "caption": "女方手与目标接触处尚有间隙，男方扶立管"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-3-1.50.jpg",
+            "sourceSeconds": 1.5,
+            "filmSeconds": 11.5,
+            "caption": "女方手已搭到握套与座垫，男方仍扶车"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-3-2.75.jpg",
+            "sourceSeconds": 2.75,
+            "filmSeconds": 12.75,
+            "caption": "男方手离开立管，女方仍接触车辆"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-3-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 14.75,
+            "caption": "女方握持、双方抬眼回应"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "本镜较清楚地支持平等交接与相互回应，是全片照应关系的主要依据。",
+        "visibleBasis": "共享同一物体的支撑状态发生变化，随后双方抬眼而非夸张感谢。",
+        "alternativeReading": "仍可能被读为正常交车；仅有礼貌回应不证明安心或被珍视感稳定成立。"
+      },
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "保留支撑分工，下一轮若要严查握稳，使用更清楚的接触构图并单独测试触碰—包握—释放次序。",
+        "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+        "promptZh": "女方右手先完整包握近侧握套、左掌落稳座垫，两处接触持续清楚一秒；在此之后男方才把左手从立管完全移开，车辆不移动。",
+        "promptEn": "The commuter first wraps the right hand fully around the near grip and settles the left palm on the saddle. Keep both contacts clearly readable for one second before the mechanic completely withdraws the left hand from the stem. The bicycle stays still.",
+        "check": "逐帧区分触碰与包握，确认男方释放前已存在清楚的自主支撑；不能只验终态。"
+      }
+    },
+    {
+      "shotId": "bike-4",
+      "intent": "让被照应落实为继续自己的路。",
+      "selectionReason": "结尾的行动能力属于接车者；前面的照料有了实际后果。",
+      "outcome": "partially_met",
+      "observedEffect": "约前2.5秒人物和车基本停在起态，随后女方在车旁交替迈步并推车前行，摄影机从后侧随行，修车人留在店前。后段座垫上不再清楚见到左掌，主要由右手控制车把。",
+      "problems": [
+        "计划约0.5秒后起步，实际约2.5秒才开始，前半镜停顿过长。",
+        "没有持续清楚保持左手扶座垫的双点支撑要求；后段可能已改为单手推车。",
+        "单手推车本身可以合理，但不符合本次明确的连续握持要求；轮胎转速与平移对应未量测。"
+      ],
+      "causeAssessment": "专用起态参考是双脚落地静止，输出保留了较长起态；是否由参考或文字持时导致未做隔离验证。",
+      "actionReview": {
+        "assessment": "beside_bicycle_walk_readable_contact_partial",
+        "assessmentLabel": "在车旁推行可读 · 起步晚、左手连续性不足",
+        "summary": "可见双腿在车架同一侧，未出现跨坐或踩踏；车与人物共同前进。后段左手离座垫或受遮挡，不能声称双手支撑全程通过。",
+        "checks": [
+          "0.75秒仍处于静止起态。",
+          "2.75秒出现迈步与推车，人物保持在车旁。",
+          "4.75秒继续前行，座垫上已无清楚左掌，检查接触连续性而非只看背影。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/bike-kindness/evidence/bike-4-0.75.jpg",
+            "sourceSeconds": 0.75,
+            "filmSeconds": 15.75,
+            "caption": "仍为站稳的初始状态"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-4-2.75.jpg",
+            "sourceSeconds": 2.75,
+            "filmSeconds": 17.75,
+            "caption": "开始在车旁迈步，车随人前进"
+          },
+          {
+            "image": "generated/bike-kindness/evidence/bike-4-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 19.75,
+            "caption": "继续推行，座垫上已无清楚的左手支撑"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "从容继续自己的路可读，但延迟起步压缩了行动结果的时间。",
+        "visibleBasis": "对比店面、墙面与人物／车的变化，有实际前行，不是仅用背景移动替代动作。",
+        "alternativeReading": "如果缺少前面照料与交接，也可以只是一个推车离开的背影。"
+      },
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "若要更明确继续行动，单测首秒起步与左手持续支撑，不同时加新的运镜。",
+        "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+        "promptZh": "在第一秒内开始第一步，始终在车旁推行；右手握近侧握套、左掌持续压在同一座垫上直到片段结束，镜头保留两处接触，不在中途改为单手。",
+        "promptEn": "Begin the first step within the first second and walk beside the bicycle. Keep the right hand on the near grip and the left palm continuously on the same saddle through the end. Frame both contacts without changing to one-handed pushing.",
+        "check": "检查起步时刻、两腿同侧及整段两处接触；要求的握持若不适合自然动作，应先调整设计并另记，而非事后当作已达标。"
+      }
+    }
+  ],
+  "reusePatterns": [
+    {
+      "id": "care-through-event-response",
+      "title": "把情绪方向变成有对象的照料与回应",
+      "whenToUse": "服务、协作、交还或互助故事，需要让温和不只是色调。",
+      "retain": "先让人被注意，再提供具体照料，给接收方可见的回应与继续行动。",
+      "adapt": "更换对象与事件，先说明为什么这个动作在当前处境中有意义。",
+      "evidenceShotIds": [
+        "bike-1",
+        "bike-2",
+        "bike-3",
+        "bike-4"
+      ],
+      "evidenceLevel": "one_run_visual_relationship_interpretation",
+      "limit": "本次照料关系可读，明显疲惫到安心的转折较弱；没有观众或商业效果验证。"
+    },
+    {
+      "id": "contact-grip-release",
+      "title": "触碰、握稳、承重、释放分开验收",
+      "whenToUse": "物品交接、工具传递、扶稳后放手等支撑转移。",
+      "retain": "先定义双方不同作用点，再追踪中间接触状态，检查释放时机。",
+      "adapt": "按新物体重建支撑点与自然握持，不照抄立管、握套或座垫。",
+      "evidenceShotIds": [
+        "bike-3",
+        "bike-4"
+      ],
+      "evidenceLevel": "one_run_contact_sequence_with_grip_uncertainty",
+      "limit": "本次触碰先于释放可读，完整包握与后段双手连续性未完全确认，不推广为通用物理正确。"
+    },
+    {
+      "id": "action-count-is-a-constraint",
+      "title": "动作自然与动作次数达标是两项判断",
+      "whenToUse": "擦拭、敲击、刷拭等容易被扩展为重复动作的片段。",
+      "retain": "检查路径、次数、提离和完成后保持，不把看起来自然当作次数正确。",
+      "adapt": "换成一次按压、一次放下等新动作，并按新目标定义起止。",
+      "evidenceShotIds": [
+        "bike-2"
+      ],
+      "evidenceLevel": "failure_informed_one_run_observation",
+      "limit": "一次要求仍生成多次擦拭；候选提离约束未重新生成，不当作已验证修复。"
+    },
+    {
+      "id": "motion-serves-direction",
+      "title": "根据方向决定继续走还是停住",
+      "whenToUse": "结尾需要从容继续、留住片刻或展示关系变化。",
+      "retain": "先明确情境意义，再安排起步时刻、行走／停留与相机运动；不把某种节奏固定对应情绪。",
+      "adapt": "本次推车继续与陶器停留目标不同，换题材时重新定义行动结果。",
+      "evidenceShotIds": [
+        "bike-1",
+        "bike-4"
+      ],
+      "evidenceLevel": "one_run_timing_and_visual_interpretation",
+      "limit": "本次起步偏晚且情绪起点较弱，未证明新时序能稳定改善感受。"
+    }
+  ],
+  "modelUse": {
+    "workflow": [
+      "先从新目标比较方向，说明为什么需要人与人的照应、物品的操作或继续行动。",
+      "按需要读取本案例原片、准确输入和动作证据，分开看成功部分与偏差。",
+      "支撑交接先定义谁持何处、何时接触／松手，检查中间帧，不能只检查终态。",
+      "把重复动作的次数、完成后的保持、起步时刻和运动过程分开验收。",
+      "换主体、地点、支撑方式与事件，重建具体关系，不照抄修车摊和绿色自行车。",
+      "实际生成另记原件与输入；模型画面判断、未听评声音、观众反馈和未执行候选分开保存。"
+    ]
+  },
+  "costNote": "四个完成任务的服务返回均150点，共600点；初始估算480点。生成前后余额查询未变化，实际扣费尚未核实，600点不是已核销账单。交接镜头仅恢复同一任务查询，没有再次提交视频。",
+  "archiveReview": {
+    "recordedAt": "2026-10-22",
+    "status": "supplemental_review_no_new_generation",
+    "source": "app/archive-summary.json",
+    "summary": "取车第三镜座垫较薄，第四镜较厚且有明显弹簧支撑；差异在两镜静态参考里已经存在，实际视频也呈现这种差异。 助手的制作和验收有责任，不能把全部问题转移给模型；结构校验与测试通过也不能代替内容审片。",
+    "confirmedInputIssue": {
+      "id": "reference-consistency",
+      "title": "参考素材本身不一致",
+      "evidenceLevel": "observed_input_and_output_difference",
+      "fact": "取车第三镜座垫较薄，第四镜较厚且有明显弹簧支撑；差异在两镜静态参考里已经存在，实际视频也呈现这种差异。",
+      "assessment": "参考制作与跨镜验收问题明确存在；不能全部归因于视频模型。",
+      "next": "重启时先统一角色、物体结构和场景，再通过受控视角变化制作逐镜参考。",
+      "caseIds": [
+        "bike-kindness"
+      ]
+    },
+    "causalBoundary": "本次输出的指令遵循和连续性偏差可确认；不能凭单次输出断定模型永久做不到，也不能确定各因素占比。",
+    "hypothesisNotIsolated": "任务过密、构图遮挡与参考方式可能增加难度；没有对照实验，不能认定长提示词就是唯一原因。",
+    "changesToHistory": false
+  }
+}

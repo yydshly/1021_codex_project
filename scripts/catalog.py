@@ -43,7 +43,7 @@ def load_projects(root):
         raise ValueError("projects 必须是数组")
     ids = set()
     for project in projects:
-        for field in ("id", "slug", "title", "summary", "repository", "status"):
+        for field in ("id", "slug", "title", "summary", "status"):
             value = project.get(field)
             if not isinstance(value, str) or not value.strip() or "\n" in value or "\r" in value:
                 raise ValueError(f"字段 {field} 必须是非空的单行字符串")
@@ -53,11 +53,20 @@ def load_projects(root):
         ids.add(number)
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", project["slug"]):
             raise ValueError(f"无效 slug：{project['slug']}")
-        url = urlparse(project["repository"])
-        if url.scheme != "https" or url.hostname != "github.com" or url.username or url.password:
-            raise ValueError("原仓库必须使用 https://github.com/ 链接")
-        if not re.fullmatch(r"/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?", url.path) or url.query or url.fragment:
-            raise ValueError("原仓库链接应指向 owner/repository")
+        repository = project.get("repository")
+        source = repository if repository is not None else project.get("source_url")
+        if not isinstance(source, str) or not source or re.search(r'[\s<>"\\]', source):
+            raise ValueError("必须提供有效的 repository 或 source_url")
+        url = urlparse(source)
+        if url.scheme != "https" or not url.hostname or url.username or url.password:
+            raise ValueError("来源必须使用无凭据的 HTTPS 链接")
+        if repository is not None:
+            if url.hostname != "github.com":
+                raise ValueError("原仓库必须使用 https://github.com/ 链接")
+            if not re.fullmatch(r"/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?", url.path) or url.query or url.fragment:
+                raise ValueError("原仓库链接应指向 owner/repository")
+        elif any(char in source for char in "()[]"):
+            raise ValueError("网站来源中的括号必须使用 URL 编码")
         if project["status"] not in STATUSES:
             raise ValueError(f"无效状态：{project['status']}")
         folder = checked_path(root, project_path(project))
@@ -92,16 +101,18 @@ def index_markdown(root, projects):
     if not projects:
         return "暂无研究项目。第一个项目将从 **001** 开始。"
     lines = [
-        "| 编号 | 项目 | 研究摘要 | 状态 | 原仓库 | 演示 |",
+        "| 编号 | 项目 | 研究摘要 | 状态 | 来源 | 演示 |",
         "| --- | --- | --- | --- | --- | --- |",
     ]
     for project in projects:
         path = project_path(project)
+        source = project.get("repository") or project["source_url"]
+        source_label = "GitHub" if project.get("repository") else "网站"
         demo = f"[打开]({PAGES}/{path}/)" if has_demo(root, project) else "—"
         lines.append(
             f"| {project['id']} | [{md(project['title'])}]({path}/README.md) | "
             f"{md(project['summary'])} | {project['status']} | "
-            f"[GitHub]({project['repository']}) | {demo} |"
+            f"[{source_label}]({source}) | {demo} |"
         )
     for project in projects:
         if project.get("image"):
@@ -135,6 +146,8 @@ def build_site(root, projects):
     for project in projects:
         path = project_path(project)
         folder = root / path
+        source = project.get("repository") or project["source_url"]
+        source_label = "原仓库" if project.get("repository") else "来源网站"
         cover = ""
         if project.get("image"):
             image = f"_covers/{project['id']}-{project['slug']}/{project['image']}"
@@ -153,7 +166,7 @@ def build_site(root, projects):
             f'<h2>{html.escape(project["title"])}</h2>'
             f'<p>{html.escape(project["summary"])}</p><nav>'
             f'<a href="{REPOSITORY}/tree/main/{path}">研究笔记</a>'
-            f'<a href="{html.escape(project["repository"])}">原仓库 ↗</a>{demo}</nav></article>'
+            f'<a href="{html.escape(source)}">{source_label} ↗</a>{demo}</nav></article>'
         )
     body = "\n".join(cards) or (
         '<article class="empty"><div class="meta">从 001 开始</div>'

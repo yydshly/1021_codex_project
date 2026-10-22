@@ -1,0 +1,114 @@
+{
+  "id": "book-repair-r2",
+  "parentCaseId": "book-repair",
+  "title": "让故事，继续 · 两镜动作返修",
+  "status": "completed",
+  "preparedAt": "2026-10-22",
+  "executionSkill": "chatart-skill",
+  "authorization": {
+    "basis": "User explicitly requested regeneration of only needle and closure, reuse other shots, assemble and archive comparison. Same previously confirmed model/resolution/aspect/audio/durations. Scope and estimate360 / previous-rate projection450 communicated before submission; no separate new numeric confirmation claimed.",
+    "request": "把穿针位置和合书方向修正，重新生成这两个镜头，其他镜头保留，再剪成完整视频，把修正前后的对比和经验也补进库里。",
+    "automaticRetries": false
+  },
+  "target": {
+    "duration": 18,
+    "aspectRatio": "16:9",
+    "resolution": 1080
+  },
+  "estimatedCredits": 360,
+  "previousServiceRateProjectionCredits": 450,
+  "accountDeductionVerified": false,
+  "shots": [
+    {
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "submittedLanguage": "en",
+      "referenceRole": "dedicated_first_and_last_frames_not_only_identity",
+      "id": "book-2-r2",
+      "replacesShotId": "book-2",
+      "title": "一针照料 · 孔位返修",
+      "generationDuration": 10,
+      "editDuration": 6,
+      "estimatedCredits": 240,
+      "firstFrame": "assets/generated/book-repair-r2/reference/needle-first.png",
+      "endFrame": "assets/generated/book-repair-r2/reference/needle-last.png",
+      "refIds": [
+        "lenses-macro"
+      ],
+      "prompt": "10 seconds, 16:9, one continuous locked close-up. Use the provided FIRST and LAST frames as the exact start and end states of ONE slow needle INSERTION, not a whole repair process. There is ONE open book on a linen cradle, not an open book stacked on a closed book. Identify the existing hole at the central paper FOLD/GUTTER on the spine line, immediately under the needle tip in the first frame. Keep that very hole fixed. Pause briefly, then move the same single needle point-first gradually deeper into that SAME existing center-fold hole, until about half the visible shaft has disappeared through it as in the last frame. Only one small insertion, then a quiet hold. Keep the visible thread connected to the same needle eye and following naturally. Do not pull a needle out elsewhere, create a new hole, sew through a page fore-edge, pierce fingers, repeat the stitch or pretend to finish the book. The underside and needle exit may remain occluded; do not invent a second exposed book. The left hand steadies the same paper section, the right thumb and forefinger follow the needle; keep the contact zone visible. Paper folds, existing stitches, covers and book count remain stable. Same aged indigo cloth, yellowed paper, linen sleeves, wooden worktable and soft morning light from the left. Camera and focus fixed, sufficient depth of field at hole and needle; no zoom, cuts, orbit, magic, particles, labels or text. No voices or music, only quiet workshop room tone and very soft contact sound.",
+      "promptZhTranslation": "10 秒，16:9，一个连续固定近景。用所给首帧与尾帧规定一次缓慢插针的起止状态，不演完整修书流程。只有一本打开并支在亚麻书托上的书，不是在合上的书上叠一本打开的书。目标是首帧针尖正下方、沿书脊线的纸张中央折缝／书沟上的既有孔；该孔位置固定。短暂停顿后，同一根针尖朝前缓慢深入同一个中央折缝孔，直到约一半可见针杆进入孔中，达到尾帧状态。只做一次小幅插入，再安静停留。可见线始终连在同一个针眼并自然跟随。不从别处抽出针，不造新孔，不穿纸张外沿，不扎手，不重复穿针，不假装完成整本书。下侧与出针点可以被遮挡，不凭空生成第二本暴露的书。左手稳住同一书帖，右手拇指和食指随针移动，接触区保持可见。纸折、既有针脚、封面与书的数量稳定。延续靛蓝旧布面、泛黄纸、亚麻袖口、木台与左侧柔和晨光。机位与焦点固定，孔和针附近景深充分；不变焦、切镜、环绕、魔法、粒子、标签或文字。无人声、无音乐，仅安静工作室底噪与很轻的接触声。",
+      "promptZhTranslationOfSha256": "4f62c376659b4a031c0054e2b3f617c93e13e4bfdc5b1da723b609d97eeb2b73",
+      "referenceHashes": {
+        "firstFrame": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599",
+        "endFrame": "236e32d7c83cb4262a09532ae51dbd009847da02fd081cde8dc5229d550b7456"
+      }
+    },
+    {
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "submittedLanguage": "en",
+      "referenceRole": "dedicated_first_and_last_frames_not_only_identity",
+      "id": "book-3-r2",
+      "replacesShotId": "book-3",
+      "title": "轻轻合上 · 转轴返修",
+      "generationDuration": 5,
+      "editDuration": 4,
+      "estimatedCredits": 120,
+      "firstFrame": "assets/generated/book-repair-r2/reference/closure-first.png",
+      "endFrame": "assets/generated/book-repair-r2/reference/closure-last.png",
+      "refIds": [
+        "lighting-volumetric-light"
+      ],
+      "prompt": "5 seconds, 16:9. Animate ONE gentle book closure between these first and last frames. At the start the front cover alone is slightly raised. The left LONG SPINE is the single fixed hinge: keep it and the back cover and the entire yellowed page block stationary on the wooden table. The right hand maintains gentle fingertip contact with the raised front cover's RIGHT FREE EDGE and slowly lowers that rigid cover about the LEFT LONG SPINE HINGE, through one continuous small arc, until it lies flat on the page block by about 3 seconds; hold for the remaining time. The left hand stays at the spine to steady the book. The small beige patch travels WITH THE SAME FRONT COVER and remains at its lower-right outer corner. Never pivot at a short edge, lift the page block, turn a paper leaf into a cover, flip the whole book, detach the hinge or add a second book. Keep geometry and hand contact continuously readable, no extra gesture. Preserve the same aged indigo cloth, patch, linen sleeves, tabletop, soft left window light and restrained colors. Fixed camera and focus, no cuts, zoom, orbit, exaggerated light beam, dust, magic, text or logos. Quiet workshop room tone and a subtle cloth-cover contact sound, no speech or music.",
+      "promptZhTranslation": "5 秒，16:9。在首尾帧之间只做一次轻柔合书。开始时只有前封面略微抬起。左侧长书脊是唯一固定转轴：它、后封面与整块泛黄书页都固定在木台上。右手指尖持续轻触抬起前封面的右侧自由边，绕左侧长书脊连接轴沿一条连续小圆弧缓慢放下这一块硬封面，约 3 秒时平放到页块上，余下时间停住。左手留在书脊处稳住书。小块米色补布随同一前封面移动，始终位于其外侧右下角。不得绕短边旋转、抬起页块、把纸页变成封面、翻转整本书、断开连接轴或增加第二本书。书体与手部接触全过程可读，不加额外手势。保留靛蓝旧布面、补布、亚麻袖口、台面、左侧柔和窗光和克制色彩。机位和焦点固定，不切镜、变焦、环绕、夸张光束、纸尘、魔法、文字或标志。只有安静工作室底噪和轻微布面合拢接触声，无人声和音乐。",
+      "promptZhTranslationOfSha256": "f6823eebdac8cc2650ed8766cdc18ff7f5a647a79aaecd13812f34ea65283e32",
+      "referenceHashes": {
+        "firstFrame": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2",
+        "endFrame": "405993e81e6bb497b985afef4646253f7b918f7f854e3194a12f0b2c0cea04a3"
+      }
+    }
+  ],
+  "retainedShots": [
+    "book-1",
+    "book-4"
+  ],
+  "referenceManifest": "app/production/book-r2-reference-prompts.json",
+  "comparisonLimits": [
+    "一次有针对性的局部返修；参考图、起始状态、提示词与景别共同改变，不是单变量对照。",
+    "插针段只演插入阶段，不演完整出针与拉线，不作为真实修复工艺教学。",
+    "合书从略抬的前封面开始，缩短动作范围；未重验体积光规则。",
+    "保留首版记录与素材，四镜不计为四个独立实验。"
+  ],
+  "retainedSourceRecords": [
+    {
+      "shotId": "book-1",
+      "source": "assets/generated/book-repair/book-1/video_20261022131931.mp4",
+      "sha256": "175be6b8b92bd06d08eb3da7252d2bf402b051b6567c6c244e167639015e0219",
+      "edit": {
+        "start": 0.5,
+        "duration": 4,
+        "reason": "保留进入后的刷拭动作；不以裁切伪装成纸纤维微距。"
+      }
+    },
+    {
+      "shotId": "book-4",
+      "source": "assets/generated/book-repair/book-4/video_20261022131725.mp4",
+      "sha256": "45a23e411f9ae73db0eb8efcce6f9265fcdcc1c1033ae2229956c65ea74d0259",
+      "edit": {
+        "start": 0.5,
+        "duration": 4,
+        "reason": "覆盖交还和共同托书停留。"
+      }
+    }
+  ],
+  "completedAt": "2026-10-22",
+  "serviceReportedCredits": 450.0
+}

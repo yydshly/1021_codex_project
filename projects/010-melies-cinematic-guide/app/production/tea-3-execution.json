@@ -1,0 +1,33 @@
+{
+  "shotId": "tea-3",
+  "caseId": "tea-moment",
+  "status": "completed",
+  "model": "Seedance 2.0",
+  "requestedDuration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "promptSha256": "023ee2d6d150780614c3ea56389a9e549efa7de596826a7b648c9669f821f14a",
+  "referenceHashes": {
+    "firstFrame": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb",
+    "endFrame": "4f4c26a11ca125ade5c1b4c61304916a7ea9f08cbf189727107e5d184a13bc4a"
+  },
+  "taskId": "1035299",
+  "exitCode": 0,
+  "files": [
+    "video_20261022172825.mp4"
+  ],
+  "actualMedia": {
+    "duration": 5.056,
+    "width": 1902,
+    "height": 1092,
+    "frameRate": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "byteSize": 6396424
+  },
+  "source": "assets/generated/tea-moment/tea-3/video_20261022172825.mp4",
+  "sha256": "d4c8c0c8bc4768bf1dcb3c02535f1ef836be2b5099509d63ad2a6729a566f748",
+  "reportedCredits": 150.0,
+  "sourceUrl": "https://files.chatartpro.com/web-video/20261022/6ad9d6f758021.mp4",
+  "progressLog": "app/production/tea-3-progress.log"
+}

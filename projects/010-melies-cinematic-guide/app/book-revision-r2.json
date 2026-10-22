@@ -1,0 +1,118 @@
+{
+  "id": "book-repair-r2",
+  "parentCaseId": "book-repair",
+  "recordedAt": "2026-10-22",
+  "title": "让故事，继续 · 两镜动作返修",
+  "status": "completed_qualitative_revision",
+  "summary": "已只重做穿针与合书并剪回 18 秒：穿针从叠书／纸页外侧落点改为单一书体的中央折缝孔；合书从另一边翻起改为沿左侧长书脊放下同一前封面。刷拭和交还沿用首版素材与取材范围。穿针只展示小幅插入，未展示下侧出针与完整拉线。",
+  "goal": "延续修复、照料、交还的故事和原有材质光线，优先纠正针的作用位置与合书轴，不以镜头美术掩盖动作逻辑。",
+  "scope": {
+    "regeneratedShotIds": [
+      "book-2",
+      "book-3"
+    ],
+    "retainedShotIds": [
+      "book-1",
+      "book-4"
+    ],
+    "comparisonType": "targeted_partial_revision_not_controlled_experiment",
+    "baselineExecutions": 1,
+    "partialRevisionBatches": 1,
+    "newVideoTasks": 2
+  },
+  "reviewBasis": "依据两段完整原片的每 0.25 秒抽样、起始／中段／末段接触区原尺寸帧，定性追踪书体、孔位和转轴。不是对真实修复工艺或每个像素的验证。",
+  "shots": [
+    {
+      "shotId": "book-2-r2",
+      "title": "穿针位置",
+      "assessment": "target_location_and_single_book_visually_improved",
+      "assessmentLabel": "孔位与书体改善 · 完整穿线未验证",
+      "change": "用一册打开的书与中央折缝孔的专用首尾帧，替换统一合书身份图；动作收窄为同一根针在同一孔的小幅插入，不再尝试完整针线循环。",
+      "observedEffect": "原片 0.1–9.85 秒始终可见一册打开的靛蓝书，直接放在亚麻书托上；针尖保持在中央折缝沿书脊线的同一既有孔，右手缓慢靠近，露出的针杆逐渐变短。未再出现首版的“开书叠在合书上”和针落在外侧纸面的关系。",
+      "problems": [
+        "动作幅度很小，接近缓慢推进与停留；不能把它描述为完整缝好一次。",
+        "针眼部分被手指遮挡，书帖下侧出针点与线穿透后的路径未显示，完整穿线连续性和工艺正确性仍未验证。",
+        "专用近景、书托、起始状态、首尾帧与文字约束共同变化，不能单独归因于某条提示词或首尾帧模式。"
+      ],
+      "check": "先认单一书体与中央折缝，再跟踪同一个孔和针尖；核对针没有换到外侧纸面或手指。入口改善与整条针线运动链分别验收，下侧不可见就保留未验证。",
+      "evidenceFrames": [
+        {
+          "image": "generated/book-repair-r2/evidence/needle-1s.jpg",
+          "sourceSeconds": 1,
+          "filmSeconds": 4.5,
+          "caption": "返修原片 1.00 秒 / 新成片 4.50 秒：单一开书，针尖对应中央折缝孔。"
+        },
+        {
+          "image": "generated/book-repair-r2/evidence/needle-3s.jpg",
+          "sourceSeconds": 3,
+          "filmSeconds": 6.5,
+          "caption": "返修原片 3.00 秒 / 新成片 6.50 秒：同一孔位，右手靠近，针杆缩短。"
+        },
+        {
+          "image": "generated/book-repair-r2/evidence/needle-6s.jpg",
+          "sourceSeconds": 6,
+          "filmSeconds": 9.5,
+          "caption": "返修原片 6.00 秒 / 新成片 9.50 秒：孔位与单一书体仍在，下侧出针不可见。"
+        }
+      ]
+    },
+    {
+      "shotId": "book-3-r2",
+      "title": "合书方向",
+      "assessment": "hinge_and_cover_direction_visually_improved_in_small_arc",
+      "assessmentLabel": "同一书脊合拢可读 · 小角度动作",
+      "change": "首帧只让前封面略微抬起，页块与后封面已经平放；左手稳书脊，右手沿自由边绕同一左侧长书脊放下，尾帧明确同一封面闭合状态。保留柔和窗光，暂不追求强化光束。",
+      "observedEffect": "原片约 0.1–1 秒前封面保持小角度抬起，约 1–3 秒右手随封面自由边下落，左侧长书脊与页块基本留在原位；约 3 秒后封面落平并停留。补布一直随同一前封面移动，没有首版从远侧短边竖起再翻合的明显轴关系矛盾。",
+      "problems": [
+        "起始动作从完全展开缩小为仅前封面略抬，不是首版整段展开动作的同幅度复现。",
+        "未量测精确旋转角度或逐点刚体误差；只作本段方向与连接关系的定性判断。",
+        "本轮不再强化体积光，不能用本镜证明该灯光规则已达标；跨镜布面磨损与补布形状仍有细节差异。"
+      ],
+      "check": "追踪同一左侧长书脊、移动封面、右侧自由边和补布；固定页块不被翻起，封面只绕同一长边下降，右手接触随动。最后合上不能代替中间轴关系检查。",
+      "evidenceFrames": [
+        {
+          "image": "generated/book-repair-r2/evidence/closure-0_1s.jpg",
+          "sourceSeconds": 0.1,
+          "filmSeconds": 10.1,
+          "caption": "返修原片 0.10 秒 / 新成片 10.10 秒：左侧书脊固定，右侧自由边抬起。"
+        },
+        {
+          "image": "generated/book-repair-r2/evidence/closure-1_75s.jpg",
+          "sourceSeconds": 1.75,
+          "filmSeconds": 11.75,
+          "caption": "返修原片 1.75 秒 / 新成片 11.75 秒：右手沿自由边下放，补布随封面移动。"
+        },
+        {
+          "image": "generated/book-repair-r2/evidence/closure-3_5s.jpg",
+          "sourceSeconds": 3.5,
+          "filmSeconds": 13.5,
+          "caption": "返修原片 3.50 秒 / 新成片 13.50 秒：同一封面落平，页块留在台面。"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    "先把对象结构与动作起止状态做对，再叠加镜头语言：本轮专用参考中先确定单一书体、中缝孔、固定页块和移动封面。它们与身份图承担不同任务。",
+    "开合类动作以物体自身的连接轴定义路径，同时追踪自由边与识别标记；画面左／右只能辅助描述，不能代替连接关系。该检查可迁移到盒盖、门、机械开合等新题材。",
+    "把复杂动作缩成一个清楚阶段，有助于这次画面表达：一针只推进同一孔，合书只从略抬到落平。代价是不能宣称展示了完整工艺或大幅度开合。",
+    "首尾图片正确仍需检查中间帧。验收作用点、接触、路径和终态；未看见针的出口与完整拉线，就单独保留验证缺口。",
+    "保留首版失败与局部返修的准确输入、参考、素材和剪辑范围；此次多项改动共同进行，只能记录局部改善，不能推导通用成功率或单一方法的因果结论。"
+  ],
+  "limits": [
+    "仍为香水、旧书两个题材；旧书为一次四镜首版加一次两镜局部返修，不新增第三个题材，也不把两镜算两个独立重复实验。",
+    "参考图、构图、动作范围、首尾约束和提示词同时变化，不是单变量实验，未测试其他模型或重复稳定性。",
+    "仅判断这两段可见入口位置与合书轴改善；完整装订工艺、精确运动几何和受众情绪未验证。",
+    "声音仅检查音轨存在和解码，未听评内容、接触同步或音色；不宣称音频内容达标。",
+    "刷拭与交还的原始文件及取材起止保持一致；最终成片重新编码与整片响度处理，不宣称输出逐像素或音频采样锁定。"
+  ],
+  "result": {
+    "status": "completed_targeted_revision_with_remaining_limits",
+    "video": "generated/book-repair-r2/let-the-story-continue-r2.mp4",
+    "poster": "generated/book-repair-r2/poster.jpg",
+    "duration": 18,
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "24/1"
+  },
+  "costNote": "本轮仅两个视频任务：估算 240＋120＝360 点，服务返回 300＋150＝450 点。生成前后查询余额未变化，实际扣费未确认；服务返回字段不是已核销账单。四张动作参考由内置 image_gen 制作，未提交 ChatArt 图片付费任务。"
+}

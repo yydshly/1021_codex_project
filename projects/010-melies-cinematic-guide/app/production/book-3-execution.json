@@ -1,0 +1,25 @@
+{
+  "shotId": "book-3",
+  "caseId": "book-repair",
+  "status": "completed",
+  "model": "Seedance 2.0",
+  "requestedDuration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "taskId": "1035064",
+  "exitCode": 0,
+  "files": [
+    "video_20261022131706.mp4"
+  ],
+  "actualMedia": {
+    "duration": 5.056,
+    "width": 1902,
+    "height": 1092,
+    "frameRate": "24/1",
+    "hasAudio": true,
+    "byteSize": 3867307,
+    "videoCodec": "h264"
+  },
+  "reportedCredits": 150.0,
+  "sourceUrl": "https://files.chatartpro.com/web-video/20261022/6ad99c41e50a5.mp4"
+}

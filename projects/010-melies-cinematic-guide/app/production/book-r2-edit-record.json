@@ -1,0 +1,61 @@
+{
+  "shots": [
+    {
+      "timelineShotId": "book-1",
+      "sourceShotId": "book-1",
+      "source": "assets/generated/book-repair/book-1/video_20261022131931.mp4",
+      "sourceSha256": "175be6b8b92bd06d08eb3da7252d2bf402b051b6567c6c244e167639015e0219",
+      "sourceStart": 0.5,
+      "duration": 4,
+      "timeline": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "timelineShotId": "book-2",
+      "sourceShotId": "book-2-r2",
+      "source": "assets/generated/book-repair-r2/book-2-r2/video_20261022141542.mp4",
+      "sourceSha256": "076ac80f21c5256ffe107ba25e30e00a25ab0a11a470e3d7834a7a82e3b34137",
+      "sourceStart": 0.5,
+      "duration": 6,
+      "timeline": {
+        "start": 4,
+        "end": 10
+      }
+    },
+    {
+      "timelineShotId": "book-3",
+      "sourceShotId": "book-3-r2",
+      "source": "assets/generated/book-repair-r2/book-3-r2/video_20261022141518.mp4",
+      "sourceSha256": "c49c6c764313e80a6800db8f7ef12633dc2d733620aecb9f602445d74f58e92b",
+      "sourceStart": 0,
+      "duration": 4,
+      "timeline": {
+        "start": 10,
+        "end": 14
+      }
+    },
+    {
+      "timelineShotId": "book-4",
+      "sourceShotId": "book-4",
+      "source": "assets/generated/book-repair/book-4/video_20261022131725.mp4",
+      "sourceSha256": "45a23e411f9ae73db0eb8efcce6f9265fcdcc1c1033ae2229956c65ea74d0259",
+      "sourceStart": 0.5,
+      "duration": 4,
+      "timeline": {
+        "start": 14,
+        "end": 18
+      }
+    }
+  ],
+  "finalSha256": "7261f61ce8af8e7f9c616240013719e93f9e84b24ed4b5a3bc9f2ad85b3fb15c",
+  "unchangedTitle": {
+    "x": 1220,
+    "y": 175,
+    "fontSize": 56,
+    "color": "0x3d382c",
+    "reason": "右侧全高 40% 留白未实现，改放实际空出的右上墙面；不遮住手和书，属于后期适配。"
+  },
+  "encoding": "Same baseline normalization, title, segment fades and 18-second timeline; re-encoded final, not a pixel-lock claim."
+}

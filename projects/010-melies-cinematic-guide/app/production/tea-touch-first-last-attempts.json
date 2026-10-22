@@ -1,0 +1,72 @@
+{
+  "originalShot": {
+    "id": "tea-1",
+    "title": "触到日常",
+    "type": "i2v",
+    "model": "Seedance 2.0",
+    "resolution": 1080,
+    "aspectRatio": "16:9",
+    "nativeAudio": true,
+    "count": 1,
+    "submittedLanguage": "en",
+    "generationDuration": 5,
+    "editDuration": 5,
+    "estimatedCredits": 120,
+    "prompt": "5 seconds, 16:9. Animate one light fingertip contact between the supplied first frame (right hand NOT touching) and end frame (right hand touching). Preserve the exact single speckled ivory cup, one C handle on screen right and one small cobalt-blue dot at the LOWER handle attachment. The cup's foot stays planted at the same place on the wooden table for the whole shot; tea stays level. Hold the starting air gap for roughly the first second. Over roughly seconds 1–2.5 move the same right thumb and index finger a short distance to gently meet the top/outside of that handle, then HOLD that contact quietly until the end. Other fingers remain naturally curled. No lifting, sliding or rotating the cup, no second hand, repeated tapping, drinking, finger penetration or extra fingers. Locked close-detail camera and fixed focus: keep the finger-to-handle contact, lower blue mark and cup-to-table contact readable with enough depth of field. Keep the same ordinary worn wood, dark-gray knit sleeve, daylight from the left and restrained natural texture; do not intensify glare or turn this into a luxury display. The intention is quiet attention to an everyday tactile object, expressed through a small real action and a visible pause, not an exaggerated pose. One continuous shot, no camera move, zoom, orbit, cuts, overlays, lettering or logo. Quiet room tone, a very soft ceramic touch and knit rustle only; no speech, music or added dramatic sound.",
+    "promptZhTranslation": "5 秒，16:9。在所给首帧（右手尚未接触）和尾帧（右手已经接触）之间，只做一次指尖轻触。保留完全相同的一只米白斑点陶杯、画面右侧单一 C 形把手，以及把手下连接处的一个蓝色小点。杯足全程固定落在木桌同一位置，茶水保持水平。开始约一秒保留指尖与杯柄的空隙；约 1–2.5 秒，同一右手拇指与食指小幅靠近，轻轻接触把手上部／外侧，随后安静保持接触至结束。其余手指自然弯曲。不抬、滑动或转动杯子，不加第二只手、重复敲击、喝茶、手指穿透或多余手指。机位和焦点固定的细节近景，景深足以看清指尖接触、下部蓝点和杯底落桌。保持同一有使用痕迹的普通木桌、深灰针织袖、左侧日光与克制的真实质感，不增强眩光或改成奢侈品展示。通过一个真实小动作和可见停顿，表达对日常触感的安静关注，不作夸张摆拍。单一连续镜头，不移动摄影机、变焦、环绕、切镜，不加叠字、文字或标志。只有安静室内底噪、极轻触杯声与针织衣料声，无人声、音乐或戏剧化音效。",
+    "firstFrame": "assets/generated/tea-moment/video-reference/tea-1-before.png",
+    "endFrame": "assets/generated/tea-moment/tea-1-touch.png",
+    "inputMode": "first_last_frames",
+    "referenceRole": "专用首尾状态：未接触→已接触；全程杯底落桌",
+    "referenceHashes": {
+      "firstFrame": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78",
+      "endFrame": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b"
+    },
+    "refIds": [
+      "lenses-macro"
+    ],
+    "plannedCheck": [
+      "先检查接触点、手指数量、杯足落桌，再检查轻触后的停顿是否可读。"
+    ],
+    "promptZhTranslationOfSha256": "9ddee10b698f77480afa0f53fbcbed0756f32da0ffc3b4f01283bbe4fd0771b5"
+  },
+  "initialApproval": {
+    "confirmedAt": "2026-10-22T09:12:09.000492+00:00",
+    "userResponse": "确认，生成三镜并完成剪辑与复盘入库",
+    "model": "Seedance 2.0",
+    "resolution": 1080,
+    "aspectRatio": "16:9",
+    "nativeAudio": true,
+    "generationDurations": [
+      5,
+      5,
+      5
+    ],
+    "estimatedCredits": 360,
+    "historicalServiceCostReference": 450,
+    "noAutomaticRetry": true,
+    "inputPromptHashes": {
+      "tea-1": "9ddee10b698f77480afa0f53fbcbed0756f32da0ffc3b4f01283bbe4fd0771b5",
+      "tea-2": "ef01f0f7240ed0cf0e23af079b42f91689ef6e93e3859cf0fadca6fa5fe0cfd2",
+      "tea-3": "023ee2d6d150780614c3ea56389a9e549efa7de596826a7b648c9669f821f14a"
+    }
+  },
+  "retryApproval": {
+    "tea-1": {
+      "confirmed": true,
+      "confirmedAt": "2026-10-22T09:17:02.403141+00:00",
+      "userResponse": "确认，只重试触杯这一镜一次",
+      "sameParameters": true,
+      "afterOtherShotsComplete": true,
+      "estimatedCredits": 120,
+      "historicalServiceCostReference": 150,
+      "failedSubmissionDeductionVerified": false,
+      "consumed": true
+    }
+  },
+  "attemptStates": [
+    "tea-1-submit-failed-a1-execution.json",
+    "tea-1-submit-failed-a2-execution.json"
+  ],
+  "actualDeductionVerified": false
+}

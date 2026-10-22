@@ -44,6 +44,29 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "编号"):
             load_projects(self.root)
 
+    def test_website_research_without_invented_repository(self):
+        project = self.project()
+        project["repository"] = None
+        project["source_url"] = "https://melies.co/cinematic-techniques"
+        self.write_catalog([project])
+        projects = load_projects(self.root)
+        self.assertIn("[网站](https://melies.co/cinematic-techniques)", index_markdown(self.root, projects))
+        build_site(self.root, projects)
+        self.assertIn("来源网站 ↗", (self.root / "_site/index.html").read_text(encoding="utf-8"))
+
+    def test_invalid_sources_rejected(self):
+        project = self.project()
+        project["repository"] = None
+        for source in (None, "", "javascript:alert(1)", "https://u:p@example.com", "https://example.com/\nattack", 'https://example.com/\"bad', "https://example.com/a)[bad](x"):
+            project["source_url"] = source
+            self.write_catalog([project])
+            with self.subTest(source=source), self.assertRaises(ValueError):
+                load_projects(self.root)
+        project["repository"] = "https://example.com/owner/repo"
+        self.write_catalog([project])
+        with self.assertRaises(ValueError):
+            load_projects(self.root)
+
     def test_missing_and_escaping_images_rejected(self):
         project = self.project()
         for image in ("assets/missing.png", "assets/../../../private.png"):

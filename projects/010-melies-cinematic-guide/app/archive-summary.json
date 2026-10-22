@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "melies-research-archive-20261022",
+  "recordedAt": "2026-10-22",
+  "status": "archived_on_user_request",
+  "title": "视频创作的动作素材库",
+  "positioning": "以情绪需要和动作事件为核心，将电影语言参考、双语提示词、实际视频和失败经验交给模型选择、设计与复用。",
+  "publicationSummary": {
+    "summary": "以情绪目标驱动的AI视频创作动作素材库，汇集424项电影语言与4个实测题材，支持看效果、选参考、设计分镜、复制双语提示词及复盘。沉淀动作与状态描述、案例检索和验收方法，可扩展到品牌短片、产品演示、人物叙事与模型创作助手；生成效果仍需复核。",
+    "capabilities": [
+      "直观看效果：424项电影语言参考含250个原站视频、174张原站图片，逐项中英文提示词对照与复制。",
+      "辅助设计：从情绪需要设计情境、动作和回应，由当前助手选择参考、设计分镜，网页导入并整理双语提示词。",
+      "对照复盘：4个实测题材、1次两镜局部返修和16项动作／表达观察，保留实际输入、原片、偏差与未验证项。"
+    ],
+    "technicalAssets": [
+      {"name": "动作与状态描述", "current": "用起态、作用点、接触／支撑、连接轴、方向和终态描述动作，形成逐镜检查清单。", "boundary": "已有字段与审片方法，自动物理判断尚未实现。"},
+      {"name": "可检索的参考与案例格式", "current": "统一技巧与案例ID、双语字段、轻量索引、完整记录、来源和经验关联，导出JSON供模型读取。", "boundary": "已有资料与导出；语义检索、RAG或MCP服务需另行接入。"},
+      {"name": "分镜编排与提示词交接", "current": "以创作方向、情境与动作、镜头表达三层组织方案；支持创作包复制、分镜导入、引用与字段校验。", "boundary": "模型负责创作判断，结构校验不能证明画面、物理或情绪正确。"},
+      {"name": "可追溯的执行与复盘", "current": "分开保存设计稿、准确实际输入与译文、参考哈希、任务结果、原片、剪辑范围、证据帧与候选改法。", "boundary": "可以复核一次执行，尚不能给出重复成功率或确定单一原因。"},
+      {"name": "动作逻辑与连续性验收", "current": "从穿针孔位、合书轴、持杯停步、扶车交接等案例归纳接触、次数、持时和跨镜状态检查。", "boundary": "目前依赖助手审片，声音听评、观众测试和自动检测仍待补充。"}
+    ],
+    "futureScenarios": [
+      {"name": "品牌与服务短片", "use": "围绕安心、关怀、信任等感受设计具体照料、交接与回应，形成可选镜和可复盘的方案。", "status": "future_application_not_packaged"},
+      {"name": "产品与工艺演示", "use": "复用产品呈现、操作动作和结构检查，服务产品说明、手工过程与教学示意；准确工艺需专业复核。", "status": "future_application_not_packaged"},
+      {"name": "人物叙事与日常故事", "use": "围绕人物关系和情绪变化设计触碰、等待、移动、停留与交还，检查事件、动作和跨镜连续性。", "status": "future_application_not_packaged"},
+      {"name": "模型创作助手与团队经验库", "use": "接入语义检索与模型编排，让模型按目标读取相关案例，输出分镜、提示词及检查计划，并将新执行反馈回库。", "status": "future_application_not_implemented"}
+    ]
+  },
+  "archiveReason": "用户认为现阶段研究已经够用，暂时归档，后期按具体创作需求重启。保留网页、素材、准确输入和全部历史，不继续扩库或生成视频。",
+  "scope": {"sourceTechniques": 424, "sourceVideos": 250, "sourceImages": 174, "structuredRules": 7, "actualTopics": 4, "targetedRevisions": 1},
+  "boundary": "424项包含运镜、构图、光线、风格等电影技巧，不能视为424个已验证人物动作。这里的动作素材包括人物操作、物体变化和镜头表达；四个题材及一次局部返修是有限实测，不代表稳定成功率。",
+  "roles": [
+    {"name": "这个库", "does": "提供技巧原例、动作与状态参考、双语输入、实际效果、问题及复用边界。"},
+    {"name": "语言模型／当前助手", "does": "理解目标与情绪，比较方向，设计情境和动作，选择参考并写分镜、提示词。"},
+    {"name": "视频模型", "does": "结合实际提交的提示词和参考生成画面，输出仍需核查。"},
+    {"name": "网页", "does": "展示资料、复制创作包、导入分镜、检查结构和保存本机反馈草稿；目前没有在线文本模型自动推理。"}
+  ],
+  "workflow": ["创作目标与情绪需要", "情境、动作与回应", "选择镜头与实际参考", "模型设计分镜和双语提示词", "视频模型生成与剪辑", "核对动作、情绪与问题，经验回库"],
+  "values": ["让情绪通过具体事件、动作与回应成立，降低只写抽象氛围的随意性。", "让参考、设计、实际输入、视频证据与判断可以追溯，减少重复试错。", "迁移表达逻辑和检查方法，按新对象、新场景重新设计，不照搬旧剧情。"],
+  "issues": [
+    {"id": "reference-consistency", "title": "参考素材本身不一致", "evidenceLevel": "observed_input_and_output_difference", "fact": "取车第三镜座垫较薄，第四镜较厚且有明显弹簧支撑；差异在两镜静态参考里已经存在，实际视频也呈现这种差异。", "assessment": "参考制作与跨镜验收问题明确存在；不能全部归因于视频模型。", "next": "重启时先统一角色、物体结构和场景，再通过受控视角变化制作逐镜参考。", "caseIds": ["bike-kindness"]},
+    {"id": "instruction-following", "title": "已写明的动作约束没有落实", "evidenceLevel": "observed_execution_deviation", "fact": "取车输入要求只擦一次、约0.5秒后起步、持续接触；实际重复擦拭、约2.5秒才起步，后段左手支撑不持续清楚。陶器也出现停人未停镜、下一镜重新迈步。", "assessment": "本次输出的指令遵循和连续性偏差可确认；不能凭单次输出断定模型永久做不到，也不能确定各因素占比。", "next": "固定输入后做小样复测；只改变一个因素，再考虑不同参考模式或模型对照。", "caseIds": ["bike-kindness", "tea-moment"]},
+    {"id": "task-complexity", "title": "任务安排与中间过程控制不足", "evidenceLevel": "plausible_contributor_not_isolated", "fact": "交接一镜要求双人、多处手部接触、支撑转移、人物回应与精确时序；实际只提供普通姿态参考，没有连续动作示范。", "assessment": "任务过密、构图遮挡与参考方式可能增加难度；没有对照实验，不能认定长提示词就是唯一原因。", "next": "先拆成一个主要动作，明确起态、作用点、接触、握稳、承重、释放和终态；必要时再验证动作视频参考。", "caseIds": ["bike-kindness", "book-repair"]},
+    {"id": "emotion-design", "title": "情绪起点与触发事件不够清楚", "evidenceLevel": "assistant_visual_interpretation", "fact": "取车者开场已经较平静；照料事件可读，但疲惫到安心的反差弱。陶器有安静氛围，但主动留片刻的行动未完整落实。", "assessment": "创作设计和表演起点需要改进；暖色、慢镜头与动作顺序不保证观众产生目标感受。", "next": "需要转折时先定义可见起点、触发事件和回应，再采集观看者自己的描述。", "caseIds": ["bike-kindness", "tea-moment"]},
+    {"id": "acceptance", "title": "验收把可辨认与可信、达标混在一起", "evidenceLevel": "process_review", "fact": "此前“动作基本可读”主要指能辨认动作顺序，没有充分覆盖自行车跨镜结构、自然握持及整片可信度。旧书首版也出现孔位与合书轴的明确逻辑错误。", "assessment": "助手的制作和验收有责任，不能把全部问题转移给模型；结构校验与测试通过也不能代替内容审片。", "next": "分别检查身份与结构、动作物理关系、时序连续性、镜头要求、情绪依据和声音，再决定是否入库为可复用结果。", "caseIds": ["bike-kindness", "book-repair"]}
+  ],
+  "comparison": [
+    {"label": "第三镜 · 交接末段", "image": "generated/bike-kindness/evidence/bike-3-4.75.jpg", "reference": "generated/bike-kindness/reference/bike-3-start.png", "time": "原片4.75秒／成片14.75秒", "note": "座垫较薄；看得到手部接触，不等于完整承重过程已验证。"},
+    {"label": "第四镜 · 推车起态", "image": "generated/bike-kindness/evidence/bike-4-0.05.jpg", "reference": "generated/bike-kindness/reference/bike-4-start.png", "time": "原片0.05秒／成片15.05秒", "note": "座垫更厚、弹簧支撑明显；对应静态参考里已有差异。"}
+  ],
+  "actions": [
+    {"id": "rain-ripple", "caseId": "rain-to-forest", "shotIds": ["s1"], "name": "雨滴触水与涟漪扩散", "kind": "物体变化", "observation": "雨滴与水纹可见；机位偏斜，未达到严格垂直俯拍。", "state": "部分符合"},
+    {"id": "reflection-change", "caseId": "rain-to-forest", "shotIds": ["s2", "s3"], "name": "倒影变化与轮廓呼应", "kind": "物体变化／转场表达", "observation": "瓶盖与水纹有轮廓呼应；未达到精确图形匹配，反射物理未验证。", "state": "部分符合"},
+    {"id": "product-orbit", "caseId": "rain-to-forest", "shotIds": ["s3"], "name": "产品环绕与背景变化", "kind": "镜头表达", "observation": "背景和玻璃倒影变化、瓶型较稳定；实际环绕角度未量测。", "state": "可见，精度未量测"},
+    {"id": "negative-space", "caseId": "rain-to-forest", "shotIds": ["s4"], "name": "产品静置与构图留白", "kind": "镜头表达", "observation": "左侧产品与右侧留白可见；比例未量测，中文来自后期排字。", "state": "可见，精度未量测"},
+    {"id": "book-brush", "caseId": "book-repair", "shotIds": ["book-1"], "name": "刷拭书面", "kind": "人物操作", "observation": "手持小刷反复刷拭可见；没有严格按一次刷过磨损书脊执行，微距尺度不足。", "state": "部分符合"},
+    {"id": "book-needle", "caseId": "book-repair", "shotIds": ["book-2"], "revisionId": "book-repair-r2", "name": "穿针与孔位对齐", "kind": "人物操作", "observation": "首版孔位与书体逻辑错误；返修的中央折缝孔位和单一书体改善。下侧出针、完整拉线未展示。", "state": "局部返修有改善"},
+    {"id": "book-close", "caseId": "book-repair", "shotIds": ["book-3"], "revisionId": "book-repair-r2", "name": "绕书脊合书", "kind": "人物操作", "observation": "首版开合轴关系不一致；返修的小角度合书方向改善，不代表完全展开也能正确闭合。", "state": "局部返修有改善"},
+    {"id": "book-return", "caseId": "book-repair", "shotIds": ["book-4"], "name": "推送与双手交还旧书", "kind": "人物交互", "observation": "通过袖口区分角色，交还和共同接住可读；指定文案留白没有实现。", "state": "交还关系可读"},
+    {"id": "cup-touch", "caseId": "tea-moment", "shotIds": ["tea-1"], "name": "手指靠近并接触杯把", "kind": "人物操作", "observation": "接触过程可读；微距尺度、光线与原计划有偏差，手指局部几何未逐帧验证。", "state": "接触可读"},
+    {"id": "cup-walk", "caseId": "tea-moment", "shotIds": ["tea-2"], "name": "端杯行走", "kind": "人物移动", "observation": "持杯走向窗边可读，实际不止两步，不能声称精确步数通过。", "state": "部分符合"},
+    {"id": "person-stop", "caseId": "tea-moment", "shotIds": ["tea-2"], "name": "停步与镜头停止", "kind": "人物／相机状态", "observation": "人物停下，摄影机仍推进；主体停止与相机停止需分别验收。", "state": "停止要求未完全落实"},
+    {"id": "window-hold", "caseId": "tea-moment", "shotIds": ["tea-3"], "name": "窗边停留与后拉", "kind": "人物／镜头表达", "observation": "景别扩展可见，但人物又走步，破坏上一镜已停住的状态，后拉也未按计划停下。", "state": "连续性有偏差"},
+    {"id": "acknowledge", "caseId": "bike-kindness", "shotIds": ["bike-1"], "name": "抬眼回应与等待", "kind": "人物交互", "observation": "修车人注意来人可读；开场疲惫状态不明确，回应时间与计划有偏差。", "state": "回应可读，转折弱"},
+    {"id": "saddle-wipe", "caseId": "bike-kindness", "shotIds": ["bike-2"], "name": "擦干座垫", "kind": "人物操作", "observation": "擦拭位置与支撑可读；只擦一次的要求变成多次往返。", "state": "次数偏差"},
+    {"id": "support-handover", "caseId": "bike-kindness", "shotIds": ["bike-3"], "name": "扶稳交接与松手", "kind": "人物交互", "observation": "先接触再松手基本可读；握稳与承重程度未完全明确，不能认定严格物理正确。", "state": "接触顺序可读"},
+    {"id": "walk-bicycle", "caseId": "bike-kindness", "shotIds": ["bike-4"], "name": "在车旁推行", "kind": "人物／物体移动", "observation": "在车旁行走可读；起步偏晚，后段左手接触不持续清楚；轮速与位移未量测。", "state": "部分符合"}
+  ],
+  "extensions": [
+    {"name": "动作视频参考与分阶段描述", "value": "补充真实运动路径与接触过程，按对象、作用点、起止状态检索。", "status": "future_unimplemented"},
+    {"name": "统一角色、物体与场景资产", "value": "逐镜参考从一致资产出发，增加结构和状态连续性核对。", "status": "future_unimplemented"},
+    {"name": "模型检索与创作编排", "value": "围绕情绪目标检索合适案例，自动组合创作包并生成可审查分镜。", "status": "future_unimplemented"},
+    {"name": "小样对照、模型适配与反馈", "value": "固定输入做重复和单因素对照，分开记录执行表现、声音听评与观众感受。", "status": "future_unimplemented"}
+  ],
+  "unresolved": ["尚不能给出提示词、参考图、模型能力各自导致问题的百分比。", "未做固定输入的重复测试、模型对比或单变量实验。", "精确角度、轮速与位移、握稳承重、完整装订工艺均未充分验证。", "缺少观众反馈与声音内容听评，不报告情绪命中率或商业效果。", "候选改法尚未执行，服务返回费用不等同已核销实际扣费。"],
+  "restart": ["提出一个真实的新创作目标与希望留下的感受，再按需重启；保留项目编号010与归档历史。", "先读这份归档、模型指引和相关实际案例；取舍参考，不将全部424项塞入一次生成。", "先校准统一资产和单一主要动作，定义可观察的验收项。", "如需付费生成，准备准确输入、参考与费用后按当时工具要求确认；不沿用旧批次批准。", "新执行另记原件、参数与证据，再更新经验；不回写旧设计和首版历史。"],
+  "provenance": {"basis": "本项目四套实际视频、旧书一次两镜返修、准确输入与2026-10-22用户讨论的后续复核。归因中的可能因素明确保留为假设。", "overviewImage": "research-overview.png", "overviewImageRole": "AI生成的中文说明信息图，不是新增实测视频或实际界面截图。"}
+}

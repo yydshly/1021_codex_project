@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "status": "design_only",
+  "compiler": "local_rule_compiler_v1",
+  "validationScope": "结构、显式引用、参数与时长；不验证语义、情绪、物理或模型执行。",
+  "brief": {
+    "goal": "为旧书修复工作室设计一支短片：修复并交还一本旧书，让读者感到被珍视的故事可以继续。",
+    "subject": "一本靛蓝布面旧书、修复者的双手和等候取书的读者",
+    "audience": "珍惜书籍、手工与旧物的人",
+    "emotion": "从担心书页受损，到感受到细致照料，最后安心地接回旧书。",
+    "setting": "晨间窗边的木质修复台；纸纤维、针脚、少量纸尘与自然光束。结尾预留片名空间。",
+    "avoid": "魔法瞬间修复、纸张淋雨、森林倒影、奢侈品展台、强行圆形转场、无理由环绕、夸张粒子特效",
+    "assets": "无已有图片或视频参考；先用文字定义跨镜一致性。",
+    "duration": 18,
+    "aspectRatio": "16:9",
+    "shotCount": 4
+  },
+  "title": {
+    "zh": "让故事，继续",
+    "en": "Let the Story Continue"
+  },
+  "provenance": {
+    "mode": "assistant_authored",
+    "mediaStatus": "design_only",
+    "modelVersion": null,
+    "referenceCaseIds": [
+      "rain-to-forest"
+    ],
+    "reusedLogic": "参考香水复盘中‘先约束接触与机位’‘单镜只保留一个主要动作’‘文案后期加入’的经验；不继承香水场景与验证状态。",
+    "newDesign": "旧书修复与交还的事件、跨镜道具锚点、静态观察节奏和读者关系均为本次新设计。",
+    "evidence": "依据现有文字复盘设计；本次未重新观看原片，未生成或评估旧书视频。"
+  },
+  "rules": [
+    {
+      "id": "lenses-macro",
+      "kind": "optics",
+      "core": "放大小尺度细节，明确清晰焦点及焦外关系；微距本身不要求摄影机移动。",
+      "coreOrigin": "由原提示词的细节与景深要求提炼；独立于运镜为本项目归纳。",
+      "sourceExcerpt": "The screw head and adjacent gear teeth are crisp; focus falls away rapidly.",
+      "purposes": [
+        "让材质与细小动作可读",
+        "以局部细节建立注意力"
+      ],
+      "purposeOrigin": "设计推断，作为候选用途，不是固定情绪映射。",
+      "keywords": [
+        "微距",
+        "细节",
+        "纸纤维",
+        "针脚",
+        "手工",
+        "材质",
+        "macro",
+        "texture",
+        "detail"
+      ],
+      "parameters": [
+        {
+          "key": "focusTarget",
+          "label": "清晰焦点",
+          "type": "bilingual_text",
+          "origin": "原提示词要求，具体对象由新设计填写"
+        },
+        {
+          "key": "view",
+          "label": "机位与景别",
+          "type": "bilingual_text",
+          "origin": "新设计参数，微距不等于垂直俯拍"
+        }
+      ],
+      "requirements": [
+        "写出具体焦点和一个可读动作",
+        "对需要看清的接触点保留足够景深"
+      ],
+      "cautions": [
+        "小尺度、手指和道具可能发生形变；必须检查接触与比例",
+        "严格俯拍需要单独约束和参考，不能由微距自动推出"
+      ],
+      "checks": [
+        "关键细节是否清楚",
+        "尺度、手和道具是否稳定",
+        "机位是否符合本镜设计"
+      ],
+      "caseShotIds": [
+        "s1",
+        "s2"
+      ],
+      "caseLesson": "香水案例出现了水纹和瓶盖细节，但水纹机位偏斜；不能把微距成功等同于垂直俯拍成功。"
+    },
+    {
+      "id": "composition-negative-space",
+      "kind": "composition",
+      "core": "用主体与大片空白的空间关系组织注意力；空白方向、比例及用途随创作意图设计。",
+      "coreOrigin": "从原提示词的大面积空墙与人物偏置提炼；广告文案空间来自本项目归纳。",
+      "sourceExcerpt": "Most of the frame is pale wall and high windows.",
+      "purposes": [
+        "为后期文案预留位置",
+        "用空间关系表达距离或停留"
+      ],
+      "purposeOrigin": "可选设计用途；留白不固定对应孤独，也不总是用来放广告。",
+      "keywords": [
+        "留白",
+        "文案",
+        "片名",
+        "落版",
+        "空白",
+        "negative space",
+        "typography"
+      ],
+      "parameters": [
+        {
+          "key": "negativeSpace.side",
+          "label": "空白所在侧",
+          "type": "enum",
+          "values": [
+            "left",
+            "right"
+          ],
+          "origin": "本项目试点参数"
+        },
+        {
+          "key": "negativeSpace.percent",
+          "label": "目标空白比例",
+          "type": "number",
+          "example": 55,
+          "origin": "55%为香水案例设计目标，未量测验证"
+        },
+        {
+          "key": "negativeSpace.subjectPlacement",
+          "label": "主体位置",
+          "type": "bilingual_text",
+          "origin": "由新设计确定"
+        }
+      ],
+      "requirements": [
+        "明确空白的叙事用途和主体位置",
+        "有文字时检查实际文案安全区"
+      ],
+      "cautions": [
+        "不继承原例的人物、候车室或凝视方向",
+        "文案可读性需要后期排字和尺寸检查"
+      ],
+      "checks": [
+        "主体与空白关系是否清楚",
+        "文字区域是否被运动或光束遮挡",
+        "比例是否量取后再宣称达标"
+      ],
+      "caseShotIds": [
+        "s4"
+      ],
+      "caseLesson": "香水结尾保留了产品左置与右侧文案空间，55%比例未量取；中文是后期加入。"
+    },
+    {
+      "id": "lighting-volumetric-light",
+      "kind": "lighting",
+      "core": "用光源与雾、尘等散射介质的关系让光束可见，借此组织空间层次。",
+      "coreOrigin": "从原提示词的 haze、visible beams 与 dust 提炼；具体光源合理性为本项目执行约束。",
+      "sourceExcerpt": "Volumetric god rays through haze around [Subject], visible beams, dust in the shaft",
+      "purposes": [
+        "让光线方向与空间层次可见",
+        "将注意力引向行动或主体"
+      ],
+      "purposeOrigin": "设计推断；可见光束不自动产生崇高、安静或温暖。",
+      "keywords": [
+        "光束",
+        "纸尘",
+        "薄雾",
+        "尘埃",
+        "体积光",
+        "haze",
+        "beam",
+        "dust"
+      ],
+      "parameters": [
+        {
+          "key": "volumetric",
+          "label": "光源、方向与散射介质",
+          "type": "bilingual_text",
+          "origin": "由来源要素抽取，强度服从新目标"
+        }
+      ],
+      "requirements": [
+        "写明可解释的光源和散射介质",
+        "保持产品或人物的识别中心可见"
+      ],
+      "cautions": [
+        "不自动继承原例的教堂、森林或强烈神光",
+        "避免把少量纸尘变成主导画面的粒子特效"
+      ],
+      "checks": [
+        "光束方向是否与光源一致",
+        "雾尘是否遮挡主体",
+        "强度是否服从作品意图"
+      ],
+      "caseShotIds": [
+        "s4"
+      ],
+      "caseLesson": "香水结尾可见暖光与薄雾；这只是本次画面观察，不代表已验证观众的情绪反应。"
+    }
+  ],
+  "storyboard": {
+    "schemaVersion": 1,
+    "brief": {
+      "goal": "为旧书修复工作室设计一支短片：修复并交还一本旧书，让读者感到被珍视的故事可以继续。",
+      "subject": "一本靛蓝布面旧书、修复者的双手和等候取书的读者",
+      "audience": "珍惜书籍、手工与旧物的人",
+      "emotion": "从担心书页受损，到感受到细致照料，最后安心地接回旧书。",
+      "setting": "晨间窗边的木质修复台；纸纤维、针脚、少量纸尘与自然光束。结尾预留片名空间。",
+      "avoid": "魔法瞬间修复、纸张淋雨、森林倒影、奢侈品展台、强行圆形转场、无理由环绕、夸张粒子特效",
+      "duration": 18,
+      "aspectRatio": "16:9",
+      "shotCount": 4,
+      "assets": "无已有图片或视频参考；先用文字定义跨镜一致性。"
+    },
+    "title": {
+      "zh": "让故事，继续",
+      "en": "Let the Story Continue"
+    },
+    "concept": {
+      "zh": "从磨损处看见时间，从一次针线动作看见照料，最后让旧书回到等待的双手。叙事由修复与交还推进。",
+      "en": "See time in a worn spine, care in one stitch, and continuity as the book returns to waiting hands. Repair and return carry the story."
+    },
+    "constraints": {
+      "zh": "保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。",
+      "en": "Retain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles."
+    },
+    "intention": {
+      "emotionStart": "对脆弱旧书的担心",
+      "turningEvent": "修复者用一个清楚、克制的动作照料损伤",
+      "emotionEnd": "接回旧书的安心与延续感"
+    },
+    "anchor": {
+      "zh": "同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。",
+      "en": "The same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors."
+    },
+    "selectedRuleIds": [
+      "lenses-macro",
+      "composition-negative-space",
+      "lighting-volumetric-light"
+    ],
+    "rejectedRules": [
+      {
+        "id": "atmosphere-rain",
+        "reason": "室内修复动作不需要天气推动；让纸张淋雨会破坏这次照料的主题。"
+      },
+      {
+        "id": "editing-graphic-match",
+        "reason": "通过同一本书和动作顺序衔接已经足够，没有必要添加圆形视觉母题。"
+      },
+      {
+        "id": "camera-movement-arc-left",
+        "reason": "保持机位有助于看清手与纸的接触，叙事不需要环绕揭示新空间。"
+      },
+      {
+        "id": "composition-reflections",
+        "reason": "布面与纸张是哑光材质；交还关系用真实动作表达，不另设镜面意象。"
+      }
+    ],
+    "provenance": {
+      "mode": "assistant_authored",
+      "mediaStatus": "design_only",
+      "modelVersion": null,
+      "referenceCaseIds": [
+        "rain-to-forest"
+      ],
+      "reusedLogic": "参考香水复盘中‘先约束接触与机位’‘单镜只保留一个主要动作’‘文案后期加入’的经验；不继承香水场景与验证状态。",
+      "newDesign": "旧书修复与交还的事件、跨镜道具锚点、静态观察节奏和读者关系均为本次新设计。",
+      "evidence": "依据现有文字复盘设计；本次未重新观看原片，未生成或评估旧书视频。"
+    },
+    "shots": [
+      {
+        "id": "book-1",
+        "title": "磨损处",
+        "duration": 4,
+        "task": "先让观众注意到脆弱的材料，建立需要被照料的对象。",
+        "ruleIds": [
+          "lenses-macro"
+        ],
+        "reason": "微距让纸纤维与磨损可见；固定机位保留细小动作的可读性。",
+        "scene": {
+          "zh": "旧书平放在修复台上，书脊朝向镜头。一只手用柔软小刷沿磨损书脊轻轻刷过一次，露出纸纤维；不出现修复前后瞬间变化。",
+          "en": "The old book rests on the repair table with its spine facing camera. One hand makes a single gentle pass with a soft small brush along the frayed spine, revealing paper fibers; no instant before-and-after transformation."
+        },
+        "camera": {
+          "movement": "locked",
+          "view": {
+            "zh": "与书脊接近等高的斜侧微距，保留刷头与书脊接触处的景深。",
+            "en": "Oblique side macro near spine level, with enough depth of field to read the brush-to-spine contact."
+          }
+        },
+        "composition": {
+          "zh": "书脊横向占画面中段，手从左侧进入；背景自然虚化。",
+          "en": "The spine crosses the middle of frame; the hand enters from the left; the background falls gently out of focus."
+        },
+        "lighting": {
+          "zh": "左侧窗户漫射晨光，纸纤维柔和可见，不做强烈光束。",
+          "en": "Soft morning window light from the left reveals paper fibers without a pronounced beam."
+        },
+        "sound": {
+          "zh": "轻微刷毛摩擦声与安静室内底噪，无旁白。",
+          "en": "A faint brush sound over quiet room tone, no voice-over."
+        },
+        "details": {
+          "focusTarget": {
+            "zh": "磨损书脊上的纸纤维与刷头接触点；接触区清楚，远处逐渐失焦。",
+            "en": "Paper fibers and the brush contact point on the frayed spine; keep the contact zone crisp with gradual falloff beyond it."
+          }
+        },
+        "transitionOut": {
+          "type": "cut"
+        },
+        "checks": [
+          "纸纤维与手指比例稳定",
+          "刷头接触真实且只刷一次",
+          "机位保持斜侧，不自动变成俯拍"
+        ]
+      },
+      {
+        "id": "book-2",
+        "title": "一针照料",
+        "duration": 6,
+        "task": "用一个可读的劳动动作，把担心转为被照料的感受。",
+        "ruleIds": [
+          "lenses-macro"
+        ],
+        "reason": "复用‘微距看清接触点’的规则，动作缩减为一根针完成一次穿孔，不把整个修复流程塞进一镜。",
+        "scene": {
+          "zh": "同一本书打开支撑在软垫上。修复者一手稳住书帖，另一手将带米色细线的针缓慢穿过一个已有装订孔，完成一次穿孔后停住。",
+          "en": "The same book lies open on a soft support. One hand steadies the section while the other slowly passes a needle with fine beige thread through one existing binding hole, then pauses after this single pass."
+        },
+        "camera": {
+          "movement": "locked",
+          "view": {
+            "zh": "装订孔一侧的近距离微距，略高于台面；两只手的接触点同时可读。",
+            "en": "A close macro view from the binding-hole side, slightly above the table; the contact points of both hands remain readable."
+          }
+        },
+        "composition": {
+          "zh": "装订孔位于中间偏左，针线轨迹不被手掌遮住。",
+          "en": "The binding hole sits slightly left of center and the palms do not obscure the needle path."
+        },
+        "lighting": {
+          "zh": "延续左侧柔和窗光，线与纸有足够明暗分离。",
+          "en": "Continue soft window light from the left, separating the thread clearly from the paper."
+        },
+        "sound": {
+          "zh": "轻微穿线与纸张摩擦声，保留一次动作的停顿。",
+          "en": "Subtle thread and paper friction, with a pause after the single movement."
+        },
+        "details": {
+          "focusTarget": {
+            "zh": "针尖、已有装订孔与线的接触区；线保持一根，手指和孔位不漂移。",
+            "en": "The needle tip, existing binding hole and thread contact zone; one continuous thread, with stable fingers and hole position."
+          }
+        },
+        "transitionOut": {
+          "type": "cut"
+        },
+        "checks": [
+          "针不能穿过实体手指",
+          "不凭空增加针线或装订孔",
+          "一次动作结束后停顿，不跳成瞬间修好"
+        ]
+      },
+      {
+        "id": "book-3",
+        "title": "轻轻合上",
+        "duration": 4,
+        "task": "从局部回到人的工作空间，给细致照料一个安静的完成时刻。",
+        "ruleIds": [
+          "lighting-volumetric-light"
+        ],
+        "reason": "以窗光和极少纸尘交代真实空间与时间；光束辅助动作，不作为主角。",
+        "scene": {
+          "zh": "镜头来到修复台的中景。修复者双手轻轻合上修补过的同一本书，封面补布仍可见，书上保留自然旧痕，动作结束后短暂停留。",
+          "en": "In a medium view of the repair table, the restorer gently closes the same repaired book with both hands. The cover patch remains visible, signs of age remain, and the hands pause briefly after closing it."
+        },
+        "camera": {
+          "movement": "locked",
+          "view": {
+            "zh": "台面斜侧中景，看到手、旧书与左侧窗边的一小段空间。",
+            "en": "An oblique medium view across the table, showing hands, book and a small portion of the window area on the left."
+          }
+        },
+        "composition": {
+          "zh": "书与双手是视觉中心，背景只保留少量日常工具。",
+          "en": "The book and hands are the visual center; only a few ordinary tools remain in the background."
+        },
+        "lighting": {
+          "zh": "晨光来自左侧可解释的窗户，整体柔和，书面不过曝。",
+          "en": "Morning light comes from the plausible window on the left; keep the overall light soft and the cover correctly exposed."
+        },
+        "sound": {
+          "zh": "布面轻合的声音，持续安静室内底噪。",
+          "en": "The soft sound of the cloth cover closing over continuous quiet room tone."
+        },
+        "details": {
+          "volumetric": {
+            "zh": "左侧窗光斜向照入，空气中极少量纸尘使一束很淡的光可见；不漂浮魔法粒子，不遮住双手。",
+            "en": "Window light enters diagonally from the left; a very small amount of airborne paper dust makes one faint shaft visible. No magical particles and no obscuring the hands."
+          }
+        },
+        "transitionOut": {
+          "type": "cut"
+        },
+        "checks": [
+          "同一本书的封面与补布一致",
+          "双手合书动作稳定",
+          "纸尘极少且光向与窗户一致"
+        ]
+      },
+      {
+        "id": "book-4",
+        "title": "回到手中",
+        "duration": 4,
+        "task": "让照料成为人与人的交付，留下故事继续的余韵。",
+        "ruleIds": [
+          "composition-negative-space"
+        ],
+        "reason": "交还动作在画面左侧完成，右侧留给后期片名；空白不承担产品陈列。",
+        "scene": {
+          "zh": "修复者将合上的旧书沿木台轻轻交给等待的读者。灰色毛衣袖口的双手接住书，双方短暂停住；不握手，不增加其他动作。",
+          "en": "Across the wooden table, the restorer gently passes the closed book into the waiting reader's hands with gray wool cuffs. Both pairs of hands pause once the book is received; no handshake or extra action."
+        },
+        "camera": {
+          "movement": "locked",
+          "view": {
+            "zh": "略高于台面的斜侧中近景，只见两人的前臂、手与书。",
+            "en": "An oblique medium close view slightly above table level, showing only forearms, hands and book."
+          }
+        },
+        "composition": {
+          "zh": "交还动作位于左侧；右侧为柔和干净的墙面与桌面，没有工具、移动人影或耀眼光斑。",
+          "en": "The handover takes place on the left; the right contains a calm clear wall and table area, without tools, moving figures or bright highlights."
+        },
+        "lighting": {
+          "zh": "继续柔和左侧晨光，右侧文案区域明暗平稳。",
+          "en": "Continue soft morning light from the left; keep even contrast in the right-side title area."
+        },
+        "sound": {
+          "zh": "书与掌心接触的轻声，末尾室内底噪自然延续。",
+          "en": "A soft book-to-palm contact sound, with room tone continuing at the end."
+        },
+        "details": {
+          "negativeSpace": {
+            "side": "right",
+            "percent": 40,
+            "subjectPlacement": {
+              "zh": "书和两双手位于画面左侧，右侧约 40% 作为后期片名安全区。",
+              "en": "The book and both pairs of hands stay on the left; reserve roughly 40% on the right as a title-safe area for post-production."
+            }
+          }
+        },
+        "transitionOut": {
+          "type": "cut"
+        },
+        "checks": [
+          "书在交接中不改变形状或消失",
+          "两双手的袖口身份可辨",
+          "后期加入片名‘让故事，继续’，实际量取安全区后验收"
+        ]
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "book-1",
+      "title": "磨损处",
+      "start": 0,
+      "end": 4,
+      "duration": 4,
+      "ruleIds": [
+        "lenses-macro"
+      ],
+      "prompts": {
+        "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n旧书平放在修复台上，书脊朝向镜头。一只手用柔软小刷沿磨损书脊轻轻刷过一次，露出纸纤维；不出现修复前后瞬间变化。\n与书脊接近等高的斜侧微距，保留刷头与书脊接触处的景深。\n摄影机保持固定。\n书脊横向占画面中段，手从左侧进入；背景自然虚化。\n左侧窗户漫射晨光，纸纤维柔和可见，不做强烈光束。\n磨损书脊上的纸纤维与刷头接触点；接触区清楚，远处逐渐失焦。\n声音设计：轻微刷毛摩擦声与安静室内底噪，无旁白。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+        "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nThe old book rests on the repair table with its spine facing camera. One hand makes a single gentle pass with a soft small brush along the frayed spine, revealing paper fibers; no instant before-and-after transformation.\nOblique side macro near spine level, with enough depth of field to read the brush-to-spine contact.\nKeep the camera locked off.\nThe spine crosses the middle of frame; the hand enters from the left; the background falls gently out of focus.\nSoft morning window light from the left reveals paper fibers without a pronounced beam.\nPaper fibers and the brush contact point on the frayed spine; keep the contact zone crisp with gradual falloff beyond it.\nSound design: A faint brush sound over quiet room tone, no voice-over.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool."
+      }
+    },
+    {
+      "id": "book-2",
+      "title": "一针照料",
+      "start": 4,
+      "end": 10,
+      "duration": 6,
+      "ruleIds": [
+        "lenses-macro"
+      ],
+      "prompts": {
+        "zh": "目标剪辑时长 6 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n同一本书打开支撑在软垫上。修复者一手稳住书帖，另一手将带米色细线的针缓慢穿过一个已有装订孔，完成一次穿孔后停住。\n装订孔一侧的近距离微距，略高于台面；两只手的接触点同时可读。\n摄影机保持固定。\n装订孔位于中间偏左，针线轨迹不被手掌遮住。\n延续左侧柔和窗光，线与纸有足够明暗分离。\n针尖、已有装订孔与线的接触区；线保持一根，手指和孔位不漂移。\n声音设计：轻微穿线与纸张摩擦声，保留一次动作的停顿。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+        "en": "Target edit duration 6 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nThe same book lies open on a soft support. One hand steadies the section while the other slowly passes a needle with fine beige thread through one existing binding hole, then pauses after this single pass.\nA close macro view from the binding-hole side, slightly above the table; the contact points of both hands remain readable.\nKeep the camera locked off.\nThe binding hole sits slightly left of center and the palms do not obscure the needle path.\nContinue soft window light from the left, separating the thread clearly from the paper.\nThe needle tip, existing binding hole and thread contact zone; one continuous thread, with stable fingers and hole position.\nSound design: Subtle thread and paper friction, with a pause after the single movement.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool."
+      }
+    },
+    {
+      "id": "book-3",
+      "title": "轻轻合上",
+      "start": 10,
+      "end": 14,
+      "duration": 4,
+      "ruleIds": [
+        "lighting-volumetric-light"
+      ],
+      "prompts": {
+        "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n镜头来到修复台的中景。修复者双手轻轻合上修补过的同一本书，封面补布仍可见，书上保留自然旧痕，动作结束后短暂停留。\n台面斜侧中景，看到手、旧书与左侧窗边的一小段空间。\n摄影机保持固定。\n书与双手是视觉中心，背景只保留少量日常工具。\n晨光来自左侧可解释的窗户，整体柔和，书面不过曝。\n左侧窗光斜向照入，空气中极少量纸尘使一束很淡的光可见；不漂浮魔法粒子，不遮住双手。\n声音设计：布面轻合的声音，持续安静室内底噪。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+        "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nIn a medium view of the repair table, the restorer gently closes the same repaired book with both hands. The cover patch remains visible, signs of age remain, and the hands pause briefly after closing it.\nAn oblique medium view across the table, showing hands, book and a small portion of the window area on the left.\nKeep the camera locked off.\nThe book and hands are the visual center; only a few ordinary tools remain in the background.\nMorning light comes from the plausible window on the left; keep the overall light soft and the cover correctly exposed.\nWindow light enters diagonally from the left; a very small amount of airborne paper dust makes one faint shaft visible. No magical particles and no obscuring the hands.\nSound design: The soft sound of the cloth cover closing over continuous quiet room tone.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool."
+      }
+    },
+    {
+      "id": "book-4",
+      "title": "回到手中",
+      "start": 14,
+      "end": 18,
+      "duration": 4,
+      "ruleIds": [
+        "composition-negative-space"
+      ],
+      "prompts": {
+        "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n修复者将合上的旧书沿木台轻轻交给等待的读者。灰色毛衣袖口的双手接住书，双方短暂停住；不握手，不增加其他动作。\n略高于台面的斜侧中近景，只见两人的前臂、手与书。\n摄影机保持固定。\n交还动作位于左侧；右侧为柔和干净的墙面与桌面，没有工具、移动人影或耀眼光斑。\n继续柔和左侧晨光，右侧文案区域明暗平稳。\n书和两双手位于画面左侧，右侧约 40% 作为后期片名安全区。\n在右侧保留约 40% 空白，比例为待量取的设计目标。\n声音设计：书与掌心接触的轻声，末尾室内底噪自然延续。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+        "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nAcross the wooden table, the restorer gently passes the closed book into the waiting reader's hands with gray wool cuffs. Both pairs of hands pause once the book is received; no handshake or extra action.\nAn oblique medium close view slightly above table level, showing only forearms, hands and book.\nKeep the camera locked off.\nThe handover takes place on the left; the right contains a calm clear wall and table area, without tools, moving figures or bright highlights.\nContinue soft morning light from the left; keep even contrast in the right-side title area.\nThe book and both pairs of hands stay on the left; reserve roughly 40% on the right as a title-safe area for post-production.\nReserve roughly 40% negative space on the right; measure the result rather than assuming exact compliance.\nSound design: A soft book-to-palm contact sound, with room tone continuing at the end.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool."
+      }
+    }
+  ],
+  "designSourceSha256": "4c7c29ae3cdbb5c87ee09ae4dc8d57a4e9a58aacd23b45a955bff6ddf8c4b243",
+  "archiveNote": "Recompiled after execution from the unchanged original storyboard; these are design prompts, not submitted-input history."
+}

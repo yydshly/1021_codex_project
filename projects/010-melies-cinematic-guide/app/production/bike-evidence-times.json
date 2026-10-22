@@ -1,0 +1,94 @@
+{
+  "bike-1": [
+    {
+      "image": "generated/bike-kindness/evidence/bike-1-0.05.jpg",
+      "sourceSeconds": 0.05,
+      "filmSeconds": 0.05,
+      "caption": "修车人看向车，来人等待"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-1-1.00.jpg",
+      "sourceSeconds": 1.0,
+      "filmSeconds": 1.0,
+      "caption": "修车人已抬眼看向来人，车仍被扶住"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-1-4.75.jpg",
+      "sourceSeconds": 4.75,
+      "filmSeconds": 4.75,
+      "caption": "视线回到车，准备下一步照料"
+    }
+  ],
+  "bike-2": [
+    {
+      "image": "generated/bike-kindness/evidence/bike-2-1.25.jpg",
+      "sourceSeconds": 1.25,
+      "filmSeconds": 6.25,
+      "caption": "布已擦到座垫前部"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-2-2.00.jpg",
+      "sourceSeconds": 2.0,
+      "filmSeconds": 7.0,
+      "caption": "布又回到后部，出现反向擦拭"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-2-2.25.jpg",
+      "sourceSeconds": 2.25,
+      "filmSeconds": 7.25,
+      "caption": "再次向前擦，未遵守一次擦过"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-2-4.75.jpg",
+      "sourceSeconds": 4.75,
+      "filmSeconds": 9.75,
+      "caption": "布离开后，左手仍扶立管"
+    }
+  ],
+  "bike-3": [
+    {
+      "image": "generated/bike-kindness/evidence/bike-3-0.05.jpg",
+      "sourceSeconds": 0.05,
+      "filmSeconds": 10.05,
+      "caption": "女方手与目标接触处尚有间隙，男方扶立管"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-3-1.50.jpg",
+      "sourceSeconds": 1.5,
+      "filmSeconds": 11.5,
+      "caption": "女方手已搭到握套与座垫，男方仍扶车"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-3-2.75.jpg",
+      "sourceSeconds": 2.75,
+      "filmSeconds": 12.75,
+      "caption": "男方手离开立管，女方仍接触车辆"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-3-4.75.jpg",
+      "sourceSeconds": 4.75,
+      "filmSeconds": 14.75,
+      "caption": "女方握持、双方抬眼回应"
+    }
+  ],
+  "bike-4": [
+    {
+      "image": "generated/bike-kindness/evidence/bike-4-0.75.jpg",
+      "sourceSeconds": 0.75,
+      "filmSeconds": 15.75,
+      "caption": "仍为站稳的初始状态"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-4-2.75.jpg",
+      "sourceSeconds": 2.75,
+      "filmSeconds": 17.75,
+      "caption": "开始在车旁迈步，车随人前进"
+    },
+    {
+      "image": "generated/bike-kindness/evidence/bike-4-4.75.jpg",
+      "sourceSeconds": 4.75,
+      "filmSeconds": 19.75,
+      "caption": "继续推行，座垫上已无清楚的左手支撑"
+    }
+  ]
+}

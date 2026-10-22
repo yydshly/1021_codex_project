@@ -1,0 +1,17 @@
+{
+  "shotId": "bike-3",
+  "caseId": "bike-kindness",
+  "status": "needs_review",
+  "model": "Seedance 2.0",
+  "requestedDuration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "promptSha256": "6d641b25162ef1355169c39e1f690f1f306558b3f325b2036aa5fa131ac12432",
+  "referenceHashes": {
+    "assets/generated/bike-kindness/reference/bike-3-start.png": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60",
+    "assets/generated/bike-kindness/reference/bike-3-end.png": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5"
+  },
+  "taskId": "1035493",
+  "exitCode": 1,
+  "files": []
+}

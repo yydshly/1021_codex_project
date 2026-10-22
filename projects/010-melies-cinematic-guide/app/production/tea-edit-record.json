@@ -1,0 +1,56 @@
+{
+  "shots": [
+    {
+      "shotId": "tea-1",
+      "source": "assets/generated/tea-moment/tea-1-r3/video_20261022174058.mp4",
+      "sourceSha256": "186335219e39b60f76589ddfc3c351392a8ed8c8cdb6b9f60ba99dc5d9ec9b70",
+      "sourceStart": 0,
+      "duration": 5,
+      "timeline": {
+        "start": 0,
+        "end": 5
+      }
+    },
+    {
+      "shotId": "tea-2",
+      "source": "assets/generated/tea-moment/tea-2/video_20261022171735.mp4",
+      "sourceSha256": "48c545e7664ba03afc6aa93e44b9a1bc212c59a315d1fd8ea29e795d810c7d52",
+      "sourceStart": 0,
+      "duration": 5,
+      "timeline": {
+        "start": 5,
+        "end": 10
+      }
+    },
+    {
+      "shotId": "tea-3",
+      "source": "assets/generated/tea-moment/tea-3/video_20261022172825.mp4",
+      "sourceSha256": "d4c8c0c8bc4768bf1dcb3c02535f1ef836be2b5099509d63ad2a6729a566f748",
+      "sourceStart": 0,
+      "duration": 5,
+      "timeline": {
+        "start": 10,
+        "end": 15
+      }
+    }
+  ],
+  "transforms": [
+    "proportional_scale_and_small_center_crop_to_1920x1080",
+    "24fps",
+    "hard_cuts",
+    "final_0.25s_fade"
+  ],
+  "audio": {
+    "process": "keep_native_audio_resample_short_join_fades_loudness_normalization",
+    "semanticReview": "not_listened"
+  },
+  "speedChanges": false,
+  "generatedTitles": false,
+  "result": {
+    "file": "assets/generated/tea-moment/published/keep-a-moment.mp4",
+    "sha256": "6908d5c24cb6d4dbe2267c58fcd33faa9518a155956289a1f440e176e7a9b8b8",
+    "duration": 15.0,
+    "width": 1920,
+    "height": 1080
+  }
+}

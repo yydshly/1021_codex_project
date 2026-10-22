@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "tea-moment",
+  "title": "把片刻，留给自己",
+  "recordedAt": "2026-10-22",
+  "draftStatus": "awaiting_touch_clip_review_not_a_case_export",
+  "tags": [
+    "手作陶器",
+    "情绪与动作",
+    "日常安静",
+    "触杯",
+    "端杯",
+    "行走与停步",
+    "主体停止",
+    "相机停止",
+    "后方跟拍",
+    "后拉",
+    "状态连续性",
+    "停顿",
+    "提示词复用"
+  ],
+  "goal": {
+    "product": "虚构手作陶器品牌：米白斑点陶杯，把手下连接处一个蓝点。",
+    "audience": "喜欢手作器物，希望在日常留出片刻的人；为设计设定，未做受众测试。",
+    "communicationGoal": "让杯子伴随人的日常行动，从触感走到主动停留的时间，表达把片刻留给自己。",
+    "intendedEmotion": "日常的安静逐步加深，结尾有愿意为自己停留片刻的感受；避免忧伤、孤独或奢侈品摆拍。",
+    "coreMessage": "把片刻，留给自己。",
+    "constraints": [
+      "15秒、16:9、三镜",
+      "一位背向镜头的人，深灰针织衣，单只米白斑点杯",
+      "触杯时杯底落桌；端杯时右手持柄、左手托底",
+      "第二镜行走后停稳，第三镜已经停住，只让摄影机后拉",
+      "不依靠夸张表演、音乐或旁白强推感受"
+    ],
+    "successCriteria": [
+      "指尖从空隙靠近杯柄，接触后停住，杯子全程落桌",
+      "脚步、支撑和停止状态可读，不穿墙、不洒茶",
+      "主体停步和摄影机停住分别实现，末镜有真实停留",
+      "原片中的偏差、模型判断和观众反馈分开保存"
+    ]
+  },
+  "review": {
+    "status": "one_run_qualitative_review",
+    "sampleSize": 1,
+    "summary": null,
+    "effectiveParts": [],
+    "evidenceBasis": "查看原始生成视频的每0.25秒抽样和接触／落脚／停留关键原尺寸帧；网页成片播放检查另记。不是三维量测或受众实验。",
+    "limits": [
+      "一个题材方案的一次制作过程，包含两次无任务号的提交失败和一次经单独确认的触杯参考模式提交；三镜不计为三次独立验证。",
+      "情绪判断来自模型对画面事件、状态和节奏的定性解释，尚无观众反馈；未听评音轨内容。",
+      "没有量测跟拍距离、步长、三维坐标、精确固定焦距或杯子尺寸一致性。",
+      "候选新提示词尚未执行；参考模式和文本同时改变，不能把提交成功归因于单一改动。"
+    ],
+    "logicPriority": "先核对动作接触、脚步、主体停止与跨镜状态，再评价运镜和情绪；画面安静不能代替动作连续性成立。"
+  },
+  "emotionReview": {
+    "basis": "assistant_visual_review",
+    "judgment": null,
+    "visibleBasis": null,
+    "alternativeReading": "一个人背对观众看窗外，也可能被读成独处、发呆或孤独；没有具体事件证明是愉快或治愈。",
+    "boundary": "只作本轮画面的模型判断。音轨仅检查存在与解码，未听评内容；尚未取得观看者实际感受，不宣称情绪命中率。",
+    "audienceFeedback": null
+  },
+  "shotReviews": [
+    {
+      "shotId": "tea-1",
+      "reviewStatus": "awaiting_actual_clip"
+    },
+    {
+      "shotId": "tea-2",
+      "intent": "让观众陪伴一个明确而平常的行动，并以停步建立主动停留的依据。",
+      "selectionReason": "后方跟拍让人随人物穿过同一房间，前方窗户持续提供目的地；从细节转向人的使用情境。",
+      "observedEffect": "约0–2.7秒人物端杯向窗户交替迈步，2.75秒前后双脚落地并保持托杯；摄影机继续向前，直到末段仍在靠近，未随停步在约3秒锁定。",
+      "outcome": "partially_met",
+      "problems": [
+        "步态包含起始半步与后续多次落脚，不严格等于文字要求的两步。",
+        "人物停步后摄影机继续推进，最后两秒不是静止机位，停留余味与计划不同。",
+        "中远景手部与蓝点有遮挡，没有证明每帧细节接触、标记和茶面完全一致。"
+      ],
+      "causeAssessment": "人物行走与相机跟随／停镜分属两条时间要求。本次只观察到前者较清楚、后者继续推进；未做单变量实验，不确定是否由参考图、提示词密度或模型运动倾向导致。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "将完整一步或两步和停步各自约束，另验收相机停止；必要时先用固定机位验证步态，再试跟拍。",
+        "check": "检查全片每次落脚、停稳时刻与背景是否停止；达到两秒留停后再评价感受。",
+        "promptRole": "尚未执行的候选片段，不能当作本轮成功配方",
+        "promptZh": "人物完成一次明确的短步后双脚落地，在同一位置端杯停留；摄影机同步停止，背景保持静止到片尾。",
+        "promptEn": "After one clearly readable short step, plant both feet and hold the supported cup in the same place. The camera stops with the person and the background remains still until the end."
+      },
+      "actionReview": {
+        "assessment": "partially_readable",
+        "assessmentLabel": "持杯与停步可读，步数和停镜未完全符合设计",
+        "summary": "可见两种手部角色和交替落脚，未看到明显穿墙或杯子漂浮；但不能将这种可读性升级为每帧手部几何验证。",
+        "checks": [
+          "1.25秒可见一脚抬起、另一脚承重；2.75秒前后双脚落地。",
+          "右手在杯柄附近、左手从下支撑的关系在可见区域大致保持，局部被身体遮挡。",
+          "约2.75秒之后人物基本停住，4.75秒景别仍继续靠近，说明停人不等于停镜。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/tea-moment/evidence/tea-2-1.25.jpg",
+            "sourceSeconds": 1.25,
+            "filmSeconds": 6.25,
+            "caption": "原片1.25秒：端杯步态与单脚支撑"
+          },
+          {
+            "image": "generated/tea-moment/evidence/tea-2-2.75.jpg",
+            "sourceSeconds": 2.75,
+            "filmSeconds": 7.75,
+            "caption": "原片2.75秒：双脚落地，人物接近停稳"
+          },
+          {
+            "image": "generated/tea-moment/evidence/tea-2-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 9.75,
+            "caption": "原片4.75秒：人物停留，摄影机仍更近"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "日常陪伴感有可见依据，主动停下来的余味只部分实现。",
+        "visibleBasis": "行动平稳、目的地明确；但是停步后持续推近把注意力留在接近过程，而非共同静止的时间。",
+        "alternativeReading": "更容易读成端着热茶走向窗景的日常片段，不一定理解为主动给自己留片刻。"
+      }
+    },
+    {
+      "shotId": "tea-3",
+      "intent": "人物已经停步，通过空间展开和最后两秒静止，加深为自己停留的感受。",
+      "selectionReason": "后拉把局部的杯子／背影放回同一日常空间，同时保留人的在场；本应由主体不动和相机退后来分工。",
+      "observedEffect": "画面确实从近景向宽景展开，但人物在后拉过程中重新迈步；约2.75–4.0秒可见脚底抬起与落下，直到约4.5秒后才接近双脚落稳。相机也持续后退到末段，没有实现3秒完成后拉、2秒静止的安排。",
+      "outcome": "partially_met",
+      "problems": [
+        "上一镜已停，下一镜又走，违反“已经停住”的起始状态，打断跨镜动作与情绪逻辑。",
+        "同时出现主体前行和相机后退；不能只凭画面变宽判定“人停住、相机后拉”已实现。",
+        "最终稳定状态不足原计划两秒，安静余味被进一步行走占用。",
+        "蓝点和杯柄接触在远景受遮挡；固定焦距和精确空间几何未量测。"
+      ],
+      "causeAssessment": "两个首尾构图都呈现托杯姿态，但不保证中间过程保持停住。近远参考的站位和透视变化可能被模型解释成继续走向窗户；这只是原因假设，不能从单次样本确定。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "先用单张首帧单独测试静止主体的后拉，减少不一致尾帧的强制约束；将不走步与末段停镜作为两项独立验收。",
+        "check": "人物脚底与窗框相对位置全程不变；只出现相机造成的透视／视差，约3秒后背景停止到结束。",
+        "promptRole": "尚未执行的候选片段，不能当作本轮成功配方",
+        "promptZh": "人物双脚固定落在窗前同一块地板，杯子与手保持同一支撑状态；只有摄影机向后移动，3秒后摄影机也停下，保持2秒。",
+        "promptEn": "The person's feet stay planted on the same floorboards at the window, with the cup and hands maintaining their supported state. Only the camera moves backward. After three seconds the camera also stops and holds for two seconds."
+      },
+      "actionReview": {
+        "assessment": "not_passed",
+        "assessmentLabel": "未通过“已经停住”的状态连续性",
+        "summary": "实际走步本身可以辨认，但不符合本镜的动作任务。判断问题是上一镜已停、本镜又继续走，而不只是后拉尺度不够。",
+        "checks": [
+          "2.75秒与3.50秒可见脚掌抬起，证明主体并非全程静止。",
+          "4.75秒接近双脚落地；只有很短尾段留给停留。",
+          "首尾图里持杯正确，不能替代中间动作路径与停止时长的检查。"
+        ],
+        "evidenceFrames": [
+          {
+            "image": "generated/tea-moment/evidence/tea-3-2.75.jpg",
+            "sourceSeconds": 2.75,
+            "filmSeconds": 12.75,
+            "caption": "原片2.75秒：后拉过程中人物仍在迈步"
+          },
+          {
+            "image": "generated/tea-moment/evidence/tea-3-3.50.jpg",
+            "sourceSeconds": 3.5,
+            "filmSeconds": 13.5,
+            "caption": "原片3.50秒：抬脚，违背已停住的要求"
+          },
+          {
+            "image": "generated/tea-moment/evidence/tea-3-4.75.jpg",
+            "sourceSeconds": 4.75,
+            "filmSeconds": 14.75,
+            "caption": "原片4.75秒：接近落稳，静止余味不足"
+          }
+        ]
+      },
+      "expressionReview": {
+        "judgment": "空间展开可见，但“主动停下来”的核心表达受额外步行削弱，不能判为情绪任务完成。",
+        "visibleBasis": "人物仍然清楚可辨、房间日常且明亮；然而移动持续到接近结束，观众缺少经历停留的时间。",
+        "alternativeReading": "可读成走向窗边的过程或看窗外的独处；不必然是自在，也可能偏发呆或孤独。"
+      }
+    }
+  ],
+  "reusePatterns": [
+    {
+      "id": "emotion-as-timed-state",
+      "title": "把情绪要求落实为可以观察的动作和持时",
+      "whenToUse": "安静、犹豫、释然等需要观众经历一段停顿的短片。",
+      "retain": "明确谁停止什么动作、从哪一刻开始、持续多久；逐项对照实际视频。",
+      "adapt": "换成放下工具、停在门口、看向对方等新的情境，按关系重新说明停顿的意义。",
+      "evidenceShotIds": [
+        "tea-2",
+        "tea-3"
+      ],
+      "evidenceLevel": "failure_informed_observation_in_one_run",
+      "limit": "本轮停步和停镜未完全协同；这是实际偏差推导的检查方法，不是已经验证的情绪成功配方。"
+    },
+    {
+      "id": "separate-person-camera-stop",
+      "title": "人物停止与摄影机停止分别验收",
+      "whenToUse": "人物行走、跟拍、后拉和静止余味同时出现。",
+      "retain": "分别追踪脚底／道具与环境的关系，以及背景在相机中的变化。",
+      "adapt": "可换成车停、放下器物后运镜等场景，重新定义固定物和移动物。",
+      "evidenceShotIds": [
+        "tea-2",
+        "tea-3"
+      ],
+      "evidenceLevel": "visual_state_distinction_observed_once",
+      "limit": "本轮看到人停而镜头继续，以及后拉时人物也走；未量测三维轨迹，也没有证明新提示词能修正。"
+    },
+    {
+      "id": "reference-endpoints-not-path",
+      "title": "首尾参考与过程约束是两件事",
+      "whenToUse": "同一物体在首尾都看似正确，但中间过程决定内容逻辑。",
+      "retain": "首尾之外还检查接触、脚步和中间状态，不以终点合理代替全过程正确。",
+      "adapt": "适用于走停、拿放、开合、接递等动作；参考图需按本次物体关系设计。",
+      "evidenceShotIds": [
+        "tea-3"
+      ],
+      "evidenceLevel": "counterexample_in_one_run",
+      "limit": "本次首尾托杯仍出现额外行走；单张首帧的候选改法尚未生成。"
+    }
+  ],
+  "modelUse": {
+    "workflow": [
+      "先读目标感受、情境意义和另一种可能解读。",
+      "把行动前后状态、接触关系、主体停止、相机停止与持时分别列出。",
+      "按目标检索技巧和真实经验；读本案例逐镜动作与表达判断及边界。",
+      "改写主体、关系、场景和镜头，不照抄陶杯、窗景或暖木色。",
+      "保存准确提交输入与参考角色，实际生成后检查中间帧和完整成片。",
+      "分开保存模型判断、观众感受和未执行候选；不要把暖光、静态图或终点姿态当作情绪验证。"
+    ]
+  },
+  "costNote": null
+}

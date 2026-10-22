@@ -1,0 +1,42 @@
+{
+  "tea3-initial": {
+    "file": "assets/generated/tea-moment/source/tea-3-initial.png",
+    "url": "generated/tea-moment/source/tea-3-initial.png",
+    "sha256": "46e1a2e36d0aa9650ea7c8e91842673cd9fb5f7514351df23b4eb3a543c54569",
+    "width": 1672,
+    "height": 941,
+    "originalFileName": "exec-48f3b72b-bec3-4814-9eec-9f85a30846f6.png"
+  },
+  "tea3-mark-correction": {
+    "file": "assets/generated/tea-moment/source/room-and-person-reference.png",
+    "url": "generated/tea-moment/source/room-and-person-reference.png",
+    "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb",
+    "width": 1672,
+    "height": 941,
+    "originalFileName": "exec-20ee6d3b-b269-47e6-8eab-b2c03a035d4d.png"
+  },
+  "tea1": {
+    "file": "assets/generated/tea-moment/tea-1-touch.png",
+    "url": "generated/tea-moment/tea-1-touch.png",
+    "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b",
+    "width": 1672,
+    "height": 941,
+    "originalFileName": "exec-e838937d-b605-4c60-8cad-521c603f968e.png"
+  },
+  "tea2": {
+    "file": "assets/generated/tea-moment/tea-2-walk.png",
+    "url": "generated/tea-moment/tea-2-walk.png",
+    "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a",
+    "width": 1672,
+    "height": 941,
+    "originalFileName": "exec-c18d3ccc-e4c1-4461-9f15-b36295a1afd2.png"
+  },
+  "tea3-wide": {
+    "file": "assets/generated/tea-moment/tea-3-pause.png",
+    "url": "generated/tea-moment/tea-3-pause.png",
+    "sha256": "4f4c26a11ca125ade5c1b4c61304916a7ea9f08cbf189727107e5d184a13bc4a",
+    "width": 1672,
+    "height": 941,
+    "originalFileName": "exec-ed19abbe-96e6-4df2-bec2-98dcfce463bb.png"
+  }
+}

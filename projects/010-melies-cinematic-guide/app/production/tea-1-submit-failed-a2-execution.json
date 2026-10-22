@@ -1,0 +1,23 @@
+{
+  "shotId": "tea-1",
+  "caseId": "tea-moment",
+  "status": "needs_review",
+  "model": "Seedance 2.0",
+  "requestedDuration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "promptSha256": "9ddee10b698f77480afa0f53fbcbed0756f32da0ffc3b4f01283bbe4fd0771b5",
+  "referenceHashes": {
+    "firstFrame": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78",
+    "endFrame": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b"
+  },
+  "exitCode": 1,
+  "files": [],
+  "submissionError": {
+    "serviceCode": 10061,
+    "message": null,
+    "taskIdReceived": false,
+    "cause": "unknown",
+    "chargeVerified": false
+  }
+}

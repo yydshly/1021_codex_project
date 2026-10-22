@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-22T12:30:28.527555+00:00",
+  "model": "Seedance 2.0",
+  "type": "i2v",
+  "supportedInputModes": [
+    "first_last_frames",
+    "omni_reference"
+  ],
+  "resolution": 1080,
+  "aspectRatio": "16:9",
+  "duration": 5,
+  "nativeAudioSupported": true,
+  "estimatedUnitCredits": 120,
+  "count": 4,
+  "estimatedTotalCredits": 480,
+  "creditCheck": "sufficient",
+  "source": "installed ChatArt scripts list-models, estimate-cost and user credit; no paid task submitted"
+}

@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-10-22T13:24:37.820246+00:00",
+  "shotId": "bike-3",
+  "taskId": "1035493",
+  "event": "progress_connection_interrupted_after_submission",
+  "method": "resume_query_same_task",
+  "newVideoSubmission": false,
+  "note": "原run在查询进度时遇到SSL连接中断；本地CLI退出不是服务视频失败。以query继续同一任务，不自动重新提交视频。原始进度记录完整保留。"
+}

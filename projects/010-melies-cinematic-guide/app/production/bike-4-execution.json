@@ -1,0 +1,32 @@
+{
+  "shotId": "bike-4",
+  "caseId": "bike-kindness",
+  "status": "completed",
+  "model": "Seedance 2.0",
+  "requestedDuration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "promptSha256": "4642b8854008ca344e2e80682ae295aeb250b9b6e203bdebb434e3de3d836408",
+  "referenceHashes": {
+    "assets/generated/bike-kindness/reference/bike-4-start.png": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5"
+  },
+  "taskId": "1035492",
+  "exitCode": 0,
+  "files": [
+    "video_20261022212052.mp4"
+  ],
+  "actualMedia": {
+    "duration": 5.056,
+    "width": 1902,
+    "height": 1092,
+    "frameRate": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "byteSize": 7153922
+  },
+  "source": "assets/generated/bike-kindness/bike-4/video_20261022212052.mp4",
+  "sha256": "77f5e40f02e775678aa75534c5a8cc3f6ad79eafd0d9c5f751b7ceee910313c1",
+  "reportedCredits": 150.0,
+  "sourceUrl": "https://files.chatartpro.com/web-video/20261022/6ada0daeb38a0.mp4",
+  "progressLog": "app/production/bike-4-progress.log"
+}

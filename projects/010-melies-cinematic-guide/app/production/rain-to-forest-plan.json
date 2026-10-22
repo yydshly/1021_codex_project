@@ -1,0 +1,159 @@
+{
+  "id": "rain-to-forest",
+  "title": "把森林，带回城市",
+  "status": "completed",
+  "preparedAt": "2026-10-22",
+  "executionSkill": "chatart-skill",
+  "target": {
+    "duration": 16,
+    "aspectRatio": "16:9",
+    "resolution": 1080
+  },
+  "referenceImage": {
+    "type": "text2image",
+    "model": "Built-in image generation",
+    "resolution": "1672x941",
+    "aspectRatio": "16:9",
+    "count": 1,
+    "estimatedCredits": 0,
+    "prompt": "Use case: product-mockup. Asset type: a single consistent perfume-bottle reference photograph for a 16-second cinematic film titled 把森林，带回城市. Create one photorealistic landscape 16:9 image, preferably 2048x1152, not a collage. One 50 ml cylindrical amber-glass perfume bottle with straight vertical sides, a thick flat glass base, amber liquid and a polished circular silver cylindrical cap, no printed label or engraving. It stands upright on wet black slate on a rainy city rooftop at night. Front three-quarter view at bottle height; the entire bottle and cap are clearly visible, centered, occupying about 48 percent of image height. Cool deep-blue city bokeh in the distance; restrained warm amber rim light from upper right. Subtle clear reflections of cedar branches and vertical tree trunks appear only inside the glass; no actual trees on the rooftop. Fine water droplets on glass, slight plausible haze. Refined restrained luxury advertising photography, realistic glass thickness, rigid symmetrical bottle, quiet mysterious mood. No text, no logos, no extra objects. The product shape and lighting must be clear enough to serve as a reference for top-down cap macro and camera arc shots.",
+    "provider": "built-in image_gen",
+    "actualResolution": [
+      1672,
+      941
+    ],
+    "requestedResolution": "2048x1152 preferred, not guaranteed by built-in generation"
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "title": "城市的一滴雨",
+      "type": "t2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "generationDuration": 5,
+      "editDuration": 3,
+      "nativeAudio": true,
+      "count": 1,
+      "estimatedCredits": 120,
+      "usesProductReference": false,
+      "prompt": "5 seconds, 16:9. Locked top-down macro view of wet black slate on a rainy rooftop. A small circular puddle is centered, about 44 percent of frame height in diameter. One raindrop lands at its center and creates one clearly expanding ring. Cool blue city lights reflect in the water with a faint amber reflection along one edge. Keep the camera, focal length and stone texture stable, with coherent liquid motion. The perfume bottle is outside the frame. No lettering. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+      "designPromptZh": "3 秒，16:9。雨夜屋顶上湿黑色石板的垂直俯拍微距。一个圆形小水洼位于画面中心，直径约占画面高度的 44%。一滴雨落在圆心，只形成一圈清楚扩散的水纹。冷蓝城市灯光倒映在水面，一侧有微弱琥珀色反光。摄影机与焦距完全固定，石板纹理稳定，保持真实液体运动。香水瓶尚不进入画面，画面没有文字。",
+      "editNote": "记录水纹的圆心与直径；在水纹轮廓清楚的一帧切出，供镜头 2 对齐。",
+      "refIds": [
+        "lenses-macro",
+        "atmosphere-rain"
+      ],
+      "promptZhTranslation": "5 秒，16:9。雨夜屋顶上湿黑色石板的垂直俯拍微距。一个圆形小水洼位于画面中心，直径约占画面高度的 44%。一滴雨落在圆心，只形成一圈清楚扩散的水纹。冷蓝城市灯光倒映在水面，一侧有微弱琥珀色反光。摄影机与焦距完全固定，石板纹理稳定，保持真实液体运动。香水瓶尚不进入画面，画面没有文字。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+      "promptZhTranslationOfSha256": "270e6e0022640b5493be719dc3677fee8e36e69666424d29103d1318cb11ec33",
+      "submittedLanguage": "en"
+    },
+    {
+      "id": "s2",
+      "title": "一个圆，连接两种世界",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "generationDuration": 5,
+      "editDuration": 4,
+      "nativeAudio": true,
+      "count": 1,
+      "estimatedCredits": 120,
+      "usesProductReference": true,
+      "prompt": "5 seconds, 16:9. Locked top-down macro view of the polished circular silver cap on the same 50 ml cylindrical amber-glass perfume bottle. Center the cap at 44 percent of frame height in diameter to match the preceding water ring. From the first frame, its surface contains a clear, stable reflection of cedar branches with only a slight leaf movement. Retain wet black slate, cool blue reflections and restrained amber accents. Keep the camera fixed and the cap contour rigid. No lettering. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+      "designPromptZh": "4 秒，16:9。垂直俯拍同一只 50ml 圆柱形琥珀玻璃香水瓶的抛光银色圆形瓶盖。瓶盖圆心位于画面中心，直径约占画面高度的 44%，与前镜水纹对齐。瓶盖表面从第一帧就有清楚、稳定的雪松枝叶倒影，枝叶仅轻微摇动。周围保留湿黑石板与冷蓝、暖琥珀反光。摄影机固定，瓶盖边缘不变形，没有文字。",
+      "editNote": "镜头 1 与 2 分别生成，在剪辑中按圆心和大小硬切；不让模型在同一段中把水变成金属。",
+      "refIds": [
+        "editing-graphic-match",
+        "lenses-macro",
+        "composition-reflections"
+      ],
+      "promptZhTranslation": "5 秒，16:9。垂直俯拍同一只 50ml 圆柱形琥珀玻璃香水瓶的抛光银色圆形瓶盖。瓶盖圆心位于画面中心，直径约占画面高度的 44%，与前镜水纹对齐。瓶盖表面从第一帧就有清楚、稳定的雪松枝叶倒影，枝叶仅轻微摇动。周围保留湿黑石板与冷蓝、暖琥珀反光。摄影机固定，瓶盖边缘不变形，没有文字。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+      "promptZhTranslationOfSha256": "f6cbeb8ef6f797e94678f5135d01a657574a25da7f4e2c94994100f218b3f11c",
+      "submittedLanguage": "en"
+    },
+    {
+      "id": "s3",
+      "title": "绕过瓶身，发现森林",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "generationDuration": 5,
+      "editDuration": 5,
+      "nativeAudio": true,
+      "count": 1,
+      "estimatedCredits": 120,
+      "usesProductReference": true,
+      "prompt": "5 seconds, 16:9. The same unlabeled 50 ml cylindrical amber-glass perfume bottle with its polished circular silver cap stands on wet black slate on a rainy rooftop. Cool blue city bokeh sits in the distance; restrained amber rim light defines the glass. Arc the camera left by 90 degrees at a constant radius, always facing the bottle, with stable framing and focal length. Rain trails remain on the glass while reflected cedar trunks shift naturally with the viewpoint. The bottle stays still and rigid; the city environment remains continuous. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+      "designPromptZh": "5 秒，16:9。同一只无文字标签的 50ml 圆柱形琥珀玻璃香水瓶，抛光银色圆形瓶盖，直立在雨夜屋顶的湿黑色石板上。冷蓝城市散景位于远处，暖琥珀色轮廓光勾出玻璃边缘。摄影机以恒定半径向左环绕 90 度，始终朝向瓶身，保持产品大小和焦距稳定。真实雨痕留在玻璃上，雪松树干的倒影随视角自然滑动。产品不旋转、不变形，城市环境保持连续。",
+      "editNote": "以统一产品参考图控制瓶型、瓶盖和色泽；不要同时要求产品自转或额外变焦。",
+      "refIds": [
+        "camera-movement-arc-left",
+        "composition-reflections"
+      ],
+      "promptZhTranslation": "5 秒，16:9。同一只无文字标签的 50ml 圆柱形琥珀玻璃香水瓶，抛光银色圆形瓶盖，直立在雨夜屋顶的湿黑色石板上。冷蓝城市散景位于远处，暖琥珀色轮廓光勾出玻璃边缘。摄影机以恒定半径向左环绕 90 度，始终朝向瓶身，保持产品大小和焦距稳定。真实雨痕留在玻璃上，雪松树干的倒影随视角自然滑动。产品不旋转、不变形，城市环境保持连续。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+      "promptZhTranslationOfSha256": "ae0d5ab9a418057268b882f2a883217797578dad09fe665d3d1857b476670550",
+      "submittedLanguage": "en"
+    },
+    {
+      "id": "s4",
+      "title": "给安静留一个位置",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "generationDuration": 5,
+      "editDuration": 4,
+      "nativeAudio": true,
+      "count": 1,
+      "estimatedCredits": 120,
+      "usesProductReference": true,
+      "prompt": "5 seconds, 16:9. The same 50 ml amber-glass perfume bottle and circular silver cap stand on wet black slate in the left third of the frame, retaining a restrained cedar reflection in the glass. Keep approximately 55 percent of the right side as clean deep-blue negative space for later typography. Distant city lights are softly defocused. One off-screen streetlamp from the upper right illuminates slowly drifting light haze with a narrow, plausible warm beam. Lock the camera and bottle, keep the product sharp and unobscured, and generate no text or logos. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+      "designPromptZh": "4 秒，16:9。同一只 50ml 琥珀玻璃香水瓶与银色圆形瓶盖，直立于湿黑石板，放在画面左侧三分区，玻璃上保留克制的雪松倒影。右侧约 55% 画面保持干净的深蓝留白，适合后期加文案。远处城市灯光柔和失焦，一盏画外街灯从右上方照亮缓慢流动的薄雾，产生一束细而可信的暖光。摄影机与产品固定，主体清晰，雾不遮住产品，不生成文字或标志。",
+      "editNote": "后期加入“把森林，带回城市”。街灯暖光方向与前镜轮廓光保持一致；必要时用静帧延长停留。",
+      "refIds": [
+        "composition-negative-space",
+        "lighting-volumetric-light"
+      ],
+      "promptZhTranslation": "5 秒，16:9。同一只 50ml 琥珀玻璃香水瓶与银色圆形瓶盖，直立于湿黑石板，放在画面左侧三分区，玻璃上保留克制的雪松倒影。右侧约 55% 画面保持干净的深蓝留白，适合后期加文案。远处城市灯光柔和失焦，一盏画外街灯从右上方照亮缓慢流动的薄雾，产生一束细而可信的暖光。摄影机与产品固定，主体清晰，雾不遮住产品，不生成文字或标志。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+      "promptZhTranslationOfSha256": "8ef7bb12fa4cc7f0ef381a9841485617ef55d45f16c866bd8492f56c7faa6ff0",
+      "submittedLanguage": "en"
+    }
+  ],
+  "estimatedCredits": 480,
+  "costBasis": "ChatArt video_gen.py / ai_image.py estimate-cost; queried 2026-10-22",
+  "assembly": {
+    "order": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "durations": [
+      3,
+      4,
+      5,
+      4
+    ],
+    "transition": "Align circular ripple and cap position/diameter; hard cut, no morph.",
+    "endTitle": "把森林，带回城市",
+    "titleMethod": "Add typography in post-production to the right-hand negative space in shot s4.",
+    "audio": "Use generated rain ambience with short audio crossfades; no narration."
+  },
+  "executionNotes": [
+    "User confirmed the displayed 486-credit batch: one reference image and four 5-second 1080p videos with audio.",
+    "Generate the reference image first, inspect it, then use the same image for shots s2-s4.",
+    "Generate four separate 5-second clips because the validated model duration options are 5/10/15 seconds.",
+    "Use run for generation and resume query with the same task ID on timeout; do not resubmit failed tasks automatically.",
+    "Keep credentials outside the repository; publish generated media only after it exists and is verified.",
+    "User requested built-in reference image generation after ChatArt image submission returned server error 500; no reference-image credits deducted. Video model and parameters remain as confirmed.",
+    "All four video tasks completed. Each result reports cost_credit=150; estimator gave 120. Account credit balance did not change during this run, so actual deduction is not verified.",
+    "Requested 1080p; raw clips are 1902x1092 at 24fps. Final master is cropped/scaled to 1920x1080, 16 seconds, 24fps, AAC stereo."
+  ],
+  "confirmedAt": "2026-10-22",
+  "serviceReportedCredits": 600,
+  "accountDeductionVerified": false
+}

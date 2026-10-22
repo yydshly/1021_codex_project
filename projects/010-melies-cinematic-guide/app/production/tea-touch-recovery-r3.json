@@ -1,0 +1,50 @@
+{
+  "id": "tea-1-r3",
+  "replacesShotId": "tea-1",
+  "status": "confirmed",
+  "type": "i2v",
+  "model": "Seedance 2.0",
+  "resolution": 1080,
+  "aspectRatio": "16:9",
+  "nativeAudio": true,
+  "count": 1,
+  "generationDuration": 5,
+  "editDuration": 5,
+  "estimatedCredits": 120,
+  "historicalServiceCostReference": 150,
+  "inputMode": "omni_reference",
+  "referenceImages": [
+    "assets/generated/tea-moment/video-reference/tea-1-before.png",
+    "assets/generated/tea-moment/tea-1-touch.png"
+  ],
+  "referenceHashes": {
+    "assets/generated/tea-moment/video-reference/tea-1-before.png": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78",
+    "assets/generated/tea-moment/tea-1-touch.png": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b"
+  },
+  "referenceRole": "图1接触前、图2接触后，仅作对象与动作状态参考，不锁定首尾帧",
+  "prompt": "5-second 16:9 realistic close-detail shot. Use image 1 for the initial cup and right-hand arrangement and image 2 for the final gentle contact pose. One speckled ivory ceramic cup rests flat in the same place on the wooden table. Its handle is on the right, with one small blue dot at the lower handle join. A single right hand in a dark-gray knitted sleeve begins with a small gap between fingertips and handle. After a brief pause, the thumb and index fingertip move a short distance to gently touch the top of the handle, then rest there for the remaining time. The cup remains on the table throughout, tea level steady. The camera and focus stay fixed; show the hand contact and cup base clearly. Preserve the same cup, tabletop, daylight from the left, natural skin and ceramic texture. A small ordinary touch followed by an unhurried pause. Continuous quiet room tone with a soft ceramic contact and fabric sound. Keep the scene free of text and music.",
+  "promptZhTranslation": "5 秒、16:9 的写实细节近景。图 1 用于开始时杯子和右手的布局，图 2 用于最后轻触的姿态。一只米白斑点陶杯平放在木桌同一位置；把手在右，下连接处有一个蓝点。唯一一只穿深灰针织袖的右手，开始时指尖与杯柄之间留有小空隙。短暂停顿后，拇指与食指指尖小幅移动，轻轻触到把手上部，然后保持到结束。杯子全程落在桌面，茶水保持水平。摄影机和焦点固定，看清手部接触与杯底。保留同一杯子、桌面、左侧日光、自然皮肤与陶面质感。一个日常小动作，随后不匆忙地停留。连续安静室内底噪，配以轻触陶杯和衣料声。画面没有文字，声音没有音乐。",
+  "change": "模型、规格和主体／动作目标不变；将首尾帧锁定改成两张状态参考，并简化表达。无法证明这能解决未知提交错误。",
+  "priorAttempts": [
+    {
+      "attempt": 1,
+      "stateFile": "app/production/tea-1-submit-failed-a1-execution.json",
+      "outcome": "service_rejected_without_task_id",
+      "serviceCode": 10061
+    },
+    {
+      "attempt": 2,
+      "stateFile": "app/production/tea-1-submit-failed-a2-execution.json",
+      "outcome": "service_rejected_without_task_id",
+      "serviceCode": 10061
+    }
+  ],
+  "noAutomaticRetry": true,
+  "promptZhTranslationOfSha256": "18a5b22900dd421bf1f2737c49f9e87c7683ec10df98d577876b1fa9f0677fe9",
+  "approval": {
+    "confirmedAt": "2026-10-22T09:35:31.038508+00:00",
+    "userResponse": "确认，按参考图模式再尝试一次触杯",
+    "promptSha256": "18a5b22900dd421bf1f2737c49f9e87c7683ec10df98d577876b1fa9f0677fe9",
+    "singleAttemptOnly": true
+  }
+}

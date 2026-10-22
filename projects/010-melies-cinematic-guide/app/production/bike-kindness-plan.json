@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "bike-kindness",
+  "title": "有人，帮你一把",
+  "status": "completed",
+  "preparedOn": "2026-10-22T12:30:28.526555+00:00",
+  "target": {
+    "duration": 20,
+    "aspectRatio": "16:9",
+    "shotCount": 4,
+    "resolution": 1080,
+    "nativeAudio": true
+  },
+  "designSource": {
+    "path": "app/pipeline-example.json",
+    "sha256": "834191375fcbeaf369cc957205857f47099edebc4d241b1d7413d7c2f674bc2a"
+  },
+  "estimatedCredits": 480,
+  "historicalServiceCostReference": {
+    "credits": 600,
+    "scope": "此前同规格5秒素材服务返回每段150点；本轮费用参考，实际返回与扣费另记。",
+    "previousCaseIds": [
+      "rain-to-forest",
+      "book-repair",
+      "tea-moment"
+    ]
+  },
+  "budgetApproval": {
+    "confirmed": true,
+    "confirmedAt": "2026-10-22T13:13:02.109408+00:00",
+    "userResponse": "确认，生成四镜并完成剪辑与复盘入库",
+    "model": "Seedance 2.0",
+    "resolution": 1080,
+    "aspectRatio": "16:9",
+    "nativeAudio": true,
+    "generationDurations": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "estimatedCredits": 480,
+    "historicalServiceCostReference": 600,
+    "noAutomaticRetry": true,
+    "inputPromptHashes": {
+      "bike-1": "4ba9a849f21c2086591fb30e848712e255e80cb8f04cad82ee583051a0a7ebc2",
+      "bike-2": "10089feb73fd6d4b83d03020700f4b555c09f8ab2497ac49b537c88daf5c8c95",
+      "bike-3": "6d641b25162ef1355169c39e1f690f1f306558b3f325b2036aa5fa131ac12432",
+      "bike-4": "4642b8854008ca344e2e80682ae295aeb250b9b6e203bdebb434e3de3d836408"
+    },
+    "inputReferenceHashes": {
+      "bike-1": {
+        "assets/generated/bike-kindness/reference/bike-1-start.png": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86"
+      },
+      "bike-2": {
+        "assets/generated/bike-kindness/reference/bike-2-start.png": "9c7368c8def709ea8fa83c331a2556568b0f3e9df6d730c36b9aa7b2e0fbc2ca"
+      },
+      "bike-3": {
+        "assets/generated/bike-kindness/reference/bike-3-start.png": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60",
+        "assets/generated/bike-kindness/reference/bike-3-end.png": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5"
+      },
+      "bike-4": {
+        "assets/generated/bike-kindness/reference/bike-4-start.png": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5"
+      }
+    }
+  },
+  "accountDeductionVerified": false,
+  "confirmationRequirement": {
+    "source": "D:/codex/home/skills/chatart-skill/SKILL.md",
+    "quote": "DO NOT proceed with any generation task until the user explicitly confirms the parameters.",
+    "scope": "本次四段5秒、Seedance2.0、1080p、16:9、原生声音、估算480／历史参考600点；失败不自动重试。"
+  },
+  "referenceManifest": "app/production/bike-reference-prompts.json",
+  "noAutomaticRetry": true,
+  "implementationChoices": [
+    "原20秒四镜设计字节不变，实际输入和参考另记。",
+    "内置图片工具完成八次调用、选五张专用参考；人物具体外形与店内工作灯作为本轮实现选择，不宣称情绪成功。",
+    "四镜均采用普通图片参考模式；第三镜两图为接触前和松手后状态，不能当作动作过程已正确。",
+    "擦拭参考布已靠近或轻触后缘，实际要求一次连续擦过；不追求厘米级空隙。",
+    "女方交接时面向修车人、背向三分之四以明确左右手；末镜改后侧机位，须复核握持与站位。"
+  ],
+  "shots": [
+    {
+      "id": "bike-1",
+      "title": "被注意到",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "generationDuration": 5,
+      "editDuration": 5,
+      "estimatedCredits": 120,
+      "inputMode": "omni_reference",
+      "referenceImages": [
+        "assets/generated/bike-kindness/reference/bike-1-start.png"
+      ],
+      "referenceHashes": {
+        "assets/generated/bike-kindness/reference/bike-1-start.png": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86"
+      },
+      "referenceRole": "图1规定人物身份、受支撑的车与等待起态；保持该固定构图，不做蒙太奇。",
+      "prompt": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 is the initial identity, supported bicycle and waiting arrangement. Keep the camera locked and use this composition, not a montage.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nEstablish a relationship through restrained waiting and a clear acknowledging look, without sadness or grateful overacting.\nThe commuter is already waiting at the near side of the doorway. The mechanic steadies the handlebar stem from the far side; the repaired bicycle rests on both wheels.\nThe commuter relaxes their shoulders slightly and looks up. The mechanic looks toward them and gives one small nod while keeping the bicycle supported.\nBoth remain in place; the mechanic glances back toward the saddle, preparing to attend to it.\nThe bicycle stands between them without blocking their sightline. The mechanic maintains contact with the stem; the commuter has not taken the bicycle yet.\nLocked oblique medium-wide two-shot, without camera movement or zoom.\nKeep both upper bodies, exchanged looks and both grounded wheels readable; the exit remains screen right.\nNatural overcast light after rain, readable skin and interior shadows, without expressive light beams.\nEstablish waiting over two seconds, exchange the look around seconds two to three, then allow time to read both people.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+      "promptZhTranslation": "5秒，16:9，单一连续写实镜头。\n图1规定人物身份、受支撑的车与等待起态；保持该固定构图，不做蒙太奇。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n用克制的等待和明确的抬眼回应建立关系，不演悲伤或感激。\n接车者已站在门口近侧，修车人在车的远侧扶住车把立管，车已修好、两轮落地。\n接车者轻放松肩部、抬眼；修车人看向来人，轻点头一次，手仍扶车。\n两人都不走动，修车人回看座垫，准备照料。\n车位于两人之间且不遮视线，修车人手与车把立管连续接触，另一人尚未接车。\n固定斜侧双人全中景，无推拉摇移。\n能同时看清双方上身、目光和同一车体的两轮落地；门外方向留在右侧。\n雨后阴天自然光，肤色与店内暗部清楚，不用光束替代情境。\n前两秒建立等待，约2至3秒抬眼回应，余下时间让观众读清双方。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+      "promptZhTranslationOfSha256": "4ba9a849f21c2086591fb30e848712e255e80cb8f04cad82ee583051a0a7ebc2",
+      "submittedLanguage": "en",
+      "refIds": [
+        "framing-two-shot"
+      ],
+      "plannedCheck": [
+        "车只有一辆、两轮接地，修车人持续扶住车。",
+        "确认点头对象是来人而不是画外第三人。",
+        "静音看能否读到等待被回应，而非只有两个人站着。",
+        "克制表现疲惫，不以压暗脸部代替情境。"
+      ]
+    },
+    {
+      "id": "bike-2",
+      "title": "多做一点",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "generationDuration": 5,
+      "editDuration": 5,
+      "estimatedCredits": 120,
+      "inputMode": "omni_reference",
+      "referenceImages": [
+        "assets/generated/bike-kindness/reference/bike-2-start.png"
+      ],
+      "referenceHashes": {
+        "assets/generated/bike-kindness/reference/bike-2-start.png": "9c7368c8def709ea8fa83c331a2556568b0f3e9df6d730c36b9aa7b2e0fbc2ca"
+      },
+      "referenceRole": "图1规定座垫近景、固定座杆、布与修车人支撑。布从后缘上方或轻触后缘开始，只做一次从后向前的连续擦拭，不反复打磨。",
+      "prompt": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 defines the close saddle, fixed seatpost, cloth and mechanic support. The cloth starts just above or lightly meeting the rear edge. Perform only one continuous rear-to-front wiping pass; no repeated polishing.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nAttend to real cloth-to-saddle contact, showing a small task completed with care rather than a mechanical miracle.\nThe same black saddle has a small surface water mark. The already-repaired bicycle is upright and the mechanic steadies its handlebar stem with the left hand.\nThe mechanic makes one rear-to-front pass over the saddle with a light-gray cloth in the right hand, maintaining surface contact before lifting it away.\nThe water mark is reduced, the cloth leaves the saddle, and the bicycle remains supported by the left hand. The saddle and seatpost do not rotate.\nRetain the saddle, fixed seatpost and part of the frame as structural cues. The cloth touches the surface without penetration or reshaping the saddle; offscreen left-hand support must be established in reference framing and checked in the following shot.\nLocked insert detail at a normal close distance, without extreme macro or a focus pull.\nKeep the saddle surface and cloth contact sharp; include the seatpost rather than showing unsupported texture alone.\nContinue the overcast evening light; make the water mark readable without exaggerated shine.\nHold for one second, make one wiping pass and lift the cloth around seconds one to three, then retain the completed state through second five.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+      "promptZhTranslation": "5秒，16:9，单一连续写实镜头。\n图1规定座垫近景、固定座杆、布与修车人支撑。布从后缘上方或轻触后缘开始，只做一次从后向前的连续擦拭，不反复打磨。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n关注布与座垫的真实接触，表现小事被认真做完，不拍机械奇迹。\n同一黑座垫表面有少量水痕，车已修好且直立，修车人左手扶住车把立管。\n修车人右手用一块浅灰布沿座垫表面从后向前擦过一次，布贴着表面，再提起离开。\n水痕减少，布离开座垫，车体仍由左手支撑；座垫和座杆不转动。\n保留座垫、固定座杆与一段车架作为结构依据。布只接触表面，不穿透、不让座垫整体变形；镜外左手支撑须在参考构图和下一镜核对。\n固定的局部插入镜头，普通近景，不要求极端微距或转移焦点。\n座垫表面和布接触区清楚；保留座杆，不只拍失去支撑关系的材质纹理。\n延续前镜阴天傍晚光，水痕可辨但不夸张发亮。\n前一秒保持，约1至3秒擦一次并提布，3至5秒保留完成状态。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+      "promptZhTranslationOfSha256": "10089feb73fd6d4b83d03020700f4b555c09f8ab2497ac49b537c88daf5c8c95",
+      "submittedLanguage": "en",
+      "refIds": [
+        "framing-insert"
+      ],
+      "plannedCheck": [
+        "擦拭只作用于座垫表面，座杆与车架稳定。",
+        "只有一次接触路径，不反复刷、不让布穿透。",
+        "细节需在前后情境中读成照料，不把擦座垫宣称为修好了车。",
+        "擦完后确有可读完成状态。"
+      ]
+    },
+    {
+      "id": "bike-3",
+      "title": "接稳，再松手",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "generationDuration": 5,
+      "editDuration": 5,
+      "estimatedCredits": 120,
+      "inputMode": "omni_reference",
+      "referenceImages": [
+        "assets/generated/bike-kindness/reference/bike-3-start.png",
+        "assets/generated/bike-kindness/reference/bike-3-end.png"
+      ],
+      "referenceHashes": {
+        "assets/generated/bike-kindness/reference/bike-3-start.png": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60",
+        "assets/generated/bike-kindness/reference/bike-3-end.png": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5"
+      },
+      "referenceRole": "图1规定接触前的布局，图2规定松手后的状态；两图仅为普通姿态与身份参考，不锁定首尾帧、不叠化图片。车辆几何和位置不变，中间应实际呈现先接触再松手。",
+      "prompt": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 defines the BEFORE-contact arrangement and image 2 the AFTER-release state. Use both as ordinary pose and identity references, not locked first/last frames or a dissolve between pictures. Keep the same stationary bicycle geometry while showing actual contact-before-release in between.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nMake the support transfer readable. The commuter steadies the bicycle independently, with a restrained response between equals.\nThe same bicycle is stationary at the doorway on both wheels. The mechanic on its far side holds the stem with the left hand; the commuter stands on the near side.\nThe commuter places the right hand on the near handlebar grip and the left on the saddle. After both steady the bicycle together for about one second, the mechanic releases the stem and the commuter gives one small nod.\nThe commuter alone supports the bicycle. Both people remain standing without stepping yet, and the wheel positions are unchanged.\nKeep the same handlebar, saddle, wheels and ground relationships. The commuter has both feet planted. Contact precedes release, with no swapped handlebar sides or unsupported frame.\nLocked oblique wide two-shot from the same side as the opening, without crossing the action axis.\nInclude both upper bodies, hand contacts and tire-to-ground contact, without foreground occlusion of the exchange.\nMaintain the same overcast evening light without sudden golden beams or exposure jumps.\nEstablish contacts around seconds zero to two, share support around seconds two to three, release and acknowledge around seconds three to four, then hold the stable state for the final second.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+      "promptZhTranslation": "5秒，16:9，单一连续写实镜头。\n图1规定接触前的布局，图2规定松手后的状态；两图仅为普通姿态与身份参考，不锁定首尾帧、不叠化图片。车辆几何和位置不变，中间应实际呈现先接触再松手。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n让支撑转移清楚，接车者自己稳住车辆，回应克制、平等。\n同一车在门口静止、两轮落地，修车人远侧左手扶车把立管；接车者站在近侧。\n接车者右手握近侧车把握套、左手轻扶座垫。两人共同扶稳约一秒后，修车人左手离开车把立管，接车者轻点头一次。\n接车者独自扶稳车，双方仍站着，尚未迈步；车轮位置不变。\n固定同一车把、座垫、车轮与地面；接车者双脚落地。先接触再释放，不交换车把左右，不让车身失去支撑。\n固定斜侧双人宽景，和第一镜保持同一侧观察，不越轴。\n同时保留两人上身、握持和轮胎接地；交接区不被前景遮住。\n同一阴天傍晚光，无突然金色光束或亮度跳变。\n约0至2秒建立接触，2至3秒共同扶稳，3至4秒修车人松手并回应，最后一秒接稳保持。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+      "promptZhTranslationOfSha256": "6d641b25162ef1355169c39e1f690f1f306558b3f325b2036aa5fa131ac12432",
+      "submittedLanguage": "en",
+      "refIds": [
+        "framing-two-shot"
+      ],
+      "plannedCheck": [
+        "接车者握住近侧握套并扶座垫后，修车人才松手。",
+        "比较中间状态而非只看首尾，车体不可悬空或跳位。",
+        "共同扶稳的停顿和轻点头都应可读。",
+        "另问观众是否读到照应，不预设安心已经传达。"
+      ]
+    },
+    {
+      "id": "bike-4",
+      "title": "从容继续",
+      "type": "i2v",
+      "model": "Seedance 2.0",
+      "resolution": 1080,
+      "aspectRatio": "16:9",
+      "nativeAudio": true,
+      "count": 1,
+      "generationDuration": 5,
+      "editDuration": 5,
+      "estimatedCredits": 120,
+      "inputMode": "omni_reference",
+      "referenceImages": [
+        "assets/generated/bike-kindness/reference/bike-4-start.png"
+      ],
+      "referenceHashes": {
+        "assets/generated/bike-kindness/reference/bike-4-start.png": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5"
+      },
+      "referenceRole": "图1规定交接后静止的后侧起态，不是骑车姿态。双腿始终在车架同一侧，在车旁推行，右手握近侧握套、左掌扶座垫。",
+      "prompt": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 is the stationary rear-side starting arrangement after handover, not a riding pose. Both legs stay on the same side of the frame; walk beside the bicycle while keeping right hand on the near grip and left palm on the saddle.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nFollow the commuter resuming their own movement, steadily rather than in pursuit. Continued walking is intentional here, not a pause at the doorway.\nThe commuter stands beside the near side of the bicycle with both feet planted, right hand on the near grip and left hand on the saddle. The mechanic has already released it.\nThe commuter starts a natural step, then slowly walks the bicycle along the pavement toward front right, remaining beside it without mounting. The wheels roll on the ground with its travel.\nThe commuter and bicycle continue forward while the mechanic stays at the stall behind, without a sudden turn or extra wave.\nMaintain hand contact with the grip and saddle. The person and bicycle advance together in the established direction; legs step and wheels roll rather than the whole bicycle sliding.\nFollow smoothly from behind and slightly toward the near side at a fixed focal length, without zooming, orbiting or dollying backward.\nRetain the commuter upper body, pushing contacts and grounded tires. The stall is initially readable behind and naturally recedes.\nContinue the same overcast daylight without a sudden sun or sunset transformation.\nContinue the planted start for roughly half a second, then begin walking at normal speed and keep moving through the end, without a two-second still hold.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+      "promptZhTranslation": "5秒，16:9，单一连续写实镜头。\n图1规定交接后静止的后侧起态，不是骑车姿态。双腿始终在车架同一侧，在车旁推行，右手握近侧握套、左掌扶座垫。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n跟随人的自主前行，平稳而非追赶；这里的继续走是目标，不要求停在门口。\n接车者站在车的近侧，双脚已落地，右手握近侧车把、左手扶座垫，修车人已松手。\n接车者先自然迈步，再缓慢推车沿右前方人行道离开；保持在车旁，不跨坐，车轮沿地面随位移滚动。\n接车者与车持续向前，修车人留在后方摊位；不突然转身或额外挥手。\n手与车把、座垫持续接触，车与人同速前进，车头承接前镜朝向。腿和车轮各自运动，不让整车平移滑行。\n摄影机在人物后方略偏近侧，平稳跟随向前；固定焦距，不变焦、环绕或后拉。\n保留接车者上身、推车握持和轮胎接地，起始还能辨认后方摊位，之后自然离开背景。\n延续同一天的阴天光，不因离开就突然变成晴天或夕阳。\n前约0.5秒承接站稳状态，随后正常速度起步并持续前行到结束；不要求最后两秒静止。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+      "promptZhTranslationOfSha256": "4642b8854008ca344e2e80682ae295aeb250b9b6e203bdebb434e3de3d836408",
+      "submittedLanguage": "en",
+      "refIds": [
+        "camera-movement-follow"
+      ],
+      "plannedCheck": [
+        "先承接已接稳状态再起步，修车人不重新扶车。",
+        "检查脚步、车轮转动与位移，不以背景变动冒充跟拍。",
+        "最后应读作从容继续，不是追逐或悲伤离开。",
+        "本镜持续走符合目标，不能机械套用陶器末镜停住的标准。"
+      ]
+    }
+  ],
+  "reviewPlan": {
+    "action": [
+      "核对一辆车、两轮接地、支撑点、手指接触、先接稳再松手、两腿同侧和轮胎滚动。",
+      "核对人物与车的身份、方向和上一镜终态到下一镜起态；静态起止正确不代替过程。"
+    ],
+    "expression": [
+      "分别记录主动照料与对方回应是否可见；与普通交车、苦情或摆拍等其他解读比较。",
+      "画面判断、声音听评、观众感受分开；没有观众反馈不填写情绪命中或成功率。"
+    ],
+    "evidence": "生成后保存原片，测量规格并选与实际剪辑对应的证据时间；候选改法保持未验证。"
+  },
+  "postProduction": {
+    "order": [
+      "bike-1",
+      "bike-2",
+      "bike-3",
+      "bike-4"
+    ],
+    "durations": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "transitions": "动作可读后硬切；末镜保持继续前行，不用定格伪造停留。",
+    "audio": "保留合适的原生声，听评与接缝处理另记；未听前不宣称无音乐等内容要求达标。",
+    "title": "不生成文字；若添加片名先审实际构图再在后期排版。"
+  },
+  "serviceReportedCredits": 600.0,
+  "queryRecoveryRecord": "app/production/bike-3-query-recovery.json",
+  "assembly": {
+    "order": [
+      "bike-1",
+      "bike-2",
+      "bike-3",
+      "bike-4"
+    ],
+    "durations": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "transitions": "动作可读后硬切；末镜保持继续前行，不用定格伪造停留。",
+    "audio": "保留合适的原生声，听评与接缝处理另记；未听前不宣称无音乐等内容要求达标。",
+    "title": "不生成文字；若添加片名先审实际构图再在后期排版。",
+    "titleAdded": false,
+    "actualEditRecord": "app/production/bike-edit-record.json",
+    "audioSemanticReview": "not_listened"
+  },
+  "costNote": "四个完成任务的服务返回均150点，共600点；初始估算480点。生成前后余额查询未变化，实际扣费尚未核实，600点不是已核销账单。交接镜头仅恢复同一任务查询，没有再次提交视频。"
+}

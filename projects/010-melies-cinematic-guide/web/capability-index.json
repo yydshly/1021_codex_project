@@ -1,0 +1,3627 @@
+{
+  "schemaVersion": 1,
+  "count": 424,
+  "techniques": [
+    {
+      "id": "camera-movement-slow-zoom-in",
+      "nameZh": "缓慢变焦拉近",
+      "nameEn": "Slow Zoom In",
+      "category": "运镜",
+      "effect": "机位固定，缓缓拉近人物细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-slow-zoom-out",
+      "nameZh": "缓慢变焦拉远",
+      "nameEn": "Slow Zoom Out",
+      "category": "运镜",
+      "effect": "镜头缓缓拉远，展现周围环境",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crash-zoom-in",
+      "nameZh": "急速变焦拉近",
+      "nameEn": "Crash Zoom In",
+      "category": "运镜",
+      "effect": "突然拉近关键细节，强化冲击",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crash-zoom-out",
+      "nameZh": "急速变焦拉远",
+      "nameEn": "Crash Zoom Out",
+      "category": "运镜",
+      "effect": "瞬间拉远，突然揭示更大场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly-in",
+      "nameZh": "向前推轨",
+      "nameEn": "Dolly In",
+      "category": "运镜",
+      "effect": "摄影机缓慢靠近，带出情绪变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly-out",
+      "nameZh": "向后拉轨",
+      "nameEn": "Dolly Out",
+      "category": "运镜",
+      "effect": "摄影机后退，逐步揭开环境信息",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "tea-moment",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "tea-3"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ]
+    },
+    {
+      "id": "camera-movement-dolly-left",
+      "nameZh": "向左移轨",
+      "nameEn": "Dolly Left",
+      "category": "运镜",
+      "effect": "摄影机向左横移，产生背景视差",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly-right",
+      "nameZh": "向右移轨",
+      "nameEn": "Dolly Right",
+      "category": "运镜",
+      "effect": "摄影机向右横移，带出空间层次",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pan-left",
+      "nameZh": "向左摇镜",
+      "nameEn": "Pan Left",
+      "category": "运镜",
+      "effect": "固定机位向左转动，扫过场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pan-right",
+      "nameZh": "向右摇镜",
+      "nameEn": "Pan Right",
+      "category": "运镜",
+      "effect": "固定机位向右转动，扫过主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-tilt-up",
+      "nameZh": "向上摇镜",
+      "nameEn": "Tilt Up",
+      "category": "运镜",
+      "effect": "镜头由下向上转动，逐步揭示高度",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-tilt-down",
+      "nameZh": "向下摇镜",
+      "nameEn": "Tilt Down",
+      "category": "运镜",
+      "effect": "镜头从上往下转动，展现人物环境",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-whip-pan",
+      "nameZh": "水平甩镜",
+      "nameEn": "Whip Pan",
+      "category": "运镜",
+      "effect": "快速横向甩动，用模糊连接场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-whip-tilt",
+      "nameZh": "垂直甩镜",
+      "nameEn": "Whip Tilt",
+      "category": "运镜",
+      "effect": "快速纵向甩动，模糊后突然停住",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pedestal-up",
+      "nameZh": "垂直升镜",
+      "nameEn": "Pedestal Up",
+      "category": "运镜",
+      "effect": "机身垂直上升，俯仰角保持不变",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pedestal-down",
+      "nameZh": "垂直降镜",
+      "nameEn": "Pedestal Down",
+      "category": "运镜",
+      "effect": "机身垂直下降，平稳落到主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crane-up",
+      "nameZh": "摇臂升起",
+      "nameEn": "Crane Up",
+      "category": "运镜",
+      "effect": "机位升高并后退，揭示宏大空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crane-down",
+      "nameZh": "摇臂降下",
+      "nameEn": "Crane Down",
+      "category": "运镜",
+      "effect": "从高处降至人物身旁，衔接跟拍",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crane-over",
+      "nameZh": "摇臂越顶",
+      "nameEn": "Crane Over",
+      "category": "运镜",
+      "effect": "升起并越过主体，落在高位俯视",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-jib",
+      "nameZh": "小摇臂镜头",
+      "nameEn": "Jib Shot",
+      "category": "运镜",
+      "effect": "短摇臂轻柔升起，带来细腻运动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-orbit-360",
+      "nameZh": "360 度环绕",
+      "nameEn": "360-Degree Orbit",
+      "category": "运镜",
+      "effect": "围绕人物移动，呈现连续视角变化",
+      "reviewNotes": [
+        "原站条目名为 360 度环绕，但其可复制提示词要求顺时针环绕 120 度；此处按原文翻译。"
+      ]
+    },
+    {
+      "id": "camera-movement-arc-left",
+      "nameZh": "向左弧线环绕",
+      "nameEn": "Arc Left",
+      "category": "运镜",
+      "effect": "沿左侧弧线移动，始终面向人物",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s3"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "camera-movement-arc-left"
+      }
+    },
+    {
+      "id": "camera-movement-arc-right",
+      "nameZh": "向右弧线环绕",
+      "nameEn": "Arc Right",
+      "category": "运镜",
+      "effect": "沿右侧弧线移动，持续锁定主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-tracking",
+      "nameZh": "横向跟踪镜头",
+      "nameEn": "Tracking Shot",
+      "category": "运镜",
+      "effect": "侧面连续横移，清楚交代人物行动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-follow",
+      "nameZh": "后方跟拍",
+      "nameEn": "Follow Shot",
+      "category": "运镜",
+      "effect": "从人物身后同步移动，跟随前行",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "tea-moment",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "tea-2"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        },
+        {
+          "caseId": "bike-kindness",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "bike-4"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ]
+    },
+    {
+      "id": "camera-movement-steadicam",
+      "nameZh": "斯坦尼康稳定跟拍",
+      "nameEn": "Steadicam",
+      "category": "运镜",
+      "effect": "漂浮般平滑跟随，消除脚步抖动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-handheld",
+      "nameZh": "手持摄影",
+      "nameEn": "Handheld",
+      "category": "运镜",
+      "effect": "灵活转向捕捉反应，保留现场感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-gimbal",
+      "nameZh": "云台稳定镜头",
+      "nameEn": "Gimbal Shot",
+      "category": "运镜",
+      "effect": "稳定顺滑地跟拍，保留轻微人感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-fpv-drone",
+      "nameZh": "第一视角穿越机",
+      "nameEn": "FPV Drone",
+      "category": "运镜",
+      "effect": "贴近建筑穿行，以倾斜转弯环绕",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-aerial-pullback",
+      "nameZh": "航拍升高拉远",
+      "nameEn": "Aerial Pullback",
+      "category": "运镜",
+      "effect": "升高并远离主体，逐步展现地貌",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-aerial-push",
+      "nameZh": "航拍下降推进",
+      "nameEn": "Aerial Push In",
+      "category": "运镜",
+      "effect": "从高空向下靠近，逐渐锁定主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-push-in",
+      "nameZh": "缓慢推进",
+      "nameEn": "Push In",
+      "category": "运镜",
+      "effect": "逐渐靠近人物，让情绪更加集中",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pull-out",
+      "nameZh": "缓慢拉退",
+      "nameEn": "Pull Out",
+      "category": "运镜",
+      "effect": "缓慢远离主体，让环境逐渐展开",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-static",
+      "nameZh": "固定机位",
+      "nameEn": "Static Locked-Off",
+      "category": "运镜",
+      "effect": "机位完全静止，用固定构图承载场景",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "camera-movement-dolly-zoom",
+      "nameZh": "推拉变焦",
+      "nameEn": "Dolly Zoom",
+      "category": "运镜",
+      "effect": "人物大小不变，背景透视产生压缩",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dutch-roll",
+      "nameZh": "荷兰角滚转",
+      "nameEn": "Dutch Roll",
+      "category": "运镜",
+      "effect": "镜头缓缓倾斜，制造失衡不安感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-camera-roll",
+      "nameZh": "摄影机轴向滚转",
+      "nameEn": "Camera Roll",
+      "category": "运镜",
+      "effect": "画面整体旋转，改变空间重力感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-double-dolly",
+      "nameZh": "双轨同步滑行",
+      "nameEn": "Double Dolly",
+      "category": "运镜",
+      "effect": "人物与摄影机同步移动，形成漂移感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-snorricam",
+      "nameZh": "身体固定摄影机",
+      "nameEn": "SnorriCam",
+      "category": "运镜",
+      "effect": "面部固定居中，周围环境随步伐摇晃",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-locked-on",
+      "nameZh": "锁定主体跟拍",
+      "nameEn": "Locked-On",
+      "category": "运镜",
+      "effect": "主体保持固定，周围环境快速掠过",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-walk-and-talk",
+      "nameZh": "边走边谈跟拍",
+      "nameEn": "Walk and Talk",
+      "category": "运镜",
+      "effect": "镜头领着人物前行，保持对话节奏",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-hyperlapse",
+      "nameZh": "移动延时摄影",
+      "nameEn": "Hyperlapse",
+      "category": "运镜",
+      "effect": "镜头移动中压缩时间，加速环境变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-slider",
+      "nameZh": "滑轨短移镜头",
+      "nameEn": "Slider Shot",
+      "category": "运镜",
+      "effect": "短距离横向滑动，形成细微视差",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-lazy-susan",
+      "nameZh": "转盘环绕展示",
+      "nameEn": "Lazy Susan",
+      "category": "运镜",
+      "effect": "主体或镜头缓慢旋转，突出展示质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-bolt-cam",
+      "nameZh": "高速机械臂镜头",
+      "nameEn": "Bolt Cam",
+      "category": "运镜",
+      "effect": "超高速冲向主体，到位后骤然停稳",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-aerial",
+      "nameZh": "航拍镜头",
+      "nameEn": "Aerial",
+      "category": "运镜",
+      "effect": "高空跟随移动，展现人物与大地关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-arc",
+      "nameZh": "弧线环绕镜头",
+      "nameEn": "Arc",
+      "category": "运镜",
+      "effect": "沿弧线环绕主体，让背景滑动变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-choreo",
+      "nameZh": "编舞式运镜",
+      "nameEn": "Choreo",
+      "category": "运镜",
+      "effect": "镜头与人物动作同步，形成完整节奏",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-conveyor",
+      "nameZh": "传送带式运动",
+      "nameEn": "Conveyor",
+      "category": "运镜",
+      "effect": "环境匀速横移，主体仿佛保持不动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly",
+      "nameZh": "轨道移动镜头",
+      "nameEn": "Dolly",
+      "category": "运镜",
+      "effect": "机身真实移动，让空间视差不断变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-falling",
+      "nameZh": "坠落镜头",
+      "nameEn": "Falling",
+      "category": "运镜",
+      "effect": "与人物一同坠落，地面快速迎面升起",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-fixed-cam",
+      "nameZh": "固定摄影机",
+      "nameEn": "Fixed Cam",
+      "category": "运镜",
+      "effect": "机位完全锁定，仅人物与空气运动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-omnidirectional",
+      "nameZh": "全向视角",
+      "nameEn": "Omnidirectional",
+      "category": "运镜",
+      "effect": "呈现主体周围环境，视线可转向任意处",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pan",
+      "nameZh": "水平摇镜",
+      "nameEn": "Pan",
+      "category": "运镜",
+      "effect": "机位固定水平转动，重新组织构图",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-parallax",
+      "nameZh": "视差运动",
+      "nameEn": "Parallax",
+      "category": "运镜",
+      "effect": "前景比背景移动更快，增强空间深度",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-pass-through",
+      "nameZh": "穿越镜头",
+      "nameEn": "Pass Through",
+      "category": "运镜",
+      "effect": "穿过物体或建筑，进入另一处空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-tilt",
+      "nameZh": "垂直摇镜",
+      "nameEn": "Tilt",
+      "category": "运镜",
+      "effect": "固定三脚架，上下转动观察主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-trucking",
+      "nameZh": "横向移摄",
+      "nameEn": "Trucking",
+      "category": "运镜",
+      "effect": "与主体平行横移，形成横向视差",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-wandering",
+      "nameZh": "游走式运镜",
+      "nameEn": "Wandering",
+      "category": "运镜",
+      "effect": "自由游走观察空间，带来探索感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-zoom",
+      "nameZh": "变焦镜头",
+      "nameEn": "Zoom",
+      "category": "运镜",
+      "effect": "机位不移动，通过焦距改变画面范围",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-eyes-in",
+      "nameZh": "推进眼睛",
+      "nameEn": "Eyes In",
+      "category": "运镜",
+      "effect": "不断靠近眼睛，直至虹膜占满画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-mouth-in",
+      "nameZh": "推进嘴部",
+      "nameEn": "Mouth In",
+      "category": "运镜",
+      "effect": "深入嘴部特写，将唇齿变成画面空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-eating-zoom",
+      "nameZh": "进食急变焦",
+      "nameEn": "Eating Zoom",
+      "category": "运镜",
+      "effect": "咬下食物时急速拉近，突出嘴部细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-buckle-up",
+      "nameZh": "车内固定镜头",
+      "nameEn": "Buckle Up",
+      "category": "运镜",
+      "effect": "固定于车内，让窗外景物飞速掠过",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-car-chasing",
+      "nameZh": "车辆追拍",
+      "nameEn": "Car Chasing",
+      "category": "运镜",
+      "effect": "从另一辆车追踪主体，保持同速行驶",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-car-grip",
+      "nameZh": "车身支架摄影",
+      "nameEn": "Car Grip",
+      "category": "运镜",
+      "effect": "固定在车身拍摄，道路从下方滑过",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-road-rush",
+      "nameZh": "贴地公路疾驰",
+      "nameEn": "Road Rush",
+      "category": "运镜",
+      "effect": "低机位沿路疾行，车道线拉成光带",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-flying-cam-transition",
+      "nameZh": "飞行穿越转场",
+      "nameEn": "Flying Cam Transition",
+      "category": "运镜",
+      "effect": "飞越建筑并跨过边界，进入新空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-through-object-in",
+      "nameZh": "穿物推进",
+      "nameEn": "Through Object In",
+      "category": "运镜",
+      "effect": "穿过狭小孔洞，连接不同空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-through-object-out",
+      "nameZh": "穿物拉出",
+      "nameEn": "Through Object Out",
+      "category": "运镜",
+      "effect": "穿过障碍移向外部，回望原有空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-super-dolly-in",
+      "nameZh": "长距离快速推轨",
+      "nameEn": "Super Dolly In",
+      "category": "运镜",
+      "effect": "远距离快速靠近，猛然进入人物特写",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-super-dolly-out",
+      "nameZh": "长距离快速拉轨",
+      "nameEn": "Super Dolly Out",
+      "category": "运镜",
+      "effect": "快速向后远移，让环境占据整个画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly-zoom-in",
+      "nameZh": "推进反向变焦",
+      "nameEn": "Dolly Zoom In",
+      "category": "运镜",
+      "effect": "向前推进并拉远焦距，让空间变形",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-dolly-zoom-out",
+      "nameZh": "拉退反向变焦",
+      "nameEn": "Dolly Zoom Out",
+      "category": "运镜",
+      "effect": "向后拉轨并变焦拉近，改变背景透视",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-yoyo-zoom",
+      "nameZh": "溜溜球变焦",
+      "nameEn": "YoYo Zoom",
+      "category": "运镜",
+      "effect": "一次连续拉近又拉远，制造伸缩节奏",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-rapid-zoom-in",
+      "nameZh": "快速变焦拉近",
+      "nameEn": "Rapid Zoom In",
+      "category": "运镜",
+      "effect": "极快拉近主体，几乎像一次切镜",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-rapid-zoom-out",
+      "nameZh": "快速变焦拉远",
+      "nameEn": "Rapid Zoom Out",
+      "category": "运镜",
+      "effect": "迅速拉成广角景别，随后定住画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-head-tracking",
+      "nameZh": "头部锁定跟拍",
+      "nameEn": "Head Tracking",
+      "category": "运镜",
+      "effect": "跟随头部转动，让背景围绕人物旋转",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-hero-cam",
+      "nameZh": "英雄式低机位跟拍",
+      "nameEn": "Hero Cam",
+      "category": "运镜",
+      "effect": "低角度跟随人物，突出英雄般气势",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-robo-arm",
+      "nameZh": "机械臂运镜",
+      "nameEn": "Robo Arm",
+      "category": "运镜",
+      "effect": "机械臂精确环绕，运动稳定可复现",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-wiggle",
+      "nameZh": "双视点摇摆",
+      "nameEn": "Wiggle",
+      "category": "运镜",
+      "effect": "在相近视点间摆动，产生立体错觉",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-3d-rotation",
+      "nameZh": "三维旋转镜头",
+      "nameEn": "3D Rotation",
+      "category": "运镜",
+      "effect": "围绕主体三维旋转，呈现多面视角",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-crane-over-the-head",
+      "nameZh": "摇臂越过头顶",
+      "nameEn": "Crane Over The Head",
+      "category": "运镜",
+      "effect": "升至人物头顶，逐渐形成垂直俯视",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-earth-zoom",
+      "nameZh": "地球尺度拉远",
+      "nameEn": "Earth Zoom",
+      "category": "运镜",
+      "effect": "从微小细节连续拉远，直至看见地球",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-jib-down",
+      "nameZh": "小摇臂下降",
+      "nameEn": "Jib Down",
+      "category": "运镜",
+      "effect": "短距离下降靠近，展现室内空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-movement-jib-up",
+      "nameZh": "小摇臂上升",
+      "nameEn": "Jib Up",
+      "category": "运镜",
+      "effect": "短距离向上升起，揭示室内其他人物",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-extreme-close-up",
+      "nameZh": "大特写",
+      "nameEn": "Extreme Close-Up",
+      "category": "景别与画幅",
+      "effect": "紧贴局部细节，呈现细微表情变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-choker",
+      "nameZh": "窒息式面部特写",
+      "nameEn": "Choker Shot",
+      "category": "景别与画幅",
+      "effect": "从发际线紧框到下巴，形成压迫感",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-close-up",
+      "nameZh": "特写",
+      "nameEn": "Close-Up",
+      "category": "景别与画幅",
+      "effect": "突出面部表情，用浅景深隔开背景",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-medium-close-up",
+      "nameZh": "中近景",
+      "nameEn": "Medium Close-Up",
+      "category": "景别与画幅",
+      "effect": "胸部以上入镜，兼顾表情与手势",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-medium-shot",
+      "nameZh": "中景",
+      "nameEn": "Medium Shot",
+      "category": "景别与画幅",
+      "effect": "腰部以上入镜，平衡表情与肢体动作",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-cowboy-shot",
+      "nameZh": "牛仔景别",
+      "nameEn": "Cowboy Shot",
+      "category": "景别与画幅",
+      "effect": "从大腿中部向上取景，保留腰间手势",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-full-body",
+      "nameZh": "全身景别",
+      "nameEn": "Full Body",
+      "category": "景别与画幅",
+      "effect": "从头到脚完整入镜，兼顾周围环境",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-long-shot",
+      "nameZh": "远景",
+      "nameEn": "Long Shot",
+      "category": "景别与画幅",
+      "effect": "人物置于开阔环境中，突出空间关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-extreme-long-shot",
+      "nameZh": "大远景",
+      "nameEn": "Extreme Long Shot",
+      "category": "景别与画幅",
+      "effect": "人物极小而可辨，突出宏大环境尺度",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-establishing-shot",
+      "nameZh": "环境建立镜头",
+      "nameEn": "Establishing Shot",
+      "category": "景别与画幅",
+      "effect": "交代场景空间，让观众理解环境关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-master-shot",
+      "nameZh": "主镜头",
+      "nameEn": "Master Shot",
+      "category": "景别与画幅",
+      "effect": "用完整广景保留整场人物调度关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-two-shot",
+      "nameZh": "双人镜头",
+      "nameEn": "Two-Shot",
+      "category": "景别与画幅",
+      "effect": "同时呈现两人表情，借距离变化传情",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "bike-kindness",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "bike-1",
+            "bike-3"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ]
+    },
+    {
+      "id": "framing-three-shot",
+      "nameZh": "三人镜头",
+      "nameEn": "Three-Shot",
+      "category": "景别与画幅",
+      "effect": "用三角站位表现三人之间的关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-group-shot",
+      "nameZh": "群像镜头",
+      "nameEn": "Group Shot",
+      "category": "景别与画幅",
+      "effect": "同框多个人物，用位置与光线分配重点",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-insert",
+      "nameZh": "插入特写镜头",
+      "nameEn": "Insert Shot",
+      "category": "景别与画幅",
+      "effect": "切近关键物件，补充推动情节的细节",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ],
+      "experienceRefs": [
+        {
+          "caseId": "bike-kindness",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "bike-2"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ]
+    },
+    {
+      "id": "framing-cutaway",
+      "nameZh": "切离镜头",
+      "nameEn": "Cutaway",
+      "category": "景别与画幅",
+      "effect": "暂时离开主动作，用相关画面延续情绪",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-reaction-shot",
+      "nameZh": "反应镜头",
+      "nameEn": "Reaction Shot",
+      "category": "景别与画幅",
+      "effect": "展示人物回应，让前后画面赋予表情意义",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-over-the-shoulder-frame",
+      "nameZh": "过肩正反打",
+      "nameEn": "Over-the-Shoulder Coverage",
+      "category": "景别与画幅",
+      "effect": "透过对方肩部拍脸，衔接对话反应",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-single",
+      "nameZh": "单人镜头",
+      "nameEn": "Single",
+      "category": "景别与画幅",
+      "effect": "画面完全属于一人，突出独立情绪",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-cut-ins",
+      "nameZh": "切入细节镜头",
+      "nameEn": "Cut-ins",
+      "category": "景别与画幅",
+      "effect": "从主镜头切近细节，补充远景看不清的信息",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-gesture",
+      "nameZh": "动作细节镜头",
+      "nameEn": "Gesture",
+      "category": "景别与画幅",
+      "effect": "聚焦手势眼神，用小动作传递含义",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-interview",
+      "nameZh": "访谈构图",
+      "nameEn": "Interview",
+      "category": "景别与画幅",
+      "effect": "视线略偏离镜头，暗示画外倾听者",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-product",
+      "nameZh": "产品主角镜头",
+      "nameEn": "Product",
+      "category": "景别与画幅",
+      "effect": "控制反光清楚展示，让产品成为焦点",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-video-portraits",
+      "nameZh": "动态肖像",
+      "nameEn": "Video Portraits",
+      "category": "景别与画幅",
+      "effect": "长时间凝视面容，保留微小生命动作",
+      "reviewNotes": []
+    },
+    {
+      "id": "framing-wide-shot",
+      "nameZh": "广景",
+      "nameEn": "Wide Shot",
+      "category": "景别与画幅",
+      "effect": "在完整环境中呈现人物，保留地点特征",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-eye-level",
+      "nameZh": "平视角度",
+      "nameEn": "Eye Level",
+      "category": "机位角度",
+      "effect": "与人物眼睛等高，形成平等观察关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-high-angle",
+      "nameZh": "高位俯拍",
+      "nameEn": "High Angle",
+      "category": "机位角度",
+      "effect": "从高处斜向下看，让环境压过人物",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-low-angle",
+      "nameZh": "低位仰拍",
+      "nameEn": "Low Angle",
+      "category": "机位角度",
+      "effect": "从人物下方仰视，强调高度与力量",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "camera-angles-birds-eye",
+      "nameZh": "鸟瞰视角",
+      "nameEn": "Bird's-Eye View",
+      "category": "机位角度",
+      "effect": "从正上方直视，将地面化作平面地图",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-worms-eye",
+      "nameZh": "虫视仰拍",
+      "nameEn": "Worm's-Eye View",
+      "category": "机位角度",
+      "effect": "贴近地面直向上看，制造敬畏或恐惧",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-overhead",
+      "nameZh": "正顶俯拍",
+      "nameEn": "Overhead Top-Down",
+      "category": "机位角度",
+      "effect": "从正上方固定拍摄，呈现平面秩序",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-ground-level",
+      "nameZh": "贴地机位",
+      "nameEn": "Ground Level",
+      "category": "机位角度",
+      "effect": "镜头贴近地面，放大靴子与衣摆气势",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-dutch-angle",
+      "nameZh": "荷兰角倾斜构图",
+      "nameEn": "Dutch Angle",
+      "category": "机位角度",
+      "effect": "倾斜地平线，用对角构图制造紧张感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-pov",
+      "nameZh": "人物主观视角",
+      "nameEn": "Point of View",
+      "category": "机位角度",
+      "effect": "从角色眼睛位置看世界，呈现其感知",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "camera-angles-profile",
+      "nameZh": "正侧面角度",
+      "nameEn": "Profile",
+      "category": "机位角度",
+      "effect": "以九十度侧看人物，突出脸部轮廓",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-three-quarter",
+      "nameZh": "四分之三侧面",
+      "nameEn": "Three-Quarter Angle",
+      "category": "机位角度",
+      "effect": "面部约转四十五度，呈现经典立体感",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-reverse-angle",
+      "nameZh": "反向机位",
+      "nameEn": "Reverse Angle",
+      "category": "机位角度",
+      "effect": "从相对方向回拍，交代对话两侧关系",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "camera-angles-trunk-shot",
+      "nameZh": "箱内仰拍",
+      "nameEn": "Trunk Shot",
+      "category": "机位角度",
+      "effect": "从箱子内部向上看，用边缘框住人物",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-hip-level",
+      "nameZh": "髋部高度机位",
+      "nameEn": "Hip Level",
+      "category": "机位角度",
+      "effect": "在腰间枪带高度拍摄，突出手与枪套",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-shoulder-level",
+      "nameZh": "肩部高度机位",
+      "nameEn": "Shoulder Level",
+      "category": "机位角度",
+      "effect": "略低于眼睛观察，像并肩同行的伙伴",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-first-person",
+      "nameZh": "第一人称视角",
+      "nameEn": "First-Person",
+      "category": "机位角度",
+      "effect": "随角色同步移动，手或工具进入画边",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-fourth-wall",
+      "nameZh": "打破第四面墙",
+      "nameEn": "Fourth Wall",
+      "category": "机位角度",
+      "effect": "人物直视镜头，明确承认观众的存在",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "camera-angles-object-pov",
+      "nameZh": "物体主观视角",
+      "nameEn": "Object POV",
+      "category": "机位角度",
+      "effect": "将机位固定于物体，让环境随其运动",
+      "reviewNotes": []
+    },
+    {
+      "id": "camera-angles-incline",
+      "nameZh": "轻微倾斜机位",
+      "nameEn": "Incline",
+      "category": "机位角度",
+      "effect": "小幅倾斜画面，暗示坡度或隐约不安",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-three-point-lighting",
+      "nameZh": "三点布光",
+      "nameEn": "Three-Point Lighting",
+      "category": "灯光",
+      "effect": "主光补光逆光配合，塑造人物立体感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-key-light",
+      "nameZh": "主光",
+      "nameEn": "Key Light",
+      "category": "灯光",
+      "effect": "明确方向的主要光源，决定明暗与叙事",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-fill-light",
+      "nameZh": "补光",
+      "nameEn": "Fill Light",
+      "category": "灯光",
+      "effect": "柔和提亮暗面，保持面部立体与眼神",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-backlight",
+      "nameZh": "逆光",
+      "nameEn": "Backlight",
+      "category": "灯光",
+      "effect": "从人物后方照射，分离轮廓与背景",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-rim-light",
+      "nameZh": "轮廓光",
+      "nameEn": "Rim Light",
+      "category": "灯光",
+      "effect": "沿帽檐发丝衣缘勾出自然细亮边",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-kicker",
+      "nameZh": "后侧强调光",
+      "nameEn": "Kicker",
+      "category": "灯光",
+      "effect": "用后侧小光源强调下颌与肩部边缘",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-hair-light",
+      "nameZh": "发丝光",
+      "nameEn": "Hair Light",
+      "category": "灯光",
+      "effect": "从后上方照亮头发，面部保留冷色暗部",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-eye-light",
+      "nameZh": "眼神光",
+      "nameEn": "Eye Light",
+      "category": "灯光",
+      "effect": "在虹膜中留下微小反光，让暗处眼睛鲜活",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-high-key",
+      "nameZh": "高调布光",
+      "nameEn": "High-Key Lighting",
+      "category": "灯光",
+      "effect": "整体明亮柔和，同时保留高光细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-low-key",
+      "nameZh": "低调布光",
+      "nameEn": "Low-Key Lighting",
+      "category": "灯光",
+      "effect": "让大面积沉入暗部，用局部亮区塑形",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-chiaroscuro",
+      "nameZh": "明暗对照法",
+      "nameEn": "Chiaroscuro",
+      "category": "灯光",
+      "effect": "以强烈明暗对比塑形，同时保留暗部细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-rembrandt",
+      "nameZh": "伦勃朗布光",
+      "nameEn": "Rembrandt Lighting",
+      "category": "灯光",
+      "effect": "高侧主光在暗面脸颊留下小三角亮区",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-butterfly-lighting",
+      "nameZh": "蝴蝶光",
+      "nameEn": "Butterfly Lighting",
+      "category": "灯光",
+      "effect": "鼻下小阴影塑造经典魅力肖像",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-loop-lighting",
+      "nameZh": "环形光",
+      "nameEn": "Loop Lighting",
+      "category": "灯光",
+      "effect": "鼻影朝嘴角延伸形成小环形",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-split-lighting",
+      "nameZh": "分割光",
+      "nameEn": "Split Lighting",
+      "category": "灯光",
+      "effect": "面部明暗各半暗示内心冲突",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-short-lighting",
+      "nameZh": "窄面光",
+      "nameEn": "Short Lighting",
+      "category": "灯光",
+      "effect": "照亮远侧脸颊显瘦并增强戏剧性",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-broad-lighting",
+      "nameZh": "宽面光",
+      "nameEn": "Broad Lighting",
+      "category": "灯光",
+      "effect": "照亮近侧脸颊营造开阔明朗感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-silhouette",
+      "nameZh": "剪影",
+      "nameEn": "Silhouette",
+      "category": "灯光",
+      "effect": "以明亮背景勾出清晰的深色轮廓",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-motivated-lighting",
+      "nameZh": "有源布光",
+      "nameEn": "Motivated Lighting",
+      "category": "灯光",
+      "effect": "让画面照明拥有可理解的来源",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "lighting-practical-lighting",
+      "nameZh": "实景光源布光",
+      "nameEn": "Practical Lighting",
+      "category": "灯光",
+      "effect": "由画面内的灯具实际照亮人物",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-available-light",
+      "nameZh": "现有光拍摄",
+      "nameEn": "Available Light",
+      "category": "灯光",
+      "effect": "仅用现场光线保留纪实质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-naturalistic-ambient",
+      "nameZh": "自然环境光",
+      "nameEn": "Naturalistic Ambient",
+      "category": "灯光",
+      "effect": "柔和环境照明呈现可信室内明暗",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-bounce-light",
+      "nameZh": "反射光",
+      "nameEn": "Bounce Light",
+      "category": "灯光",
+      "effect": "借墙面反射获得柔和包裹的光线",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-hard-light",
+      "nameZh": "硬光",
+      "nameEn": "Hard Light",
+      "category": "灯光",
+      "effect": "锐利阴影与鲜明纹理强化黑色电影感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-soft-light",
+      "nameZh": "柔光",
+      "nameEn": "Soft Light",
+      "category": "灯光",
+      "effect": "大光源令阴影柔和过渡肤色透亮",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-side-lighting",
+      "nameZh": "侧光",
+      "nameEn": "Side Lighting",
+      "category": "灯光",
+      "effect": "九十度侧光凸显纹理与明暗对立",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-top-light",
+      "nameZh": "顶光",
+      "nameEn": "Top Light",
+      "category": "灯光",
+      "effect": "光从正上方落下令眼窝陷入阴影",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-under-light",
+      "nameZh": "底光",
+      "nameEn": "Underlighting",
+      "category": "灯光",
+      "effect": "下方向上的光制造反常面部阴影",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-cross-lighting",
+      "nameZh": "交叉布光",
+      "nameEn": "Cross Lighting",
+      "category": "灯光",
+      "effect": "相对双主光描出两侧舞台式轮廓",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-window-light",
+      "nameZh": "窗光",
+      "nameEn": "Window Light",
+      "category": "灯光",
+      "effect": "以窗为唯一主光形成室内明暗渐变",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-candlelight",
+      "nameZh": "烛光",
+      "nameEn": "Candlelight",
+      "category": "灯光",
+      "effect": "近处烛火照亮人脸远处快速入暗",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-neon-practical",
+      "nameZh": "实景霓虹光",
+      "nameEn": "Neon Practicals",
+      "category": "灯光",
+      "effect": "霓虹招牌为人物染上夜城冷暖色彩",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-golden-hour",
+      "nameZh": "黄金时刻",
+      "nameEn": "Golden Hour",
+      "category": "灯光",
+      "effect": "低角度暖色天光带来柔和暮色",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-blue-hour",
+      "nameZh": "蓝调时刻",
+      "nameEn": "Blue Hour",
+      "category": "灯光",
+      "effect": "冷蓝暮光与初亮的暖灯交织",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-dappled-light",
+      "nameZh": "斑驳光",
+      "nameEn": "Dappled Light",
+      "category": "灯光",
+      "effect": "树叶遮挡阳光投下不规则光斑",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-gobo-lighting",
+      "nameZh": "图案遮光布光",
+      "nameEn": "Gobo Lighting",
+      "category": "灯光",
+      "effect": "以遮挡物在脸与墙上投出图形阴影",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-volumetric-light",
+      "nameZh": "体积光",
+      "nameEn": "Volumetric Light",
+      "category": "灯光",
+      "effect": "雾气与尘埃让光束显现空间结构",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s4"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        },
+        {
+          "caseId": "book-repair",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "book-3"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "lighting-volumetric-light"
+      }
+    },
+    {
+      "id": "lighting-cameo-lighting",
+      "nameZh": "浮雕式聚光",
+      "nameEn": "Cameo Lighting",
+      "category": "灯光",
+      "effect": "以孤立光区突出人物并隐去环境",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-epiphany",
+      "nameZh": "顿悟之光",
+      "nameEn": "Epiphany",
+      "category": "灯光",
+      "effect": "领悟瞬间由光线突出人物面部",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-spotlight",
+      "nameZh": "聚光灯",
+      "nameEn": "Spotlight",
+      "category": "灯光",
+      "effect": "聚光圈隔离人物营造舞台表演感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lighting-glam",
+      "nameZh": "魅力美妆光",
+      "nameEn": "Glam",
+      "category": "灯光",
+      "effect": "柔和主光与眼神光打造精致肖像",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-rule-of-thirds",
+      "nameZh": "三分法构图",
+      "nameEn": "Rule of Thirds",
+      "category": "构图",
+      "effect": "主体落于三分交点并留出视线空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-golden-ratio",
+      "nameZh": "黄金比例构图",
+      "nameEn": "Golden Ratio",
+      "category": "构图",
+      "effect": "以和谐螺旋引导视线靠近主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-central-framing",
+      "nameZh": "中心取景",
+      "nameEn": "Central Framing",
+      "category": "构图",
+      "effect": "主体位于光轴形成庄重均衡画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-centered-composition",
+      "nameZh": "正中构图",
+      "nameEn": "Centered Composition",
+      "category": "构图",
+      "effect": "正中主体与左右均衡营造仪式感",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-symmetry",
+      "nameZh": "对称构图",
+      "nameEn": "Symmetry",
+      "category": "构图",
+      "effect": "以中心轴和镜像建筑塑造严整秩序",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-asymmetry",
+      "nameZh": "不对称构图",
+      "nameEn": "Asymmetry",
+      "category": "构图",
+      "effect": "借偏置与视觉配重形成动态平衡",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-leading-lines",
+      "nameZh": "引导线",
+      "nameEn": "Leading Lines",
+      "category": "构图",
+      "effect": "道路走廊等汇聚线将视线引向主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-frame-in-frame",
+      "nameZh": "框中框",
+      "nameEn": "Frame within Frame",
+      "category": "构图",
+      "effect": "以门窗等内框强化人物与空间关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-negative-space",
+      "nameZh": "留白构图",
+      "nameEn": "Negative Space",
+      "category": "构图",
+      "effect": "大片空旷区域强化人物的孤独感",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s4"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        },
+        {
+          "caseId": "book-repair",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "book-4"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "composition-negative-space"
+      }
+    },
+    {
+      "id": "composition-foreground-interest",
+      "nameZh": "前景点缀",
+      "nameEn": "Foreground Interest",
+      "category": "构图",
+      "effect": "以近处遮挡增强窥视感与层次",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-layered-depth",
+      "nameZh": "纵深分层",
+      "nameEn": "Layered Depth",
+      "category": "构图",
+      "effect": "前后景同时叙事建立丰富空间层次",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-diagonal-composition",
+      "nameZh": "对角线构图",
+      "nameEn": "Diagonal Composition",
+      "category": "构图",
+      "effect": "斜向线条为画面注入不稳定动势",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-triangular-composition",
+      "nameZh": "三角形构图",
+      "nameEn": "Triangular Composition",
+      "category": "构图",
+      "effect": "三个视觉体量形成稳定人物关系",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-headroom",
+      "nameZh": "头顶留白",
+      "nameEn": "Headroom",
+      "category": "构图",
+      "effect": "头顶空间的多少调节压迫与开阔感",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-lead-room",
+      "nameZh": "前向留白",
+      "nameEn": "Lead Room",
+      "category": "构图",
+      "effect": "朝视线或行进方向留出展开空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-short-siding",
+      "nameZh": "视线侧压边",
+      "nameEn": "Short Siding",
+      "category": "构图",
+      "effect": "压缩视线前方空间制造受困与急迫",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-visual-weight",
+      "nameZh": "视觉重量",
+      "nameEn": "Visual Weight",
+      "category": "构图",
+      "effect": "用亮度与体量平衡画面注意力",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-repetition-pattern",
+      "nameZh": "重复与图案",
+      "nameEn": "Repetition and Pattern",
+      "category": "构图",
+      "effect": "重复路线与构图突出人物心境变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-figure-ground",
+      "nameZh": "图底分离",
+      "nameEn": "Figure-Ground",
+      "category": "构图",
+      "effect": "以色调色彩或焦点让人物一眼可辨",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-contrast-composition",
+      "nameZh": "明暗对比构图",
+      "nameEn": "Tonal Contrast",
+      "category": "构图",
+      "effect": "以最亮或最暗主体创造鲜明图形感",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-one-point-perspective",
+      "nameZh": "一点透视",
+      "nameEn": "One-Point Perspective",
+      "category": "构图",
+      "effect": "所有纵深线汇聚中心建立严整空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-vanishing-point",
+      "nameZh": "消失点",
+      "nameEn": "Vanishing Point",
+      "category": "构图",
+      "effect": "纵深汇聚将视线越过人物引向远方",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-dirty-frame",
+      "nameZh": "遮挡式取景",
+      "nameEn": "Dirty Frame",
+      "category": "构图",
+      "effect": "失焦遮挡侵入边缘营造窥视层次",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-clean-frame",
+      "nameZh": "干净取景",
+      "nameEn": "Clean Frame",
+      "category": "构图",
+      "effect": "清空边缘杂物使主体清晰独立",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-look-space",
+      "nameZh": "视线空间",
+      "nameEn": "Look Space",
+      "category": "构图",
+      "effect": "保持注视方向让观看关系清楚可信",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-architexture",
+      "nameZh": "建筑肌理构图",
+      "nameEn": "Architexture",
+      "category": "构图",
+      "effect": "建筑表面铺满画面让人物成为细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-reflections",
+      "nameZh": "反射构图",
+      "nameEn": "Reflections",
+      "category": "构图",
+      "effect": "利用玻璃反射叠加人物与空间关系",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s2",
+            "s3"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "composition-reflections"
+      }
+    },
+    {
+      "id": "composition-screen-in-screen",
+      "nameZh": "屏中屏",
+      "nameEn": "Screen in Screen",
+      "category": "构图",
+      "effect": "以屏幕界面中的操作与影像叙事",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-tableau",
+      "nameZh": "舞台画幅",
+      "nameEn": "Tableau",
+      "category": "构图",
+      "effect": "固定正面全景让多组动作同时展开",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-void",
+      "nameZh": "虚空构图",
+      "nameEn": "Void",
+      "category": "构图",
+      "effect": "以黑暗或空白吞没环境凸显孤立",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-voyeur",
+      "nameZh": "窥视视角",
+      "nameEn": "Voyeur",
+      "category": "构图",
+      "effect": "隐藏声源和受限视野引发想象",
+      "reviewNotes": []
+    },
+    {
+      "id": "composition-windows",
+      "nameZh": "窗户构图",
+      "nameEn": "Windows",
+      "category": "构图",
+      "effect": "层叠窗框将建筑化为生活的画格",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-ultra-wide-14mm",
+      "nameZh": "14毫米超广角",
+      "nameEn": "14mm Ultra-Wide",
+      "category": "镜头与光学",
+      "effect": "近距离夸张透视并扩展狭小空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-24mm-wide",
+      "nameZh": "24毫米广角",
+      "nameEn": "24mm Wide",
+      "category": "镜头与光学",
+      "effect": "保留环境并适度拉伸人物周围空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-35mm-moderate",
+      "nameZh": "35毫米适度广角",
+      "nameEn": "35mm Moderate Wide",
+      "category": "镜头与光学",
+      "effect": "自然透视兼顾人物与周围环境",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-50mm-normal",
+      "nameZh": "50毫米标准镜头",
+      "nameEn": "50mm Normal",
+      "category": "镜头与光学",
+      "effect": "以平实自然的透视呈现对话距离",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-85mm-portrait",
+      "nameZh": "85毫米人像镜头",
+      "nameEn": "85mm Portrait",
+      "category": "镜头与光学",
+      "effect": "压缩背景并以柔美虚化突出面孔",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-135mm-telephoto",
+      "nameZh": "135毫米长焦",
+      "nameEn": "135mm Telephoto",
+      "category": "镜头与光学",
+      "effect": "堆叠景物层次带来远距离窥听感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-200mm-long",
+      "nameZh": "200毫米超长焦",
+      "nameEn": "200mm Long Telephoto",
+      "category": "镜头与光学",
+      "effect": "远距离强烈压缩空间并隔离人物",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-anamorphic",
+      "nameZh": "变形宽银幕镜头",
+      "nameEn": "Anamorphic",
+      "category": "镜头与光学",
+      "effect": "椭圆散景与横向耀光形成宽银幕感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-spherical",
+      "nameZh": "球面镜头",
+      "nameEn": "Spherical",
+      "category": "镜头与光学",
+      "effect": "圆形散景与笔直边缘带来清洁影像",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-fisheye",
+      "nameZh": "鱼眼镜头",
+      "nameEn": "Fisheye",
+      "category": "镜头与光学",
+      "effect": "以弯曲边缘容纳夸张宽广的空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-tilt-shift",
+      "nameZh": "移轴微缩效果",
+      "nameEn": "Tilt-Shift",
+      "category": "镜头与光学",
+      "effect": "狭窄清晰区域使真实景物像微缩模型",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-macro",
+      "nameZh": "微距镜头",
+      "nameEn": "Macro",
+      "category": "镜头与光学",
+      "effect": "近距离放大细小动作与材质细节",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s1",
+            "s2"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        },
+        {
+          "caseId": "book-repair",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "book-1",
+            "book-2"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        },
+        {
+          "caseId": "tea-moment",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "tea-1"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "lenses-macro"
+      }
+    },
+    {
+      "id": "lenses-probe-lens",
+      "nameZh": "探针镜头",
+      "nameEn": "Probe Lens",
+      "category": "镜头与光学",
+      "effect": "细长微型广角镜头深入微观空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-split-diopter",
+      "nameZh": "分焦镜",
+      "nameEn": "Split Diopter",
+      "category": "镜头与光学",
+      "effect": "前后两处同时清晰并保留过渡边界",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-vintage-cine",
+      "nameZh": "复古电影镜头",
+      "nameEn": "Vintage Cine Glass",
+      "category": "镜头与光学",
+      "effect": "低反差柔晕与旋转边缘营造旧日浪漫",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-compression",
+      "nameZh": "长焦压缩",
+      "nameEn": "Telephoto Compression",
+      "category": "镜头与光学",
+      "effect": "远处景物密集堆叠削弱前进速度感",
+      "reviewNotes": []
+    },
+    {
+      "id": "lenses-magnification",
+      "nameZh": "极端放大",
+      "nameEn": "Magnification",
+      "category": "镜头与光学",
+      "effect": "将厘米内细节放大到失去尺度参照",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-teal-orange",
+      "nameZh": "青橙调色",
+      "nameEn": "Teal and Orange",
+      "category": "色彩与影调",
+      "effect": "暖肤色与青色暗部形成互补色对比",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-bleach-bypass",
+      "nameZh": "跳漂效果",
+      "nameEn": "Bleach Bypass",
+      "category": "色彩与影调",
+      "effect": "低饱和高反差保留粗粝工业质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-monochrome",
+      "nameZh": "黑白单色",
+      "nameEn": "Monochrome",
+      "category": "色彩与影调",
+      "effect": "去除色彩仅靠形状与明暗塑造画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-sepia",
+      "nameZh": "棕褐色调",
+      "nameEn": "Sepia",
+      "category": "色彩与影调",
+      "effect": "棕金色与褪色白色营造旧时记忆",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-desaturation",
+      "nameZh": "降低饱和度",
+      "nameEn": "Desaturation",
+      "category": "色彩与影调",
+      "effect": "压低整体色彩让残余色彩承载情绪",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-hyper-saturation",
+      "nameZh": "超高饱和度",
+      "nameEn": "Hyper-Saturation",
+      "category": "色彩与影调",
+      "effect": "浓烈色彩制造梦境或发热般感受",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-cool-blue",
+      "nameZh": "冷蓝色调",
+      "nameEn": "Cool Blue",
+      "category": "色彩与影调",
+      "effect": "钢蓝暗部营造医院或月夜的冷感",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-warm-amber",
+      "nameZh": "暖琥珀色调",
+      "nameEn": "Warm Amber",
+      "category": "色彩与影调",
+      "effect": "蜂蜜般的钨丝暖色带来安全与怀旧",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-filmic-faded",
+      "nameZh": "褪色胶片感",
+      "nameEn": "Filmic Faded",
+      "category": "色彩与影调",
+      "effect": "抬起黑位与柔和高光营造旧胶片感",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-cross-process",
+      "nameZh": "交叉冲洗色调",
+      "nameEn": "Cross Process",
+      "category": "色彩与影调",
+      "effect": "原色偏移与异常肤色制造化学失真",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-day-for-night",
+      "nameZh": "日景拍夜景",
+      "nameEn": "Day for Night",
+      "category": "色彩与影调",
+      "effect": "控制天空与地面影调把白昼化为夜晚",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-tungsten-balance",
+      "nameZh": "钨丝灯色彩平衡",
+      "nameEn": "Tungsten Balance",
+      "category": "色彩与影调",
+      "effect": "区分室内钨丝暖光与窗外冷蓝天光",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-moonlight-gel",
+      "nameZh": "月光色片",
+      "nameEn": "Moonlight Gel",
+      "category": "色彩与影调",
+      "effect": "以冷色主光与深暗曝光模拟月夜",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "color-split-tone",
+      "nameZh": "分离色调",
+      "nameEn": "Split Toning",
+      "category": "色彩与影调",
+      "effect": "为亮部与暗部分别赋予不同色相",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-natural-grade",
+      "nameZh": "自然调色",
+      "nameEn": "Natural Grade",
+      "category": "色彩与影调",
+      "effect": "忠实肤色与克制饱和度还原现场",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-color-shift",
+      "nameZh": "色彩转变",
+      "nameEn": "Color Shift",
+      "category": "色彩与影调",
+      "effect": "跨越空间边界呈现不同色彩世界",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-vintage",
+      "nameZh": "复古色彩",
+      "nameEn": "Vintage",
+      "category": "色彩与影调",
+      "effect": "褪色染料与高光晕重现旧影像质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-palette",
+      "nameZh": "色彩方案",
+      "nameEn": "Palette",
+      "category": "色彩与影调",
+      "effect": "以统一配色区分同一事件的不同回忆",
+      "reviewNotes": []
+    },
+    {
+      "id": "color-overexposed",
+      "nameZh": "过度曝光",
+      "nameEn": "Overexposed",
+      "category": "色彩与影调",
+      "effect": "有意让高光溢出损失部分画面信息",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-slow-motion",
+      "nameZh": "慢动作",
+      "nameEn": "Slow Motion",
+      "category": "时间与运动",
+      "effect": "放慢瞬间动作以显现运动细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-fast-motion",
+      "nameZh": "快动作",
+      "nameEn": "Fast Motion",
+      "category": "时间与运动",
+      "effect": "适度加速动作形成忙乱喜剧节奏",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-speed-ramp",
+      "nameZh": "速度渐变",
+      "nameEn": "Speed Ramp",
+      "category": "时间与运动",
+      "effect": "在连续动作中平滑切换常速与慢速",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-freeze-frame",
+      "nameZh": "定格",
+      "nameEn": "Freeze Frame",
+      "category": "时间与运动",
+      "effect": "将动作停成静止画面并持续停留",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "time-and-motion-time-lapse",
+      "nameZh": "延时摄影",
+      "nameEn": "Time-Lapse",
+      "category": "时间与运动",
+      "effect": "将漫长时间压缩为连续可见的变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-step-printing",
+      "nameZh": "抽格重复印片",
+      "nameEn": "Step Printing",
+      "category": "时间与运动",
+      "effect": "拖影与重复帧制造断续流动的时间感",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-reverse-motion",
+      "nameZh": "动作倒放",
+      "nameEn": "Reverse Motion",
+      "category": "时间与运动",
+      "effect": "逆转运动方向形成时间回溯效果",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "time-and-motion-bullet-time",
+      "nameZh": "子弹时间",
+      "nameEn": "Bullet Time",
+      "category": "时间与运动",
+      "effect": "近乎冻结动作时让摄影机绕行观察",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-long-take",
+      "nameZh": "长镜头",
+      "nameEn": "Long Take",
+      "category": "时间与运动",
+      "effect": "持续跟随人物让多组空间行动共存",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-one-er",
+      "nameZh": "一镜到底",
+      "nameEn": "Oner",
+      "category": "时间与运动",
+      "effect": "以无可见剪切的镜头连接完整行动",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-motion-blur",
+      "nameZh": "运动模糊",
+      "nameEn": "Motion Blur",
+      "category": "时间与运动",
+      "effect": "慢快门拖影让运动与光线留下轨迹",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-stutter",
+      "nameZh": "断续跳帧",
+      "nameEn": "Stutter / Stop-Stutter",
+      "category": "时间与运动",
+      "effect": "重复和跳过画面形成焦虑节奏",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-boomerang",
+      "nameZh": "往返循环",
+      "nameEn": "Boomerang",
+      "category": "时间与运动",
+      "effect": "动作正放后沿原路倒放形成循环",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-infinite-loop",
+      "nameZh": "无限循环",
+      "nameEn": "Infinite Loop",
+      "category": "时间与运动",
+      "effect": "反复重置相同情境以突出细微改变",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-stop-motion",
+      "nameZh": "定格动画",
+      "nameEn": "Stop Motion",
+      "category": "时间与运动",
+      "effect": "逐帧摆放实体材料产生手作运动感",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-low-shutter",
+      "nameZh": "短快门",
+      "nameEn": "Low Shutter",
+      "category": "时间与运动",
+      "effect": "短曝光凝住雨滴并使动作显得硬朗",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-timelapse-glam",
+      "nameZh": "造型延时",
+      "nameEn": "Timelapse Glam",
+      "category": "时间与运动",
+      "effect": "人物不动而服装造型快速变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-timelapse-human",
+      "nameZh": "人物环境延时",
+      "nameEn": "Timelapse Human",
+      "category": "时间与运动",
+      "effect": "静止人物与飞速流动城市形成对比",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-timelapse-landscape",
+      "nameZh": "风景延时",
+      "nameEn": "Timelapse Landscape",
+      "category": "时间与运动",
+      "effect": "加速呈现风景中光照与天气变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-frozen-in-motion",
+      "nameZh": "凝固时空",
+      "nameEn": "Frozen in Motion",
+      "category": "时间与运动",
+      "effect": "一人行动而周围人群物体全部冻结",
+      "reviewNotes": []
+    },
+    {
+      "id": "time-and-motion-moonwalk",
+      "nameZh": "太空步",
+      "nameEn": "Moonwalk",
+      "category": "时间与运动",
+      "effect": "身体平滑后滑如同在冰面上行走",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-lens-flare",
+      "nameZh": "镜头耀光",
+      "nameEn": "Lens Flare",
+      "category": "机内与光学效果",
+      "effect": "强光进入镜头形成随遮挡变化的眩光",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-anamorphic-flare",
+      "nameZh": "变形镜头耀光",
+      "nameEn": "Anamorphic Flare",
+      "category": "机内与光学效果",
+      "effect": "横向彩色光带与椭圆散景突出宽幅感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-halation",
+      "nameZh": "高光泛晕",
+      "nameEn": "Halation",
+      "category": "机内与光学效果",
+      "effect": "明亮边缘轻柔溢光同时保留细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-film-grain",
+      "nameZh": "胶片颗粒",
+      "nameEn": "Film Grain",
+      "category": "机内与光学效果",
+      "effect": "可见细颗粒赋予影像鲜活胶片质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-bokeh",
+      "nameZh": "焦外散景",
+      "nameEn": "Bokeh",
+      "category": "机内与光学效果",
+      "effect": "失焦高光化为柔美光斑突出主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-double-exposure",
+      "nameZh": "双重曝光",
+      "nameEn": "Double Exposure",
+      "category": "机内与光学效果",
+      "effect": "让两份影像叠加出共存的视觉层次",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "effects-rack-focus",
+      "nameZh": "转移焦点",
+      "nameEn": "Rack Focus",
+      "category": "机内与光学效果",
+      "effect": "固定构图中让注意力从前景移向后景",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-shallow-focus",
+      "nameZh": "浅景深",
+      "nameEn": "Shallow Focus",
+      "category": "机内与光学效果",
+      "effect": "眼睛清晰而人群虚化强化肖像亲密感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-deep-focus",
+      "nameZh": "深焦",
+      "nameEn": "Deep Focus",
+      "category": "机内与光学效果",
+      "effect": "近景动作与远处人物同时清晰可读",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-forced-perspective",
+      "nameZh": "强制透视",
+      "nameEn": "Forced Perspective",
+      "category": "机内与光学效果",
+      "effect": "以机位和分尺度布景制造大小错觉",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-light-leak",
+      "nameZh": "漏光",
+      "nameEn": "Light Leak",
+      "category": "机内与光学效果",
+      "effect": "画面边缘被红橙色光侵蚀呈胶片破损感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-vignette",
+      "nameZh": "暗角",
+      "nameEn": "Vignette",
+      "category": "机内与光学效果",
+      "effect": "边缘自然变暗将注意力聚向画面中心",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-chromatic-aberration",
+      "nameZh": "色差",
+      "nameEn": "Chromatic Aberration",
+      "category": "机内与光学效果",
+      "effect": "高反差边缘出现红青色的光学色边",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-infrared",
+      "nameZh": "红外影像",
+      "nameEn": "Infrared",
+      "category": "机内与光学效果",
+      "effect": "苍白植被与黑色天空形成异样光谱感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-night-vision",
+      "nameZh": "夜视效果",
+      "nameEn": "Night Vision",
+      "category": "机内与光学效果",
+      "effect": "绿色荧光颗粒带来监控与军事视角",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-thermal",
+      "nameZh": "热成像",
+      "nameEn": "Thermal",
+      "category": "机内与光学效果",
+      "effect": "把温度映射为色彩使面孔像暖色面具",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-slit-scan",
+      "nameZh": "狭缝扫描",
+      "nameEn": "Slit-Scan",
+      "category": "机内与光学效果",
+      "effect": "平行光带汇向消失点形成光之隧道",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-kaleidoscope",
+      "nameZh": "万花筒",
+      "nameEn": "Kaleidoscope",
+      "category": "机内与光学效果",
+      "effect": "镜像碎片将主体重组为华丽几何图案",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-light-flash",
+      "nameZh": "闪光",
+      "nameEn": "Light Flash",
+      "category": "机内与光学效果",
+      "effect": "瞬间强光让画面过曝后再恢复",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-projection-mapping",
+      "nameZh": "投影景观",
+      "nameEn": "Projections",
+      "category": "机内与光学效果",
+      "effect": "实体前景与远处投影融合扩展空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-match-morph",
+      "nameZh": "连续变形",
+      "nameEn": "Morph",
+      "category": "机内与光学效果",
+      "effect": "用连续形态过渡把主体变成另一状态",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-altered-state",
+      "nameZh": "意识变异",
+      "nameEn": "Altered State",
+      "category": "机内与光学效果",
+      "effect": "画面扭曲拖尾与异常色彩表现意识失衡",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-anthropo",
+      "nameZh": "拟人化取景",
+      "nameEn": "Anthropo",
+      "category": "机内与光学效果",
+      "effect": "以人的姿态尺度与视线呈现物或动物",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-cinemagraph",
+      "nameZh": "局部循环动图",
+      "nameEn": "Cinemagraph",
+      "category": "机内与光学效果",
+      "effect": "整体静止仅让一个细节无缝循环",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-collage",
+      "nameZh": "拼贴",
+      "nameEn": "Collage",
+      "category": "机内与光学效果",
+      "effect": "撕纸与实拍层叠成拼贴画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-datamosh",
+      "nameZh": "数据错帧",
+      "nameEn": "Datamosh",
+      "category": "机内与光学效果",
+      "effect": "相邻画面渗透产生数字故障感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-diorama",
+      "nameZh": "微缩模型摄影",
+      "nameEn": "Diorama",
+      "category": "机内与光学效果",
+      "effect": "将微缩飞船拍出庞然巨物感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-distortions",
+      "nameZh": "光学畸变",
+      "nameEn": "Distortions",
+      "category": "机内与光学效果",
+      "effect": "拉伸边缘与几何形状扭曲空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-duplication",
+      "nameZh": "人物复制",
+      "nameEn": "Duplication",
+      "category": "机内与光学效果",
+      "effect": "同一人物在同一画面重复出现",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-echo-print",
+      "nameZh": "残影叠印",
+      "nameEn": "Echo Print",
+      "category": "机内与光学效果",
+      "effect": "上一瞬间的残影拖曳在主体后方",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-feedback",
+      "nameZh": "视频反馈",
+      "nameEn": "Feedback",
+      "category": "机内与光学效果",
+      "effect": "影像递归套叠形成无尽隧道",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-floating-ui",
+      "nameZh": "悬浮界面",
+      "nameEn": "Floating UI",
+      "category": "机内与光学效果",
+      "effect": "三维空间中浮现仪表与界面",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-focal-shift",
+      "nameZh": "焦点转移",
+      "nameEn": "Focal Shift",
+      "category": "机内与光学效果",
+      "effect": "通过前后景焦点切换引导注意",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-generative",
+      "nameZh": "生成式影像",
+      "nameEn": "Generative",
+      "category": "机内与光学效果",
+      "effect": "规则与粒子迭代生长形成影像",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-levitation",
+      "nameZh": "悬浮腾跃",
+      "nameEn": "Levitation",
+      "category": "机内与光学效果",
+      "effect": "让身体悬空或腾跃形成失重感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-masking",
+      "nameZh": "遮罩画框",
+      "nameEn": "Masking",
+      "category": "机内与光学效果",
+      "effect": "用钥匙孔等轮廓限定可见画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-mixed-media",
+      "nameZh": "混合媒介",
+      "nameEn": "Mixed Media",
+      "category": "机内与光学效果",
+      "effect": "实拍文字插画在同一平面碰撞",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-morphing",
+      "nameZh": "连续形变",
+      "nameEn": "Morphing",
+      "category": "机内与光学效果",
+      "effect": "固定五官位置自然呈现年龄变化",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-object-portal",
+      "nameZh": "物件传送门",
+      "nameEn": "Object Portal",
+      "category": "机内与光学效果",
+      "effect": "普通物件内部通向另一处空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-photogrammetry",
+      "nameZh": "摄影测量",
+      "nameEn": "Photogrammetry",
+      "category": "机内与光学效果",
+      "effect": "由照片重建带扫描质感的空间",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "effects-ratio-switch",
+      "nameZh": "画幅切换",
+      "nameEn": "Ratio Switch",
+      "category": "机内与光学效果",
+      "effect": "画幅逐渐变宽揭示两侧海景",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-scale-shift",
+      "nameZh": "尺度变化",
+      "nameEn": "Scale Shift",
+      "category": "机内与光学效果",
+      "effect": "同一场景中主体突然变大或缩小",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "effects-shadow-box",
+      "nameZh": "剪影景箱",
+      "nameEn": "Shadow Box",
+      "category": "机内与光学效果",
+      "effect": "多层剪影叠加形成暗色立体景深",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-transformation",
+      "nameZh": "场景连续变换",
+      "nameEn": "Transformation",
+      "category": "机内与光学效果",
+      "effect": "拥抱保持连贯而周围世界变换",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-typography",
+      "nameZh": "文字图形设计",
+      "nameEn": "Typography",
+      "category": "机内与光学效果",
+      "effect": "让文字成为占据空间的视觉物体",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-wigglegram",
+      "nameZh": "摆动立体影像",
+      "nameEn": "Wigglegram",
+      "category": "机内与光学效果",
+      "effect": "两个视点交替形成轻微立体抖动",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-x-ray",
+      "nameZh": "透视成像",
+      "nameEn": "X-Ray",
+      "category": "机内与光学效果",
+      "effect": "显示身体或物件内部结构",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-zoetrope",
+      "nameZh": "西洋镜频闪",
+      "nameEn": "Zoetrope",
+      "category": "机内与光学效果",
+      "effect": "以频闪分片呈现循环动作",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-focus-change",
+      "nameZh": "焦点切换",
+      "nameEn": "Focus Change",
+      "category": "机内与光学效果",
+      "effect": "焦点移向或离开主体所在平面",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-floating-fall",
+      "nameZh": "漂浮坠落",
+      "nameEn": "Floating Fall",
+      "category": "机内与光学效果",
+      "effect": "碎片缓缓坠落呈现失重梦感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-smash-and-grab",
+      "nameZh": "撞击抢夺",
+      "nameEn": "Smash and Grab",
+      "category": "机内与光学效果",
+      "effect": "剧烈手持运动表现撞击与逃离",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-cyclope",
+      "nameZh": "独眼视角",
+      "nameEn": "Cyclope",
+      "category": "机内与光学效果",
+      "effect": "巨大单眼与鱼眼透视营造异感",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-particles",
+      "nameZh": "粒子效果",
+      "nameEn": "Particles",
+      "category": "机内与光学效果",
+      "effect": "尘埃火花等粒子逐一捕捉光线",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-argus",
+      "nameZh": "百眼视角（Argus）",
+      "nameEn": "Argus",
+      "category": "机内与光学效果",
+      "effect": "众多眼睛与视点构成凝视画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-sticker-peel",
+      "nameZh": "贴纸揭层",
+      "nameEn": "Sticker Peel",
+      "category": "机内与光学效果",
+      "effect": "揭开贴纸表层露出下一层影像",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-selfie-twin",
+      "nameZh": "自拍分身",
+      "nameEn": "Selfie Twin",
+      "category": "机内与光学效果",
+      "effect": "自拍画面中出现两张相同面孔",
+      "reviewNotes": []
+    },
+    {
+      "id": "effects-bubbles",
+      "nameZh": "泡泡折射",
+      "nameEn": "Bubbles",
+      "category": "机内与光学效果",
+      "effect": "泡泡折射出欢乐或威胁的异世界",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-match-cut",
+      "nameZh": "匹配剪辑",
+      "nameEn": "Match Cut",
+      "category": "剪辑与转场",
+      "effect": "以动作形状或概念相似衔接镜头",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-graphic-match",
+      "nameZh": "图形匹配剪辑",
+      "nameEn": "Graphic Match",
+      "category": "剪辑与转场",
+      "effect": "用大小位置相同的圆形连接场景",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s2"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "editing-graphic-match"
+      }
+    },
+    {
+      "id": "editing-match-action",
+      "nameZh": "动作衔接剪辑",
+      "nameEn": "Match on Action",
+      "category": "剪辑与转场",
+      "effect": "在动作中切换镜头并保持连续",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-jump-cut",
+      "nameZh": "跳切",
+      "nameEn": "Jump Cut",
+      "category": "剪辑与转场",
+      "effect": "同构图连续跳过时间表现等待",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-smash-cut",
+      "nameZh": "突变剪辑",
+      "nameEn": "Smash Cut",
+      "category": "剪辑与转场",
+      "effect": "将反差强烈的画面突然相接",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-dissolve",
+      "nameZh": "叠化",
+      "nameEn": "Dissolve",
+      "category": "剪辑与转场",
+      "effect": "两段影像重叠渐变连接时空",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-fade",
+      "nameZh": "淡入淡出",
+      "nameEn": "Fade In / Fade Out",
+      "category": "剪辑与转场",
+      "effect": "画面渐隐到纯色形成段落停顿",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-wipe",
+      "nameZh": "划像转场",
+      "nameEn": "Wipe",
+      "category": "剪辑与转场",
+      "effect": "移动边界横扫画面替换场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-iris",
+      "nameZh": "圆形开合转场",
+      "nameEn": "Iris",
+      "category": "剪辑与转场",
+      "effect": "圆形遮罩收拢或打开引导视线",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-cross-cut",
+      "nameZh": "交叉剪辑",
+      "nameEn": "Cross-Cutting",
+      "category": "剪辑与转场",
+      "effect": "交替呈现两处空间制造联系悬念",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-split-screen",
+      "nameZh": "分屏",
+      "nameEn": "Split Screen",
+      "category": "剪辑与转场",
+      "effect": "在同一画面并列呈现多个空间",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-montage",
+      "nameZh": "蒙太奇",
+      "nameEn": "Montage",
+      "category": "剪辑与转场",
+      "effect": "通过镜头并置压缩时间表达观念",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-axial-cut",
+      "nameZh": "轴向跳切",
+      "nameEn": "Axial Cut",
+      "category": "剪辑与转场",
+      "effect": "沿同一镜头轴线骤然切近细节",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-invisible-cut",
+      "nameZh": "隐藏剪辑",
+      "nameEn": "Invisible Cut",
+      "category": "剪辑与转场",
+      "effect": "借遮挡瞬间接镜营造连续幻觉",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-l-cut-visual",
+      "nameZh": "声音先行与延续剪辑",
+      "nameEn": "J-Cut / L-Cut (Visual Setup)",
+      "category": "剪辑与转场",
+      "effect": "让声音跨越画面切点连接空间",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-crash-cut",
+      "nameZh": "碰撞剪辑",
+      "nameEn": "Crash Cut",
+      "category": "剪辑与转场",
+      "effect": "用猛烈的硬切让两段影像相撞",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "editing-flash-cut",
+      "nameZh": "闪切",
+      "nameEn": "Flash Cut",
+      "category": "剪辑与转场",
+      "effect": "极短插入画面打断当前场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-match-motion",
+      "nameZh": "运动匹配剪辑",
+      "nameEn": "Match Motion",
+      "category": "剪辑与转场",
+      "effect": "以相同姿态速度跨越不同场景",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-match-split",
+      "nameZh": "匹配分屏",
+      "nameEn": "Match Split",
+      "category": "剪辑与转场",
+      "effect": "分屏两侧以轮廓或动作相互接续",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-quick-cuts",
+      "nameZh": "快速剪辑",
+      "nameEn": "Quick Cuts",
+      "category": "剪辑与转场",
+      "effect": "逐步缩短镜头提升节奏与张力",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-set-transition",
+      "nameZh": "布景转场",
+      "nameEn": "Set Transition",
+      "category": "剪辑与转场",
+      "effect": "周围布景连续变成另一个地点",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-transitions",
+      "nameZh": "转场设计",
+      "nameEn": "Transitions",
+      "category": "剪辑与转场",
+      "effect": "让画面衔接本身成为视觉动作",
+      "reviewNotes": []
+    },
+    {
+      "id": "editing-fragments",
+      "nameZh": "碎片剪辑",
+      "nameEn": "Fragments",
+      "category": "剪辑与转场",
+      "effect": "以局部镜头和声音拼出完整事件",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-rain",
+      "nameZh": "雨景",
+      "nameEn": "Rain",
+      "category": "氛围与天气",
+      "effect": "逆光雨丝与湿地反射强化氛围",
+      "reviewNotes": [],
+      "experienceRefs": [
+        {
+          "caseId": "rain-to-forest",
+          "recordFile": "case-library.json",
+          "shotIds": [
+            "s1"
+          ],
+          "evidenceStatus": "one_run_qualitative_review"
+        }
+      ],
+      "ruleRef": {
+        "recordFile": "technique-rules.json",
+        "ruleId": "atmosphere-rain"
+      }
+    },
+    {
+      "id": "atmosphere-fog",
+      "nameZh": "浓雾",
+      "nameEn": "Fog",
+      "category": "氛围与天气",
+      "effect": "浓雾压缩纵深让人物迟迟显现",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-mist",
+      "nameZh": "薄雾",
+      "nameEn": "Mist",
+      "category": "氛围与天气",
+      "effect": "淡薄雾层柔化晨光与远处景物",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-haze",
+      "nameZh": "大气薄霾",
+      "nameEn": "Atmospheric Haze",
+      "category": "氛围与天气",
+      "effect": "远景逐层变淡呈现空气透视",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-smoke",
+      "nameZh": "烟雾",
+      "nameEn": "Smoke",
+      "category": "氛围与天气",
+      "effect": "烟气被光束照亮形成空间体积",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-dust-motes",
+      "nameZh": "光束浮尘",
+      "nameEn": "Dust Motes",
+      "category": "氛围与天气",
+      "effect": "缓慢浮尘在暗室光柱中清晰显现",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-steam",
+      "nameZh": "蒸汽",
+      "nameEn": "Steam",
+      "category": "氛围与天气",
+      "effect": "翻涌的白色蒸汽传达热与湿气",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-snow",
+      "nameZh": "飘雪",
+      "nameEn": "Snow",
+      "category": "氛围与天气",
+      "effect": "逆光大片雪花呈现冬日静寂",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-wet-down",
+      "nameZh": "洒水湿地",
+      "nameEn": "Wet-Down",
+      "category": "氛围与天气",
+      "effect": "湿润夜街借倒影增添灯光层次",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-sparks",
+      "nameZh": "火花与余烬",
+      "nameEn": "Sparks and Embers",
+      "category": "氛围与天气",
+      "effect": "发光颗粒如天气般飞散在暗处",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-dust-storm",
+      "nameZh": "尘土与沙暴",
+      "nameEn": "Dust and Sand",
+      "category": "氛围与天气",
+      "effect": "沙尘遮蔽远景太阳暗如硬币",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-underwater",
+      "nameZh": "水下摄影",
+      "nameEn": "Underwater",
+      "category": "氛围与天气",
+      "effect": "水波焦散与漂浮衣发呈现浮力",
+      "reviewNotes": []
+    },
+    {
+      "id": "atmosphere-ocean",
+      "nameZh": "海洋",
+      "nameEn": "Ocean",
+      "category": "氛围与天气",
+      "effect": "以涌浪和地平线衬出人物渺小",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-film-noir",
+      "nameZh": "黑色电影",
+      "nameEn": "Film Noir",
+      "category": "类型风格",
+      "effect": "硬光百叶窗阴影营造犯罪氛围",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-neo-noir",
+      "nameZh": "新黑色电影",
+      "nameEn": "Neo-Noir",
+      "category": "类型风格",
+      "effect": "用霓虹雨夜呈现当代犯罪忧郁",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-german-expressionism",
+      "nameZh": "德国表现主义",
+      "nameEn": "German Expressionism",
+      "category": "类型风格",
+      "effect": "扭曲建筑与尖锐阴影外化心理",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-giallo-look",
+      "nameZh": "意式惊悚片（Giallo）",
+      "nameEn": "Giallo",
+      "category": "类型风格",
+      "effect": "高饱和原色让美感带出威胁",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-spaghetti-western",
+      "nameZh": "意式西部片",
+      "nameEn": "Spaghetti Western",
+      "category": "类型风格",
+      "effect": "尘土烈日与眼部特写强化对峙",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-found-footage-look",
+      "nameZh": "拾得录像",
+      "nameEn": "Found Footage",
+      "category": "类型风格",
+      "effect": "以合理录制动机维持手持真实感",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-cinema-verite",
+      "nameZh": "真实电影",
+      "nameEn": "Cinéma Vérité",
+      "category": "类型风格",
+      "effect": "现场光与寻找式镜头呈现生活",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-french-new-wave",
+      "nameZh": "法国新浪潮",
+      "nameEn": "French New Wave",
+      "category": "类型风格",
+      "effect": "街头手持与跳切呈现生活活力",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-wuxia-look",
+      "nameZh": "武侠",
+      "nameEn": "Wuxia",
+      "category": "类型风格",
+      "effect": "雾竹丝绸与轻盈腾跃构成侠气",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-tech-noir",
+      "nameZh": "科技黑色电影",
+      "nameEn": "Tech Noir",
+      "category": "类型风格",
+      "effect": "屏幕光与雨夜构成未来犯罪世界",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-southern-gothic",
+      "nameZh": "南方哥特",
+      "nameEn": "Southern Gothic",
+      "category": "类型风格",
+      "effect": "潮湿苔藓与衰败金光呈现腐朽美",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-cosmic-horror-look",
+      "nameZh": "宇宙恐怖",
+      "nameEn": "Cosmic Horror",
+      "category": "类型风格",
+      "effect": "异常尺度与几何凸显人类渺小",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-vaporwave-look",
+      "nameZh": "蒸汽波",
+      "nameEn": "Vaporwave",
+      "category": "类型风格",
+      "effect": "粉青渐变与录像渗色营造怀旧",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-documentary-look",
+      "nameZh": "纪录片",
+      "nameEn": "Documentary",
+      "category": "类型风格",
+      "effect": "访谈与观察镜头呈现朴素真实感",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-blockbuster-gloss",
+      "nameZh": "商业大片质感",
+      "nameEn": "Blockbuster Gloss",
+      "category": "类型风格",
+      "effect": "干净天空与英雄轮廓光强化规模",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-arthouse",
+      "nameZh": "艺术电影",
+      "nameEn": "Arthouse",
+      "category": "类型风格",
+      "effect": "静态留白与自然光暗示漫长时刻",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-animation",
+      "nameZh": "动画电影",
+      "nameEn": "Animation",
+      "category": "类型风格",
+      "effect": "以绘画式运动和设计光线造型",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-bts",
+      "nameZh": "幕后花絮",
+      "nameEn": "BTS",
+      "category": "类型风格",
+      "effect": "露出工作人员与器材揭示拍摄",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-dreamcore",
+      "nameZh": "梦核",
+      "nameEn": "Dreamcore",
+      "category": "类型风格",
+      "effect": "熟悉空间与异常光线制造梦中不安",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-dystopian",
+      "nameZh": "反乌托邦",
+      "nameEn": "Dystopian",
+      "category": "类型风格",
+      "effect": "冷峻公共空间与秩序呈现压迫",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-magical-realism",
+      "nameZh": "魔幻现实主义",
+      "nameEn": "Magical Realism",
+      "category": "类型风格",
+      "effect": "在日常光线中平静呈现不可能",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-maximalism",
+      "nameZh": "极繁主义",
+      "nameEn": "Maximalism",
+      "category": "类型风格",
+      "effect": "密集色彩图案堆叠出丰盛画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-photography",
+      "nameZh": "静态摄影风格",
+      "nameEn": "Photography",
+      "category": "类型风格",
+      "effect": "以决定性构图让电影像一张照片",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-pixel-art",
+      "nameZh": "像素艺术",
+      "nameEn": "Pixel Art",
+      "category": "类型风格",
+      "effect": "粗颗粒像素与有限配色构成影像",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-stylistic-suck",
+      "nameZh": "刻意粗糙风格",
+      "nameEn": "Stylistic Suck",
+      "category": "类型风格",
+      "effect": "故意保留业余拍摄与失准色彩",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-video-game",
+      "nameZh": "电子游戏视角",
+      "nameEn": "Video Game",
+      "category": "类型风格",
+      "effect": "跟随或等距镜头将空间化为关卡",
+      "reviewNotes": []
+    },
+    {
+      "id": "genre-looks-weirdcore",
+      "nameZh": "怪核",
+      "nameEn": "Weirdcore",
+      "category": "类型风格",
+      "effect": "低清早期网络美学制造诡异威胁",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-agamemnon",
+      "nameZh": "阿伽门农史诗风格",
+      "nameEn": "Agamemnon",
+      "category": "流行视觉风格",
+      "effect": "青铜血色暮光营造古典悲剧规模",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-ink-riot",
+      "nameZh": "墨色狂潮",
+      "nameEn": "Ink Riot",
+      "category": "流行视觉风格",
+      "effect": "液体中墨色爆开形成书法般冲击",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-fallen-angel",
+      "nameZh": "堕落天使",
+      "nameEn": "Fallen Angel",
+      "category": "流行视觉风格",
+      "effect": "教堂光线与残翼暗示神圣坠落",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-fairytale-castle",
+      "nameZh": "童话城堡",
+      "nameEn": "Fairytale Castle",
+      "category": "流行视觉风格",
+      "effect": "不可能的塔楼与暮光呈现绘本世界",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-comic",
+      "nameZh": "漫画",
+      "nameEn": "Comic",
+      "category": "流行视觉风格",
+      "effect": "墨线与网点让画面如动态漫画页",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-cold-vision",
+      "nameZh": "寒冷视觉",
+      "nameEn": "Cold Vision",
+      "category": "流行视觉风格",
+      "effect": "冰冷色调与热感轮廓突出威胁",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-casual-monster-slayer",
+      "nameZh": "日常屠怪者",
+      "nameEn": "Casual Monster Slayer",
+      "category": "流行视觉风格",
+      "effect": "普通衣着与屠龙场面形成冷面趣味",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-mighty-fighter",
+      "nameZh": "强力格斗英雄",
+      "nameEn": "Mighty Fighter",
+      "category": "流行视觉风格",
+      "effect": "夸张格斗姿态呈现街机宣传画感",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-canvas",
+      "nameZh": "画布油彩",
+      "nameEn": "Canvas",
+      "category": "流行视觉风格",
+      "effect": "保留面孔结构并显露油画笔触",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-pigeons",
+      "nameZh": "鸽群腾飞",
+      "nameEn": "Pigeons",
+      "category": "流行视觉风格",
+      "effect": "鸟群突然飞散又落定围住主体",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-superstar",
+      "nameZh": "超级明星",
+      "nameEn": "Superstar",
+      "category": "流行视觉风格",
+      "effect": "闪光灯与精致面孔营造明星气场",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-pearl-earring",
+      "nameZh": "珍珠耳环肖像",
+      "nameEn": "Pearl Earring",
+      "category": "流行视觉风格",
+      "effect": "维米尔式窗光照亮安静肖像",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-lsd",
+      "nameZh": "迷幻视觉（LSD）",
+      "nameEn": "LSD",
+      "category": "流行视觉风格",
+      "effect": "拖影与呼吸般墙面扭动稳定空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-blue-depth",
+      "nameZh": "蓝色纵深",
+      "nameEn": "Blue Depth",
+      "category": "流行视觉风格",
+      "effect": "层叠青蓝景物以渐变呈现距离",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-knights-diary",
+      "nameZh": "骑士日记",
+      "nameEn": "Knight's Diary",
+      "category": "流行视觉风格",
+      "effect": "泥泞铁甲与金色装饰还原古战纪事",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-2000s-paparazzi",
+      "nameZh": "2000年代狗仔摄影",
+      "nameEn": "2000s Paparazzi",
+      "category": "流行视觉风格",
+      "effect": "直打闪光与便携数码呈现街头偷拍",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-dolphin-ride",
+      "nameZh": "骑乘海豚",
+      "nameEn": "Dolphin Ride",
+      "category": "流行视觉风格",
+      "effect": "骑海豚穿越明亮海水制造奇景",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-multiverse",
+      "nameZh": "多重宇宙",
+      "nameEn": "Multiverse",
+      "category": "流行视觉风格",
+      "effect": "同一人物在不同平行世界中并列",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-skatedog",
+      "nameZh": "滑板萌犬街头感",
+      "nameEn": "Skatedog",
+      "category": "流行视觉风格",
+      "effect": "贴地广角呈现动物与滑板街头趣味",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-sketch",
+      "nameZh": "素描",
+      "nameEn": "Sketch",
+      "category": "流行视觉风格",
+      "effect": "纸张肌理与未完成排线留下手绘感",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-monet-muse",
+      "nameZh": "莫奈印象",
+      "nameEn": "Monet Muse",
+      "category": "流行视觉风格",
+      "effect": "碎色与点状水光营造印象派色调",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-akrill",
+      "nameZh": "丙烯厚涂",
+      "nameEn": "Akrill",
+      "category": "流行视觉风格",
+      "effect": "浓厚亮丽颜料呈现湿润塑形质感",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-magazine",
+      "nameZh": "杂志封面",
+      "nameEn": "Magazine",
+      "category": "流行视觉风格",
+      "effect": "时尚布光与刊头留白构成封面",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-lost-in-a-book",
+      "nameZh": "坠入书中",
+      "nameEn": "Lost in a Book",
+      "category": "流行视觉风格",
+      "effect": "读者进入插画书页变成立体房间",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-penguin-ride",
+      "nameZh": "骑乘企鹅",
+      "nameEn": "Penguin Ride",
+      "category": "流行视觉风格",
+      "effect": "一本正经骑企鹅制造荒诞笑料",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-3d-render",
+      "nameZh": "三维渲染",
+      "nameEn": "3D Render",
+      "category": "流行视觉风格",
+      "effect": "以干净光照与材质呈现电脑造型",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-action-figure",
+      "nameZh": "可动人偶",
+      "nameEn": "Action Figure",
+      "category": "流行视觉风格",
+      "effect": "塑料关节与玩具布光将人物人偶化",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-orbital-presence",
+      "nameZh": "轨道悬浮",
+      "nameEn": "Orbital Presence",
+      "category": "流行视觉风格",
+      "effect": "人物悬于行星上空凸显巨大尺度",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-acid",
+      "nameZh": "酸蚀影像",
+      "nameEn": "Acid",
+      "category": "流行视觉风格",
+      "effect": "烧灼色彩与融化边缘呈现损坏感",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-noir",
+      "nameZh": "黑色风格",
+      "nameEn": "Noir",
+      "category": "流行视觉风格",
+      "effect": "湿街与百叶窗阴影暗示犯罪",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-race-track",
+      "nameZh": "赛道世界",
+      "nameEn": "Race Track",
+      "category": "流行视觉风格",
+      "effect": "椭圆赛道与看台围出循环速度感",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-flash-comic",
+      "nameZh": "闪光漫画",
+      "nameEn": "Flash Comic",
+      "category": "流行视觉风格",
+      "effect": "漫画墨线叠加闪光灯的瞬间冲击",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-paper",
+      "nameZh": "纸艺世界",
+      "nameEn": "Paper",
+      "category": "流行视觉风格",
+      "effect": "撕裂纸材与纤维将人物化为剪纸",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-random-glow",
+      "nameZh": "随机辉光",
+      "nameEn": "Random Glow",
+      "category": "流行视觉风格",
+      "effect": "无来源光球与漏光点缀画面",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-toxic",
+      "nameZh": "毒雾",
+      "nameEn": "Toxic",
+      "category": "流行视觉风格",
+      "effect": "病态绿黄烟霾让毒性变得可见",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-broken-mirror",
+      "nameZh": "碎镜",
+      "nameEn": "Broken Mirror",
+      "category": "流行视觉风格",
+      "effect": "银色碎片映出彼此错位的同一面孔",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-hand-paint",
+      "nameZh": "手绘覆涂",
+      "nameEn": "Hand Paint",
+      "category": "流行视觉风格",
+      "effect": "湿润笔触覆盖影像保留手绘动作",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-lava",
+      "nameZh": "熔岩光影",
+      "nameEn": "Lava",
+      "category": "流行视觉风格",
+      "effect": "橙色裂隙从下方照亮黑色岩壳",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-marble",
+      "nameZh": "大理石雕像",
+      "nameEn": "Marble",
+      "category": "流行视觉风格",
+      "effect": "带纹石材与冰冷抛光取代肌肤",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-modern",
+      "nameZh": "现代建筑",
+      "nameEn": "Modern",
+      "category": "流行视觉风格",
+      "effect": "玻璃平面与设计留白突出空间",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-puffin-ride",
+      "nameZh": "骑乘海鹦",
+      "nameEn": "Puffin Ride",
+      "category": "流行视觉风格",
+      "effect": "骑着海鹦面对悬崖海浪制造笑料",
+      "reviewNotes": []
+    },
+    {
+      "id": "viral-looks-origami",
+      "nameZh": "折纸世界",
+      "nameEn": "Origami",
+      "category": "流行视觉风格",
+      "effect": "规则折痕与平面色块构成世界",
+      "reviewNotes": [
+        "原站此条静态配图未明显呈现折纸效果；此处保留原站主图片，建议结合文字和来源核对。"
+      ]
+    },
+    {
+      "id": "viral-looks-two-color",
+      "nameZh": "双色影像",
+      "nameEn": "Two Color",
+      "category": "流行视觉风格",
+      "effect": "只以两种色彩组织全部画面",
+      "reviewNotes": [
+        "原站该条提示词与技巧名称可能不一致，使用前请核对来源。"
+      ]
+    },
+    {
+      "id": "viral-looks-ultraviolet",
+      "nameZh": "紫外荧光",
+      "nameEn": "Ultraviolet",
+      "category": "流行视觉风格",
+      "effect": "黑光灯让白色与荧光颜色强烈发亮",
+      "reviewNotes": []
+    }
+  ],
+  "caseIndexFile": "case-index.json",
+  "ruleLibraryFile": "technique-rules.json",
+  "structuredRuleCount": 7
+}

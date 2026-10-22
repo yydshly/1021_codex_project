@@ -1,0 +1,3 @@
+# Preserve byte hashes of historical designs, exact inputs, and execution records.
+app/*.json -text whitespace=cr-at-eol
+app/production/*.json -text whitespace=cr-at-eol

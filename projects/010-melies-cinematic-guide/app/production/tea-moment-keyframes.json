@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "tea-moment-keyframes-r1",
+  "title": "《把片刻，留给自己》关键画面",
+  "status": "generated_key_images_only",
+  "videoStatus": "not_generated",
+  "generatedOn": "2026-10-22",
+  "designSource": {
+    "path": "app/direction-example.json",
+    "sha256": "a220cf77c473953b6ca74c28989b1f9618255496d33dd6f941fdb4205652f93a",
+    "state": "design_only_preserved"
+  },
+  "summary": "触到日常 → 端杯走向窗边 → 留住片刻。先用三张实际生成的静态画面检查可见姿态、空间和构图，再决定怎样制作视频。",
+  "executions": [
+    {
+      "id": "tea3-initial",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one cinematic storyboard key image for shot tea-3, \"Keep a Moment for Yourself\", a quiet everyday handmade ceramics short. Generate a single realistic widescreen 16:9 photograph, no panels, no captions.\nScene: an ordinary small lived-in tea room with a scuffed honey-colored wooden table at foreground left, light plaster walls, matte wood floor, and a single large wood-framed window across the room at background left/center. Still leafy greenery is visible outside. Soft diffuse daylight enters from this window on camera-left. This is the room for the whole short.\nSubject: one adult seen from behind, face fully hidden, wearing a plain dark charcoal-gray knitted sweater and muted dark trousers, short dark hair. The person has deliberately stopped a comfortable arm's distance from the window. Relaxed upright posture, no bowed head, no slumped shoulders. The right hand grips the single cup handle and the left palm supports the base, both held naturally in front of the lower chest; frame from a rear three-quarter angle far enough to show the room but enough around their right side to see the cup and both hands. No face even in reflection.\nCup identity: exactly one small squat handmade speckled ivory ceramic tea cup, rounded cylindrical body, unglazed narrow foot ring, one simple C-shaped handle on the person's right. One small cobalt-blue glazed dot marks the LOWER attachment of that handle to the cup body, not a logo or text. Cup partly filled with tea, level and upright. Ordinary everyday object, no saucer.\nComposition: medium-wide, person roughly center-right occupying about half the frame height, readable human presence rather than tiny lonely silhouette. Include the window and part of the same table, with a clear unobstructed short path from table to window. A natural paused moment, no showy pose. Natural 35mm photographic perspective, modest depth of field, readable room textures.\nIntent: the chosen pause feels available and unforced, with tactile human warmth from real materials and relaxed body posture. Soft neutral daylight, restrained contrast, realistic skin and knit texture, no dramatic amber grading, no luxury showroom, no melancholy, no fog or mist, no decorative clutter, no extra people, no duplicate cup, no visible face, no text or watermark.\nThis is a STILL composition reference for a future backward camera reveal; do not depict motion blur or imply an actual generated video.",
+      "inputImages": [],
+      "artifact": {
+        "file": "assets/generated/tea-moment/source/tea-3-initial.png",
+        "url": "generated/tea-moment/source/tea-3-initial.png",
+        "sha256": "46e1a2e36d0aa9650ea7c8e91842673cd9fb5f7514351df23b4eb3a543c54569",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-48f3b72b-bec3-4814-9eec-9f85a30846f6.png"
+      },
+      "disposition": "source_only_not_selected",
+      "observation": "房间、人物与托杯构图作为后续参考；杯身正面出现两个蓝点，且构图不足以作为后拉后的宽景，未选为最终展示。",
+      "tool": "image_gen",
+      "modelVersion": null,
+      "seed": null,
+      "requestOptions": {
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "tea3-mark-correction",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied tea-3 room photograph. Correct ONLY the cup's blue marking. Remove BOTH blue dots from the visible broad side of the cup completely, restore ivory speckled glaze there. Add exactly ONE very small cobalt-blue dot (about 3mm) on the cup body at the LOWER handle attachment, adjacent to where the bottom end of its C-shaped handle joins the body on the right. This is an unobtrusive identification mark, not a decoration on the front. Keep exactly one cup, the same squat rounded body, tea, right hand on handle and left hand supporting the base.\nPreserve all other content and composition: person from behind, dark gray knit, no face, hands, ordinary wooden tea table, same large left window, room furniture, greenery, perspective, soft daylight, realistic photo texture, full widescreen image. No text, watermark or motion blur.",
+      "inputImages": [
+        {
+          "executionId": "tea3-initial",
+          "role": "edit_target: 仅修正杯子的蓝点，其他场景保留",
+          "sha256": "46e1a2e36d0aa9650ea7c8e91842673cd9fb5f7514351df23b4eb3a543c54569"
+        }
+      ],
+      "artifact": {
+        "file": "assets/generated/tea-moment/source/room-and-person-reference.png",
+        "url": "generated/tea-moment/source/room-and-person-reference.png",
+        "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-20ee6d3b-b269-47e6-8eab-b2c03a035d4d.png"
+      },
+      "disposition": "world_person_reference_not_final_endpoint",
+      "observation": "杯身正面的蓝点已移除；把手根部被手遮挡，无法据此确认单个蓝点的位置。作为人物与房间参考，不当作动作过程或最终宽景。",
+      "tool": "image_gen",
+      "modelVersion": null,
+      "seed": null,
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-48f3b72b-bec3-4814-9eec-9f85a30846f6.png"
+        ]
+      }
+    },
+    {
+      "id": "tea1",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: single 16:9 photographic key image for shot tea-1, \"Touch the Everyday\".\nInput image 1 is a WORLD AND IDENTITY REFERENCE, not an edit canvas. Reframe the SAME ivory cup, SAME person's dark-gray sweater and skin, SAME scuffed honey wooden table and soft window light into a tight detail photograph. Do not show the whole reference room or copy its wide composition.\nScene/action: the cup rests flat on that wooden table. Exactly one visible RIGHT hand enters from frame right. The right index fingertip and thumb gently contact the top/outside of the single handle, unhurriedly, without lifting the cup. The hand has a plausible thumb and fingers, the contacts are visible without fingers passing through ceramic. The cup stays upright and fully supported by its foot ring on the table. No second hand, no saucer.\nCup identity: a small squat handmade speckled ivory ceramic cup with rounded cylindrical body, thin rim, narrow unglazed foot ring and one simple C handle on frame right. Partly filled with amber tea, tea level visible. Exactly ONE small cobalt-blue dot at the LOWER attachment of handle to cup body, about 3mm, clearly visible just beside the lower handle join. No other blue decorations, dots, text or logos. The dot must be on the cup's handle-base area, not in the middle of the broad cup face. The wide reference has hands hiding this join; this detail view must reveal it.\nFraming: tactile close detail, handle joint, thumb/index contact and blue dot all clearly readable at center/right. Cup/handle and hand fill the majority of the image. Keep the cup foot/table contact visible at bottom. A modest part of the cup rim and tea is visible; background table grain and window bokeh. Enough depth of field to read contact, dot and ceramic texture together, no extreme blur concealing the action.\nLighting: same natural soft daylight from camera-left, neutral restrained color, realistic skin, glaze and knit. Everyday used table, no theatrical spotlight, no luxury pedestal. This is a quiet moment of noticing touch, not a product display pose.\nNo extra cup or duplicate handle, no floating objects, no lifted cup, no face, no steam obscuring the grip, no captions or watermark, no motion blur. A STILL composition/action-state reference only, not a video.",
+      "inputImages": [
+        {
+          "executionId": "tea3-mark-correction",
+          "role": "world_and_identity_reference: 人物衣袖、皮肤、房间、杯子与木桌；不沿用宽景构图",
+          "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb"
+        }
+      ],
+      "artifact": {
+        "file": "assets/generated/tea-moment/tea-1-touch.png",
+        "url": "generated/tea-moment/tea-1-touch.png",
+        "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-e838937d-b605-4c60-8cad-521c603f968e.png"
+      },
+      "disposition": "selected_key_image",
+      "observation": "细节画面中一只右手指尖接触把手，杯底落桌；把手下连接处单一蓝点可见。",
+      "tool": "image_gen",
+      "modelVersion": null,
+      "seed": null,
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-20ee6d3b-b269-47e6-8eab-b2c03a035d4d.png"
+        ]
+      }
+    },
+    {
+      "id": "tea2",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: a single realistic 16:9 storyboard key image for shot tea-2, \"Toward the Window\". STILL reference of a mid-step carrying pose, not video.\nInput image 1 is the WORLD, PERSON AND ROOM reference: preserve this exact ordinary tea room, large wooden framed window along the left/front wall with leafy greenery, scuffed honey wooden table at foreground left, plain plaster wall, shelf/cabinet on right. Same adult from behind, short dark hair, dark charcoal knit sweater, dark trousers, no visible face. Same soft left window daylight.\nInput image 2 is the CUP DETAIL AND MATERIAL reference: preserve the same squat rounded speckled ivory cup, thin rim, narrow unglazed foot, ONE C handle, EXACTLY ONE little cobalt-blue dot at the LOWER handle attachment. No blue dot on the cup front. Preserve its ivory material and proportions. Image 2's tabletop finger-touch pose is NOT the pose in this new shot.\nNew action-state: the person is midway between the near end of the table and the same window, about one natural step farther back from the window than image 1. They are taking an ordinary unhurried step TOWARD that window, back to camera. Right hand grips the cup HANDLE continuously; left palm supports the BASE from below. Cup upright, level, partly filled with tea, in front of the lower chest. View from behind at the same gentle rear-three-quarter angle as image 1 so the cup and two distinct hand roles remain visible beside the torso. No hand on cup rim. No spill. Natural relaxed shoulders, no bowed head, not presenting the cup toward the camera.\nComposition: rear follow-shot composition from behind, person center-right, natural perspective. Show from head down to both feet on the wood floor so the one-step walking stance and ground contact can be judged. The destination window stays clearly ahead; table remains left/behind the person and a clear walkable route leads to the window. Keep the same window/shelf/table geography, do not mirror the room or put another window behind the camera. Person readable and prominent, not a tiny distant figure. Restrained everyday photography, realistic anatomy, plausible loose dark slippers or plain dark indoor footwear, no visible face or reflected face.\nIntended expression is simple purposeful companionship in a daily action, not urgency, sadness, an advertising runway pose or a dramatic hero entrance. No extra people, no duplicate or floating cup, no new decor, no text, watermark or motion blur. Do not turn the cup on the table from image 2 into a second cup in the room.",
+      "inputImages": [
+        {
+          "executionId": "tea3-mark-correction",
+          "role": "world_person_room_reference: 房间地理、人物、衣着、窗光",
+          "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb"
+        },
+        {
+          "executionId": "tea1",
+          "role": "cup_detail_reference: 杯型、斑点釉、把手下连接处单一蓝点；不复用桌面接触姿态",
+          "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b"
+        }
+      ],
+      "artifact": {
+        "file": "assets/generated/tea-moment/tea-2-walk.png",
+        "url": "generated/tea-moment/tea-2-walk.png",
+        "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-c18d3ccc-e4c1-4461-9f15-b36295a1afd2.png"
+      },
+      "disposition": "selected_key_image",
+      "observation": "背向人物、端杯与跨步姿态可见，目的地窗户在前，桌子在左；手部与蓝点的细节受尺度和遮挡限制。",
+      "tool": "image_gen",
+      "modelVersion": null,
+      "seed": null,
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-20ee6d3b-b269-47e6-8eab-b2c03a035d4d.png",
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-e838937d-b605-4c60-8cad-521c603f968e.png"
+        ]
+      }
+    },
+    {
+      "id": "tea3-wide",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: single 16:9 photographic ENDPOINT composition reference for shot tea-3, \"Keep the Moment\". It represents the WIDER end of a future backward camera reveal, not actual video.\nInput image 1 is the same room/person identity reference, showing the paused cup-holding pose at the window. Input image 2 is the walking composition from the previous shot. Preserve their room geography, person, window, table and cup. Change only the framing distance and stopped pose as specified.\nIMPORTANT FRAMING CHANGE: place the camera noticeably farther back into the SAME room, farther back than image 2, using a natural fixed 35mm view. Show the whole person including head AND both feet, substantially smaller than in image 2, about 60 percent of the picture height. Their head is around the upper third, feet near the lower edge. This must feel like a room-wide composition with a readable person, not a waist-up portrait. Include the scuffed wooden table and chair prominently at foreground left, clear floor between table and window, the same cabinet/shelf at right. Do not invent another room or relocate furnishings.\nAction-state: this is AFTER the walk, now stopped close to the same window. Both feet are naturally planted on the floor, relaxed evenly balanced stance, soft shoulders, upright head, no walking stride, no slumping. SAME adult seen from behind with no visible face or reflection, short dark hair, dark gray knit and dark trousers, dark indoor slippers. Right hand stays on the same single ivory cup handle, left palm supports cup base, cup steady at lower chest in front of the body. Maintain a gentle rear-three-quarter view so both hand roles can still be read beside the torso. Partly filled tea, no spill.\nSame small squat speckled ivory cup with narrow unglazed foot and ONE C handle. Exactly ONE cobalt-blue dot at LOWER handle attachment, not on broad cup face. Do not add a new dot on the front if the attachment is hidden by fingers; occlusion is acceptable.\nThe person looks out at ordinary green leaves in daylight, a chosen comfortable pause. Keep the room bright with detail in shadows and human presence readable, neither a tiny isolated silhouette nor a dramatic lonely figure. Natural soft left daylight, neutral restrained photo color, real wood and knit textures.\nNo extra people, no new objects, no second cup, no saucer, no visible face, no graphic text or watermark, no motion blur. Preserve the used everyday room, no luxury or stage lighting. A still key image only.",
+      "inputImages": [
+        {
+          "executionId": "tea3-mark-correction",
+          "role": "world_person_reference: 同一房间、人物与窗边托杯姿态",
+          "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb"
+        },
+        {
+          "executionId": "tea2",
+          "role": "preceding_shot_composition_reference: 从步行状态变为停止，并把机位后移、景别放宽",
+          "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a"
+        }
+      ],
+      "artifact": {
+        "file": "assets/generated/tea-moment/tea-3-pause.png",
+        "url": "generated/tea-moment/tea-3-pause.png",
+        "sha256": "4f4c26a11ca125ade5c1b4c61304916a7ea9f08cbf189727107e5d184a13bc4a",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-ed19abbe-96e6-4df2-bec2-98dcfce463bb.png"
+      },
+      "disposition": "selected_key_image",
+      "observation": "人物双脚落地、窗边托杯；画面比步行图露出更多桌面、地板和房间。静态图没有证明真实后拉或停顿时长。",
+      "tool": "image_gen",
+      "modelVersion": null,
+      "seed": null,
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-20ee6d3b-b269-47e6-8eab-b2c03a035d4d.png",
+          "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-c18d3ccc-e4c1-4461-9f15-b36295a1afd2.png"
+        ]
+      }
+    }
+  ],
+  "frames": [
+    {
+      "shotId": "tea-1",
+      "executionId": "tea1",
+      "url": "generated/tea-moment/tea-1-touch.png",
+      "width": 1672,
+      "height": 941,
+      "title": "触到日常",
+      "alt": "右手指尖接触米白斑点陶杯的右侧把手，杯底落在木桌，把手下连接处有一个蓝点",
+      "intent": "从指尖与陶杯的接触，让注意力落到日常触感。",
+      "observation": "细节画面中一只右手指尖接触把手，杯底落桌；把手下连接处单一蓝点可见。",
+      "remaining": "本图是接触后的状态；未展示手指靠近过程。景别仍包含完整杯子，是否足够突出触感需要看片；视频需避免杯底浮起或手指穿模。"
+    },
+    {
+      "shotId": "tea-2",
+      "executionId": "tea2",
+      "url": "generated/tea-moment/tea-2-walk.png",
+      "width": 1672,
+      "height": 941,
+      "title": "走向窗边",
+      "alt": "深灰针织衣人物背向镜头，双手端着杯子跨步走向前方窗户，木桌在左",
+      "intent": "跟随一个有明确目的地的简单行动。",
+      "observation": "背向人物、端杯与跨步姿态可见，目的地窗户在前，桌子在左；手部与蓝点的细节受尺度和遮挡限制。",
+      "remaining": "人物实际偏右，与原分镜的偏左构图有差异；制作视频前应统一取舍。单张跨步姿态不能证明连续两步、脚底接触与停稳；还需核对全程持杯、茶水和路线。"
+    },
+    {
+      "shotId": "tea-3",
+      "executionId": "tea3-wide",
+      "url": "generated/tea-moment/tea-3-pause.png",
+      "width": 1672,
+      "height": 941,
+      "title": "留住片刻",
+      "alt": "同一人物双脚落地停在窗边托杯，宽景露出左侧木桌、地板、窗户和右侧柜子",
+      "intent": "让主动停留和空间展开，留下为自己留出片刻的余味。",
+      "observation": "人物双脚落地、窗边托杯；画面比步行图露出更多桌面、地板和房间。静态图没有证明真实后拉或停顿时长。",
+      "remaining": "只是宽景终态；后拉开端、真实机位后移和两秒停顿尚未制作。窗边独处仍可能被读成孤独，需要实际观看反馈。"
+    }
+  ],
+  "review": {
+    "type": "assistant_static_image_observation",
+    "basis": "inspected_generated_images",
+    "audienceFeedback": null,
+    "videoObservation": null,
+    "soundObservation": null,
+    "limits": [
+      "只检查了生成的静态图，未生成陶器视频。",
+      "杯型、衣着和房间呈现可关联的外观；未证明三维空间精确连续或模型稳定复现。",
+      "中远景把手蓝点和手部接触存在遮挡，不能由身份图替代逐帧检查。",
+      "没有取得用户对这组三图的感受反馈，不把模型的视觉判断当作情绪命中。",
+      "实际静态图有较明显日照与暖木色，未严格保持原设计的柔和漫射光；不把暖色当作安静情绪已经成立。"
+    ]
+  },
+  "reuseNotes": [
+    {
+      "status": "observed_in_this_still_run",
+      "lesson": "同一身份参考仍会把小标记画成多个或放错位置；先看细节再复用。",
+      "evidenceExecutionIds": [
+        "tea3-initial",
+        "tea3-mark-correction",
+        "tea1"
+      ],
+      "limit": "定向修改去掉了正面蓝点，但远景中下连接处被手遮挡；不能据此证明全片标记一致。"
+    },
+    {
+      "status": "observed_in_this_still_run",
+      "lesson": "场景身份参考和最终构图应分开；窗边的近景参考不等于后拉后的宽景。",
+      "evidenceExecutionIds": [
+        "tea3-mark-correction",
+        "tea3-wide"
+      ],
+      "limit": "已得到更宽的静态终态，真实后拉路径与空间连续性尚未生成验证。"
+    },
+    {
+      "status": "planned_video_check",
+      "lesson": "把触杯、端杯行走与停留分镜，分别检查接触、路径和停止后的持杯状态。",
+      "evidenceExecutionIds": [],
+      "limit": "这仍是未来视频的检查计划，静态参考不能证明动作或情绪效果。"
+    }
+  ]
+}

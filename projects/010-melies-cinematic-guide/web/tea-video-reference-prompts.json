@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "tea-moment-video-reference-r1",
+  "generatedOn": "2026-10-22",
+  "tool": "image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "executions": [
+    {
+      "id": "tea1Before",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied ceramic cup detail photograph. Make the FIRST FRAME immediately BEFORE the gentle finger touch in the planned shot.\nChange ONLY the right hand position: translate the same relaxed right hand slightly toward frame right so BOTH thumb and index fingertip are separated from the handle by a clearly visible small air gap (about 1–2 cm). Neither fingertip touches ceramic yet. Keep a plausible ordinary hand, thumb and index softly poised to reach the top of the handle, other fingers naturally curled, same skin and dark-gray knit sleeve. This is preparation for a small movement toward the handle, NOT holding or lifting.\nLock everything else: identical single speckled ivory ceramic cup, C handle on frame right, EXACTLY ONE cobalt-blue dot at the LOWER handle attachment, same tea level, same cup position, cup foot entirely resting on same tabletop. Preserve exact camera, framing, perspective, light, table grain and blurred wooden window background. No second cup, no new fingers or second hand, no cup rotation, no text, no steam, no motion blur. Keep the full 16:9 photograph. This is a still first-frame reference, not video.",
+      "inputImage": {
+        "file": "assets/generated/tea-moment/tea-1-touch.png",
+        "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b",
+        "role": "edit_target"
+      },
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "F:/codex_project/1021_codex_project/projects/010-melies-cinematic-guide/assets/generated/tea-moment/tea-1-touch.png"
+        ]
+      },
+      "artifact": {
+        "file": "assets/generated/tea-moment/video-reference/tea-1-before.png",
+        "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-1-before.png",
+        "sha256": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-c316eda5-8a13-45ac-b74d-a870456acc09.png"
+      }
+    },
+    {
+      "id": "tea2Stop",
+      "prompt": "Use case: precise-object-edit. The supplied photograph is the START composition reference of a rear follow shot. Produce one matching END FRAME a short moment later, after this person takes two short natural steps toward the same window and STOPS.\nSame adult seen from behind, short dark hair, same dark gray knitted sweater, dark trousers and dark slippers, NO face. Move the person a small natural distance closer to the window, stopping comfortably in front of it, without entering the wall or window. BOTH feet now planted on the floor in a comfortable balanced stance, no trailing raised heel, no crossing legs. Upright easy posture, no slump, head looks out at greenery.\nHands KEEP their original roles: RIGHT hand on the single cup HANDLE, LEFT palm underneath the BASE, same cup upright at lower chest. Preserve the single speckled ivory cup and tea; one small blue dot belongs ONLY at the lower handle join, may be naturally hidden by grip; do not put blue markings on the broad cup face. No drinking, raising cup, turning back, second cup or additional gesture.\nCamera continuity: rear camera has advanced forward with the person at approximately constant distance. Keep a full-body rear-three-quarter view, person similar apparent height and same screen-right position as in the supplied start image. Show both feet. The destination window gets modestly closer/larger as the camera follows, with plausible perspective; no orbit, zoom, reversal or side switch. Preserve the same left window, exterior green leaves, left table and chair, right cabinet and wall, same natural daylight and realistic materials. Keep the route clear. Widescreen 16:9 still photograph, no motion blur, no text or watermark.",
+      "inputImage": {
+        "file": "assets/generated/tea-moment/tea-2-walk.png",
+        "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a",
+        "role": "edit_target"
+      },
+      "requestOptions": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "F:/codex_project/1021_codex_project/projects/010-melies-cinematic-guide/assets/generated/tea-moment/tea-2-walk.png"
+        ]
+      },
+      "artifact": {
+        "file": "assets/generated/tea-moment/video-reference/tea-2-stop.png",
+        "url": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-2-stop.png",
+        "sha256": "5b7ea5b1cf372652229e325b8598029047a0fe0cbc3ad931d49e0570def8377f",
+        "width": 1672,
+        "height": 941,
+        "originalFileName": "exec-b6fd2cf8-e012-4dbb-82c6-d580452e4af5.png"
+      }
+    }
+  ],
+  "review": {
+    "basis": "inspected_static_outputs",
+    "observations": [
+      "触杯起始图有指尖与杯柄间的可见空隙，杯子位置、蓝点和桌面关系保留。",
+      "停步图双脚落地、人物端杯；背景近似原步行图，未体现跟拍机位前移，因此仅用于停止姿态，不用作锁定跟拍终点。"
+    ],
+    "limits": [
+      "这两张图没有验证连续动作、运镜或情绪效果。",
+      "未验证杯子细微尺寸和三维空间精确一致。"
+    ]
+  }
+}

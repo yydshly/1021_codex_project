@@ -1,0 +1,283 @@
+{
+  "id": "book-repair",
+  "title": "让故事，继续",
+  "recordedAt": "2026-10-22",
+  "tags": [
+    "旧书修复",
+    "手工",
+    "物品交还",
+    "照料",
+    "延续",
+    "微距偏差",
+    "手与道具接触",
+    "对象重复",
+    "体积光",
+    "留白",
+    "跨镜一致性",
+    "首版复盘",
+    "动作逻辑",
+    "穿针位置",
+    "合书方向",
+    "开合轴"
+  ],
+  "goal": {
+    "product": "虚构旧书修复工作室；一本靛蓝布面旧书，前封面右下角有小块浅米色补布。",
+    "audience": "珍惜书籍、手工与旧物的人；为创作设定，未做受众测试。",
+    "communicationGoal": "通过刷拭、穿针、合书与交还的事件，把旧物被细致照料、故事得以继续的关系表达出来。",
+    "intendedEmotion": "担心旧书的脆弱 → 看到劳动与照料 → 安心接回旧书；属于意图，未验证观众是否如此感受。",
+    "coreMessage": "让故事，继续。",
+    "constraints": [
+      "18 秒、16:9、4 镜",
+      "同一旧书、左侧晨光与木台",
+      "以亚麻袖口与灰色毛衣袖口区分修复者和读者，不拍脸",
+      "每镜一个主要动作，摄影机固定",
+      "微距、克制的窗光与浮尘、末镜右侧约 40% 留白",
+      "无魔法瞬间修复、无森林雨景，片名后期加入"
+    ],
+    "successCriteria": [
+      "书脊纤维与刷头接触能在微距中读清",
+      "针线穿过既有装订孔，只有一本书，手与孔稳定",
+      "合书时双手与封面的接触连贯，光束由真实窗光和少量散射介质支持",
+      "交还动作与两人的袖口身份可读",
+      "文字不遮动作，不能仅凭提示词宣称右侧留白比例达标"
+    ]
+  },
+  "review": {
+    "status": "one_run_qualitative_review",
+    "sampleSize": 1,
+    "summary": "四镜已生成并剪成 18 秒首版，旧书质感与交还关系可见；动作逻辑未通过复核：穿针作用位置与方案不符，疑似叠书；合书方向与可见书脊的开合轴关系不一致。这些是内容正确性问题，需优先于景别、体积光和留白的美化修正。原片保留，未重新生成。",
+    "effectiveParts": [
+      "四镜按刷拭、穿针、合书、交还排列；排列顺序可辨不等于动作内部或跨镜逻辑正确。",
+      "靛蓝布面、浅米色补布与木台 / 左侧窗光提供了反复出现的视觉线索；不等于书的结构完全一致。",
+      "末镜亚麻袖口与灰色毛衣袖口区分两人，约 2 秒后共同托书停留，交还关系可读。",
+      "依据真实画面将片名放在右上墙面，没有遮住主要手部动作；文字由后期制作。"
+    ],
+    "evidenceBasis": "四段原始素材完整解码和尺寸 / 时长 / 帧率测量；查看 0.1 秒、逐秒和尾帧抽帧，并检查关键细节原尺寸帧；网页播放与成片检查。视觉结论为本次定性观察。",
+    "limits": [
+      "一套方案、一次执行；四个镜头不是四次独立复现实验，没有成功率或跨模型结论。",
+      "单张合书身份参考与多镜沿用整本书构图同时出现，但未隔离参考模式、文字或模型因素，不能断言唯一原因。",
+      "没有完成逐帧拓扑、光学或留白百分比的量测，不保证手、线、孔与反射等物理正确。",
+      "音轨存在，已做技术解码与后期响度处理，但未进行听感、内容或声画同步验收，不能声称无音乐 / 无人声要求已全部实现。",
+      "未做观众情绪、传播效果或真实修书工艺正确性验证；短片不是修复教学。",
+      "候选构图图、首帧、接触点与留白改法均未再次生成，不可升级为已验证改进。"
+    ],
+    "logicPriority": "先验收物体结构、动作作用位置、转轴与动作前后状态，再评价叙事表达与镜头呈现。仅为人工审片原则，不是网页的自动物理校验。",
+    "recheckNote": "用户指出穿针位置、合书方向问题后，重新查看原始时间抽帧。此前合书复盘只强调接触不连续，遗漏了开合轴；本次补记，不改写实际输入或原片。"
+  },
+  "shotReviews": [
+    {
+      "shotId": "book-1",
+      "intent": "先通过材料的脆弱与一次轻刷，引起对旧书的注意。",
+      "selectionReason": "微距原本用于读清纸纤维和刷头接触；固定机位避免细节被额外运动分散。",
+      "outcome": "partially_met",
+      "observedEffect": "靛蓝旧书、米色补布、亚麻袖口和左侧窗光可见；约 1–4.8 秒手持小刷在封面刷拭，旧物身份线索保留。",
+      "problems": [
+        "画面仍包含整本书和较多工作台，未达到书脊纸纤维的微距尺度。",
+        "刷子主要扫向封面，包含多个短刷拭动作，没有严格沿磨损书脊轻刷一次。"
+      ],
+      "causeAssessment": "单张整本书参考的构图在结果中保留较强，但未做隔离实验，不能确定是参考模式、文字约束还是模型执行导致。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "另备只包含书脊接触区的专用构图参考，将身份图与镜头构图区分；先只测试景别与刷头落点。",
+        "promptRole": "下一轮替换机位和动作范围的候选片段，未生成验证。",
+        "promptZh": "使用专用书脊近距构图：画面只含一小段磨损书脊、纸纤维与刷头，不展示整本封面。刷头从书脊左端到右端轻扫一次后停住，不扫封面，不往返。保持接触点在焦内。",
+        "promptEn": "Use a dedicated tight spine framing reference: show only a small frayed spine section, paper fibers and brush tip, not the entire cover. Make one gentle brush pass from the left end of this spine section to the right and stop. Do not brush the cover or move back and forth. Keep the contact point in focus.",
+        "check": "先核对景别是否真正排除整本书，再比较刷头路径、接触点与动作次数；不能以整体质感好代替微距达标。"
+      }
+    },
+    {
+      "shotId": "book-2",
+      "intent": "用一次针线劳动，让照料成为可见动作，而非瞬间修复。",
+      "selectionReason": "微距应读清针尖、线与已有装订孔的接触；将动作缩为一次穿孔，避免塞入完整修书流程。",
+      "outcome": "partially_met",
+      "observedEffect": "约 0–4 秒针靠近并下移到纸页上的点位，约 5–9 秒手提针线；亚麻袖口、旧纸和工作台可见，动作集中在一次下移与提线。",
+      "problems": [
+        "打开的书页与独立书壳看起来叠在一册合上的靛蓝旧书上，出现重复对象 / 结构不一致，不能确认是同一本书的正常打开状态。",
+        "本方案要求针穿书脊既有装订孔，实际针尖却落在打开页片偏外侧的点位，与目标作用位置不符；不能以出现针线和上下动作就判为装订成立。",
+        "画面仍含完整手和较大书体，没有达到针尖—孔—线的极近微距尺度。"
+      ],
+      "causeAssessment": "原身份图是合书状态，文字要求改成开书和穿针；本次输出同时保留合书身份并添加开书结构。这是可见偏差与可能相关的输入条件，不是已证实原因。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "先画清单一书体与书脊装订孔的位置关系，准备孔位可辨的起始参考；只测试同一孔上的一次穿针，先验收作用位置和书体结构，再考虑微距效果。",
+        "promptRole": "候选对象数量、起始状态与接触约束，必须配合新的真实输入参考，不当作本轮历史输入。",
+        "promptZh": "画面中只有一本书，其已打开的书帖位于软书托上，下面没有合上的第二本书或额外书壳。近距构图显示书脊处一个已存在的装订孔，针尖在孔的入口外，单根线与针相连。只完成从该入口穿过到另一侧的一个动作；孔、纸与手的相对位置保持稳定。",
+        "promptEn": "Show exactly one book, its open section supported on a soft cradle, with no second closed book or extra cover underneath. A tight view shows one existing binding hole at the spine. The needle tip begins just outside its entrance, attached to one continuous thread. Perform only one pass through that entrance to the other side, keeping hole, paper and hand positions stable.",
+        "check": "先核对书体数量、书脊、目标孔与针的相对位置；再逐帧核对入口、出口和线的连续性。这里检验本方案的空间关系，不把候选描述当作专业修复工艺证明。"
+      },
+      "logicReview": {
+        "assessment": "not_passed",
+        "label": "动作逻辑未通过",
+        "basis": "assistant_visual_recheck_after_user_feedback",
+        "userFeedback": "穿针的位置不对。",
+        "expected": "按本方案预设，针应作用于同一本书书脊处既有装订孔；入口、出口与线的走向要能对应。不是泛化断言所有书籍装订都使用同一工艺。",
+        "observed": "针尖落在页片上的点位，打开的页块与下方合书形成疑似叠书结构，目标修复部位和书体关系没有成立。",
+        "check": "先确认只有一个书体、书脊和目标孔，再检查针入口—出口—线是否围绕同一孔连续，最后检查动作是否真的改变目标部位。",
+        "evidenceFrames": [
+          {
+            "image": "generated/book-repair/evidence/needle-4s.jpg",
+            "sourceSeconds": 4,
+            "filmSeconds": 7.5,
+            "caption": "原片 4.00 秒 / 成片 7.50 秒：针落点与疑似叠书结构。"
+          }
+        ]
+      }
+    },
+    {
+      "shotId": "book-3",
+      "intent": "从局部回到工作空间，给照料一个完成并停留的时刻。",
+      "selectionReason": "用窗光和极少纸尘组织真实空间层次，让光服从合书动作。",
+      "outcome": "partially_met",
+      "observedEffect": "原片 0.1 秒为展开状态，约 1 秒远侧封面 / 页片竖起，约 2 秒落下成为合书，之后停留；书脊、开合方向与封面归属没有保持可信关系，不能只按“从开到合”认定动作成立。",
+      "problems": [
+        "可见书脊仍在左侧，但封面 / 页片从远侧竖起再落下，旋转轴与书脊的空间关系不一致，表现为开合方向和书体结构矛盾；不是单纯手部接触不够清楚。",
+        "约 1 秒双手已大部分离开，之后书页继续合拢，双手与书页的接触点没有持续清楚呈现。",
+        "自然窗光明显，但明确成束的体积光不突出，不能把普通窗光视为体积光规则已充分实现。"
+      ],
+      "causeAssessment": "此前审片遗漏了开合轴，只描述手离开与继续合拢；本次依据可见书脊和前后帧补记空间逻辑矛盾。具体生成原因仍未做隔离验证。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "优先修正书体结构与合书轴：先准备同一本书展开、半合、闭合三种一致状态的参考，确认连接边不变，再约束双手驱动和释放顺序；保持既有光线，不同时追求更强光束。",
+        "promptRole": "候选书体与开合轴约束，尚未生成验证；轴由具体书脊决定，不用固定画面左右代替物体坐标。",
+        "promptZh": "先沿参考明确同一本书的书脊、固定封面、移动封面及连接边。保持书脊和页块在台面上的位置与朝向不变，移动封面只绕该书脊连接轴合拢；其自由边沿同一圆弧回到页块上，不从另一条边另起转轴，不把整本书翻转。手持续接触并驱动该封面，合稳后再停住。保留原有柔和左侧窗光。",
+        "promptEn": "Use the reference to identify the single book spine, fixed cover, moving cover and connected edge. Keep the spine and page block fixed in position and orientation on the table. Close the moving cover only about that same spine hinge; its free edge follows one continuous arc onto the page block. Do not create a second hinge at another edge or flip the whole book. The hand remains in contact and drives the cover until it rests closed, then pauses. Retain the same soft window light from the left.",
+        "check": "先对照展开、半合、闭合三帧的同一书脊与连接边，核对轴、自由边路径及补布所在封面，再检查施力接触和停留。不能只看最终出现一本合上的书。"
+      },
+      "logicReview": {
+        "assessment": "not_passed",
+        "label": "动作逻辑未通过",
+        "basis": "assistant_visual_recheck_after_user_feedback",
+        "userFeedback": "合书的方向不对。",
+        "expected": "先确定这本书的书脊和封面连接边；封面应围绕同一连接轴合拢，固定侧、书脊和页块不能在动作中换边或另生转轴。",
+        "observed": "左侧仍可见书脊结构，远侧板状封面 / 页片却竖起再落下，连接轴与移动方向关系不一致；约 1 秒后手部接触也不持续可读。",
+        "check": "对照展开、半合、合拢三帧，追踪同一书脊、封面连接边、自由边和补布；核对旋转轴、手施力方向与最终封面朝向能否连续解释。",
+        "evidenceFrames": [
+          {
+            "image": "generated/book-repair/evidence/closure-0_1s.jpg",
+            "sourceSeconds": 0.1,
+            "filmSeconds": 10.1,
+            "caption": "原片 0.10 秒 / 成片 10.10 秒：展开状态与可见书脊。"
+          },
+          {
+            "image": "generated/book-repair/evidence/closure-1s.jpg",
+            "sourceSeconds": 1,
+            "filmSeconds": 11,
+            "caption": "原片 1.00 秒 / 成片 11.00 秒：远侧板状封面 / 页片竖起。"
+          },
+          {
+            "image": "generated/book-repair/evidence/closure-2s.jpg",
+            "sourceSeconds": 2,
+            "filmSeconds": 12,
+            "caption": "原片 2.00 秒 / 成片 12.00 秒：落下后的书脊与封面关系。"
+          }
+        ]
+      }
+    },
+    {
+      "shotId": "book-4",
+      "intent": "把修复完成转为人与人的交还，让故事继续的关系可见。",
+      "selectionReason": "原设计把交还放在左侧，并用右侧约 40% 留白给后期片名；不依赖生成文字。",
+      "outcome": "partially_met",
+      "observedEffect": "约 0.1–2 秒旧书从亚麻袖衣修复者移动到灰色毛衣袖口读者双手之间，约 2 秒后双方共同托书停留，两人的袖口身份和交还动作可读。",
+      "problems": [
+        "手臂和交还动作占据画面中央及右侧，未形成要求的右侧约 40% 全高干净区域。",
+        "片名移到实际空出的右上墙面；这属于后期适配，不证明模型实现了指定留白比例。"
+      ],
+      "causeAssessment": "共同托书与自然接书路径保留，但文字指定的区域没有约束全部运动范围。未做动作路径 / 构图参考对照，不能确定仅增加比例描述就能解决。",
+      "nextAttempt": {
+        "status": "proposed_unverified",
+        "action": "生成前先设计两人从画面左侧完成交接的构图，验证整段手臂运动都不进入右侧文案框；保留可读的袖口区分和共同托书停留。",
+        "promptRole": "新的布局与运动范围候选，未重新生成。",
+        "promptZh": "先用明确构图参考限定：书和两人的全部前臂、手掌，在整个交还过程中都保持于画面左侧六成区域；读者也从左侧或左后方接书。右侧四成文案区域在动作开始、接触和停留时都保持清空。保留亚麻袖口与灰色毛衣袖口，不生成片名。",
+        "promptEn": "Use an explicit framing reference: throughout the handover, keep the book and both people's entire forearms and hands within the left sixty percent of frame; the reader receives it from the left or rear-left. Keep the right forty percent title area clear at the start, contact and final pause. Retain linen sleeves and gray wool cuffs; generate no title.",
+        "check": "检查整段运动的范围，而非只看某个静止帧；叠加实际片名框后查看侵入和对比度，量取后再声称百分比达标。"
+      }
+    }
+  ],
+  "reusePatterns": [
+    {
+      "id": "hands-as-characters",
+      "title": "用袖口和交接动作表达两人关系",
+      "whenToUse": "手工、维修或物品交还故事，不需要露脸时。",
+      "retain": "用可辨袖口区分角色，在交接后共同托住物品并停留。",
+      "adapt": "替换物品、工艺、袖口与交付关系，不照抄旧书。",
+      "evidenceShotIds": [
+        "book-4"
+      ],
+      "evidenceLevel": "handover_visually_observed_in_one_run",
+      "limit": "本次交还关系可读；是否让观众感到被珍视未测试，其他物品需另验手与道具接触。"
+    },
+    {
+      "id": "identity-is-not-framing",
+      "title": "把身份一致与构图、对象结构分开验收",
+      "whenToUse": "同一道具跨开合状态、景别或操作镜头出现时。",
+      "retain": "保留身份图和文字锚点，但分别检查物体数量、开合状态、机位与细节尺度。",
+      "adapt": "可用于工具、包装、衣物或其他需要操作的道具；专用构图 / 起始状态参考是待测试改法。",
+      "evidenceShotIds": [
+        "book-1",
+        "book-2",
+        "book-3"
+      ],
+      "evidenceLevel": "advice_from_one_run_with_framing_and_structure_failures",
+      "limit": "本次颜色与材质线索较一致，并未保证微距或单一书体；专用参考的改法尚未生成验证。"
+    },
+    {
+      "id": "contact-before-style",
+      "title": "先检查动作位置、连接轴与状态变化",
+      "whenToUse": "穿针、合拢、开门、开盖等动作必须依赖物体结构时。",
+      "retain": "先明确同一物体的结构、动作作用点、固定部分与转轴，再检查施力、运动路径和前后状态；最后评价景别与风格。",
+      "adapt": "按新物体重建连接关系，例如门铰链、盒盖或其他操作部位，不照抄画面左右或书本工艺。",
+      "evidenceShotIds": [
+        "book-2",
+        "book-3"
+      ],
+      "evidenceLevel": "failure_derived_checklist_not_validated_prompt_fix",
+      "limit": "本次穿针落点与合书轴关系存在偏差；该检查方法来自单次失败观察，候选新参考与提示词未再次生成。"
+    },
+    {
+      "id": "title-space-through-motion",
+      "title": "文案空间要覆盖整段运动",
+      "whenToUse": "交接、人物移动或动作镜头还要容纳片名时。",
+      "retain": "先检查主体与所有手臂的运动范围，再使用实际文案框判断可读位置；保留无字原片。",
+      "adapt": "可以重新设计动作布局，也可在首版后期使用实际空出的区域，但要记录偏离原构图。",
+      "evidenceShotIds": [
+        "book-4"
+      ],
+      "evidenceLevel": "post_layout_adapted_after_negative_space_failure",
+      "limit": "本次右上片名可放置不等于右侧 40% 留白实现；新布局建议未生成验证。"
+    }
+  ],
+  "modelUse": {
+    "retrieveWhen": [
+      "需要手工、修复、照料、交还的动作故事",
+      "需要理解统一参考图未能解决微距、开合状态与对象重复的情况",
+      "需要人与道具接触、实际运动文案区的检查标准"
+    ],
+    "workflow": [
+      "先读取本次目标、原分镜和技巧理由，再看原始素材与逐镜实际输入。",
+      "优先读取 book-2、book-3 的 logicReview 和证据帧；把动作作用位置、书体数量、开合轴及前后状态作为内容正确性检查，不能用镜头术语或最终姿态代替。",
+      "保留可读的交还关系、角色袖口和身份线索，明确微距、结构、接触、留白未充分达标。",
+      "围绕新简报重写对象、事件与节奏，引用 book-repair 及真实技巧 ID；不要照搬旧书情节。",
+      "新改法先选一项变量，准备对应参考并列验收方法，标记为尚未验证。",
+      "新生成另记执行与结果，不把这次一个样本推广为稳定能力。"
+    ],
+    "doNotAssume": [
+      "拿着针不等于穿过正确装订孔；材质相似不等于同一本书结构正确。",
+      "出现“穿针”“合书”的外观不等于动作逻辑成立；更换光线、景别或剪辑不能自动修复错误落点、连接轴和运动方向。",
+      "原设计稿的未生成状态是设计阶段历史，实际执行记录单独保存。",
+      "不能将后期排字归为模型生成文字能力，也不能把右上可放片名说成右侧 40% 留白达标。",
+      "不因增加更多相机和风格术语而忽视动作接触与事件关系。",
+      "实际英文、对应中文译文、原因假设、观察和候选修正分别使用。"
+    ]
+  },
+  "result": {
+    "status": "completed_with_design_deviations",
+    "video": "generated/book-repair/let-the-story-continue.mp4",
+    "poster": "generated/book-repair/poster.jpg",
+    "duration": 18,
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "24/1",
+    "costNote": "估算 600 点；服务返回三段各 150 点、一段 300 点，合计 750 点。生成前后查询余额未变化，实际扣费未确认，返回字段不作为已核销账单。参考图由内置 image_gen 生成，未提交 ChatArt 图片付费任务。"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tea-1": {
+    "sourceStart": 0,
+    "duration": 5,
+    "reason": "保留完整触碰、停顿；不调速掩盖动作。"
+  },
+  "tea-2": {
+    "sourceStart": 0,
+    "duration": 5,
+    "reason": "完整保留行走、停步与仍在推进的机位，偏差在复盘明确。"
+  },
+  "tea-3": {
+    "sourceStart": 0,
+    "duration": 5,
+    "reason": "完整保留后拉及额外行走的真实结果，不以定格冒充生成的停留。"
+  }
+}

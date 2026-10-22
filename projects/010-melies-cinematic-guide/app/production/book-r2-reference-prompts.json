@@ -1,0 +1,65 @@
+{
+  "provider": "built-in image_gen",
+  "modelVersion": "not returned",
+  "seed": "not returned",
+  "status": "completed_and_visually_reviewed",
+  "references": [
+    {
+      "name": "needle-first.png",
+      "role": "first_frame",
+      "prompt": "Use case: ads-marketing. Asset: photorealistic 16:9 FIRST FRAME for a quiet book-repair film. Input image 1 is ONLY the identity/material/light reference, NOT a pose to copy.\nCreate a new tight close-up of ONE small aged indigo clothbound book, already open in a shallow V on a neutral linen cradle, on this wooden worktable. The book is a single connected object: left and right page blocks meet at ONE central folded gutter, covers beneath their respective page blocks, nothing stacked underneath. Soft morning light from left, plain linen-sleeved adult hands, no face. Camera almost above the open gutter, sufficiently close to see one small PRE-EXISTING sewing hole exactly on the CENTER FOLD of one paper section along the spine. This is the hole to stitch; the paper's outside edge must be visibly far from it. The left hand steadies the section well clear of the hole. The right hand holds a single slender needle with a single beige thread through its eye, needle tip just at this existing gutter hole, poised to pass through. Needle, hole, paper fold and thread are readable together, sufficient depth of field. One needle only. Keep most palms outside central contact area. The blue covers may be only partly visible at the outside frame edges. No closed blue book below, no second book, no loose extra page stack, no needle through page fore-edge or fingers. Realistic restrained paper fibers, believable anatomy. No typography, diagrams, labels, logos or magic. Landscape 16:9, intended 2048x1152.",
+      "input": "assets/generated/book-repair/reference/book-reference.png",
+      "path": "assets/generated/book-repair-r2/reference/needle-first.png",
+      "sha256": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599",
+      "actualResolution": [
+        1672,
+        941
+      ],
+      "inputSha256": "cddcfd08b0253ab26319b87048c71151be921d2f2faacbaeede95c58937b5151"
+    },
+    {
+      "name": "needle-last.png",
+      "role": "end_frame",
+      "prompt": "Use case: precise-object-edit. Edit image1 into the END FRAME of a single needle-insertion motion. Keep the very same single open indigo book, center gutter geometry, pre-existing binding holes, linen cradle, left hand, camera, light, materials and framing. Change ONLY the right hand and needle's progress: the SAME needle is now pushed about half its length THROUGH the SAME center-fold hole directly beneath its original tip. The visible metal shaft is shorter as its lower length has disappeared into that existing fold hole, not into a new hole or a finger. Right thumb and forefinger move closer to the hole while holding the remaining upper needle. The one connected beige thread follows the needle eye with a natural loose curve; no new thread or duplicate needle. This endpoint is the insertion phase only; do NOT invent an exposed underside or show a completed sewing process. Keep the center-fold hole/contact visible, palms not covering it. Keep all page edges, covers, support and left hand where they were. Photorealistic same shot, 16:9. No labels or text.",
+      "input": "assets/generated/book-repair-r2/reference/needle-first.png",
+      "path": "assets/generated/book-repair-r2/reference/needle-last.png",
+      "sha256": "236e32d7c83cb4262a09532ae51dbd009847da02fd081cde8dc5229d550b7456",
+      "actualResolution": [
+        1672,
+        941
+      ],
+      "inputSha256": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599"
+    },
+    {
+      "name": "closure-first.png",
+      "role": "first_frame",
+      "prompt": "Use case: ads-marketing. Asset: photorealistic 16:9 FIRST FRAME for the book-closing shot of a quiet repair film. Image1 is identity/material/light reference. Keep this same small old indigo clothbound book, beige rectangular patch at lower-right frontcover corner, yellowed pageblock, worn LEFT long spine, wooden worktable and soft morning left windowlight.\nNew pose: a single book lying with its BACK COVER flat on the table and its entire pageblock resting flat on the back cover. The FRONT COVER alone is raised only about 30 degrees above the pageblock, rotating on the LEFT LONG SPINE HINGE. Clearly show that raised cover still attached along the full left long edge of the pageblock; no other pivot. The open gap is on the RIGHT fore-edge. The beige patch is on the raised front cover near its lower-right free corner. Camera looking diagonally down from front-right, see the worn left spine connection and right-side triangular open gap in one shot; book fills most of frame. One linen-sleeved hand steadies the left spine on the table, another linen-sleeved hand places fingertips on top of the raised cover's RIGHT FREE EDGE, poised to gently lower it. Hands anatomically plausible, no faces. The cover is ONE rigid rectangular board, not a bending paper leaf. Nothing else moves, no extra book, no pageblock lifting, no second cover on top, no top-edge hinge. Natural paper texture, muted indigo, tactile intimate documentary photography, enough depth of field for hinge and cover. No text, labels, diagrams or logos. Landscape16:9, intended2048x1152.",
+      "input": "assets/generated/book-repair/reference/book-reference.png",
+      "path": "assets/generated/book-repair-r2/reference/closure-first.png",
+      "sha256": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2",
+      "actualResolution": [
+        1672,
+        941
+      ],
+      "inputSha256": "cddcfd08b0253ab26319b87048c71151be921d2f2faacbaeede95c58937b5151"
+    },
+    {
+      "name": "closure-last.png",
+      "role": "end_frame",
+      "prompt": "Use case: precise-object-edit. Edit image1 into the END FRAME of this book-closing motion. Change ONLY the raised FRONT COVER and following right fingertips: lower the same rigid blue front cover about its existing LEFT LONG SPINE HINGE until it lies fully flat on this same stationary pageblock. The right free edge comes down to meet the pageblock right fore-edge. Same beige rectangular patch stays at same lower-right corner ON the same frontcover. The left spine, backcover, pageblock, left hand, table, camera, light and framing stay fixed. Right fingertips follow the same free edge down and stay gently touching the now-closed cover near the patch. No whole-book translation or flip, no rotation at the far short edge, no new cover, no extra book, no bent board. Closed-book geometry physically plausible, final cover outline aligns with pageblock. Same realistic photograph, 16:9, no text or labels.",
+      "input": "assets/generated/book-repair-r2/reference/closure-first.png",
+      "path": "assets/generated/book-repair-r2/reference/closure-last.png",
+      "sha256": "405993e81e6bb497b985afef4646253f7b918f7f854e3194a12f0b2c0cea04a3",
+      "actualResolution": [
+        1672,
+        941
+      ],
+      "inputSha256": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2"
+    }
+  ],
+  "observations": [
+    "穿针首尾参考均为一本打开的书，针尖在中央折缝既有孔；尾帧只示意插入进度，下侧不可见。",
+    "合书首尾参考有同一左侧长书脊、抬起与放平的同一前封面、固定页块和对应补布。",
+    "这是生成动作参考，不是实拍工艺证据；连续运动仍需实际视频检查。"
+  ]
+}

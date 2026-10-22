@@ -1,0 +1,3394 @@
+[
+  {
+    "name": "Slow Zoom In",
+    "path": "camera-movement/slow-zoom-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b2e33f60da8eb47aa67984a5d967c7243cbbf925d073325e9823fdd1fc044ed9"
+  },
+  {
+    "name": "Slow Zoom Out",
+    "path": "camera-movement/slow-zoom-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4e0f0837748684e3f6465650e01a81ad01c2b34d7af5160c140eba4cda137776"
+  },
+  {
+    "name": "Crash Zoom In",
+    "path": "camera-movement/crash-zoom-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "866882a1ca3b77248f5db90fed970dd285aac35637a93209355bfeb25b896bc1"
+  },
+  {
+    "name": "Crash Zoom Out",
+    "path": "camera-movement/crash-zoom-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "798ea1b074d33333925c395272128b461072e66d8cff0acbf9fb20a6345c5481"
+  },
+  {
+    "name": "Dolly In",
+    "path": "camera-movement/dolly-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "14adb9057aac77da7c3dad40f61897a40d25ea1a23f3b052b6980b1a8a57c4e3"
+  },
+  {
+    "name": "Dolly Out",
+    "path": "camera-movement/dolly-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8a27fc01667818a9114a502960df611a89e40057dc150315398e2052247069f6"
+  },
+  {
+    "name": "Dolly Left",
+    "path": "camera-movement/dolly-left",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7286b2f3ced6c6c4d46a79deaf870e1f4c86355e4d28d0dcfaedbdd42b55acb9"
+  },
+  {
+    "name": "Dolly Right",
+    "path": "camera-movement/dolly-right",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "2ef96b6ca8d31d95dab2e9f489e6a0f870c629449c836fa2c5ccecc7cc42dfd3"
+  },
+  {
+    "name": "Pan Left",
+    "path": "camera-movement/pan-left",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fdaa150263179b65ef714892850a4886af7758feb09ac3ce0478dce5356f26d5"
+  },
+  {
+    "name": "Pan Right",
+    "path": "camera-movement/pan-right",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "eed5adf0a7f78eb075c0ff37c978de8f109e4b9be5858952405a4bf59ce3a976"
+  },
+  {
+    "name": "Tilt Up",
+    "path": "camera-movement/tilt-up",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7075e0d6f4f1ea66e46fd8a98db52631d9ec737227a68d3db8dc6d95524297af"
+  },
+  {
+    "name": "Tilt Down",
+    "path": "camera-movement/tilt-down",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "821cfba120b9d938f6c19e6de7ba4b9510b5f1debfaa5426299cac134de23c2c"
+  },
+  {
+    "name": "Whip Pan",
+    "path": "camera-movement/whip-pan",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "2a9f7265f0a1d6fdeaaa14f2f418ef90e2ee741d886f5c23115f9c9bbc3c6513"
+  },
+  {
+    "name": "Whip Tilt",
+    "path": "camera-movement/whip-tilt",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "40b0ec222dda8a264f38d1b902e41eedf7fa07055d33467886d951e5619ed2a6"
+  },
+  {
+    "name": "Pedestal Up",
+    "path": "camera-movement/pedestal-up",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5e0c8775f85ad6986a78ac0ca845834d6e40e819f0e3964f8d673189cc6c1e42"
+  },
+  {
+    "name": "Pedestal Down",
+    "path": "camera-movement/pedestal-down",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d8b2e850a191561a61a4103e7df9ca2ecd83987fd343cfe8a6e700e43d9c07ba"
+  },
+  {
+    "name": "Crane Up",
+    "path": "camera-movement/crane-up",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ba75a8c1f921a1f379814b384b4f08992845c022832783859fbda2b71ffa736d"
+  },
+  {
+    "name": "Crane Down",
+    "path": "camera-movement/crane-down",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "bb56d4c56262b31adf98a78da0f2aff9d935d761f9fe048335fa63116c293a61"
+  },
+  {
+    "name": "Crane Over",
+    "path": "camera-movement/crane-over",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "af321f9d14f4783e92249212faf63fec21d8f92acea69b9f9ab7831a161ea204"
+  },
+  {
+    "name": "Jib Shot",
+    "path": "camera-movement/jib",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "35d43ca2d18ed5c6a2785e849aaf9fce1b85e2f48ee83eb0b009f4ca54ea2714"
+  },
+  {
+    "name": "360-Degree Orbit",
+    "path": "camera-movement/orbit-360",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "18c6a0069f8f64b57153046fd2b21758172a98c825b9e98785bf3d04aeb68ab3"
+  },
+  {
+    "name": "Arc Left",
+    "path": "camera-movement/arc-left",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0c527cf376e4f3a632490d7d4792d78103b8aa901d0371d7f4c145f14fa2bd2a"
+  },
+  {
+    "name": "Arc Right",
+    "path": "camera-movement/arc-right",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "133637e71cfc84f675bf84673ea837cf2286413c5fbb13f31c45e445f5c8e07b"
+  },
+  {
+    "name": "Tracking Shot",
+    "path": "camera-movement/tracking",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d7794fd27d1dc0ce7b65f7d5a2b3bf0a7b39a4287a29b888627d6074800eb11e"
+  },
+  {
+    "name": "Follow Shot",
+    "path": "camera-movement/follow",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "20dbf9e7188d1cdbcd0a1fc9a0d7db8d8aadf556328d59e01e7ebe31db37acad"
+  },
+  {
+    "name": "Steadicam",
+    "path": "camera-movement/steadicam",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "42773255157240420cc0653aef7bdf900ff5876e7af9d861053bf684f6aa7774"
+  },
+  {
+    "name": "Handheld",
+    "path": "camera-movement/handheld",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ccfc4369726bff81f8d56abb118de2acb34cedff8770020a4fb99aa4989881c1"
+  },
+  {
+    "name": "Gimbal Shot",
+    "path": "camera-movement/gimbal",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cb48bb58ba9bad857d4b9073786e133a21338356f994f20516178dbc222b24bb"
+  },
+  {
+    "name": "FPV Drone",
+    "path": "camera-movement/fpv-drone",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fc4c563c7ff83f0ad97261c6473b1834caaf10f025a51953f41a395d76a79c38"
+  },
+  {
+    "name": "Aerial Pullback",
+    "path": "camera-movement/aerial-pullback",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "19961f32eb4919d02d944f285886d63dd05cf482a4503ee360461c6b82cfeb08"
+  },
+  {
+    "name": "Aerial Push In",
+    "path": "camera-movement/aerial-push",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c2b83e6833e3562b371ee77f0781213a0ebeefaebf6f9d95dc57bb2d7a4c4c5a"
+  },
+  {
+    "name": "Push In",
+    "path": "camera-movement/push-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e6289b7e1e758dea5d3cf18ddbd6daca5a1fc38fcbc23e4b3dcd91a53f0c64ca"
+  },
+  {
+    "name": "Pull Out",
+    "path": "camera-movement/pull-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ce8101450341f2b7d9acfe104c7224b6cf29024068df9597eb874333298b97bb"
+  },
+  {
+    "name": "Static Locked-Off",
+    "path": "camera-movement/static",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "04c849d5977f58c50cec080171bcd926792c2989405814fe2b2d1ce4e50078e8"
+  },
+  {
+    "name": "Dolly Zoom",
+    "path": "camera-movement/dolly-zoom",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "466167c2cdf341010e7aa5ff1da435cfc04402b4befb1c8ec90e5d6a3ef06f5f"
+  },
+  {
+    "name": "Dutch Roll",
+    "path": "camera-movement/dutch-roll",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d56ee7317fb178aebd3d6bc4ccadaf4a164f591010999581b61d92c0b797d588"
+  },
+  {
+    "name": "Camera Roll",
+    "path": "camera-movement/camera-roll",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4d48cb468fcf253caa08b0f9212217db678a8a141a04d25885c00d731f687860"
+  },
+  {
+    "name": "Double Dolly",
+    "path": "camera-movement/double-dolly",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5fd4d75eb6bddd6af838e4a70386e8ba1584ae8588d7c81d16f7063fc3161f1f"
+  },
+  {
+    "name": "SnorriCam",
+    "path": "camera-movement/snorricam",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ff869750961c60d2b9bce5911356caabddc32eb69dc7936e6fbea6cae859e03e"
+  },
+  {
+    "name": "Locked-On",
+    "path": "camera-movement/locked-on",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0fff8ea9e1bda0c055066bf0f73a796c433ffec59c731f604f8552d149fc47c7"
+  },
+  {
+    "name": "Walk and Talk",
+    "path": "camera-movement/walk-and-talk",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "2f2610dd46f058f46c62e5e6ebb7607bcb003938a27a9cb98dbee73f949f7ca6"
+  },
+  {
+    "name": "Hyperlapse",
+    "path": "camera-movement/hyperlapse",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f99cea57a420916ae8e8f4e5f5db964d48524a424ead34f485f894a166b35b6f"
+  },
+  {
+    "name": "Slider Shot",
+    "path": "camera-movement/slider",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "84959b7e47b119931a1f6d15b5b104e6b521fd1cda5b9563cb0c65b27f722806"
+  },
+  {
+    "name": "Lazy Susan",
+    "path": "camera-movement/lazy-susan",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1bc470681790942ea62b0d390c712c53784b0d05bc0f787f5f52014eb5e02a06"
+  },
+  {
+    "name": "Bolt Cam",
+    "path": "camera-movement/bolt-cam",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d06d1d80a3dca74c08dc468c70315313dd9e6043547ee2b0616e2f0a1f8b9b6b"
+  },
+  {
+    "name": "Aerial",
+    "path": "camera-movement/aerial",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e4b7d453830f29dc0e968b9174c1da9b4257acf96565df76e6d77ab0288a6aca"
+  },
+  {
+    "name": "Arc",
+    "path": "camera-movement/arc",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "144df5b8e974a7698b9e561d8a5842dc7b489b6082179cd789dd1a70ea4810c5"
+  },
+  {
+    "name": "Choreo",
+    "path": "camera-movement/choreo",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1d659ed57abed417dd26baedafbfb8d6a9fe403c0e965d68155d538047f8b7e0"
+  },
+  {
+    "name": "Conveyor",
+    "path": "camera-movement/conveyor",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7010fd0b93f1f1905a3f57a19b1662fdf96c3d783033a1c4f20ac3bcc6791b3a"
+  },
+  {
+    "name": "Dolly",
+    "path": "camera-movement/dolly",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dcd66dfcf753e9e604fd9e711fa160a3a880c8e219887bc351c02506f416feb1"
+  },
+  {
+    "name": "Falling",
+    "path": "camera-movement/falling",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "72371f3b3b30f29d8dbb8988156ec79d19ad504353be7bd85213b16e6cf6ebef"
+  },
+  {
+    "name": "Fixed Cam",
+    "path": "camera-movement/fixed-cam",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "77cffca1bd62eb32f0a1668c358b57def7b0d7f32c0c239d27349aff0f484221"
+  },
+  {
+    "name": "Omnidirectional",
+    "path": "camera-movement/omnidirectional",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "617e307463772fac36b68f24010b86b2287e8dedfc1abd71ddc6d5294a2f9006"
+  },
+  {
+    "name": "Pan",
+    "path": "camera-movement/pan",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8fde41a546294c55e6529c56fd5ba4f46a031c3c33489608bc60c23140931963"
+  },
+  {
+    "name": "Parallax",
+    "path": "camera-movement/parallax",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9d74b9b038a5fba08761909f5fb8b233f089a3c5a42a5b2f0f7851ce05a64520"
+  },
+  {
+    "name": "Pass Through",
+    "path": "camera-movement/pass-through",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "87782db3aa7b8b8c8c6fa0056f22c2c516ff65409f3666c399477aeb53cd567e"
+  },
+  {
+    "name": "Tilt",
+    "path": "camera-movement/tilt",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1a945e0cb7854d3aac0d1bf94313ae6402e02bc6392c9a4ab011ad7567fbafaa"
+  },
+  {
+    "name": "Trucking",
+    "path": "camera-movement/trucking",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f44c2f162d444021bb5529d0a225e2f1dfa3bfd863077af57b2c24ddbf4a570d"
+  },
+  {
+    "name": "Wandering",
+    "path": "camera-movement/wandering",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d8d7bd86ee9a7dfba8d4bf9673216c3ab082d31b05f481bf463766d4a1f020d0"
+  },
+  {
+    "name": "Zoom",
+    "path": "camera-movement/zoom",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0997e9c9cb43242aa2520b3ac701bc2892a4ea6ac038e6444b6405fc2f5b008f"
+  },
+  {
+    "name": "Eyes In",
+    "path": "camera-movement/eyes-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0230451ea349a621c8224f5099998f0ad1e419a6055ffab8c7cc9612e644709c"
+  },
+  {
+    "name": "Mouth In",
+    "path": "camera-movement/mouth-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "227353de50847fe7928537cb07ac8dd520580599daaaacf2de9fc7d9571bf1fd"
+  },
+  {
+    "name": "Eating Zoom",
+    "path": "camera-movement/eating-zoom",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c3b898101c3b9e5a8e6f5bf4c8b4bf0efee499bb021aa438104b13681f692d3e"
+  },
+  {
+    "name": "Buckle Up",
+    "path": "camera-movement/buckle-up",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8199f1a4a1e6e6d2dc5ab4f21d5dc423d9e3b53a00386eb525ee22945ad437d1"
+  },
+  {
+    "name": "Car Chasing",
+    "path": "camera-movement/car-chasing",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0843175e1132dd6ce1db8f2a1fb5633a5796363578c29bba64d285a427b08a9b"
+  },
+  {
+    "name": "Car Grip",
+    "path": "camera-movement/car-grip",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f53382be45a4e489040ae670868560675b80830cc266ca52070eea038904ee9b"
+  },
+  {
+    "name": "Road Rush",
+    "path": "camera-movement/road-rush",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "52de18565eb3f6d2d362a5fb2cd923eca0c794cc585a813d5c927203c53d3456"
+  },
+  {
+    "name": "Flying Cam Transition",
+    "path": "camera-movement/flying-cam-transition",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "028690487131163a626249c92119e30663ee1b4d463df57c845ed487f7d71270"
+  },
+  {
+    "name": "Through Object In",
+    "path": "camera-movement/through-object-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "179a212b6548ebd4985dadfd13b63f0576664ef0104b387feaf0d5ee69d27f5d"
+  },
+  {
+    "name": "Through Object Out",
+    "path": "camera-movement/through-object-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "585c9f391ef0543d0d462259d683897ef6af2e6e163aae55ec23632b917e80c3"
+  },
+  {
+    "name": "Super Dolly In",
+    "path": "camera-movement/super-dolly-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "21de140006da7612007f32921c5729ae886384d7317ec1ca2567844e455c64eb"
+  },
+  {
+    "name": "Super Dolly Out",
+    "path": "camera-movement/super-dolly-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c4233b319437f81371b3c0c0517ea75b70294ed89f25c26d2493d695981a2560"
+  },
+  {
+    "name": "Dolly Zoom In",
+    "path": "camera-movement/dolly-zoom-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "bfbf31d298f6c82a38d0b336605eb2b1d66bae5aa5f1eb1bad2568e227788ff5"
+  },
+  {
+    "name": "Dolly Zoom Out",
+    "path": "camera-movement/dolly-zoom-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b544f406e77f1dbcf62c103979139eee7986b12fca0a77d3d8b3675c3a5363c0"
+  },
+  {
+    "name": "YoYo Zoom",
+    "path": "camera-movement/yoyo-zoom",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e48a15d80a232298366f8b5eb7f4edadafd09383a99988574cec3368001b0e1e"
+  },
+  {
+    "name": "Rapid Zoom In",
+    "path": "camera-movement/rapid-zoom-in",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8a42f08ac43fcdf23318e755a0b59ce3489468fd71c0b8e1574e31962d2cb3f0"
+  },
+  {
+    "name": "Rapid Zoom Out",
+    "path": "camera-movement/rapid-zoom-out",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c543f224e1f93ad61b36c14521f7721105e6cc98ce602296a324561167059c25"
+  },
+  {
+    "name": "Head Tracking",
+    "path": "camera-movement/head-tracking",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "06c41ef837c0c88b09851e3c1b2139d55099eddf319b5075cf05c90bb36de093"
+  },
+  {
+    "name": "Hero Cam",
+    "path": "camera-movement/hero-cam",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "85c9feecd378aef84be65b1917e57046967406d643fd7918bf861c7b8a1d9907"
+  },
+  {
+    "name": "Robo Arm",
+    "path": "camera-movement/robo-arm",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "17c6d3fdb0b6d3c23d261596d046412ba18d1cfc422a1ec33a9f9359ffbc0ffd"
+  },
+  {
+    "name": "Wiggle",
+    "path": "camera-movement/wiggle",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b03aee5ec5761a21d1c2e467a9988b54e54a2378f5ac2d8406908ae0eaa4ba39"
+  },
+  {
+    "name": "3D Rotation",
+    "path": "camera-movement/3d-rotation",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fbeaef0ff227e9721fee4dc0d6b8ac52deaecc7035d2c27be73997be2c6ee797"
+  },
+  {
+    "name": "Crane Over The Head",
+    "path": "camera-movement/crane-over-the-head",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3a371ff2ce60bae1d89ebc2ad0b35cbc79a7ec53df4b3177a5026960e9348454"
+  },
+  {
+    "name": "Earth Zoom",
+    "path": "camera-movement/earth-zoom",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "383fc56ba315f3c690e1de69eeb37d558f74d9845865dea6852a73c2b091f0fd"
+  },
+  {
+    "name": "Jib Down",
+    "path": "camera-movement/jib-down",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "eabe2acba08fbf1f839b8f41d9bc002a151ecb1087f2f83285c35242606592ac"
+  },
+  {
+    "name": "Jib Up",
+    "path": "camera-movement/jib-up",
+    "group": "Camera Movement",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "650828af046cd17403b87cb062b3981f79b62cc689df535103b1426ea11ced1b"
+  },
+  {
+    "name": "Extreme Close-Up",
+    "path": "framing/extreme-close-up",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7b79a24b93bd8286e5027bf541ce7f49f0a4f8d08b26bebab3ec370dbd9509eb"
+  },
+  {
+    "name": "Choker Shot",
+    "path": "framing/choker",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f4b5ac0691fe4fe4480c4cfdf57636f147690c9bc66af0f6efe31aefb03a03f6"
+  },
+  {
+    "name": "Close-Up",
+    "path": "framing/close-up",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5dbca808a4cdbe2129c2073c1794b7014a48f54479ba9011d92f89fed7014324"
+  },
+  {
+    "name": "Medium Close-Up",
+    "path": "framing/medium-close-up",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "32cf4c8faabff0a528d84b07a5f79967bbd6fb1e2cc5fb8369ca6f539bfdd0ce"
+  },
+  {
+    "name": "Medium Shot",
+    "path": "framing/medium-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dfa8df63f7bc053b409fa44f114de43b606aab767ab5d6b42a48bf9175cd4e73"
+  },
+  {
+    "name": "Cowboy Shot",
+    "path": "framing/cowboy-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cc5bd0def9123f0562220b6d31a1ebae12163b29ba0b18c2521d50d89687c593"
+  },
+  {
+    "name": "Full Body",
+    "path": "framing/full-body",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1325942c8de21bfc3752ea53584fb0b0a854b2ce61353709253d332f652eedd8"
+  },
+  {
+    "name": "Long Shot",
+    "path": "framing/long-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "880f753647604846f08f2b48c1c8333a03cf52590744b437e0e79fe3cc591ddf"
+  },
+  {
+    "name": "Extreme Long Shot",
+    "path": "framing/extreme-long-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7e3c2eceb2374bbc19877ee881a5db6a28031e96e1e62d2259b06565eab80c9b"
+  },
+  {
+    "name": "Establishing Shot",
+    "path": "framing/establishing-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5ad14cdea615579f6850af01d8b97741546d910cb4c85008ad09373698fdfdf5"
+  },
+  {
+    "name": "Master Shot",
+    "path": "framing/master-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "734cc6321d9a8a96694332a7d00f0791e003fa7c212e1377188b788f1d41bde6"
+  },
+  {
+    "name": "Two-Shot",
+    "path": "framing/two-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "891b09a15d7fd4d9be12a9b2f1a85e1fe3f1914b87b8300149170c8eff205a3b"
+  },
+  {
+    "name": "Three-Shot",
+    "path": "framing/three-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "15fd488eb583659bc3e0c4f8ebcbf133b0940d59628671802587453afdf74da7"
+  },
+  {
+    "name": "Group Shot",
+    "path": "framing/group-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5025515fa282ba08bf4441b5ac444892e7da4260ab5038b05cba75c4af3c8f44"
+  },
+  {
+    "name": "Insert Shot",
+    "path": "framing/insert",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "307cb1d2c6b84070bcbe70f4350486e7c162e305b31554119978e5bc5ba97805"
+  },
+  {
+    "name": "Cutaway",
+    "path": "framing/cutaway",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6589ee2821150825cf677f10c95cfe0bc695c6f8f2f1ad97e1d93034d8816d6d"
+  },
+  {
+    "name": "Reaction Shot",
+    "path": "framing/reaction-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "878dbb012513e4d8d51e84062c09685b8e086061b14154aa7a080085122a598a"
+  },
+  {
+    "name": "Over-the-Shoulder Coverage",
+    "path": "framing/over-the-shoulder-frame",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f958c5306c9ed5d6cda175586b41e75c5b03fdc688d62c6654d1f14f93abec53"
+  },
+  {
+    "name": "Single",
+    "path": "framing/single",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "00ded741fe396d30dfdf3481c8da2f721de794c037876ac8bee2539b18f8f389"
+  },
+  {
+    "name": "Cut-ins",
+    "path": "framing/cut-ins",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "96ec3745c78d3af701882057bba13f80a3d167bd36f64f92b80df6b56c41573c"
+  },
+  {
+    "name": "Gesture",
+    "path": "framing/gesture",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "865228148e90732a33de18978fa3c88c55a33c84f3d6938ec80b11d64da250ea"
+  },
+  {
+    "name": "Interview",
+    "path": "framing/interview",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b6db0f7c0025f4f6b7f5ee2399e09c03e1614af9b0859e1117f9aef1710c53e3"
+  },
+  {
+    "name": "Product",
+    "path": "framing/product",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "45ff5f9093d59645da5bee4bb0942e1690c462e0949c96b307030cceab5f7f58"
+  },
+  {
+    "name": "Video Portraits",
+    "path": "framing/video-portraits",
+    "group": "Framing and Shot Size",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "92ad2dcd8a86ecdaf8f5b0bd7858ba9a33c0da9fb9813d062f1bba3d3692f635"
+  },
+  {
+    "name": "Wide Shot",
+    "path": "framing/wide-shot",
+    "group": "Framing and Shot Size",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e4fcfcc827879bacb49d43c52289b11d3fdcd62d6149b9ce82476ce4e0cb3cff"
+  },
+  {
+    "name": "Eye Level",
+    "path": "camera-angles/eye-level",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a9e040479927a4c76e46d416c5cf4bc6b72d239ed97e9a79df054d2682deb00c"
+  },
+  {
+    "name": "High Angle",
+    "path": "camera-angles/high-angle",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d6dbda941c6afd30cc5ccb3336d0dc0e2ad80b0dff790d4463c70482a0ef5a81"
+  },
+  {
+    "name": "Low Angle",
+    "path": "camera-angles/low-angle",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "65161ca02c002fb0c555dadceef3615ee69f7e17376e7ef011e9e91fcb80a1e4"
+  },
+  {
+    "name": "Bird's-Eye View",
+    "path": "camera-angles/birds-eye",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "06a88d187dfd59247ce33dbbfb8d6ea82ef2c6209ea084f0b2bd959fb6447298"
+  },
+  {
+    "name": "Worm's-Eye View",
+    "path": "camera-angles/worms-eye",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6bb022c39eadd39d53713c2d8f4801b78f09ba7dbfa6a89eb76aec10b395d8d4"
+  },
+  {
+    "name": "Overhead Top-Down",
+    "path": "camera-angles/overhead",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c6e5e6028cff75feddc1fc076ae7739fede1d860e64838cda533ef31d6604bf5"
+  },
+  {
+    "name": "Ground Level",
+    "path": "camera-angles/ground-level",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3700f6c34db3c67d7fa653b0189c7b1733cb78e49f768c41327c691b3901469d"
+  },
+  {
+    "name": "Dutch Angle",
+    "path": "camera-angles/dutch-angle",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d5f6d1b87802261f8dc870c1253a00b2945ff94878a2e4cbdb50af3c37266fb0"
+  },
+  {
+    "name": "Point of View",
+    "path": "camera-angles/pov",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d38460e105e3bba3ca566ed569c9706106f2b4c7b62c767792958d6975e7a43e"
+  },
+  {
+    "name": "Profile",
+    "path": "camera-angles/profile",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e8760ea030c5d64ebe23527d836e8863bab28f9f8bfb7ce23f5b099d46710275"
+  },
+  {
+    "name": "Three-Quarter Angle",
+    "path": "camera-angles/three-quarter",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "de219a479338b747478bde6a396f2ed24ea768e4c4bce15563a92939c726b2ee"
+  },
+  {
+    "name": "Reverse Angle",
+    "path": "camera-angles/reverse-angle",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0979621ce90dc80660822a524987d79e94f5bd7c2eded4085f6ead8625e9904e"
+  },
+  {
+    "name": "Trunk Shot",
+    "path": "camera-angles/trunk-shot",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6d8215da294bace5fac9a79a25870146a596d13387e95989775e1b9e600866fb"
+  },
+  {
+    "name": "Hip Level",
+    "path": "camera-angles/hip-level",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "53817319b2f892e2bb449ca52b6e4fb7428f592f156ea0bfd178dd507c6a718d"
+  },
+  {
+    "name": "Shoulder Level",
+    "path": "camera-angles/shoulder-level",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "57014008a9dd165b4765075e08aa808d83d316bfa4f8a390ebcc4e2278ca1afd"
+  },
+  {
+    "name": "First-Person",
+    "path": "camera-angles/first-person",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9b450c08567ae567958d9d60d85a02cf52c6e64673b8b95a4c5e7a8dffd1749a"
+  },
+  {
+    "name": "Fourth Wall",
+    "path": "camera-angles/fourth-wall",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9bc00406184b998f9d230213127f84fc76b8980c2b27e1d784caa53a268688ed"
+  },
+  {
+    "name": "Object POV",
+    "path": "camera-angles/object-pov",
+    "group": "Camera Angles",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6759f548286c960fe61cc647f72a23908fb7a6fc0378dd01c5c155929c2e2c7a"
+  },
+  {
+    "name": "Incline",
+    "path": "camera-angles/incline",
+    "group": "Camera Angles",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d47d88d9bbd2a86bdf7baed6f449276f6720566d9ccc74f51d84c4425a2731af"
+  },
+  {
+    "name": "Three-Point Lighting",
+    "path": "lighting/three-point-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1848a87d3a631358a20d048c4d4335c1a4e360e2fb1d0091ca64dd87c9fa6ef3"
+  },
+  {
+    "name": "Key Light",
+    "path": "lighting/key-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3486fafe14d1b9fd8d9702fe9754f41a6d7cb884968fde38047063781145b745"
+  },
+  {
+    "name": "Fill Light",
+    "path": "lighting/fill-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e7a3034940d0e3da90900f9c49f08020a534a91807e44a077f4a22e238498bbe"
+  },
+  {
+    "name": "Backlight",
+    "path": "lighting/backlight",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "98e95e58eb372e6553a75d7a6012f6c968f7afaf835a07922ab92483941acf06"
+  },
+  {
+    "name": "Rim Light",
+    "path": "lighting/rim-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4271bd3bd79b0bc1e97f3c7afb5c95721460b0e7afe6e842f4eea06f06b92fd5"
+  },
+  {
+    "name": "Kicker",
+    "path": "lighting/kicker",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d1aed702952713dbc251f87120994b06825a91860c98c7769d55a17daa2e1731"
+  },
+  {
+    "name": "Hair Light",
+    "path": "lighting/hair-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "656f75ddc34987fdca6516ff5756d94540e95c8fbe698c64e8ac672540657292"
+  },
+  {
+    "name": "Eye Light",
+    "path": "lighting/eye-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e6598648d4ff27dc7a2836c2a3b5b75b129df3a2046febff63bd42543f8a54f8"
+  },
+  {
+    "name": "High-Key Lighting",
+    "path": "lighting/high-key",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5381e64bfe0ebcf18b91b7b391b9b87c24c80576ecbf3ad3a9b0d93474464bf9"
+  },
+  {
+    "name": "Low-Key Lighting",
+    "path": "lighting/low-key",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "34130f185c0d54d61121823ee73307433d40c21cc9ca968799d4f5f88dd16368"
+  },
+  {
+    "name": "Chiaroscuro",
+    "path": "lighting/chiaroscuro",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fb7e0bc493033baede429f58524d02ee3276c2310a56179f5595cec4cdb25b04"
+  },
+  {
+    "name": "Rembrandt Lighting",
+    "path": "lighting/rembrandt",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d2403db6ac42610972fc2553b9d1dcc97e8987a40306dab8755c983e0265c7c6"
+  },
+  {
+    "name": "Butterfly Lighting",
+    "path": "lighting/butterfly-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0b055fda57a7411c3f0c780a4e28f8ec9ef0fd705de5eb223f1bfcd55b1a1f9b"
+  },
+  {
+    "name": "Loop Lighting",
+    "path": "lighting/loop-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f82cdc2939506810e7b503c671bad8e3a20e4ab21770eaa0a10c28ce44506a4c"
+  },
+  {
+    "name": "Split Lighting",
+    "path": "lighting/split-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0495298f754cb40a3bec835215222741e409b9debf4b249475fc0e2a22e602f1"
+  },
+  {
+    "name": "Short Lighting",
+    "path": "lighting/short-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5cd584a02b72b22d75a1511a25febeda05a62404f59a8d5c616c5f2c5f185ec8"
+  },
+  {
+    "name": "Broad Lighting",
+    "path": "lighting/broad-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d353c3aed33ad6feeefd6d57d43ed76ca80e01b85991edf033e6b871838e49b6"
+  },
+  {
+    "name": "Silhouette",
+    "path": "lighting/silhouette",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a45dd2c253b4c426f005ded8bbd08e51e9be4024f31e69cf8b8e00b8b0866cd2"
+  },
+  {
+    "name": "Motivated Lighting",
+    "path": "lighting/motivated-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fc1b491f162a97e4734e9b7cd85905bf21df8517d21f0c966f4bcdcfac80dfbf"
+  },
+  {
+    "name": "Practical Lighting",
+    "path": "lighting/practical-lighting",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7aeda8138a779f860e94db14ea838b9b8186d764698b17a4973f54fd82e61ffc"
+  },
+  {
+    "name": "Available Light",
+    "path": "lighting/available-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "feb79190210fadbbe180b8b15f80a95eb7bd72f1e25f995c12b288f7eb131565"
+  },
+  {
+    "name": "Naturalistic Ambient",
+    "path": "lighting/naturalistic-ambient",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5107dec95ba764f769d87d77fffd345924c2342fff065cfae211a332b6729be1"
+  },
+  {
+    "name": "Bounce Light",
+    "path": "lighting/bounce-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b9b42884f6052092f2ff8af88bfc7a9905e66f01562ad67ab5c571b617eb01b2"
+  },
+  {
+    "name": "Hard Light",
+    "path": "lighting/hard-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5a1acd1020f36598f2783d90d0aeb4910fa1631fb47843d76cba2a9139e50b1c"
+  },
+  {
+    "name": "Soft Light",
+    "path": "lighting/soft-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0dbc3d40cba324c238cb0587310881760202c1321e3ae2d189ec4e968534b703"
+  },
+  {
+    "name": "Side Lighting",
+    "path": "lighting/side-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4dd4aa4c083722d4ab6c4c2c9743b1fbd54c695fdd4756b2e67971cdf16e2226"
+  },
+  {
+    "name": "Top Light",
+    "path": "lighting/top-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9a46ae434f82ee27d960b7975b647c01fa41d23b02f4fc0d7b6f37dd6cd55980"
+  },
+  {
+    "name": "Underlighting",
+    "path": "lighting/under-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fe59950e9732fa8a3b7766f3a19478716663feb7c554aa6816d22a63708f569a"
+  },
+  {
+    "name": "Cross Lighting",
+    "path": "lighting/cross-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "334ecae58223027cfd449b32197638619be0aacffbf77cd465fc5ce40d398299"
+  },
+  {
+    "name": "Window Light",
+    "path": "lighting/window-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f10802cd2ff2063e25cd078452cd2818bea55dda3cb38999479c3b1378cc642b"
+  },
+  {
+    "name": "Candlelight",
+    "path": "lighting/candlelight",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b6df19efb62d057069b5498f5cd5bc275197e9cd3b005fd70d70abf7c93ebeb4"
+  },
+  {
+    "name": "Neon Practicals",
+    "path": "lighting/neon-practical",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "2a269648a1ee13321f2e64d49d91008a46055e2601abb2b93458abeeecc7fc3e"
+  },
+  {
+    "name": "Golden Hour",
+    "path": "lighting/golden-hour",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "aecfbcbb2454ee5e38be79cb97bdadfe3fec99a407417bd7f8fa0ba7d8377339"
+  },
+  {
+    "name": "Blue Hour",
+    "path": "lighting/blue-hour",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fbf06e2bded7658856fe9705013f667b8cc53023be0afe9b20107712f53762a5"
+  },
+  {
+    "name": "Dappled Light",
+    "path": "lighting/dappled-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "436784725fec5198b65a373bb2ce8a71da3d031b092ad87590d1c0da51f521f3"
+  },
+  {
+    "name": "Gobo Lighting",
+    "path": "lighting/gobo-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "34292bcbfd9c01bd4d6089fbe32e31a1245666055345812fd55c921d8bb08a07"
+  },
+  {
+    "name": "Volumetric Light",
+    "path": "lighting/volumetric-light",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d91c6a86373beaf4cae00fcd3f89851bd0e167292a25369aaeadb9fd2c5dcf94"
+  },
+  {
+    "name": "Cameo Lighting",
+    "path": "lighting/cameo-lighting",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0385f7cf51f07be603413cc6d83e797b8520a600e9466b86fff13fe9c1909e9d"
+  },
+  {
+    "name": "Epiphany",
+    "path": "lighting/epiphany",
+    "group": "Lighting",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8e427f57b0835f0939538378bd8da7c81d9313f64a261176907767e88cee3d93"
+  },
+  {
+    "name": "Spotlight",
+    "path": "lighting/spotlight",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6721e6582eceebde20366b9b64df2fe5db1b79b45ea1338ad137a8998f635ffa"
+  },
+  {
+    "name": "Glam",
+    "path": "lighting/glam",
+    "group": "Lighting",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "71b335da8441b7ce13cf326b3f2697d09e1e0567dc09175f8996e3921a145fd5"
+  },
+  {
+    "name": "Rule of Thirds",
+    "path": "composition/rule-of-thirds",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c4743b6582d932268368e28e2900a6647b4e1dc1d42b814fc13d4c8c8a14ee0e"
+  },
+  {
+    "name": "Golden Ratio",
+    "path": "composition/golden-ratio",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e698e1fca3f78b99e7847bc043cc0b2e647885cf78aab329786d65d80a921dc4"
+  },
+  {
+    "name": "Central Framing",
+    "path": "composition/central-framing",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "12392fb018bc0f37c289487f79635a0c017b05d688419a9c5ece59f32e5ad374"
+  },
+  {
+    "name": "Centered Composition",
+    "path": "composition/centered-composition",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e63f36b89a65a56a358d57065089a46789d8439481c47baf9e7cd9a2df4640f0"
+  },
+  {
+    "name": "Symmetry",
+    "path": "composition/symmetry",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "11862c3154644bd2f138da6ba2bf37b984d66294128a0582e0150087976976a0"
+  },
+  {
+    "name": "Asymmetry",
+    "path": "composition/asymmetry",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ac3ce541ae479642ecc790e7e9327e631136df1b4764b994768c97ed6329d931"
+  },
+  {
+    "name": "Leading Lines",
+    "path": "composition/leading-lines",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "44a1483b95d52f387c6af0fd9a80c8da63da434ba3e0b8119949fcf6547549aa"
+  },
+  {
+    "name": "Frame within Frame",
+    "path": "composition/frame-in-frame",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d37378e27b2c48e13c7f58ce43e766d95eb302fa9021d33cb93e08983013fe36"
+  },
+  {
+    "name": "Negative Space",
+    "path": "composition/negative-space",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5cc4439e27c07a365c19b07e7e42c21088de28f313bbbe4f86bfde6727353dd0"
+  },
+  {
+    "name": "Foreground Interest",
+    "path": "composition/foreground-interest",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0cf150ef0bf9dac794a7c2dc1668fd53668f37ec57a5cfd823438a663e4b69cd"
+  },
+  {
+    "name": "Layered Depth",
+    "path": "composition/layered-depth",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4c0d9f7fa3213a146e526004af83954af1705bba3d4cda645ec0a4316039d92d"
+  },
+  {
+    "name": "Diagonal Composition",
+    "path": "composition/diagonal-composition",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3525690e136d153276b686b32191cc9d20a355f609ea36b555e78e98ddcd52e9"
+  },
+  {
+    "name": "Triangular Composition",
+    "path": "composition/triangular-composition",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0c8f0e6493fccd49b8590728ede9f20dd7625a7ed02e5f5be77c849356a03f3a"
+  },
+  {
+    "name": "Headroom",
+    "path": "composition/headroom",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "df3c385dac07dc970940dd92cf6ebe3b2d187de07cab3cea9d88e930f3b4c811"
+  },
+  {
+    "name": "Lead Room",
+    "path": "composition/lead-room",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "758b337e0a6fbf372809100454105b8d5c9545611a6a1de27ae8553359734058"
+  },
+  {
+    "name": "Short Siding",
+    "path": "composition/short-siding",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "74a98c5288e24d03ece2c32244116a9eee7901572a1dcab791eeb5c7f953efba"
+  },
+  {
+    "name": "Visual Weight",
+    "path": "composition/visual-weight",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4f37601cc6b19af9e4ebb106c9d385e1e00dbe35f9f72ada62e4e80281eb5343"
+  },
+  {
+    "name": "Repetition and Pattern",
+    "path": "composition/repetition-pattern",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e73fa07b451c0403a13976358f11d2e57a4f9cfaba01eeb72371da3a13fd2731"
+  },
+  {
+    "name": "Figure-Ground",
+    "path": "composition/figure-ground",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5be83f16076271f4a10571042f52a37f7ec451fb1b078f8e663baea0b9d80b52"
+  },
+  {
+    "name": "Tonal Contrast",
+    "path": "composition/contrast-composition",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a96135f64a643fb67c2d2718d19bcf645679276b30f2a7f42860c9527c38057b"
+  },
+  {
+    "name": "One-Point Perspective",
+    "path": "composition/one-point-perspective",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5c556cb9f1e29051ffd1aa10d0fed5f7e52bb7353e3c5bf9918e26883264bbf5"
+  },
+  {
+    "name": "Vanishing Point",
+    "path": "composition/vanishing-point",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3dbd37cea3cf7adf791370026053235cec184e48c936910f23569ce40d3ec08a"
+  },
+  {
+    "name": "Dirty Frame",
+    "path": "composition/dirty-frame",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "bbe1f77b3afa01e41242a87a115156e6d5b1a3c3fc29f12bfdfe8ca3c415969b"
+  },
+  {
+    "name": "Clean Frame",
+    "path": "composition/clean-frame",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a0c073dad70152ff586fb686f05491dced6575e957b3d6b4ee839d443004f63b"
+  },
+  {
+    "name": "Look Space",
+    "path": "composition/look-space",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "94347c76afe6f2521bf52c94e98439c81b2cd7007d54644eb3b355cc8f63a3b5"
+  },
+  {
+    "name": "Architexture",
+    "path": "composition/architexture",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "27db3d311995fc1eee491d49eb4661216ad85a3442ca8f1030c9becc4fc11e96"
+  },
+  {
+    "name": "Reflections",
+    "path": "composition/reflections",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "79a5b3aedc0e5ada08a63d7b652e3b920b8534bcc36a3b8b12296be803e913dc"
+  },
+  {
+    "name": "Screen in Screen",
+    "path": "composition/screen-in-screen",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "959c3f8ac280f4361145698daf691bc1459f1b0ecc56758739aa27f744b72255"
+  },
+  {
+    "name": "Tableau",
+    "path": "composition/tableau",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "fb0956c1cb294354fa09432aa20e636843e9f4c6f34c3acc39f46822387768e0"
+  },
+  {
+    "name": "Void",
+    "path": "composition/void",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b8fbfb1aa168fda1deb99877ffde40891ea22eb646ed528380abb2ebe9395ff9"
+  },
+  {
+    "name": "Voyeur",
+    "path": "composition/voyeur",
+    "group": "Composition",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "06abc2c81594d61d6236a2ac10d3c3a661a305235dc8e20817503dfb893dd88b"
+  },
+  {
+    "name": "Windows",
+    "path": "composition/windows",
+    "group": "Composition",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0b6db803a9ee4a11b71e86df1036037c1b9b14d6f100e6cea734067dc64c827b"
+  },
+  {
+    "name": "14mm Ultra-Wide",
+    "path": "lenses/ultra-wide-14mm",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "836a70a3e86085b4ac7a603f88a33ab964f6a5ff6297ba5426492b98aca458d6"
+  },
+  {
+    "name": "24mm Wide",
+    "path": "lenses/24mm-wide",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8e407dfc2fe316db2b764473af95fd5a9b04944fe63519006291d3080c4b43fb"
+  },
+  {
+    "name": "35mm Moderate Wide",
+    "path": "lenses/35mm-moderate",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a82f34516948f08fab63c1f0f99d31ca23eefbb4e73dceb495694014a0980c95"
+  },
+  {
+    "name": "50mm Normal",
+    "path": "lenses/50mm-normal",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c382a67b965ef5443dc8da60255be7b6241621299f983e6ef8b613af455283c5"
+  },
+  {
+    "name": "85mm Portrait",
+    "path": "lenses/85mm-portrait",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f878641c253c8b390acd23224a53e0b9eadaeac49af6d918015680accbb5d03b"
+  },
+  {
+    "name": "135mm Telephoto",
+    "path": "lenses/135mm-telephoto",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "65397ebed023fd63ab42c0fe38da3ee5db49fb798e0eae4e7fa6fd1a987906fb"
+  },
+  {
+    "name": "200mm Long Telephoto",
+    "path": "lenses/200mm-long",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "42e6b5a1879fc5cce3d9993bfab0c80740f945a891fe5ba939c8f85aa4d2d25b"
+  },
+  {
+    "name": "Anamorphic",
+    "path": "lenses/anamorphic",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3f902eedd0df69c5e509c4a48cf2ca91fa66a0fc7109a0ba828191ad1aba163b"
+  },
+  {
+    "name": "Spherical",
+    "path": "lenses/spherical",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "59c215257d35d05eb43720831296fd90161783eac515959016118536bf14fac7"
+  },
+  {
+    "name": "Fisheye",
+    "path": "lenses/fisheye",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "17b605ef0e1cd021f9313c781ec068666feda793bdbc1451e539ed3987ff545c"
+  },
+  {
+    "name": "Tilt-Shift",
+    "path": "lenses/tilt-shift",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "847f5700231c7a95b1807ec29af35c3bc0fc64c480f682362c503d42bd310122"
+  },
+  {
+    "name": "Macro",
+    "path": "lenses/macro",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "892131a3637ebaa3deb45157fc68765681ca9cfe0364469a772de7b866559622"
+  },
+  {
+    "name": "Probe Lens",
+    "path": "lenses/probe-lens",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5bcf2e524974f0cc153f4fc93146916c6fa798016d541caccb3a15bcd4e3c711"
+  },
+  {
+    "name": "Split Diopter",
+    "path": "lenses/split-diopter",
+    "group": "Lenses and Optics",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "30a70c402f8f3d94cf57664c67294a68379a4968a163ae82d53ae4c645dc26dd"
+  },
+  {
+    "name": "Vintage Cine Glass",
+    "path": "lenses/vintage-cine",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5417108b127502764b760b70078b2801b398dba668609a14d891f66986c63a55"
+  },
+  {
+    "name": "Telephoto Compression",
+    "path": "lenses/compression",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "83e9f78b5e01505caaa3cd63f598aa53773cde940eb60faddf1e968b1b498e6e"
+  },
+  {
+    "name": "Magnification",
+    "path": "lenses/magnification",
+    "group": "Lenses and Optics",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b14409d78af09bf7039ff4985ba8a7e1b29b8e50acbd4405f54ed0037ca6b849"
+  },
+  {
+    "name": "Teal and Orange",
+    "path": "color/teal-orange",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "51641d4287dfb61564ed0ac70bac4ca2ff82d5b5a745bb86ee2abd16035b83bf"
+  },
+  {
+    "name": "Bleach Bypass",
+    "path": "color/bleach-bypass",
+    "group": "Color and Film Look",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "baad339ffb517fc6bb924b728668200f46b3fc859e9ab6365e0559dfc2af86c4"
+  },
+  {
+    "name": "Monochrome",
+    "path": "color/monochrome",
+    "group": "Color and Film Look",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "40fb7acc4cf1eec1e0cd2a15aefaf27c90049c674939e3872374c55e6b67bf0b"
+  },
+  {
+    "name": "Sepia",
+    "path": "color/sepia",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "937be8a296c01fa89187322b90312b1ee786563ed6e855ec5d82d91a2248e17b"
+  },
+  {
+    "name": "Desaturation",
+    "path": "color/desaturation",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "81d169a96f4ed199b129846b90cbbf80b266952060d0502f809b766c5d356c22"
+  },
+  {
+    "name": "Hyper-Saturation",
+    "path": "color/hyper-saturation",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "18b371d8ef9baee0aa9b1b017fb4988fe9a48d39172ecb989f3f0e15a5804625"
+  },
+  {
+    "name": "Cool Blue",
+    "path": "color/cool-blue",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "52af24757ebb39fa43dedd9b40ebf587ae866550f6d147cf53da5c379e4cc5d7"
+  },
+  {
+    "name": "Warm Amber",
+    "path": "color/warm-amber",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "876c298e2b1462bb67d7308182f34bc29572c2c89f5a5a1717c5e06b64290fe3"
+  },
+  {
+    "name": "Filmic Faded",
+    "path": "color/filmic-faded",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b856e3e6361ea289642e37f8d0af9ee46fe6c415865c51c85c024f2ad499d7af"
+  },
+  {
+    "name": "Cross Process",
+    "path": "color/cross-process",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9ee4b884ea876f1a909e99507b3610dba4f180f16c8f96e53ddb5c6534bca866"
+  },
+  {
+    "name": "Day for Night",
+    "path": "color/day-for-night",
+    "group": "Color and Film Look",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9293ec5c58508509c7716adfeb472ac7d3f967feb0c2d663e34ea814efad995f"
+  },
+  {
+    "name": "Tungsten Balance",
+    "path": "color/tungsten-balance",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b23c803755112312ebc57352973c1725665f9db1ca77682d2bb538af2adc8df8"
+  },
+  {
+    "name": "Moonlight Gel",
+    "path": "color/moonlight-gel",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f770417e3a4ba6f0215a76e397adbce6f8edef88b7756e433e8dee3b6f1ac03e"
+  },
+  {
+    "name": "Split Toning",
+    "path": "color/split-tone",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "65273977e66de7abe8cc403b947066ff287c712e089afb73a833e968d56a06b5"
+  },
+  {
+    "name": "Natural Grade",
+    "path": "color/natural-grade",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "98fc02a4b1758827844d369a41f3fd5f41331033ac881f7bc97a6cf0fecfe2fc"
+  },
+  {
+    "name": "Color Shift",
+    "path": "color/color-shift",
+    "group": "Color and Film Look",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "afaba8df4484ec1cc45ca46578d66c967f2697c50d98ac72b046b4e0d593ddc9"
+  },
+  {
+    "name": "Vintage",
+    "path": "color/vintage",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d43e06b86f8dddee7d58ab1a78453f2e07227077a632b3a269ee15097cef9651"
+  },
+  {
+    "name": "Palette",
+    "path": "color/palette",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5db0b880700c4e784c2b7180bc3bb161b30f5a84648591b19a3ab85b77bd2690"
+  },
+  {
+    "name": "Overexposed",
+    "path": "color/overexposed",
+    "group": "Color and Film Look",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3e2f9ae56db830c04d0c948a13bf84316edd2fa41ba888f29845c8727266f529"
+  },
+  {
+    "name": "Slow Motion",
+    "path": "time-and-motion/slow-motion",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b6493fbfa7f4108c4819715dc8211ff71d1034a386cc4725945c22cfecb1b8bd"
+  },
+  {
+    "name": "Fast Motion",
+    "path": "time-and-motion/fast-motion",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6757b222189bde9620fc4b3cfc457363986cc8d7c62aeddbe9b902b8453a8bbe"
+  },
+  {
+    "name": "Speed Ramp",
+    "path": "time-and-motion/speed-ramp",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7b3843a4533ae9454f73b41cb9267cabdaf2aa36563351972361afab4c065793"
+  },
+  {
+    "name": "Freeze Frame",
+    "path": "time-and-motion/freeze-frame",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "72f050a8afa65b3e169840e5dbcc6984361bc7b7d48d88def650fbdc65722c0b"
+  },
+  {
+    "name": "Time-Lapse",
+    "path": "time-and-motion/time-lapse",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "68ca7b6ab17b3b0f2ea2dda016b59e8281de269e86cc79e525f2e12b0db50d94"
+  },
+  {
+    "name": "Step Printing",
+    "path": "time-and-motion/step-printing",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "42cf4903ad7899bfee5cf96c880105a34a0a0ff8e960a45884ec2a7e11be9de3"
+  },
+  {
+    "name": "Reverse Motion",
+    "path": "time-and-motion/reverse-motion",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ec5bb3ccff7193de6a248a15acd050927f165549d3788ab9fcd91b57d5f1a88a"
+  },
+  {
+    "name": "Bullet Time",
+    "path": "time-and-motion/bullet-time",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ece26213ced197c78fc2027df96f9efc17903ca7e2f7ebdb736a18d9fc8915d9"
+  },
+  {
+    "name": "Long Take",
+    "path": "time-and-motion/long-take",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cc0e0e8299450a0cd666aec0e1881b9d558b0c963d87169d74be00526ebf6216"
+  },
+  {
+    "name": "Oner",
+    "path": "time-and-motion/one-er",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "00b3f0f3a54f11ac7ee683daefbbad8dcb392e9ca84509573406ce3c94c19986"
+  },
+  {
+    "name": "Motion Blur",
+    "path": "time-and-motion/motion-blur",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "88fd0810f353a51e01e97e8a971003dbbafaf2c8ac97556bd715b61f5db8dfa8"
+  },
+  {
+    "name": "Stutter / Stop-Stutter",
+    "path": "time-and-motion/stutter",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "80fa0fa638bda0014e415fcc21356f5cbff1b312af45576f892750d9a23ab83d"
+  },
+  {
+    "name": "Boomerang",
+    "path": "time-and-motion/boomerang",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "df6691bbfe11456bda3e63f5d3a0a48eba30e743c304e4a3952e5c8694352a1e"
+  },
+  {
+    "name": "Infinite Loop",
+    "path": "time-and-motion/infinite-loop",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "02adfc0a431b0079851c26a9203df48152077171c9fd091963907374ee0f3746"
+  },
+  {
+    "name": "Stop Motion",
+    "path": "time-and-motion/stop-motion",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7c9b27c5e39ce3162d39786c464bb5c60fe2ea518690641a12047d60e08b91af"
+  },
+  {
+    "name": "Low Shutter",
+    "path": "time-and-motion/low-shutter",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c7de94322a185585647a614b7d28a935cb37f1a161a0e071979b6b9aa6a17463"
+  },
+  {
+    "name": "Timelapse Glam",
+    "path": "time-and-motion/timelapse-glam",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b4bfbb1aca1b1d076a3851514d20447a2846ac95b6f40644e68dfc83f4ba3a3a"
+  },
+  {
+    "name": "Timelapse Human",
+    "path": "time-and-motion/timelapse-human",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8fadf99a501cfdafab36c209e030e04d58e3a4dd2002ed0efa53359407214b26"
+  },
+  {
+    "name": "Timelapse Landscape",
+    "path": "time-and-motion/timelapse-landscape",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "87958afe3cf666913f7c815bef045d69b1fab86fb201952bdf4b616fa2f20c34"
+  },
+  {
+    "name": "Frozen in Motion",
+    "path": "time-and-motion/frozen-in-motion",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "13aab7442634a0325aea4125b56f7c581d5be70f9a8950ef1974a383322d965f"
+  },
+  {
+    "name": "Moonwalk",
+    "path": "time-and-motion/moonwalk",
+    "group": "Time and Motion",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f670171ee0a8235acbf0523b96b31d8a3e817badc636e49f894646f2941cdf5e"
+  },
+  {
+    "name": "Lens Flare",
+    "path": "effects/lens-flare",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f88de12fb980583f1f702eead6330d4722f78f95330f023633e3dad448f9cda3"
+  },
+  {
+    "name": "Anamorphic Flare",
+    "path": "effects/anamorphic-flare",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "68cefe1c5091ca424435d917867c569bf40bdacd1174936695ae10a3ce80b60b"
+  },
+  {
+    "name": "Halation",
+    "path": "effects/halation",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c1431c13335848ea90fdb1bed0c2636cc4377d8c23857f502741f88f32e226e1"
+  },
+  {
+    "name": "Film Grain",
+    "path": "effects/film-grain",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1447eb7b1bcd4cd44521fe14222533953d26b46870446224b1b4ba4837699ac0"
+  },
+  {
+    "name": "Bokeh",
+    "path": "effects/bokeh",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8d64fd5999579b05f3edcf3467145a82a4f2c935194b49f62daa8b8e23a7e937"
+  },
+  {
+    "name": "Double Exposure",
+    "path": "effects/double-exposure",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a8917fd59157bf0a9d079ed0561dad0595688eb3cb131ee66c51c3c1ccbb968b"
+  },
+  {
+    "name": "Rack Focus",
+    "path": "effects/rack-focus",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "edb1f5b9036f982998db93e3bb5a7fc8099db9438159208d9b54322aaba67046"
+  },
+  {
+    "name": "Shallow Focus",
+    "path": "effects/shallow-focus",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dcd903d708cbe99865ccc743fdd363e31a0d7bbc4f53616740f365186d2eda9f"
+  },
+  {
+    "name": "Deep Focus",
+    "path": "effects/deep-focus",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "714b3848e1bd03e5a5b02b801b337ea2357bc886f4d869b8f1afc3256100a177"
+  },
+  {
+    "name": "Forced Perspective",
+    "path": "effects/forced-perspective",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f132632b23a50688672c55db395fba44675fc2d44fbdbd75cb8a14586982f272"
+  },
+  {
+    "name": "Light Leak",
+    "path": "effects/light-leak",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cb15d5d214322e19897b7f0a30953ad57befbf2372e1b40fe46e15b8a56b4cb7"
+  },
+  {
+    "name": "Vignette",
+    "path": "effects/vignette",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e2248fdb0b560c39b327c16c0aaf0e87d32d82069ab77790336174427d062ad1"
+  },
+  {
+    "name": "Chromatic Aberration",
+    "path": "effects/chromatic-aberration",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ce7d1ba7078cc1603d89d099dfdf1d452443981072765363e63969ca3e31976a"
+  },
+  {
+    "name": "Infrared",
+    "path": "effects/infrared",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a7aac285422811848d6217a9b5e09887313d78f832c067a26da2f2fed13b33a7"
+  },
+  {
+    "name": "Night Vision",
+    "path": "effects/night-vision",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "59ae71a0422acfde7e73facbd0bc0235aef9da3dc313cfad6eb6bef6b200c9a7"
+  },
+  {
+    "name": "Thermal",
+    "path": "effects/thermal",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c349c0a01a774827f74a9dc261041cdeb532d04c0c402663ce57d0edb6674458"
+  },
+  {
+    "name": "Slit-Scan",
+    "path": "effects/slit-scan",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8b19e1512fdfcab1eeab07b51249be58208f5cc0b93c38c21bdd047d27338d24"
+  },
+  {
+    "name": "Kaleidoscope",
+    "path": "effects/kaleidoscope",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3a6b17584c3bbd5d9e7e25311eac8f1b641c76c435266559832a1623455e4414"
+  },
+  {
+    "name": "Light Flash",
+    "path": "effects/light-flash",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6a3e94700468799b32ff6ef7a5ed81847107069887e8c7322fab4002d5902597"
+  },
+  {
+    "name": "Projections",
+    "path": "effects/projection-mapping",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3472f82fd1f5631a1337cf919c3f924aed7a9cb437d813488fb59a2508a96ba4"
+  },
+  {
+    "name": "Morph",
+    "path": "effects/match-morph",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3b7e8eb63cdd3a96a57c0ea26ef882967c1be5e0a8f06409173e9f7065a38500"
+  },
+  {
+    "name": "Altered State",
+    "path": "effects/altered-state",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5d3a4e97f5cbe93dad8254d103b81d76208a6288f3c2beb250d67f6ea8b998a8"
+  },
+  {
+    "name": "Anthropo",
+    "path": "effects/anthropo",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9d8022df7676d587e22f42f070955dc882c7dbe4c06305d2e701aa68569833ad"
+  },
+  {
+    "name": "Cinemagraph",
+    "path": "effects/cinemagraph",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b952893f9386b311c083d58038272381a38e3687258da879be006619eac977ff"
+  },
+  {
+    "name": "Collage",
+    "path": "effects/collage",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c6baa5425512e1f4ec52303332e150204bdcb3f117c923044db4c3e79fe0e145"
+  },
+  {
+    "name": "Datamosh",
+    "path": "effects/datamosh",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b293679435354c49ecce4ee83d7144616fe3ff2cd452a5ea0589639a2340b0d3"
+  },
+  {
+    "name": "Diorama",
+    "path": "effects/diorama",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "981367f6bf83559ea5d9615ecab8c236c3e0ad2df6564bf69e5454e428b4cd2e"
+  },
+  {
+    "name": "Distortions",
+    "path": "effects/distortions",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6bd4d3de8a37974baf8aa074e4d39f7477d08dce0b952d2385a4bf564c7b1bb2"
+  },
+  {
+    "name": "Duplication",
+    "path": "effects/duplication",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ddc3096d8b6ff6120995637b74694d12a7aee58b2d3464ee67233e4f6d59b3ef"
+  },
+  {
+    "name": "Echo Print",
+    "path": "effects/echo-print",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b0be66d03a5d3c92188193d2e3d66b4d0c5fa516d95eb093275d75a62c8ede78"
+  },
+  {
+    "name": "Feedback",
+    "path": "effects/feedback",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "10902c4a7d6873bd49f374922f32ebc6c81b7bb80f0f5fa71006f16e294f267b"
+  },
+  {
+    "name": "Floating UI",
+    "path": "effects/floating-ui",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c960381d85da55b69ef20321f406d991194cd1c2412835e15541a7c6aa79a880"
+  },
+  {
+    "name": "Focal Shift",
+    "path": "effects/focal-shift",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "900d9ea80d0961aa8db739461ee75341983362c844b681e8d505ed4724b802b2"
+  },
+  {
+    "name": "Generative",
+    "path": "effects/generative",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6dc9560942d693492eca8c83fdeca5f55752abdaa16b430c1e83c49729cabb7c"
+  },
+  {
+    "name": "Levitation",
+    "path": "effects/levitation",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c63985e61d9c3694c03934ff7d0fa0cdeff2c7a3673cfefcf03e5c918846199c"
+  },
+  {
+    "name": "Masking",
+    "path": "effects/masking",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "923c6b9f8f0e75e21828d8246049ad3b370b73ed19f87918eeb792e8087013e5"
+  },
+  {
+    "name": "Mixed Media",
+    "path": "effects/mixed-media",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ebdf4fcd8a9cd3dbabb05cc4c7679507895b09f2df2df408f15968b5f0363434"
+  },
+  {
+    "name": "Morphing",
+    "path": "effects/morphing",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8caf4c77d615b14e0e96514c243c6c1729f45bdbfed23ec351e120b5b91c1fc5"
+  },
+  {
+    "name": "Object Portal",
+    "path": "effects/object-portal",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5eb1c588f500fc970dcc0bec667dfeb009f6dfb1a958545462527ef8976796a6"
+  },
+  {
+    "name": "Photogrammetry",
+    "path": "effects/photogrammetry",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "12c8b1f42aa94479c9212054b450cd286a2fea30fdb4d15d29ec0d40935af3c0"
+  },
+  {
+    "name": "Ratio Switch",
+    "path": "effects/ratio-switch",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4140fe6c2439dc36d430925b1bd6359cb53735bc30d17ad1a01a51a084fee106"
+  },
+  {
+    "name": "Scale Shift",
+    "path": "effects/scale-shift",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c726ee658369ff62f9b7c2485af93994d75dee5df205dce2e76557b428816aec"
+  },
+  {
+    "name": "Shadow Box",
+    "path": "effects/shadow-box",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ec5fb36e7e9b088489f624cef4d5d661528c1a0f4ee0a846e44fa957e888e227"
+  },
+  {
+    "name": "Transformation",
+    "path": "effects/transformation",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "80131fe4aff41fd0374bda99b1a73ebce845f23fd1f53a220cf957c385a2b4e0"
+  },
+  {
+    "name": "Typography",
+    "path": "effects/typography",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3ed2057d16bc8001264c60f7a6ee01551db4eec891ce42ebc4a5fe40a1c34c19"
+  },
+  {
+    "name": "Wigglegram",
+    "path": "effects/wigglegram",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "28aec351a8e2bbde8947869e5675027004c00a53cc23fbeefbf7719510ae6989"
+  },
+  {
+    "name": "X-Ray",
+    "path": "effects/x-ray",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "aafce0d72927989389d5adc3a5ebf26647bb38084db1f70998baf8ac28a3a7ca"
+  },
+  {
+    "name": "Zoetrope",
+    "path": "effects/zoetrope",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "20e176a7a50aa0f6fca07fa05b67d1db5962140daa56cf549a7299f10d9c5949"
+  },
+  {
+    "name": "Focus Change",
+    "path": "effects/focus-change",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "29a5c247c946559e41e12e298ec5bb1baf08b7c292c198534f2f73304766a791"
+  },
+  {
+    "name": "Floating Fall",
+    "path": "effects/floating-fall",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4b8e07aa0009d26a5d34281b632a1c145dc72d1aa0f86ffd876b24bb203bb6c9"
+  },
+  {
+    "name": "Smash and Grab",
+    "path": "effects/smash-and-grab",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8605a85e42c11e5acc5c531284ae9fd75f35bfcdc180e2764d2b4be614ccc2b3"
+  },
+  {
+    "name": "Cyclope",
+    "path": "effects/cyclope",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0ebcfbee02d2db4dcc5674692043062e207c00a60d672a7219e668b2268972cb"
+  },
+  {
+    "name": "Particles",
+    "path": "effects/particles",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "31964d74068a3b20f97ab4650f217dd36e641cd8607b7e1830ad398413336a70"
+  },
+  {
+    "name": "Argus",
+    "path": "effects/argus",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c1e97a80e803c61678b05e76f1409c9e37e4b5c263a14614f6d6a1011917f85b"
+  },
+  {
+    "name": "Sticker Peel",
+    "path": "effects/sticker-peel",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "61190e575b7628417a3e7d662fc6479d029f2c28fbfe342b8e6a8cb229f6f463"
+  },
+  {
+    "name": "Selfie Twin",
+    "path": "effects/selfie-twin",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b8b8094bcef27205b4993af45b31837aef4f4a73a59443020563c87266826f7f"
+  },
+  {
+    "name": "Bubbles",
+    "path": "effects/bubbles",
+    "group": "In-Camera and Optical Effects",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "57186312b53f47f5e92958cc5ca62802be1c5638e2c0eb333a94ddef2a64a68d"
+  },
+  {
+    "name": "Match Cut",
+    "path": "editing/match-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "aaf87cfdfdb62b7150425cbe9a98425aed6d9690d31155126c9e12cdd428b15c"
+  },
+  {
+    "name": "Graphic Match",
+    "path": "editing/graphic-match",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dc4644367a75039d4d3db9d3c5ee262d748fdee411d31cd599d3a58d704ac1f9"
+  },
+  {
+    "name": "Match on Action",
+    "path": "editing/match-action",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7c381dc6c68ecbf2df81d16290fdb096b3142d0800a6b027327a62891e7743c3"
+  },
+  {
+    "name": "Jump Cut",
+    "path": "editing/jump-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b26331ee9237609cf9486f14a29ffa53c2c1c46a2a9c3f52d6e175333ce10016"
+  },
+  {
+    "name": "Smash Cut",
+    "path": "editing/smash-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3e6501ab8e54a843efb8a5086a8e941298836cd73bb86c8a1a275c2b5fc99380"
+  },
+  {
+    "name": "Dissolve",
+    "path": "editing/dissolve",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6b859ea52fb4deb1d65af8a4a31b2fdc2afa5d741b5b6611b0870018a4010886"
+  },
+  {
+    "name": "Fade In / Fade Out",
+    "path": "editing/fade",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9e153262640e6dac3e3abee00001d7bf5e41bc4c1603fe3419059b65b1422f37"
+  },
+  {
+    "name": "Wipe",
+    "path": "editing/wipe",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a0a4fb9eae59562cf18144acc5452b4ba325ad8106a8835c3415d8dbaa12c024"
+  },
+  {
+    "name": "Iris",
+    "path": "editing/iris",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "69056451b1941ee143b57c7b8439049ad408ed3d2a7049d0b398a22cbb7f1ecd"
+  },
+  {
+    "name": "Cross-Cutting",
+    "path": "editing/cross-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0fa287308f60da7f74dada834ae0e058d0d7c55661252c21e22a90d815474aa1"
+  },
+  {
+    "name": "Split Screen",
+    "path": "editing/split-screen",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "49d910f04ef21f7e870198dd0242e73f6406e895b1a76bd0d570881fa933f0c2"
+  },
+  {
+    "name": "Montage",
+    "path": "editing/montage",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "2cd04dd0fff774be3b6803d1e9dec6bebe46a9ab7153effff78d5f58a6715ac5"
+  },
+  {
+    "name": "Axial Cut",
+    "path": "editing/axial-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a745987df7a4d89cc3a664d6342f3262dbcdfcc7712bdf2ef88bea116fa8ed19"
+  },
+  {
+    "name": "Invisible Cut",
+    "path": "editing/invisible-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "842fb4e95333247dcda9cb09651c45d90722f66f1bae2578539b22f87a92c02f"
+  },
+  {
+    "name": "J-Cut / L-Cut (Visual Setup)",
+    "path": "editing/l-cut-visual",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ea72b6c17d1105ba4bbdd6b8d8a6f877f938b0fcd4ae05d5b07b3f6df4d7426a"
+  },
+  {
+    "name": "Crash Cut",
+    "path": "editing/crash-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "26f3ac5f1d8467077f39f3a0e2007a931f8dc6423b7bf84b99714a992ba3763e"
+  },
+  {
+    "name": "Flash Cut",
+    "path": "editing/flash-cut",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "403aa8f57d70d5fedd89deef527939aac6b9aa259f798bd64fca8b1b66edf120"
+  },
+  {
+    "name": "Match Motion",
+    "path": "editing/match-motion",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ddc9337c99ca32ceb03132e72122479a824e43a5e5078e96c7d332ad285a2d4f"
+  },
+  {
+    "name": "Match Split",
+    "path": "editing/match-split",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "215f7915e6b1b38bd07fc0fa1b9272dbc1ae7e8adcf27d2768bee7e968786827"
+  },
+  {
+    "name": "Quick Cuts",
+    "path": "editing/quick-cuts",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5c78ee5c2660913796de34eb404627de19c07852f5d4995fc309059e15dded00"
+  },
+  {
+    "name": "Set Transition",
+    "path": "editing/set-transition",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6a5484ce115ff84d7fa112b607a21a886421bb46232d4f4bb4285bc5f7a56d93"
+  },
+  {
+    "name": "Transitions",
+    "path": "editing/transitions",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "ac53b93e1ed0e738129ab99f6db821ead1d3338bd9efeb392e0bf7907a15595e"
+  },
+  {
+    "name": "Fragments",
+    "path": "editing/fragments",
+    "group": "Editing and Transitions",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "397aed3f60a466094faaf4c7f5872df9fb761e2615fdb6703c8a1e7972905fbe"
+  },
+  {
+    "name": "Rain",
+    "path": "atmosphere/rain",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "714c42c55d1b41eb7561c9f80ee88458aab93d7497fba94096f976f2cd02a2d4"
+  },
+  {
+    "name": "Fog",
+    "path": "atmosphere/fog",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6abd8e1d05f0720fb263b638aaf89167edf16c1e2f5921eaa9af38dd565e5215"
+  },
+  {
+    "name": "Mist",
+    "path": "atmosphere/mist",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "7664ac95493d1dcfc622271a9c5fa3ae16e6db2572b6f43bfabfc5bf1a4c6691"
+  },
+  {
+    "name": "Atmospheric Haze",
+    "path": "atmosphere/haze",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5a813b9a114406564ed4db5b7fb765a6ac62802dff5f17a2fb76bbae45f4c9e7"
+  },
+  {
+    "name": "Smoke",
+    "path": "atmosphere/smoke",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c0ea2b966c6f8bf5a752cc0ce8038885e6632b577d599684e18a97cd65bf2531"
+  },
+  {
+    "name": "Dust Motes",
+    "path": "atmosphere/dust-motes",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "687e48040bbbc2c412e6853df8965c9d9a48b852c3e6da3c84c68bf063e8f1b6"
+  },
+  {
+    "name": "Steam",
+    "path": "atmosphere/steam",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d89630806ef164b70083ff2e1a32dfe0a58c72c80826873d2c7db5abac0a2bb2"
+  },
+  {
+    "name": "Snow",
+    "path": "atmosphere/snow",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "29ef8b66db4f5e0146e1f4fc8fab0783e8da3cbb9549b04c1681edf15823bd62"
+  },
+  {
+    "name": "Wet-Down",
+    "path": "atmosphere/wet-down",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "75b963a7dc8bd261d700d34243cfd7189a45321a8610710f7835783691b4eabb"
+  },
+  {
+    "name": "Sparks and Embers",
+    "path": "atmosphere/sparks",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5b3ee675feb951d720711b3ccf56c630d33da13317ecf44b871e9544292676a1"
+  },
+  {
+    "name": "Dust and Sand",
+    "path": "atmosphere/dust-storm",
+    "group": "Atmosphere and Weather",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8dafa79155c0da23b9f6b77c852d6c4641d8bb9185b201a2a92e0b8d23bbc586"
+  },
+  {
+    "name": "Underwater",
+    "path": "atmosphere/underwater",
+    "group": "Atmosphere and Weather",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4f8fb019c2bc58c9bf11425b7ad289c1cf89b8e88eae32ca12d25b1397816b48"
+  },
+  {
+    "name": "Ocean",
+    "path": "atmosphere/ocean",
+    "group": "Atmosphere and Weather",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "bc1d8132cb41a819e8f51fe4300335f054b8d6c3c465456d5a85803075097327"
+  },
+  {
+    "name": "Film Noir",
+    "path": "genre-looks/film-noir",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "06711989d3e053c8fe3d610a33fa86cba0f76cd728be3e94538e0e2dc9f7534d"
+  },
+  {
+    "name": "Neo-Noir",
+    "path": "genre-looks/neo-noir",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f22ae00f4c8f5f8a7203fcea7226d941a154dd61ac28850a49a22b1038d9a9cc"
+  },
+  {
+    "name": "German Expressionism",
+    "path": "genre-looks/german-expressionism",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "94f3790c632c4bd0a0ca57d36f5c1e98949c69329c6ce0c103752fef75da9eb8"
+  },
+  {
+    "name": "Giallo",
+    "path": "genre-looks/giallo-look",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "0278c65648cc9ffc7651f15bd15955c7e5a303526126b89ee7a4bf2a2e15cb6e"
+  },
+  {
+    "name": "Spaghetti Western",
+    "path": "genre-looks/spaghetti-western",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d4ddb99287a89afff7860ea397be5e1209ad32668a7df98261fd5e6495826e30"
+  },
+  {
+    "name": "Found Footage",
+    "path": "genre-looks/found-footage-look",
+    "group": "Genre Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "613a0abfd168012e33fdd539c3cc13234c817496f5d31e4f54b318ce7c8d0248"
+  },
+  {
+    "name": "Cinéma Vérité",
+    "path": "genre-looks/cinema-verite",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "77a8815f7baa2e3c86d68a07d4c170eaf937dec1f743bda9ab318676ad957b02"
+  },
+  {
+    "name": "French New Wave",
+    "path": "genre-looks/french-new-wave",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b582ffe72e81db73a9495d1f3e5769d3ddea309ba925c6d14dd346f59459318f"
+  },
+  {
+    "name": "Wuxia",
+    "path": "genre-looks/wuxia-look",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5d7abcad4534b314ef346649bd7aeddd96a46f33729e6f24c5245ce661c0c8a9"
+  },
+  {
+    "name": "Tech Noir",
+    "path": "genre-looks/tech-noir",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "5c3e5f0e931a78a1fd89f29067fd087d875226713e34d76765f1602958dbf548"
+  },
+  {
+    "name": "Southern Gothic",
+    "path": "genre-looks/southern-gothic",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "eb53790a0fd04b9dff570f4246fc2acb6b47f9380265516d48eaf3e7711781fd"
+  },
+  {
+    "name": "Cosmic Horror",
+    "path": "genre-looks/cosmic-horror-look",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c8e463835aa46d0748842f8f0dc8e2768bc4695d6968dad816e9ecbc23432559"
+  },
+  {
+    "name": "Vaporwave",
+    "path": "genre-looks/vaporwave-look",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1fe451676429090f1a1f5ea720110aad8443542baa12af1de3bbf75501b5f54f"
+  },
+  {
+    "name": "Documentary",
+    "path": "genre-looks/documentary-look",
+    "group": "Genre Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a06f972b58c65c638751ad9748308aa09356338ea15e839f22b0527779dc4bbc"
+  },
+  {
+    "name": "Blockbuster Gloss",
+    "path": "genre-looks/blockbuster-gloss",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "de9560e61dca8b8016692de1b38329175a502baf69947eef25b40b998204b15f"
+  },
+  {
+    "name": "Arthouse",
+    "path": "genre-looks/arthouse",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1e411204651399537f37df8b936516b23c33ab22ba90e2cdaf001060506b598b"
+  },
+  {
+    "name": "Animation",
+    "path": "genre-looks/animation",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "99deac52d20b91c64b8ab7d2ffc9a9e668de19270910747c654a317555ebf411"
+  },
+  {
+    "name": "BTS",
+    "path": "genre-looks/bts",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6ad8a2f2a4eb1b7b9da4d78c9406084cc9c3cc6cf7dcd8dd012200dba7aec8b8"
+  },
+  {
+    "name": "Dreamcore",
+    "path": "genre-looks/dreamcore",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "714ec92eb6b6436cf6aae9e37f13169048b5a17c9a653bfc76d69ba6150510fd"
+  },
+  {
+    "name": "Dystopian",
+    "path": "genre-looks/dystopian",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f9c441e3347ff4bc05130d5ff88db4bd0ec72e9e8b1f392973c4049f2129464f"
+  },
+  {
+    "name": "Magical Realism",
+    "path": "genre-looks/magical-realism",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b6d5229b1da2259846f61c584f60557f9708bbf062dd7d402b9535d4850033f8"
+  },
+  {
+    "name": "Maximalism",
+    "path": "genre-looks/maximalism",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "b98134117b107d689c6a81fd5989b2dedd4eaaff0a0cb70581dc1c0b39cdcd27"
+  },
+  {
+    "name": "Photography",
+    "path": "genre-looks/photography",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9c80be2d0725fd6155e5d7d6bdbca8abbb1014e9effc6442dec01472c6ad2c78"
+  },
+  {
+    "name": "Pixel Art",
+    "path": "genre-looks/pixel-art",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "80629028b63ed88c2b00afa36c690aaaa4f1744040d64b5931cf50d973d9494f"
+  },
+  {
+    "name": "Stylistic Suck",
+    "path": "genre-looks/stylistic-suck",
+    "group": "Genre Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "37e5d755fdc12a440d046f826be2eace0abf3dfa3261c293d78111931bea8ddb"
+  },
+  {
+    "name": "Video Game",
+    "path": "genre-looks/video-game",
+    "group": "Genre Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "54ec89ea53710e0c5e4802d7f6a41583f29f789ad5252ae53450d6ee9afbcfa6"
+  },
+  {
+    "name": "Weirdcore",
+    "path": "genre-looks/weirdcore",
+    "group": "Genre Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "27e2ad54ab08411540fc429aa776e62a2918a70ce683d0c9adc8c91e35982004"
+  },
+  {
+    "name": "Agamemnon",
+    "path": "viral-looks/agamemnon",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "9bd8bc3426f1eee8e3cf87e192b05e05c623e0d9f1a0b80199af623be5db7453"
+  },
+  {
+    "name": "Ink Riot",
+    "path": "viral-looks/ink-riot",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3e59e0fe6b8f170f6abd0e12c64e81565d895fbe7fe0b14e8fd5467333f29b49"
+  },
+  {
+    "name": "Fallen Angel",
+    "path": "viral-looks/fallen-angel",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "615412293dfae5c4dfff0f453134c8391b764b8bcb370a4f37c95a8e39a96b1a"
+  },
+  {
+    "name": "Fairytale Castle",
+    "path": "viral-looks/fairytale-castle",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "a7452289c5be8c83f4ac4183c00ea5af0b671050d0c624685d95db4b62fa065d"
+  },
+  {
+    "name": "Comic",
+    "path": "viral-looks/comic",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "4e4a2aa3488375db7dd44462473795c6c2880fe2324e410ec3691e2d43e81e00"
+  },
+  {
+    "name": "Cold Vision",
+    "path": "viral-looks/cold-vision",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "20033416b26475441961121c3aae8a1700eacc87ab6a9250c93539f414c50667"
+  },
+  {
+    "name": "Casual Monster Slayer",
+    "path": "viral-looks/casual-monster-slayer",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d02cbf7794716b3a1154006719671401d35994da3a175c02ea3d233a4503bda5"
+  },
+  {
+    "name": "Mighty Fighter",
+    "path": "viral-looks/mighty-fighter",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3009fbb57f0867de635476bec4500b1786e303bc5964213a62a3158bc061ecce"
+  },
+  {
+    "name": "Canvas",
+    "path": "viral-looks/canvas",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d7edd59aa9ad05b74395e7504f1d1728786659eab09eb7514a56be0232bb7a51"
+  },
+  {
+    "name": "Pigeons",
+    "path": "viral-looks/pigeons",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1946a3514ce3801724f6c73bfd9d907726a27c850b263f979d1955853e6aaaac"
+  },
+  {
+    "name": "Superstar",
+    "path": "viral-looks/superstar",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "daa349f7a33dd52c3651a9f3deeabb79f3279ff5fb9c3942a6ae147c12774357"
+  },
+  {
+    "name": "Pearl Earring",
+    "path": "viral-looks/pearl-earring",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "344db29bc1be29259f52e4e39216645e48e70de7078447efb946c013d166faf7"
+  },
+  {
+    "name": "LSD",
+    "path": "viral-looks/lsd",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e40e577178cec874d7018b32252af9184c5e962d2bad01f152d57405b296386f"
+  },
+  {
+    "name": "Blue Depth",
+    "path": "viral-looks/blue-depth",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "571dee10dcf3ec3149172a95c8d3207d1d7065152a7f24c136678627d682f07f"
+  },
+  {
+    "name": "Knight's Diary",
+    "path": "viral-looks/knights-diary",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e82fb6d8347e42c167f80ae5e500183a98aca30a3fb52a510b6956c790a9aeb0"
+  },
+  {
+    "name": "2000s Paparazzi",
+    "path": "viral-looks/2000s-paparazzi",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3ab9b0d649e0b80477554745176e4f4be26cd00e8096a06927b4c426494a0b35"
+  },
+  {
+    "name": "Dolphin Ride",
+    "path": "viral-looks/dolphin-ride",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6615c3785ddefb3fbd7245dd252aebe2d7b4ea432164ce411d3400adec8ea77b"
+  },
+  {
+    "name": "Multiverse",
+    "path": "viral-looks/multiverse",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "69be380bf56138994fda1c13dae9a9e1f3b946d1fe4ac926072fa8c863b00295"
+  },
+  {
+    "name": "Skatedog",
+    "path": "viral-looks/skatedog",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c60bcd32f73db7fb461c59869d833a9d6afb7b872dd4bfedf6aab08fae12249f"
+  },
+  {
+    "name": "Sketch",
+    "path": "viral-looks/sketch",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "1e89ab59e90c71209b0694575f5da3a0d3d774d1de38ac297d1367a3143bb5c5"
+  },
+  {
+    "name": "Monet Muse",
+    "path": "viral-looks/monet-muse",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "61e1886338f30313f82950899e623cf93e3c7c5c4b6b26031cad8888e717a904"
+  },
+  {
+    "name": "Akrill",
+    "path": "viral-looks/akrill",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c4167c6a919f144e1117e2feafcdcfacdeb26579e949d2c68dedabe8139125c1"
+  },
+  {
+    "name": "Magazine",
+    "path": "viral-looks/magazine",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f9bc1b39913cdc5d1cdcbac016a5d7af40cfba895f09bb8d6818b26a7aa605c2"
+  },
+  {
+    "name": "Lost in a Book",
+    "path": "viral-looks/lost-in-a-book",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6d0f0b23403395993699fadb772b63e8b73ba98737cd9379a3fbfd6d9d87931f"
+  },
+  {
+    "name": "Penguin Ride",
+    "path": "viral-looks/penguin-ride",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8a26504d8202343fb15655b531c506218bf121bb4a2acdae2f192662a1d1181e"
+  },
+  {
+    "name": "3D Render",
+    "path": "viral-looks/3d-render",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "57ccb0c7c21ccdb412e374a0f25c9498ad1aa9e004f247a9c1d95c1b48394ce3"
+  },
+  {
+    "name": "Action Figure",
+    "path": "viral-looks/action-figure",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "8ab3c89e2df072c468dac215ff3e1bc66259535ff39143be12e72b6e69370b85"
+  },
+  {
+    "name": "Orbital Presence",
+    "path": "viral-looks/orbital-presence",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "3138e1d3064ba37e525eabf1094e15f1a08c3cf9043673e34c35d60ed00394c3"
+  },
+  {
+    "name": "Acid",
+    "path": "viral-looks/acid",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cacedd94ff6ca1a38f6829dda1db471f86203aa1d930329d701c97a89d0f1d1d"
+  },
+  {
+    "name": "Noir",
+    "path": "viral-looks/noir",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f98948204dd2a3c08c95e795436da3afadc38f63aae43542cdb5dc08491d0e5d"
+  },
+  {
+    "name": "Race Track",
+    "path": "viral-looks/race-track",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "cd448c1783cf3d393cc4cb9e692cf46633299d25ea8d999208cad79c9e87e23e"
+  },
+  {
+    "name": "Flash Comic",
+    "path": "viral-looks/flash-comic",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "d6bf589d11ecf4dc4a4bea608f50c205c0d396891943c0a9e48691a4e0d11349"
+  },
+  {
+    "name": "Paper",
+    "path": "viral-looks/paper",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dca85d34ec252bbe61c0d8cb4f00937d40d0f74cb2efb6bc4fb991b29dc06e15"
+  },
+  {
+    "name": "Random Glow",
+    "path": "viral-looks/random-glow",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "c19656165839b1cd1d6742ef9baf80899346e0246010bb60b127d41f7b265afd"
+  },
+  {
+    "name": "Toxic",
+    "path": "viral-looks/toxic",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "6eb596a754bed08b1f73f52718f6359579c8341ff0d21ffdb483303590e7d307"
+  },
+  {
+    "name": "Broken Mirror",
+    "path": "viral-looks/broken-mirror",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "aba8552debdcea7263c842fbd42705876db3a8fb698a41e2d47b8cbe66623803"
+  },
+  {
+    "name": "Hand Paint",
+    "path": "viral-looks/hand-paint",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "dca71e0264c397bd285e3d56197f6a039c0f5eb0c2c8d133b31668cea532747b"
+  },
+  {
+    "name": "Lava",
+    "path": "viral-looks/lava",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f78f9cd2e9eeab4e2dee443550d20b94cee135b31decd7140a9adc99a5549cb7"
+  },
+  {
+    "name": "Marble",
+    "path": "viral-looks/marble",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "73a3641616ffa0a9087ca0b8ce892db52a9632c1427671c04e0b8cad14f14ef8"
+  },
+  {
+    "name": "Modern",
+    "path": "viral-looks/modern",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "f1cf8eae663a54c8821bdacce17567387a0255ad498ebccf1a880e8c25e112b0"
+  },
+  {
+    "name": "Puffin Ride",
+    "path": "viral-looks/puffin-ride",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "e268e470078f54f97b8c47fb6e0860593ec1cccbf7db8a760020bbbc4ff3dcb7"
+  },
+  {
+    "name": "Origami",
+    "path": "viral-looks/origami",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "46f4433e3210855fd765ed7fcbfde4ba58117957570e55702f797661e8dc1ac9"
+  },
+  {
+    "name": "Two Color",
+    "path": "viral-looks/two-color",
+    "group": "Viral Looks",
+    "mediaType": "image",
+    "checked": "2026-10-22",
+    "promptEnSha256": "88f386c8c51ef5ae7a3776945daf6867e9c939be2360dab57b2c63d7e4ff8b2b"
+  },
+  {
+    "name": "Ultraviolet",
+    "path": "viral-looks/ultraviolet",
+    "group": "Viral Looks",
+    "mediaType": "video",
+    "checked": "2026-10-22",
+    "promptEnSha256": "87c9647a9ecbca52ade6cb49fde5a36a95dc65946cdafef92e55c4cf84cd1ce4"
+  }
+]

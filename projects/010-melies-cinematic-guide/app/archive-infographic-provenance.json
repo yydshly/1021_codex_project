@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-22",
+  "kind": "ai_generated_explanatory_infographic",
+  "tool": "built_in_image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "prompt": "Create ONE polished, highly legible Simplified Chinese editorial infographic, requested landscape 3840x2160 or highest practical resolution, about a research archive for AI video creation. This is an explanatory poster, not a website screenshot. Warm ivory paper, deep forest green typography, sage panels, restrained orange for caveats, generous white space, crisp modern Chinese sans-serif. Accurate Chinese text is crucial. Use thin arrows and small elegant original illustrations of perfume/ripple, a book and sewing needle, a ceramic cup, a commuter walking beside a bicycle. Illustrations are conceptual icons, not claimed real generated-video evidence. No decorative nonsense text, no invented capabilities. All listed text must be verbatim and readable. Strong hierarchy: large title, medium section titles, readable body. Do not cram tiny footnotes.\n\nTop:\nlarge title \"视频创作 · 动作素材库\"\nsubtitle \"以情绪需要选动作，用提示词配合大模型生成\"\nsmall archive badge \"阶段归档 · 按需重启\"\nstat strip \"424项电影语言参考  /  7项结构化规则  /  4个实测题材  /  1次局部返修\"\n\nCentral broad flow, prominent heading \"原理：从想让人感受到什么，走到画面里发生什么\"\nfive readable nodes connected left to right:\n\"创作目标与情绪\" → \"情境与动作\" → \"镜头与参考\" → \"双语提示词\" → \"视频模型生成\"\none return arrow underneath labelled \"审动作 · 看情绪 · 记问题 · 回库复用\"\nrole line: \"库提供参考与经验  ·  语言模型负责选择和设计  ·  视频模型负责生成画面\"\n\nMiddle lower four equal cards, heading \"我们实际探索过的动作与表达\"\ncard 1 \"香水 · 16秒\" / \"雨滴涟漪 · 倒影变化\" / \"产品环绕 · 留白\" / small caveat \"图形匹配仅部分符合\"\ncard 2 \"旧书 · 18秒\" / \"刷拭 · 穿针\" / \"合书 · 交还\" / small caveat \"孔位与合书返修有改善\"\ncard 3 \"陶器 · 15秒\" / \"触杯 · 端杯行走\" / \"停步 · 窗边停留\" / small caveat \"停止与跨镜连续性有偏差\"\ncard 4 \"取车 · 20秒\" / \"抬眼回应 · 擦座垫\" / \"扶稳交接 · 车旁推行\" / small caveat \"次数、握持与起步有偏差\"\n\nBottom two blocks:\n\"价值\" / \"让创作有依据，让动作可检查，让经验能复用\"\n\"后期扩展\" / \"动作视频参考 · 统一角色与物体 · 模型检索与编排 · 生成对照与观众反馈\"\nFinal full-width calm amber boundary strip:\n\"当前边界：提示词与参考会影响结果，模型也可能不遵守；单次观察不代表稳定能力。\"\n\"424项含运镜、光线、构图等，不能视为424个已验证人物动作。\"\n\nKeep clear layout and correct arrow semantics. The key message is a creative action reference and experience library driven by emotion and action, working with language and video models. It does not itself generate or deterministically control videos.",
+  "sourcePath": "D:/codex/home/generated_images/01a159bf-4393-7611-8c8a-6e77d874a4c1/exec-4a5979e3-981d-4b31-afd9-c0f65f46c470.png",
+  "selectedOutput": "assets/research-overview.png",
+  "referenceImages": [],
+  "notes": [
+    "示意插画，不是四套实际视频的证据帧。",
+    "文字以app/archive-summary.json和网页为准确来源；信息图本身不增加实测案例数。"
+  ],
+  "sha256": "2bd7edd1a55debfd3596c450ec2185d397ee1a12f7436884725596548c837db9",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  }
+}

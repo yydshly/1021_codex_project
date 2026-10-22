@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "count": 4,
+  "recordFile": "case-library.json",
+  "cases": [
+    {
+      "id": "rain-to-forest",
+      "title": "把森林，带回城市",
+      "tags": [
+        "香水",
+        "产品广告",
+        "木质香调",
+        "城市",
+        "森林",
+        "雨夜",
+        "安静",
+        "反射隐喻",
+        "图形匹配",
+        "产品一致性",
+        "微距",
+        "环绕",
+        "留白",
+        "提示词复盘"
+      ],
+      "goal": "把不可见的木质香气表达为城市雨夜中出现的森林记忆，同时让观众看清并记住同一只香水瓶。",
+      "techniqueIds": [
+        "atmosphere-rain",
+        "camera-movement-arc-left",
+        "composition-negative-space",
+        "composition-reflections",
+        "editing-graphic-match",
+        "lenses-macro",
+        "lighting-volumetric-light"
+      ],
+      "model": "Seedance 2.0",
+      "evidenceStatus": "one_run_qualitative_review",
+      "reviewSummary": "四镜叙事已经生成并剪成成片，产品环绕、森林意象和结尾留白可见。水纹机位与跨镜头圆形匹配只部分符合设计，精确角度和观众情绪反应未验证。",
+      "sampleSize": 1,
+      "revisionCount": 0,
+      "revisionSummary": null
+    },
+    {
+      "id": "book-repair",
+      "title": "让故事，继续",
+      "tags": [
+        "旧书修复",
+        "手工",
+        "物品交还",
+        "照料",
+        "延续",
+        "微距偏差",
+        "手与道具接触",
+        "对象重复",
+        "体积光",
+        "留白",
+        "跨镜一致性",
+        "首版复盘",
+        "动作逻辑",
+        "穿针位置",
+        "合书方向",
+        "开合轴"
+      ],
+      "goal": "通过刷拭、穿针、合书与交还的事件，把旧物被细致照料、故事得以继续的关系表达出来。",
+      "techniqueIds": [
+        "composition-negative-space",
+        "lenses-macro",
+        "lighting-volumetric-light"
+      ],
+      "model": "Seedance 2.0",
+      "evidenceStatus": "one_run_qualitative_review",
+      "reviewSummary": "四镜已生成并剪成 18 秒首版，旧书质感与交还关系可见；动作逻辑未通过复核：穿针作用位置与方案不符，疑似叠书；合书方向与可见书脊的开合轴关系不一致。这些是内容正确性问题，需优先于景别、体积光和留白的美化修正。原片保留，未重新生成。",
+      "sampleSize": 1,
+      "revisionCount": 1,
+      "revisionSummary": "已只重做穿针与合书并剪回 18 秒：穿针从叠书／纸页外侧落点改为单一书体的中央折缝孔；合书从另一边翻起改为沿左侧长书脊放下同一前封面。刷拭和交还沿用首版素材与取材范围。穿针只展示小幅插入，未展示下侧出针与完整拉线。"
+    },
+    {
+      "id": "tea-moment",
+      "title": "把片刻，留给自己",
+      "tags": [
+        "手作陶器",
+        "情绪与动作",
+        "日常安静",
+        "触杯",
+        "端杯",
+        "行走与停步",
+        "主体停止",
+        "相机停止",
+        "后方跟拍",
+        "后拉",
+        "状态连续性",
+        "停顿",
+        "提示词复用"
+      ],
+      "goal": "让杯子伴随人的日常行动，从触感走到主动停留的时间，表达把片刻留给自己。",
+      "techniqueIds": [
+        "camera-movement-dolly-out",
+        "camera-movement-follow",
+        "lenses-macro"
+      ],
+      "model": "Seedance 2.0",
+      "evidenceStatus": "one_run_qualitative_review",
+      "reviewSummary": "15秒成片已完成：触杯接触和端杯停步可读；后拉时人物又走，且后两镜未按计划停镜。日常安静的视觉线索较充分，但“主动留出片刻”只部分表达，未做观众验证。",
+      "sampleSize": 1,
+      "revisionCount": 0,
+      "revisionSummary": null
+    },
+    {
+      "id": "bike-kindness",
+      "title": "有人，帮你一把",
+      "tags": [
+        "社区修车摊",
+        "取车",
+        "认真照应",
+        "情绪与动作",
+        "双人关系",
+        "支撑交接",
+        "先接稳再松手",
+        "擦拭次数",
+        "车旁推行",
+        "跟拍",
+        "方向选择",
+        "状态连续性"
+      ],
+      "goal": "为社区修车摊做一支短片，让通勤者记住这里不止修好车，也会认真照应来取车的人。",
+      "techniqueIds": [
+        "camera-movement-follow",
+        "framing-insert",
+        "framing-two-shot"
+      ],
+      "model": "Seedance 2.0",
+      "evidenceStatus": "one_run_qualitative_review",
+      "reviewSummary": "四镜已生成并剪成20秒：注意来人、擦拭座垫、接触后松手与推车离开都可读。擦拭变成多次往返，末镜约2.5秒才起步且后段左手未持续清楚扶座垫。细致友善的照料线索较充分，但从疲惫到安心的明显转折较弱，尚无观众验证。",
+      "sampleSize": 1,
+      "revisionCount": 0,
+      "revisionSummary": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "shotId": "tea-2",
+    "image": "generated/tea-moment/evidence/tea-2-1.25.jpg",
+    "sourceSeconds": 1.25,
+    "filmSeconds": 6.25
+  },
+  {
+    "shotId": "tea-2",
+    "image": "generated/tea-moment/evidence/tea-2-2.75.jpg",
+    "sourceSeconds": 2.75,
+    "filmSeconds": 7.75
+  },
+  {
+    "shotId": "tea-2",
+    "image": "generated/tea-moment/evidence/tea-2-4.75.jpg",
+    "sourceSeconds": 4.75,
+    "filmSeconds": 9.75
+  },
+  {
+    "shotId": "tea-3",
+    "image": "generated/tea-moment/evidence/tea-3-2.75.jpg",
+    "sourceSeconds": 2.75,
+    "filmSeconds": 12.75
+  },
+  {
+    "shotId": "tea-3",
+    "image": "generated/tea-moment/evidence/tea-3-3.50.jpg",
+    "sourceSeconds": 3.5,
+    "filmSeconds": 13.5
+  },
+  {
+    "shotId": "tea-3",
+    "image": "generated/tea-moment/evidence/tea-3-4.75.jpg",
+    "sourceSeconds": 4.75,
+    "filmSeconds": 14.75
+  }
+]

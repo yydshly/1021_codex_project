@@ -107,6 +107,16 @@
       "repository": "https://github.com/ishuagrawal/autumn-line",
       "status": "已完成",
       "image": "assets/natural-scene-overview.png"
+    },
+    {
+      "id": "010",
+      "slug": "melies-cinematic-guide",
+      "title": "镜头手册：AI视频创作动作素材库",
+      "summary": "以情绪目标驱动的AI视频创作动作素材库，汇集424项电影语言与4个实测题材，支持看效果、选参考、设计分镜、复制双语提示词及复盘。沉淀动作与状态描述、案例检索和验收方法，可扩展到品牌短片、产品演示、人物叙事与模型创作助手；生成效果仍需复核。",
+      "repository": null,
+      "source_url": "https://melies.co/cinematic-techniques",
+      "status": "已归档",
+      "image": "assets/research-overview.png"
     }
   ]
 }

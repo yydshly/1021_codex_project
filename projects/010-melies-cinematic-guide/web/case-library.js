@@ -1,0 +1,2709 @@
+window.CASE_LIBRARY = {
+  "schemaVersion": 1,
+  "purpose": "供模型按创作目标检索、参考和改写的案例经验；区分设计意图、实际输入、观察证据与待验证建议。",
+  "cases": [
+    {
+      "id": "rain-to-forest",
+      "title": "把森林，带回城市",
+      "recordedAt": "2026-10-22",
+      "tags": [
+        "香水",
+        "产品广告",
+        "木质香调",
+        "城市",
+        "森林",
+        "雨夜",
+        "安静",
+        "反射隐喻",
+        "图形匹配",
+        "产品一致性",
+        "微距",
+        "环绕",
+        "留白",
+        "提示词复盘"
+      ],
+      "goal": {
+        "product": "虚构的 50ml 木质香调香水，无品牌和文字标签。",
+        "audience": "渴望安静、希望在城市生活中短暂亲近自然的人；这是本次创作设定，未做受众验证。",
+        "communicationGoal": "把不可见的木质香气表达为城市雨夜中出现的森林记忆，同时让观众看清并记住同一只香水瓶。",
+        "intendedEmotion": "从雨夜的冷与疏离，经过好奇和发现，收束到安静、温暖与可呼吸的空间。",
+        "coreMessage": "把森林，带回城市。",
+        "constraints": [
+          "16 秒、16:9、四镜结构",
+          "同一只琥珀圆柱玻璃瓶与银色圆形瓶盖",
+          "冷蓝城市与克制的暖琥珀光",
+          "森林主要通过玻璃和金属反射表达",
+          "无讲解旁白，文字后期加入"
+        ],
+        "successCriteria": [
+          "雨滴与水纹可读，能够建立城市雨夜",
+          "水纹与瓶盖在切点形成清楚的形状联系",
+          "产品外观跨镜头较一致，环绕能够展示背景变化与森林意象",
+          "结尾主体清楚，留白可以容纳中文文案"
+        ]
+      },
+      "review": {
+        "status": "one_run_qualitative_review",
+        "sampleSize": 1,
+        "summary": "四镜叙事已经生成并剪成成片，产品环绕、森林意象和结尾留白可见。水纹机位与跨镜头圆形匹配只部分符合设计，精确角度和观众情绪反应未验证。",
+        "effectiveParts": [
+          "用局部细节开场、再揭示产品、最后留白落版的结构已在成片中实现。",
+          "三个产品镜头共用参考图，实际画面中的瓶型与冷蓝、暖琥珀配色较一致。",
+          "森林意象在瓶身和瓶盖中出现，环绕时背景随视点变化。",
+          "结尾保留可用空间，中文文案由后期清楚加入。"
+        ],
+        "evidenceBasis": "本次四段生成素材、成片抽帧与浏览器播放检查，属于人工定性观察。",
+        "limits": [
+          "只有一套方案、一次执行，没有对照组、重复抽样或成功率统计。",
+          "共享参考图与较一致的外观同时出现，不能据此证明参考图是唯一原因或保证后续一致性。",
+          "未量化环绕角度、留白比例、反射的物理准确性；未开展受众感受或商业效果测试。",
+          "候选改写没有再次生成，不能当作已验证的改进；结论仅限本次 Seedance 2.0 输出。"
+        ]
+      },
+      "shotReviews": [
+        {
+          "shotId": "s1",
+          "intent": "先让观众进入冷湿的城市环境，再用一次水纹建立悬念和圆形母题。",
+          "selectionReason": "微距把注意力集中在一个小动作上；雨景与湿表面建立触感和天气，使开场能够用环境细节而非旁白传达氛围。",
+          "outcome": "partially_met",
+          "problems": [
+            "水纹可见，但实际为斜俯拍，水洼与水纹呈椭圆，未达到严格垂直俯拍。",
+            "与下一镜瓶盖的投影形状不同，增加了图形匹配的难度。"
+          ],
+          "causeAssessment": "未做隔离实验，无法确定偏斜的具体原因；文字中的 top-down 约束在本次输出中没有被严格遵循。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先准备真正垂直俯拍的水面构图参考，再保持单一水滴动作；只改变机位约束，便于比较是否改善。",
+            "promptRole": "在原提示词上替换机位描述的候选片段，不能脱离完整场景直接视为已验证提示词。",
+            "promptZh": "摄影机光轴垂直于石板，从正上方以 90 度俯拍，画面不出现地平线。水纹在画面中的投影保持圆形而非椭圆。摄影机固定，只出现一滴雨和一圈扩散水纹。",
+            "promptEn": "The camera optical axis is perpendicular to the slate, looking straight down from directly overhead at 90 degrees, with no visible horizon. The projected water ring is circular rather than elliptical. Lock the camera; show only one raindrop and one expanding ring.",
+            "check": "对比水纹的横纵直径与圆心位置，并核对是否仍有机位倾斜；不能只看是否出现了水纹。"
+          },
+          "title": "城市的一滴雨",
+          "targetEffect": "垂直俯视湿石板上的圆形小水洼，一滴雨落下，中心扩散出一道水纹。",
+          "observedEffect": "雨滴与水纹运动可见；实际机位更偏斜俯拍，未达到设计中的严格垂直俯拍。",
+          "techniqueIds": [
+            "lenses-macro",
+            "atmosphere-rain"
+          ],
+          "designPrompt": {
+            "zh": "3 秒，16:9。雨夜屋顶上湿黑色石板的垂直俯拍微距。一个圆形小水洼位于画面中心，直径约占画面高度的 44%。一滴雨落在圆心，只形成一圈清楚扩散的水纹。冷蓝城市灯光倒映在水面，一侧有微弱琥珀色反光。摄影机与焦距完全固定，石板纹理稳定，保持真实液体运动。香水瓶尚不进入画面，画面没有文字。",
+            "en": "3 seconds, 16:9. Locked top-down macro view of wet black slate on a rainy rooftop. A small circular puddle is centered, about 44 percent of frame height in diameter. One raindrop lands at its center and creates one clearly expanding ring. Cool blue city lights reflect in the water with a faint amber reflection along one edge. Keep the camera, focal length and stone texture stable, with coherent liquid motion. The perfume bottle is outside the frame. No lettering."
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. Locked top-down macro view of wet black slate on a rainy rooftop. A small circular puddle is centered, about 44 percent of frame height in diameter. One raindrop lands at its center and creates one clearly expanding ring. Cool blue city lights reflect in the water with a faint amber reflection along one edge. Keep the camera, focal length and stone texture stable, with coherent liquid motion. The perfume bottle is outside the frame. No lettering. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+            "translationZh": "5 秒，16:9。雨夜屋顶上湿黑色石板的垂直俯拍微距。一个圆形小水洼位于画面中心，直径约占画面高度的 44%。一滴雨落在圆心，只形成一圈清楚扩散的水纹。冷蓝城市灯光倒映在水面，一侧有微弱琥珀色反光。摄影机与焦距完全固定，石板纹理稳定，保持真实液体运动。香水瓶尚不进入画面，画面没有文字。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "t2v",
+            "usesProductReference": false
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s1.mp4",
+            "poster": "generated/rain-to-forest/s1.jpg",
+            "width": 1902,
+            "height": 1092,
+            "duration": 5.056,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true
+          },
+          "edit": {
+            "sourceStart": 0.0,
+            "duration": 3,
+            "timeline": {
+              "start": 0,
+              "end": 3
+            }
+          },
+          "taskId": "1034585"
+        },
+        {
+          "shotId": "s2",
+          "intent": "用圆形轮廓把雨夜环境接到香水产品，并第一次暗示木质香调。",
+          "selectionReason": "图形匹配使切镜有视觉联系；瓶盖微距延续细节尺度，反射让城市空间和森林记忆同时出现在产品表面。",
+          "outcome": "partially_met",
+          "problems": [
+            "瓶盖和雪松倒影清楚，但与水纹没有形成相同的投影形状、尺寸和位置。",
+            "实际达到的是轮廓呼应，不能标记为精确图形匹配成功。"
+          ],
+          "causeAssessment": "两镜分别生成、只用文字指定圆心和直径，没有共享经过测量的构图参考；这是一项执行条件限制，未验证它是否是唯一原因。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先选定水纹切出帧，量取圆心、直径及投影轮廓；用同一构图标记准备瓶盖参考帧，再生成固定镜头，最后在剪辑中对齐。",
+            "promptRole": "候选机位与构图约束；方括号参数要在量取前镜后填写。",
+            "promptZh": "使用独立的瓶盖俯拍参考帧。瓶盖圆心位于画面归一化坐标【圆心 x、y】，投影直径为画面高度的【直径百分比】，与选定的水纹切出帧一致。保持机位与金属轮廓固定，不在镜头内让水面变成金属。",
+            "promptEn": "Use a dedicated overhead cap reference frame. Place the cap center at normalized frame coordinates [center x, y], with a projected diameter of [diameter percentage] of frame height, matching the selected outgoing ripple frame. Lock the camera and metal contour. Do not morph water into metal within the shot.",
+            "check": "在切点叠加比较两帧的轮廓、圆心与尺度；如果透视不同，先修正参考构图，避免仅靠字幕或溶解掩盖偏差。"
+          },
+          "title": "一个圆，连接两种世界",
+          "targetEffect": "水纹硬切为同位置、同大小的银色圆形瓶盖，金属表面倒映雪松枝叶。",
+          "observedEffect": "瓶盖微距与雪松倒影可见，构图稳定；与水纹主要形成形状呼应，并非完全相同的透视圆形。",
+          "techniqueIds": [
+            "editing-graphic-match",
+            "lenses-macro",
+            "composition-reflections"
+          ],
+          "designPrompt": {
+            "zh": "4 秒，16:9。垂直俯拍同一只 50ml 圆柱形琥珀玻璃香水瓶的抛光银色圆形瓶盖。瓶盖圆心位于画面中心，直径约占画面高度的 44%，与前镜水纹对齐。瓶盖表面从第一帧就有清楚、稳定的雪松枝叶倒影，枝叶仅轻微摇动。周围保留湿黑石板与冷蓝、暖琥珀反光。摄影机固定，瓶盖边缘不变形，没有文字。",
+            "en": "4 seconds, 16:9. Locked top-down macro view of the polished circular silver cap on the same 50 ml cylindrical amber-glass perfume bottle. Center the cap at 44 percent of frame height in diameter to match the preceding water ring. From the first frame, its surface contains a clear, stable reflection of cedar branches with only a slight leaf movement. Retain wet black slate, cool blue reflections and restrained amber accents. Keep the camera fixed and the cap contour rigid. No lettering."
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. Locked top-down macro view of the polished circular silver cap on the same 50 ml cylindrical amber-glass perfume bottle. Center the cap at 44 percent of frame height in diameter to match the preceding water ring. From the first frame, its surface contains a clear, stable reflection of cedar branches with only a slight leaf movement. Retain wet black slate, cool blue reflections and restrained amber accents. Keep the camera fixed and the cap contour rigid. No lettering. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+            "translationZh": "5 秒，16:9。垂直俯拍同一只 50ml 圆柱形琥珀玻璃香水瓶的抛光银色圆形瓶盖。瓶盖圆心位于画面中心，直径约占画面高度的 44%，与前镜水纹对齐。瓶盖表面从第一帧就有清楚、稳定的雪松枝叶倒影，枝叶仅轻微摇动。周围保留湿黑石板与冷蓝、暖琥珀反光。摄影机固定，瓶盖边缘不变形，没有文字。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "usesProductReference": true
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s2.mp4",
+            "poster": "generated/rain-to-forest/s2.jpg",
+            "width": 1902,
+            "height": 1092,
+            "duration": 5.056,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true
+          },
+          "edit": {
+            "sourceStart": 0.5,
+            "duration": 4,
+            "timeline": {
+              "start": 3,
+              "end": 7
+            }
+          },
+          "taskId": "1034588"
+        },
+        {
+          "shotId": "s3",
+          "intent": "让产品完整出现，通过相机运动与森林意象表现一次发现。",
+          "selectionReason": "弧线环绕在持续面向产品的同时展示背景变化；反射将木质香气转为可见的森林意象，维持城市仍在瓶外的概念。",
+          "outcome": "observed_with_limits",
+          "problems": [
+            "背景与倒影变化可见，但没有测量实际弧线是否达到 90 度。",
+            "未单独验证玻璃反射变化是否符合物理规律，不能把森林意象可见等同于反射控制精确。"
+          ],
+          "causeAssessment": "这里主要是验证缺口，不能断言环绕角度错误，也不能断言已经精确达标。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "保留同一产品参考，增加可辨识的背景地标或起止视点参考；仅调整环绕约束，不叠加产品自转与变焦。",
+            "promptRole": "候选运动约束，保留原场景与产品锚点。",
+            "promptZh": "摄影机沿以香水瓶为中心的四分之一圆弧向左移动，起止视点相差 90 度，半径、机位高度和焦距保持不变。始终面向瓶身，产品静止不自转，背景地标随视点产生连贯位移。",
+            "promptEn": "Move the camera left along a quarter-circle arc centered on the perfume bottle, with a 90-degree change between the starting and ending viewpoints. Keep radius, camera height and focal length constant. Always face the bottle; keep the product stationary without rotation, while background landmarks shift coherently with the viewpoint.",
+            "check": "以明确的起止视点或背景地标核对角度和方向，并逐帧查看瓶型是否漂移；对称圆瓶的外观本身不足以证明环绕角度。"
+          },
+          "title": "绕过瓶身，发现森林",
+          "targetEffect": "同一只香水瓶立在雨夜石板上，摄影机向左环绕 90 度，雪松倒影滑过琥珀玻璃。",
+          "observedEffect": "背景与玻璃倒影随视点移动，瓶型保持稳定；具体环绕角度未做定量测量。",
+          "techniqueIds": [
+            "camera-movement-arc-left",
+            "composition-reflections"
+          ],
+          "designPrompt": {
+            "zh": "5 秒，16:9。同一只无文字标签的 50ml 圆柱形琥珀玻璃香水瓶，抛光银色圆形瓶盖，直立在雨夜屋顶的湿黑色石板上。冷蓝城市散景位于远处，暖琥珀色轮廓光勾出玻璃边缘。摄影机以恒定半径向左环绕 90 度，始终朝向瓶身，保持产品大小和焦距稳定。真实雨痕留在玻璃上，雪松树干的倒影随视角自然滑动。产品不旋转、不变形，城市环境保持连续。",
+            "en": "5 seconds, 16:9. The same unlabeled 50 ml cylindrical amber-glass perfume bottle with its polished circular silver cap stands on wet black slate on a rainy rooftop. Cool blue city bokeh sits in the distance; restrained amber rim light defines the glass. Arc the camera left by 90 degrees at a constant radius, always facing the bottle, with stable framing and focal length. Rain trails remain on the glass while reflected cedar trunks shift naturally with the viewpoint. The bottle stays still and rigid; the city environment remains continuous."
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. The same unlabeled 50 ml cylindrical amber-glass perfume bottle with its polished circular silver cap stands on wet black slate on a rainy rooftop. Cool blue city bokeh sits in the distance; restrained amber rim light defines the glass. Arc the camera left by 90 degrees at a constant radius, always facing the bottle, with stable framing and focal length. Rain trails remain on the glass while reflected cedar trunks shift naturally with the viewpoint. The bottle stays still and rigid; the city environment remains continuous. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+            "translationZh": "5 秒，16:9。同一只无文字标签的 50ml 圆柱形琥珀玻璃香水瓶，抛光银色圆形瓶盖，直立在雨夜屋顶的湿黑色石板上。冷蓝城市散景位于远处，暖琥珀色轮廓光勾出玻璃边缘。摄影机以恒定半径向左环绕 90 度，始终朝向瓶身，保持产品大小和焦距稳定。真实雨痕留在玻璃上，雪松树干的倒影随视角自然滑动。产品不旋转、不变形，城市环境保持连续。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "usesProductReference": true
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s3.mp4",
+            "poster": "generated/rain-to-forest/s3.jpg",
+            "width": 1902,
+            "height": 1092,
+            "duration": 5.056,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true
+          },
+          "edit": {
+            "sourceStart": 0.0,
+            "duration": 5,
+            "timeline": {
+              "start": 7,
+              "end": 12
+            }
+          },
+          "taskId": "1034589"
+        },
+        {
+          "shotId": "s4",
+          "intent": "在情绪稳定后停留于产品，为片名与核心信息留下可读空间。",
+          "selectionReason": "留白让文字和产品各有位置；雾中暖光延续琥珀配色，为安静的落版增加空间层次。",
+          "outcome": "observed_with_limits",
+          "problems": [
+            "产品左置、右侧留白与暖光可见，但没有量取留白是否恰为 55%。",
+            "中文可读性来自后期排字，不能归功于视频模型的文字生成能力。"
+          ],
+          "causeAssessment": "设计意图在视觉上已保留；比例精度和观众对安静氛围的感受尚无量化验证。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "复用结尾构图方法，在生成前用实际文案框检查安全区域；持续把最终文字交给后期完成。",
+            "promptRole": "可替换主体与文案区的候选约束，文字本身不交给视频模型生成。",
+            "promptZh": "将【产品】放在左侧三分区，右侧约【留白比例】保留干净的深色空间。薄雾和光束保持缓慢、克制，不遮挡主体或进入预留文案框。摄影机固定，不生成文字或标志；最终文案由后期加入。",
+            "promptEn": "Place [product] in the left third, reserving approximately [negative-space proportion] on the right as clean dark space. Keep haze and light beams slow and restrained, without obscuring the subject or entering the reserved typography box. Lock the camera and generate no text or logos; add final copy in post-production.",
+            "check": "在原尺寸和手机尺寸检查产品轮廓、文字对比度与文案安全区，量取比例后再声称数值达标。"
+          },
+          "title": "给安静留一个位置",
+          "targetEffect": "香水瓶位于左侧三分区，右侧留白；城市薄雾被一束合理的街灯光照亮。",
+          "observedEffect": "产品位于左侧，右侧留白与雾中暖光可见。原始素材没有文字，成片文案由后期加入。",
+          "techniqueIds": [
+            "composition-negative-space",
+            "lighting-volumetric-light"
+          ],
+          "designPrompt": {
+            "zh": "4 秒，16:9。同一只 50ml 琥珀玻璃香水瓶与银色圆形瓶盖，直立于湿黑石板，放在画面左侧三分区，玻璃上保留克制的雪松倒影。右侧约 55% 画面保持干净的深蓝留白，适合后期加文案。远处城市灯光柔和失焦，一盏画外街灯从右上方照亮缓慢流动的薄雾，产生一束细而可信的暖光。摄影机与产品固定，主体清晰，雾不遮住产品，不生成文字或标志。",
+            "en": "4 seconds, 16:9. The same 50 ml amber-glass perfume bottle and circular silver cap stand on wet black slate in the left third of the frame, retaining a restrained cedar reflection in the glass. Keep approximately 55 percent of the right side as clean deep-blue negative space for later typography. Distant city lights are softly defocused. One off-screen streetlamp from the upper right illuminates slowly drifting light haze with a narrow, plausible warm beam. Lock the camera and bottle, keep the product sharp and unobscured, and generate no text or logos."
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. The same 50 ml amber-glass perfume bottle and circular silver cap stand on wet black slate in the left third of the frame, retaining a restrained cedar reflection in the glass. Keep approximately 55 percent of the right side as clean deep-blue negative space for later typography. Distant city lights are softly defocused. One off-screen streetlamp from the upper right illuminates slowly drifting light haze with a narrow, plausible warm beam. Lock the camera and bottle, keep the product sharp and unobscured, and generate no text or logos. Quiet gentle rain ambience only, no speech and no music. A single continuous shot without cuts.",
+            "translationZh": "5 秒，16:9。同一只 50ml 琥珀玻璃香水瓶与银色圆形瓶盖，直立于湿黑石板，放在画面左侧三分区，玻璃上保留克制的雪松倒影。右侧约 55% 画面保持干净的深蓝留白，适合后期加文案。远处城市灯光柔和失焦，一盏画外街灯从右上方照亮缓慢流动的薄雾，产生一束细而可信的暖光。摄影机与产品固定，主体清晰，雾不遮住产品，不生成文字或标志。 仅保留安静的轻柔雨声，不要人声或音乐。单个连续镜头，不切镜。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "usesProductReference": true
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--s4.mp4",
+            "poster": "generated/rain-to-forest/s4.jpg",
+            "width": 1902,
+            "height": 1092,
+            "duration": 5.056,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true
+          },
+          "edit": {
+            "sourceStart": 0.5,
+            "duration": 4,
+            "timeline": {
+              "start": 12,
+              "end": 16
+            }
+          },
+          "taskId": "1034590"
+        }
+      ],
+      "reusePatterns": [
+        {
+          "id": "detail-to-product",
+          "title": "从环境细节进入产品",
+          "whenToUse": "短产品片需要先建立情绪，再揭示主角时。",
+          "retain": "用一个可读的小动作开场，随后引出产品，保持每镜一个主要运动。",
+          "adapt": "可替换天气细节、产品、材质、场景与视觉母题；无需照搬香水和雨夜。",
+          "evidenceShotIds": [
+            "s1",
+            "s2"
+          ],
+          "evidenceLevel": "workflow_used_in_one_case",
+          "limit": "叙事顺序已实现，观众好奇感和传播效果未测量。"
+        },
+        {
+          "id": "sensory-reflection",
+          "title": "把不可见的感受转为视觉意象",
+          "whenToUse": "气味、记忆或情绪需要通过产品画面表达时。",
+          "retain": "先选一个与产品感受有关的意象，再确定它出现的介质与空间关系。",
+          "adapt": "可改为茶的山雾、咖啡的晨光等新概念；这些新组合尚未实际生成。",
+          "evidenceShotIds": [
+            "s2",
+            "s3"
+          ],
+          "evidenceLevel": "visual_motif_observed_in_one_case",
+          "limit": "本次森林意象可见，但语义是否被观众理解、镜面物理是否准确均未验证。"
+        },
+        {
+          "id": "identity-and-viewpoint",
+          "title": "统一产品外观，分别约束机位",
+          "whenToUse": "同一产品需要跨多个景别或角度出现时。",
+          "retain": "共用外观锚点与产品参考；对严格机位或匹配镜头另备构图参考。",
+          "adapt": "替换瓶型、材质、配色和场景，保留同一产品身份约束。",
+          "evidenceShotIds": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "evidenceLevel": "advice_from_one_case_with_partial_geometry_failure",
+          "limit": "共享参考与较一致的外观在本次同时出现；新增机位参考的改法尚未测试，不能承诺一致性或几何精度。"
+        },
+        {
+          "id": "separate-generation-and-edit",
+          "title": "生成素材与完成剪辑分别安排",
+          "whenToUse": "涉及精确切点、短时长节奏或可读文案的成片。",
+          "retain": "先核对模型支持时长，逐镜生成；切点、音频衔接与最终排字在后期完成。",
+          "adapt": "按实际模型与成片目标调整素材长度、镜头数量和落版位置。",
+          "evidenceShotIds": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "evidenceLevel": "workflow_used_in_one_case",
+          "limit": "本次四段 5 秒素材被剪成 16 秒；这一执行结果不保证其他模型或新题材的质量。"
+        }
+      ],
+      "modelUse": {
+        "retrieveWhen": [
+          "需要产品广告、香气或记忆的视觉表达",
+          "需要雨夜、冷暖对比或安静情绪的设计参考",
+          "需要图形匹配、产品跨镜头一致性、环绕或落版留白的经验",
+          "需要了解文字约束没有严格落实时应怎样复盘"
+        ],
+        "workflow": [
+          "先读取案例简明索引，按创作目标、情绪、对象或技巧筛选。",
+          "读取本案例的目标、逐镜理由、真实输入、观察结果、问题与证据边界。",
+          "保留合适的表达逻辑，围绕新简报改写主体、意象、场景、节奏和提示词，引用案例与技巧 ID。",
+          "明确说明复用了哪些经验、改写了什么、哪些建议尚未验证，并列出新作品的检查标准。",
+          "新生成后回写观察与问题；不要把候选改法直接升级为已验证经验。"
+        ],
+        "doNotAssume": [
+          "不要照抄森林、雨夜、香水瓶作为所有产品的默认剧情。",
+          "不要把设计版时长当成本次实际生成时长；查看 execution 中的请求与剪辑记录。",
+          "不要把实际英文输入的中文翻译说成另一次中文模型调用。",
+          "不要宣称掌握 90 度精确环绕、55% 精确留白或已验证整个 424 项库。",
+          "不要把提示词建议、原因假设、单次观察与普遍规律混在一起。"
+        ]
+      },
+      "techniqueIds": [
+        "atmosphere-rain",
+        "camera-movement-arc-left",
+        "composition-negative-space",
+        "composition-reflections",
+        "editing-graphic-match",
+        "lenses-macro",
+        "lighting-volumetric-light"
+      ],
+      "techniques": [
+        {
+          "id": "atmosphere-rain",
+          "nameZh": "雨景",
+          "sourceUrl": "https://melies.co/cinematic-techniques/atmosphere/rain"
+        },
+        {
+          "id": "camera-movement-arc-left",
+          "nameZh": "向左弧线环绕",
+          "sourceUrl": "https://melies.co/cinematic-techniques/camera-movement/arc-left"
+        },
+        {
+          "id": "composition-negative-space",
+          "nameZh": "留白构图",
+          "sourceUrl": "https://melies.co/cinematic-techniques/composition/negative-space"
+        },
+        {
+          "id": "composition-reflections",
+          "nameZh": "反射构图",
+          "sourceUrl": "https://melies.co/cinematic-techniques/composition/reflections"
+        },
+        {
+          "id": "editing-graphic-match",
+          "nameZh": "图形匹配剪辑",
+          "sourceUrl": "https://melies.co/cinematic-techniques/editing/graphic-match"
+        },
+        {
+          "id": "lenses-macro",
+          "nameZh": "微距镜头",
+          "sourceUrl": "https://melies.co/cinematic-techniques/lenses/macro"
+        },
+        {
+          "id": "lighting-volumetric-light",
+          "nameZh": "体积光",
+          "sourceUrl": "https://melies.co/cinematic-techniques/lighting/volumetric-light"
+        }
+      ],
+      "result": {
+        "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--rain-to-forest.mp4",
+        "poster": "generated/rain-to-forest/poster.jpg",
+        "duration": 16,
+        "model": "Seedance 2.0",
+        "resolution": "1920x1080",
+        "fps": 24,
+        "generatedAt": "2026-10-22",
+        "estimatedCredits": 480,
+        "serviceReportedCredits": 600,
+        "accountDeductionVerified": false,
+        "costNote": "估算工具给出每段 120 点；服务结果每段标记 150 点。查询时账户余额未变化，实际扣费未确认。"
+      },
+      "execution": {
+        "model": "Seedance 2.0",
+        "requestedTarget": {
+          "duration": 16,
+          "aspectRatio": "16:9",
+          "resolution": 1080
+        },
+        "generatedDurations": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "editDurations": [
+          3,
+          4,
+          5,
+          4
+        ],
+        "referenceImage": {
+          "provider": "built-in image_gen",
+          "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/rain-to-forest--product-reference.png",
+          "role": "用于 s2、s3、s4 的产品外观参考；s1 为文生视频",
+          "actualResolution": [
+            1672,
+            941
+          ]
+        },
+        "postProduction": {
+          "order": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "durations": [
+            3,
+            4,
+            5,
+            4
+          ],
+          "transition": "Align circular ripple and cap position/diameter; hard cut, no morph.",
+          "endTitle": "把森林，带回城市",
+          "titleMethod": "Add typography in post-production to the right-hand negative space in shot s4.",
+          "audio": "Use generated rain ambience with short audio crossfades; no narration."
+        },
+        "cost": {
+          "estimatedCredits": 480,
+          "serviceReportedCredits": 600,
+          "deductionVerified": false,
+          "note": "估算工具给出每段 120 点；服务结果每段标记 150 点。查询时账户余额未变化，实际扣费未确认。"
+        }
+      },
+      "sourceRecords": [
+        "app/case-memory.json",
+        "app/creative-case.js",
+        "app/production/rain-to-forest-plan.json",
+        "app/production/s1-execution.json",
+        "app/production/s2-execution.json",
+        "app/production/s3-execution.json",
+        "app/production/s4-execution.json"
+      ]
+    },
+    {
+      "id": "book-repair",
+      "title": "让故事，继续",
+      "recordedAt": "2026-10-22",
+      "tags": [
+        "旧书修复",
+        "手工",
+        "物品交还",
+        "照料",
+        "延续",
+        "微距偏差",
+        "手与道具接触",
+        "对象重复",
+        "体积光",
+        "留白",
+        "跨镜一致性",
+        "首版复盘",
+        "动作逻辑",
+        "穿针位置",
+        "合书方向",
+        "开合轴"
+      ],
+      "goal": {
+        "product": "虚构旧书修复工作室；一本靛蓝布面旧书，前封面右下角有小块浅米色补布。",
+        "audience": "珍惜书籍、手工与旧物的人；为创作设定，未做受众测试。",
+        "communicationGoal": "通过刷拭、穿针、合书与交还的事件，把旧物被细致照料、故事得以继续的关系表达出来。",
+        "intendedEmotion": "担心旧书的脆弱 → 看到劳动与照料 → 安心接回旧书；属于意图，未验证观众是否如此感受。",
+        "coreMessage": "让故事，继续。",
+        "constraints": [
+          "18 秒、16:9、4 镜",
+          "同一旧书、左侧晨光与木台",
+          "以亚麻袖口与灰色毛衣袖口区分修复者和读者，不拍脸",
+          "每镜一个主要动作，摄影机固定",
+          "微距、克制的窗光与浮尘、末镜右侧约 40% 留白",
+          "无魔法瞬间修复、无森林雨景，片名后期加入"
+        ],
+        "successCriteria": [
+          "书脊纤维与刷头接触能在微距中读清",
+          "针线穿过既有装订孔，只有一本书，手与孔稳定",
+          "合书时双手与封面的接触连贯，光束由真实窗光和少量散射介质支持",
+          "交还动作与两人的袖口身份可读",
+          "文字不遮动作，不能仅凭提示词宣称右侧留白比例达标"
+        ]
+      },
+      "review": {
+        "status": "one_run_qualitative_review",
+        "sampleSize": 1,
+        "summary": "四镜已生成并剪成 18 秒首版，旧书质感与交还关系可见；动作逻辑未通过复核：穿针作用位置与方案不符，疑似叠书；合书方向与可见书脊的开合轴关系不一致。这些是内容正确性问题，需优先于景别、体积光和留白的美化修正。原片保留，未重新生成。",
+        "effectiveParts": [
+          "四镜按刷拭、穿针、合书、交还排列；排列顺序可辨不等于动作内部或跨镜逻辑正确。",
+          "靛蓝布面、浅米色补布与木台 / 左侧窗光提供了反复出现的视觉线索；不等于书的结构完全一致。",
+          "末镜亚麻袖口与灰色毛衣袖口区分两人，约 2 秒后共同托书停留，交还关系可读。",
+          "依据真实画面将片名放在右上墙面，没有遮住主要手部动作；文字由后期制作。"
+        ],
+        "evidenceBasis": "四段原始素材完整解码和尺寸 / 时长 / 帧率测量；查看 0.1 秒、逐秒和尾帧抽帧，并检查关键细节原尺寸帧；网页播放与成片检查。视觉结论为本次定性观察。",
+        "limits": [
+          "一套方案、一次执行；四个镜头不是四次独立复现实验，没有成功率或跨模型结论。",
+          "单张合书身份参考与多镜沿用整本书构图同时出现，但未隔离参考模式、文字或模型因素，不能断言唯一原因。",
+          "没有完成逐帧拓扑、光学或留白百分比的量测，不保证手、线、孔与反射等物理正确。",
+          "音轨存在，已做技术解码与后期响度处理，但未进行听感、内容或声画同步验收，不能声称无音乐 / 无人声要求已全部实现。",
+          "未做观众情绪、传播效果或真实修书工艺正确性验证；短片不是修复教学。",
+          "候选构图图、首帧、接触点与留白改法均未再次生成，不可升级为已验证改进。"
+        ],
+        "logicPriority": "先验收物体结构、动作作用位置、转轴与动作前后状态，再评价叙事表达与镜头呈现。仅为人工审片原则，不是网页的自动物理校验。",
+        "recheckNote": "用户指出穿针位置、合书方向问题后，重新查看原始时间抽帧。此前合书复盘只强调接触不连续，遗漏了开合轴；本次补记，不改写实际输入或原片。"
+      },
+      "shotReviews": [
+        {
+          "shotId": "book-1",
+          "intent": "先通过材料的脆弱与一次轻刷，引起对旧书的注意。",
+          "selectionReason": "微距原本用于读清纸纤维和刷头接触；固定机位避免细节被额外运动分散。",
+          "outcome": "partially_met",
+          "observedEffect": "靛蓝旧书、米色补布、亚麻袖口和左侧窗光可见；约 1–4.8 秒手持小刷在封面刷拭，旧物身份线索保留。",
+          "problems": [
+            "画面仍包含整本书和较多工作台，未达到书脊纸纤维的微距尺度。",
+            "刷子主要扫向封面，包含多个短刷拭动作，没有严格沿磨损书脊轻刷一次。"
+          ],
+          "causeAssessment": "单张整本书参考的构图在结果中保留较强，但未做隔离实验，不能确定是参考模式、文字约束还是模型执行导致。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "另备只包含书脊接触区的专用构图参考，将身份图与镜头构图区分；先只测试景别与刷头落点。",
+            "promptRole": "下一轮替换机位和动作范围的候选片段，未生成验证。",
+            "promptZh": "使用专用书脊近距构图：画面只含一小段磨损书脊、纸纤维与刷头，不展示整本封面。刷头从书脊左端到右端轻扫一次后停住，不扫封面，不往返。保持接触点在焦内。",
+            "promptEn": "Use a dedicated tight spine framing reference: show only a small frayed spine section, paper fibers and brush tip, not the entire cover. Make one gentle brush pass from the left end of this spine section to the right and stop. Do not brush the cover or move back and forth. Keep the contact point in focus.",
+            "check": "先核对景别是否真正排除整本书，再比较刷头路径、接触点与动作次数；不能以整体质感好代替微距达标。"
+          },
+          "title": "磨损处",
+          "targetEffect": "旧书平放在修复台上，书脊朝向镜头。一只手用柔软小刷沿磨损书脊轻轻刷过一次，露出纸纤维；不出现修复前后瞬间变化。",
+          "techniqueIds": [
+            "lenses-macro"
+          ],
+          "taskId": "1035062",
+          "designPrompt": {
+            "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n旧书平放在修复台上，书脊朝向镜头。一只手用柔软小刷沿磨损书脊轻轻刷过一次，露出纸纤维；不出现修复前后瞬间变化。\n与书脊接近等高的斜侧微距，保留刷头与书脊接触处的景深。\n摄影机保持固定。\n书脊横向占画面中段，手从左侧进入；背景自然虚化。\n左侧窗户漫射晨光，纸纤维柔和可见，不做强烈光束。\n磨损书脊上的纸纤维与刷头接触点；接触区清楚，远处逐渐失焦。\n声音设计：轻微刷毛摩擦声与安静室内底噪，无旁白。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+            "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nThe old book rests on the repair table with its spine facing camera. One hand makes a single gentle pass with a soft small brush along the frayed spine, revealing paper fibers; no instant before-and-after transformation.\nOblique side macro near spine level, with enough depth of field to read the brush-to-spine contact.\nKeep the camera locked off.\nThe spine crosses the middle of frame; the hand enters from the left; the background falls gently out of focus.\nSoft morning window light from the left reveals paper fibers without a pronounced beam.\nPaper fibers and the brush contact point on the frayed spine; keep the contact zone crisp with gradual falloff beyond it.\nSound design: A faint brush sound over quiet room tone, no voice-over.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "studio-book-repair.json"
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. Oblique side macro near spine level. The book starts closed and lying flat, frayed spine toward camera. A hand in a plain linen sleeve gently makes ONE slow pass with a small soft brush across the worn spine, then pauses. Show realistic fine paper fibers; keep the brush-to-spine contact zone crisp with enough depth of field, background softly out of focus. The hand enters from the left. The spine crosses the middle of frame. No sudden repair or change of material. Soft diffuse window light, no pronounced light shaft. The same small old indigo clothbound book, a small pale-beige rectangular repair patch at the lower-right corner of the front cover, naturally yellowed paper and signs of use. The reference image defines book identity and workshop materials, not mandatory framing or closed-book pose. An ordinary wooden repair table, soft morning light from a window on the left, restrained natural colors. No faces, no speech, no music, no overlaid text or logos. Quiet workshop room tone and subtle contact sounds only. No rain, mirrors, forest imagery, magical transformation or exaggerated particles. Keep the camera locked off: no zoom, pan, orbit or cuts within the clip. Plausible hands, rigid book geometry and continuous physical contact.",
+            "translationZh": "5 秒，16:9。接近书脊高度的斜侧微距。开场旧书合上平放，磨损书脊朝镜头。穿素色亚麻袖衣的手用小软刷缓慢轻刷书脊一次，然后停住。纸纤维真实细小，刷头与书脊接触区清楚，景深足以看清接触，背景柔和虚化。手从左侧进入，书脊横向穿过画面中段。不要突然修好或改变材料。柔和漫射窗光，不做明显光束。同一本小型靛蓝布面旧书，前封面右下角有小块浅米色矩形补布，纸边自然泛黄并保留旧痕。参考图只规定书的身份与工作台材质，不强制沿用构图或合书姿态。普通木质修复台，左侧窗户柔和晨光，色彩自然克制。不拍脸，无人声、音乐、叠加文字或标志；只有安静工作室底噪和轻微接触声。不要雨、镜面、森林意象、魔法变化或夸张粒子。摄影机固定：镜内不变焦、摇移、环绕或切镜。手部合理，书的几何稳定，接触连续。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "referenceRole": "book_identity_and_workshop_materials_not_first_frame"
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-1.mp4",
+            "poster": "generated/book-repair/book-1.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 4403311
+          },
+          "edit": {
+            "sourceStart": 0.5,
+            "duration": 4,
+            "timeline": {
+              "start": 0,
+              "end": 4
+            }
+          }
+        },
+        {
+          "shotId": "book-2",
+          "intent": "用一次针线劳动，让照料成为可见动作，而非瞬间修复。",
+          "selectionReason": "微距应读清针尖、线与已有装订孔的接触；将动作缩为一次穿孔，避免塞入完整修书流程。",
+          "outcome": "partially_met",
+          "observedEffect": "约 0–4 秒针靠近并下移到纸页上的点位，约 5–9 秒手提针线；亚麻袖口、旧纸和工作台可见，动作集中在一次下移与提线。",
+          "problems": [
+            "打开的书页与独立书壳看起来叠在一册合上的靛蓝旧书上，出现重复对象 / 结构不一致，不能确认是同一本书的正常打开状态。",
+            "本方案要求针穿书脊既有装订孔，实际针尖却落在打开页片偏外侧的点位，与目标作用位置不符；不能以出现针线和上下动作就判为装订成立。",
+            "画面仍含完整手和较大书体，没有达到针尖—孔—线的极近微距尺度。"
+          ],
+          "causeAssessment": "原身份图是合书状态，文字要求改成开书和穿针；本次输出同时保留合书身份并添加开书结构。这是可见偏差与可能相关的输入条件，不是已证实原因。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先画清单一书体与书脊装订孔的位置关系，准备孔位可辨的起始参考；只测试同一孔上的一次穿针，先验收作用位置和书体结构，再考虑微距效果。",
+            "promptRole": "候选对象数量、起始状态与接触约束，必须配合新的真实输入参考，不当作本轮历史输入。",
+            "promptZh": "画面中只有一本书，其已打开的书帖位于软书托上，下面没有合上的第二本书或额外书壳。近距构图显示书脊处一个已存在的装订孔，针尖在孔的入口外，单根线与针相连。只完成从该入口穿过到另一侧的一个动作；孔、纸与手的相对位置保持稳定。",
+            "promptEn": "Show exactly one book, its open section supported on a soft cradle, with no second closed book or extra cover underneath. A tight view shows one existing binding hole at the spine. The needle tip begins just outside its entrance, attached to one continuous thread. Perform only one pass through that entrance to the other side, keeping hole, paper and hand positions stable.",
+            "check": "先核对书体数量、书脊、目标孔与针的相对位置；再逐帧核对入口、出口和线的连续性。这里检验本方案的空间关系，不把候选描述当作专业修复工艺证明。"
+          },
+          "logicReview": {
+            "assessment": "not_passed",
+            "label": "动作逻辑未通过",
+            "basis": "assistant_visual_recheck_after_user_feedback",
+            "userFeedback": "穿针的位置不对。",
+            "expected": "按本方案预设，针应作用于同一本书书脊处既有装订孔；入口、出口与线的走向要能对应。不是泛化断言所有书籍装订都使用同一工艺。",
+            "observed": "针尖落在页片上的点位，打开的页块与下方合书形成疑似叠书结构，目标修复部位和书体关系没有成立。",
+            "check": "先确认只有一个书体、书脊和目标孔，再检查针入口—出口—线是否围绕同一孔连续，最后检查动作是否真的改变目标部位。",
+            "evidenceFrames": [
+              {
+                "image": "generated/book-repair/evidence/needle-4s.jpg",
+                "sourceSeconds": 4,
+                "filmSeconds": 7.5,
+                "caption": "原片 4.00 秒 / 成片 7.50 秒：针落点与疑似叠书结构。"
+              }
+            ]
+          },
+          "title": "一针照料",
+          "targetEffect": "同一本书打开支撑在软垫上。修复者一手稳住书帖，另一手将带米色细线的针缓慢穿过一个已有装订孔，完成一次穿孔后停住。",
+          "techniqueIds": [
+            "lenses-macro"
+          ],
+          "taskId": "1035065",
+          "designPrompt": {
+            "zh": "目标剪辑时长 6 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n同一本书打开支撑在软垫上。修复者一手稳住书帖，另一手将带米色细线的针缓慢穿过一个已有装订孔，完成一次穿孔后停住。\n装订孔一侧的近距离微距，略高于台面；两只手的接触点同时可读。\n摄影机保持固定。\n装订孔位于中间偏左，针线轨迹不被手掌遮住。\n延续左侧柔和窗光，线与纸有足够明暗分离。\n针尖、已有装订孔与线的接触区；线保持一根，手指和孔位不漂移。\n声音设计：轻微穿线与纸张摩擦声，保留一次动作的停顿。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+            "en": "Target edit duration 6 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nThe same book lies open on a soft support. One hand steadies the section while the other slowly passes a needle with fine beige thread through one existing binding hole, then pauses after this single pass.\nA close macro view from the binding-hole side, slightly above the table; the contact points of both hands remain readable.\nKeep the camera locked off.\nThe binding hole sits slightly left of center and the palms do not obscure the needle path.\nContinue soft window light from the left, separating the thread clearly from the paper.\nThe needle tip, existing binding hole and thread contact zone; one continuous thread, with stable fingers and hole position.\nSound design: Subtle thread and paper friction, with a pause after the single movement.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "studio-book-repair.json"
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "10 seconds, 16:9. Start ALREADY OPEN on a soft linen book support, not opening from the closed reference pose. Close macro from the binding-hole side, slightly above the table. One linen-sleeved hand steadies the paper section while the other holds one needle carrying one fine beige thread. At first pause briefly; during the first six seconds slowly pass that single needle ONCE through one EXISTING visible binding hole, then hold still for the rest of the clip. Keep needle tip, hole and thread contact readable together, with the palms outside the contact area. The needle enters the paper hole, never a finger; the thread remains continuous, the hole and fingers remain stable. No repeated stitching, montage, instant restoration or whole-book repair sequence. Soft window light from the left separates thread from paper. The same small old indigo clothbound book, a small pale-beige rectangular repair patch at the lower-right corner of the front cover, naturally yellowed paper and signs of use. The reference image defines book identity and workshop materials, not mandatory framing or closed-book pose. An ordinary wooden repair table, soft morning light from a window on the left, restrained natural colors. No faces, no speech, no music, no overlaid text or logos. Quiet workshop room tone and subtle contact sounds only. No rain, mirrors, forest imagery, magical transformation or exaggerated particles. Keep the camera locked off: no zoom, pan, orbit or cuts within the clip. Plausible hands, rigid book geometry and continuous physical contact.",
+            "translationZh": "10 秒，16:9。开场书已打开，支在柔软亚麻书托上，不要从参考图的合书姿态开始开书。装订孔一侧、略高于台面的近距离微距。一只亚麻袖口的手稳住书帖，另一只手拿一根穿着单根米色细线的针。先短暂停顿，在前六秒内缓慢将这一根针穿过一个已有且可见的装订孔一次，然后在余下时间保持停顿。针尖、孔与线的接触区同时可读，手掌不遮住接触。针只穿纸孔、不穿手指；线连续，孔和手指稳定。不重复穿针，不蒙太奇，不瞬间修复，不演整个修书流程。左侧柔和窗光使线与纸分离。同一本小型靛蓝布面旧书，前封面右下角有小块浅米色矩形补布，纸边自然泛黄并保留旧痕。参考图只规定书的身份与工作台材质，不强制沿用构图或合书姿态。普通木质修复台，左侧窗户柔和晨光，色彩自然克制。不拍脸，无人声、音乐、叠加文字或标志；只有安静工作室底噪和轻微接触声。不要雨、镜面、森林意象、魔法变化或夸张粒子。摄影机固定：镜内不变焦、摇移、环绕或切镜。手部合理，书的几何稳定，接触连续。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 10,
+            "type": "i2v",
+            "referenceRole": "book_identity_and_workshop_materials_not_first_frame"
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-2.mp4",
+            "poster": "generated/book-repair/book-2.jpg",
+            "duration": 10.048,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 6441698
+          },
+          "edit": {
+            "sourceStart": 0.5,
+            "duration": 6,
+            "timeline": {
+              "start": 4,
+              "end": 10
+            }
+          }
+        },
+        {
+          "shotId": "book-3",
+          "intent": "从局部回到工作空间，给照料一个完成并停留的时刻。",
+          "selectionReason": "用窗光和极少纸尘组织真实空间层次，让光服从合书动作。",
+          "outcome": "partially_met",
+          "observedEffect": "原片 0.1 秒为展开状态，约 1 秒远侧封面 / 页片竖起，约 2 秒落下成为合书，之后停留；书脊、开合方向与封面归属没有保持可信关系，不能只按“从开到合”认定动作成立。",
+          "problems": [
+            "可见书脊仍在左侧，但封面 / 页片从远侧竖起再落下，旋转轴与书脊的空间关系不一致，表现为开合方向和书体结构矛盾；不是单纯手部接触不够清楚。",
+            "约 1 秒双手已大部分离开，之后书页继续合拢，双手与书页的接触点没有持续清楚呈现。",
+            "自然窗光明显，但明确成束的体积光不突出，不能把普通窗光视为体积光规则已充分实现。"
+          ],
+          "causeAssessment": "此前审片遗漏了开合轴，只描述手离开与继续合拢；本次依据可见书脊和前后帧补记空间逻辑矛盾。具体生成原因仍未做隔离验证。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "优先修正书体结构与合书轴：先准备同一本书展开、半合、闭合三种一致状态的参考，确认连接边不变，再约束双手驱动和释放顺序；保持既有光线，不同时追求更强光束。",
+            "promptRole": "候选书体与开合轴约束，尚未生成验证；轴由具体书脊决定，不用固定画面左右代替物体坐标。",
+            "promptZh": "先沿参考明确同一本书的书脊、固定封面、移动封面及连接边。保持书脊和页块在台面上的位置与朝向不变，移动封面只绕该书脊连接轴合拢；其自由边沿同一圆弧回到页块上，不从另一条边另起转轴，不把整本书翻转。手持续接触并驱动该封面，合稳后再停住。保留原有柔和左侧窗光。",
+            "promptEn": "Use the reference to identify the single book spine, fixed cover, moving cover and connected edge. Keep the spine and page block fixed in position and orientation on the table. Close the moving cover only about that same spine hinge; its free edge follows one continuous arc onto the page block. Do not create a second hinge at another edge or flip the whole book. The hand remains in contact and drives the cover until it rests closed, then pauses. Retain the same soft window light from the left.",
+            "check": "先对照展开、半合、闭合三帧的同一书脊与连接边，核对轴、自由边路径及补布所在封面，再检查施力接触和停留。不能只看最终出现一本合上的书。"
+          },
+          "logicReview": {
+            "assessment": "not_passed",
+            "label": "动作逻辑未通过",
+            "basis": "assistant_visual_recheck_after_user_feedback",
+            "userFeedback": "合书的方向不对。",
+            "expected": "先确定这本书的书脊和封面连接边；封面应围绕同一连接轴合拢，固定侧、书脊和页块不能在动作中换边或另生转轴。",
+            "observed": "左侧仍可见书脊结构，远侧板状封面 / 页片却竖起再落下，连接轴与移动方向关系不一致；约 1 秒后手部接触也不持续可读。",
+            "check": "对照展开、半合、合拢三帧，追踪同一书脊、封面连接边、自由边和补布；核对旋转轴、手施力方向与最终封面朝向能否连续解释。",
+            "evidenceFrames": [
+              {
+                "image": "generated/book-repair/evidence/closure-0_1s.jpg",
+                "sourceSeconds": 0.1,
+                "filmSeconds": 10.1,
+                "caption": "原片 0.10 秒 / 成片 10.10 秒：展开状态与可见书脊。"
+              },
+              {
+                "image": "generated/book-repair/evidence/closure-1s.jpg",
+                "sourceSeconds": 1,
+                "filmSeconds": 11,
+                "caption": "原片 1.00 秒 / 成片 11.00 秒：远侧板状封面 / 页片竖起。"
+              },
+              {
+                "image": "generated/book-repair/evidence/closure-2s.jpg",
+                "sourceSeconds": 2,
+                "filmSeconds": 12,
+                "caption": "原片 2.00 秒 / 成片 12.00 秒：落下后的书脊与封面关系。"
+              }
+            ]
+          },
+          "title": "轻轻合上",
+          "targetEffect": "镜头来到修复台的中景。修复者双手轻轻合上修补过的同一本书，封面补布仍可见，书上保留自然旧痕，动作结束后短暂停留。",
+          "techniqueIds": [
+            "lighting-volumetric-light"
+          ],
+          "taskId": "1035064",
+          "designPrompt": {
+            "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n镜头来到修复台的中景。修复者双手轻轻合上修补过的同一本书，封面补布仍可见，书上保留自然旧痕，动作结束后短暂停留。\n台面斜侧中景，看到手、旧书与左侧窗边的一小段空间。\n摄影机保持固定。\n书与双手是视觉中心，背景只保留少量日常工具。\n晨光来自左侧可解释的窗户，整体柔和，书面不过曝。\n左侧窗光斜向照入，空气中极少量纸尘使一束很淡的光可见；不漂浮魔法粒子，不遮住双手。\n声音设计：布面轻合的声音，持续安静室内底噪。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+            "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nIn a medium view of the repair table, the restorer gently closes the same repaired book with both hands. The cover patch remains visible, signs of age remain, and the hands pause briefly after closing it.\nAn oblique medium view across the table, showing hands, book and a small portion of the window area on the left.\nKeep the camera locked off.\nThe book and hands are the visual center; only a few ordinary tools remain in the background.\nMorning light comes from the plausible window on the left; keep the overall light soft and the cover correctly exposed.\nWindow light enters diagonally from the left; a very small amount of airborne paper dust makes one faint shaft visible. No magical particles and no obscuring the hands.\nSound design: The soft sound of the cloth cover closing over continuous quiet room tone.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "studio-book-repair.json"
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. Start with the same repaired book ALREADY OPEN on the table. A locked oblique medium view shows the book, linen-sleeved restorer forearms and a small portion of the left window area. Both hands gently close the book ONCE; after it closes they pause. The front cover and its lower-right beige patch become visible. Keep the book aged, not newly manufactured. Book and hands are the visual center, only a few ordinary tools far behind them. A faint diagonal shaft of morning window light from the left is made visible by VERY LITTLE airborne paper dust, consistent with the real window. No thick fog, glitter, smoke or particles obscuring the hands; cover correctly exposed. The same small old indigo clothbound book, a small pale-beige rectangular repair patch at the lower-right corner of the front cover, naturally yellowed paper and signs of use. The reference image defines book identity and workshop materials, not mandatory framing or closed-book pose. An ordinary wooden repair table, soft morning light from a window on the left, restrained natural colors. No faces, no speech, no music, no overlaid text or logos. Quiet workshop room tone and subtle contact sounds only. No rain, mirrors, forest imagery, magical transformation or exaggerated particles. Keep the camera locked off: no zoom, pan, orbit or cuts within the clip. Plausible hands, rigid book geometry and continuous physical contact.",
+            "translationZh": "5 秒，16:9。开场同一本修补过的旧书已经打开在台面上。固定的斜侧中景看到书、亚麻袖衣修复者的前臂和左侧窗边少量空间。双手轻轻合书一次，合上后停住；前封面和其右下角米色补布变得可见。保留旧痕，不要变成新书。书与双手是视觉中心，远后方只有少量普通工具。左侧晨间窗光斜向照入，由极少空气纸尘使很淡的光束可见，光向与实际窗户一致。没有浓雾、闪粉、烟和遮手粒子，书面曝光正常。同一本小型靛蓝布面旧书，前封面右下角有小块浅米色矩形补布，纸边自然泛黄并保留旧痕。参考图只规定书的身份与工作台材质，不强制沿用构图或合书姿态。普通木质修复台，左侧窗户柔和晨光，色彩自然克制。不拍脸，无人声、音乐、叠加文字或标志；只有安静工作室底噪和轻微接触声。不要雨、镜面、森林意象、魔法变化或夸张粒子。摄影机固定：镜内不变焦、摇移、环绕或切镜。手部合理，书的几何稳定，接触连续。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "referenceRole": "book_identity_and_workshop_materials_not_first_frame"
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-3.mp4",
+            "poster": "generated/book-repair/book-3.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "hasAudio": true,
+            "byteSize": 3867307,
+            "videoCodec": "h264"
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 4,
+            "timeline": {
+              "start": 10,
+              "end": 14
+            }
+          }
+        },
+        {
+          "shotId": "book-4",
+          "intent": "把修复完成转为人与人的交还，让故事继续的关系可见。",
+          "selectionReason": "原设计把交还放在左侧，并用右侧约 40% 留白给后期片名；不依赖生成文字。",
+          "outcome": "partially_met",
+          "observedEffect": "约 0.1–2 秒旧书从亚麻袖衣修复者移动到灰色毛衣袖口读者双手之间，约 2 秒后双方共同托书停留，两人的袖口身份和交还动作可读。",
+          "problems": [
+            "手臂和交还动作占据画面中央及右侧，未形成要求的右侧约 40% 全高干净区域。",
+            "片名移到实际空出的右上墙面；这属于后期适配，不证明模型实现了指定留白比例。"
+          ],
+          "causeAssessment": "共同托书与自然接书路径保留，但文字指定的区域没有约束全部运动范围。未做动作路径 / 构图参考对照，不能确定仅增加比例描述就能解决。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "生成前先设计两人从画面左侧完成交接的构图，验证整段手臂运动都不进入右侧文案框；保留可读的袖口区分和共同托书停留。",
+            "promptRole": "新的布局与运动范围候选，未重新生成。",
+            "promptZh": "先用明确构图参考限定：书和两人的全部前臂、手掌，在整个交还过程中都保持于画面左侧六成区域；读者也从左侧或左后方接书。右侧四成文案区域在动作开始、接触和停留时都保持清空。保留亚麻袖口与灰色毛衣袖口，不生成片名。",
+            "promptEn": "Use an explicit framing reference: throughout the handover, keep the book and both people's entire forearms and hands within the left sixty percent of frame; the reader receives it from the left or rear-left. Keep the right forty percent title area clear at the start, contact and final pause. Retain linen sleeves and gray wool cuffs; generate no title.",
+            "check": "检查整段运动的范围，而非只看某个静止帧；叠加实际片名框后查看侵入和对比度，量取后再声称百分比达标。"
+          },
+          "title": "回到手中",
+          "targetEffect": "修复者将合上的旧书沿木台轻轻交给等待的读者。灰色毛衣袖口的双手接住书，双方短暂停住；不握手，不增加其他动作。",
+          "techniqueIds": [
+            "composition-negative-space"
+          ],
+          "taskId": "1035063",
+          "designPrompt": {
+            "zh": "目标剪辑时长 4 秒，画幅 16:9。单个连续镜头。\n同一本靛蓝布面旧书，封面右下角有一小块浅米色补布，尺寸与布纹跨镜一致。开场书脊磨损，末尾修补后仍保留使用痕迹。修复者穿亚麻袖衣，读者是灰色毛衣袖口；不拍脸。木质工作台、左侧晨光，平实低饱和色彩。\n修复者将合上的旧书沿木台轻轻交给等待的读者。灰色毛衣袖口的双手接住书，双方短暂停住；不握手，不增加其他动作。\n略高于台面的斜侧中近景，只见两人的前臂、手与书。\n摄影机保持固定。\n交还动作位于左侧；右侧为柔和干净的墙面与桌面，没有工具、移动人影或耀眼光斑。\n继续柔和左侧晨光，右侧文案区域明暗平稳。\n书和两双手位于画面左侧，右侧约 40% 作为后期片名安全区。\n在右侧保留约 40% 空白，比例为待量取的设计目标。\n声音设计：书与掌心接触的轻声，末尾室内底噪自然延续。\n保留旧物痕迹，动作克制且接触真实；不做魔法修复、纸张淋雨、森林倒影、奢侈品陈列、圆形转场、环绕或夸张粒子。\n不生成叠加字幕、片名或标志；片名后期制作。音轨和时长按目标工具能力另行设置。",
+            "en": "Target edit duration 4 seconds, aspect ratio 16:9. One continuous shot.\nThe same indigo clothbound old book has a small pale-beige repair patch on the lower-right cover corner; its size and cloth texture remain consistent. The opening spine is frayed; repaired areas still retain signs of use at the end. The restorer wears linen sleeves, the reader gray wool cuffs; faces stay outside frame. A wooden worktable, morning light from the left, restrained natural colors.\nAcross the wooden table, the restorer gently passes the closed book into the waiting reader's hands with gray wool cuffs. Both pairs of hands pause once the book is received; no handshake or extra action.\nAn oblique medium close view slightly above table level, showing only forearms, hands and book.\nKeep the camera locked off.\nThe handover takes place on the left; the right contains a calm clear wall and table area, without tools, moving figures or bright highlights.\nContinue soft morning light from the left; keep even contrast in the right-side title area.\nThe book and both pairs of hands stay on the left; reserve roughly 40% on the right as a title-safe area for post-production.\nReserve roughly 40% negative space on the right; measure the result rather than assuming exact compliance.\nSound design: A soft book-to-palm contact sound, with room tone continuing at the end.\nRetain signs of use, restrained actions and plausible contact. No magical repair, rain on paper, forest reflections, luxury-product staging, circular match cuts, orbiting camera or exaggerated particles.\nNo overlaid captions, titles or logos; add titles in post-production. Set audio and duration separately according to the target tool.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "studio-book-repair.json"
+          },
+          "actualInput": {
+            "submittedLanguage": "en",
+            "en": "5 seconds, 16:9. The same book starts closed. Locked oblique medium-close view slightly above the wooden table, faces outside frame. The restorer with plain linen sleeves gently passes the book across the table into the waiting reader hands with gray wool cuffs; the reader receives it and BOTH people pause, hands still supporting it. One handover only; no handshake, re-opening or extra gesture. Keep the book and all four hands within the LEFT sixty percent of frame. Reserve roughly the RIGHT forty percent as calm clear pale wall and tabletop for a later Chinese title; no tools, moving figures or bright highlights there. Soft light continues from the left window, gentle even contrast in the title area. The cover patch stays in its original place. The same small old indigo clothbound book, a small pale-beige rectangular repair patch at the lower-right corner of the front cover, naturally yellowed paper and signs of use. The reference image defines book identity and workshop materials, not mandatory framing or closed-book pose. An ordinary wooden repair table, soft morning light from a window on the left, restrained natural colors. No faces, no speech, no music, no overlaid text or logos. Quiet workshop room tone and subtle contact sounds only. No rain, mirrors, forest imagery, magical transformation or exaggerated particles. Keep the camera locked off: no zoom, pan, orbit or cuts within the clip. Plausible hands, rigid book geometry and continuous physical contact.",
+            "translationZh": "5 秒，16:9。同一本书开场合上。略高于木台面的固定斜侧中近景，脸在画外。穿素色亚麻袖衣的修复者沿台面轻轻把书交给灰色毛衣袖口读者等待的双手；读者接住后，双方停住，双手仍托住书。只交还一次，不握手、不重新开书、不增加手势。书和四只手都在画面左侧约六成区域。右侧约四成留作平静干净的浅墙与桌面，供之后添加中文片名；此处不要工具、移动人影或亮光斑。延续左侧窗光，文案区域对比柔和稳定，封面补布位置不变。同一本小型靛蓝布面旧书，前封面右下角有小块浅米色矩形补布，纸边自然泛黄并保留旧痕。参考图只规定书的身份与工作台材质，不强制沿用构图或合书姿态。普通木质修复台，左侧窗户柔和晨光，色彩自然克制。不拍脸，无人声、音乐、叠加文字或标志；只有安静工作室底噪和轻微接触声。不要雨、镜面、森林意象、魔法变化或夸张粒子。摄影机固定：镜内不变焦、摇移、环绕或切镜。手部合理，书的几何稳定，接触连续。",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "referenceRole": "book_identity_and_workshop_materials_not_first_frame"
+          },
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-4.mp4",
+            "poster": "generated/book-repair/book-4.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "hasAudio": true,
+            "byteSize": 5208656,
+            "videoCodec": "h264"
+          },
+          "edit": {
+            "sourceStart": 0.5,
+            "duration": 4,
+            "timeline": {
+              "start": 14,
+              "end": 18
+            }
+          }
+        }
+      ],
+      "reusePatterns": [
+        {
+          "id": "hands-as-characters",
+          "title": "用袖口和交接动作表达两人关系",
+          "whenToUse": "手工、维修或物品交还故事，不需要露脸时。",
+          "retain": "用可辨袖口区分角色，在交接后共同托住物品并停留。",
+          "adapt": "替换物品、工艺、袖口与交付关系，不照抄旧书。",
+          "evidenceShotIds": [
+            "book-4"
+          ],
+          "evidenceLevel": "handover_visually_observed_in_one_run",
+          "limit": "本次交还关系可读；是否让观众感到被珍视未测试，其他物品需另验手与道具接触。"
+        },
+        {
+          "id": "identity-is-not-framing",
+          "title": "把身份一致与构图、对象结构分开验收",
+          "whenToUse": "同一道具跨开合状态、景别或操作镜头出现时。",
+          "retain": "保留身份图和文字锚点，但分别检查物体数量、开合状态、机位与细节尺度。",
+          "adapt": "可用于工具、包装、衣物或其他需要操作的道具；专用构图 / 起始状态参考是待测试改法。",
+          "evidenceShotIds": [
+            "book-1",
+            "book-2",
+            "book-3"
+          ],
+          "evidenceLevel": "advice_from_one_run_with_framing_and_structure_failures",
+          "limit": "本次颜色与材质线索较一致，并未保证微距或单一书体；专用参考的改法尚未生成验证。"
+        },
+        {
+          "id": "contact-before-style",
+          "title": "先检查动作位置、连接轴与状态变化",
+          "whenToUse": "穿针、合拢、开门、开盖等动作必须依赖物体结构时。",
+          "retain": "先明确同一物体的结构、动作作用点、固定部分与转轴，再检查施力、运动路径和前后状态；最后评价景别与风格。",
+          "adapt": "按新物体重建连接关系，例如门铰链、盒盖或其他操作部位，不照抄画面左右或书本工艺。",
+          "evidenceShotIds": [
+            "book-2",
+            "book-3"
+          ],
+          "evidenceLevel": "failure_derived_checklist_not_validated_prompt_fix",
+          "limit": "本次穿针落点与合书轴关系存在偏差；该检查方法来自单次失败观察，候选新参考与提示词未再次生成。"
+        },
+        {
+          "id": "title-space-through-motion",
+          "title": "文案空间要覆盖整段运动",
+          "whenToUse": "交接、人物移动或动作镜头还要容纳片名时。",
+          "retain": "先检查主体与所有手臂的运动范围，再使用实际文案框判断可读位置；保留无字原片。",
+          "adapt": "可以重新设计动作布局，也可在首版后期使用实际空出的区域，但要记录偏离原构图。",
+          "evidenceShotIds": [
+            "book-4"
+          ],
+          "evidenceLevel": "post_layout_adapted_after_negative_space_failure",
+          "limit": "本次右上片名可放置不等于右侧 40% 留白实现；新布局建议未生成验证。"
+        }
+      ],
+      "modelUse": {
+        "retrieveWhen": [
+          "需要手工、修复、照料、交还的动作故事",
+          "需要理解统一参考图未能解决微距、开合状态与对象重复的情况",
+          "需要人与道具接触、实际运动文案区的检查标准"
+        ],
+        "workflow": [
+          "先读取本次目标、原分镜和技巧理由，再看原始素材与逐镜实际输入。",
+          "优先读取 book-2、book-3 的 logicReview 和证据帧；把动作作用位置、书体数量、开合轴及前后状态作为内容正确性检查，不能用镜头术语或最终姿态代替。",
+          "保留可读的交还关系、角色袖口和身份线索，明确微距、结构、接触、留白未充分达标。",
+          "围绕新简报重写对象、事件与节奏，引用 book-repair 及真实技巧 ID；不要照搬旧书情节。",
+          "新改法先选一项变量，准备对应参考并列验收方法，标记为尚未验证。",
+          "新生成另记执行与结果，不把这次一个样本推广为稳定能力。"
+        ],
+        "doNotAssume": [
+          "拿着针不等于穿过正确装订孔；材质相似不等于同一本书结构正确。",
+          "出现“穿针”“合书”的外观不等于动作逻辑成立；更换光线、景别或剪辑不能自动修复错误落点、连接轴和运动方向。",
+          "原设计稿的未生成状态是设计阶段历史，实际执行记录单独保存。",
+          "不能将后期排字归为模型生成文字能力，也不能把右上可放片名说成右侧 40% 留白达标。",
+          "不因增加更多相机和风格术语而忽视动作接触与事件关系。",
+          "实际英文、对应中文译文、原因假设、观察和候选修正分别使用。"
+        ]
+      },
+      "result": {
+        "status": "completed_with_design_deviations",
+        "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--let-the-story-continue.mp4",
+        "poster": "generated/book-repair/poster.jpg",
+        "duration": 18,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "24/1",
+        "costNote": "估算 600 点；服务返回三段各 150 点、一段 300 点，合计 750 点。生成前后查询余额未变化，实际扣费未确认，返回字段不作为已核销账单。参考图由内置 image_gen 生成，未提交 ChatArt 图片付费任务。"
+      },
+      "techniqueIds": [
+        "composition-negative-space",
+        "lenses-macro",
+        "lighting-volumetric-light"
+      ],
+      "techniques": [
+        {
+          "id": "composition-negative-space",
+          "nameZh": "留白构图",
+          "sourceUrl": "https://melies.co/cinematic-techniques/composition/negative-space"
+        },
+        {
+          "id": "lenses-macro",
+          "nameZh": "微距镜头",
+          "sourceUrl": "https://melies.co/cinematic-techniques/lenses/macro"
+        },
+        {
+          "id": "lighting-volumetric-light",
+          "nameZh": "体积光",
+          "sourceUrl": "https://melies.co/cinematic-techniques/lighting/volumetric-light"
+        }
+      ],
+      "execution": {
+        "model": "Seedance 2.0",
+        "requestedTarget": {
+          "duration": 18,
+          "aspectRatio": "16:9",
+          "resolution": 1080
+        },
+        "generatedDurations": [
+          5,
+          10,
+          5,
+          5
+        ],
+        "editDurations": [
+          4,
+          6,
+          4,
+          4
+        ],
+        "referenceImage": {
+          "provider": "built-in image_gen",
+          "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-reference.png",
+          "role": "book identity and workshop materials; not a first frame",
+          "actualResolution": [
+            1672,
+            941
+          ]
+        },
+        "postProduction": {
+          "order": [
+            "book-1",
+            "book-2",
+            "book-3",
+            "book-4"
+          ],
+          "durations": [
+            4,
+            6,
+            4,
+            4
+          ],
+          "transition": "Straight cuts after readable actions; no graphic match or morph.",
+          "endTitle": "让故事，继续",
+          "titleMethod": "Add in post-production in the actually verified right-side safe area.",
+          "audio": "Preserve native contact / room sound where suitable; short fades, no generated narration."
+        },
+        "cost": {
+          "estimatedCredits": 600,
+          "serviceReportedCredits": 750.0,
+          "deductionVerified": false,
+          "note": "估算 600 点；服务返回三段各 150 点、一段 300 点，合计 750 点。生成前后查询余额未变化，实际扣费未确认，返回字段不作为已核销账单。参考图由内置 image_gen 生成，未提交 ChatArt 图片付费任务。"
+        }
+      },
+      "sourceRecords": [
+        "app/book-case-memory.json",
+        "app/studio-book-repair.json",
+        "app/production/book-design-prompts.json",
+        "app/production/book-repair-plan.json",
+        "app/production/book-repair-edit-settings.json",
+        "app/production/book-1-execution.json",
+        "app/production/book-2-execution.json",
+        "app/production/book-3-execution.json",
+        "app/production/book-4-execution.json"
+      ],
+      "presentation": {
+        "inlineShotMedia": true
+      },
+      "revisions": [
+        {
+          "id": "book-repair-r2",
+          "parentCaseId": "book-repair",
+          "recordedAt": "2026-10-22",
+          "title": "让故事，继续 · 两镜动作返修",
+          "status": "completed_qualitative_revision",
+          "summary": "已只重做穿针与合书并剪回 18 秒：穿针从叠书／纸页外侧落点改为单一书体的中央折缝孔；合书从另一边翻起改为沿左侧长书脊放下同一前封面。刷拭和交还沿用首版素材与取材范围。穿针只展示小幅插入，未展示下侧出针与完整拉线。",
+          "goal": "延续修复、照料、交还的故事和原有材质光线，优先纠正针的作用位置与合书轴，不以镜头美术掩盖动作逻辑。",
+          "scope": {
+            "regeneratedShotIds": [
+              "book-2",
+              "book-3"
+            ],
+            "retainedShotIds": [
+              "book-1",
+              "book-4"
+            ],
+            "comparisonType": "targeted_partial_revision_not_controlled_experiment",
+            "baselineExecutions": 1,
+            "partialRevisionBatches": 1,
+            "newVideoTasks": 2
+          },
+          "reviewBasis": "依据两段完整原片的每 0.25 秒抽样、起始／中段／末段接触区原尺寸帧，定性追踪书体、孔位和转轴。不是对真实修复工艺或每个像素的验证。",
+          "shots": [
+            {
+              "shotId": "book-2-r2",
+              "title": "穿针位置",
+              "assessment": "target_location_and_single_book_visually_improved",
+              "assessmentLabel": "孔位与书体改善 · 完整穿线未验证",
+              "change": "用一册打开的书与中央折缝孔的专用首尾帧，替换统一合书身份图；动作收窄为同一根针在同一孔的小幅插入，不再尝试完整针线循环。",
+              "observedEffect": "原片 0.1–9.85 秒始终可见一册打开的靛蓝书，直接放在亚麻书托上；针尖保持在中央折缝沿书脊线的同一既有孔，右手缓慢靠近，露出的针杆逐渐变短。未再出现首版的“开书叠在合书上”和针落在外侧纸面的关系。",
+              "problems": [
+                "动作幅度很小，接近缓慢推进与停留；不能把它描述为完整缝好一次。",
+                "针眼部分被手指遮挡，书帖下侧出针点与线穿透后的路径未显示，完整穿线连续性和工艺正确性仍未验证。",
+                "专用近景、书托、起始状态、首尾帧与文字约束共同变化，不能单独归因于某条提示词或首尾帧模式。"
+              ],
+              "check": "先认单一书体与中央折缝，再跟踪同一个孔和针尖；核对针没有换到外侧纸面或手指。入口改善与整条针线运动链分别验收，下侧不可见就保留未验证。",
+              "evidenceFrames": [
+                {
+                  "image": "generated/book-repair-r2/evidence/needle-1s.jpg",
+                  "sourceSeconds": 1,
+                  "filmSeconds": 4.5,
+                  "caption": "返修原片 1.00 秒 / 新成片 4.50 秒：单一开书，针尖对应中央折缝孔。"
+                },
+                {
+                  "image": "generated/book-repair-r2/evidence/needle-3s.jpg",
+                  "sourceSeconds": 3,
+                  "filmSeconds": 6.5,
+                  "caption": "返修原片 3.00 秒 / 新成片 6.50 秒：同一孔位，右手靠近，针杆缩短。"
+                },
+                {
+                  "image": "generated/book-repair-r2/evidence/needle-6s.jpg",
+                  "sourceSeconds": 6,
+                  "filmSeconds": 9.5,
+                  "caption": "返修原片 6.00 秒 / 新成片 9.50 秒：孔位与单一书体仍在，下侧出针不可见。"
+                }
+              ],
+              "before": {
+                "shotId": "book-2",
+                "actualMedia": {
+                  "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-2.mp4",
+                  "poster": "generated/book-repair/book-2.jpg",
+                  "duration": 10.048,
+                  "width": 1902,
+                  "height": 1092,
+                  "frameRate": "24/1",
+                  "videoCodec": "h264",
+                  "hasAudio": true,
+                  "byteSize": 6441698
+                },
+                "logicReview": {
+                  "assessment": "not_passed",
+                  "label": "动作逻辑未通过",
+                  "basis": "assistant_visual_recheck_after_user_feedback",
+                  "userFeedback": "穿针的位置不对。",
+                  "expected": "按本方案预设，针应作用于同一本书书脊处既有装订孔；入口、出口与线的走向要能对应。不是泛化断言所有书籍装订都使用同一工艺。",
+                  "observed": "针尖落在页片上的点位，打开的页块与下方合书形成疑似叠书结构，目标修复部位和书体关系没有成立。",
+                  "check": "先确认只有一个书体、书脊和目标孔，再检查针入口—出口—线是否围绕同一孔连续，最后检查动作是否真的改变目标部位。",
+                  "evidenceFrames": [
+                    {
+                      "image": "generated/book-repair/evidence/needle-4s.jpg",
+                      "sourceSeconds": 4,
+                      "filmSeconds": 7.5,
+                      "caption": "原片 4.00 秒 / 成片 7.50 秒：针落点与疑似叠书结构。"
+                    }
+                  ]
+                }
+              },
+              "techniqueIds": [
+                "lenses-macro"
+              ],
+              "taskId": "1035124",
+              "actualInput": {
+                "en": "10 seconds, 16:9, one continuous locked close-up. Use the provided FIRST and LAST frames as the exact start and end states of ONE slow needle INSERTION, not a whole repair process. There is ONE open book on a linen cradle, not an open book stacked on a closed book. Identify the existing hole at the central paper FOLD/GUTTER on the spine line, immediately under the needle tip in the first frame. Keep that very hole fixed. Pause briefly, then move the same single needle point-first gradually deeper into that SAME existing center-fold hole, until about half the visible shaft has disappeared through it as in the last frame. Only one small insertion, then a quiet hold. Keep the visible thread connected to the same needle eye and following naturally. Do not pull a needle out elsewhere, create a new hole, sew through a page fore-edge, pierce fingers, repeat the stitch or pretend to finish the book. The underside and needle exit may remain occluded; do not invent a second exposed book. The left hand steadies the same paper section, the right thumb and forefinger follow the needle; keep the contact zone visible. Paper folds, existing stitches, covers and book count remain stable. Same aged indigo cloth, yellowed paper, linen sleeves, wooden worktable and soft morning light from the left. Camera and focus fixed, sufficient depth of field at hole and needle; no zoom, cuts, orbit, magic, particles, labels or text. No voices or music, only quiet workshop room tone and very soft contact sound.",
+                "translationZh": "10 秒，16:9，一个连续固定近景。用所给首帧与尾帧规定一次缓慢插针的起止状态，不演完整修书流程。只有一本打开并支在亚麻书托上的书，不是在合上的书上叠一本打开的书。目标是首帧针尖正下方、沿书脊线的纸张中央折缝／书沟上的既有孔；该孔位置固定。短暂停顿后，同一根针尖朝前缓慢深入同一个中央折缝孔，直到约一半可见针杆进入孔中，达到尾帧状态。只做一次小幅插入，再安静停留。可见线始终连在同一个针眼并自然跟随。不从别处抽出针，不造新孔，不穿纸张外沿，不扎手，不重复穿针，不假装完成整本书。下侧与出针点可以被遮挡，不凭空生成第二本暴露的书。左手稳住同一书帖，右手拇指和食指随针移动，接触区保持可见。纸折、既有针脚、封面与书的数量稳定。延续靛蓝旧布面、泛黄纸、亚麻袖口、木台与左侧柔和晨光。机位与焦点固定，孔和针附近景深充分；不变焦、切镜、环绕、魔法、粒子、标签或文字。无人声、无音乐，仅安静工作室底噪与很轻的接触声。",
+                "submittedLanguage": "en",
+                "translationStatus": "corresponding_translation_not_submitted",
+                "requestedDuration": 10,
+                "referenceRole": "dedicated_first_and_last_frames_not_only_identity"
+              },
+              "actualMedia": {
+                "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--book-2-r2.mp4",
+                "poster": "generated/book-repair-r2/book-2-r2.jpg",
+                "duration": 10.048,
+                "width": 1902,
+                "height": 1092,
+                "frameRate": "24/1",
+                "videoCodec": "h264",
+                "hasAudio": true,
+                "byteSize": 7995875
+              },
+              "referenceFrames": [
+                {
+                  "role": "firstFrame",
+                  "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--needle-first.png"
+                },
+                {
+                  "role": "endFrame",
+                  "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--needle-last.png"
+                }
+              ],
+              "edit": {
+                "timelineShotId": "book-2",
+                "sourceShotId": "book-2-r2",
+                "source": "assets/generated/book-repair-r2/book-2-r2/video_20261022141542.mp4",
+                "sourceSha256": "076ac80f21c5256ffe107ba25e30e00a25ab0a11a470e3d7834a7a82e3b34137",
+                "sourceStart": 0.5,
+                "duration": 6,
+                "timeline": {
+                  "start": 4,
+                  "end": 10
+                }
+              }
+            },
+            {
+              "shotId": "book-3-r2",
+              "title": "合书方向",
+              "assessment": "hinge_and_cover_direction_visually_improved_in_small_arc",
+              "assessmentLabel": "同一书脊合拢可读 · 小角度动作",
+              "change": "首帧只让前封面略微抬起，页块与后封面已经平放；左手稳书脊，右手沿自由边绕同一左侧长书脊放下，尾帧明确同一封面闭合状态。保留柔和窗光，暂不追求强化光束。",
+              "observedEffect": "原片约 0.1–1 秒前封面保持小角度抬起，约 1–3 秒右手随封面自由边下落，左侧长书脊与页块基本留在原位；约 3 秒后封面落平并停留。补布一直随同一前封面移动，没有首版从远侧短边竖起再翻合的明显轴关系矛盾。",
+              "problems": [
+                "起始动作从完全展开缩小为仅前封面略抬，不是首版整段展开动作的同幅度复现。",
+                "未量测精确旋转角度或逐点刚体误差；只作本段方向与连接关系的定性判断。",
+                "本轮不再强化体积光，不能用本镜证明该灯光规则已达标；跨镜布面磨损与补布形状仍有细节差异。"
+              ],
+              "check": "追踪同一左侧长书脊、移动封面、右侧自由边和补布；固定页块不被翻起，封面只绕同一长边下降，右手接触随动。最后合上不能代替中间轴关系检查。",
+              "evidenceFrames": [
+                {
+                  "image": "generated/book-repair-r2/evidence/closure-0_1s.jpg",
+                  "sourceSeconds": 0.1,
+                  "filmSeconds": 10.1,
+                  "caption": "返修原片 0.10 秒 / 新成片 10.10 秒：左侧书脊固定，右侧自由边抬起。"
+                },
+                {
+                  "image": "generated/book-repair-r2/evidence/closure-1_75s.jpg",
+                  "sourceSeconds": 1.75,
+                  "filmSeconds": 11.75,
+                  "caption": "返修原片 1.75 秒 / 新成片 11.75 秒：右手沿自由边下放，补布随封面移动。"
+                },
+                {
+                  "image": "generated/book-repair-r2/evidence/closure-3_5s.jpg",
+                  "sourceSeconds": 3.5,
+                  "filmSeconds": 13.5,
+                  "caption": "返修原片 3.50 秒 / 新成片 13.50 秒：同一封面落平，页块留在台面。"
+                }
+              ],
+              "before": {
+                "shotId": "book-3",
+                "actualMedia": {
+                  "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--book-3.mp4",
+                  "poster": "generated/book-repair/book-3.jpg",
+                  "duration": 5.056,
+                  "width": 1902,
+                  "height": 1092,
+                  "frameRate": "24/1",
+                  "hasAudio": true,
+                  "byteSize": 3867307,
+                  "videoCodec": "h264"
+                },
+                "logicReview": {
+                  "assessment": "not_passed",
+                  "label": "动作逻辑未通过",
+                  "basis": "assistant_visual_recheck_after_user_feedback",
+                  "userFeedback": "合书的方向不对。",
+                  "expected": "先确定这本书的书脊和封面连接边；封面应围绕同一连接轴合拢，固定侧、书脊和页块不能在动作中换边或另生转轴。",
+                  "observed": "左侧仍可见书脊结构，远侧板状封面 / 页片却竖起再落下，连接轴与移动方向关系不一致；约 1 秒后手部接触也不持续可读。",
+                  "check": "对照展开、半合、合拢三帧，追踪同一书脊、封面连接边、自由边和补布；核对旋转轴、手施力方向与最终封面朝向能否连续解释。",
+                  "evidenceFrames": [
+                    {
+                      "image": "generated/book-repair/evidence/closure-0_1s.jpg",
+                      "sourceSeconds": 0.1,
+                      "filmSeconds": 10.1,
+                      "caption": "原片 0.10 秒 / 成片 10.10 秒：展开状态与可见书脊。"
+                    },
+                    {
+                      "image": "generated/book-repair/evidence/closure-1s.jpg",
+                      "sourceSeconds": 1,
+                      "filmSeconds": 11,
+                      "caption": "原片 1.00 秒 / 成片 11.00 秒：远侧板状封面 / 页片竖起。"
+                    },
+                    {
+                      "image": "generated/book-repair/evidence/closure-2s.jpg",
+                      "sourceSeconds": 2,
+                      "filmSeconds": 12,
+                      "caption": "原片 2.00 秒 / 成片 12.00 秒：落下后的书脊与封面关系。"
+                    }
+                  ]
+                }
+              },
+              "techniqueIds": [
+                "lighting-volumetric-light"
+              ],
+              "taskId": "1035123",
+              "actualInput": {
+                "en": "5 seconds, 16:9. Animate ONE gentle book closure between these first and last frames. At the start the front cover alone is slightly raised. The left LONG SPINE is the single fixed hinge: keep it and the back cover and the entire yellowed page block stationary on the wooden table. The right hand maintains gentle fingertip contact with the raised front cover's RIGHT FREE EDGE and slowly lowers that rigid cover about the LEFT LONG SPINE HINGE, through one continuous small arc, until it lies flat on the page block by about 3 seconds; hold for the remaining time. The left hand stays at the spine to steady the book. The small beige patch travels WITH THE SAME FRONT COVER and remains at its lower-right outer corner. Never pivot at a short edge, lift the page block, turn a paper leaf into a cover, flip the whole book, detach the hinge or add a second book. Keep geometry and hand contact continuously readable, no extra gesture. Preserve the same aged indigo cloth, patch, linen sleeves, tabletop, soft left window light and restrained colors. Fixed camera and focus, no cuts, zoom, orbit, exaggerated light beam, dust, magic, text or logos. Quiet workshop room tone and a subtle cloth-cover contact sound, no speech or music.",
+                "translationZh": "5 秒，16:9。在首尾帧之间只做一次轻柔合书。开始时只有前封面略微抬起。左侧长书脊是唯一固定转轴：它、后封面与整块泛黄书页都固定在木台上。右手指尖持续轻触抬起前封面的右侧自由边，绕左侧长书脊连接轴沿一条连续小圆弧缓慢放下这一块硬封面，约 3 秒时平放到页块上，余下时间停住。左手留在书脊处稳住书。小块米色补布随同一前封面移动，始终位于其外侧右下角。不得绕短边旋转、抬起页块、把纸页变成封面、翻转整本书、断开连接轴或增加第二本书。书体与手部接触全过程可读，不加额外手势。保留靛蓝旧布面、补布、亚麻袖口、台面、左侧柔和窗光和克制色彩。机位和焦点固定，不切镜、变焦、环绕、夸张光束、纸尘、魔法、文字或标志。只有安静工作室底噪和轻微布面合拢接触声，无人声和音乐。",
+                "submittedLanguage": "en",
+                "translationStatus": "corresponding_translation_not_submitted",
+                "requestedDuration": 5,
+                "referenceRole": "dedicated_first_and_last_frames_not_only_identity"
+              },
+              "actualMedia": {
+                "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--book-3-r2.mp4",
+                "poster": "generated/book-repair-r2/book-3-r2.jpg",
+                "duration": 5.056,
+                "width": 1902,
+                "height": 1092,
+                "frameRate": "24/1",
+                "videoCodec": "h264",
+                "hasAudio": true,
+                "byteSize": 4079382
+              },
+              "referenceFrames": [
+                {
+                  "role": "firstFrame",
+                  "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--closure-first.png"
+                },
+                {
+                  "role": "endFrame",
+                  "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--reference--closure-last.png"
+                }
+              ],
+              "edit": {
+                "timelineShotId": "book-3",
+                "sourceShotId": "book-3-r2",
+                "source": "assets/generated/book-repair-r2/book-3-r2/video_20261022141518.mp4",
+                "sourceSha256": "c49c6c764313e80a6800db8f7ef12633dc2d733620aecb9f602445d74f58e92b",
+                "sourceStart": 0,
+                "duration": 4,
+                "timeline": {
+                  "start": 10,
+                  "end": 14
+                }
+              }
+            }
+          ],
+          "lessons": [
+            "先把对象结构与动作起止状态做对，再叠加镜头语言：本轮专用参考中先确定单一书体、中缝孔、固定页块和移动封面。它们与身份图承担不同任务。",
+            "开合类动作以物体自身的连接轴定义路径，同时追踪自由边与识别标记；画面左／右只能辅助描述，不能代替连接关系。该检查可迁移到盒盖、门、机械开合等新题材。",
+            "把复杂动作缩成一个清楚阶段，有助于这次画面表达：一针只推进同一孔，合书只从略抬到落平。代价是不能宣称展示了完整工艺或大幅度开合。",
+            "首尾图片正确仍需检查中间帧。验收作用点、接触、路径和终态；未看见针的出口与完整拉线，就单独保留验证缺口。",
+            "保留首版失败与局部返修的准确输入、参考、素材和剪辑范围；此次多项改动共同进行，只能记录局部改善，不能推导通用成功率或单一方法的因果结论。"
+          ],
+          "limits": [
+            "仍为香水、旧书两个题材；旧书为一次四镜首版加一次两镜局部返修，不新增第三个题材，也不把两镜算两个独立重复实验。",
+            "参考图、构图、动作范围、首尾约束和提示词同时变化，不是单变量实验，未测试其他模型或重复稳定性。",
+            "仅判断这两段可见入口位置与合书轴改善；完整装订工艺、精确运动几何和受众情绪未验证。",
+            "声音仅检查音轨存在和解码，未听评内容、接触同步或音色；不宣称音频内容达标。",
+            "刷拭与交还的原始文件及取材起止保持一致；最终成片重新编码与整片响度处理，不宣称输出逐像素或音频采样锁定。"
+          ],
+          "result": {
+            "status": "completed_targeted_revision_with_remaining_limits",
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--let-the-story-continue-r2.mp4",
+            "poster": "generated/book-repair-r2/poster.jpg",
+            "duration": 18,
+            "width": 1920,
+            "height": 1080,
+            "frameRate": "24/1"
+          },
+          "costNote": "本轮仅两个视频任务：估算 240＋120＝360 点，服务返回 300＋150＝450 点。生成前后查询余额未变化，实际扣费未确认；服务返回字段不是已核销账单。四张动作参考由内置 image_gen 制作，未提交 ChatArt 图片付费任务。",
+          "originalResult": {
+            "status": "completed_with_design_deviations",
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair--let-the-story-continue.mp4",
+            "poster": "generated/book-repair/poster.jpg",
+            "duration": 18,
+            "width": 1920,
+            "height": 1080,
+            "frameRate": "24/1",
+            "costNote": "估算 600 点；服务返回三段各 150 点、一段 300 点，合计 750 点。生成前后查询余额未变化，实际扣费未确认，返回字段不作为已核销账单。参考图由内置 image_gen 生成，未提交 ChatArt 图片付费任务。"
+          },
+          "cost": {
+            "estimatedCredits": 360,
+            "serviceReportedCredits": 450.0,
+            "deductionVerified": false
+          },
+          "referenceGeneration": {
+            "provider": "built-in image_gen",
+            "modelVersion": "not returned",
+            "seed": "not returned",
+            "status": "completed_and_visually_reviewed",
+            "references": [
+              {
+                "name": "needle-first.png",
+                "role": "first_frame",
+                "prompt": "Use case: ads-marketing. Asset: photorealistic 16:9 FIRST FRAME for a quiet book-repair film. Input image 1 is ONLY the identity/material/light reference, NOT a pose to copy.\nCreate a new tight close-up of ONE small aged indigo clothbound book, already open in a shallow V on a neutral linen cradle, on this wooden worktable. The book is a single connected object: left and right page blocks meet at ONE central folded gutter, covers beneath their respective page blocks, nothing stacked underneath. Soft morning light from left, plain linen-sleeved adult hands, no face. Camera almost above the open gutter, sufficiently close to see one small PRE-EXISTING sewing hole exactly on the CENTER FOLD of one paper section along the spine. This is the hole to stitch; the paper's outside edge must be visibly far from it. The left hand steadies the section well clear of the hole. The right hand holds a single slender needle with a single beige thread through its eye, needle tip just at this existing gutter hole, poised to pass through. Needle, hole, paper fold and thread are readable together, sufficient depth of field. One needle only. Keep most palms outside central contact area. The blue covers may be only partly visible at the outside frame edges. No closed blue book below, no second book, no loose extra page stack, no needle through page fore-edge or fingers. Realistic restrained paper fibers, believable anatomy. No typography, diagrams, labels, logos or magic. Landscape 16:9, intended 2048x1152.",
+                "input": "assets/generated/book-repair/reference/book-reference.png",
+                "path": "assets/generated/book-repair-r2/reference/needle-first.png",
+                "sha256": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599",
+                "actualResolution": [
+                  1672,
+                  941
+                ],
+                "inputSha256": "cddcfd08b0253ab26319b87048c71151be921d2f2faacbaeede95c58937b5151"
+              },
+              {
+                "name": "needle-last.png",
+                "role": "end_frame",
+                "prompt": "Use case: precise-object-edit. Edit image1 into the END FRAME of a single needle-insertion motion. Keep the very same single open indigo book, center gutter geometry, pre-existing binding holes, linen cradle, left hand, camera, light, materials and framing. Change ONLY the right hand and needle's progress: the SAME needle is now pushed about half its length THROUGH the SAME center-fold hole directly beneath its original tip. The visible metal shaft is shorter as its lower length has disappeared into that existing fold hole, not into a new hole or a finger. Right thumb and forefinger move closer to the hole while holding the remaining upper needle. The one connected beige thread follows the needle eye with a natural loose curve; no new thread or duplicate needle. This endpoint is the insertion phase only; do NOT invent an exposed underside or show a completed sewing process. Keep the center-fold hole/contact visible, palms not covering it. Keep all page edges, covers, support and left hand where they were. Photorealistic same shot, 16:9. No labels or text.",
+                "input": "assets/generated/book-repair-r2/reference/needle-first.png",
+                "path": "assets/generated/book-repair-r2/reference/needle-last.png",
+                "sha256": "236e32d7c83cb4262a09532ae51dbd009847da02fd081cde8dc5229d550b7456",
+                "actualResolution": [
+                  1672,
+                  941
+                ],
+                "inputSha256": "e90d6698805557db4d92f08204d017ba1022ecf19cc3ddd60ed5aad2798e9599"
+              },
+              {
+                "name": "closure-first.png",
+                "role": "first_frame",
+                "prompt": "Use case: ads-marketing. Asset: photorealistic 16:9 FIRST FRAME for the book-closing shot of a quiet repair film. Image1 is identity/material/light reference. Keep this same small old indigo clothbound book, beige rectangular patch at lower-right frontcover corner, yellowed pageblock, worn LEFT long spine, wooden worktable and soft morning left windowlight.\nNew pose: a single book lying with its BACK COVER flat on the table and its entire pageblock resting flat on the back cover. The FRONT COVER alone is raised only about 30 degrees above the pageblock, rotating on the LEFT LONG SPINE HINGE. Clearly show that raised cover still attached along the full left long edge of the pageblock; no other pivot. The open gap is on the RIGHT fore-edge. The beige patch is on the raised front cover near its lower-right free corner. Camera looking diagonally down from front-right, see the worn left spine connection and right-side triangular open gap in one shot; book fills most of frame. One linen-sleeved hand steadies the left spine on the table, another linen-sleeved hand places fingertips on top of the raised cover's RIGHT FREE EDGE, poised to gently lower it. Hands anatomically plausible, no faces. The cover is ONE rigid rectangular board, not a bending paper leaf. Nothing else moves, no extra book, no pageblock lifting, no second cover on top, no top-edge hinge. Natural paper texture, muted indigo, tactile intimate documentary photography, enough depth of field for hinge and cover. No text, labels, diagrams or logos. Landscape16:9, intended2048x1152.",
+                "input": "assets/generated/book-repair/reference/book-reference.png",
+                "path": "assets/generated/book-repair-r2/reference/closure-first.png",
+                "sha256": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2",
+                "actualResolution": [
+                  1672,
+                  941
+                ],
+                "inputSha256": "cddcfd08b0253ab26319b87048c71151be921d2f2faacbaeede95c58937b5151"
+              },
+              {
+                "name": "closure-last.png",
+                "role": "end_frame",
+                "prompt": "Use case: precise-object-edit. Edit image1 into the END FRAME of this book-closing motion. Change ONLY the raised FRONT COVER and following right fingertips: lower the same rigid blue front cover about its existing LEFT LONG SPINE HINGE until it lies fully flat on this same stationary pageblock. The right free edge comes down to meet the pageblock right fore-edge. Same beige rectangular patch stays at same lower-right corner ON the same frontcover. The left spine, backcover, pageblock, left hand, table, camera, light and framing stay fixed. Right fingertips follow the same free edge down and stay gently touching the now-closed cover near the patch. No whole-book translation or flip, no rotation at the far short edge, no new cover, no extra book, no bent board. Closed-book geometry physically plausible, final cover outline aligns with pageblock. Same realistic photograph, 16:9, no text or labels.",
+                "input": "assets/generated/book-repair-r2/reference/closure-first.png",
+                "path": "assets/generated/book-repair-r2/reference/closure-last.png",
+                "sha256": "405993e81e6bb497b985afef4646253f7b918f7f854e3194a12f0b2c0cea04a3",
+                "actualResolution": [
+                  1672,
+                  941
+                ],
+                "inputSha256": "cffb151a596a9f4e0355654f6371d1cda2840e751d1d8526d47fb271569dd0c2"
+              }
+            ],
+            "observations": [
+              "穿针首尾参考均为一本打开的书，针尖在中央折缝既有孔；尾帧只示意插入进度，下侧不可见。",
+              "合书首尾参考有同一左侧长书脊、抬起与放平的同一前封面、固定页块和对应补布。",
+              "这是生成动作参考，不是实拍工艺证据；连续运动仍需实际视频检查。"
+            ]
+          },
+          "retainedSourceRecords": {
+            "book-1": {
+              "shotId": "book-1",
+              "source": "assets/generated/book-repair/book-1/video_20261022131931.mp4",
+              "sha256": "175be6b8b92bd06d08eb3da7252d2bf402b051b6567c6c244e167639015e0219",
+              "edit": {
+                "start": 0.5,
+                "duration": 4,
+                "reason": "保留进入后的刷拭动作；不以裁切伪装成纸纤维微距。"
+              }
+            },
+            "book-4": {
+              "shotId": "book-4",
+              "source": "assets/generated/book-repair/book-4/video_20261022131725.mp4",
+              "sha256": "45a23e411f9ae73db0eb8efcce6f9265fcdcc1c1033ae2229956c65ea74d0259",
+              "edit": {
+                "start": 0.5,
+                "duration": 4,
+                "reason": "覆盖交还和共同托书停留。"
+              }
+            }
+          },
+          "sourceRecords": [
+            "app/book-revision-r2.json",
+            "app/production/book-repair-r2-plan.json",
+            "app/production/book-r2-edit-record.json",
+            "app/production/book-r2-reference-prompts.json",
+            "app/production/book-2-r2-execution.json",
+            "app/production/book-3-r2-execution.json"
+          ]
+        }
+      ],
+      "latestResult": {
+        "status": "completed_targeted_revision_with_remaining_limits",
+        "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/book-repair-r2--let-the-story-continue-r2.mp4",
+        "poster": "generated/book-repair-r2/poster.jpg",
+        "duration": 18,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "24/1"
+      },
+      "revisionSummary": "已只重做穿针与合书并剪回 18 秒：穿针从叠书／纸页外侧落点改为单一书体的中央折缝孔；合书从另一边翻起改为沿左侧长书脊放下同一前封面。刷拭和交还沿用首版素材与取材范围。穿针只展示小幅插入，未展示下侧出针与完整拉线。"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tea-moment",
+      "title": "把片刻，留给自己",
+      "recordedAt": "2026-10-22",
+      "tags": [
+        "手作陶器",
+        "情绪与动作",
+        "日常安静",
+        "触杯",
+        "端杯",
+        "行走与停步",
+        "主体停止",
+        "相机停止",
+        "后方跟拍",
+        "后拉",
+        "状态连续性",
+        "停顿",
+        "提示词复用"
+      ],
+      "goal": {
+        "product": "虚构手作陶器品牌：米白斑点陶杯，把手下连接处一个蓝点。",
+        "audience": "喜欢手作器物，希望在日常留出片刻的人；为设计设定，未做受众测试。",
+        "communicationGoal": "让杯子伴随人的日常行动，从触感走到主动停留的时间，表达把片刻留给自己。",
+        "intendedEmotion": "日常的安静逐步加深，结尾有愿意为自己停留片刻的感受；避免忧伤、孤独或奢侈品摆拍。",
+        "coreMessage": "把片刻，留给自己。",
+        "constraints": [
+          "15秒、16:9、三镜",
+          "一位背向镜头的人，深灰针织衣，单只米白斑点杯",
+          "触杯时杯底落桌；端杯时右手持柄、左手托底",
+          "第二镜行走后停稳，第三镜已经停住，只让摄影机后拉",
+          "不依靠夸张表演、音乐或旁白强推感受"
+        ],
+        "successCriteria": [
+          "指尖从空隙靠近杯柄，接触后停住，杯子全程落桌",
+          "脚步、支撑和停止状态可读，不穿墙、不洒茶",
+          "主体停步和摄影机停住分别实现，末镜有真实停留",
+          "原片中的偏差、模型判断和观众反馈分开保存"
+        ]
+      },
+      "review": {
+        "status": "one_run_qualitative_review",
+        "sampleSize": 1,
+        "summary": "15秒成片已完成：触杯接触和端杯停步可读；后拉时人物又走，且后两镜未按计划停镜。日常安静的视觉线索较充分，但“主动留出片刻”只部分表达，未做观众验证。",
+        "effectiveParts": [
+          "触杯镜头有从空隙到接触、接触后停留的可见过程，杯底支撑和单点标记保持可辨。",
+          "端杯镜头的目的地、交替落脚与停步可读，人物和杯子基本保留参考身份。",
+          "由器物细节进入人的使用情境，再展开房间的三镜顺序已经实现；这不等于状态连续性全部正确。"
+        ],
+        "evidenceBasis": "查看三段原始视频每0.25秒的动作序列，以及指尖接触、落脚和额外迈步的原尺寸帧；网页完整播放15秒成片及三段5.056秒原片，均到结束且无媒体错误。属于本轮视觉定性观察，不是三维量测、音轨内容听评或受众实验。",
+        "limits": [
+          "一个题材方案的一次制作过程，包含两次无任务号的提交失败和一次经单独确认的触杯参考模式提交；三镜不计为三次独立验证。",
+          "情绪判断来自模型对画面事件、状态和节奏的定性解释，尚无观众反馈；未听评音轨内容。",
+          "没有量测跟拍距离、步长、三维坐标、精确固定焦距或杯子尺寸一致性。",
+          "候选新提示词尚未执行；参考模式和文本同时改变，不能把提交成功归因于单一改动。"
+        ],
+        "logicPriority": "先核对动作接触、脚步、主体停止与跨镜状态，再评价运镜和情绪；画面安静不能代替动作连续性成立。",
+        "webPlayback": {
+          "filmDuration": 15,
+          "rawDurations": [
+            5.056,
+            5.056,
+            5.056
+          ],
+          "allReachedEnd": true,
+          "mediaErrors": false,
+          "checkedOn": "2026-10-22"
+        }
+      },
+      "emotionReview": {
+        "basis": "assistant_visual_review",
+        "judgment": "我的画面判断是：日常、安静和不匆忙的气氛基本建立；但“主动停下来，把片刻留给自己”的表达只部分成立。主要缺口是上一镜已停、末镜又走，以及缺少计划中的两秒静止余味。",
+        "visibleBasis": "第一镜轻触后持续停留，把注意力放在真实接触；第二镜有清楚目的地并停步；第三镜展开日常空间。但第二镜相机未停，第三镜人物又迈步，观众持续经历接近和移动，而不是充分经历已经选择停留的时间。",
+        "alternativeReading": "一个人背对观众看窗外，也可能被读成独处、发呆或孤独；没有具体事件证明是愉快或治愈。",
+        "boundary": "只作本轮画面的模型判断。音轨仅检查存在与解码，未听评内容；尚未取得观看者实际感受，不宣称情绪命中率。",
+        "audienceFeedback": null
+      },
+      "shotReviews": [
+        {
+          "shotId": "tea-1",
+          "intent": "把注意力放到可触摸的日常细节，通过轻触与停顿建立人与器物的关系。",
+          "selectionReason": "借用微距的细节关注，但按可读的杯柄接触布置景别；既要看到指尖，也要看清杯底仍在桌上。",
+          "observedEffect": "开始时指尖与杯柄有空隙，约0.75–1.5秒拇指和食指靠近并接触杯柄上部，随后保持到末尾。单只杯子和下部蓝点持续可辨，杯底在可见画面中保持落桌，未见明显抬杯或洒茶。",
+          "outcome": "observed_unquantified",
+          "problems": [
+            "景别包含整只杯子，不是原站例子的极端微距；杯柄接触比陶面微观细节更突出。",
+            "实际日光与桌面高光较明显，未严格保持原设计的柔和漫射光。",
+            "这一次可见接触合理，未量测所有帧的指节几何、茶面变化或重复稳定性。"
+          ],
+          "causeAssessment": "两张状态参考与简化提示词一起提交后生成了可读的一次接触；模式和文本同时变化，只能记录本次组合成功，不确定前两次提交失败的原因。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "如需更强触感，再单独测试更紧的接触局部和较柔的高光，保留杯底支撑与一次轻触。",
+            "check": "接触与杯底支撑仍可读，细节尺度改变后不出现穿模、漂浮或反复敲击。",
+            "promptRole": "未执行的新景别候选，不是本次准确提交文本",
+            "promptZh": "更紧地框住杯柄下连接处、指尖接触与一小段杯底支撑；柔和高光，轻触后保持，不新增动作。",
+            "promptEn": "Frame more tightly on the handle attachment, fingertip contact and a small readable portion of the supported cup base. Use gentle highlights and hold after one light touch, without adding another action."
+          },
+          "actionReview": {
+            "assessment": "visually_readable",
+            "assessmentLabel": "本次轻触与杯底支撑基本合理",
+            "summary": "指尖由分离到接触的短路径和后续停留可读，杯子仍落在台面；未看到明显手指穿过杯柄或杯子漂浮。",
+            "checks": [
+              "0.50秒仍可见指尖与杯柄的空隙。",
+              "1.75秒可见拇指／食指接触把手上部，杯底仍接触木桌。",
+              "4.75秒接触姿态继续保持，单点标记仍在把手下连接处；全程只有这一只前景主体杯。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/tea-moment/evidence/tea-1-0.50.jpg",
+                "sourceSeconds": 0.5,
+                "filmSeconds": 0.5,
+                "caption": "原片0.50秒：指尖尚未接触杯柄"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-1-1.75.jpg",
+                "sourceSeconds": 1.75,
+                "filmSeconds": 1.75,
+                "caption": "原片1.75秒：接触成立，杯底仍落桌"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-1-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 4.75,
+                "caption": "原片4.75秒：轻触后的持续停留"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "小幅接触和较长停留，较清楚地支持对日常触感的注意；这是画面解释，尚无受众验证。",
+            "visibleBasis": "动作幅度小、杯子不被举起展示，接触后留出约三秒观察手、釉面与桌面关系。",
+            "alternativeReading": "较强日光和完整产品构图仍可能被读成精致商品广告，未必是每位观众都能代入的日常片刻。"
+          },
+          "title": "触到日常",
+          "techniqueIds": [
+            "lenses-macro"
+          ],
+          "taskId": "1035321",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一只米白陶瓷杯，略带细小斑点，杯柄根部有一个蓝色小点，杯中茶水不满。人物一直穿深灰针织衣，背向镜头，不露脸。普通木桌与同一扇窗，左侧柔和白天窗光，窗外只有静止绿意。\n通过真实陶面与一次轻触建立可感知的日常，不夸张表演；接触后给观众时间观察。\n杯子平放在木桌上，杯柄朝右，右手尚未碰到杯柄。\n右手拇指和食指轻轻接触同一杯柄，保持杯子在桌面，然后停住。\n手指留在杯柄，杯子的位置和朝向不变。\n只有一只杯子和一只可见右手，指尖贴在杯柄表面，不穿透杯柄，杯底保持接触木桌。\n固定近距离细节机位，杯柄根部与手指接触点清楚，保持足够景深。\n杯柄和蓝点在中部，桌面保留少量使用痕迹，远处背景自然虚化。\n左侧窗户柔和漫射光，陶面有层次，不做夸张亮斑。\n前一秒静置，约一至三秒完成轻触，随后停留，不做慢动作重放。\n只计划轻微衣料声、指尖触杯声与自然室内底噪，无配乐和旁白。\n保持一杯一人、杯柄和蓝点一致，手与杯子的支撑关系合理，茶水不洒。不加哭泣、夸张表演、漂浮物、品牌字或奢侈品展台。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same speckled ivory ceramic cup has one small blue dot at the handle base and is partly filled with tea. The person wears the same dark-gray knit top, remains back to camera, and shows no face. Keep the ordinary wooden table and same window, soft daylight from the left, and still greenery outside.\nEstablish tangible everyday life through the ceramic surface and one light touch, with restrained performance and time to observe after contact.\nThe cup rests on the wooden table, handle to the right, with the right hand not yet touching it.\nThe right thumb and forefinger gently contact the same handle, keeping the cup on the table, then pause.\nThe fingers remain on the handle; the cup position and orientation stay unchanged.\nShow one cup and one visible right hand. Fingertips meet the handle surface without penetrating it; the base remains on the table.\nLocked close detail view with enough depth of field to keep the handle base and finger contact clear.\nPlace the handle and blue dot near center, retain minor signs of use on the table, and let the distant background soften.\nSoft diffuse window light from the left models the ceramic without exaggerated highlights.\nHold still for the first second, make the light contact around seconds one to three, then hold; no slow-motion replay.\nPlan only soft clothing, fingertip-to-cup contact and natural room tone, without music or narration.\nKeep one cup and one person, consistent handle and blue dot, plausible hand support, and no spilled tea. No crying, exaggerated acting, floating objects, brand lettering or luxury display pedestal.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately."
+          },
+          "actualInput": {
+            "en": "5-second 16:9 realistic close-detail shot. Use image 1 for the initial cup and right-hand arrangement and image 2 for the final gentle contact pose. One speckled ivory ceramic cup rests flat in the same place on the wooden table. Its handle is on the right, with one small blue dot at the lower handle join. A single right hand in a dark-gray knitted sleeve begins with a small gap between fingertips and handle. After a brief pause, the thumb and index fingertip move a short distance to gently touch the top of the handle, then rest there for the remaining time. The cup remains on the table throughout, tea level steady. The camera and focus stay fixed; show the hand contact and cup base clearly. Preserve the same cup, tabletop, daylight from the left, natural skin and ceramic texture. A small ordinary touch followed by an unhurried pause. Continuous quiet room tone with a soft ceramic contact and fabric sound. Keep the scene free of text and music.",
+            "translationZh": "5 秒、16:9 的写实细节近景。图 1 用于开始时杯子和右手的布局，图 2 用于最后轻触的姿态。一只米白斑点陶杯平放在木桌同一位置；把手在右，下连接处有一个蓝点。唯一一只穿深灰针织袖的右手，开始时指尖与杯柄之间留有小空隙。短暂停顿后，拇指与食指指尖小幅移动，轻轻触到把手上部，然后保持到结束。杯子全程落在桌面，茶水保持水平。摄影机和焦点固定，看清手部接触与杯底。保留同一杯子、桌面、左侧日光、自然皮肤与陶面质感。一个日常小动作，随后不匆忙地停留。连续安静室内底噪，配以轻触陶杯和衣料声。画面没有文字，声音没有音乐。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1接触前、图2接触后，仅作对象与动作状态参考，不锁定首尾帧"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-1-before.png",
+              "sha256": "3b936b48329f3d551bae2c49b3c64d780465fb908d2a1b96435f37dc18c8bd78"
+            },
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-1-touch.png",
+              "sha256": "9f6a3e1bb445d096d1ddad1844be674b2381d3915973a195a8a35f97ec5e2b9b"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-1.mp4",
+            "poster": "generated/tea-moment/tea-1.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 2906561
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 0,
+              "end": 5
+            }
+          }
+        },
+        {
+          "shotId": "tea-2",
+          "intent": "让观众陪伴一个明确而平常的行动，并以停步建立主动停留的依据。",
+          "selectionReason": "后方跟拍让人随人物穿过同一房间，前方窗户持续提供目的地；从细节转向人的使用情境。",
+          "observedEffect": "约0–2.7秒人物端杯向窗户交替迈步，2.75秒前后双脚落地并保持托杯；摄影机继续向前，直到末段仍在靠近，未随停步在约3秒锁定。",
+          "outcome": "partially_met",
+          "problems": [
+            "步态包含起始半步与后续多次落脚，不严格等于文字要求的两步。",
+            "人物停步后摄影机继续推进，最后两秒不是静止机位，停留余味与计划不同。",
+            "中远景手部与蓝点有遮挡，没有证明每帧细节接触、标记和茶面完全一致。"
+          ],
+          "causeAssessment": "人物行走与相机跟随／停镜分属两条时间要求。本次只观察到前者较清楚、后者继续推进；未做单变量实验，不确定是否由参考图、提示词密度或模型运动倾向导致。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "将完整一步或两步和停步各自约束，另验收相机停止；必要时先用固定机位验证步态，再试跟拍。",
+            "check": "检查全片每次落脚、停稳时刻与背景是否停止；达到两秒留停后再评价感受。",
+            "promptRole": "尚未执行的候选片段，不能当作本轮成功配方",
+            "promptZh": "人物完成一次明确的短步后双脚落地，在同一位置端杯停留；摄影机同步停止，背景保持静止到片尾。",
+            "promptEn": "After one clearly readable short step, plant both feet and hold the supported cup in the same place. The camera stops with the person and the background remains still until the end."
+          },
+          "actionReview": {
+            "assessment": "partially_readable",
+            "assessmentLabel": "持杯与停步可读，步数和停镜未完全符合设计",
+            "summary": "可见两种手部角色和交替落脚，未看到明显穿墙或杯子漂浮；但不能将这种可读性升级为每帧手部几何验证。",
+            "checks": [
+              "1.25秒可见一脚抬起、另一脚承重；2.75秒前后双脚落地。",
+              "右手在杯柄附近、左手从下支撑的关系在可见区域大致保持，局部被身体遮挡。",
+              "约2.75秒之后人物基本停住，4.75秒景别仍继续靠近，说明停人不等于停镜。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/tea-moment/evidence/tea-2-1.25.jpg",
+                "sourceSeconds": 1.25,
+                "filmSeconds": 6.25,
+                "caption": "原片1.25秒：端杯步态与单脚支撑"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-2-2.75.jpg",
+                "sourceSeconds": 2.75,
+                "filmSeconds": 7.75,
+                "caption": "原片2.75秒：双脚落地，人物接近停稳"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-2-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 9.75,
+                "caption": "原片4.75秒：人物停留，摄影机仍更近"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "日常陪伴感有可见依据，主动停下来的余味只部分实现。",
+            "visibleBasis": "行动平稳、目的地明确；但是停步后持续推近把注意力留在接近过程，而非共同静止的时间。",
+            "alternativeReading": "更容易读成端着热茶走向窗景的日常片段，不一定理解为主动给自己留片刻。"
+          },
+          "title": "走向窗边",
+          "techniqueIds": [
+            "camera-movement-follow"
+          ],
+          "taskId": "1035300",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一只米白陶瓷杯，略带细小斑点，杯柄根部有一个蓝色小点，杯中茶水不满。人物一直穿深灰针织衣，背向镜头，不露脸。普通木桌与同一扇窗，左侧柔和白天窗光，窗外只有静止绿意。\n通过陪伴式行走与清楚的停步，把注意力从杯子带到人的日常选择。\n同一人物背向镜头，右手持杯柄，左手托杯底，站在木桌旁，窗户在前方。\n人物稳定端杯向窗户走两步，抵达后自然停住；杯子始终在身体前方。\n人物背向镜头站在窗前，双手继续稳住同一杯子。\n同一右手持同一杯柄、左手托底，双脚交替接地；人物、窗户和桌子的空间顺序持续一致。\n摄影机从人物后方同步跟随，距离大致稳定，不同时变焦或环绕；停步时摄影机也平稳停下。\n背影居中略偏左，杯子部分可见，前方窗户始终提供目的地方向。\n延续同一左侧窗光，走近窗户时亮度自然变化，深灰针织衣保持细节。\n约前三秒走两步，后二秒停住；步伐自然，不用突然加速。\n计划轻脚步、衣料声与连续室内底噪；不加入催促性节拍。\n保持一杯一人、杯柄和蓝点一致，手与杯子的支撑关系合理，茶水不洒。不加哭泣、夸张表演、漂浮物、品牌字或奢侈品展台。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same speckled ivory ceramic cup has one small blue dot at the handle base and is partly filled with tea. The person wears the same dark-gray knit top, remains back to camera, and shows no face. Keep the ordinary wooden table and same window, soft daylight from the left, and still greenery outside.\nBring attention from the cup to an everyday choice through an accompanying walk and a clearly readable stop.\nThe same person stands beside the wooden table, back to camera, right hand on the handle and left hand supporting the base, with the window ahead.\nThe person carries the cup steadily for two steps toward the window and naturally stops, keeping it in front of the body.\nThe person stands at the window, back to camera, with both hands still supporting the same cup.\nThe same right hand holds the same handle and the left supports the base. Feet alternate contact with the floor; the person, window and table maintain consistent spatial order.\nFollow behind the person at roughly constant distance, without added zoom or orbit; settle smoothly when the person stops.\nKeep the back slightly left of center, the cup partly visible, and the window ahead as a continuous destination cue.\nContinue the same left window light, allowing natural brightness change near the window while retaining knit texture.\nTake two natural steps over roughly the first three seconds and pause for the last two, without sudden acceleration.\nPlan soft footsteps, fabric and continuous room tone, without an insistent beat.\nKeep one cup and one person, consistent handle and blue dot, plausible hand support, and no spilled tea. No crying, exaggerated acting, floating objects, brand lettering or luxury display pedestal.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately."
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. Image 1 is the same person, cup, room and rear-follow composition reference at the beginning of a carrying stride. Image 2 supplies ONLY the relaxed stopped posture and both-feet-planted state; do NOT lock its background camera position or morph the entire picture into it. Keep the same short-haired adult in dark-gray knit, dark trousers and dark slippers, back to camera with no visible face. The right hand holds the same cup HANDLE continuously, left palm supports the BASE from below, cup upright in front of lower chest, tea not spilling. Continue for TWO short natural steps toward the same window over roughly the first three seconds, then settle with both feet planted and pause for the final two seconds. Stop before the wall/window at a comfortable distance. No drinking, lifting cup to face, backward steps, turning to camera, extra gesture, sliding feet or duplicate cup. Follow smoothly from behind at a gentle rear-three-quarter angle, advancing in the person's direction at roughly matching speed, then stop the camera when the person stops. Keep the person screen right and at roughly constant readable size; show legs and ground contacts where possible. The window remains ahead/left, the worn wooden table stays left, and cabinet stays right. Preserve real perspective change and foreground parallax as the camera advances: no zoom, orbit, room mirroring, object drift or moving the window to fake travel. Keep the same daylight, knit and ivory glaze; no dramatic grading or hurried pursuit. Let a clear destination and an unforced stop express the choice to take a moment. One continuous shot, no cut, generated text, logo, tears or exaggerated acting. Soft footsteps, fabric rustle and continuous quiet room tone only; no speech or music.",
+            "translationZh": "5 秒，16:9。图 1 是同一人物、杯子、房间与端杯步态开始时的后方构图参考。图 2 只提供放松停步和双脚落地的姿态，不锁定它的背景机位，也不把整幅图变形过渡到该图。保持同一短发成人、深灰针织衣、深色裤子与拖鞋，背向镜头不露脸。右手持续握同一杯柄，左掌从下托住杯底；杯子直立放在身体前方下胸位置，茶水不洒。约前三秒继续朝同一扇窗自然走两个短步，然后双脚落地站稳，最后两秒停留。在窗／墙前的舒适距离停住。不喝茶、不举杯到脸前、不倒退、不转身看镜头、不加手势、不滑步、不增加杯子。摄影机从轻微后方三分之四角度平稳跟随，大致匹配人物速度向前，在人物停步时也停下。人物保持画面偏右和大致稳定的可辨大小，尽量看清腿与脚接地。窗户仍在前方／左侧，旧木桌在左，柜子在右。摄影机前进应有真实透视和前景视差，不变焦、环绕、镜像房间、漂移物体或移动窗户来假装行走。延续日光、针织和米白陶面，不加戏剧调色或追逐感。让明确目的地和自然停步表达主动留出片刻的选择。单一连续镜头，不切镜、不生成文字或标志，不哭泣或夸张表演。只有轻脚步、衣料声和连续安静室内底噪，无人声和音乐。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1人物／杯子／场景与步态构图，图2仅为停步姿态；不锁定图2背景机位"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-2-walk.png",
+              "sha256": "37ba2ac6b844673b5080a583833d201cc60b0aebfb4377d3eca2a69d899d1b1a"
+            },
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--video-reference--tea-2-stop.png",
+              "sha256": "5b7ea5b1cf372652229e325b8598029047a0fe0cbc3ad931d49e0570def8377f"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-2.mp4",
+            "poster": "generated/tea-moment/tea-2.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 6360299
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 5,
+              "end": 10
+            }
+          }
+        },
+        {
+          "shotId": "tea-3",
+          "intent": "人物已经停步，通过空间展开和最后两秒静止，加深为自己停留的感受。",
+          "selectionReason": "后拉把局部的杯子／背影放回同一日常空间，同时保留人的在场；本应由主体不动和相机退后来分工。",
+          "observedEffect": "画面确实从近景向宽景展开，但人物在后拉过程中重新迈步；约2.75–4.0秒可见脚底抬起与落下，直到约4.5秒后才接近双脚落稳。相机也持续后退到末段，没有实现3秒完成后拉、2秒静止的安排。",
+          "outcome": "partially_met",
+          "problems": [
+            "上一镜已停，下一镜又走，违反“已经停住”的起始状态，打断跨镜动作与情绪逻辑。",
+            "同时出现主体前行和相机后退；不能只凭画面变宽判定“人停住、相机后拉”已实现。",
+            "最终稳定状态不足原计划两秒，安静余味被进一步行走占用。",
+            "蓝点和杯柄接触在远景受遮挡；固定焦距和精确空间几何未量测。"
+          ],
+          "causeAssessment": "两个首尾构图都呈现托杯姿态，但不保证中间过程保持停住。近远参考的站位和透视变化可能被模型解释成继续走向窗户；这只是原因假设，不能从单次样本确定。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先用单张首帧单独测试静止主体的后拉，减少不一致尾帧的强制约束；将不走步与末段停镜作为两项独立验收。",
+            "check": "人物脚底与窗框相对位置全程不变；只出现相机造成的透视／视差，约3秒后背景停止到结束。",
+            "promptRole": "尚未执行的候选片段，不能当作本轮成功配方",
+            "promptZh": "人物双脚固定落在窗前同一块地板，杯子与手保持同一支撑状态；只有摄影机向后移动，3秒后摄影机也停下，保持2秒。",
+            "promptEn": "The person's feet stay planted on the same floorboards at the window, with the cup and hands maintaining their supported state. Only the camera moves backward. After three seconds the camera also stops and holds for two seconds."
+          },
+          "actionReview": {
+            "assessment": "not_passed",
+            "assessmentLabel": "未通过“已经停住”的状态连续性",
+            "summary": "实际走步本身可以辨认，但不符合本镜的动作任务。判断问题是上一镜已停、本镜又继续走，而不只是后拉尺度不够。",
+            "checks": [
+              "2.75秒与3.50秒可见脚掌抬起，证明主体并非全程静止。",
+              "4.75秒接近双脚落地；只有很短尾段留给停留。",
+              "首尾图里持杯正确，不能替代中间动作路径与停止时长的检查。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/tea-moment/evidence/tea-3-2.75.jpg",
+                "sourceSeconds": 2.75,
+                "filmSeconds": 12.75,
+                "caption": "原片2.75秒：后拉过程中人物仍在迈步"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-3-3.50.jpg",
+                "sourceSeconds": 3.5,
+                "filmSeconds": 13.5,
+                "caption": "原片3.50秒：抬脚，违背已停住的要求"
+              },
+              {
+                "image": "generated/tea-moment/evidence/tea-3-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 14.75,
+                "caption": "原片4.75秒：接近落稳，静止余味不足"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "空间展开可见，但“主动停下来”的核心表达受额外步行削弱，不能判为情绪任务完成。",
+            "visibleBasis": "人物仍然清楚可辨、房间日常且明亮；然而移动持续到接近结束，观众缺少经历停留的时间。",
+            "alternativeReading": "可读成走向窗边的过程或看窗外的独处；不必然是自在，也可能偏发呆或孤独。"
+          },
+          "title": "留住片刻",
+          "techniqueIds": [
+            "camera-movement-dolly-out"
+          ],
+          "taskId": "1035299",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一只米白陶瓷杯，略带细小斑点，杯柄根部有一个蓝色小点，杯中茶水不满。人物一直穿深灰针织衣，背向镜头，不露脸。普通木桌与同一扇窗，左侧柔和白天窗光，窗外只有静止绿意。\n让已停步的人与日常空间共同承担安静的余味，保留人的在场感。\n人物仍在同一窗前，双手持同一杯子，背向镜头，身体已停止移动。\n人物保持稳定托杯，只允许自然细微呼吸，整个镜头不再走动或额外摆姿势。\n人物与杯子仍留在同一窗前，环境已被看见，动作状态保持。\n一人一杯保持身份和支撑关系，窗户与木桌的方位承接上一镜，摄影机后退不带动物体漂移。\n从杯子与背影的近景缓慢向后拉轨，焦距保持固定，约前三秒揭示窗边与木桌，随后机位停住。\n人物仍清楚可辨，普通茶室逐渐进入画面，保留适量空间而不让人缩成孤点。\n延续同一柔和左侧窗光，室内暗部保留层次，窗外绿意不过曝。\n约三秒后停止拉轨，留两秒静止余味，末尾后期轻淡出。\n计划保留连续室内底噪，动作声减少后仍有空间感，片尾自然收声。\n保持一杯一人、杯柄和蓝点一致，手与杯子的支撑关系合理，茶水不洒。不加哭泣、夸张表演、漂浮物、品牌字或奢侈品展台。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same speckled ivory ceramic cup has one small blue dot at the handle base and is partly filled with tea. The person wears the same dark-gray knit top, remains back to camera, and shows no face. Keep the ordinary wooden table and same window, soft daylight from the left, and still greenery outside.\nLet the paused person and ordinary room support a quiet aftertaste while retaining a clear sense of human presence.\nThe person remains at the same window, holding the same cup in both hands, back to camera and already still.\nMaintain the supported cup with only subtle natural breathing, without further walking or extra posing.\nThe person and cup remain at the same window as the room has been revealed, with the held state unchanged.\nMaintain one person and one cup, consistent identity and support, and the previous window/table layout. Camera retreat must not make objects drift.\nDolly backward slowly from a close view of the cup and back at a fixed focal length, revealing the window corner and table over roughly three seconds, then hold the camera still.\nKeep the person clearly readable as the ordinary tea room enters frame, allowing space without reducing the figure to an isolated speck.\nContinue the same soft left window light, preserving interior shadow detail and exterior greenery.\nFinish the dolly around three seconds, hold for a two-second aftertaste, and add a gentle ending fade in post.\nPlan continuous room tone that retains a sense of space after action sounds diminish, with a natural audio ending.\nKeep one cup and one person, consistent handle and blue dot, plausible hand support, and no spilled tea. No crying, exaggerated acting, floating objects, brand lettering or luxury display pedestal.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately."
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. Use the supplied close window-pause image as the FIRST FRAME and wider room view as the END FRAME. The same person has ALREADY STOPPED at the window. Keep that person and the single speckled ivory cup stationary in the room for the entire shot, with only subtle natural breathing. Right hand stays on the handle and left palm supports the base; the tea stays level. Keep the one blue dot at the lower handle attachment; if the grip hides it, leave it hidden instead of inventing a mark on the cup front. NO additional steps, drinking, cup raising, head turn, slumping or new gesture. Move ONLY the CAMERA backward on a smooth dolly at a FIXED FOCAL LENGTH during roughly seconds 0–3, revealing more of the same window corner, wooden table at foreground left, floor and cabinet at right. Then LOCK the camera and hold the wider view for roughly seconds 3–5. Preserve coherent perspective/parallax and room geography; do not zoom, orbit, warp furniture, shrink the person's body in place or move the window to imitate a dolly. Keep a readable human presence, relaxed upright body and ordinary lived-in room rather than an isolated tiny silhouette. Maintain the same window daylight and exterior green leaves, with restrained texture and detail in interior shadows. This chosen pause and the held final view should support quiet personal time, without asking for sad acting. One continuous shot, no cuts, fake text, logo, magical particles or new objects. Continuous quiet room tone and slight clothing sound only, no speech or music. Do not generate a title or fade; those are added in editing if needed.",
+            "translationZh": "5 秒，16:9。所给窗边停留近景为首帧，较宽房间画面为尾帧。同一人物已经在窗前停稳，全镜中人物与同一只米白斑点陶杯在房间里保持不动，只保留自然细微呼吸。右手持续持柄，左掌托底，茶水保持水平。把手下连接处只有一个蓝点；被手遮住就自然遮挡，不在杯身正面凭空补标记。不再走步、喝茶、举杯、转头、垂头或加手势。约 0–3 秒只让摄影机以固定焦距平稳后退，逐步露出同一窗边、左前景木桌、地板和右侧柜子；约 3–5 秒机位固定，保持宽景。维持连贯的透视、视差和房间方位，不变焦、环绕、扭曲家具、让人物原地缩小或移动窗户来假装后拉。人物仍清楚可辨、姿态放松直立，房间仍有日常生活感，不缩成孤立的小剪影。延续窗户日光与窗外绿叶，质感克制，室内暗部保留细节。通过主动停留与最终保持的画面，表达属于自己的安静时间，不要求悲伤表演。单一连续镜头，不切镜，不加假文字、标志、魔法粒子或新物体。只有连续安静室内底噪和少量衣料声，无人声和音乐。不要生成片名或淡出，需要时在后期完成。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "first_last_frames",
+            "referenceRole": "窗边近景→房间宽景构图；主体停留，只有摄影机后退"
+          },
+          "referenceFrames": [
+            {
+              "role": "firstFrame",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--source--room-and-person-reference.png",
+              "sha256": "691b3bb3e0baf212b49aa15657a15f325373e8f884ef917eb71249e9bad63dbb"
+            },
+            {
+              "role": "endFrame",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-3-pause.png",
+              "sha256": "4f4c26a11ca125ade5c1b4c61304916a7ea9f08cbf189727107e5d184a13bc4a"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-3.mp4",
+            "poster": "generated/tea-moment/tea-3.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 6396424
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 10,
+              "end": 15
+            }
+          }
+        }
+      ],
+      "reusePatterns": [
+        {
+          "id": "emotion-as-timed-state",
+          "title": "把情绪要求落实为可以观察的动作和持时",
+          "whenToUse": "安静、犹豫、释然等需要观众经历一段停顿的短片。",
+          "retain": "明确谁停止什么动作、从哪一刻开始、持续多久；逐项对照实际视频。",
+          "adapt": "换成放下工具、停在门口、看向对方等新的情境，按关系重新说明停顿的意义。",
+          "evidenceShotIds": [
+            "tea-2",
+            "tea-3"
+          ],
+          "evidenceLevel": "failure_informed_observation_in_one_run",
+          "limit": "本轮停步和停镜未完全协同；这是实际偏差推导的检查方法，不是已经验证的情绪成功配方。"
+        },
+        {
+          "id": "separate-person-camera-stop",
+          "title": "人物停止与摄影机停止分别验收",
+          "whenToUse": "人物行走、跟拍、后拉和静止余味同时出现。",
+          "retain": "分别追踪脚底／道具与环境的关系，以及背景在相机中的变化。",
+          "adapt": "可换成车停、放下器物后运镜等场景，重新定义固定物和移动物。",
+          "evidenceShotIds": [
+            "tea-2",
+            "tea-3"
+          ],
+          "evidenceLevel": "visual_state_distinction_observed_once",
+          "limit": "本轮看到人停而镜头继续，以及后拉时人物也走；未量测三维轨迹，也没有证明新提示词能修正。"
+        },
+        {
+          "id": "reference-endpoints-not-path",
+          "title": "首尾参考与过程约束是两件事",
+          "whenToUse": "同一物体在首尾都看似正确，但中间过程决定内容逻辑。",
+          "retain": "首尾之外还检查接触、脚步和中间状态，不以终点合理代替全过程正确。",
+          "adapt": "适用于走停、拿放、开合、接递等动作；参考图需按本次物体关系设计。",
+          "evidenceShotIds": [
+            "tea-3"
+          ],
+          "evidenceLevel": "counterexample_in_one_run",
+          "limit": "本次首尾托杯仍出现额外行走；单张首帧的候选改法尚未生成。"
+        },
+        {
+          "id": "submission-vs-creative-result",
+          "title": "提交失败、生成完成和表达达标分别记录",
+          "whenToUse": "创作中遇到服务报错、改参考方式或素材生成后仍偏离动作与情绪。",
+          "retain": "保留失败原输入、批准范围、每次实际输入与结果；完成任务后继续按动作和表达审片。",
+          "adapt": "新题材按需要改素材和指令，重试或换模式先说明具体变化与费用，不把无任务号错误推断成特定原因。",
+          "evidenceShotIds": [
+            "tea-1",
+            "tea-3"
+          ],
+          "evidenceLevel": "one_run_execution_and_visual_review",
+          "limit": "本轮两次首尾帧提交未获任务号，改模式和简化文本后成功；两项同时变化，不证明模式本身解决了错误。完成的后拉镜头仍未达动作任务。"
+        }
+      ],
+      "modelUse": {
+        "workflow": [
+          "先读目标感受、情境意义和另一种可能解读。",
+          "把行动前后状态、接触关系、主体停止、相机停止与持时分别列出。",
+          "按目标检索技巧和真实经验；读本案例逐镜动作与表达判断及边界。",
+          "改写主体、关系、场景和镜头，不照抄陶杯、窗景或暖木色。",
+          "保存准确提交输入与参考角色，实际生成后检查中间帧和完整成片。",
+          "分开保存模型判断、观众感受和未执行候选；不要把暖光、静态图或终点姿态当作情绪验证。"
+        ]
+      },
+      "costNote": "三个完成任务的服务返回共450点（每镜150），初始三镜估算360点。触杯两次首尾帧提交没有任务号或费用返回；按用户逐次确认改用参考图模式后成功。前后余额查询未变化，实际扣费及失败是否扣费尚未核实，450点不是已核销账单。",
+      "techniqueIds": [
+        "camera-movement-dolly-out",
+        "camera-movement-follow",
+        "lenses-macro"
+      ],
+      "techniques": [
+        {
+          "id": "camera-movement-dolly-out",
+          "nameZh": "向后拉轨",
+          "sourceUrl": "https://melies.co/cinematic-techniques/camera-movement/dolly-out"
+        },
+        {
+          "id": "camera-movement-follow",
+          "nameZh": "后方跟拍",
+          "sourceUrl": "https://melies.co/cinematic-techniques/camera-movement/follow"
+        },
+        {
+          "id": "lenses-macro",
+          "nameZh": "微距镜头",
+          "sourceUrl": "https://melies.co/cinematic-techniques/lenses/macro"
+        }
+      ],
+      "result": {
+        "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--keep-a-moment.mp4",
+        "poster": "generated/tea-moment/poster.jpg",
+        "duration": 15,
+        "width": 1920,
+        "height": 1080,
+        "costNote": "三个完成任务的服务返回共450点（每镜150），初始三镜估算360点。触杯两次首尾帧提交没有任务号或费用返回；按用户逐次确认改用参考图模式后成功。前后余额查询未变化，实际扣费及失败是否扣费尚未核实，450点不是已核销账单。"
+      },
+      "execution": {
+        "model": "Seedance 2.0",
+        "requestedTarget": {
+          "duration": 15,
+          "aspectRatio": "16:9",
+          "shotCount": 3,
+          "resolution": 1080,
+          "nativeAudio": true
+        },
+        "generatedDurations": [
+          5,
+          5,
+          5
+        ],
+        "editDurations": [
+          5,
+          5,
+          5
+        ],
+        "referenceImage": {
+          "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/tea-moment--tea-1-touch.png",
+          "role": "逐镜专用参考：触杯首尾、跟拍两张角色／姿态参考、后拉近远首尾；不是全片只用一张身份图。"
+        },
+        "postProduction": {
+          "duration": 15,
+          "shotOrder": [
+            "tea-1",
+            "tea-2",
+            "tea-3"
+          ],
+          "editDurations": [
+            5,
+            5,
+            5
+          ],
+          "transitions": "两处硬切；末尾约0.3秒轻淡出。实际剪辑范围待原片测量与审片后记录，不自动掩盖错误。",
+          "title": "不让视频模型生成文字；如需片名，在实际构图检查后于后期添加。",
+          "audio": "保留原生环境和动作声，逐镜听评与接缝处理另记；未听到前不宣称音效达标。"
+        },
+        "cost": {
+          "estimatedCredits": 360,
+          "serviceReportedCredits": 450.0,
+          "deductionVerified": false,
+          "note": "三个完成任务的服务返回共450点（每镜150），初始三镜估算360点。触杯两次首尾帧提交没有任务号或费用返回；按用户逐次确认改用参考图模式后成功。前后余额查询未变化，实际扣费及失败是否扣费尚未核实，450点不是已核销账单。"
+        }
+      },
+      "presentation": {
+        "inlineShotMedia": true,
+        "inlineFinalMedia": true
+      },
+      "sourceRecords": [
+        "app/tea-case-memory.json",
+        "app/direction-example.json",
+        "app/production/tea-moment-plan.json",
+        "app/production/tea-video-reference-prompts.json",
+        "app/production/tea-design-prompts.json",
+        "app/production/tea-edit-record.json",
+        "app/production/tea-1-r3-execution.json",
+        "app/production/tea-2-execution.json",
+        "app/production/tea-3-execution.json",
+        "app/production/tea-1-submit-failed-a1-execution.json",
+        "app/production/tea-1-submit-failed-a2-execution.json",
+        "app/production/tea-touch-first-last-attempts.json",
+        "app/production/tea-touch-recovery-r3.json"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "bike-kindness",
+      "title": "有人，帮你一把",
+      "recordedAt": "2026-10-22",
+      "tags": [
+        "社区修车摊",
+        "取车",
+        "认真照应",
+        "情绪与动作",
+        "双人关系",
+        "支撑交接",
+        "先接稳再松手",
+        "擦拭次数",
+        "车旁推行",
+        "跟拍",
+        "方向选择",
+        "状态连续性"
+      ],
+      "goal": {
+        "product": "虚构社区修车摊；同一辆深绿色低跨城市自行车。维修发生在片前，片中只拍取车与照料。",
+        "audience": "日常骑车通勤、愿意选择附近小店的人。为创作设定，未做受众测试。",
+        "communicationGoal": "为社区修车摊做一支短片，让通勤者记住这里不止修好车，也会认真照应来取车的人。",
+        "intendedEmotion": "从带着一天疲惫的等待，走向被认真照应后的安心，再从容继续回家的路。属于意图，未验证所有观看者感受。",
+        "coreMessage": "不止修好车，也认真对待来取车的人。",
+        "constraints": [
+          "20秒、16:9、四镜、两位成年人和一辆车",
+          "同一车身／服装／雨后店面身份，修车人先扶立管",
+          "只擦一次、接触建立后松手、在车旁推行而非骑行",
+          "不演完整维修、不以暖灯代替人物回应，不生成片名"
+        ],
+        "successCriteria": [
+          "不听声音，也能看出修车人先注意到来人、再提供照料。",
+          "座垫擦拭与交接的接触位置清楚，车辆始终有支撑。",
+          "最后是取回车辆后继续行动，不能突然变成站着发呆或独处。",
+          "另请观看者描述感受，检验是否读到认真照应，而非预先填写“治愈成功”。"
+        ]
+      },
+      "review": {
+        "status": "one_run_qualitative_review",
+        "sampleSize": 1,
+        "summary": "四镜已生成并剪成20秒：注意来人、擦拭座垫、接触后松手与推车离开都可读。擦拭变成多次往返，末镜约2.5秒才起步且后段左手未持续清楚扶座垫。细致友善的照料线索较充分，但从疲惫到安心的明显转折较弱，尚无观众验证。",
+        "effectiveParts": [
+          "同一店面、人物服装与绿色自行车提供了四镜身份线索；不代表几何和所有细节严格相同。",
+          "修车人抬眼回应、擦拭接触和交车后的相互注视，让照料有可见事件，不只依靠色调。",
+          "交接原片从女方手在接触处外，到搭住车把／座垫，再到男方松开立管，基本顺序可读。",
+          "末镜人物保持在车旁行走，车与人一起离开，给前面的服务一个行动结果。"
+        ],
+        "evidenceBasis": "四段原片完整解码并量测；读取每0.25秒的动作序列、关键原尺寸帧，围绕接触、松手、擦拭方向和脚步复核。20秒成片及四段5.056秒原片均在网页完整播放到结束，无媒体错误。属于本轮视觉定性观察，不是三维刚体量测或受众实验。",
+        "limits": [
+          "一套题材的一次首版执行，四镜不计为四个独立样本；没有复现率、对照实验或跨模型验证。",
+          "八次静态图片调用包含定向修改；参考构图、姿态与文字共同作用，不从单次输出确定唯一原因。",
+          "精确握稳时间、手指拓扑、车轮转速与位移匹配、景深／焦距和细部几何没有量测，不能宣称全部物理正确。",
+          "音轨存在并完成技术解码和后期处理，未听评声音内容；不据此声称无对白／无配乐和声画同步都达标。",
+          "情绪判断来自模型对事件、表演与节奏的解释，观众感受尚未采集；不宣称安心、治愈或商业效果稳定命中。",
+          "下一轮候选均未执行，不将其作为已验证的修正配方。"
+        ],
+        "logicPriority": "先核对支撑对象、作用点、接触—释放次序、两腿是否同侧和跨镜动作状态，再评价友善、安心与镜头美术。",
+        "webPlayback": {
+          "checkedAt": "2026-10-22T13:52:25.490176+00:00",
+          "browser": "ChatGPT in-app browser",
+          "filmDuration": 20,
+          "filmReachedEnd": true,
+          "rawDurations": [
+            5.056,
+            5.056,
+            5.056,
+            5.056
+          ],
+          "allRawReachedEnd": true,
+          "mediaErrors": false,
+          "evidenceImagesLoaded": 14,
+          "actualPromptCopyCheck": {
+            "shotId": "bike-3",
+            "enMatchesExecution": true,
+            "zhMatchesTranslation": true
+          },
+          "reuseTaskCopy": {
+            "characters": 45533,
+            "includesActionReview": true,
+            "includesEmotionReview": true,
+            "includesTimedEvidence": true,
+            "includesUnverifiedCandidateBoundary": true
+          }
+        }
+      },
+      "emotionReview": {
+        "basis": "assistant_visual_review",
+        "judgment": "我的画面判断是：认真照料与平等交接的关系比较清楚，温和友善的服务氛围基本成立；但“从一天的疲惫转为安心”的明显情绪转折只部分可读。",
+        "visibleBasis": "抬眼回应、给座垫擦水、接住车后再松手和继续自己的路构成具体照料线索。不过开场来人已较平静，缺少足够清楚的受阻或疲惫状态；末镜又静等约2.5秒才行动，主动继续的余味被缩短。",
+        "alternativeReading": "也可以读作普通清洁、礼貌交车或小店服务展示；不能预设每个观看者都会感到被照应。",
+        "boundary": "本轮仅做画面判断。音轨只检查存在与解码，未听评内容；没有观众反馈，不填写情绪命中率或商业效果。",
+        "audienceFeedback": null
+      },
+      "shotReviews": [
+        {
+          "shotId": "bike-1",
+          "intent": "从疲惫等待到被回应。",
+          "selectionReason": "让后续照料回应一个具体来人，气氛才有事件依据。",
+          "outcome": "observed_unquantified",
+          "observedEffect": "约0.75–1秒修车人抬眼看向来人，随后有克制的头部变化，约4.5秒后又看向车。两人、一车、两轮接地与左手扶立管持续可辨。",
+          "problems": [
+            "回应比原计划约2–3秒更早发生；轻点头的独立次数与精确时刻未量测。",
+            "开场来人已经相当平静，疲惫与后续安心之间的反差较弱。"
+          ],
+          "causeAssessment": "初始参考本来就比较平静，文字又要求克制；这可能影响表演幅度，但未隔离参考与文本因素。",
+          "actionReview": {
+            "assessment": "visually_readable",
+            "assessmentLabel": "人物回应与扶车基本可读",
+            "summary": "人物未提前接车，修车人持续扶住车；未见明显车体悬空或额外人物。抬眼提供回应，不能据此认定观众情绪已经转折。",
+            "checks": [
+              "0.05秒修车人仍看向车，女方等待。",
+              "1.00秒修车人已看向来人，左手仍扶立管，车轮接地。",
+              "4.75秒视线回到车，承接下一镜照料。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/bike-kindness/evidence/bike-1-0.05.jpg",
+                "sourceSeconds": 0.05,
+                "filmSeconds": 0.05,
+                "caption": "修车人看向车，来人等待"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-1-1.00.jpg",
+                "sourceSeconds": 1.0,
+                "filmSeconds": 1.0,
+                "caption": "修车人已抬眼看向来人，车仍被扶住"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-1-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 4.75,
+                "caption": "视线回到车，准备下一步照料"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "较清楚地建立了“有人注意到我”，疲惫的情绪起点不够明确。",
+            "visibleBasis": "同框可读修车人的抬眼与接车者的等待，没有依赖对白。",
+            "alternativeReading": "可以只是平静、礼貌的等待与接待，不必然有情绪变化。"
+          },
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "若需要更强转折，先补明确的疲惫／受阻行为，再保留克制的回应；不要仅强化暖色。",
+            "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+            "promptZh": "来人先短暂调整肩上的沉重帆布包，停住看向修车人；修车人抬眼回应后，来人才自然放松肩部。保留车的支撑关系，不加哭泣或夸张表演。",
+            "promptEn": "The visitor briefly adjusts the heavy canvas bag on their shoulder and waits for the mechanic. Only after the acknowledging look do their shoulders ease naturally. Preserve bicycle support without tears or exaggerated acting.",
+            "check": "比较回应前后可见行为是否有清楚差别，再问观看者如何理解；不能从色调判断。"
+          },
+          "title": "被注意到",
+          "techniqueIds": [
+            "framing-two-shot"
+          ],
+          "taskId": "1035491",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n用克制的等待和明确的抬眼回应建立关系，不演悲伤或感激。\n接车者已站在门口近侧，修车人在车的远侧扶住车把立管，车已修好、两轮落地。\n接车者轻放松肩部、抬眼；修车人看向来人，轻点头一次，手仍扶车。\n两人都不走动，修车人回看座垫，准备照料。\n车位于两人之间且不遮视线，修车人手与车把立管连续接触，另一人尚未接车。\n固定斜侧双人全中景，无推拉摇移。\n能同时看清双方上身、目光和同一车体的两轮落地；门外方向留在右侧。\n雨后阴天自然光，肤色与店内暗部清楚，不用光束替代情境。\n前两秒建立等待，约2至3秒抬眼回应，余下时间让观众读清双方。\n计划为远处城市底噪和衣料声，无对白、旁白或配乐；静音也应读懂回应。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nEstablish a relationship through restrained waiting and a clear acknowledging look, without sadness or grateful overacting.\nThe commuter is already waiting at the near side of the doorway. The mechanic steadies the handlebar stem from the far side; the repaired bicycle rests on both wheels.\nThe commuter relaxes their shoulders slightly and looks up. The mechanic looks toward them and gives one small nod while keeping the bicycle supported.\nBoth remain in place; the mechanic glances back toward the saddle, preparing to attend to it.\nThe bicycle stands between them without blocking their sightline. The mechanic maintains contact with the stem; the commuter has not taken the bicycle yet.\nLocked oblique medium-wide two-shot, without camera movement or zoom.\nKeep both upper bodies, exchanged looks and both grounded wheels readable; the exit remains screen right.\nNatural overcast light after rain, readable skin and interior shadows, without expressive light beams.\nEstablish waiting over two seconds, exchange the look around seconds two to three, then allow time to read both people.\nPlan distant street ambience and fabric sounds, with no speech, narration or music; the acknowledgment should read when muted.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "pipeline-example.json"
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 is the initial identity, supported bicycle and waiting arrangement. Keep the camera locked and use this composition, not a montage.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nEstablish a relationship through restrained waiting and a clear acknowledging look, without sadness or grateful overacting.\nThe commuter is already waiting at the near side of the doorway. The mechanic steadies the handlebar stem from the far side; the repaired bicycle rests on both wheels.\nThe commuter relaxes their shoulders slightly and looks up. The mechanic looks toward them and gives one small nod while keeping the bicycle supported.\nBoth remain in place; the mechanic glances back toward the saddle, preparing to attend to it.\nThe bicycle stands between them without blocking their sightline. The mechanic maintains contact with the stem; the commuter has not taken the bicycle yet.\nLocked oblique medium-wide two-shot, without camera movement or zoom.\nKeep both upper bodies, exchanged looks and both grounded wheels readable; the exit remains screen right.\nNatural overcast light after rain, readable skin and interior shadows, without expressive light beams.\nEstablish waiting over two seconds, exchange the look around seconds two to three, then allow time to read both people.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+            "translationZh": "5秒，16:9，单一连续写实镜头。\n图1规定人物身份、受支撑的车与等待起态；保持该固定构图，不做蒙太奇。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n用克制的等待和明确的抬眼回应建立关系，不演悲伤或感激。\n接车者已站在门口近侧，修车人在车的远侧扶住车把立管，车已修好、两轮落地。\n接车者轻放松肩部、抬眼；修车人看向来人，轻点头一次，手仍扶车。\n两人都不走动，修车人回看座垫，准备照料。\n车位于两人之间且不遮视线，修车人手与车把立管连续接触，另一人尚未接车。\n固定斜侧双人全中景，无推拉摇移。\n能同时看清双方上身、目光和同一车体的两轮落地；门外方向留在右侧。\n雨后阴天自然光，肤色与店内暗部清楚，不用光束替代情境。\n前两秒建立等待，约2至3秒抬眼回应，余下时间让观众读清双方。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1规定人物身份、受支撑的车与等待起态；保持该固定构图，不做蒙太奇。"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-1-start.png",
+              "sha256": "e42f813fc1ac516f24111a15f1cfada5d63564539421c63fe651916c4d4f9d86"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-1.mp4",
+            "poster": "generated/bike-kindness/bike-1.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 4610324
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 0,
+              "end": 5
+            }
+          }
+        },
+        {
+          "shotId": "bike-2",
+          "intent": "让认真照应有明确可见的动作。",
+          "selectionReason": "额外的小照料比抽象的“温暖”更具体，也给下一镜交接一个准备过程。",
+          "outcome": "partially_met",
+          "observedEffect": "约1秒后布接触座垫并来回擦拭数次，约4.25秒后布移开，4.75秒座垫和支撑仍在。左手扶立管、座杆与座垫固定关系可读。",
+          "problems": [
+            "没有遵守一次从后向前擦过：1.25秒到前部，2.0秒回到后部，2.25秒又到前部。",
+            "动作持续到约4.25秒，完成后的干净保持不足原计划两秒。",
+            "水痕减少可见，但未量测擦净比例；细节不是维修工艺证明。"
+          ],
+          "causeAssessment": "静态参考清楚规定了接触位置，却不能规定擦拭次数；本次模型把擦拭扩展为多个往返，未测试改法。",
+          "actionReview": {
+            "assessment": "plausible_contact_count_not_met",
+            "assessmentLabel": "接触与支撑可读 · 擦拭次数偏离",
+            "summary": "布作用于同一座垫表面，车由另一只手支撑，座杆保持连接；反复擦本身可理解，但不符合本镜一次擦拭的任务。",
+            "checks": [
+              "按1.25、2.0、2.25秒顺序追踪布的位置，能看到往返。",
+              "4.75秒布已经离开，左手仍扶立管。",
+              "不能把自然擦拭的外观当作次数与持时均达标。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/bike-kindness/evidence/bike-2-1.25.jpg",
+                "sourceSeconds": 1.25,
+                "filmSeconds": 6.25,
+                "caption": "布已擦到座垫前部"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-2-2.00.jpg",
+                "sourceSeconds": 2.0,
+                "filmSeconds": 7.0,
+                "caption": "布又回到后部，出现反向擦拭"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-2-2.25.jpg",
+                "sourceSeconds": 2.25,
+                "filmSeconds": 7.25,
+                "caption": "再次向前擦，未遵守一次擦过"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-2-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 9.75,
+                "caption": "布离开后，左手仍扶立管"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "额外照料有具体落点，支持认真服务；重复擦拭让节奏比设计更忙。",
+            "visibleBasis": "同一座垫、布接触与另一只手的支撑可读，之后切向交接。",
+            "alternativeReading": "脱离前后镜，也可能只是常规清洁，并非额外关心。"
+          },
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "下一次先单测次数与停止，保持现有近景和支撑，不同时改风格或镜头。",
+            "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+            "promptZh": "只沿座垫表面从后向前擦一个短行程，立即把布完全提离表面，并在画外保持到结束；不得返回座垫，不做第二次接触。",
+            "promptEn": "Make one short rear-to-front pass across the saddle, immediately lift the cloth completely clear, and keep it outside the contact area through the end. Do not return to the saddle or make a second contact.",
+            "check": "从接触开始计数到结束，只有一个单向行程且布提离后不再接触。"
+          },
+          "title": "多做一点",
+          "techniqueIds": [
+            "framing-insert"
+          ],
+          "taskId": "1035490",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n关注布与座垫的真实接触，表现小事被认真做完，不拍机械奇迹。\n同一黑座垫表面有少量水痕，车已修好且直立，修车人左手扶住车把立管。\n修车人右手用一块浅灰布沿座垫表面从后向前擦过一次，布贴着表面，再提起离开。\n水痕减少，布离开座垫，车体仍由左手支撑；座垫和座杆不转动。\n保留座垫、固定座杆与一段车架作为结构依据。布只接触表面，不穿透、不让座垫整体变形；镜外左手支撑须在参考构图和下一镜核对。\n固定的局部插入镜头，普通近景，不要求极端微距或转移焦点。\n座垫表面和布接触区清楚；保留座杆，不只拍失去支撑关系的材质纹理。\n延续前镜阴天傍晚光，水痕可辨但不夸张发亮。\n前一秒保持，约1至3秒擦一次并提布，3至5秒保留完成状态。\n计划轻微布料摩擦与持续街道底噪，不用音乐替擦拭制造情绪。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nAttend to real cloth-to-saddle contact, showing a small task completed with care rather than a mechanical miracle.\nThe same black saddle has a small surface water mark. The already-repaired bicycle is upright and the mechanic steadies its handlebar stem with the left hand.\nThe mechanic makes one rear-to-front pass over the saddle with a light-gray cloth in the right hand, maintaining surface contact before lifting it away.\nThe water mark is reduced, the cloth leaves the saddle, and the bicycle remains supported by the left hand. The saddle and seatpost do not rotate.\nRetain the saddle, fixed seatpost and part of the frame as structural cues. The cloth touches the surface without penetration or reshaping the saddle; offscreen left-hand support must be established in reference framing and checked in the following shot.\nLocked insert detail at a normal close distance, without extreme macro or a focus pull.\nKeep the saddle surface and cloth contact sharp; include the seatpost rather than showing unsupported texture alone.\nContinue the overcast evening light; make the water mark readable without exaggerated shine.\nHold for one second, make one wiping pass and lift the cloth around seconds one to three, then retain the completed state through second five.\nPlan soft cloth friction and continuous street ambience, without music supplying the emotional meaning.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "pipeline-example.json"
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 defines the close saddle, fixed seatpost, cloth and mechanic support. The cloth starts just above or lightly meeting the rear edge. Perform only one continuous rear-to-front wiping pass; no repeated polishing.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nAttend to real cloth-to-saddle contact, showing a small task completed with care rather than a mechanical miracle.\nThe same black saddle has a small surface water mark. The already-repaired bicycle is upright and the mechanic steadies its handlebar stem with the left hand.\nThe mechanic makes one rear-to-front pass over the saddle with a light-gray cloth in the right hand, maintaining surface contact before lifting it away.\nThe water mark is reduced, the cloth leaves the saddle, and the bicycle remains supported by the left hand. The saddle and seatpost do not rotate.\nRetain the saddle, fixed seatpost and part of the frame as structural cues. The cloth touches the surface without penetration or reshaping the saddle; offscreen left-hand support must be established in reference framing and checked in the following shot.\nLocked insert detail at a normal close distance, without extreme macro or a focus pull.\nKeep the saddle surface and cloth contact sharp; include the seatpost rather than showing unsupported texture alone.\nContinue the overcast evening light; make the water mark readable without exaggerated shine.\nHold for one second, make one wiping pass and lift the cloth around seconds one to three, then retain the completed state through second five.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+            "translationZh": "5秒，16:9，单一连续写实镜头。\n图1规定座垫近景、固定座杆、布与修车人支撑。布从后缘上方或轻触后缘开始，只做一次从后向前的连续擦拭，不反复打磨。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n关注布与座垫的真实接触，表现小事被认真做完，不拍机械奇迹。\n同一黑座垫表面有少量水痕，车已修好且直立，修车人左手扶住车把立管。\n修车人右手用一块浅灰布沿座垫表面从后向前擦过一次，布贴着表面，再提起离开。\n水痕减少，布离开座垫，车体仍由左手支撑；座垫和座杆不转动。\n保留座垫、固定座杆与一段车架作为结构依据。布只接触表面，不穿透、不让座垫整体变形；镜外左手支撑须在参考构图和下一镜核对。\n固定的局部插入镜头，普通近景，不要求极端微距或转移焦点。\n座垫表面和布接触区清楚；保留座杆，不只拍失去支撑关系的材质纹理。\n延续前镜阴天傍晚光，水痕可辨但不夸张发亮。\n前一秒保持，约1至3秒擦一次并提布，3至5秒保留完成状态。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1规定座垫近景、固定座杆、布与修车人支撑。布从后缘上方或轻触后缘开始，只做一次从后向前的连续擦拭，不反复打磨。"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-2-start.png",
+              "sha256": "9c7368c8def709ea8fa83c331a2556568b0f3e9df6d730c36b9aa7b2e0fbc2ca"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-2.mp4",
+            "poster": "generated/bike-kindness/bike-2.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 4214363
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 5,
+              "end": 10
+            }
+          }
+        },
+        {
+          "shotId": "bike-3",
+          "intent": "通过稳定交接和轻微回应表达安心。",
+          "selectionReason": "照应让人接回自己的行动；支撑顺序同时是内容逻辑与关系表达。",
+          "outcome": "partially_met",
+          "observedEffect": "0.05秒女方手在握套与座垫外；约1–1.5秒两手搭住对应部位。男方随后约2.25–2.75秒移开扶立管的左手，末段女方保持接触并抬眼，双方回应可读。",
+          "problems": [
+            "男方释放比计划约3–4秒更早。",
+            "释放附近女方右手更像搭住握套，完整包握到位时点不够清晰，不能把“已接触”直接当成“已充分握稳”。",
+            "两人看向彼此可读，独立的一次轻点头未作精确识别或量测；手指局部几何未逐帧验证。"
+          ],
+          "causeAssessment": "两张普通参考把起止状态限定得较清楚，但中间握稳程度和节奏仍由模型完成；不能单因引用了旧书经验就认为过程无误。",
+          "actionReview": {
+            "assessment": "contact_before_release_readable_grip_uncertain",
+            "assessmentLabel": "先接触再释放基本可读 · 握稳程度仍有边界",
+            "summary": "同一车有连续可见支撑线索，未见明显无人支撑的跳段；女方先搭住、男方后移开可读。完整握稳的程度与精确先后仍需保留不确定。",
+            "checks": [
+              "0.05秒检查接触前间隙与男方左手支撑。",
+              "1.50秒两手已搭住，男方尚未完成释放。",
+              "2.75秒男方手已离开立管，4.75秒女方继续扶车并与对方对视。",
+              "把触碰、包握、实际承重和释放四件事分别检查。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/bike-kindness/evidence/bike-3-0.05.jpg",
+                "sourceSeconds": 0.05,
+                "filmSeconds": 10.05,
+                "caption": "女方手与目标接触处尚有间隙，男方扶立管"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-3-1.50.jpg",
+                "sourceSeconds": 1.5,
+                "filmSeconds": 11.5,
+                "caption": "女方手已搭到握套与座垫，男方仍扶车"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-3-2.75.jpg",
+                "sourceSeconds": 2.75,
+                "filmSeconds": 12.75,
+                "caption": "男方手离开立管，女方仍接触车辆"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-3-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 14.75,
+                "caption": "女方握持、双方抬眼回应"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "本镜较清楚地支持平等交接与相互回应，是全片照应关系的主要依据。",
+            "visibleBasis": "共享同一物体的支撑状态发生变化，随后双方抬眼而非夸张感谢。",
+            "alternativeReading": "仍可能被读为正常交车；仅有礼貌回应不证明安心或被珍视感稳定成立。"
+          },
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "保留支撑分工，下一轮若要严查握稳，使用更清楚的接触构图并单独测试触碰—包握—释放次序。",
+            "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+            "promptZh": "女方右手先完整包握近侧握套、左掌落稳座垫，两处接触持续清楚一秒；在此之后男方才把左手从立管完全移开，车辆不移动。",
+            "promptEn": "The commuter first wraps the right hand fully around the near grip and settles the left palm on the saddle. Keep both contacts clearly readable for one second before the mechanic completely withdraws the left hand from the stem. The bicycle stays still.",
+            "check": "逐帧区分触碰与包握，确认男方释放前已存在清楚的自主支撑；不能只验终态。"
+          },
+          "title": "接稳，再松手",
+          "techniqueIds": [
+            "framing-two-shot"
+          ],
+          "taskId": "1035493",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n让支撑转移清楚，接车者自己稳住车辆，回应克制、平等。\n同一车在门口静止、两轮落地，修车人远侧左手扶车把立管；接车者站在近侧。\n接车者右手握近侧车把握套、左手轻扶座垫。两人共同扶稳约一秒后，修车人左手离开车把立管，接车者轻点头一次。\n接车者独自扶稳车，双方仍站着，尚未迈步；车轮位置不变。\n固定同一车把、座垫、车轮与地面；接车者双脚落地。先接触再释放，不交换车把左右，不让车身失去支撑。\n固定斜侧双人宽景，和第一镜保持同一侧观察，不越轴。\n同时保留两人上身、握持和轮胎接地；交接区不被前景遮住。\n同一阴天傍晚光，无突然金色光束或亮度跳变。\n约0至2秒建立接触，2至3秒共同扶稳，3至4秒修车人松手并回应，最后一秒接稳保持。\n计划轻微握持和衣料声，保留同一街道空间，不加感激对白。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nMake the support transfer readable. The commuter steadies the bicycle independently, with a restrained response between equals.\nThe same bicycle is stationary at the doorway on both wheels. The mechanic on its far side holds the stem with the left hand; the commuter stands on the near side.\nThe commuter places the right hand on the near handlebar grip and the left on the saddle. After both steady the bicycle together for about one second, the mechanic releases the stem and the commuter gives one small nod.\nThe commuter alone supports the bicycle. Both people remain standing without stepping yet, and the wheel positions are unchanged.\nKeep the same handlebar, saddle, wheels and ground relationships. The commuter has both feet planted. Contact precedes release, with no swapped handlebar sides or unsupported frame.\nLocked oblique wide two-shot from the same side as the opening, without crossing the action axis.\nInclude both upper bodies, hand contacts and tire-to-ground contact, without foreground occlusion of the exchange.\nMaintain the same overcast evening light without sudden golden beams or exposure jumps.\nEstablish contacts around seconds zero to two, share support around seconds two to three, release and acknowledge around seconds three to four, then hold the stable state for the final second.\nPlan quiet contact and clothing sounds in the same street ambience, without grateful dialogue.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "pipeline-example.json"
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 defines the BEFORE-contact arrangement and image 2 the AFTER-release state. Use both as ordinary pose and identity references, not locked first/last frames or a dissolve between pictures. Keep the same stationary bicycle geometry while showing actual contact-before-release in between.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nMake the support transfer readable. The commuter steadies the bicycle independently, with a restrained response between equals.\nThe same bicycle is stationary at the doorway on both wheels. The mechanic on its far side holds the stem with the left hand; the commuter stands on the near side.\nThe commuter places the right hand on the near handlebar grip and the left on the saddle. After both steady the bicycle together for about one second, the mechanic releases the stem and the commuter gives one small nod.\nThe commuter alone supports the bicycle. Both people remain standing without stepping yet, and the wheel positions are unchanged.\nKeep the same handlebar, saddle, wheels and ground relationships. The commuter has both feet planted. Contact precedes release, with no swapped handlebar sides or unsupported frame.\nLocked oblique wide two-shot from the same side as the opening, without crossing the action axis.\nInclude both upper bodies, hand contacts and tire-to-ground contact, without foreground occlusion of the exchange.\nMaintain the same overcast evening light without sudden golden beams or exposure jumps.\nEstablish contacts around seconds zero to two, share support around seconds two to three, release and acknowledge around seconds three to four, then hold the stable state for the final second.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+            "translationZh": "5秒，16:9，单一连续写实镜头。\n图1规定接触前的布局，图2规定松手后的状态；两图仅为普通姿态与身份参考，不锁定首尾帧、不叠化图片。车辆几何和位置不变，中间应实际呈现先接触再松手。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n让支撑转移清楚，接车者自己稳住车辆，回应克制、平等。\n同一车在门口静止、两轮落地，修车人远侧左手扶车把立管；接车者站在近侧。\n接车者右手握近侧车把握套、左手轻扶座垫。两人共同扶稳约一秒后，修车人左手离开车把立管，接车者轻点头一次。\n接车者独自扶稳车，双方仍站着，尚未迈步；车轮位置不变。\n固定同一车把、座垫、车轮与地面；接车者双脚落地。先接触再释放，不交换车把左右，不让车身失去支撑。\n固定斜侧双人宽景，和第一镜保持同一侧观察，不越轴。\n同时保留两人上身、握持和轮胎接地；交接区不被前景遮住。\n同一阴天傍晚光，无突然金色光束或亮度跳变。\n约0至2秒建立接触，2至3秒共同扶稳，3至4秒修车人松手并回应，最后一秒接稳保持。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1规定接触前的布局，图2规定松手后的状态；两图仅为普通姿态与身份参考，不锁定首尾帧、不叠化图片。车辆几何和位置不变，中间应实际呈现先接触再松手。"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-3-start.png",
+              "sha256": "462fc519451589f682e33af435369fdca5c141545dffd98c8457900129b91f60"
+            },
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-3-end.png",
+              "sha256": "45e1725c0ba2e15c226e47414abcacfb4630179ad0ac4473d6316f1e7295dfb5"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-3.mp4",
+            "poster": "generated/bike-kindness/bike-3.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 4367682
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 10,
+              "end": 15
+            }
+          }
+        },
+        {
+          "shotId": "bike-4",
+          "intent": "让被照应落实为继续自己的路。",
+          "selectionReason": "结尾的行动能力属于接车者；前面的照料有了实际后果。",
+          "outcome": "partially_met",
+          "observedEffect": "约前2.5秒人物和车基本停在起态，随后女方在车旁交替迈步并推车前行，摄影机从后侧随行，修车人留在店前。后段座垫上不再清楚见到左掌，主要由右手控制车把。",
+          "problems": [
+            "计划约0.5秒后起步，实际约2.5秒才开始，前半镜停顿过长。",
+            "没有持续清楚保持左手扶座垫的双点支撑要求；后段可能已改为单手推车。",
+            "单手推车本身可以合理，但不符合本次明确的连续握持要求；轮胎转速与平移对应未量测。"
+          ],
+          "causeAssessment": "专用起态参考是双脚落地静止，输出保留了较长起态；是否由参考或文字持时导致未做隔离验证。",
+          "actionReview": {
+            "assessment": "beside_bicycle_walk_readable_contact_partial",
+            "assessmentLabel": "在车旁推行可读 · 起步晚、左手连续性不足",
+            "summary": "可见双腿在车架同一侧，未出现跨坐或踩踏；车与人物共同前进。后段左手离座垫或受遮挡，不能声称双手支撑全程通过。",
+            "checks": [
+              "0.75秒仍处于静止起态。",
+              "2.75秒出现迈步与推车，人物保持在车旁。",
+              "4.75秒继续前行，座垫上已无清楚左掌，检查接触连续性而非只看背影。"
+            ],
+            "evidenceFrames": [
+              {
+                "image": "generated/bike-kindness/evidence/bike-4-0.75.jpg",
+                "sourceSeconds": 0.75,
+                "filmSeconds": 15.75,
+                "caption": "仍为站稳的初始状态"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-4-2.75.jpg",
+                "sourceSeconds": 2.75,
+                "filmSeconds": 17.75,
+                "caption": "开始在车旁迈步，车随人前进"
+              },
+              {
+                "image": "generated/bike-kindness/evidence/bike-4-4.75.jpg",
+                "sourceSeconds": 4.75,
+                "filmSeconds": 19.75,
+                "caption": "继续推行，座垫上已无清楚的左手支撑"
+              }
+            ]
+          },
+          "expressionReview": {
+            "judgment": "从容继续自己的路可读，但延迟起步压缩了行动结果的时间。",
+            "visibleBasis": "对比店面、墙面与人物／车的变化，有实际前行，不是仅用背景移动替代动作。",
+            "alternativeReading": "如果缺少前面照料与交接，也可以只是一个推车离开的背影。"
+          },
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "若要更明确继续行动，单测首秒起步与左手持续支撑，不同时加新的运镜。",
+            "promptRole": "未执行的候选片段，不是本次实际输入或已验证配方",
+            "promptZh": "在第一秒内开始第一步，始终在车旁推行；右手握近侧握套、左掌持续压在同一座垫上直到片段结束，镜头保留两处接触，不在中途改为单手。",
+            "promptEn": "Begin the first step within the first second and walk beside the bicycle. Keep the right hand on the near grip and the left palm continuously on the same saddle through the end. Frame both contacts without changing to one-handed pushing.",
+            "check": "检查起步时刻、两腿同侧及整段两处接触；要求的握持若不适合自然动作，应先调整设计并另记，而非事后当作已达标。"
+          },
+          "title": "从容继续",
+          "techniqueIds": [
+            "camera-movement-follow"
+          ],
+          "taskId": "1035492",
+          "designPrompt": {
+            "zh": "目标剪辑 5 秒，16:9。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n跟随人的自主前行，平稳而非追赶；这里的继续走是目标，不要求停在门口。\n接车者站在车的近侧，双脚已落地，右手握近侧车把、左手扶座垫，修车人已松手。\n接车者先自然迈步，再缓慢推车沿右前方人行道离开；保持在车旁，不跨坐，车轮沿地面随位移滚动。\n接车者与车持续向前，修车人留在后方摊位；不突然转身或额外挥手。\n手与车把、座垫持续接触，车与人同速前进，车头承接前镜朝向。腿和车轮各自运动，不让整车平移滑行。\n摄影机在人物后方略偏近侧，平稳跟随向前；固定焦距，不变焦、环绕或后拉。\n保留接车者上身、推车握持和轮胎接地，起始还能辨认后方摊位，之后自然离开背景。\n延续同一天的阴天光，不因离开就突然变成晴天或夕阳。\n前约0.5秒承接站稳状态，随后正常速度起步并持续前行到结束；不要求最后两秒静止。\n计划脚步、轮胎滚动与连续街道底噪；声画需实际制作后单独检查。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。\n不生成叠加片名或字幕；后期排字。实际生成时长、参考图和音轨另行设置。",
+            "en": "Target edit: 5 seconds, 16:9.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nFollow the commuter resuming their own movement, steadily rather than in pursuit. Continued walking is intentional here, not a pause at the doorway.\nThe commuter stands beside the near side of the bicycle with both feet planted, right hand on the near grip and left hand on the saddle. The mechanic has already released it.\nThe commuter starts a natural step, then slowly walks the bicycle along the pavement toward front right, remaining beside it without mounting. The wheels roll on the ground with its travel.\nThe commuter and bicycle continue forward while the mechanic stays at the stall behind, without a sudden turn or extra wave.\nMaintain hand contact with the grip and saddle. The person and bicycle advance together in the established direction; legs step and wheels roll rather than the whole bicycle sliding.\nFollow smoothly from behind and slightly toward the near side at a fixed focal length, without zooming, orbiting or dollying backward.\nRetain the commuter upper body, pushing contacts and grounded tires. The stall is initially readable behind and naturally recedes.\nContinue the same overcast daylight without a sudden sun or sunset transformation.\nContinue the planted start for roughly half a second, then begin walking at normal speed and keep moving through the end, without a two-second still hold.\nPlan footsteps, rolling tires and continuous street ambience; check audio content and synchronization separately after production.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.\nNo generated overlay titles or captions; add text in post. Configure actual generation duration, references and audio separately.",
+            "role": "full_prompt_compiled_from_original_design_fields",
+            "recordFile": "pipeline-example.json"
+          },
+          "actualInput": {
+            "en": "5 seconds, 16:9. One continuous realistic shot.\nImage 1 is the stationary rear-side starting arrangement after handover, not a riding pose. Both legs stay on the same side of the frame; walk beside the bicycle while keeping right hand on the near grip and left palm on the saddle.\nThe same ordinary neighborhood repair stall: workbench at back left and pavement extending to screen right, under soft overcast evening light after rain. The same short-haired adult commuter wears a navy jacket, khaki trousers and canvas crossbody bag. The same mechanic wears gray work clothes and a faded brown apron. Exactly one unbranded dark-green step-through city bicycle with a black saddle, silver handlebar and two consistent wheels. Its front points toward the exit. Keep bicycle geometry, clothing and light consistent.\nFollow the commuter resuming their own movement, steadily rather than in pursuit. Continued walking is intentional here, not a pause at the doorway.\nThe commuter stands beside the near side of the bicycle with both feet planted, right hand on the near grip and left hand on the saddle. The mechanic has already released it.\nThe commuter starts a natural step, then slowly walks the bicycle along the pavement toward front right, remaining beside it without mounting. The wheels roll on the ground with its travel.\nThe commuter and bicycle continue forward while the mechanic stays at the stall behind, without a sudden turn or extra wave.\nMaintain hand contact with the grip and saddle. The person and bicycle advance together in the established direction; legs step and wheels roll rather than the whole bicycle sliding.\nFollow smoothly from behind and slightly toward the near side at a fixed focal length, without zooming, orbiting or dollying backward.\nRetain the commuter upper body, pushing contacts and grounded tires. The stall is initially readable behind and naturally recedes.\nContinue the same overcast daylight without a sudden sun or sunset transformation.\nContinue the planted start for roughly half a second, then begin walking at normal speed and keep moving through the end, without a two-second still hold.\nOnly natural street/cloth/contact sound, no speech, narration or music. No generated text, logo, title, fade or cuts inside the clip.\nRestrained realism at normal speed. Do not depict an entire repair or an instant change in condition; no mounting or riding, traffic conflict, extra people, duplicated wheels, floating bicycle or hands through metal. Another hand must already steady the bicycle before support is released. No logos or generated captions or titles; add any text in post.",
+            "translationZh": "5秒，16:9，单一连续写实镜头。\n图1规定交接后静止的后侧起态，不是骑车姿态。双腿始终在车架同一侧，在车旁推行，右手握近侧握套、左掌扶座垫。\n同一普通社区修车摊，门内工作台在画面左后，门外人行道延伸向画面右侧，雨后阴天傍晚的柔和自然光。同一短发成年通勤者穿深蓝薄外套、卡其长裤、斜挎帆布包；同一修车人穿灰色工装与褪色棕围裙。只有同一辆无标志深绿色低跨城市自行车：黑座垫、银色车把、两只相同车轮。车头朝出门方向，几何、两人服装和光线保持一致。\n跟随人的自主前行，平稳而非追赶；这里的继续走是目标，不要求停在门口。\n接车者站在车的近侧，双脚已落地，右手握近侧车把、左手扶座垫，修车人已松手。\n接车者先自然迈步，再缓慢推车沿右前方人行道离开；保持在车旁，不跨坐，车轮沿地面随位移滚动。\n接车者与车持续向前，修车人留在后方摊位；不突然转身或额外挥手。\n手与车把、座垫持续接触，车与人同速前进，车头承接前镜朝向。腿和车轮各自运动，不让整车平移滑行。\n摄影机在人物后方略偏近侧，平稳跟随向前；固定焦距，不变焦、环绕或后拉。\n保留接车者上身、推车握持和轮胎接地，起始还能辨认后方摊位，之后自然离开背景。\n延续同一天的阴天光，不因离开就突然变成晴天或夕阳。\n前约0.5秒承接站稳状态，随后正常速度起步并持续前行到结束；不要求最后两秒静止。\n只有自然街道、衣料和接触声，无对白、旁白或音乐。镜内不生成文字、标志、片名、淡出或切镜。\n写实、克制、正常速度。不演示完整维修、不瞬间改变车况、不骑上车、不添加交通冲突；无额外人物、复制车轮、悬空车身或手穿过车把。手离开之前必须已有另一只手扶稳。无品牌字、生成字幕或片名，文字若需要在后期加入。",
+            "submittedLanguage": "en",
+            "translationStatus": "corresponding_translation_not_submitted",
+            "requestedDuration": 5,
+            "type": "i2v",
+            "inputMode": "omni_reference",
+            "referenceRole": "图1规定交接后静止的后侧起态，不是骑车姿态。双腿始终在车架同一侧，在车旁推行，右手握近侧握套、左掌扶座垫。"
+          },
+          "referenceFrames": [
+            {
+              "role": "reference",
+              "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-4-start.png",
+              "sha256": "b01dcf6c25e68490ebc18f73943254e96fdfc0438825ad3b10f8d007e718c9e5"
+            }
+          ],
+          "actualMedia": {
+            "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--bike-4.mp4",
+            "poster": "generated/bike-kindness/bike-4.jpg",
+            "duration": 5.056,
+            "width": 1902,
+            "height": 1092,
+            "frameRate": "24/1",
+            "videoCodec": "h264",
+            "hasAudio": true,
+            "byteSize": 7153922
+          },
+          "edit": {
+            "sourceStart": 0,
+            "duration": 5,
+            "timeline": {
+              "start": 15,
+              "end": 20
+            }
+          }
+        }
+      ],
+      "reusePatterns": [
+        {
+          "id": "care-through-event-response",
+          "title": "把情绪方向变成有对象的照料与回应",
+          "whenToUse": "服务、协作、交还或互助故事，需要让温和不只是色调。",
+          "retain": "先让人被注意，再提供具体照料，给接收方可见的回应与继续行动。",
+          "adapt": "更换对象与事件，先说明为什么这个动作在当前处境中有意义。",
+          "evidenceShotIds": [
+            "bike-1",
+            "bike-2",
+            "bike-3",
+            "bike-4"
+          ],
+          "evidenceLevel": "one_run_visual_relationship_interpretation",
+          "limit": "本次照料关系可读，明显疲惫到安心的转折较弱；没有观众或商业效果验证。"
+        },
+        {
+          "id": "contact-grip-release",
+          "title": "触碰、握稳、承重、释放分开验收",
+          "whenToUse": "物品交接、工具传递、扶稳后放手等支撑转移。",
+          "retain": "先定义双方不同作用点，再追踪中间接触状态，检查释放时机。",
+          "adapt": "按新物体重建支撑点与自然握持，不照抄立管、握套或座垫。",
+          "evidenceShotIds": [
+            "bike-3",
+            "bike-4"
+          ],
+          "evidenceLevel": "one_run_contact_sequence_with_grip_uncertainty",
+          "limit": "本次触碰先于释放可读，完整包握与后段双手连续性未完全确认，不推广为通用物理正确。"
+        },
+        {
+          "id": "action-count-is-a-constraint",
+          "title": "动作自然与动作次数达标是两项判断",
+          "whenToUse": "擦拭、敲击、刷拭等容易被扩展为重复动作的片段。",
+          "retain": "检查路径、次数、提离和完成后保持，不把看起来自然当作次数正确。",
+          "adapt": "换成一次按压、一次放下等新动作，并按新目标定义起止。",
+          "evidenceShotIds": [
+            "bike-2"
+          ],
+          "evidenceLevel": "failure_informed_one_run_observation",
+          "limit": "一次要求仍生成多次擦拭；候选提离约束未重新生成，不当作已验证修复。"
+        },
+        {
+          "id": "motion-serves-direction",
+          "title": "根据方向决定继续走还是停住",
+          "whenToUse": "结尾需要从容继续、留住片刻或展示关系变化。",
+          "retain": "先明确情境意义，再安排起步时刻、行走／停留与相机运动；不把某种节奏固定对应情绪。",
+          "adapt": "本次推车继续与陶器停留目标不同，换题材时重新定义行动结果。",
+          "evidenceShotIds": [
+            "bike-1",
+            "bike-4"
+          ],
+          "evidenceLevel": "one_run_timing_and_visual_interpretation",
+          "limit": "本次起步偏晚且情绪起点较弱，未证明新时序能稳定改善感受。"
+        }
+      ],
+      "modelUse": {
+        "workflow": [
+          "先从新目标比较方向，说明为什么需要人与人的照应、物品的操作或继续行动。",
+          "按需要读取本案例原片、准确输入和动作证据，分开看成功部分与偏差。",
+          "支撑交接先定义谁持何处、何时接触／松手，检查中间帧，不能只检查终态。",
+          "把重复动作的次数、完成后的保持、起步时刻和运动过程分开验收。",
+          "换主体、地点、支撑方式与事件，重建具体关系，不照抄修车摊和绿色自行车。",
+          "实际生成另记原件与输入；模型画面判断、未听评声音、观众反馈和未执行候选分开保存。"
+        ]
+      },
+      "costNote": "四个完成任务的服务返回均150点，共600点；初始估算480点。生成前后余额查询未变化，实际扣费尚未核实，600点不是已核销账单。交接镜头仅恢复同一任务查询，没有再次提交视频。",
+      "archiveReview": {
+        "recordedAt": "2026-10-22",
+        "status": "supplemental_review_no_new_generation",
+        "source": "app/archive-summary.json",
+        "summary": "取车第三镜座垫较薄，第四镜较厚且有明显弹簧支撑；差异在两镜静态参考里已经存在，实际视频也呈现这种差异。 助手的制作和验收有责任，不能把全部问题转移给模型；结构校验与测试通过也不能代替内容审片。",
+        "confirmedInputIssue": {
+          "id": "reference-consistency",
+          "title": "参考素材本身不一致",
+          "evidenceLevel": "observed_input_and_output_difference",
+          "fact": "取车第三镜座垫较薄，第四镜较厚且有明显弹簧支撑；差异在两镜静态参考里已经存在，实际视频也呈现这种差异。",
+          "assessment": "参考制作与跨镜验收问题明确存在；不能全部归因于视频模型。",
+          "next": "重启时先统一角色、物体结构和场景，再通过受控视角变化制作逐镜参考。",
+          "caseIds": [
+            "bike-kindness"
+          ]
+        },
+        "causalBoundary": "本次输出的指令遵循和连续性偏差可确认；不能凭单次输出断定模型永久做不到，也不能确定各因素占比。",
+        "hypothesisNotIsolated": "任务过密、构图遮挡与参考方式可能增加难度；没有对照实验，不能认定长提示词就是唯一原因。",
+        "changesToHistory": false
+      },
+      "techniqueIds": [
+        "camera-movement-follow",
+        "framing-insert",
+        "framing-two-shot"
+      ],
+      "techniques": [
+        {
+          "id": "camera-movement-follow",
+          "nameZh": "后方跟拍",
+          "sourceUrl": "https://melies.co/cinematic-techniques/camera-movement/follow"
+        },
+        {
+          "id": "framing-insert",
+          "nameZh": "插入特写镜头",
+          "sourceUrl": "https://melies.co/cinematic-techniques/framing/insert"
+        },
+        {
+          "id": "framing-two-shot",
+          "nameZh": "双人镜头",
+          "sourceUrl": "https://melies.co/cinematic-techniques/framing/two-shot"
+        }
+      ],
+      "result": {
+        "video": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--a-little-help.mp4",
+        "poster": "generated/bike-kindness/poster.jpg",
+        "duration": 20,
+        "width": 1920,
+        "height": 1080,
+        "costNote": "四个完成任务的服务返回均150点，共600点；初始估算480点。生成前后余额查询未变化，实际扣费尚未核实，600点不是已核销账单。交接镜头仅恢复同一任务查询，没有再次提交视频。"
+      },
+      "execution": {
+        "model": "Seedance 2.0",
+        "requestedTarget": {
+          "duration": 20,
+          "aspectRatio": "16:9",
+          "shotCount": 4,
+          "resolution": 1080,
+          "nativeAudio": true
+        },
+        "generatedDurations": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "editDurations": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "referenceImage": {
+          "image": "https://github.com/yydshly/1021_codex_project/releases/download/melies-media-20261022/bike-kindness--reference--bike-1-start.png",
+          "role": "五张专用普通参考：等待、擦拭、交接前后两图与车旁推行起态；静态不代替动作过程。"
+        },
+        "postProduction": {
+          "order": [
+            "bike-1",
+            "bike-2",
+            "bike-3",
+            "bike-4"
+          ],
+          "durations": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "transitions": "动作可读后硬切；末镜保持继续前行，不用定格伪造停留。",
+          "audio": "保留合适的原生声，听评与接缝处理另记；未听前不宣称无音乐等内容要求达标。",
+          "title": "不生成文字；若添加片名先审实际构图再在后期排版。",
+          "titleAdded": false,
+          "actualEditRecord": "app/production/bike-edit-record.json",
+          "audioSemanticReview": "not_listened"
+        },
+        "cost": {
+          "estimatedCredits": 480,
+          "serviceReportedCredits": 600.0,
+          "deductionVerified": false,
+          "note": "四个完成任务的服务返回均150点，共600点；初始估算480点。生成前后余额查询未变化，实际扣费尚未核实，600点不是已核销账单。交接镜头仅恢复同一任务查询，没有再次提交视频。"
+        }
+      },
+      "presentation": {
+        "inlineShotMedia": true,
+        "inlineFinalMedia": true
+      },
+      "sourceRecords": [
+        "app/bike-case-memory.json",
+        "app/pipeline-example.json",
+        "app/production/bike-kindness-plan.json",
+        "app/production/bike-reference-prompts.json",
+        "app/production/bike-design-prompts.json",
+        "app/production/bike-edit-record.json",
+        "app/production/bike-preflight.json",
+        "app/production/bike-3-query-recovery.json",
+        "app/production/bike-3-connection-interruption-execution.json",
+        "app/production/bike-1-execution.json",
+        "app/production/bike-2-execution.json",
+        "app/production/bike-3-execution.json",
+        "app/production/bike-4-execution.json",
+        "app/archive-summary.json"
+      ]
+    }
+  ],
+  "count": 4
+};

@@ -1,0 +1,16 @@
+{
+  "caseId": "book-repair",
+  "status": "completed",
+  "provider": "built-in image_gen",
+  "modelVersion": null,
+  "seed": null,
+  "submittedLanguage": "en",
+  "prompt": "Use case: photorealistic-natural. Asset type: one consistent object-and-workshop reference photograph for the AI short film Let the Story Continue / 让故事，继续. Generate a single photorealistic landscape 16:9 still, preferably 2048x1152; no collage or contact sheet. An ordinary small old indigo clothbound book lies closed flat on a worn warm wooden book-repair worktable beside a morning window on the left. Its cloth cover has a very small pale-beige rectangular repair patch at the LOWER RIGHT corner of the FRONT cover; its spine is frayed and paper edges naturally yellowed, with believable fine paper fibers. The entire book is clearly visible at an oblique three-quarter view from slightly above tabletop level, its front cover facing up and frayed spine facing toward camera-left. The book occupies about 48 percent of the image width, slightly left of center, with plausible modest thickness and true rectangular geometry. A folded neutral linen support and one small soft brush rest well behind the book, out of focus. Soft neutral morning light from the left window, restrained natural colors, honest tactile materials, documentary craft photography. Calm workshop, everyday care for a used object, no luxury pedestal or glamorous advertising staging. Background is a simple pale wall, no dramatic visible beam yet. No people or hands in this identity reference, no readable cover title, no logos, no overlaid typography, no fantasy dust, no rain, no reflections, no forest, no magical restoration. This is an identity reference only; later video shots may open the same book and change framing.",
+  "requestedAspectRatio": "16:9",
+  "requestedResolution": "2048x1152 preferred; not guaranteed by built-in generation",
+  "actualResolution": [1672, 941],
+  "localFile": "assets/generated/book-repair/reference/book-reference.png",
+  "inspection": "可见同一本靛蓝布面书、前封面右下角浅米色补布、磨损书脊、左侧窗光与木台；无人物、文字和雨。参考图只作为道具身份与材质依据，不是四镜共用的首帧构图。",
+  "role": "book_identity_and_workshop_materials_not_first_frame",
+  "chatartCredits": 0
+}

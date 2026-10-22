@@ -1,0 +1,17 @@
+{
+  "chatArtAttempt": {
+    "model": "Nano Banana 2",
+    "status": "submission_error",
+    "errorCode": 500,
+    "creditsDeducted": 0,
+    "taskId": null
+  },
+  "selectedReference": {
+    "provider": "built-in image_gen",
+    "status": "completed",
+    "path": "assets/generated/rain-to-forest/reference/product-reference.png",
+    "width": 1672,
+    "height": 941,
+    "userAuthorizedProviderChange": true
+  }
+}

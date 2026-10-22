@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "purpose": "供模型按创作目标检索、参考和改写的案例经验；区分设计意图、实际输入、观察证据与待验证建议。",
+  "cases": [
+    {
+      "id": "rain-to-forest",
+      "title": "把森林，带回城市",
+      "recordedAt": "2026-10-22",
+      "tags": ["香水", "产品广告", "木质香调", "城市", "森林", "雨夜", "安静", "反射隐喻", "图形匹配", "产品一致性", "微距", "环绕", "留白", "提示词复盘"],
+      "goal": {
+        "product": "虚构的 50ml 木质香调香水，无品牌和文字标签。",
+        "audience": "渴望安静、希望在城市生活中短暂亲近自然的人；这是本次创作设定，未做受众验证。",
+        "communicationGoal": "把不可见的木质香气表达为城市雨夜中出现的森林记忆，同时让观众看清并记住同一只香水瓶。",
+        "intendedEmotion": "从雨夜的冷与疏离，经过好奇和发现，收束到安静、温暖与可呼吸的空间。",
+        "coreMessage": "把森林，带回城市。",
+        "constraints": ["16 秒、16:9、四镜结构", "同一只琥珀圆柱玻璃瓶与银色圆形瓶盖", "冷蓝城市与克制的暖琥珀光", "森林主要通过玻璃和金属反射表达", "无讲解旁白，文字后期加入"],
+        "successCriteria": ["雨滴与水纹可读，能够建立城市雨夜", "水纹与瓶盖在切点形成清楚的形状联系", "产品外观跨镜头较一致，环绕能够展示背景变化与森林意象", "结尾主体清楚，留白可以容纳中文文案"]
+      },
+      "review": {
+        "status": "one_run_qualitative_review",
+        "sampleSize": 1,
+        "summary": "四镜叙事已经生成并剪成成片，产品环绕、森林意象和结尾留白可见。水纹机位与跨镜头圆形匹配只部分符合设计，精确角度和观众情绪反应未验证。",
+        "effectiveParts": ["用局部细节开场、再揭示产品、最后留白落版的结构已在成片中实现。", "三个产品镜头共用参考图，实际画面中的瓶型与冷蓝、暖琥珀配色较一致。", "森林意象在瓶身和瓶盖中出现，环绕时背景随视点变化。", "结尾保留可用空间，中文文案由后期清楚加入。"],
+        "evidenceBasis": "本次四段生成素材、成片抽帧与浏览器播放检查，属于人工定性观察。",
+        "limits": ["只有一套方案、一次执行，没有对照组、重复抽样或成功率统计。", "共享参考图与较一致的外观同时出现，不能据此证明参考图是唯一原因或保证后续一致性。", "未量化环绕角度、留白比例、反射的物理准确性；未开展受众感受或商业效果测试。", "候选改写没有再次生成，不能当作已验证的改进；结论仅限本次 Seedance 2.0 输出。"]
+      },
+      "shotReviews": [
+        {
+          "shotId": "s1",
+          "intent": "先让观众进入冷湿的城市环境，再用一次水纹建立悬念和圆形母题。",
+          "selectionReason": "微距把注意力集中在一个小动作上；雨景与湿表面建立触感和天气，使开场能够用环境细节而非旁白传达氛围。",
+          "outcome": "partially_met",
+          "problems": ["水纹可见，但实际为斜俯拍，水洼与水纹呈椭圆，未达到严格垂直俯拍。", "与下一镜瓶盖的投影形状不同，增加了图形匹配的难度。"],
+          "causeAssessment": "未做隔离实验，无法确定偏斜的具体原因；文字中的 top-down 约束在本次输出中没有被严格遵循。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先准备真正垂直俯拍的水面构图参考，再保持单一水滴动作；只改变机位约束，便于比较是否改善。",
+            "promptRole": "在原提示词上替换机位描述的候选片段，不能脱离完整场景直接视为已验证提示词。",
+            "promptZh": "摄影机光轴垂直于石板，从正上方以 90 度俯拍，画面不出现地平线。水纹在画面中的投影保持圆形而非椭圆。摄影机固定，只出现一滴雨和一圈扩散水纹。",
+            "promptEn": "The camera optical axis is perpendicular to the slate, looking straight down from directly overhead at 90 degrees, with no visible horizon. The projected water ring is circular rather than elliptical. Lock the camera; show only one raindrop and one expanding ring.",
+            "check": "对比水纹的横纵直径与圆心位置，并核对是否仍有机位倾斜；不能只看是否出现了水纹。"
+          }
+        },
+        {
+          "shotId": "s2",
+          "intent": "用圆形轮廓把雨夜环境接到香水产品，并第一次暗示木质香调。",
+          "selectionReason": "图形匹配使切镜有视觉联系；瓶盖微距延续细节尺度，反射让城市空间和森林记忆同时出现在产品表面。",
+          "outcome": "partially_met",
+          "problems": ["瓶盖和雪松倒影清楚，但与水纹没有形成相同的投影形状、尺寸和位置。", "实际达到的是轮廓呼应，不能标记为精确图形匹配成功。"],
+          "causeAssessment": "两镜分别生成、只用文字指定圆心和直径，没有共享经过测量的构图参考；这是一项执行条件限制，未验证它是否是唯一原因。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "先选定水纹切出帧，量取圆心、直径及投影轮廓；用同一构图标记准备瓶盖参考帧，再生成固定镜头，最后在剪辑中对齐。",
+            "promptRole": "候选机位与构图约束；方括号参数要在量取前镜后填写。",
+            "promptZh": "使用独立的瓶盖俯拍参考帧。瓶盖圆心位于画面归一化坐标【圆心 x、y】，投影直径为画面高度的【直径百分比】，与选定的水纹切出帧一致。保持机位与金属轮廓固定，不在镜头内让水面变成金属。",
+            "promptEn": "Use a dedicated overhead cap reference frame. Place the cap center at normalized frame coordinates [center x, y], with a projected diameter of [diameter percentage] of frame height, matching the selected outgoing ripple frame. Lock the camera and metal contour. Do not morph water into metal within the shot.",
+            "check": "在切点叠加比较两帧的轮廓、圆心与尺度；如果透视不同，先修正参考构图，避免仅靠字幕或溶解掩盖偏差。"
+          }
+        },
+        {
+          "shotId": "s3",
+          "intent": "让产品完整出现，通过相机运动与森林意象表现一次发现。",
+          "selectionReason": "弧线环绕在持续面向产品的同时展示背景变化；反射将木质香气转为可见的森林意象，维持城市仍在瓶外的概念。",
+          "outcome": "observed_with_limits",
+          "problems": ["背景与倒影变化可见，但没有测量实际弧线是否达到 90 度。", "未单独验证玻璃反射变化是否符合物理规律，不能把森林意象可见等同于反射控制精确。"],
+          "causeAssessment": "这里主要是验证缺口，不能断言环绕角度错误，也不能断言已经精确达标。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "保留同一产品参考，增加可辨识的背景地标或起止视点参考；仅调整环绕约束，不叠加产品自转与变焦。",
+            "promptRole": "候选运动约束，保留原场景与产品锚点。",
+            "promptZh": "摄影机沿以香水瓶为中心的四分之一圆弧向左移动，起止视点相差 90 度，半径、机位高度和焦距保持不变。始终面向瓶身，产品静止不自转，背景地标随视点产生连贯位移。",
+            "promptEn": "Move the camera left along a quarter-circle arc centered on the perfume bottle, with a 90-degree change between the starting and ending viewpoints. Keep radius, camera height and focal length constant. Always face the bottle; keep the product stationary without rotation, while background landmarks shift coherently with the viewpoint.",
+            "check": "以明确的起止视点或背景地标核对角度和方向，并逐帧查看瓶型是否漂移；对称圆瓶的外观本身不足以证明环绕角度。"
+          }
+        },
+        {
+          "shotId": "s4",
+          "intent": "在情绪稳定后停留于产品，为片名与核心信息留下可读空间。",
+          "selectionReason": "留白让文字和产品各有位置；雾中暖光延续琥珀配色，为安静的落版增加空间层次。",
+          "outcome": "observed_with_limits",
+          "problems": ["产品左置、右侧留白与暖光可见，但没有量取留白是否恰为 55%。", "中文可读性来自后期排字，不能归功于视频模型的文字生成能力。"],
+          "causeAssessment": "设计意图在视觉上已保留；比例精度和观众对安静氛围的感受尚无量化验证。",
+          "nextAttempt": {
+            "status": "proposed_unverified",
+            "action": "复用结尾构图方法，在生成前用实际文案框检查安全区域；持续把最终文字交给后期完成。",
+            "promptRole": "可替换主体与文案区的候选约束，文字本身不交给视频模型生成。",
+            "promptZh": "将【产品】放在左侧三分区，右侧约【留白比例】保留干净的深色空间。薄雾和光束保持缓慢、克制，不遮挡主体或进入预留文案框。摄影机固定，不生成文字或标志；最终文案由后期加入。",
+            "promptEn": "Place [product] in the left third, reserving approximately [negative-space proportion] on the right as clean dark space. Keep haze and light beams slow and restrained, without obscuring the subject or entering the reserved typography box. Lock the camera and generate no text or logos; add final copy in post-production.",
+            "check": "在原尺寸和手机尺寸检查产品轮廓、文字对比度与文案安全区，量取比例后再声称数值达标。"
+          }
+        }
+      ],
+      "reusePatterns": [
+        {
+          "id": "detail-to-product",
+          "title": "从环境细节进入产品",
+          "whenToUse": "短产品片需要先建立情绪，再揭示主角时。",
+          "retain": "用一个可读的小动作开场，随后引出产品，保持每镜一个主要运动。",
+          "adapt": "可替换天气细节、产品、材质、场景与视觉母题；无需照搬香水和雨夜。",
+          "evidenceShotIds": ["s1", "s2"],
+          "evidenceLevel": "workflow_used_in_one_case",
+          "limit": "叙事顺序已实现，观众好奇感和传播效果未测量。"
+        },
+        {
+          "id": "sensory-reflection",
+          "title": "把不可见的感受转为视觉意象",
+          "whenToUse": "气味、记忆或情绪需要通过产品画面表达时。",
+          "retain": "先选一个与产品感受有关的意象，再确定它出现的介质与空间关系。",
+          "adapt": "可改为茶的山雾、咖啡的晨光等新概念；这些新组合尚未实际生成。",
+          "evidenceShotIds": ["s2", "s3"],
+          "evidenceLevel": "visual_motif_observed_in_one_case",
+          "limit": "本次森林意象可见，但语义是否被观众理解、镜面物理是否准确均未验证。"
+        },
+        {
+          "id": "identity-and-viewpoint",
+          "title": "统一产品外观，分别约束机位",
+          "whenToUse": "同一产品需要跨多个景别或角度出现时。",
+          "retain": "共用外观锚点与产品参考；对严格机位或匹配镜头另备构图参考。",
+          "adapt": "替换瓶型、材质、配色和场景，保留同一产品身份约束。",
+          "evidenceShotIds": ["s2", "s3", "s4"],
+          "evidenceLevel": "advice_from_one_case_with_partial_geometry_failure",
+          "limit": "共享参考与较一致的外观在本次同时出现；新增机位参考的改法尚未测试，不能承诺一致性或几何精度。"
+        },
+        {
+          "id": "separate-generation-and-edit",
+          "title": "生成素材与完成剪辑分别安排",
+          "whenToUse": "涉及精确切点、短时长节奏或可读文案的成片。",
+          "retain": "先核对模型支持时长，逐镜生成；切点、音频衔接与最终排字在后期完成。",
+          "adapt": "按实际模型与成片目标调整素材长度、镜头数量和落版位置。",
+          "evidenceShotIds": ["s1", "s2", "s3", "s4"],
+          "evidenceLevel": "workflow_used_in_one_case",
+          "limit": "本次四段 5 秒素材被剪成 16 秒；这一执行结果不保证其他模型或新题材的质量。"
+        }
+      ],
+      "modelUse": {
+        "retrieveWhen": ["需要产品广告、香气或记忆的视觉表达", "需要雨夜、冷暖对比或安静情绪的设计参考", "需要图形匹配、产品跨镜头一致性、环绕或落版留白的经验", "需要了解文字约束没有严格落实时应怎样复盘"],
+        "workflow": ["先读取案例简明索引，按创作目标、情绪、对象或技巧筛选。", "读取本案例的目标、逐镜理由、真实输入、观察结果、问题与证据边界。", "保留合适的表达逻辑，围绕新简报改写主体、意象、场景、节奏和提示词，引用案例与技巧 ID。", "明确说明复用了哪些经验、改写了什么、哪些建议尚未验证，并列出新作品的检查标准。", "新生成后回写观察与问题；不要把候选改法直接升级为已验证经验。"],
+        "doNotAssume": ["不要照抄森林、雨夜、香水瓶作为所有产品的默认剧情。", "不要把设计版时长当成本次实际生成时长；查看 execution 中的请求与剪辑记录。", "不要把实际英文输入的中文翻译说成另一次中文模型调用。", "不要宣称掌握 90 度精确环绕、55% 精确留白或已验证整个 424 项库。", "不要把提示词建议、原因假设、单次观察与普遍规律混在一起。"]
+      }
+    }
+  ]
+}

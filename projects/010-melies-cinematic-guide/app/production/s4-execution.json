@@ -1,0 +1,23 @@
+{
+  "shotId": "s4",
+  "status": "completed",
+  "model": "Seedance 2.0",
+  "duration": 5,
+  "resolution": 1080,
+  "estimatedCredits": 120,
+  "taskId": "1034590",
+  "exitCode": 0,
+  "files": [
+    "video_20261022030400.mp4"
+  ],
+  "reportedCredits": 150.0,
+  "sourceUrl": "https://files.chatartpro.com/web-video/20261021/6ad90c8a326d9.mp4",
+  "actualMedia": {
+    "width": 1902,
+    "height": 1092,
+    "duration": 5.056,
+    "frameRate": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true
+  }
+}
