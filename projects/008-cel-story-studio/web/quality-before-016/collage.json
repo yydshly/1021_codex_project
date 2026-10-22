@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "collage",
+  "title": "深海电台",
+  "subtitle": "把世界调轻，把想象调深",
+  "words": [
+    "调频",
+    "下潜",
+    "回响"
+  ],
+  "primary": "#df5a40",
+  "secondary": "#3d7e8a",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="探索 mg-styles-15 的全部 15 种动态设计风格：观看成片，理解设计与代码原理，选择应用场景与扩展路线。">
+  <title>Motion Atlas · 15 种动态设计，拆开来看</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='18' fill='%23ed5c36'/%3E%3Ccircle cx='20' cy='20' r='6' fill='%23f5f3ec'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Motion Atlas 首页"><span class="brand-mark"></span>MOTION ATLAS<span class="edition">研究 004</span></a>
+  <nav aria-label="主导航"><a href="#gallery">15 种效果</a><a href="#principles">设计原理</a><a href="#pipeline">生成链路</a><a href="#applications">场景与价值</a><a href="#extend">扩展方向</a></nav>
+  <a class="repo-link" href="https://github.com/Vincentwei1021/mg-styles-15" target="_blank" rel="noreferrer">原仓库 ↗</a>
+</header>
+<main id="main">
+<section class="hero section-shell" id="top">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="live-dot"></span> A FIELD GUIDE TO MOTION DESIGN</p>
+    <h1>动态设计，<br>拆开<span class="orange">来看。</span></h1>
+    <p class="hero-description">一颗圆点怎样变成一支短片？<br>从 15 种视觉语言出发，看见效果，也看懂画面背后的设计、代码和制作方法。</p>
+    <div class="hero-actions"><a class="button primary" href="#gallery">探索全部 15 种风格 <span>↘</span></a><a class="text-link" href="#pipeline">先看底层原理 →</a></div>
+    <p class="hero-note">基于 <strong>mg-styles-15</strong> 的中文研究 · 原作 / 原理 / 应用</p>
+  </div>
+  <div class="hero-exhibit">
+    <div class="exhibit-top"><span>IN THE SPOTLIGHT</span><span>03 / 15</span></div>
+    <button class="hero-film" type="button" data-open="01-flat-vector" aria-label="观看扁平矢量动画并查看原理">
+      <img src="media/01-flat-vector.jpg" alt="popwise 扁平矢量动画的原作画面" fetchpriority="high">
+      <span class="play-orb" aria-hidden="true">▶</span>
+      <span class="film-duration">10 SEC · SOUND ON</span>
+    </button>
+    <div class="exhibit-caption"><div><span class="tiny-label">FLAT VECTOR</span><h2>从一个点，到一整个世界。</h2></div><button class="circle-link" type="button" data-open="01-flat-vector" aria-label="打开扁平矢量详情">↗</button></div>
+    <div class="color-strip" aria-label="扁平矢量的纯色配色"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="exhibit-stamp">WATCH IT.<br>UNDERSTAND IT.<br>MAKE IT YOURS.</div>
+  </div>
+</section>
+<section class="facts-bar section-shell" aria-label="项目概况">
+  <div><b>15</b><span>种风格与完整案例</span></div>
+  <div><b>10<span>s</span></b><span>每种风格一支短片</span></div>
+  <div><b>CODE → FILM</b><span>AI 写代码，渲染器产出画面</span></div>
+  <p>MG = Motion Graphics<br><span>让文字、图形与信息，按照设计好的节奏运动。</span></p>
+</section>
+
+<section class="intro section-shell" id="overview">
+  <div class="section-heading"><p class="eyebrow">01 / WHAT YOU GET</p><h2>既是一组作品，<br>也是一套可拆解的方法。</h2></div>
+  <div class="intro-content"><p class="lead">这个库把「成片、提示词、画面代码、音频脚本、渲染工具」放在一起。你可以从结果倒推实现，也可以从一个案例开始改造。</p>
+  <div class="capabilities">
+    <article><span>01</span><h3>看见风格</h3><p>15 支带声音的原作，对照视觉特征，选择合适的表达。</p></article>
+    <article><span>02</span><h3>修改创意</h3><p>沿用提示词结构，替换故事、品牌、文案、配色与输出规格。</p></article>
+    <article><span>03</span><h3>控制每一帧</h3><p>修改路径、位置与时间函数；复用渲染器，输出视频或静帧。</p></article>
+    <article><span>04</span><h3>连接声音</h3><p>音频脚本合成配乐与音效，围绕时间点与画面配合。</p></article>
+  </div><p class="boundary"><strong>能力边界</strong>这是案例与工具集合。完整在线编辑器、自动批量平台、稳定的一次提示词成片质量，都需要额外工作。</p></div>
+</section>
+
+<section class="gallery-section section-shell" id="gallery">
+  <div class="section-heading inline"><div><p class="eyebrow">02 / THE STYLE COLLECTION</p><h2>15 种风格。15 种表达。</h2></div><p>点击任一作品，观看完整成片，<br>再拆解它为什么这样动、能用在哪里。</p></div>
+  <div class="filter-toolbar">
+    <div class="filter-list" role="group" aria-label="按风格类别筛选">
+      <button class="filter active" data-filter="全部" aria-pressed="true">全部 <span>15</span></button>
+      <button class="filter" data-filter="基础图形" aria-pressed="false">基础图形</button>
+      <button class="filter" data-filter="空间与材质" aria-pressed="false">空间与材质</button>
+      <button class="filter" data-filter="复古与叙事" aria-pressed="false">复古与叙事</button>
+      <button class="filter" data-filter="信息与界面" aria-pressed="false">信息与界面</button>
+    </div>
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索风格、场景、技术…" aria-label="搜索风格、场景或技术"></label>
+  </div>
+  <div class="gallery-status"><span id="result-count" aria-live="polite">全部 15 个案例</span><span>上游原作 · 本地压缩预览 · 点击后加载视频</span></div>
+  <div class="style-grid" id="style-grid"></div>
+  <div class="empty-state" id="empty-state" hidden><h3>没有找到匹配的风格</h3><p>试试「品牌」「像素」或「Canvas」。</p><button class="button outline" id="reset-search">重置筛选</button></div>
+  <noscript><p>风格筛选与详情需要 JavaScript。<a href="https://vincentwei1021.github.io/mg-styles-15/?lang=zh">也可访问原作者展示页观看全部成片。</a></p></noscript>
+</section>
+
+<section class="principles-section" id="principles">
+  <div class="section-shell">
+    <div class="section-heading inline"><div><p class="eyebrow">03 / THE MOTION LANGUAGE</p><h2>好看的关键，<br>藏在运动的细节里。</h2></div><p>风格决定视觉语言，运动设计决定观看感受。<br>用一个可拖动的小实验，理解六种共通原则。</p></div>
+    <div class="principle-lab">
+      <div class="principle-tabs" role="tablist" aria-label="设计原理">
+        <button role="tab" aria-selected="true" aria-controls="principle-panel" id="principle-tab-0" data-principle="0" class="active">01 缓动与节奏</button>
+        <button role="tab" aria-selected="false" aria-controls="principle-panel" id="principle-tab-1" data-principle="1" tabindex="-1">02 挤压与拉伸</button>
+        <button role="tab" aria-selected="false" aria-controls="principle-panel" id="principle-tab-2" data-principle="2" tabindex="-1">03 错峰与主次</button>
+        <button role="tab" aria-selected="false" aria-controls="principle-panel" id="principle-tab-3" data-principle="3" tabindex="-1">04 形状转场</button>
+        <button role="tab" aria-selected="false" aria-controls="principle-panel" id="principle-tab-4" data-principle="4" tabindex="-1">05 对比与层级</button>
+        <button role="tab" aria-selected="false" aria-controls="principle-panel" id="principle-tab-5" data-principle="5" tabindex="-1">06 音画同步</button>
+      </div>
+      <div class="principle-panel" id="principle-panel" role="tabpanel" aria-labelledby="principle-tab-0">
+        <div class="lab-stage">
+          <div class="stage-label"><span>自制原理示意 / 非上游成片</span><span id="lab-time">FRAME 030 / 060</span></div>
+          <svg id="lab-svg" viewBox="0 0 760 340" role="img" aria-label="运动原理演示"></svg>
+          <div class="lab-controls"><button id="lab-play" class="circle-link" aria-label="播放原理示意">▶</button><label for="lab-progress">进度</label><input id="lab-progress" type="range" min="0" max="60" value="30"><output id="lab-output" for="lab-progress">50%</output></div>
+        </div>
+        <div class="lab-explanation"><p class="tiny-label">WHY IT WORKS</p><h3 id="principle-title"></h3><p id="principle-description"></p><div class="formula" id="principle-formula"></div><p class="lab-tip" id="principle-tip"></p></div>
+      </div>
+    </div>
+    <div class="design-note"><span>一个重要区别</span><p><strong>设计原理</strong>解释“为什么这样看起来有效”；<strong>技术原理</strong>解释“程序如何画出这种效果”。同一种设计原理，可以由 SVG、Canvas、WebGL 或 Blender 实现。</p></div>
+  </div>
+</section>
+
+<section class="pipeline-section section-shell" id="pipeline">
+  <div class="section-heading inline"><div><p class="eyebrow">04 / FROM PROMPT TO PIXELS</p><h2>模型写程序，<br>程序画出每一帧。</h2></div><p>提示词表达意图，代码保存实现。<br>代码完成后，重新渲染不需要再调用模型。</p></div>
+  <div class="pipeline-steps" role="tablist" aria-label="制作链路">
+    <button role="tab" id="step-tab-0" aria-controls="pipeline-detail" aria-selected="true" data-step="0" class="active"><span>01</span><strong>创意约束</strong><small>Prompt</small></button>
+    <button role="tab" id="step-tab-1" aria-controls="pipeline-detail" aria-selected="false" data-step="1" tabindex="-1"><span>02</span><strong>编写代码</strong><small>Scene code</small></button>
+    <button role="tab" id="step-tab-2" aria-controls="pipeline-detail" aria-selected="false" data-step="2" tabindex="-1"><span>03</span><strong>逐帧绘制</strong><small>renderAt(t)</small></button>
+    <button role="tab" id="step-tab-3" aria-controls="pipeline-detail" aria-selected="false" data-step="3" tabindex="-1"><span>04</span><strong>音轨制作</strong><small>audio.py</small></button>
+    <button role="tab" id="step-tab-4" aria-controls="pipeline-detail" aria-selected="false" data-step="4" tabindex="-1"><span>05</span><strong>编码合成</strong><small>FFmpeg</small></button>
+    <button role="tab" id="step-tab-5" aria-controls="pipeline-detail" aria-selected="false" data-step="5" tabindex="-1"><span>06</span><strong>检查与迭代</strong><small>Review</small></button>
+  </div>
+  <div class="pipeline-detail" id="pipeline-detail" role="tabpanel" aria-labelledby="step-tab-0"></div>
+  <div class="architecture-note"><strong>3D 是一个特例</strong><p>3D 案例先用 Blender 渲染场景序列帧，再通过网页叠加文字与颗粒。音轨制作可以与画面工作并行，图示表达的是职责关系，并非所有步骤必须串行。</p></div>
+  <div class="comparison"><div><p class="eyebrow">WHERE REMOTION FITS</p><h3>和 Remotion，怎样配合？</h3><p>本库给出风格与作品样本。Remotion 提供 React 组件、按帧编排、预览和参数化渲染。可以将某种风格移植为组件，再让文案与数据驱动它。</p><a href="https://www.remotion.dev/docs/parameterized-rendering" target="_blank" rel="noreferrer">Remotion 参数化视频文档 ↗</a></div>
+    <div class="comparison-track"><span>本库的风格与创意</span><b>↓ 重新实现 / 适配</b><span>Remotion 场景组件 + 内容参数</span><b>↓ 渲染</b><span>同一视觉体系下的多支视频</span><small>本库本身没有依赖 Remotion；移植需要改写时间控制和素材加载。</small></div></div>
+</section>
+
+<section class="applications-section" id="applications"><div class="section-shell">
+  <div class="section-heading inline"><div><p class="eyebrow">05 / CHOOSE BY PURPOSE</p><h2>先问要表达什么，<br>再决定用哪一种风格。</h2></div><p>以下为基于风格特征的应用建议。<br>它们不是已经集成在仓库中的业务功能。</p></div>
+  <div class="scenario-tabs" role="tablist" aria-label="使用场景">
+    <button role="tab" id="scenario-tab-0" aria-controls="scenario-panel" aria-selected="true" data-scenario="0" class="active">品牌与活动</button><button role="tab" id="scenario-tab-1" aria-controls="scenario-panel" aria-selected="false" data-scenario="1" tabindex="-1">产品与流程</button><button role="tab" id="scenario-tab-2" aria-controls="scenario-panel" aria-selected="false" data-scenario="2" tabindex="-1">知识与内容</button><button role="tab" id="scenario-tab-3" aria-controls="scenario-panel" aria-selected="false" data-scenario="3" tabindex="-1">系列与批量</button>
+  </div><div id="scenario-panel" role="tabpanel" aria-labelledby="scenario-tab-0"></div>
+  <div class="value-row"><article><span>学习价值</span><h3>从成片倒推实现</h3><p>将画面与代码对照，建立“看到一种效果，就知道从哪里实现”的经验。</p></article><article><span>创作价值</span><h3>给创意一个具体起点</h3><p>用视觉样本、风格特征和时间表减少模糊指令，方便讨论与修改。</p></article><article><span>工程价值</span><h3>让好的效果可以复用</h3><p>把时间函数、形状、音效和素材组织成可维护的组件，逐步形成自己的模板。</p></article></div>
+</div></section>
+
+<section class="extend-section section-shell" id="extend">
+  <div class="section-heading"><p class="eyebrow">06 / WHAT COMES NEXT</p><h2>把一次实验，<br>变成持续创作的能力。</h2><p>下面是建议的扩展路线；尚未由上游仓库或本研究页完整实现。</p></div>
+  <div class="roadmap">
+    <article><span class="phase">01 / 从案例出发</span><div><h3>内容参数化与品牌规范</h3><p>将文案、色板、Logo、时长和音量抽成配置。定义字号、安全区、动效速度与输出比例，让系列作品保持一致。</p><div class="roadmap-foot"><span>建议先做</span><span>验收：替换内容后，无文字溢出与节奏断裂。</span></div></div></article>
+    <article><span class="phase">02 / 从短片到系统</span><div><h3>场景组件与多镜头编排</h3><p>把片头、图表、人物、转场、字幕拆成组件；以 Remotion 等框架管理场景时间、旁白和多尺寸输出。</p><div class="roadmap-foot"><span>需要开发</span><span>验收：组成一支 30–60 秒视频，音画仍对齐。</span></div></div></article>
+    <article><span class="phase">03 / 从制作到生产</span><div><h3>批量任务与质量检查</h3><p>接入结构化数据，增加任务队列、失败重试、字体与素材检查、黑帧检测和人工审片。再考虑在线编辑与发布。</p><div class="roadmap-foot"><span>需要工程化</span><span>验收：批量输出可追踪、可恢复，成本可衡量。</span></div></div></article>
+  </div>
+  <div class="limits"><h3>扩展之前，先理解这些限制。</h3><div><p><strong>提示词不保证复现。</strong>原片经过迭代；再次生成可能是另一种构图和叙事。</p><p><strong>10 秒不等于完整叙事。</strong>延长时长需要重新组织信息与节奏。</p><p><strong>字体与环境影响结果。</strong>字体需另行准备；音轨重跑也可能受依赖版本影响。</p><p><strong>代码可用不等于视觉合格。</strong>文字可读性、风格一致性与音画节奏仍需人工判断。</p></div></div>
+</section>
+
+<section class="evidence-section section-shell" id="evidence">
+  <div><p class="eyebrow">07 / SOURCES & SCOPE</p><h2>有依据，也有边界。</h2><p>研究固定于上游提交 <code>49052d80bfaf</code>。原作视频及封面归原作者，本页提供压缩播放副本；设计解读与应用建议由本研究整理。</p></div>
+  <div class="source-columns">
+    <div><h3>原始资料</h3><a data-source="README.zh-CN.md">项目说明 ↗</a><a data-source="harness/render.mjs">逐帧渲染器 ↗</a><a data-source="lib/audio">音频工具 ↗</a><a data-source="template.md">提示词模板 ↗</a><a data-source="rubric.md">评审标准 ↗</a></div>
+    <div><h3>许可与核验</h3><p>上游自有代码、提示词与成片为 MIT；第三方素材与字体保留各自许可。</p><a href="UPSTREAM-LICENSE.txt">查看上游 MIT 许可 ↗</a><p>本页验证本地媒体与交互。未逐一重新生成 15 支原作，亦未独立验证作者的“商用水准”表述或 AI 评分。</p></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-mark"></span>MOTION ATLAS</a><p>15 styles. One way to learn: look closer.</p><a href="#top">回到顶部 ↑</a></footer>
+
+<dialog id="style-dialog" aria-labelledby="detail-title">
+  <div class="dialog-header"><span id="detail-index"></span><div><button id="detail-prev" class="icon-button" aria-label="上一个风格">←</button><button id="detail-next" class="icon-button" aria-label="下一个风格">→</button><button id="detail-close" class="icon-button" aria-label="关闭详情">✕</button></div></div>
+  <div class="detail-layout"><div class="detail-media"><video id="detail-video" controls playsinline preload="none"></video><p id="detail-video-note">上游原作的压缩预览 · 播放时请打开声音</p><div class="detail-links"><a id="original-link" target="_blank" rel="noreferrer">原作高清 ↗</a><a id="source-link" target="_blank" rel="noreferrer">实现源码 ↗</a><a id="prompt-link" target="_blank" rel="noreferrer">完整提示词 ↗</a><button id="copy-prompt">复制提示词</button></div><p id="copy-status" role="status"></p></div>
+    <div class="detail-intro"><p class="eyebrow" id="detail-category"></p><h2 id="detail-title"></h2><p class="detail-en" id="detail-en"></p><p class="work-title" id="detail-work"></p><p id="detail-description"></p><div class="detail-evidence"><span>依据</span><div id="detail-evidence-links"></div></div></div>
+  </div>
+  <div class="detail-tabs" role="tablist" aria-label="风格解读"><button role="tab" id="detail-tab-0" aria-controls="detail-content" aria-selected="true" data-detail-tab="0" class="active">设计与实现</button><button role="tab" id="detail-tab-1" aria-controls="detail-content" aria-selected="false" data-detail-tab="1" tabindex="-1">价值与场景</button><button role="tab" id="detail-tab-2" aria-controls="detail-content" aria-selected="false" data-detail-tab="2" tabindex="-1">扩展与边界</button></div>
+  <div id="detail-content" role="tabpanel" aria-labelledby="detail-tab-0"></div>
+</dialog>
+</body>
+</html>

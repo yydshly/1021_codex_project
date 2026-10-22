@@ -1,0 +1,17 @@
+[
+  {
+    "style": "3d-render",
+    "sha256": "ac3efa670aaf0b45c129e5f5de26c06979bfbb86933ba6b5c09de4f33d8a74cb",
+    "bytes": 5719737
+  },
+  {
+    "style": "cel-boil",
+    "sha256": "ab09c1081b35d64ea762dabca693ffc815b49baf515dd9fce8d38474098294ec",
+    "bytes": 3862944
+  },
+  {
+    "style": "aurora-glass",
+    "sha256": "d15f35e878adf0ac6aa630e29b6bcd6fe4115522da4af05ab8080aeacbb9e514",
+    "bytes": 3933245
+  }
+]

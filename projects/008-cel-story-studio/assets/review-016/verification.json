@@ -1,0 +1,141 @@
+{
+  "revision": "0.16.0",
+  "appTests": {
+    "passed": 66,
+    "failed": 0
+  },
+  "rootTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "catalogProjects": 11,
+  "typecheck": "passed",
+  "build": "passed",
+  "audit": {
+    "styles": 15,
+    "sourceAndBeforeEncodedFrames": 180,
+    "priority": "editorial judgement; not objective score"
+  },
+  "reworked": [
+    "line-art",
+    "paperclip"
+  ],
+  "differentStoryFilms": 4,
+  "unchangedOtherStyles": 13,
+  "media": {
+    "films": [
+      {
+        "file": "web\\story-examples-016\\line-art-concert.mp4",
+        "sha256": "dc9221fabbcdd168fafb7597588540b6e1d4f9579b613cd9362c03b831e7a5f6",
+        "frames": 300,
+        "audio": "aac",
+        "fullDecode": true
+      },
+      {
+        "file": "web\\story-examples-016\\line-art-garden.mp4",
+        "sha256": "a0bbe7258bddf214efda389e54a70318fa95ee5e5b99723333ee44bb23e3a4cb",
+        "frames": 300,
+        "audio": "aac",
+        "fullDecode": true
+      },
+      {
+        "file": "web\\story-examples-016\\paperclip-anc.mp4",
+        "sha256": "b047d06d50d7a885be9a0a6599b3935069174ed2084150bff4f69a6fd8f250af",
+        "frames": 300,
+        "audio": "aac",
+        "fullDecode": true
+      },
+      {
+        "file": "web\\story-examples-016\\paperclip-prism.mp4",
+        "sha256": "91cff3ad19c7e59b7f7d41a1ea761af064d1e640a138340f467e3a5015ca6c3b",
+        "frames": 300,
+        "audio": "aac",
+        "fullDecode": true
+      }
+    ],
+    "unchangedOtherStyles": 13,
+    "preservedFiles": 59,
+    "scope": "Technical integrity only, not an artistic rating."
+  },
+  "uiExports": {
+    "exports": [
+      {
+        "job": "d0b4ce8c-3c06-42db-98e1-b2e3b1af3e1c",
+        "file": "web/story-examples-016/ui-garden-8s.mp4",
+        "frames": 240,
+        "sound": true,
+        "config": {
+          "kind": "effect-template",
+          "version": 1,
+          "style": "line-art",
+          "title": "春天的第一封信",
+          "subtitle": "把一点耐心，浇成满园回响",
+          "words": [
+            "落水",
+            "生根",
+            "盛放"
+          ],
+          "primary": "#d6c185",
+          "secondary": "#153d38",
+          "count": 8,
+          "intensity": 0.65,
+          "detail": 0.55,
+          "seed": 21,
+          "duration": 8,
+          "sound": true,
+          "storyId": "garden"
+        },
+        "fullDecode": true
+      },
+      {
+        "job": "84fa472a-51a8-406f-81d5-4b9eae393d31",
+        "file": "web/story-examples-016/ui-prism-6s.mp4",
+        "frames": 180,
+        "sound": false,
+        "config": {
+          "kind": "effect-template",
+          "version": 1,
+          "style": "paperclip",
+          "title": "彩虹从哪里来",
+          "subtitle": "棱镜没有染色，它把颜色分开",
+          "words": [
+            "入射",
+            "折射",
+            "色散"
+          ],
+          "primary": "#e5a453",
+          "secondary": "#345591",
+          "count": 8,
+          "intensity": 0.65,
+          "detail": 0.55,
+          "seed": 21,
+          "duration": 6,
+          "sound": false,
+          "storyId": "prism"
+        },
+        "fullDecode": true
+      }
+    ],
+    "savedConfigurationMatchesGardenExport": true,
+    "nativeVideoDownloadMatchesExport": true,
+    "importUndoRedo": "verified in browser"
+  },
+  "reels": [
+    {
+      "file": "story-examples-016/complete-reel-016.mp4",
+      "frames": 1200,
+      "fullDecode": true
+    },
+    {
+      "file": "effect-examples/quality-reel.mp4",
+      "frames": 4500,
+      "fullDecode": true
+    },
+    {
+      "file": "effect-examples/after-hours-reel.mp4",
+      "frames": 1350,
+      "fullDecode": true
+    }
+  ],
+  "artisticClaim": "No automatic quality grade and no claim that all fifteen styles are excellent. See final films and art-review.md."
+}

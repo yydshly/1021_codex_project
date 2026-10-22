@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "isometric",
+  "title": "午夜温室",
+  "subtitle": "当城市睡去，一座花园开始呼吸",
+  "words": [
+    "亮灯",
+    "舒展",
+    "呼吸"
+  ],
+  "primary": "#e5b675",
+  "secondary": "#7aa989",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

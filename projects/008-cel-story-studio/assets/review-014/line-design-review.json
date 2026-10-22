@@ -1,0 +1,31 @@
+{
+  "artifact": "line014-independent-module-stills",
+  "renderer": "Remotion renderStill, system Chrome, Canvas1280x720,30fps",
+  "entry": "app/src/effects/line-film-014.ts",
+  "metadata": "app/scripts/line-design-014.mjs",
+  "heroFrame": 280,
+  "framesActuallyViewed": [
+    12,
+    48,
+    85,
+    95,
+    103,
+    123,
+    178,
+    240,
+    251,
+    280
+  ],
+  "note": "独立模块审片静帧，不是最终MP4抽帧。未试听配乐或审看全片实时播放。",
+  "checks": {
+    "typecheck": "passed",
+    "fullFinalMP4RenderedByThisAgent": false
+  },
+  "fixes": [
+    "近景机位约束到笔尖与主体中心，降低不必要裁切",
+    "改腹纹交叉网格为平行鲸褶，降低背鳍尖度",
+    "沿真实背线接呼吸孔，避免二次悬浮背线",
+    "缓存胸鳍采样路径，保持逐帧变形"
+  ],
+  "codeSha256": "76800d938011e3040f33dd780d298a74ec9a82f1d841629657d8cbc60047386f"
+}

@@ -1,0 +1,37 @@
+{
+  "implementation": "app/src/effects/pixel-film-014.ts",
+  "entry": "pixelFilm014(g,c,seconds)",
+  "timeContract": "actual seconds, filmCue handles duration and shot reorder",
+  "before": "..\\web\\quality-before-014\\pixel.mp4",
+  "beforeSha256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68",
+  "framesReviewed": [
+    15,
+    45,
+    81,
+    90,
+    96,
+    195,
+    225,
+    285
+  ],
+  "comparisonFrames": [
+    15,
+    90,
+    285
+  ],
+  "improvements": [
+    "Three separately drawn cat head orientations; focus/surprise/effort/relief eye-mouth expressions",
+    "Crouch/stretch/windup/contact/recoil/seated relaxation torso and leg silhouettes",
+    "Hammer foreground layer; impact point tracks the actual displaced moon fragment edge",
+    "Moonlight separately changes sky palette, cat materials, roof rims, bench and city lights"
+  ],
+  "reviewCorrections": [
+    "Moved mechanic 8 native pixels left during repair to avoid face occlusion",
+    "Moved hammer contact with the displaced edge as the moon rejoins, rather than hardcoding one point"
+  ],
+  "limits": [
+    "Dedicated hand-authored sprites and four actions; not arbitrary character or story generation",
+    "Review stills show the module before main integration; final MP4 is rendered by the main agent"
+  ],
+  "oldFileUnchanged": true
+}

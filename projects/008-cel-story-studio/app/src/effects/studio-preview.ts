@@ -1,0 +1,21 @@
+import * as T from 'three';
+import {RoomEnvironment} from 'three/examples/jsm/environments/RoomEnvironment.js';
+import type {EffectConfig} from '../../scripts/effects.mjs';
+import {hash,smooth,lerp,TAU} from './math';
+// Lightweight construction view of the same Cycles scene. Deliberately no claim of final shading.
+export function createThree(canvas:HTMLCanvasElement,c:EffectConfig){
+ const r=new T.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});r.setSize(1280,720,false);r.outputColorSpace=T.SRGBColorSpace;r.toneMapping=T.ACESFilmicToneMapping;r.toneMappingExposure=1.05;r.shadowMap.enabled=true;r.shadowMap.type=T.PCFSoftShadowMap;
+ const s=new T.Scene();s.background=new T.Color('#e6e0d0');s.fog=new T.Fog('#e6e0d0',24,55);
+ const cam=new T.PerspectiveCamera(34,16/9,.05,100),pm=new T.PMREMGenerator(r),room=new RoomEnvironment(),env=pm.fromScene(room,.03);s.environment=env.texture;s.environmentIntensity=.5;room.dispose();pm.dispose();
+ const mat=(color:string,roughness=.3,metalness=0)=>new T.MeshPhysicalMaterial({color,roughness,metalness,clearcoat:.3});
+ const ivory=mat('#e5dec9',.6),stone=mat('#d2c5aa',.65),jade=mat(c.secondary,.12+c.detail*.16,.08),brass=mat('#b68a42',.24,.93),amber=mat(c.primary,.07);amber.transmission=.86;amber.ior=1.46;amber.thickness=.6;
+ const mesh=(geo:T.BufferGeometry,m:T.Material,x:number,y:number,z:number)=>{const o=new T.Mesh(geo,m);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;s.add(o);return o;};
+ mesh(new T.BoxGeometry(200,.1,200),ivory,0,-.12,0);mesh(new T.BoxGeometry(7.6,.36,5.8),stone,0,.18,0);
+ const ribs:T.Mesh[]=[];for(let i=0;i<95;i++)ribs.push(mesh(new T.BoxGeometry(.035,.16,5.2),ivory,-3.5+i*7/94,.48,0));
+ const ribbon=(phase:number,m:T.Material)=>{const points=Array.from({length:60},(_,i)=>{const a=i*TAU/60,rad=1.10+.22*Math.cos(3*a+phase);return new T.Vector3(rad*Math.cos(a),rad*Math.sin(a),-.28*Math.sin(2*a+phase));});const o=mesh(new T.TubeGeometry(new T.CatmullRomCurve3(points,true),200,.16,20,true),m,0,2.26,0);return o;};
+ const hero=ribbon(.2,jade),inner=ribbon(1.2,ivory);inner.scale.setScalar(.77);
+ for(const off of [-.045,.045]){const p=Array.from({length:96},(_,i)=>{const a=i*TAU/96;return new T.Vector3(Math.cos(a)*(2+off),.76+.21*Math.sin(a),-Math.sin(a)*(1.45+off));});mesh(new T.TubeGeometry(new T.CatmullRomCurve3(p,true),200,.019,8,true),brass,0,0,0);}
+ const ball=mesh(new T.SphereGeometry(.41,48,32),amber,2,1.17,0),beads=Array.from({length:c.count},(_,i)=>({o:mesh(new T.SphereGeometry(.055+hash(i,c.seed)*.065,20,16),i%2?jade:brass,0,.8,0),a:i*TAU/c.count,rad:2.5+hash(i+3,c.seed)*.35}));
+ const key=new T.DirectionalLight('#fff1d8',3.6);key.position.set(-3,7,4);key.castShadow=true;key.shadow.mapSize.set(2048,2048);Object.assign(key.shadow.camera,{left:-8,right:8,top:8,bottom:-8});key.shadow.normalBias=.015;s.add(key,new T.HemisphereLight('#eef5ea','#958c6b',1.2));const fill=new T.DirectionalLight('#def0e8',1.8);fill.position.set(4,5,-1);s.add(fill);
+ return {draw(seconds:number){const t=seconds/c.duration*10,a=-.65+t*(.24+c.intensity*.16),bp=new T.Vector3(Math.cos(a)*2,.76+.21*Math.sin(a)+.405,-Math.sin(a)*1.45);ball.position.copy(bp);hero.rotation.set(Math.sin(t*.6)*.08,t*.15,Math.sin(t*.4)*.1);inner.rotation.set(.13*Math.sin(t*.5),.7-t*.1,.1);ribs.forEach((rib,i)=>{const x=-3.5+i*7/94,w=Math.exp(-(((x-bp.x)/.8)**2))*(.5+.5*Math.sin(t*3-i*.2));rib.position.y=.47+w*.055*c.intensity;});beads.forEach(b=>b.o.position.set(Math.cos(b.a+t*.07)*b.rad,.8+.09*Math.sin(b.a+t),-Math.sin(b.a+t*.07)*2));const u=smooth(.3,3.2,t),pos=new T.Vector3().lerpVectors(bp.clone().add(new T.Vector3(2.1,1.33,3.6)),new T.Vector3(7.2,7.1,10.7),u),look=new T.Vector3().lerpVectors(bp,new T.Vector3(0,1.5,0),u),close=smooth(5.7,7.1,t)*(1-smooth(7.9,9.2,t));pos.lerp(new T.Vector3(3.2,3.6,5),close*.7);look.lerp(new T.Vector3(.1,2.1,0),close*.45);cam.position.copy(pos);cam.lookAt(look);r.render(s,cam);},dispose(){const gs=new Set<T.BufferGeometry>(),ms=new Set<T.Material>();s.traverse(o=>{if(o instanceof T.Mesh){gs.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material])ms.add(m);}});gs.forEach(g=>g.dispose());ms.forEach(m=>m.dispose());key.shadow.dispose();env.dispose();r.dispose();r.forceContextLoss();}};
+}

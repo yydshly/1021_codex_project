@@ -1,0 +1,308 @@
+{
+  "version": "0.10.0",
+  "story": "从工作台打开完整影片、比较旧版、编辑参数，经本地 API 生成对应 MP4，原故事草稿保留。",
+  "originalFilms": 15,
+  "newFilms": 12,
+  "preservedPreviousFilms": [
+    "3d-render",
+    "cel-boil",
+    "aurora-glass"
+  ],
+  "defaultMediaReport": "effect-media-verification.json",
+  "browserPlayback": [
+    {
+      "duration": 10.005,
+      "film": "夜市开场扁平矢量 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/flat-vector.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "风的来信线条动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/line-art.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "午夜温室等轴 2.5D · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/isometric.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "深海电台拼贴剪贴 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/collage.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "折叠花园形变动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/morph.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "节拍工坊几何包豪斯 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/bauhaus.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "声音的旅行贴纸科普 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/paperclip.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "雨巷邮差像素动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/pixel.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "潮汐实验液态流动 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/liquid.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "夜航列车复古霓虹 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/synthwave.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "夜班也要慢慢来综艺花字 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/hanazi.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "月背回声科技 HUD · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/hud.mp4"
+    }
+  ],
+  "before": [
+    {
+      "file": "web/quality-before/flat-vector.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "bb56882a3f3dd070da47952e138474a21d0b949f8e9a9fb8590af74a144f5d0d"
+    },
+    {
+      "file": "web/quality-before/line-art.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "10a694f86348f6cbd72387d4ec566eb29ef090927329baff22a5dfc51504a9fb"
+    },
+    {
+      "file": "web/quality-before/isometric.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "991f2d9f31bff797bfd4bb9c5cfa9a541e4b686929ee4cc186e45a63b571c397"
+    },
+    {
+      "file": "web/quality-before/3d-render.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "81ca2b7b89fba8f700802aa5a95919ee7a89fe20da6c1cda0245a7f3dc502c28"
+    },
+    {
+      "file": "web/quality-before/cel-boil.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "fa5a6a841fdab08674154b3213255e3ced0fbd69148e3d75a4f53e51fe32b638"
+    },
+    {
+      "file": "web/quality-before/collage.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "cf826b399232d667405847f9e3595f0ad3e747c93135da27d8b5bdbd19ec69de"
+    },
+    {
+      "file": "web/quality-before/liquid.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "b643bbb6fba8c71faed6461db76f8f4280b5d3406712cba466d09bfb7c3640b9"
+    },
+    {
+      "file": "web/quality-before/morph.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "a0edabf9e21e1d20c88d01a5b51669e24153ad06c6d54b547d4fe277b525a0dc"
+    },
+    {
+      "file": "web/quality-before/bauhaus.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "6e1752bbfd018b5e95d62359630d4975600f4ded2c18769df1fc292615e432a4"
+    },
+    {
+      "file": "web/quality-before/synthwave.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "363a153209a32a46a71c271ec04acad4aa359d6ce7773b3a5821632c7c975fe7"
+    },
+    {
+      "file": "web/quality-before/aurora-glass.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "8f3c9e14b1fa0d652171ae461085ce2f4d4a2724d6ae4b4c4a48395ae38c011a"
+    },
+    {
+      "file": "web/quality-before/hanazi.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "b12bde247f48c5b87186b7e681d9b1c8bed3bf0a8b075d19c99c66bef7159268"
+    },
+    {
+      "file": "web/quality-before/paperclip.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "75f2767d98c1825c479f3ad5e916dfc69724246d283b8f009fc0ad4ad68d158a"
+    },
+    {
+      "file": "web/quality-before/pixel.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "e83e0e5cb2a99900bc4df9fc4d23c005c4351f3ecb7ae6c33f0f10e10502b53a"
+    },
+    {
+      "file": "web/quality-before/hud.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "efadc57e4c02c541edc8802c49bc7cbb79a0e32b118a944ab0c29e41fdb35a67"
+    }
+  ],
+  "fullReel": {
+    "file": "web/effect-examples/quality-reel.mp4",
+    "frames": 4500,
+    "duration": 150.0,
+    "audio": true,
+    "decode": "passed",
+    "sha256": "cfca993eca9c515c3cda470660d92251cd76ea631e755243ae0e7c0747c98e2e"
+  },
+  "customExports": [
+    {
+      "file": "app/exports/6eb8530e-1e22-47eb-a071-e6a0419e9339.mp4",
+      "frames": 240,
+      "duration": 8.0,
+      "audio": false,
+      "decode": "passed",
+      "sha256": "690d188dfd804815f76e4fdb7b9adaf7483bc9fc176f1a3ac6b1f6b71fb62b26",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "pixel",
+        "title": "雨后的来信",
+        "subtitle": "把一封问候，送进雨夜亮着的窗",
+        "words": [
+          "带着问候",
+          "走进雨里",
+          "送到你手里"
+        ],
+        "primary": "#c5895c",
+        "secondary": "#789e9f",
+        "count": 14,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 8,
+        "sound": false
+      }
+    },
+    {
+      "file": "app/exports/3e597b0b-5367-490b-a954-db236d2e5cc1.mp4",
+      "frames": 180,
+      "duration": 6.016,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "8ae902cf8680650de88d751387c23fba927857f6a9fb5952d7a4adc4047c5008",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "liquid",
+        "title": "银色的呼吸",
+        "subtitle": "分开，靠近，然后重新成为一个整体",
+        "words": [
+          "分离",
+          "交融",
+          "再生"
+        ],
+        "primary": "#83d9c2",
+        "secondary": "#bb91de",
+        "count": 14,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 6,
+        "sound": true
+      }
+    }
+  ],
+  "qualityNote": "六时点帧已人工查看，见 collection-review-1/2/3.jpg；媒体、差异与播放检查不构成审美评分。",
+  "storyDraft": {
+    "character": "小禾",
+    "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%",
+    "shots": 5,
+    "title": "阳台上的小花"
+  },
+  "browserReel": {
+    "duration": 150,
+    "readyState": 4,
+    "playing": true,
+    "error": null,
+    "evidence": "CUA 实播读取的 HTMLVideoElement 状态；页面随后已暂停。"
+  },
+  "checks": {
+    "appUnitTests": 49,
+    "rootUnitTests": 6,
+    "catalogProjects": 8,
+    "typecheck": "passed",
+    "build": "passed",
+    "browserConsoleErrors": 0
+  }
+}

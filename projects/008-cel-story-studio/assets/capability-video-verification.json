@@ -1,0 +1,66 @@
+{
+  "exports": [
+    {
+      "name": "water",
+      "job": "3badde96-496a-430e-aff4-881dc08c7682",
+      "title": "阳台上的小花",
+      "frames": 288,
+      "seconds": 12.0,
+      "audio": "aac",
+      "fullDecode": true,
+      "recipe": {
+        "version": 1,
+        "components": [
+          {
+            "id": "paper-grain",
+            "amount": 0.35
+          },
+          {
+            "id": "ink-border",
+            "amount": 0.5
+          },
+          {
+            "id": "focus-halo",
+            "amount": 0.6
+          },
+          {
+            "id": "camera-push",
+            "amount": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "name": "robot",
+      "job": "18712d0d-1fc2-4f9a-b8b5-a7c67791354d",
+      "title": "把温暖递给你",
+      "frames": 288,
+      "seconds": 12.0,
+      "audio": "aac",
+      "fullDecode": true,
+      "recipe": {
+        "version": 1,
+        "components": [
+          {
+            "id": "paper-grain",
+            "amount": 0.35
+          },
+          {
+            "id": "ink-border",
+            "amount": 0.5
+          },
+          {
+            "id": "focus-halo",
+            "amount": 0.6
+          },
+          {
+            "id": "camera-push",
+            "amount": 0.4
+          }
+        ]
+      }
+    }
+  ],
+  "sameRecipeAcrossStories": true,
+  "originalStoryPreserved": true
+}

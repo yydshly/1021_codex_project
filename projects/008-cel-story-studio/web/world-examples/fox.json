@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 3,
+  "title": "小狐狸的窗边午后",
+  "signature": "安静，也是一种礼物",
+  "world": {
+    "characters": [
+      {
+        "id": "fox-ali",
+        "name": "阿栗",
+        "description": "橙色小狐狸，挺立的尖耳朵、奶油色尖嘴与胸毛、深棕色脚爪，身后拖着白尖蓬松大尾巴，戴柔软的黄色围巾。轮廓采用略不对称的手绘折线。",
+        "scale": 0.9,
+        "face": {
+          "x": 0,
+          "y": -127,
+          "size": 36
+        },
+        "shapes": [
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 20,
+            "y": -91,
+            "w": 0,
+            "h": 0,
+            "fill": "#D76B2C",
+            "stroke": "#74452F",
+            "points": [
+              {
+                "x": 0,
+                "y": 12
+              },
+              {
+                "x": 29,
+                "y": -8
+              },
+              {
+                "x": 65,
+                "y": -6
+              },
+              {
+                "x": 78,
+                "y": 15
+              },
+              {
+                "x": 72,
+                "y": 44
+              },
+              {
+                "x": 48,
+                "y": 66
+              },
+              {
+                "x": 12,
+                "y": 67
+              },
+              {
+                "x": -2,
+                "y": 46
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 68,
+            "y": -98,
+            "w": 0,
+            "h": 0,
+            "fill": "#FFF0D3",
+            "stroke": "#74452F",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 17,
+                "y": 1
+              },
+              {
+                "x": 30,
+                "y": 22
+              },
+              {
+                "x": 24,
+                "y": 51
+              },
+              {
+                "x": 12,
+                "y": 61
+              },
+              {
+                "x": 14,
+                "y": 37
+              },
+              {
+                "x": 3,
+                "y": 26
+              },
+              {
+                "x": 10,
+                "y": 16
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -63,
+            "w": 63,
+            "h": 90,
+            "fill": "#E98538",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -20,
+            "y": -99,
+            "w": 0,
+            "h": 0,
+            "fill": "#FFF0D3",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 0
+              },
+              {
+                "x": 34,
+                "y": 39
+              },
+              {
+                "x": 20,
+                "y": 54
+              },
+              {
+                "x": 6,
+                "y": 38
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -19,
+            "y": -18,
+            "w": 23,
+            "h": 34,
+            "fill": "#B65D30",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 19,
+            "y": -18,
+            "w": 23,
+            "h": 34,
+            "fill": "#B65D30",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -21,
+            "y": -6,
+            "w": 29,
+            "h": 12,
+            "fill": "#684536",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 21,
+            "y": -6,
+            "w": 29,
+            "h": 12,
+            "fill": "#684536",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -39,
+            "y": -132,
+            "w": 0,
+            "h": 0,
+            "fill": "#E98538",
+            "stroke": "#74452F",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -4,
+                "y": -50
+              },
+              {
+                "x": 27,
+                "y": -24
+              },
+              {
+                "x": 51,
+                "y": -24
+              },
+              {
+                "x": 82,
+                "y": -50
+              },
+              {
+                "x": 78,
+                "y": 0
+              },
+              {
+                "x": 65,
+                "y": 30
+              },
+              {
+                "x": 39,
+                "y": 41
+              },
+              {
+                "x": 13,
+                "y": 30
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -36,
+            "y": -172,
+            "w": 0,
+            "h": 0,
+            "fill": "#B96142",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 19,
+                "y": 19
+              },
+              {
+                "x": 3,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": 36,
+            "y": -172,
+            "w": 0,
+            "h": 0,
+            "fill": "#B96142",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -19,
+                "y": 19
+              },
+              {
+                "x": -3,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -36,
+            "y": -120,
+            "w": 0,
+            "h": 0,
+            "fill": "#FFF0D3",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 5
+              },
+              {
+                "x": 36,
+                "y": 13
+              },
+              {
+                "x": 52,
+                "y": 5
+              },
+              {
+                "x": 72,
+                "y": 0
+              },
+              {
+                "x": 59,
+                "y": 22
+              },
+              {
+                "x": 36,
+                "y": 29
+              },
+              {
+                "x": 13,
+                "y": 22
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 10,
+            "y": -95,
+            "w": 0,
+            "h": 0,
+            "fill": "#F3C743",
+            "stroke": "#A77832",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 18,
+                "y": 2
+              },
+              {
+                "x": 24,
+                "y": 48
+              },
+              {
+                "x": 5,
+                "y": 44
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": -30,
+            "y": -103,
+            "w": 60,
+            "h": 16,
+            "fill": "#F8D45B",
+            "stroke": "#A77832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -31,
+            "y": -66,
+            "w": 19,
+            "h": 48,
+            "fill": "#E98538",
+            "stroke": "#74452F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 31,
+            "y": -66,
+            "w": 19,
+            "h": 48,
+            "fill": "#E98538",
+            "stroke": "#74452F",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "blue-book",
+        "name": "蓝色布面书",
+        "description": "一本无字蓝色硬皮书，米白书页与深蓝书脊清楚可辨，可被拿起、搬运并放下。",
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -30,
+            "y": -60,
+            "w": 60,
+            "h": 60,
+            "fill": "#426EAA",
+            "stroke": "#314866",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": -22,
+            "y": -53,
+            "w": 46,
+            "h": 47,
+            "fill": "#F5E8CD",
+            "stroke": "#B9A98A",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -24,
+            "y": -60,
+            "w": 54,
+            "h": 49,
+            "fill": "#5889BC",
+            "stroke": "#314866",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": -17,
+            "y": -55,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#A4C4D8",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 37
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "library-window",
+        "name": "图书馆的窗边角落",
+        "description": "左侧是嵌满彩色书脊的木书架，蓝书起初放在书架前的地面上。右侧大窗映出树叶，窗下有矮桌，桌旁铺着柔软坐垫。中央保留连续搬书的通道。",
+        "sky": "#F6EBD8",
+        "ground": "#D8BC97",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 100,
+            "y": 174,
+            "w": 362,
+            "h": 345,
+            "fill": "#AE7952",
+            "stroke": "#79583F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 119,
+            "y": 193,
+            "w": 324,
+            "h": 302,
+            "fill": "#795B44",
+            "stroke": "#79583F",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 135,
+            "y": 214,
+            "w": 0,
+            "h": 0,
+            "fill": "#BD7360",
+            "stroke": "#684D3C",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 98
+              },
+              {
+                "x": 0,
+                "y": 98
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 184,
+            "y": 228,
+            "w": 42,
+            "h": 84,
+            "fill": "#D6B864",
+            "stroke": "#684D3C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 238,
+            "y": 209,
+            "w": 59,
+            "h": 103,
+            "fill": "#85976C",
+            "stroke": "#684D3C",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 322,
+            "y": 219,
+            "w": 0,
+            "h": 0,
+            "fill": "#B28AAB",
+            "stroke": "#684D3C",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 34,
+                "y": -7
+              },
+              {
+                "x": 57,
+                "y": 86
+              },
+              {
+                "x": 22,
+                "y": 93
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 113,
+            "y": 312,
+            "w": 336,
+            "h": 15,
+            "fill": "#BC8D61",
+            "stroke": "#79583F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 145,
+            "y": 375,
+            "w": 120,
+            "h": 39,
+            "fill": "#9DAA83",
+            "stroke": "#684D3C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 113,
+            "y": 414,
+            "w": 336,
+            "h": 15,
+            "fill": "#BC8D61",
+            "stroke": "#79583F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 760,
+            "y": 167,
+            "w": 385,
+            "h": 279,
+            "fill": "#C3DADB",
+            "stroke": "#99744F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 1060,
+            "y": 251,
+            "w": 145,
+            "h": 133,
+            "fill": "#A4B58A",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 951,
+            "y": 170,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#99744F",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 272
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 858,
+            "y": 554,
+            "w": 220,
+            "h": 48,
+            "fill": "#D8A891",
+            "stroke": "#AE7C66",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 978,
+            "y": 494,
+            "w": 0,
+            "h": 0,
+            "fill": "#AC7951",
+            "stroke": "#79583F",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 15,
+                "y": 0
+              },
+              {
+                "x": 15,
+                "y": 64
+              },
+              {
+                "x": 0,
+                "y": 64
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 113,
+                "y": 0
+              },
+              {
+                "x": 128,
+                "y": 64
+              },
+              {
+                "x": 113,
+                "y": 64
+              },
+              {
+                "x": 99,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 955,
+            "y": 482,
+            "w": 178,
+            "h": 19,
+            "fill": "#CCA373",
+            "stroke": "#79583F",
+            "points": []
+          }
+        ],
+        "items": [
+          {
+            "objectId": "blue-book",
+            "x": 345,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  },
+  "style": "cel-boil",
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-ab292d79-1c39-4474-b8a3-1e37a5cbf938-1",
+      "caption": "阿栗发现了一本蓝书",
+      "action": "walk",
+      "emotion": "curious",
+      "duration": 2,
+      "sceneId": "library-window",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "fox-ali",
+          "action": "walk",
+          "emotion": "curious",
+          "from": {
+            "x": 170,
+            "y": 550
+          },
+          "to": {
+            "x": 300,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-ab292d79-1c39-4474-b8a3-1e37a5cbf938-2",
+      "caption": "轻轻拿起，抱在手里",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "library-window",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "fox-ali",
+          "action": "pickup",
+          "emotion": "happy",
+          "from": {
+            "x": 300,
+            "y": 550
+          },
+          "to": {
+            "x": 300,
+            "y": 550
+          },
+          "propId": "blue-book",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-ab292d79-1c39-4474-b8a3-1e37a5cbf938-3",
+      "caption": "带着蓝书走向窗边",
+      "action": "walk",
+      "emotion": "happy",
+      "duration": 3.5,
+      "sceneId": "library-window",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "fox-ali",
+          "action": "walk",
+          "emotion": "happy",
+          "from": {
+            "x": 300,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-ab292d79-1c39-4474-b8a3-1e37a5cbf938-4",
+      "caption": "把书放在矮桌旁",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "library-window",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "fox-ali",
+          "action": "place",
+          "emotion": "happy",
+          "from": {
+            "x": 850,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "blue-book",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-ab292d79-1c39-4474-b8a3-1e37a5cbf938-5",
+      "caption": "坐下来，享受安静的午后",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2.5,
+      "sceneId": "library-window",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "fox-ali",
+          "action": "sit",
+          "emotion": "happy",
+          "from": {
+            "x": 850,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    }
+  ],
+  "creative": {
+    "brief": "一只戴黄色围巾的小狐狸在图书馆拿起一本蓝色的书，走到窗边的矮桌旁，放下书，再安静地坐下休息。让书真的被拿起、搬运和放下。请为这个故事原创角色和图书馆布景。",
+    "logline": "戴黄色围巾的小狐狸拿起蓝书，抱到图书馆窗边，放在矮桌旁，安静坐下。",
+    "narrative": "午后的图书馆里，橙色小狐狸阿栗走向书架前的一本蓝书。它停下脚步，把书真正拿到手中，再带着书走向窗边的矮桌。阿栗把蓝书放在矮桌旁的软垫上，随后坐下来。窗外树叶映着暖光，一段安静的休息开始了。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T18:10:37.305Z",
+    "provider": "本机 Codex"
+  }
+}

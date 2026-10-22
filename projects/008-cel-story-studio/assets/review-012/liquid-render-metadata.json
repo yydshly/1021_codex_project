@@ -1,0 +1,31 @@
+{
+  "engine": "Blender 4.5.14 / Cycles / OPTIX",
+  "samples": 256,
+  "frames": 300,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "scriptSha256": "c1ae49b0053acc3b566380cdac8b6f1e977f04a50e55c5b0846b02ef8baf3a89",
+  "configuration": {
+    "kind": "effect-template",
+    "version": 1,
+    "style": "liquid",
+    "title": "潮汐实验",
+    "subtitle": "把流动，凝成一瞬间的光",
+    "words": [
+      "一滴",
+      "交融",
+      "涌现"
+    ],
+    "primary": "#ff6d35",
+    "secondary": "#9b39e2",
+    "count": 8,
+    "intensity": 0.65,
+    "detail": 0.55,
+    "seed": 21,
+    "duration": 10,
+    "sound": true
+  },
+  "motion": "deterministic continuous metaball choreography, not a fluid solver",
+  "plate": "app/public/effects/studio-liquid-plate.mp4"
+}

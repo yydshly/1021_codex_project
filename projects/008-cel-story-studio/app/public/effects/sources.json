@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "licenseStatement": "Upstream README: photos are CC0 or public domain; see CREDITS.md for attribution limits.",
+  "files": [
+    {
+      "file": "portrait.png",
+      "source": "demos/06-collage/assets/gen/p_face.png",
+      "sha256": "6df2ff9a20b8b415b2456916244c435926fde9e4a437df939140c55eb7886b20"
+    },
+    {
+      "file": "flower.png",
+      "source": "demos/06-collage/assets/gen/rose_centi.png",
+      "sha256": "77285638a4168d34a830ddc316d3af0e0ab52260b6e585fcd3cce54f57be42f8"
+    },
+    {
+      "file": "butterfly.png",
+      "source": "demos/06-collage/assets/gen/bfly_a.png",
+      "sha256": "18b2e28d5563ff3204b9ce9375e8d2a54cff9859a693c0d6b3dc7c18083b608b"
+    },
+    {
+      "file": "bird.png",
+      "source": "demos/06-collage/assets/gen/bird_hawk.png",
+      "sha256": "160b632e8a38b3d38de23e90cae802b67b70d5def62f5832bc347e59e21df865"
+    },
+    {
+      "file": "cat.jpg",
+      "source": "demos/18-hanazi/assets/white_dof.jpg",
+      "sha256": "8e81d684ba14030051bfd62616367b3cc93ed34bba8a303f1b5fe27888499a6d"
+    }
+  ]
+}

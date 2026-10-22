@@ -1,0 +1,68 @@
+{
+  "clips": [
+    {
+      "file": "effect-examples/after-hours-reel.mp4",
+      "seconds": 45.0,
+      "frames": 1350,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    },
+    {
+      "file": "creative-examples/amber-6s.mp4",
+      "seconds": 6.016,
+      "frames": 180,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    }
+  ],
+  "customExportConfigMatches": true,
+  "customConfig": {
+    "kind": "effect-template",
+    "version": 1,
+    "style": "3d-render",
+    "title": "轨道之间",
+    "subtitle": "陶瓷、金属与一颗不愿停下的琥珀",
+    "words": [
+      "升起",
+      "环绕",
+      "共振"
+    ],
+    "primary": "#e5a855",
+    "secondary": "#7eb7a4",
+    "count": 9,
+    "intensity": 0.65,
+    "detail": 0.55,
+    "seed": 21,
+    "duration": 6,
+    "sound": true
+  },
+  "scores": [
+    {
+      "file": "score-cafe.wav",
+      "rms": 0.0883132891432974,
+      "peak": 0.352935791015625
+    },
+    {
+      "file": "score-paper.wav",
+      "rms": 0.09182831631419855,
+      "peak": 0.3511962890625
+    },
+    {
+      "file": "score-pulse.wav",
+      "rms": 0.08965920096760267,
+      "peak": 0.35107421875
+    },
+    {
+      "file": "score-rain.wav",
+      "rms": 0.08649999558049708,
+      "peak": 0.341461181640625
+    },
+    {
+      "file": "score-warm.wav",
+      "rms": 0.08355487337111457,
+      "peak": 0.3408203125
+    }
+  ]
+}

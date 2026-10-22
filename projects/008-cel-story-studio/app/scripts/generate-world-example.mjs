@@ -1,0 +1,16 @@
+import {generateStory} from './ai-provider.mjs';
+import {validateBrief} from './ai-schema.mjs';
+import {writeFile,mkdir} from 'node:fs/promises';
+import {randomUUID} from 'node:crypto';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const name=process.argv[2];
+if(!['rabbit','robot','water'].includes(name))throw new Error('Choose rabbit, robot or water');
+const brief=name==='water'?'一个戴草帽、穿绿色背带裤的小女孩在阳台拿起蓝色水壶，走到盆栽旁，倾斜水壶给花浇水，放下水壶并开心看花。请设计真实的人形女孩、草帽、水壶和花盆。浇水必须使用perform自由表演，自行编排身体、手臂、头部和propRotation的关节关键帧，以及water效果指向盆栽；不要用其他基础动作冒充。':name==='rabbit'?'一只戴蓝围巾的白兔，在花园捡到一根胡萝卜，把它带进有窗户的小屋，递给一只棕色小熊，两人开心庆祝。请设计有辨识度的两个角色和两个不同的场景，拿起、跨场景携带、递交都应真的发生。':'一个青蓝色圆头机器人在温暖的厨房拿起黄色杯子，走到有盆栽的阳台，把杯子递给戴眼镜的小猫，两人开心挥手。两个场景和两个角色都要按故事单独设计，杯子必须实际被拿起、携带和递交。';
+const request=validateBrief({engine:'world',brief,tone:'warm',duration:12,character:'auto',mode:'create',style:'cel-boil',sound:true,boil:1,protagonist:''});
+console.log('Generating',name);
+const result=await generateStory(request,randomUUID(),{onPhase:phase=>console.log(phase)});
+await mkdir(path.join(project,'web/world-examples'),{recursive:true});
+await writeFile(path.join(project,`web/world-examples/${name}.json`),JSON.stringify({...result.story,creative:result.creative},null,2));
+console.log('Saved',name,result.story.title,JSON.stringify({characters:result.story.world.characters.map(c=>c.name),scenes:result.story.world.scenes.map(s=>s.name),objects:result.story.world.objects.map(s=>s.name)}));

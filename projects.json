@@ -53,6 +53,24 @@
       "repository": "https://github.com/lossless-claude/lcm",
       "status": "已完成",
       "image": "assets/lcm-external-memory.png"
+    },
+    {
+      "id": "004",
+      "slug": "mg-styles-explorer",
+      "title": "Motion Atlas · 15 种 MG 风格原理研究",
+      "summary": "十五套“风格提示＋制作源码＋原片”案例，展示手绘、三维材质、形变、玻璃折射等MG效果，用于品牌、产品、知识与故事表达；拆解原理和边界，供风格规范、参数模板、组件库及系列视频工具扩展参考。",
+      "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+      "status": "已完成",
+      "image": "assets/cover.jpg"
+    },
+    {
+      "id": "008",
+      "slug": "cel-story-studio",
+      "title": "纸间故事 · 风格能力工作台",
+      "summary": "参考mg-styles-15，将手绘、三维材质、形变、玻璃折射等十五种视觉语言整理为独立模板与故事工作台，适合品牌传播、产品说明、知识科普和简短故事；沉淀风格规范、资产组件、分镜方法与程序管线，按简报→选风格→分镜→补资产→输出→审片复用；AI与新片渲染需本地服务。",
+      "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+      "status": "已归档",
+      "image": "assets/capability-map-019/mg-styles-capability-map.png"
     }
   ]
 }

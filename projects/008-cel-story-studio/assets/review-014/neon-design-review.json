@@ -1,0 +1,81 @@
+{
+  "artifact": "neon014-independent-module-stills",
+  "entry": "app/src/effects/neon-film-014.ts",
+  "interface": "createThree(canvas,c) -> draw(realSeconds),dispose(); paintNeonOverlay(g,c,realSeconds)",
+  "sameContract": [
+    "spool",
+    "unspool",
+    "ride",
+    "resolve"
+  ],
+  "heroFrame": 285,
+  "recommendedThreeFrames": [
+    1,
+    105,
+    285
+  ],
+  "recommendedSixFrames": [
+    1,
+    105,
+    154,
+    176,
+    218,
+    285
+  ],
+  "framesActuallyViewed": [
+    1,
+    74,
+    105,
+    136,
+    149,
+    150,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    164,
+    166,
+    167,
+    176,
+    198,
+    210,
+    218,
+    220,
+    224,
+    225,
+    226,
+    229,
+    233,
+    235,
+    240,
+    245,
+    265,
+    285
+  ],
+  "changes": [
+    "spool/unspool机位相接，拉开后贴近右盘芯",
+    "近场翻折铜箔曲面擦过镜头，实际遮挡时进入频率舱",
+    "出口门框从矩形变圆，孔闭合为有同心纹与六辐条的盘面",
+    "同一盘面拉远对准真实右磁芯投影，避免前后物体互相穿插",
+    "增加暖金主光与150px完整片名字版，保留片名/字幕参数",
+    "不改原013、共享动作注册、音效时间契约或最终影片"
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "initialHeadlessCaptureHang": "第一批210之后Page.captureScreenshot挂起；只终止明确归属本审片的headless Chrome。独立220先于210复现及后续全批正常结束，未增加超时。根因未确定。",
+    "allOwnedBrowsersClosed": true
+  },
+  "limitations": [
+    "独立模块审片静帧，不是最终MP4抽帧；未审看完整实时播放或试听音频",
+    "桥接铜箔与盘面为镜头局部的3D几何遮挡，非单个全局连续物理世界；任意重排动作各自仍独立",
+    "保留013频率舱重复门框，未将频谱映射到真实音频"
+  ],
+  "codeSha256": "d77b3c83960ce10b8207f19c691cd3aee5eb9e1289c6851a3b82139ec216207c"
+}

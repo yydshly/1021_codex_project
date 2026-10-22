@@ -1,0 +1,54 @@
+{
+  "kind": "story-director",
+  "version": 1,
+  "assetPack": "ink-whale-018",
+  "title": "给你一片海",
+  "logline": "小狐狸发现困在墨碟里的小鲸，便画出波浪，展开纸页，让它跃入属于自己的远方。",
+  "heroName": "阿橙",
+  "companionName": "阿蓝",
+  "ending": "ocean",
+  "accent": "#dc7852",
+  "sound": true,
+  "shots": [
+    {
+      "id": "film-notice",
+      "event": "notice",
+      "seconds": 3,
+      "framing": "medium",
+      "emotion": "hesitant",
+      "caption": "小小的墨碟，装不下远方。"
+    },
+    {
+      "id": "film-draw",
+      "event": "draw",
+      "seconds": 4,
+      "framing": "close",
+      "emotion": "focused",
+      "caption": "那就，先画一朵浪。"
+    },
+    {
+      "id": "film-unfold",
+      "event": "unfold",
+      "seconds": 4,
+      "framing": "close",
+      "emotion": "focused",
+      "caption": "再把远方，慢慢展开。"
+    },
+    {
+      "id": "film-leap",
+      "event": "leap",
+      "seconds": 5,
+      "framing": "wide",
+      "emotion": "joyful",
+      "caption": "这一次，可以游向大海。"
+    },
+    {
+      "id": "film-farewell",
+      "event": "farewell",
+      "seconds": 4,
+      "framing": "wide",
+      "emotion": "gentle",
+      "caption": "愿你的世界，总有辽阔。"
+    }
+  ]
+}

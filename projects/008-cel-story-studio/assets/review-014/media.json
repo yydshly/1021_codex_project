@@ -1,0 +1,1056 @@
+{
+  "revision": "0.14",
+  "verifiedAtUTC": "2026-10-21T16:13:46.422195+00:00",
+  "artisticScore": null,
+  "films": [
+    {
+      "file": "web/effect-examples/cel-boil.mp4",
+      "sha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "cel-boil",
+      "priorSha256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+    },
+    {
+      "file": "web/effect-examples/liquid.mp4",
+      "sha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "liquid",
+      "priorSha256": "891eaf8846a135d2db433053176b2fb0ba2aa7778981576edafe330e2a61137c"
+    },
+    {
+      "file": "web/effect-examples/morph.mp4",
+      "sha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "morph",
+      "priorSha256": "895d2001a31f11aadb379a2e4aea1166abde491bc94e84f64f625395ed943e96"
+    },
+    {
+      "file": "web/effect-examples/collage.mp4",
+      "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "collage",
+      "priorSha256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+    },
+    {
+      "file": "web/effect-examples/line-art.mp4",
+      "sha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "line-art",
+      "priorSha256": "fa819b903ffa72099bafbca83f1614f0a6bb4cf4dd2011119ea47fb16b1f45dc"
+    },
+    {
+      "file": "web/effect-examples/bauhaus.mp4",
+      "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "bauhaus",
+      "priorSha256": "7bbd553adf811c9d2877585461bbb5903ff4abce151556a9d0513189d20ca51e"
+    },
+    {
+      "file": "web/effect-examples/hanazi.mp4",
+      "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "hanazi",
+      "priorSha256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+    },
+    {
+      "file": "web/effect-examples/paperclip.mp4",
+      "sha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "paperclip",
+      "priorSha256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+    },
+    {
+      "file": "web/effect-examples/aurora-glass.mp4",
+      "sha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "aurora-glass",
+      "priorSha256": "d93c21ad660bd3de1c6c76692b99d982a64ae51fa03ff4160ef88b2528d29bd0"
+    },
+    {
+      "file": "web/effect-examples/isometric.mp4",
+      "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "isometric",
+      "priorSha256": "f32dca464220de1324dde3d6f85ef8297173afe91a658b65bfcf1103469964b4"
+    },
+    {
+      "file": "web/effect-examples/3d-render.mp4",
+      "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "3d-render",
+      "priorSha256": "4872053c732bd24eb78d825a9903dbcfa427f983c55d2c87948c1db9888224b2"
+    },
+    {
+      "file": "web/effect-examples/flat-vector.mp4",
+      "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "flat-vector",
+      "priorSha256": "1e0d07bcbe63d019461f28bc9c508a0fea51a821bdd9a49cb4220c52f240257a"
+    },
+    {
+      "file": "web/effect-examples/synthwave.mp4",
+      "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "synthwave",
+      "priorSha256": "c5a4eb6d567efca1ad2bd258cc674ddb135078d86ce25a7248483f47c9ba1667"
+    },
+    {
+      "file": "web/effect-examples/pixel.mp4",
+      "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "pixel",
+      "priorSha256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+    },
+    {
+      "file": "web/effect-examples/hud.mp4",
+      "sha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e",
+      "seconds": 10,
+      "frames": 300,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "style": "hud",
+      "priorSha256": "094aa5e201c80d0b6024b69a0f7809df0c8adf3bfd07de73e7b7131756023b83"
+    }
+  ],
+  "frames": [
+    {
+      "style": "cel-boil",
+      "frame": 56,
+      "file": "public/effects/craft-cel-boil-056.jpg",
+      "sha256": "ebf742dd739f794b3470abe82292d66298938e4c99c017d00250793dafed34be",
+      "sourceSha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "cel-boil",
+      "frame": 117,
+      "file": "public/effects/craft-cel-boil-117.jpg",
+      "sha256": "a299f1474895d126d3177836fc826ffaa9f259882ed0a752f8858d92b7cfd179",
+      "sourceSha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "cel-boil",
+      "frame": 270,
+      "file": "public/effects/craft-cel-boil-270.jpg",
+      "sha256": "8a0e5037fadf13e65ff489a6484ceead5ff4c7a99e16dad88a76fe386b087485",
+      "sourceSha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "liquid",
+      "frame": 44,
+      "file": "public/effects/craft-liquid-044.jpg",
+      "sha256": "2df4d235aa89690c8508986731b302b84f40a10ab93c2b7385b95f3de0004a40",
+      "sourceSha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "liquid",
+      "frame": 183,
+      "file": "public/effects/craft-liquid-183.jpg",
+      "sha256": "5fceb9b87b78388bd575005292a062d8aadfcc8e1be8e180d21a00a2c6c96d31",
+      "sourceSha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "liquid",
+      "frame": 282,
+      "file": "public/effects/craft-liquid-282.jpg",
+      "sha256": "965f9b6f9d75af3329d2b7c7fe7720083ab931547022f6fea3c3182d26e1753b",
+      "sourceSha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "morph",
+      "frame": 48,
+      "file": "public/effects/craft-morph-048.jpg",
+      "sha256": "396cf1c7b33b0fdb81e915d81c620b66687b6a135bd98e4a854da40d7ddfdb28",
+      "sourceSha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "morph",
+      "frame": 138,
+      "file": "public/effects/craft-morph-138.jpg",
+      "sha256": "287b707863ccc3f3d2a279afacba61b6c1ef4797e443563c9836ffb470dcc7d1",
+      "sourceSha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "morph",
+      "frame": 280,
+      "file": "public/effects/craft-morph-280.jpg",
+      "sha256": "4a16ffc8db6e465a58a5c2de0206d389d56a3fc338d546065f61f079e78ccd37",
+      "sourceSha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "collage",
+      "frame": 69,
+      "file": "public/effects/craft-collage-069.jpg",
+      "sha256": "83fb2b234e5bbb32cbdc9061999187b8c69b4f4b25990961535d37527a5a7889",
+      "sourceSha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "collage",
+      "frame": 201,
+      "file": "public/effects/craft-collage-201.jpg",
+      "sha256": "b17caab415fbf0debc3906d2cb785b4561acc88da23f65bf2b612e8313f53f03",
+      "sourceSha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "collage",
+      "frame": 273,
+      "file": "public/effects/craft-collage-273.jpg",
+      "sha256": "304256b38de369416740a829312b048dfb0b1e6cedead0f1ada7bf63ece9c9b8",
+      "sourceSha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "line-art",
+      "frame": 48,
+      "file": "public/effects/craft-line-art-048.jpg",
+      "sha256": "701d18ac6527bc47da0d8fe5d8be81b40cfb3b63e2067e44ce23b30d7d42dd0a",
+      "sourceSha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "line-art",
+      "frame": 123,
+      "file": "public/effects/craft-line-art-123.jpg",
+      "sha256": "8d496c54d1d6e32e35a65bd2135be21cd2ecfc43b53dbae35be210b2dd1076e2",
+      "sourceSha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "line-art",
+      "frame": 280,
+      "file": "public/effects/craft-line-art-280.jpg",
+      "sha256": "e70c707dad63a65dae01f19407969460cd4efe9ff8fa9f56555d1bffaedae0fe",
+      "sourceSha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "bauhaus",
+      "frame": 54,
+      "file": "public/effects/craft-bauhaus-054.jpg",
+      "sha256": "f2899befd523d339040ef27f96be2219667c50372a7bb5bf635272b7e17df930",
+      "sourceSha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "bauhaus",
+      "frame": 150,
+      "file": "public/effects/craft-bauhaus-150.jpg",
+      "sha256": "8846ba8efaa64fe0a149f562fb2d1a350d395bfb1d00197f6d5918b08868d855",
+      "sourceSha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "bauhaus",
+      "frame": 273,
+      "file": "public/effects/craft-bauhaus-273.jpg",
+      "sha256": "ce7536b50492b0764bab491ec24641dddc3989d611395218a63e981627c467c3",
+      "sourceSha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hanazi",
+      "frame": 65,
+      "file": "public/effects/craft-hanazi-065.jpg",
+      "sha256": "80749e86343832b799fa9f5d5b59a118eab74310a68efaefbc68518e27dd7323",
+      "sourceSha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hanazi",
+      "frame": 175,
+      "file": "public/effects/craft-hanazi-175.jpg",
+      "sha256": "1de0e4e607ca229d3c3ed1a8accdf645d0ae52054da121ce42df3f74c285b324",
+      "sourceSha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hanazi",
+      "frame": 280,
+      "file": "public/effects/craft-hanazi-280.jpg",
+      "sha256": "14ef9026dae907b2a78ce0f3f60ae9c25fe957fcd42e9f144ef02dd851759641",
+      "sourceSha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "paperclip",
+      "frame": 85,
+      "file": "public/effects/craft-paperclip-085.jpg",
+      "sha256": "12d230aa377da9c6081dc4d690d684d33c491fa097753a45eb358b5021ec32f8",
+      "sourceSha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "paperclip",
+      "frame": 155,
+      "file": "public/effects/craft-paperclip-155.jpg",
+      "sha256": "121b02553a2ad8a3265c74d39ae27a31d42af1040781322b2b11ba35cb8af4d1",
+      "sourceSha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "paperclip",
+      "frame": 280,
+      "file": "public/effects/craft-paperclip-280.jpg",
+      "sha256": "82886bca34b4413b24c5c1998b9b67efb3c47a6eb93b6275d574e1e8dab07b4e",
+      "sourceSha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "aurora-glass",
+      "frame": 12,
+      "file": "public/effects/craft-aurora-glass-012.jpg",
+      "sha256": "f0f8ef21b94bc1d0f0fd30a3950183ce91450f2dd78df2186711b9edeb214436",
+      "sourceSha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "aurora-glass",
+      "frame": 135,
+      "file": "public/effects/craft-aurora-glass-135.jpg",
+      "sha256": "17a2c9efca875209fcfd3966e49ba57335980193797a882e01fc7b1d4545e7d2",
+      "sourceSha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "aurora-glass",
+      "frame": 282,
+      "file": "public/effects/craft-aurora-glass-282.jpg",
+      "sha256": "a3303107fe7c47e6f427d699b3e6403967f6285ff4c3f289486d036d5c99f6d7",
+      "sourceSha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "isometric",
+      "frame": 65,
+      "file": "public/effects/craft-isometric-065.jpg",
+      "sha256": "492d9e20e05ef06ec6ee78c0ddd4e96fe8b21b4d30e0be7bafd857b44d55fe44",
+      "sourceSha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "isometric",
+      "frame": 115,
+      "file": "public/effects/craft-isometric-115.jpg",
+      "sha256": "56b36f65419bafdcab9b60534b83a56a51fb81c7c72db33e6be0e76a732994ad",
+      "sourceSha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "isometric",
+      "frame": 285,
+      "file": "public/effects/craft-isometric-285.jpg",
+      "sha256": "771d6bbfdb7ee1cd97dd9a381fb6e85470095b65bfce726005bba28ab56ef341",
+      "sourceSha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "3d-render",
+      "frame": 48,
+      "file": "public/effects/craft-3d-render-048.jpg",
+      "sha256": "0a378ad3083ea886c0a992e8bcf0c1c029e0f8ee43500c03d03c989089cf6f61",
+      "sourceSha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "3d-render",
+      "frame": 102,
+      "file": "public/effects/craft-3d-render-102.jpg",
+      "sha256": "cf9746483cc71e8cf256d4e8ceab62da2e93b2802e187d231ec4210526ebe60f",
+      "sourceSha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "3d-render",
+      "frame": 222,
+      "file": "public/effects/craft-3d-render-222.jpg",
+      "sha256": "fd80972b602908ddf3b37ac0c99bd91b87d9979166bf0ecbffa246d2fd80bc9f",
+      "sourceSha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "flat-vector",
+      "frame": 20,
+      "file": "public/effects/craft-flat-vector-020.jpg",
+      "sha256": "34e847f03c200c09da023d1d09f4598c0665f8a5cdb4699b11c6795d8e024b80",
+      "sourceSha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "flat-vector",
+      "frame": 175,
+      "file": "public/effects/craft-flat-vector-175.jpg",
+      "sha256": "2302f4476e221ddfa86b3401db8cb2f15ed73aab85a45b987c86400d2a8eb07b",
+      "sourceSha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "flat-vector",
+      "frame": 285,
+      "file": "public/effects/craft-flat-vector-285.jpg",
+      "sha256": "19a532eed47766fdc53693714eb6cbd6837804e840bb26f1d8164c7e1063c996",
+      "sourceSha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "synthwave",
+      "frame": 1,
+      "file": "public/effects/craft-synthwave-001.jpg",
+      "sha256": "1c2808ec472edf0c751bc9a06729c4290eb42beb5955504723aea87bafc60b76",
+      "sourceSha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "synthwave",
+      "frame": 154,
+      "file": "public/effects/craft-synthwave-154.jpg",
+      "sha256": "1d5fd353469dbeb0fe4ee398f1c7cd4a93a7bf9ecd4ff442a44d83001411908c",
+      "sourceSha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "synthwave",
+      "frame": 285,
+      "file": "public/effects/craft-synthwave-285.jpg",
+      "sha256": "69f77af4858c9e7aa26440fb1d805fa6842d133c2ad12ae5d22f18bd32d45821",
+      "sourceSha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "pixel",
+      "frame": 15,
+      "file": "public/effects/craft-pixel-015.jpg",
+      "sha256": "3b4a290cd6ed9146a4388693791298b01656afbbc68cd82e0a80083021416156",
+      "sourceSha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "pixel",
+      "frame": 90,
+      "file": "public/effects/craft-pixel-090.jpg",
+      "sha256": "2f9b42b2e517b275fbb5cc8954841ec087ffe0a396a0a67f30da7b0926b40965",
+      "sourceSha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "pixel",
+      "frame": 285,
+      "file": "public/effects/craft-pixel-285.jpg",
+      "sha256": "21e3f1fa221d535e82e41d4ab3acf6337f5efff54b59c39b7249721d14e77441",
+      "sourceSha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hud",
+      "frame": 30,
+      "file": "public/effects/craft-hud-030.jpg",
+      "sha256": "30fa416c33eb3367f8edf5021c83145f7898f078ba659c1b9c6c05d61731206f",
+      "sourceSha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hud",
+      "frame": 115,
+      "file": "public/effects/craft-hud-115.jpg",
+      "sha256": "f20cff7d698b0b4ca58ebdc82e11a32659f8ae9485b4d85a77f34f3516032c62",
+      "sourceSha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e",
+      "method": "extracted from final MP4"
+    },
+    {
+      "style": "hud",
+      "frame": 270,
+      "file": "public/effects/craft-hud-270.jpg",
+      "sha256": "d2260aa1288aa1e7955523fdcaf32c0efd7518e63437a749b0503991eefeb5f5",
+      "sourceSha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e",
+      "method": "extracted from final MP4"
+    }
+  ],
+  "reels": [
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "sha256": "55bfe99ff67bc28386b836b9434798b4dbcb30d8690a7d6071b69b7872bcc610",
+      "seconds": 150,
+      "frames": 4500,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "chapters": [
+        {
+          "style": "cel-boil",
+          "title": "借一点风",
+          "start": 0,
+          "end": 10,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "liquid",
+          "title": "流动的桥",
+          "start": 10,
+          "end": 20,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "morph",
+          "title": "把晴天放飞",
+          "start": 20,
+          "end": 30,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 30,
+          "end": 40,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "line-art",
+          "title": "把海写成星空",
+          "start": 40,
+          "end": 50,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "bauhaus",
+          "title": "纸上游乐场",
+          "start": 50,
+          "end": 60,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "hanazi",
+          "title": "别急，先喝一口",
+          "start": 60,
+          "end": 70,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "paperclip",
+          "title": "白天的光，夜里的灯",
+          "start": 70,
+          "end": 80,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 80,
+          "end": 90,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 90,
+          "end": 100,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 100,
+          "end": 110,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 110,
+          "end": 120,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 120,
+          "end": 130,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 130,
+          "end": 140,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 140,
+          "end": 150,
+          "sourceRange": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "sha256": "4d79e8716f22c512d95b8d84cc16564da3d07918a875f59177a23a86c2a802b2",
+      "seconds": 45,
+      "frames": 1350,
+      "video": "h264",
+      "audio": "aac",
+      "fullDecode": true,
+      "chapters": [
+        {
+          "style": "cel-boil",
+          "title": "借一点风",
+          "start": 0,
+          "end": 3,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "liquid",
+          "title": "流动的桥",
+          "start": 3,
+          "end": 6,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "morph",
+          "title": "把晴天放飞",
+          "start": 6,
+          "end": 9,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 9,
+          "end": 12,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "line-art",
+          "title": "把海写成星空",
+          "start": 12,
+          "end": 15,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "bauhaus",
+          "title": "纸上游乐场",
+          "start": 15,
+          "end": 18,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "hanazi",
+          "title": "别急，先喝一口",
+          "start": 18,
+          "end": 21,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "paperclip",
+          "title": "白天的光，夜里的灯",
+          "start": 21,
+          "end": 24,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 24,
+          "end": 27,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 27,
+          "end": 30,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 30,
+          "end": 33,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 33,
+          "end": 36,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 36,
+          "end": 39,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 39,
+          "end": 42,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 42,
+          "end": 45,
+          "sourceRange": [
+            2,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "preserved": [
+    {
+      "file": "web/quality-before-014/3d-render.jpg",
+      "sha256": "4152b177d980177abdc074bcd04de171db48e1978db3e88cdd90bf8faec97997"
+    },
+    {
+      "file": "web/quality-before-014/3d-render.json",
+      "sha256": "05ae62e102be4559e3633ad9ba26fdaf4bdc2b197c8f5ec062d7db7898128c96"
+    },
+    {
+      "file": "web/quality-before-014/3d-render.mp4",
+      "sha256": "4872053c732bd24eb78d825a9903dbcfa427f983c55d2c87948c1db9888224b2"
+    },
+    {
+      "file": "web/quality-before-014/after-hours-reel.chapters.json",
+      "sha256": "3db08cf69f4544f2dc3246eafcf75c6b6230dbbffe67e3d3a0ac4c590b07628a"
+    },
+    {
+      "file": "web/quality-before-014/after-hours-reel.mp4",
+      "sha256": "c43dccb81eb81f0193a65e5ea4ee12ac8e732961c2b4eaca3b26255b420619da"
+    },
+    {
+      "file": "web/quality-before-014/aurora-glass.jpg",
+      "sha256": "a267f7d358e46129331c1baf77561241cb7688cbae386e0aa0db9e1a12c01e6e"
+    },
+    {
+      "file": "web/quality-before-014/aurora-glass.json",
+      "sha256": "2c49d63e8ee8ce045990931a95b2b8bb5d28ed9ddd9aaa70cde7cd26406d73ce"
+    },
+    {
+      "file": "web/quality-before-014/aurora-glass.mp4",
+      "sha256": "d93c21ad660bd3de1c6c76692b99d982a64ae51fa03ff4160ef88b2528d29bd0"
+    },
+    {
+      "file": "web/quality-before-014/bauhaus.jpg",
+      "sha256": "2d82ffb081ded873f933934fd52af425d37df452493d75417b70a83985ad9ccf"
+    },
+    {
+      "file": "web/quality-before-014/bauhaus.json",
+      "sha256": "2a068899e454dde3a7b7ee4087e9e037c46b4259c01f5421362e0dbbc6c0eaad"
+    },
+    {
+      "file": "web/quality-before-014/bauhaus.mp4",
+      "sha256": "7bbd553adf811c9d2877585461bbb5903ff4abce151556a9d0513189d20ca51e"
+    },
+    {
+      "file": "web/quality-before-014/cel-boil.jpg",
+      "sha256": "b6f38588e2f3384ff8b5b54ea088ae8cdd2c2966ee1c83df779f4ec5ea309c0a"
+    },
+    {
+      "file": "web/quality-before-014/cel-boil.json",
+      "sha256": "c87c913ee368ff2167939cc6aa6d4eb48ff30a26d92aff4da66901f586417371"
+    },
+    {
+      "file": "web/quality-before-014/cel-boil.mp4",
+      "sha256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+    },
+    {
+      "file": "web/quality-before-014/collage.jpg",
+      "sha256": "a454342ddbe3bd1252db84f7427a6ad31c5f60462a01fd2423c2df1c441c4764"
+    },
+    {
+      "file": "web/quality-before-014/collage.json",
+      "sha256": "e1fff9b076976f82bf646cb932228b9108a01caffdfa9755b2a8ba58c141fa00"
+    },
+    {
+      "file": "web/quality-before-014/collage.mp4",
+      "sha256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+    },
+    {
+      "file": "web/quality-before-014/flat-vector.jpg",
+      "sha256": "00090bf7009ce9024e64157529078e347616fd80a63db9c3e9f4fac4871122dd"
+    },
+    {
+      "file": "web/quality-before-014/flat-vector.json",
+      "sha256": "4a4df0b6e6063604ed8c1f57e2ce16857ffc09487a8a789fbed23adaa34ad7e0"
+    },
+    {
+      "file": "web/quality-before-014/flat-vector.mp4",
+      "sha256": "1e0d07bcbe63d019461f28bc9c508a0fea51a821bdd9a49cb4220c52f240257a"
+    },
+    {
+      "file": "web/quality-before-014/hanazi.jpg",
+      "sha256": "6f675a114d02631447b12bf41f731163baebf348a12597666ba0e3d5cc99badb"
+    },
+    {
+      "file": "web/quality-before-014/hanazi.json",
+      "sha256": "98e0879c1e69b0483d6dca041ba26c84d76403980402e0842b219ce9eef78841"
+    },
+    {
+      "file": "web/quality-before-014/hanazi.mp4",
+      "sha256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+    },
+    {
+      "file": "web/quality-before-014/hud.jpg",
+      "sha256": "78a84864dcf7ca5ceec69a074f6f7d4502cd584da403071f80f0115676799b32"
+    },
+    {
+      "file": "web/quality-before-014/hud.json",
+      "sha256": "0812ccd092ad221e39d5c1637b394d4e56513eb767446f9c0af90f1584b0eb7a"
+    },
+    {
+      "file": "web/quality-before-014/hud.mp4",
+      "sha256": "094aa5e201c80d0b6024b69a0f7809df0c8adf3bfd07de73e7b7131756023b83"
+    },
+    {
+      "file": "web/quality-before-014/isometric.jpg",
+      "sha256": "13212120c085dddb8b5817883e215c07240357a225d0814d9463b8da3a94f6ff"
+    },
+    {
+      "file": "web/quality-before-014/isometric.json",
+      "sha256": "83a44ded78733b4389ad0eb2b7049c67e7d257e3700eec290917127ccb25339b"
+    },
+    {
+      "file": "web/quality-before-014/isometric.mp4",
+      "sha256": "f32dca464220de1324dde3d6f85ef8297173afe91a658b65bfcf1103469964b4"
+    },
+    {
+      "file": "web/quality-before-014/line-art.jpg",
+      "sha256": "572927220d9d530bca88c4b8caaf44c244a0faa94f1b45c39e0d33e10916074b"
+    },
+    {
+      "file": "web/quality-before-014/line-art.json",
+      "sha256": "7362f64a9bd8268a2bcf29b61f00e25cc57997ea21c8bb4ee6ab2f27f02968cb"
+    },
+    {
+      "file": "web/quality-before-014/line-art.mp4",
+      "sha256": "fa819b903ffa72099bafbca83f1614f0a6bb4cf4dd2011119ea47fb16b1f45dc"
+    },
+    {
+      "file": "web/quality-before-014/liquid.jpg",
+      "sha256": "e069d2bc371678dcf72ae29e049fe2d4066abc7666af3f3ecbb06b68425792b6"
+    },
+    {
+      "file": "web/quality-before-014/liquid.json",
+      "sha256": "e0c57b95631f377195befa37b05ea1b10cd1f33fc0cd60fd4920ff9e875cd654"
+    },
+    {
+      "file": "web/quality-before-014/liquid.mp4",
+      "sha256": "891eaf8846a135d2db433053176b2fb0ba2aa7778981576edafe330e2a61137c"
+    },
+    {
+      "file": "web/quality-before-014/morph.jpg",
+      "sha256": "0e851002fe4617b3cae4f8b92705bea97550f3628c98c2f6acf8de9b4aa6ecc9"
+    },
+    {
+      "file": "web/quality-before-014/morph.json",
+      "sha256": "46cff5559f4ed63cfb0f8c6bd411c2bec3933ef6ca590dc17d3ec55336eded2d"
+    },
+    {
+      "file": "web/quality-before-014/morph.mp4",
+      "sha256": "895d2001a31f11aadb379a2e4aea1166abde491bc94e84f64f625395ed943e96"
+    },
+    {
+      "file": "web/quality-before-014/paperclip.jpg",
+      "sha256": "b7b20349f114194eab1cf2d7fff04f7d05b8ae4598f872e166cbeaf25ce87c50"
+    },
+    {
+      "file": "web/quality-before-014/paperclip.json",
+      "sha256": "4934c3d6fb05b65a8087726e0036bd44e25b8715a1ff2082bf9ecee736e1fe90"
+    },
+    {
+      "file": "web/quality-before-014/paperclip.mp4",
+      "sha256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+    },
+    {
+      "file": "web/quality-before-014/pixel.jpg",
+      "sha256": "eed18046ebf98262de1ad0c2496bd8f4db7fd41ce95d3107601f99100f7e2019"
+    },
+    {
+      "file": "web/quality-before-014/pixel.json",
+      "sha256": "128ff9b8318faf1e8426e00b596104c5bb641342f32dcef032da412e1945c392"
+    },
+    {
+      "file": "web/quality-before-014/pixel.mp4",
+      "sha256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+    },
+    {
+      "file": "web/quality-before-014/quality-reel.chapters.json",
+      "sha256": "585f8f45892179e8189b8dfb1f1bcd3de0dc64f2cb026cac58efaa9a9b4a3ee2"
+    },
+    {
+      "file": "web/quality-before-014/quality-reel.mp4",
+      "sha256": "659678054b11992e4e0f321059c8aaf46e0a7995f4a0814676ca5dbda19adfd6"
+    },
+    {
+      "file": "web/quality-before-014/synthwave.jpg",
+      "sha256": "b280c10ec00b4e10206dfd22dcd4da602282fa08fa62e8fa19757b09eb891c3e"
+    },
+    {
+      "file": "web/quality-before-014/synthwave.json",
+      "sha256": "117aca526fb138b90a7278b7ce6a0264b662b38c82c496e716a74bdde3324b84"
+    },
+    {
+      "file": "web/quality-before-014/synthwave.mp4",
+      "sha256": "c5a4eb6d567efca1ad2bd258cc674ddb135078d86ce25a7248483f47c9ba1667"
+    }
+  ]
+}

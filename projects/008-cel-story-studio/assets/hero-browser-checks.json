@@ -1,0 +1,144 @@
+{
+  "version": "0.11.0",
+  "playbacks": [
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "label": "磁场花开完整影片",
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/3d-render.mp4?v=011",
+        "time": 5.00007
+      }
+    ],
+    [],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/isometric.mp4?v=011",
+        "time": 7.102188
+      }
+    ],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/quality-before-011/isometric.mp4?v=011",
+        "time": 0.140579
+      }
+    ],
+    [
+      {
+        "duration": 20,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/hero-reel.mp4?v=011",
+        "time": 20
+      }
+    ],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": true,
+        "ready": 1,
+        "src": "http://127.0.0.1:8048/quality-before-011/3d-render.mp4?v=011",
+        "time": 0
+      }
+    ],
+    [
+      {
+        "duration": 20,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/hero-reel.mp4?v=011",
+        "time": 0.224483
+      }
+    ],
+    [
+      {
+        "duration": 20,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/hero-reel.mp4?v=011",
+        "time": 20
+      }
+    ],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/3d-render.mp4?v=011",
+        "time": 0.166893
+      }
+    ],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/isometric.mp4?v=011",
+        "time": 0.193541
+      }
+    ],
+    [
+      {
+        "duration": 10.005,
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/quality-before-011/3d-render.mp4?v=011",
+        "time": 10.005
+      }
+    ]
+  ],
+  "exports": {
+    "initial3d": "/exports/884df27c-95a4-4697-a0ee-27216ef07b3e.mp4",
+    "isometric": "/exports/c42c7dbb-5707-426c-9884-a0bad050b023.mp4",
+    "3d-render": "/exports/92e317a2-2c12-4a99-9966-653a101e054a.mp4"
+  },
+  "cards": 15,
+  "keyframes": [
+    {
+      "alt": "磁场花开 00.7 秒实际关键帧：力量出现",
+      "loaded": true
+    },
+    {
+      "alt": "磁场花开 04.8 秒实际关键帧：失衡与悬停",
+      "loaded": true
+    },
+    {
+      "alt": "磁场花开 07.4 秒实际关键帧：花冠展开",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 00.7 秒实际关键帧：声球入轨",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 06.3 秒实际关键帧：全场合奏",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 09.0 秒实际关键帧：唱片上的世界",
+      "loaded": true
+    }
+  ],
+  "overflow": false,
+  "viewport": 551,
+  "consoleErrors": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "app/src/effects/hand-film-017.ts",
+    "sha256": "4d21dc6eb6f7d8a2d8a65d5138963aad1ac4757eb19ffd9d9abd2d97f5f5d0c2"
+  },
+  {
+    "file": "app/src/effects/morph-film-017.ts",
+    "sha256": "82e7ac2456f7acae56ada7804afd00481b869665d93823ab5305876094f961dc"
+  },
+  {
+    "file": "app/src/effects/glass-film-017.ts",
+    "sha256": "33345a6b88226b1094ae3267bd8b9c430335e11a8717312e1d26621022a32920"
+  },
+  {
+    "file": "app/src/effects/prism-film-014.ts",
+    "sha256": "74279e0284edf34e5cae0c660c190d7f256cff240accba9f02b47627391c0a75"
+  },
+  {
+    "file": "app/src/effects/EffectScene.tsx",
+    "sha256": "30345334e49cc777170b12c375d14d4bb9380751cd1d88fce4a55d99c33e41b0"
+  },
+  {
+    "file": "app/scripts/story-films-017.mjs",
+    "sha256": "356d5b6df5fa3342a8e30ee285dccb9c934ce0e9c27fb97d2d7e67cf8da93b61"
+  },
+  {
+    "file": "app/scripts/directions-017.mjs",
+    "sha256": "13a7ded636ea95ed15f11d10c94d0eb9caa2f1d1c560eb340ae9a01b2ee3c2fa"
+  },
+  {
+    "file": "app/scripts/make-scores-017.py",
+    "sha256": "599fe288f0b313162c5d6fa13b40bda259d7fb3c3900ebaceb0b1b561b558c86"
+  },
+  {
+    "file": "app/public/effects/coast-017.png",
+    "sha256": "6c7d12cbb2aa8e8a597ad2b5cfb80bbfb2244ff3ee86cbbb465a40090f213f33"
+  }
+]

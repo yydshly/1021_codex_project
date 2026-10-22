@@ -1,0 +1,171 @@
+{
+  "unchangedMediaAndBundleFiles": 41,
+  "files": [
+    {
+      "file": "web/effect-examples/3d-custom.mp4",
+      "sha256": "036cd1c3253321a7edf475d345e3580ba5b646e5c9cc78753a5b7844fdfb045a"
+    },
+    {
+      "file": "web/effect-examples/3d-render.mp4",
+      "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f"
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "sha256": "55a018e581eb68bfbef3f5d3fccacef99b112542dd53eb2f449cc05f5251bb45"
+    },
+    {
+      "file": "web/effect-examples/aurora-glass.mp4",
+      "sha256": "170cfea0a19ca6e2acaddb1efd23c5f6d5537ca61f354b20021d0b8a75ec73ce"
+    },
+    {
+      "file": "web/effect-examples/bauhaus.mp4",
+      "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6"
+    },
+    {
+      "file": "web/effect-examples/cel-boil.mp4",
+      "sha256": "b7e3a4a54d4ed1e0ab013044fcf1b492a6a684abfcd096916e60deb02389d631"
+    },
+    {
+      "file": "web/effect-examples/collage.mp4",
+      "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4"
+    },
+    {
+      "file": "web/effect-examples/flat-vector.mp4",
+      "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd"
+    },
+    {
+      "file": "web/effect-examples/hanazi.mp4",
+      "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3"
+    },
+    {
+      "file": "web/effect-examples/hero-reel.mp4",
+      "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c"
+    },
+    {
+      "file": "web/effect-examples/hud.mp4",
+      "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965"
+    },
+    {
+      "file": "web/effect-examples/isometric.mp4",
+      "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b"
+    },
+    {
+      "file": "web/effect-examples/line-art.mp4",
+      "sha256": "dc9221fabbcdd168fafb7597588540b6e1d4f9579b613cd9362c03b831e7a5f6"
+    },
+    {
+      "file": "web/effect-examples/liquid.mp4",
+      "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e"
+    },
+    {
+      "file": "web/effect-examples/material-reel-015.mp4",
+      "sha256": "eca5bc02fc7c6d7102702a204044a21a54a08b464c2bbbcf86b7356c5a627591"
+    },
+    {
+      "file": "web/effect-examples/morph.mp4",
+      "sha256": "95665db70cfb0f0736efdf45a7e8dedb6b8e92a9bddd2417a104b70c4037a179"
+    },
+    {
+      "file": "web/effect-examples/paperclip.mp4",
+      "sha256": "b047d06d50d7a885be9a0a6599b3935069174ed2084150bff4f69a6fd8f250af"
+    },
+    {
+      "file": "web/effect-examples/pixel.mp4",
+      "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41"
+    },
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "sha256": "7724ba3dde0b01b9b6e1b2d746c9b77d39822a7a4fcc6937b9dece729a9f04d3"
+    },
+    {
+      "file": "web/effect-examples/recraft-reel.mp4",
+      "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d"
+    },
+    {
+      "file": "web/effect-examples/synthwave.mp4",
+      "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914"
+    },
+    {
+      "file": "web/effect-examples/trio-reel-013.mp4",
+      "sha256": "7b11b2b958d5adfd78fc33e58b41660e4fa56ec2ddde343e012e4e38603fd82d"
+    },
+    {
+      "file": "web/director-examples-018/browser-export.mp4",
+      "sha256": "77ea39f163112a029d1e278d124aa1fbba5b640161a9d8baa91e84c0d7745d58"
+    },
+    {
+      "file": "web/director-examples-018/main.mp4",
+      "sha256": "6af716f84a9d483e028b8d15054616a195148672e32a8de625f6a4b16550824c"
+    },
+    {
+      "file": "web/director-examples-018/rewrite.mp4",
+      "sha256": "99b95eda5aed1b3f36e765de8a11df64534bd0913ab2bd4026863f9f84cf77d4"
+    },
+    {
+      "file": "web/reference-effects/media/01-flat-vector.mp4",
+      "sha256": "41e3fcc9b0e614a118de0d03d0edee91540299af12f6b2be7bb91d0e78fa2adc"
+    },
+    {
+      "file": "web/reference-effects/media/02-line-art.mp4",
+      "sha256": "eda54b131945499fbc1dc7cfb45755054e3dbab0e21575dd28da1213b0842c4b"
+    },
+    {
+      "file": "web/reference-effects/media/03-isometric.mp4",
+      "sha256": "4639fb378cf5e4e48da8f4b80e2eec40c180c2932a07bbcbb8717d0c45928094"
+    },
+    {
+      "file": "web/reference-effects/media/04-3d-render.mp4",
+      "sha256": "a9a5999d4f6db4a191562c60d891182a2ff6287e86642d15823158c0773ec88c"
+    },
+    {
+      "file": "web/reference-effects/media/05-cel-boil.mp4",
+      "sha256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+    },
+    {
+      "file": "web/reference-effects/media/06-collage.mp4",
+      "sha256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+    },
+    {
+      "file": "web/reference-effects/media/07-liquid.mp4",
+      "sha256": "6e9b40dd841589da7df840bd84049e1dc73ae3e2fa5db3d37cbcf081eadb8a9a"
+    },
+    {
+      "file": "web/reference-effects/media/08-morph.mp4",
+      "sha256": "752c5538cd80f5b2f6f6f29c06d997456e4712c5768292656b3d58654b643bfc"
+    },
+    {
+      "file": "web/reference-effects/media/09-bauhaus.mp4",
+      "sha256": "fba3adfd8ddb6452ddd351e19f69647e5bf1e4d7782634d167c7b56e61ff3561"
+    },
+    {
+      "file": "web/reference-effects/media/10-synthwave.mp4",
+      "sha256": "11bfdd5e454e2f1d868b733677981734f77300082b97780416b890e08dd0f85e"
+    },
+    {
+      "file": "web/reference-effects/media/12-aurora-glass.mp4",
+      "sha256": "3d62ac6aa41d90653be3d627b4b2c78c7d477f5c8c8b3363a7b5ab7e4bfdf7b9"
+    },
+    {
+      "file": "web/reference-effects/media/18-hanazi.mp4",
+      "sha256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+    },
+    {
+      "file": "web/reference-effects/media/19-paperclip.mp4",
+      "sha256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+    },
+    {
+      "file": "web/reference-effects/media/20-pixel.mp4",
+      "sha256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+    },
+    {
+      "file": "web/reference-effects/media/22-hud.mp4",
+      "sha256": "fde04c43024f690040d4d268831b2f43c9d03e32e1c74d398f84c3831360c33f"
+    },
+    {
+      "file": "web/director-kit-018.zip",
+      "sha256": "aa5c6a049a0f4c1d33554b0b658dda18722d9ea52ee6ae6ff7bcb22e91ebd10a"
+    }
+  ],
+  "summaryDirectLinksValid": true,
+  "scope": "Content and layout changes only; no new film generation or AI calls."
+}

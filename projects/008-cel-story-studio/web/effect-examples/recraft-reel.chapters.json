@@ -1,0 +1,32 @@
+[
+  {
+    "style": "aurora-glass",
+    "start": 0,
+    "end": 10
+  },
+  {
+    "style": "flat-vector",
+    "start": 10,
+    "end": 20
+  },
+  {
+    "style": "line-art",
+    "start": 20,
+    "end": 30
+  },
+  {
+    "style": "morph",
+    "start": 30,
+    "end": 40
+  },
+  {
+    "style": "hanazi",
+    "start": 40,
+    "end": 50
+  },
+  {
+    "style": "paperclip",
+    "start": 50,
+    "end": 60
+  }
+]

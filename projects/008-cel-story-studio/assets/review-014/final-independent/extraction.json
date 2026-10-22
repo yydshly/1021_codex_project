@@ -1,0 +1,304 @@
+{
+  "kind": "actual-final-MP4-independent-review",
+  "keyFrames": [
+    18,
+    66,
+    114,
+    165,
+    219,
+    282
+  ],
+  "media": {
+    "final-cel-boil": {
+      "path": "web/effect-examples/cel-boil.mp4",
+      "sha256": "39ff3b40a87441a151a9d26caecd0575bd795ca9963a1363cab862031a6c0193",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        66,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        114,
+        133,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        165,
+        166,
+        168,
+        170,
+        172,
+        173,
+        174,
+        219,
+        282,
+        299
+      ]
+    },
+    "before-cel-boil": {
+      "path": "web/quality-before-014/cel-boil.mp4",
+      "sha256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        66,
+        114,
+        165,
+        219,
+        282,
+        299
+      ]
+    },
+    "final-hanazi": {
+      "path": "web/effect-examples/hanazi.mp4",
+      "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        66,
+        114,
+        165,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        219,
+        282,
+        299
+      ]
+    },
+    "before-hanazi": {
+      "path": "web/quality-before-014/hanazi.mp4",
+      "sha256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        66,
+        114,
+        165,
+        219,
+        282,
+        299
+      ]
+    },
+    "final-paperclip": {
+      "path": "web/effect-examples/paperclip.mp4",
+      "sha256": "2cfce70f0e7e6845507e7d387d799514a2b8861291a87f9f5f64795ee9ba5016",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        66,
+        114,
+        165,
+        219,
+        282,
+        299
+      ]
+    },
+    "before-paperclip": {
+      "path": "web/quality-before-014/paperclip.mp4",
+      "sha256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1",
+            "duration": "10.000000",
+            "nb_frames": "300",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "10.005000",
+            "nb_frames": "471"
+          }
+        ],
+        "format": {
+          "duration": "10.005000"
+        }
+      },
+      "framesExtracted": [
+        18,
+        66,
+        114,
+        165,
+        219,
+        282,
+        299
+      ]
+    }
+  }
+}

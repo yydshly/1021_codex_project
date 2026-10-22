@@ -1,0 +1,1175 @@
+{
+  "schemaVersion": 3,
+  "title": "雨停后，窗边见",
+  "signature": "晴天从一声招呼开始",
+  "world": {
+    "characters": [
+      {
+        "id": "raincoat-cat",
+        "name": "小猫阿黄",
+        "description": "蓝灰色尖耳与长尾巴，奶油色脸颊，穿宽摆黄色雨衣和赭色雨靴；帽沿略偏，衣摆左右不对称。",
+        "scale": 1,
+        "face": {
+          "x": 0,
+          "y": -125,
+          "size": 38
+        },
+        "shapes": [
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 27,
+            "y": -72,
+            "w": 0,
+            "h": 0,
+            "fill": "#788991",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 30,
+                "y": -5
+              },
+              {
+                "x": 41,
+                "y": -29
+              },
+              {
+                "x": 51,
+                "y": -34
+              },
+              {
+                "x": 57,
+                "y": -24
+              },
+              {
+                "x": 47,
+                "y": 8
+              },
+              {
+                "x": 18,
+                "y": 19
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "legL",
+            "x": -29,
+            "y": -26,
+            "w": 22,
+            "h": 24,
+            "fill": "#A96D45",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "legR",
+            "x": 8,
+            "y": -25,
+            "w": 24,
+            "h": 23,
+            "fill": "#A96D45",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -43,
+            "y": -105,
+            "w": 0,
+            "h": 0,
+            "fill": "#EBC34E",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 17,
+                "y": 0
+              },
+              {
+                "x": 65,
+                "y": 2
+              },
+              {
+                "x": 84,
+                "y": 78
+              },
+              {
+                "x": 45,
+                "y": 84
+              },
+              {
+                "x": 0,
+                "y": 77
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "armL",
+            "x": -35,
+            "y": -99,
+            "w": 0,
+            "h": 0,
+            "fill": "#EBC34E",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -19,
+                "y": 10
+              },
+              {
+                "x": -22,
+                "y": 47
+              },
+              {
+                "x": -3,
+                "y": 49
+              },
+              {
+                "x": 10,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -47,
+            "y": -48,
+            "w": 18,
+            "h": 17,
+            "fill": "#788991",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "armR",
+            "x": 32,
+            "y": -98,
+            "w": 0,
+            "h": 0,
+            "fill": "#F2CE5D",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 18,
+                "y": 8
+              },
+              {
+                "x": 23,
+                "y": 44
+              },
+              {
+                "x": 5,
+                "y": 49
+              },
+              {
+                "x": -9,
+                "y": 16
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 48,
+            "y": -48,
+            "w": 18,
+            "h": 17,
+            "fill": "#788991",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -127,
+            "w": 91,
+            "h": 88,
+            "fill": "#EBC34E",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -35,
+            "y": -145,
+            "w": 0,
+            "h": 0,
+            "fill": "#788991",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 4
+              },
+              {
+                "x": 0,
+                "y": -36
+              },
+              {
+                "x": 29,
+                "y": -13
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": 8,
+            "y": -150,
+            "w": 0,
+            "h": 0,
+            "fill": "#788991",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 27,
+                "y": -33
+              },
+              {
+                "x": 29,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -125,
+            "w": 68,
+            "h": 59,
+            "fill": "#F3E6CF",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -44,
+            "y": -153,
+            "w": 0,
+            "h": 0,
+            "fill": "#F2CE5D",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 43,
+                "y": -8
+              },
+              {
+                "x": 88,
+                "y": 3
+              },
+              {
+                "x": 77,
+                "y": 12
+              },
+              {
+                "x": 39,
+                "y": 6
+              },
+              {
+                "x": 3,
+                "y": 13
+              }
+            ]
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 0,
+            "y": -91,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#9C7F37",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 56
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 13,
+            "y": -65,
+            "w": 0,
+            "h": 0,
+            "fill": "#DDAF3C",
+            "stroke": "#9C7F37",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": -2
+              },
+              {
+                "x": 18,
+                "y": 20
+              },
+              {
+                "x": 2,
+                "y": 21
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "window-rabbit",
+        "name": "兔子米米",
+        "description": "奶油白长耳兔，穿陶红色背心，在打开的窗后迎接朋友。",
+        "scale": 0.7,
+        "face": {
+          "x": 0,
+          "y": -112,
+          "size": 34
+        },
+        "shapes": [
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -17,
+            "y": -10,
+            "w": 25,
+            "h": 18,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 17,
+            "y": -10,
+            "w": 25,
+            "h": 18,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -50,
+            "w": 62,
+            "h": 82,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -29,
+            "y": -82,
+            "w": 0,
+            "h": 0,
+            "fill": "#BC7159",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 24,
+                "y": 10
+              },
+              {
+                "x": 56,
+                "y": 0
+              },
+              {
+                "x": 61,
+                "y": 54
+              },
+              {
+                "x": 0,
+                "y": 56
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -36,
+            "y": -59,
+            "w": 20,
+            "h": 48,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 36,
+            "y": -59,
+            "w": 20,
+            "h": 48,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": -19,
+            "y": -157,
+            "w": 23,
+            "h": 68,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 19,
+            "y": -154,
+            "w": 24,
+            "h": 65,
+            "fill": "#EEE0C9",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": -19,
+            "y": -160,
+            "w": 9,
+            "h": 42,
+            "fill": "#D7A18C",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 19,
+            "y": -157,
+            "w": 10,
+            "h": 39,
+            "fill": "#D7A18C",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -111,
+            "w": 69,
+            "h": 61,
+            "fill": "#F4E9D6",
+            "stroke": "#403B36",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "objects": [],
+    "scenes": [
+      {
+        "id": "sunlit-courtyard",
+        "name": "雨后窗前小院",
+        "description": "左侧是低矮院墙和雨后水洼，右侧是陶土色小屋与打开的窗户；石板从院心通向窗下，淡金色阳光斜落在路面。",
+        "sky": "#F3E6CF",
+        "ground": "#D9C7A8",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 65,
+            "y": 332,
+            "w": 825,
+            "h": 181,
+            "fill": "#D6B79C",
+            "stroke": "#69584A",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 68,
+            "y": 363,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#B49378",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 245,
+                "y": 3
+              },
+              {
+                "x": 483,
+                "y": -2
+              },
+              {
+                "x": 817,
+                "y": 1
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 880,
+            "y": 175,
+            "w": 0,
+            "h": 0,
+            "fill": "#C68C70",
+            "stroke": "#69584A",
+            "points": [
+              {
+                "x": 0,
+                "y": 6
+              },
+              {
+                "x": 343,
+                "y": 0
+              },
+              {
+                "x": 347,
+                "y": 375
+              },
+              {
+                "x": 0,
+                "y": 375
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 944,
+            "y": 270,
+            "w": 230,
+            "h": 189,
+            "fill": "#655F52",
+            "stroke": "#403B36",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 910,
+            "y": 278,
+            "w": 0,
+            "h": 0,
+            "fill": "#A8AA87",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": -15
+              },
+              {
+                "x": 32,
+                "y": -8
+              },
+              {
+                "x": 32,
+                "y": 176
+              },
+              {
+                "x": 0,
+                "y": 188
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 1177,
+            "y": 270,
+            "w": 0,
+            "h": 0,
+            "fill": "#A8AA87",
+            "stroke": "#403B36",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 36,
+                "y": -10
+              },
+              {
+                "x": 36,
+                "y": 195
+              },
+              {
+                "x": 0,
+                "y": 187
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 932,
+            "y": 457,
+            "w": 253,
+            "h": 14,
+            "fill": "#E7C6A0",
+            "stroke": "#69584A",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 420,
+            "y": 405,
+            "w": 0,
+            "h": 0,
+            "fill": "#F0D9A2",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 146
+              },
+              {
+                "x": 209,
+                "y": 0
+              },
+              {
+                "x": 433,
+                "y": 0
+              },
+              {
+                "x": 359,
+                "y": 172
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 294,
+            "y": 562,
+            "w": 273,
+            "h": 43,
+            "fill": "#A7B6AF",
+            "stroke": "#788991",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 212,
+            "y": 558,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#EDE1C8",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 64,
+                "y": -3
+              },
+              {
+                "x": 102,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 451,
+            "y": 536,
+            "w": 0,
+            "h": 0,
+            "fill": "#C1B59E",
+            "stroke": "#8A7A64",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 118,
+                "y": -3
+              },
+              {
+                "x": 125,
+                "y": 29
+              },
+              {
+                "x": 6,
+                "y": 31
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 600,
+            "y": 535,
+            "w": 0,
+            "h": 0,
+            "fill": "#C1B59E",
+            "stroke": "#8A7A64",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112,
+                "y": 2
+              },
+              {
+                "x": 119,
+                "y": 31
+              },
+              {
+                "x": -2,
+                "y": 29
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 746,
+            "y": 535,
+            "w": 0,
+            "h": 0,
+            "fill": "#C1B59E",
+            "stroke": "#8A7A64",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 119,
+                "y": -1
+              },
+              {
+                "x": 124,
+                "y": 29
+              },
+              {
+                "x": 3,
+                "y": 32
+              }
+            ]
+          }
+        ],
+        "items": []
+      }
+    ]
+  },
+  "style": "cel-boil",
+  "recipe": {
+    "version": 1,
+    "components": [
+      {
+        "id": "paper-grain",
+        "amount": 0.35
+      },
+      {
+        "id": "ink-border",
+        "amount": 0.5
+      },
+      {
+        "id": "camera-push",
+        "amount": 0.4
+      }
+    ]
+  },
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-115cfe3c-e406-4d67-9e87-8ebddb6c6cb0-1",
+      "caption": "雨停了吗？",
+      "action": "observe",
+      "emotion": "afraid",
+      "duration": 2,
+      "sceneId": "sunlit-courtyard",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "raincoat-cat",
+          "action": "observe",
+          "emotion": "afraid",
+          "from": {
+            "x": 470,
+            "y": 550
+          },
+          "to": {
+            "x": 470,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-115cfe3c-e406-4d67-9e87-8ebddb6c6cb0-2",
+      "caption": "脚边暖起来了。",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 2,
+      "sceneId": "sunlit-courtyard",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "raincoat-cat",
+          "action": "perform",
+          "emotion": "curious",
+          "from": {
+            "x": 470,
+            "y": 550
+          },
+          "to": {
+            "x": 470,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 3,
+              "rotation": -0.05,
+              "armL": 0.12,
+              "armR": -0.12,
+              "head": 0.12,
+              "propRotation": 0
+            },
+            {
+              "t": 0.35,
+              "x": 0,
+              "y": 3,
+              "rotation": -0.05,
+              "armL": 0.12,
+              "armR": -0.12,
+              "head": -0.16,
+              "propRotation": 0
+            },
+            {
+              "t": 0.65,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0.45,
+              "armR": -0.45,
+              "head": -0.16,
+              "propRotation": 0
+            },
+            {
+              "t": 1,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0.25,
+              "armR": -0.25,
+              "head": 0,
+              "propRotation": 0
+            }
+          ],
+          "gesture": "仰头舒肩",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-115cfe3c-e406-4d67-9e87-8ebddb6c6cb0-3",
+      "caption": "沿着石板，去窗边。",
+      "action": "walk",
+      "emotion": "happy",
+      "duration": 3,
+      "sceneId": "sunlit-courtyard",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "raincoat-cat",
+          "action": "walk",
+          "emotion": "happy",
+          "from": {
+            "x": 470,
+            "y": 550
+          },
+          "to": {
+            "x": 845,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        },
+        {
+          "characterId": "window-rabbit",
+          "action": "observe",
+          "emotion": "curious",
+          "from": {
+            "x": 1060,
+            "y": 452
+          },
+          "to": {
+            "x": 1060,
+            "y": 452
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-115cfe3c-e406-4d67-9e87-8ebddb6c6cb0-4",
+      "caption": "米米，下午好！",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "sunlit-courtyard",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "raincoat-cat",
+          "action": "wave",
+          "emotion": "happy",
+          "from": {
+            "x": 845,
+            "y": 550
+          },
+          "to": {
+            "x": 845,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        },
+        {
+          "characterId": "window-rabbit",
+          "action": "observe",
+          "emotion": "happy",
+          "from": {
+            "x": 1060,
+            "y": 452
+          },
+          "to": {
+            "x": 1060,
+            "y": 452
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-115cfe3c-e406-4d67-9e87-8ebddb6c6cb0-5",
+      "caption": "一个招呼，满院晴天。",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 3,
+      "sceneId": "sunlit-courtyard",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "raincoat-cat",
+          "action": "perform",
+          "emotion": "happy",
+          "from": {
+            "x": 845,
+            "y": 550
+          },
+          "to": {
+            "x": 845,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0,
+              "armR": -0.4,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "t": 0.22,
+              "x": 0,
+              "y": -6,
+              "rotation": 0.04,
+              "armL": 0.18,
+              "armR": -0.55,
+              "head": -0.1,
+              "propRotation": 0
+            },
+            {
+              "t": 0.45,
+              "x": 0,
+              "y": -6,
+              "rotation": 0.04,
+              "armL": 0.18,
+              "armR": -0.55,
+              "head": -0.1,
+              "propRotation": 0
+            },
+            {
+              "t": 0.65,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0.1,
+              "armR": -0.35,
+              "head": 0.2,
+              "propRotation": 0
+            },
+            {
+              "t": 0.82,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0.1,
+              "armR": -0.35,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "t": 1,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0.1,
+              "armR": -0.35,
+              "head": 0,
+              "propRotation": 0
+            }
+          ],
+          "gesture": "踮脚点头",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        },
+        {
+          "characterId": "window-rabbit",
+          "action": "wave",
+          "emotion": "happy",
+          "from": {
+            "x": 1060,
+            "y": 452
+          },
+          "to": {
+            "x": 1060,
+            "y": 452
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    }
+  ],
+  "creative": {
+    "brief": "一只穿黄色雨衣的小猫在雨后的院子里看到阳光，从担心到开心，走到窗边向朋友挥手。用温暖的手作气质表现情绪变化，画面中实际表现走动与挥手。不要照搬任何原作故事。",
+    "logline": "穿黄色雨衣的小猫发现雨后阳光，放下担心，踩着院子里的干地走到窗边，向兔子朋友挥手。",
+    "narrative": "雨刚停，小猫缩着肩站在院子里，蓝灰色耳朵探出黄色雨衣帽沿，担心地看着水洼。阳光落到脚边，它先仰头确认，再伸开双臂，肩膀慢慢放松。小猫沿着水洼旁的石板走向窗户，尾巴轻轻扬起。看见窗内的兔子朋友，它停稳脚步，举起手挥了挥。兔子立刻挥手回应，小猫开心地踮起脚，又郑重地点了点头。雨后的院子安静下来，两位朋友把小小的招呼挥成了晴天。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-21T06:41:37.562Z",
+    "provider": "本机 Codex"
+  }
+}

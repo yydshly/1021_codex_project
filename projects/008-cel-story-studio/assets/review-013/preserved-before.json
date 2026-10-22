@@ -1,0 +1,38 @@
+[
+  {
+    "path": "web/quality-before-013/synthwave.mp4",
+    "sha256": "d642b25055affb2c11298aa602b71c5771e72197391cf3af49308c251eaf6563"
+  },
+  {
+    "path": "web/quality-before-013/synthwave.jpg",
+    "sha256": "4f74694d28c27adaee5573a3764cc84c768bc65547e8a2275ae31c64886b3844"
+  },
+  {
+    "path": "web/quality-before-013/synthwave.json",
+    "sha256": "3c6f43bd88a1cf5a10753150ee77c7a3a9dba53f03d050a68b1538a922bb3861"
+  },
+  {
+    "path": "web/quality-before-013/pixel.mp4",
+    "sha256": "48adad09c5328ddb943c14c524686e9eb77ccbf2426e057dde3c293bae1268f0"
+  },
+  {
+    "path": "web/quality-before-013/pixel.jpg",
+    "sha256": "bf9cf76b8aa249ea97e0c6562dd2848f4fbb5f1035e0ec192116905c13f90784"
+  },
+  {
+    "path": "web/quality-before-013/pixel.json",
+    "sha256": "93a7f9b7b1853061fdf0702c6d38acb29e4ce0e55b0ab3a125dc87ada3e32abb"
+  },
+  {
+    "path": "web/quality-before-013/hud.mp4",
+    "sha256": "2d8cceaeb8734dc3aea54d960fd0227f333c1b13d3b6b56a5518d2b8f0ea87e8"
+  },
+  {
+    "path": "web/quality-before-013/hud.jpg",
+    "sha256": "07743464dfe642794f39afb636b1834f4a473621a9680732ce6060d743b683b3"
+  },
+  {
+    "path": "web/quality-before-013/hud.json",
+    "sha256": "327fe03b848ff5fd6dd40061a9f3b341129de980717dbff1aff1e6d3113d00d1"
+  }
+]

@@ -1,0 +1,6 @@
+# Preserve license text and whitespace inside the existing GLSL shader strings.
+**/OFL.txt -whitespace
+app/src/effects/hud-film-*.ts whitespace=-blank-at-eol
+app/src/effects/studio-preview.ts whitespace=-blank-at-eol
+# Generated minified modules can contain literal shader whitespace.
+web/chunks/*.js -whitespace

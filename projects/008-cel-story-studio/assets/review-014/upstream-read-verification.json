@@ -1,0 +1,40 @@
+{
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "files": [
+    {
+      "upstream": "demos/05-cel-boil/js/scene.js",
+      "expectedBlobSHA": "cb108789525cc47bdc221c2cffd3fd75207bc34c",
+      "actualBlobSHA": "cb108789525cc47bdc221c2cffd3fd75207bc34c",
+      "verified": true,
+      "SHA256": "c26e7f9119d0e74e28cc3159deb496ff161f66a426829871ef76b9b2bc98e250"
+    },
+    {
+      "upstream": "demos/06-collage/index.html",
+      "expectedBlobSHA": "841cd64bfaaedfc007c94f827aa753dd5718a188",
+      "actualBlobSHA": "841cd64bfaaedfc007c94f827aa753dd5718a188",
+      "verified": true,
+      "SHA256": "1ce00a0c261735d1fb7338a69b82ffe167cf750e723a27e6e21ec7d53c08c6c4"
+    },
+    {
+      "upstream": "demos/18-hanazi/index.html",
+      "expectedBlobSHA": "4e59b645c3aef47c2bab606099aca961521f7ed5",
+      "actualBlobSHA": "4e59b645c3aef47c2bab606099aca961521f7ed5",
+      "verified": true,
+      "SHA256": "8207f8800f0d5d0189a2ab13c5da1c048578aba47110219ff473a792f3ba1f63"
+    },
+    {
+      "upstream": "demos/19-paperclip/index.html",
+      "expectedBlobSHA": "715d0bb1721e5a3b596018a7bbd01063194972f0",
+      "actualBlobSHA": "715d0bb1721e5a3b596018a7bbd01063194972f0",
+      "verified": true,
+      "SHA256": "2d50ad0b67c9472557cad5fa60dc27932e6a4fba09c370f267f51e311eeef4b4"
+    },
+    {
+      "upstream": "demos/20-pixel/film.js",
+      "expectedBlobSHA": "b0e190581a633b23cce13433dd6a58a83b45cc29",
+      "actualBlobSHA": "b0e190581a633b23cce13433dd6a58a83b45cc29",
+      "verified": true,
+      "SHA256": "a11af2464b63b7a3612989425109c219e6a5f59a35d48506e306dc6f24aba4f4"
+    }
+  ]
+}

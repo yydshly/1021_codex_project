@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "aurora-glass",
+  "title": "声波档案",
+  "subtitle": "把一段旋律，封存在折射的光里",
+  "words": [
+    "记录",
+    "折射",
+    "回响"
+  ],
+  "primary": "#d18b55",
+  "secondary": "#8eacbe",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

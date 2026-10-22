@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "generatedDate": "2026-10-21",
+  "generatedOriginal": "D:/codex/home/generated_images/01a15988-0b1f-7a13-8f07-462ca3ad89f3/exec-90edb7da-bf06-43d1-9012-8169289690ed.png",
+  "file": "app/public/effects/solar-atlas-014.png",
+  "sha256": "499dd176f880a94780ba93c3c9564347a309fdcf1d0449360a4f374287a1264a",
+  "size": [
+    2172,
+    724
+  ],
+  "transparent": true,
+  "purpose": "三个等宽独立贴纸：光伏组件、四节电池示意剖面、短杆夜灯；连续能量画布专用素材。",
+  "prompt": "Create one transparent PNG asset atlas for an original Chinese motion graphics explainer about a solar powered night light. Wide canvas, exactly THREE clean isolated photorealistic product cutouts in a horizontal row, equal width cells, ample transparent gutters between them. No text, no labels, no logos, no scenery, no cast shadow outside each product. Everything photographed as coherent premium industrial design, off-white powder coated aluminum, warm charcoal detail, fine tangible materials, soft studio light from upper left, three-quarter view from slightly above. LEFT CELL: one small rectangular blue photovoltaic solar panel with realistic subdivided silicon cells, silver aluminum frame, tilted 20 degrees with a short ivory mounting bracket, readable silhouette. MIDDLE CELL: a squat vertical ivory battery storage module, one side panel intentionally removed in a clean educational cutaway, revealing a group of four green cylindrical cells and simple copper bus connections; simplified illustrative demonstrator, no numbers, no exposed dangerous damage, no loose wires, not an actual marketed product. RIGHT CELL: one compact elegant solar garden streetlight head with a short visible ivory curved neck and short pole section only (NOT a whole tall pole), pale warm yellow illuminated diffuser. Make objects equally large and center in their individual cells. Crisp photographic surface detail, carefully cut out edges, no graphic decorations, no lettering whatsoever. This will be cropped into three stickers and animated in code, so the three subjects must not overlap, must not touch canvas edges and must each occupy only its own third of the image.",
+  "usage": "Canvas运行时按三等份裁切消费，生成白边/投影；未修改原始生成文件。",
+  "boundary": "AI设计示意，不是工程实物、实际安全结构或性能数据。",
+  "factsSources": [
+    "https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics",
+    "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics"
+  ]
+}

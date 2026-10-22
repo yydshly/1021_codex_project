@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-22",
+  "currentTab": "http://127.0.0.1:8048/#styles",
+  "handFeatured": [
+    {
+      "duration": 10.005,
+      "ended": true,
+      "src": "http://127.0.0.1:8048/effect-examples/cel-boil.mp4?v=014",
+      "time": 10.005
+    },
+    {
+      "duration": null,
+      "ended": false,
+      "src": "http://127.0.0.1:8048/reference-effects/media/12-aurora-glass.mp4",
+      "time": 0
+    }
+  ],
+  "handThreeVersions": [
+    {
+      "ended": true,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/reference-effects/media/05-cel-boil.mp4?v=014",
+      "time": 10
+    },
+    {
+      "ended": true,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/quality-before-014/cel-boil.mp4?v=014",
+      "time": 10.005
+    },
+    {
+      "ended": true,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/cel-boil.mp4?v=014",
+      "time": 10.005
+    }
+  ],
+  "report": {
+    "details": 15,
+    "sourceBeforeAfter": true
+  },
+  "exports": {
+    "handmade": [
+      {
+        "href": "http://127.0.0.1:8048/exports/8004d18f-a984-4cc9-96a4-275a0729b8ea.mp4",
+        "text": "下载生成的视频 ↗"
+      }
+    ],
+    "liquid": [
+      {
+        "href": "http://127.0.0.1:8048/exports/3bc041da-5b99-4e23-839e-77e5fd36320b.mp4",
+        "text": "下载生成的视频 ↗"
+      }
+    ],
+    "download": "C:/Users/yun68/Downloads/3bc041da-5b99-4e23-839e-77e5fd36320b.mp4"
+  },
+  "restored": [
+    {
+      "label": "选择独立效果模板",
+      "unchanged": true
+    },
+    {
+      "label": "效果标题",
+      "unchanged": true
+    },
+    {
+      "label": "效果短句",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 1",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 2",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 3",
+      "unchanged": true
+    },
+    {
+      "label": "效果主色",
+      "unchanged": true
+    },
+    {
+      "label": "效果辅助色",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：频谱柱数量",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：波形速度与透镜倍率",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：磨砂采样与色散强度",
+      "unchanged": true
+    },
+    {
+      "label": "效果时长",
+      "unchanged": true
+    },
+    {
+      "label": "加入原创配乐",
+      "unchanged": true
+    }
+  ],
+  "story": {
+    "character": "小禾",
+    "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%",
+    "summary": "12 秒 / 5 镜头 / 24 FPS",
+    "title": "阳台上的小花"
+  },
+  "consoleErrors": [],
+  "scope": "本轮最终15片离线解码与取帧；浏览器完整实播手绘三版，两份自定义导出。未宣称其余14片本轮均在网页完整实播。"
+}

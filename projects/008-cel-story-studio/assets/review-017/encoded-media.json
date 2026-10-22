@@ -1,0 +1,74 @@
+[
+  {
+    "file": "web/story-examples-017/cel-boil-moon.mp4",
+    "sha256": "b7e3a4a54d4ed1e0ab013044fcf1b492a6a684abfcd096916e60deb02389d631",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -26.0 dB",
+      "max_volume: -12.1 dB"
+    ]
+  },
+  {
+    "file": "web/story-examples-017/cel-boil-shelter.mp4",
+    "sha256": "8afd52ac5faf9c56ec8ca18c91eb96fd355ac485abe6697ebcf13cc93c6c3881",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -26.5 dB",
+      "max_volume: -11.3 dB"
+    ]
+  },
+  {
+    "file": "web/story-examples-017/morph-voyage.mp4",
+    "sha256": "95665db70cfb0f0736efdf45a7e8dedb6b8e92a9bddd2417a104b70c4037a179",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -26.6 dB",
+      "max_volume: -12.0 dB"
+    ]
+  },
+  {
+    "file": "web/story-examples-017/morph-weekend.mp4",
+    "sha256": "9ed5ccc9afbb88c6b2259f316653db722f8a5f6f31edb78523a702f4d4fb3733",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -26.0 dB",
+      "max_volume: -9.9 dB"
+    ]
+  },
+  {
+    "file": "web/story-examples-017/aurora-glass-darkroom.mp4",
+    "sha256": "170cfea0a19ca6e2acaddb1efd23c5f6d5537ca61f354b20021d0b8a75ec73ce",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -26.0 dB",
+      "max_volume: -11.1 dB"
+    ]
+  },
+  {
+    "file": "web/story-examples-017/aurora-glass-rainmix.mp4",
+    "sha256": "7b9ed317b71617de026b29925d9b7257859e191bacbc240e6fbf795a95a9d752",
+    "frames": 300,
+    "seconds": 10,
+    "audio": "aac",
+    "fullDecode": true,
+    "audioStats": [
+      "mean_volume: -25.4 dB",
+      "max_volume: -11.4 dB"
+    ]
+  }
+]

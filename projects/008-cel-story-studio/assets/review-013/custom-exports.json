@@ -1,0 +1,52 @@
+{
+  "exports": [
+    {
+      "style": "pixel",
+      "id": "bb2bb7e8-4787-4311-a524-f939d882bdea",
+      "origin": "Actual browser UI export",
+      "video": "web/director-examples/ai-moon-story.mp4",
+      "config": "web/director-examples/ai-moon-story.json",
+      "duration": 10,
+      "frames": 300,
+      "shots": 6,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "9a173dbf8e2ea42e0b041283ede25ddb102fa57a7db79cd678aea73b0bb3e405"
+    },
+    {
+      "style": "synthwave",
+      "id": "a5cd20fe-58ab-4296-b05a-12b11e1364b6",
+      "origin": "Actual browser UI export",
+      "video": "web/director-examples/neon-edit.mp4",
+      "config": "web/director-examples/neon-edit.json",
+      "duration": 6,
+      "frames": 180,
+      "shots": 4,
+      "audio": false,
+      "decode": "passed",
+      "sha256": "7ba1e909718d5493a4628da4cbf4f2bcb9391e88cd90bd72477db4373558fd72"
+    },
+    {
+      "style": "hud",
+      "id": "923a87a8-5c17-4877-a259-9931bb7d3544",
+      "origin": "Actual browser UI export",
+      "video": "web/director-examples/hud-edit.mp4",
+      "config": "web/director-examples/hud-edit.json",
+      "duration": 8,
+      "frames": 240,
+      "shots": 4,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4bcd751752d3b8c6e4cae51f3274bf90f3d3fefc11a40bee6c6578b4f705b9b3"
+    }
+  ],
+  "hudRetry": {
+    "initialJob": "e588185e-c4b2-4dff-ae7b-6b5770c5a9e3",
+    "result": "frame 184 wait timed out at default 33000ms",
+    "change": "Web selection and rendering now use 90000ms, matching the existing media-rendering CLI budget.",
+    "sameConfig": true,
+    "retryJob": "923a87a8-5c17-4877-a259-9931bb7d3544",
+    "retryDecode": "passed",
+    "limit": "One successful same-config retry does not prove all causes of GPU stalls are resolved."
+  }
+}

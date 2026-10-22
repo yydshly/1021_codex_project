@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "aurora-glass",
+  "title": "把蓝调留住",
+  "subtitle": "留住冷影，也留住一束暖光",
+  "words": [
+    "打开",
+    "调色",
+    "收藏"
+  ],
+  "primary": "#5e75dc",
+  "secondary": "#5fc6c3",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "darkroom"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "style": "synthwave",
+    "title": "午夜频率",
+    "start": 0,
+    "end": 10,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "pixel",
+    "title": "月亮修理铺",
+    "start": 10,
+    "end": 20,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "hud",
+    "title": "深蓝回声",
+    "start": 20,
+    "end": 30,
+    "sourceRange": [
+      0,
+      10
+    ]
+  }
+]

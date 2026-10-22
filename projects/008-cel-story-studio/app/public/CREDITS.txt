@@ -1,0 +1,53 @@
+0.18 新增原创角色、环境与音轨：详见 effects/CREDITS.md 与 director-kit-018。
+纸纹 paper.jpg 的来源库 README 将其标注为 CC0/公开领域；上游代码 MIT 不替代素材许可。
+
+纸间故事 / Cel Story Studio
+
+原创内容：可编排故事板、角色造型、七种动作、五种情绪、工作台与合成配乐。
+制作：本仓库的 008-cel-story-studio 实践项目。
+
+绘线引擎 engine.js 与纸纹 paper.jpg：
+来源：Vincentwei1021/mg-styles-15
+版本：49052d80bfaf9fa8412cc9710530e5e95a3b8d8c
+路径：demos/05-cel-boil/js/engine.js
+      demos/05-cel-boil/assets/paper_base.jpg
+许可：MIT，见 UPSTREAM-LICENSE.txt。
+本项目复用底层绘线算法，未复刻原片完整故事与人物动画。
+
+Noto Sans SC：SIL Open Font License 1.1，见 OFL.txt。
+字体来自 Google Fonts / ofl/notosanssc。
+
+simplex-noise：MIT，依赖包保留其许可。
+React：MIT。Remotion 4.0.537：适用其自身许可，见
+https://www.remotion.dev/docs/license
+上游案例的 MIT 不覆盖 Remotion 的使用条件。
+本页所用依赖的授权声明见 THIRD-PARTY-NOTICES.txt 与 REMOTION-LICENSE.md。
+
+音乐与动作音效由 scripts/audio.py 确定性合成，无外部音乐采样。
+
+0.3.0 AI 故事创作：通过本机已登录的 Codex CLI 连接模型服务，生成故事正文与受约束的分镜。
+AI 示例 ai-demo、ai-variant、ai-free 的故事由模型生成，画面仍由本项目 Canvas / Remotion 渲染。
+不包含 AI 生成的位图素材或生成式视频片段。
+
+0.4.0 十五种视觉风格：参考同一上游版本的设计原则，自行编写 14 个 Canvas 风格绘制器。
+逐帧手绘继续复用 MIT 绘线引擎；其余风格没有复制上游完整场景、模型、照片、着色器或 Blender 工程。
+3D 质感与玻璃是二维视觉近似；等轴为 2.5D 投影；液态为轻量 CPU 距离场。
+风格卡片与 style-demos/ 样片均为本项目实际 Remotion 渲染，不是上游影片截图。
+原库研究网页与原始提示词另见 004-mg-styles-explorer。
+
+0.5.0 AI 故事世界：角色、场景与道具的矢量图形由本机 Codex 按具体故事生成；
+动作支持基础行为、物件持有状态与 AI 设计的关节关键帧。
+world-examples/ 内四份故事均调用了真实模型；人工审看时校正前三份的结尾短句及浇花站位／动作名称。
+世界校验、状态编译、骨骼近似、效果、风格适配和工作台为本项目实现。
+这些不是上游素材，也不是生成式视频模型输出；复杂动作与材质仍有边界。
+
+原作效果库 reference-effects/：复用本仓库 004-mg-styles-explorer 的已验证静态研究页，
+包含上述上游版本的 15 支作品、封面、提示词与本地压缩预览；不属于本工作台生成的样片。
+作者 Vincentwei1021，MIT 声明见 reference-effects/UPSTREAM-LICENSE.txt；
+研究页字体为 Noto Sans SC 的重命名子集 Atlas，OFL 见 reference-effects/fonts/OFL.txt。
+Remotion 模板样片继续位于 style-demos/；原作效果库与模板样片均保留独立入口。
+
+0.6.0 风格能力库：十五种视觉语言、表达策略及扩展方向为本项目基于研究整理；
+十七个可组合的 Canvas 舞台组件由本项目实现，分别保留功能边界，预览和导出共用。
+基础画法仍属探索原型；真实三维、物理流体、精细资产编辑等列为待扩展，未宣称已实现。
+capability-library.json 与 STYLE-CAPABILITIES.md 从同一目录生成。

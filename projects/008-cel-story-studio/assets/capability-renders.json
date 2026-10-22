@@ -1,0 +1,230 @@
+[
+  {
+    "engine": "world",
+    "component": "baseline",
+    "frame": 145,
+    "file": "world-baseline.png"
+  },
+  {
+    "engine": "world",
+    "component": "zero",
+    "frame": 145,
+    "file": "world-zero.png"
+  },
+  {
+    "engine": "world",
+    "component": "paper-grain",
+    "frame": 145,
+    "file": "world-paper-grain.png"
+  },
+  {
+    "engine": "world",
+    "component": "ink-border",
+    "frame": 145,
+    "file": "world-ink-border.png"
+  },
+  {
+    "engine": "world",
+    "component": "focus-halo",
+    "frame": 145,
+    "file": "world-focus-halo.png"
+  },
+  {
+    "engine": "world",
+    "component": "line-trail",
+    "frame": 145,
+    "file": "world-line-trail.png"
+  },
+  {
+    "engine": "world",
+    "component": "iso-grid",
+    "frame": 145,
+    "file": "world-iso-grid.png"
+  },
+  {
+    "engine": "world",
+    "component": "soft-spotlight",
+    "frame": 145,
+    "file": "world-soft-spotlight.png"
+  },
+  {
+    "engine": "world",
+    "component": "collage-note",
+    "frame": 145,
+    "file": "world-collage-note.png"
+  },
+  {
+    "engine": "world",
+    "component": "ripple",
+    "frame": 145,
+    "file": "world-ripple.png"
+  },
+  {
+    "engine": "world",
+    "component": "shape-echo",
+    "frame": 145,
+    "file": "world-shape-echo.png"
+  },
+  {
+    "engine": "world",
+    "component": "geometric-beat",
+    "frame": 145,
+    "file": "world-geometric-beat.png"
+  },
+  {
+    "engine": "world",
+    "component": "neon-scan",
+    "frame": 145,
+    "file": "world-neon-scan.png"
+  },
+  {
+    "engine": "world",
+    "component": "aurora-veil",
+    "frame": 145,
+    "file": "world-aurora-veil.png"
+  },
+  {
+    "engine": "world",
+    "component": "emotion-tag",
+    "frame": 145,
+    "file": "world-emotion-tag.png"
+  },
+  {
+    "engine": "world",
+    "component": "step-badge",
+    "frame": 145,
+    "file": "world-step-badge.png"
+  },
+  {
+    "engine": "world",
+    "component": "pixel-sparks",
+    "frame": 145,
+    "file": "world-pixel-sparks.png"
+  },
+  {
+    "engine": "world",
+    "component": "tracking-frame",
+    "frame": 145,
+    "file": "world-tracking-frame.png"
+  },
+  {
+    "engine": "world",
+    "component": "camera-push",
+    "frame": 145,
+    "file": "world-camera-push.png"
+  },
+  {
+    "engine": "classic",
+    "component": "baseline",
+    "frame": 36,
+    "file": "classic-baseline.png"
+  },
+  {
+    "engine": "classic",
+    "component": "zero",
+    "frame": 36,
+    "file": "classic-zero.png"
+  },
+  {
+    "engine": "classic",
+    "component": "paper-grain",
+    "frame": 36,
+    "file": "classic-paper-grain.png"
+  },
+  {
+    "engine": "classic",
+    "component": "ink-border",
+    "frame": 36,
+    "file": "classic-ink-border.png"
+  },
+  {
+    "engine": "classic",
+    "component": "focus-halo",
+    "frame": 36,
+    "file": "classic-focus-halo.png"
+  },
+  {
+    "engine": "classic",
+    "component": "line-trail",
+    "frame": 36,
+    "file": "classic-line-trail.png"
+  },
+  {
+    "engine": "classic",
+    "component": "iso-grid",
+    "frame": 36,
+    "file": "classic-iso-grid.png"
+  },
+  {
+    "engine": "classic",
+    "component": "soft-spotlight",
+    "frame": 36,
+    "file": "classic-soft-spotlight.png"
+  },
+  {
+    "engine": "classic",
+    "component": "collage-note",
+    "frame": 36,
+    "file": "classic-collage-note.png"
+  },
+  {
+    "engine": "classic",
+    "component": "ripple",
+    "frame": 36,
+    "file": "classic-ripple.png"
+  },
+  {
+    "engine": "classic",
+    "component": "shape-echo",
+    "frame": 36,
+    "file": "classic-shape-echo.png"
+  },
+  {
+    "engine": "classic",
+    "component": "geometric-beat",
+    "frame": 36,
+    "file": "classic-geometric-beat.png"
+  },
+  {
+    "engine": "classic",
+    "component": "neon-scan",
+    "frame": 36,
+    "file": "classic-neon-scan.png"
+  },
+  {
+    "engine": "classic",
+    "component": "aurora-veil",
+    "frame": 36,
+    "file": "classic-aurora-veil.png"
+  },
+  {
+    "engine": "classic",
+    "component": "emotion-tag",
+    "frame": 36,
+    "file": "classic-emotion-tag.png"
+  },
+  {
+    "engine": "classic",
+    "component": "step-badge",
+    "frame": 36,
+    "file": "classic-step-badge.png"
+  },
+  {
+    "engine": "classic",
+    "component": "pixel-sparks",
+    "frame": 36,
+    "file": "classic-pixel-sparks.png"
+  },
+  {
+    "engine": "classic",
+    "component": "tracking-frame",
+    "frame": 36,
+    "file": "classic-tracking-frame.png"
+  },
+  {
+    "engine": "classic",
+    "component": "camera-push",
+    "frame": 36,
+    "file": "classic-camera-push.png"
+  }
+]

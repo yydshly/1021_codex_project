@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "collage",
+  "title": "深海电台",
+  "subtitle": "调低世界的音量，听见海底的频率",
+  "words": [
+    "调频",
+    "下潜",
+    "听见"
+  ],
+  "primary": "#ff7550",
+  "secondary": "#68cbd5",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

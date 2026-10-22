@@ -1,0 +1,152 @@
+[
+  {
+    "style": "flat-vector",
+    "engine": "Canvas · 几何构成",
+    "frame": 280,
+    "config": "effect-examples/flat-vector.json",
+    "poster": "effect-examples/flat-vector.jpg",
+    "video": "effect-examples/flat-vector.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:46:01.080Z"
+  },
+  {
+    "style": "line-art",
+    "engine": "Canvas 路径",
+    "frame": 280,
+    "config": "effect-examples/line-art.json",
+    "poster": "effect-examples/line-art.jpg",
+    "video": "effect-examples/line-art.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:46:48.141Z"
+  },
+  {
+    "style": "isometric",
+    "engine": "Three.js · 机械微缩世界",
+    "frame": 240,
+    "config": "effect-examples/isometric.json",
+    "poster": "effect-examples/isometric.jpg",
+    "video": "effect-examples/isometric.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:47:39.434Z"
+  },
+  {
+    "style": "collage",
+    "engine": "Canvas · 分层纸偶与折面",
+    "frame": 168,
+    "config": "effect-examples/collage.json",
+    "poster": "effect-examples/collage.jpg",
+    "video": "effect-examples/collage.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:49:01.227Z"
+  },
+  {
+    "style": "morph",
+    "engine": "Canvas · 多部件连续形变",
+    "frame": 280,
+    "config": "effect-examples/morph.json",
+    "poster": "effect-examples/morph.jpg",
+    "video": "effect-examples/morph.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:49:18.471Z"
+  },
+  {
+    "style": "bauhaus",
+    "engine": "Canvas · 几何游乐场编舞",
+    "frame": 273,
+    "config": "effect-examples/bauhaus.json",
+    "poster": "effect-examples/bauhaus.jpg",
+    "video": "effect-examples/bauhaus.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:49:39.598Z"
+  },
+  {
+    "style": "aurora-glass",
+    "engine": "WebGL · 背景采样折射",
+    "frame": 105,
+    "config": "effect-examples/aurora-glass.json",
+    "poster": "effect-examples/aurora-glass.jpg",
+    "video": "effect-examples/aurora-glass.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:50:45.422Z"
+  },
+  {
+    "style": "hanazi",
+    "engine": "Canvas · 反应剪辑与综艺字版",
+    "frame": 280,
+    "config": "effect-examples/hanazi.json",
+    "poster": "effect-examples/hanazi.jpg",
+    "video": "effect-examples/hanazi.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T14:51:04.526Z"
+  },
+  {
+    "style": "synthwave",
+    "engine": "Three.js · 机械磁带与光轨",
+    "frame": 270,
+    "config": "effect-examples/synthwave.json",
+    "poster": "effect-examples/synthwave.jpg",
+    "video": "effect-examples/synthwave.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T16:08:31.645Z"
+  },
+  {
+    "style": "paperclip",
+    "engine": "Canvas · 连续画布与产品贴纸",
+    "frame": 280,
+    "config": "effect-examples/paperclip.json",
+    "poster": "effect-examples/paperclip.jpg",
+    "video": "effect-examples/paperclip.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T16:08:52.034Z"
+  },
+  {
+    "style": "pixel",
+    "engine": "Canvas · 原创像素故事",
+    "frame": 280,
+    "config": "effect-examples/pixel.json",
+    "poster": "effect-examples/pixel.jpg",
+    "video": "effect-examples/pixel.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T16:09:06.262Z"
+  },
+  {
+    "style": "cel-boil",
+    "engine": "Canvas · 角色逐帧表演",
+    "frame": 270,
+    "config": "effect-examples/cel-boil.json",
+    "poster": "effect-examples/cel-boil.jpg",
+    "video": "effect-examples/cel-boil.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T16:12:19.000Z"
+  },
+  {
+    "style": "3d-render",
+    "engine": "Blender / Cycles · 电影材质",
+    "frame": 222,
+    "config": "effect-examples/3d-render.json",
+    "poster": "effect-examples/3d-render.jpg",
+    "video": "effect-examples/3d-render.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T16:14:40.041Z"
+  },
+  {
+    "style": "liquid",
+    "engine": "WebGL · 三维液桥曲面",
+    "frame": 240,
+    "config": "effect-examples/liquid.json",
+    "poster": "effect-examples/liquid.jpg",
+    "video": "effect-examples/liquid.mp4",
+    "variants": true,
+    "verifiedAt": "2026-10-21T17:40:58.100Z"
+  },
+  {
+    "style": "hud",
+    "engine": "Three.js · 深海目标与同步 HUD",
+    "frame": 270,
+    "config": "effect-examples/hud.json",
+    "poster": "effect-examples/hud.jpg",
+    "video": "effect-examples/hud.mp4",
+    "variants": false,
+    "verifiedAt": "2026-10-21T17:43:43.697Z"
+  }
+]

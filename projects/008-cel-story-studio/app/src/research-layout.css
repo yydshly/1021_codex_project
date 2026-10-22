@@ -1,0 +1,11 @@
+.effect-summary-archive{margin:30px 0;border-top:1px solid #d5d7c8;border-bottom:1px solid #d5d7c8;color:#26423c;scroll-margin-top:24px}
+.effect-summary-archive>summary{cursor:pointer;padding:22px 4px;font-size:16px;font-weight:600;line-height:1.7}
+.effect-summary-archive>summary>span{font-size:12px;font-weight:400;color:#637269;margin-left:18px}
+.effect-summary-archive>div{padding-bottom:28px}
+.effect-summary-archive .quality-focus,.effect-summary-archive .material-premiere{margin-top:18px}
+.effect-workflow-nav{scroll-margin-top:24px}
+#effects-production,#effects-settings,#effects-gallery{scroll-margin-top:25px}
+.f018-summary-nav{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.f018-summary-nav>a{font-size:12px;text-decoration:none}
+.studio-nav{flex-wrap:wrap}
+@media(max-width:650px){.effect-summary-archive>summary>span{display:block;margin-left:18px}.f018-top{align-items:flex-start;gap:20px}.f018-summary-nav{gap:12px;justify-content:flex-end}.f018-summary-nav>a,.f018-summary-nav>button{font-size:10px}}

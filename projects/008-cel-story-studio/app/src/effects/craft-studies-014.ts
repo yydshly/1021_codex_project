@@ -1,0 +1,7 @@
+import type {StyleId} from '../../scripts/styles.mjs';
+export const craftStudies014:{id:StyleId;title:string;premise:string;climax:string;frames:{file:string;time:string;line:string}[];beats:string[]}[]=[
+ {id:'cel-boil',title:'借一点风',premise:'想吹散一朵蒲公英，却被风卷走。抓住一颗种子，也就有了新的出发。',climax:'八套角色轮廓分别承担吸气、压缩、吹气、失重、翻滚和抓取；不是给同一侧身角色换一层抖线。',frames:[{file:'craft-cel-boil-056.jpg',time:'01.9',line:'压缩蓄力'},{file:'craft-cel-boil-117.jpg',time:'03.9',line:'被风卷起'},{file:'craft-cel-boil-270.jpg',time:'09.0',line:'借风远行'}],beats:['意外','吸气','吹开','翻滚','抓住','漂浮']},
+ {id:'liquid',title:'流动的桥',premise:'两滴液体落在不同支点，柔软的液膜在空中连接彼此。',climax:'薄冠、积液、中央变薄的拱膜、细颈断裂与延迟卫星滴，让“液态”通过行为被看见。',frames:[{file:'craft-liquid-044.jpg',time:'01.5',line:'撞击薄冠'},{file:'craft-liquid-183.jpg',time:'06.1',line:'细颈断开'},{file:'craft-liquid-282.jpg',time:'09.4',line:'连接两端'}],beats:['落滴','薄冠','拉起','牵桥','断颈','回弹']},
+ {id:'morph',title:'把晴天放飞',premise:'同一片布，从雨伞成为热气球，再收成一只风筝。',climax:'伞骨变吊索，弯钩变吊篮，吊篮再变飘带。外轮廓与内部结构共同接力，最后由风筝牵出晴天海报。',frames:[{file:'craft-morph-048.jpg',time:'01.6',line:'雨滴撑伞'},{file:'craft-morph-138.jpg',time:'04.6',line:'布面鼓胀'},{file:'craft-morph-280.jpg',time:'09.3',line:'放飞晴天'}],beats:['落雨','撑开','鼓胀','升起','受风','放飞']},
+ {id:'collage',title:'深海电台',premise:'拧一下收音机，让扬声器翻开成海沟；一盏灯唤醒水母的合唱。',climax:'外缘固定的纸锥折面、分节纸偶抓梯和纸层回收，使素材之间发生接触与回应。',frames:[{file:'craft-collage-069.jpg',time:'02.3',line:'纸锥开海'},{file:'craft-collage-201.jpg',time:'06.7',line:'提灯唤醒'},{file:'craft-collage-273.jpg',time:'09.1',line:'收成封面'}],beats:['调频','翻面','下潜','提灯','回响','回收']}
+];

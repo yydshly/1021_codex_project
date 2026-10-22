@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "createdAt": "2026-10-22T05:40:31.188Z",
+  "assetPack": "ink-whale-018",
+  "sourceFiles": 4,
+  "assetFiles": 8,
+  "composition": "FlagshipFilm",
+  "remotion": "4.0.537",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 334,
+      "sha256": "d19e43647a9e22a4682bd7673ce5ab5f8c95dd18de9a9c63dd98a3065806f0db"
+    },
+    {
+      "path": "assets/demo-project/.gitignore",
+      "bytes": 27,
+      "sha256": "4b011b7d32561399ef558ff18823a8f00a920be73b32e324fe4697cf5763dcfe"
+    },
+    {
+      "path": "assets/demo-project/ASSET-GENERATION.json",
+      "bytes": 3165,
+      "sha256": "efe47be7cee6a32d730ce58a3e7de35c499f00b5747481ea9b3adce792defbb9"
+    },
+    {
+      "path": "assets/demo-project/default-config.json",
+      "bytes": 1315,
+      "sha256": "5f98e509c6a79e013e7f3db395aea298b21c99944aa75944213133d1f3bd02df"
+    },
+    {
+      "path": "assets/demo-project/LICENSES.md",
+      "bytes": 2021,
+      "sha256": "1bb22074b339f2ad35132bb5fbc164aa7ead034bb8b3dae469a5bcc64cea2973"
+    },
+    {
+      "path": "assets/demo-project/package-lock.json",
+      "bytes": 145159,
+      "sha256": "80f929a00ea314ea34e1caba65f16b4f2da7c49ebc18e0437c8a25d1b5fede88"
+    },
+    {
+      "path": "assets/demo-project/package.json",
+      "bytes": 671,
+      "sha256": "0c401b396ddc21b83c3c733c640e9ba2b5dfed19d44f21189146092d8696c552"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/bed.wav",
+      "bytes": 5760044,
+      "sha256": "0d33247ec56b1bea28ac24671f45daf4bc602270c4502190285c62de87c0b2a2"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/cue-draw.wav",
+      "bytes": 576044,
+      "sha256": "399d481378fdb775d778497cad2b6da68e571d713783fda0c36e1e0fe2ed7cf6"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/cue-farewell.wav",
+      "bytes": 576044,
+      "sha256": "859434dfc1a27f6dab4bba4dcf3e4295e39921862cf984ced9915f156ee45098"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/cue-leap.wav",
+      "bytes": 576044,
+      "sha256": "d23bad6c1aac136deeac974662adc750f3f2d503cdec94a68e6da42b51f3667a"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/cue-notice.wav",
+      "bytes": 576044,
+      "sha256": "050c516f9ea225082e88df467ea4202de9ffa1f9b4bf3b1afa433b8e59dd4487"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/cue-unfold.wav",
+      "bytes": 576044,
+      "sha256": "33263a562f6f47d8f6f46314a8a0cf2084e3c3c815754f898d9abff83255550b"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/ocean.png",
+      "bytes": 2797185,
+      "sha256": "ed719b3a8b47769e487efdcc3b12b96b63faff09bbac6ed6f7dfb610bbe98c06"
+    },
+    {
+      "path": "assets/demo-project/public/director-018/workshop.png",
+      "bytes": 2648302,
+      "sha256": "35209b4af3af2f7ff8b111cb3906209b673dec4b6efd066cba08fb3d224d7680"
+    },
+    {
+      "path": "assets/demo-project/public/NotoSansSC.ttf",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/demo-project/public/OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/demo-project/public/paper.jpg",
+      "bytes": 483747,
+      "sha256": "756bcd3c97f0a3a477988fab2c5893dcf20ca6fa4705348df786832191f0d296"
+    },
+    {
+      "path": "assets/demo-project/README.md",
+      "bytes": 3328,
+      "sha256": "c162c26558e97b3d0cb4524eb5d2483f07b6c1508f6e6fa2df0d5b1dd8c611db"
+    },
+    {
+      "path": "assets/demo-project/REMOTION-LICENSE.md",
+      "bytes": 2823,
+      "sha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673"
+    },
+    {
+      "path": "assets/demo-project/render.mjs",
+      "bytes": 3599,
+      "sha256": "2aea8add02106f2b3179334f673da9f892f69122965141049873a80b37805268"
+    },
+    {
+      "path": "assets/demo-project/scripts/flagship-schema.d.mts",
+      "bytes": 930,
+      "sha256": "20cb2d20d69a48bcbe50b29206d39564c0d6c1e85b6fd5042b46cb08ec18ea4a"
+    },
+    {
+      "path": "assets/demo-project/scripts/flagship-schema.mjs",
+      "bytes": 3654,
+      "sha256": "bcc4bd5639d3fb5fc729d6d0d1b3f3610b5abcaad7fd0a75adafd9d3dcf6d249"
+    },
+    {
+      "path": "assets/demo-project/src/flagship/actors-018.ts",
+      "bytes": 13568,
+      "sha256": "78d976246cc414ba09d4133ed895e6955fbe1993f788f0e8d2063f3a34c0f1f8"
+    },
+    {
+      "path": "assets/demo-project/src/flagship/FlagshipFilm.tsx",
+      "bytes": 2318,
+      "sha256": "eef1701742d29b216fca76f5397cc8b35c37ae269b30b3615733d7ca6ccc6486"
+    },
+    {
+      "path": "assets/demo-project/src/flagship/paint-018.ts",
+      "bytes": 9693,
+      "sha256": "908682b35ab7b4955899f6dc67df68af676790b341152ddf50bcc500a9fa6b4e"
+    },
+    {
+      "path": "assets/demo-project/src/flagship/performance-018.ts",
+      "bytes": 1695,
+      "sha256": "d0d7dc76cdb4c5e5c8c841257e9d083bae5c35cfa78e5e5d5ddbb832c30e986f"
+    },
+    {
+      "path": "assets/demo-project/src/index.tsx",
+      "bytes": 625,
+      "sha256": "1ac4f5593cf43e6da049656b7f9a85a078aa13058eac6a3a7d1f0a9763711422"
+    },
+    {
+      "path": "assets/demo-project/THIRD-PARTY-NOTICES.txt",
+      "bytes": 3304,
+      "sha256": "36496ff177f2f2963d7b71941d523bbab11cde9f41440f2cfa911c959b4051bf"
+    },
+    {
+      "path": "assets/demo-project/tsconfig.json",
+      "bytes": 300,
+      "sha256": "9321724c2df3e69c79b52ea2a99903121682375f6aa1cb2c2f90b46e6b4c3a6c"
+    },
+    {
+      "path": "assets/demo-project/UPSTREAM-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932"
+    },
+    {
+      "path": "references/example-contract.md",
+      "bytes": 2699,
+      "sha256": "fcb0298e8b29632fe5658d89c955ba8b435916d11271d4750e9705a03cb0a650"
+    },
+    {
+      "path": "references/quality-gates.md",
+      "bytes": 2820,
+      "sha256": "b927a7f62e4cccd74118ec90d4488ce9efa437920ab17772f7e2dd001daf45fd"
+    },
+    {
+      "path": "references/story-design.md",
+      "bytes": 3396,
+      "sha256": "28ff9d6e04d5dfa9ab916caab8cea39c38524b577246f413af4f72d8a938f340"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4138,
+      "sha256": "2e34b22e01afef5ed12ed4b203085cfefb55eb2bd86f64cc9733a40a4113886a"
+    }
+  ]
+}

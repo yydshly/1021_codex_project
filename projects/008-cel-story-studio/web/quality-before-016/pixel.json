@@ -1,0 +1,50 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "pixel",
+  "title": "月亮修理铺",
+  "subtitle": "总有人，把夜里的裂缝补成光",
+  "words": [
+    "接月",
+    "补月",
+    "亮灯"
+  ],
+  "primary": "#f3bb64",
+  "secondary": "#79c6bf",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "shots": [
+    {
+      "id": "pixel-1",
+      "action": "catch",
+      "seconds": 2.5,
+      "caption": "今晚的月亮，好像坏了",
+      "framing": "close"
+    },
+    {
+      "id": "pixel-2",
+      "action": "repair",
+      "seconds": 2.5,
+      "caption": "叮——再补上一点光",
+      "framing": "close"
+    },
+    {
+      "id": "pixel-3",
+      "action": "launch",
+      "seconds": 2.5,
+      "caption": "准备好了，回到天上吧",
+      "framing": "wide"
+    },
+    {
+      "id": "pixel-4",
+      "action": "illuminate",
+      "seconds": 2.5,
+      "caption": "把好梦，送回每一扇窗",
+      "framing": "wide"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-10-22",
+  "model": "not exposed",
+  "seed": "not exposed",
+  "prompts": [
+    "Original full-bleed horizontal 16:9 picture-book environment illustration, premium hand-painted gouache with colored pencil and dry-brush edges on warm textured ivory paper. A small coastal artist's workshop in late afternoon, seen at a gentle front three-quarter angle. Quiet tall window on left casts broad soft honey light, muted sage-green wall, a few tasteful shelves with ceramic paint pots and worn sketchbooks on right, a loosely pinned blue seascape study without text. The foreground is one spacious honey-wood drawing desk, broad nearly empty tabletop occupying lower 40 percent, its rear edge around 58 percent height. Keep the middle and right of this desk visually clear and pale, and leave open breathing room around center-left for a separately animated small fox. Atmosphere intimate, patiently made, curious, tender, sophisticated editorial storybook illustration. Restrained warm parchment, sage, dusty teal and burnt sienna, nuanced pigment pooling, visible paper fibers, believable soft contact shadows, depth through light and overlapping objects, not simplistic flat clip-art. Environment plate only: absolutely NO people, NO animals, NO characters, NO whale, NO brushes, NO ink bowl, NO sheets of paper on tabletop, NO text, NO letters, NO logos, NO frames. Do not put any important object in the clear foreground animation area. The environment must support an animated character painting a sea on a blank page.",
+    "Original full-bleed horizontal 16:9 hand-painted gouache and colored-pencil picture-book seascape, premium editorial animation background on softly textured warm ivory watercolor paper. A whole imagined ocean opening at twilight, welcoming and expansive. Layered broad flowing teal and indigo waves sweep diagonally from lower left toward distant right, thin creamy dry-brush foam, subtle translucent pigment and elegant curved wave paths. A tiny coastal village with a few warm apricot windows sits on distant low cliffs at far left, small enough to remain atmosphere. Dusk sky transitions from soft pale peach near horizon to dusty blue-lavender above, a few sweeping warm clouds, vast calm negative space over center-right water for a separately animated whale. Quiet wonder after a small act of kindness; warm light is carried through cool blue water. Rich hand-painted detail and material, restrained color palette, readable depth, no photorealism, no plastic 3D, no vector clip-art. Environment only: absolutely NO animals, NO whales, NO birds, NO people, NO boats, NO lettering, NO logos, NO border. Maintain a large uncluttered ocean region from center to right so an animated whale can travel there. Natural elegant perspective, cinematic 16:9 composition."
+  ],
+  "roles": [
+    "workshop environment plate",
+    "ocean environment plate"
+  ],
+  "animation": "Original procedural Canvas actors and Remotion timing. These are background stills, not AI-generated video.",
+  "paths": [
+    "app/public/director-018/workshop.png",
+    "app/public/director-018/ocean.png"
+  ]
+}

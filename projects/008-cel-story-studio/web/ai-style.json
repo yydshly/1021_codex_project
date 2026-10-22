@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "title": "慢慢也能到达",
+  "signature": "给勇气一点时间",
+  "style": "pixel",
+  "character": "drop",
+  "palette": "lake",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-e2e8cfe8-d93e-4164-b7d4-ee28c6785c94-1",
+      "caption": "小水滴好奇地望着未亮的星星",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 2
+    },
+    {
+      "id": "ai-e2e8cfe8-d93e-4164-b7d4-ee28c6785c94-2",
+      "caption": "走到山前，小水滴害怕起来",
+      "action": "walk",
+      "emotion": "afraid",
+      "duration": 2
+    },
+    {
+      "id": "ai-e2e8cfe8-d93e-4164-b7d4-ee28c6785c94-3",
+      "caption": "起跳未过山，落回原处很难过",
+      "action": "fail",
+      "emotion": "sad",
+      "duration": 3
+    },
+    {
+      "id": "ai-e2e8cfe8-d93e-4164-b7d4-ee28c6785c94-4",
+      "caption": "决心换个办法，缓缓漂过小山",
+      "action": "float",
+      "emotion": "determined",
+      "duration": 3
+    },
+    {
+      "id": "ai-e2e8cfe8-d93e-4164-b7d4-ee28c6785c94-5",
+      "caption": "开心举起双手，点亮星星",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 2
+    }
+  ],
+  "creative": {
+    "brief": "一个小水滴害怕跨过小山，尝试失败后换个办法，最终开心地点亮星星。",
+    "logline": "小水滴想点亮山那边的星星，跨越失败后改用轻柔漂浮，终于抵达。",
+    "narrative": "固定的像素画面里，小水滴停在地面上，好奇地望着小山另一边尚未亮起的星星。它想去点亮星星，便摆动手脚向前走，却在山前害怕起来。它仍试着向前起跳，但没能越过山，落回起跳处附近，难过地垂下身子。接着，它决定换一种办法，从落回的位置沿柔和的弧线缓缓漂过小山，再慢慢落到另一边的地面。终于到达的小水滴开心地举起双手，点亮了星星；温柔的像素光留在画面里。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T17:42:19.835Z",
+    "provider": "本机 Codex"
+  }
+}

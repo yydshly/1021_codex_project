@@ -1,0 +1,152 @@
+[
+  {
+    "style": "cel-boil",
+    "title": "借一点风",
+    "start": 0,
+    "end": 3,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "liquid",
+    "title": "流动的桥",
+    "start": 3,
+    "end": 6,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "morph",
+    "title": "把晴天放飞",
+    "start": 6,
+    "end": 9,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "collage",
+    "title": "深海电台",
+    "start": 9,
+    "end": 12,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "line-art",
+    "title": "把海写成星空",
+    "start": 12,
+    "end": 15,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "bauhaus",
+    "title": "纸上游乐场",
+    "start": 15,
+    "end": 18,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "hanazi",
+    "title": "别急，先喝一口",
+    "start": 18,
+    "end": 21,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "paperclip",
+    "title": "白天的光，夜里的灯",
+    "start": 21,
+    "end": 24,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "aurora-glass",
+    "title": "折光电台",
+    "start": 24,
+    "end": 27,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "isometric",
+    "title": "声音制造局",
+    "start": 27,
+    "end": 30,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "3d-render",
+    "title": "磁场花开",
+    "start": 30,
+    "end": 33,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "flat-vector",
+    "title": "橘子有引力",
+    "start": 33,
+    "end": 36,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "synthwave",
+    "title": "午夜频率",
+    "start": 36,
+    "end": 39,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "pixel",
+    "title": "月亮修理铺",
+    "start": 39,
+    "end": 42,
+    "sourceRange": [
+      2,
+      5
+    ]
+  },
+  {
+    "style": "hud",
+    "title": "深蓝回声",
+    "start": 42,
+    "end": 45,
+    "sourceRange": [
+      2,
+      5
+    ]
+  }
+]

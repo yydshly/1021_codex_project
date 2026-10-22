@@ -1,0 +1,20 @@
+{
+  "revision": "0.17",
+  "created": "2026-10-22",
+  "mediaType": "single bitmap source photograph, not a generated video",
+  "asset": "coast-017.png",
+  "tool": "image_gen.imagegen",
+  "model": "not returned by tool",
+  "seed": "not returned by tool",
+  "references": [],
+  "transparent_background": false,
+  "prompt": "Create one original premium editorial landscape photograph, horizontal 3:2 composition, for a photo editing software demo (photograph only, absolutely no UI, no borders, no typography, no collage). A solitary white stone lighthouse on a rugged coastal headland at blue hour immediately after rain. A winding pale footpath in lower left leads across dark sea-grass to the lighthouse positioned on the right third. Atlantic sea on left, subtle long-exposure waves, distant misty islands. Quiet copper sunlight peeks through broken cloud near horizon behind the lighthouse; small warm amber lantern in tower. Cool slate blue shadows, subdued sage vegetation, soft ivory cloud, naturally restrained contrast and nuanced real texture, premium medium format travel photography, visually readable structure at small size, authentic perspective, no people, no logos. Preserve highlights and shadow information for later color grading. Emotional intent: calm discovery after a storm, room to breathe, subtle wonder rather than dramatic fantasy.",
+  "outputSize": [
+    1536,
+    1024
+  ],
+  "sha256": "6c7d12cbb2aa8e8a597ad2b5cfb80bbfb2244ff3ee86cbbb465a40090f213f33",
+  "movieProcess": "Remotion frame rendering; Canvas character and contour drawings; WebGL complete-scene compositing and screen-space refraction. Photo copied unchanged; timed display grading is performed in the Canvas content renderer.",
+  "sound": "six original deterministic numpy event scores; ffmpeg loudnorm target -19 LUFS, -2 dBTP, then Remotion fades and AAC encoding. No recorded performance; no claim of professional listening approval.",
+  "upstream": "mg-styles-15 fixed commit 49052d80bfaf9fa8412cc9710530e5e95a3b8d8c / MIT, source ink engine retained with notices."
+}

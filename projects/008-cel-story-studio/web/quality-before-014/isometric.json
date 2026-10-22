@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "isometric",
+  "title": "声音制造局",
+  "subtitle": "一个小小的声音，唤醒整座世界",
+  "words": [
+    "入轨",
+    "合奏",
+    "揭晓"
+  ],
+  "primary": "#ef6c51",
+  "secondary": "#87c9b4",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

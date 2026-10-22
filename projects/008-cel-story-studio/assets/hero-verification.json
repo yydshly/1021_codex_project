@@ -1,0 +1,127 @@
+{
+  "version": "0.11.0",
+  "films": [
+    {
+      "file": "web/effect-examples/3d-render.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4872053c732bd24eb78d825a9903dbcfa427f983c55d2c87948c1db9888224b2"
+    },
+    {
+      "file": "web/effect-examples/isometric.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "f32dca464220de1324dde3d6f85ef8297173afe91a658b65bfcf1103469964b4"
+    }
+  ],
+  "previousFilms": [
+    {
+      "file": "web/quality-before-011/3d-render.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "ac3efa670aaf0b45c129e5f5de26c06979bfbb86933ba6b5c09de4f33d8a74cb"
+    },
+    {
+      "file": "web/quality-before-011/isometric.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "d587f2ee498f3460ea47d1586bc7edfa61cebb33585dbb1b92ba687edc40ff7c"
+    }
+  ],
+  "reels": [
+    {
+      "file": "web/effect-examples/hero-reel.mp4",
+      "frames": 600,
+      "duration": 20.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c"
+    },
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "frames": 4500,
+      "duration": 150.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "e2a04a2c98b2cf96be7c8dc4bc8ca2f8314ba93f6b7ccba59b01cb3d48c7efb9"
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "frames": 1350,
+      "duration": 45.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4c156f1aaea975952b6e052d4f24733c21a2d91f7448365a1737ff10d38949c4"
+    }
+  ],
+  "preservedOtherFilms": 13,
+  "customExports": [
+    {
+      "file": "app/exports/92e317a2-2c12-4a99-9966-653a101e054a.mp4",
+      "frames": 180,
+      "duration": 6.0,
+      "audio": false,
+      "decode": "passed",
+      "sha256": "389df929508d1866fba9bbe59c924e0285f6bdaeb297c384faf1ef72b2389786",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "3d-render",
+        "title": "引力之外",
+        "subtitle": "无形的力，让碎片找到彼此",
+        "words": [
+          "唤醒",
+          "失衡",
+          "绽放"
+        ],
+        "primary": "#f16f54",
+        "secondary": "#72c9bd",
+        "count": 3,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 6,
+        "sound": false
+      }
+    },
+    {
+      "file": "app/exports/c42c7dbb-5707-426c-9884-a0bad050b023.mp4",
+      "frames": 180,
+      "duration": 6.016,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "2507731caed9cd399bdab33e2abbee167463da60067c01a6d505b6b75b349da5",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "isometric",
+        "title": "一枚声音的旅行",
+        "subtitle": "用小小的节拍，启动今天",
+        "words": [
+          "入轨",
+          "合奏",
+          "揭晓"
+        ],
+        "primary": "#ef6c51",
+        "secondary": "#87c9b4",
+        "count": 14,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 6,
+        "sound": true
+      }
+    }
+  ],
+  "browser": "hero-browser-checks.json",
+  "story": "hero-story-retention.json",
+  "artReview": "Actual film frames inspected, including camera transitions. Media and parameter checks are not aesthetic ratings."
+}

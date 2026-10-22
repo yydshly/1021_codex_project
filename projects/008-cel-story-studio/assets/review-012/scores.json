@@ -1,0 +1,98 @@
+[
+  {
+    "file": "score-flat-vector.wav",
+    "events": [
+      0.3,
+      2.5,
+      5.6,
+      7.6
+    ],
+    "sequence": "citrus cut / slices / pouring / title",
+    "LUFS": "-16.38",
+    "truePeakDBTP": "-1.82",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-line-art.wav",
+    "events": [
+      0.15,
+      2.7,
+      5.8,
+      8.2
+    ],
+    "sequence": "pen / breach / stars / close",
+    "LUFS": "-15.99",
+    "truePeakDBTP": "-3.18",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-morph.wav",
+    "events": [
+      0.2,
+      2.2,
+      5.3,
+      7.4
+    ],
+    "sequence": "fish / bird / leaf / release",
+    "LUFS": "-16.35",
+    "truePeakDBTP": "-1.80",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-paperclip.wav",
+    "events": [
+      0.2,
+      3.2,
+      6.4,
+      8.1
+    ],
+    "sequence": "collect / battery / night lights / close",
+    "LUFS": "-16.11",
+    "truePeakDBTP": "-1.80",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-hanazi.wav",
+    "events": [
+      0.1,
+      2.5,
+      3.0,
+      5.3,
+      8.2
+    ],
+    "sequence": "pour / freeze / reaction / laugh / end",
+    "LUFS": "-16.41",
+    "truePeakDBTP": "-1.80",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-optical.wav",
+    "events": [
+      0,
+      0.55,
+      1.1,
+      3.4,
+      4.5,
+      6.8,
+      8.3
+    ],
+    "sequence": "player / tiles / docking / orb / end",
+    "LUFS": "-15.99",
+    "truePeakDBTP": "-1.96",
+    "source": "Original deterministic synthesis, no external samples"
+  },
+  {
+    "file": "score-post.wav",
+    "events": [
+      0.1,
+      2.9,
+      4.5,
+      6.3,
+      8.4
+    ],
+    "sequence": "ride / wind / catch / delivery / close",
+    "LUFS": "-16.00",
+    "truePeakDBTP": "-1.95",
+    "source": "Original deterministic synthesis, no external samples"
+  }
+]

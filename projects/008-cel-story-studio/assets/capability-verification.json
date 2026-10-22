@@ -1,0 +1,47 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-21T06:53:20.721Z",
+  "styles": 15,
+  "components": 17,
+  "applicationTests": 44,
+  "repositoryTests": 6,
+  "catalogProjects": 8,
+  "stageComparisons": 34,
+  "zeroAmountUnchanged": true,
+  "webPreviewChangedPixels": 17870,
+  "media": [
+    {
+      "name": "water",
+      "frames": 288,
+      "seconds": 12,
+      "fullDecode": true
+    },
+    {
+      "name": "robot",
+      "frames": 288,
+      "seconds": 12,
+      "fullDecode": true
+    }
+  ],
+  "sameRecipeAcrossStories": true,
+  "originalStoryPreserved": true,
+  "genuineAI": {
+    "id": "115cfe3c-e406-4d67-9e87-8ebddb6c6cb0",
+    "title": "雨停后，窗边见",
+    "recipePreserved": true
+  },
+  "browser": {
+    "reviewedStyles": 15,
+    "crossStory": "把温暖递给你",
+    "preset": "温暖手作·聚焦",
+    "viewport": 658,
+    "noHorizontalOverflow": true,
+    "errors": []
+  },
+  "limits": [
+    "基础画法为探索原型",
+    "未穷举全部组合的美术效果",
+    "三维、流体与精细动作为扩展项",
+    "收藏仅保存在本浏览器"
+  ]
+}

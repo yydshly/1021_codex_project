@@ -1,0 +1,18 @@
+import type {StyleId} from '../../scripts/styles.mjs';
+const previousStudies:{id:StyleId;title:string;premise:string;climax:string;frames:{file:string;time:string;line:string}[];beats:string[]}[]=[
+ {id:'3d-render',title:'磁场花开',premise:'一股看不见的力，让散落的陶片找到彼此。',climax:'失衡之后，悬停的碎片重新吸合，展开成三层陶瓷花冠。',frames:[{file:'hero-magnetic-hook.jpg',time:'00.7',line:'力量出现'},{file:'hero-magnetic-tension.jpg',time:'04.8',line:'失衡与悬停'},{file:'hero-magnetic-bloom.jpg',time:'07.4',line:'花冠展开'}],beats:['散片吸起','收紧花苞','失衡坠落','短暂停顿','吸回盛放']},
+ {id:'isometric',title:'声音制造局',premise:'跟随一枚声球，走进一座制造声音的小世界。',climax:'机器合奏之后，平台退让，镜头拉远，才看见工厂坐落在一张唱片上。',frames:[{file:'hero-soundworks-hook.jpg',time:'00.7',line:'声球入轨'},{file:'hero-soundworks-climax.jpg',time:'06.3',line:'全场合奏'},{file:'hero-soundworks-reveal.jpg',time:'09.0',line:'唱片上的世界'}],beats:['声球入轨','压机触发','传动与发声','全场合奏','唱机揭晓']},
+];
+
+export const heroStudies:typeof previousStudies=[
+ {id:'synthwave',title:'午夜频率',premise:'一段沉睡的磁带，把声音展开成一条可以穿越的路。',climax:'从磁芯近景进入空间光轨，再回到完整磁带与环绕音轨；克制的霓虹沿实体边缘流动。',frames:[{file:'trio-synthwave-030.jpg',time:'01.0',line:'机械磁芯苏醒'},{file:'trio-synthwave-185.jpg',time:'06.2',line:'沿光轨穿越'},{file:'trio-synthwave-270.jpg',time:'09.0',line:'装置完整收束'}],beats:['磁芯苏醒','音轨出舱','穿越频率','装置收束']},
+ {id:'pixel',title:'月亮修理铺',premise:'屋顶上的猫机械师，接住了今晚坏掉的月亮。',climax:'猫咪把碎月补好，蓄满星光后送回天空；亮灯波从远城传到近处的窗。',frames:[{file:'trio-pixel-030.jpg',time:'01.0',line:'接住碎月'},{file:'trio-pixel-110.jpg',time:'03.7',line:'敲补裂缝'},{file:'trio-pixel-280.jpg',time:'09.3',line:'月亮点亮城市'}],beats:['接住碎月','敲击补月','星光升空','城市亮灯']},
+ {id:'hud',title:'深蓝回声',premise:'深海探测器在静默海沟里，收到了一段陌生回声。',climax:'扫描沿机械蝠鲼的翼骨推进，能量从中央脊线分流至两翼，完整目标舒翼浮升。',frames:[{file:'trio-hud-030.jpg',time:'01.0',line:'声呐发现轮廓'},{file:'trio-hud-115.jpg',time:'03.8',line:'翼骨结构验证'},{file:'trio-hud-270.jpg',time:'09.0',line:'舒翼苏醒'}],beats:['声呐寻迹','翼骨扫描','脊线分流','舒翼苏醒']},
+ {id:'aurora-glass',title:'折光电台',premise:'让一枚声球，穿过不同的玻璃仪表。',climax:'主面板与两级仪表停靠后，声球穿过光场，玻璃收拢为片名字版。',frames:[{file:'study-aurora-glass-030.jpg',time:'01.0',line:'玻璃近景'},{file:'study-aurora-glass-160.jpg',time:'05.3',line:'仪表与声球'},{file:'study-aurora-glass-280.jpg',time:'09.3',line:'光场收束'}],beats:['面板出现','仪表停靠','声球穿过','玻璃收拢','片名收尾']},
+ {id:'flat-vector',title:'橘子有引力',premise:'一颗橘子，如何成为一杯夏天。',climax:'剖开的果瓣离开轨道，在蓝橙反差中倾注入杯。',frames:[{file:'study-flat-vector-020.jpg',time:'00.7',line:'整果与引力'},{file:'study-flat-vector-175.jpg',time:'05.8',line:'倾注动作'},{file:'study-flat-vector-255.jpg',time:'08.5',line:'品牌收束'}],beats:['整果吸引','剖开切面','果瓣编舞','果汁倾注','品牌收束']},
+ {id:'line-art',title:'一线成鲸',premise:'一条金线，从海面游向星海。',climax:'描线显出鲸形，跃起的轮廓最后成为星座。',frames:[{file:'study-line-art-065.jpg',time:'02.2',line:'描线显形'},{file:'study-line-art-140.jpg',time:'04.7',line:'跃出海面'},{file:'study-line-art-240.jpg',time:'08.0',line:'化为星座'}],beats:['落笔','描出鲸形','跃起','水线溅落','化为星座']},
+ {id:'morph',title:'形状的接力',premise:'鱼、飞鸟和叶片，共享一条持续变化的轮廓。',climax:'每次变化保持点位连接，最后由单个形态释放为群形。',frames:[{file:'study-morph-020.jpg',time:'00.7',line:'游鱼'},{file:'study-morph-135.jpg',time:'04.5',line:'飞鸟'},{file:'study-morph-270.jpg',time:'09.0',line:'叶片释放'}],beats:['鱼形停顿','连续变鸟','展翅','连续变叶','群形释放']},
+ {id:'hanazi',title:'夜班也要慢慢来',premise:'认真倒奶，却得到一座离谱的奶泡塔。',climax:'短暂停顿后放大惊讶，最后用开心释然的表情收尾。',frames:[{file:'study-hanazi-035.jpg',time:'01.2',line:'认真倒奶'},{file:'study-hanazi-110.jpg',time:'03.7',line:'泡沫事故'},{file:'study-hanazi-240.jpg',time:'08.0',line:'开心释然'}],beats:['认真倒奶','泡沫事故','反应停顿','镜头放大','开心释然']},
+ {id:'paperclip',title:'把阳光留到夜里',premise:'一条能量路径，连接太阳能板、电池和夜晚的路灯。',climax:'白天收集的能量进入储能电池，夜幕降临时点亮城市。',frames:[{file:'study-paperclip-040.jpg',time:'01.3',line:'光伏收集'},{file:'study-paperclip-140.jpg',time:'04.7',line:'储能剖面'},{file:'study-paperclip-265.jpg',time:'08.8',line:'夜间亮灯'}],beats:['收集阳光','脉冲传递','电池储能','夜幕降临','城市亮灯']},
+ ...previousStudies,
+];

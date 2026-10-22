@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-22T05:41:05.695961+00:00",
+  "workingDirectory": "app/.cache/portable-proof-018/mg-story-director/assets/demo-project",
+  "independentDirectory": true,
+  "initialExtractionHadNodeModules": false,
+  "archiveContainsNodeModules": false,
+  "archiveFiles": 35,
+  "archiveBytes": 24601798,
+  "archiveSha256": "aa5c6a049a0f4c1d33554b0b658dda18722d9ea52ee6ae6ff7bcb22e91ebd10a",
+  "commands": [
+    "npm ci --ignore-scripts --no-audit --no-fund",
+    "npm run typecheck",
+    "CHROME_PATH=<installed Chrome> node render.mjs default-config.json out/portable.jpg --still=420"
+  ],
+  "dependencyInstall": {
+    "actualInstall": true,
+    "addedPackages": 258,
+    "usedParentNodeModules": false
+  },
+  "result": {
+    "status": "rendered",
+    "frame": 420,
+    "timeSeconds": 14,
+    "image": "assets/review-018/portable.jpg",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "d7795646ba17b698d9f51c6b500747b847e84b23cf1b49f8a92a10a8dd5b6e0e",
+    "title": "给你一片海",
+    "remotion": "4.0.537"
+  },
+  "finalPackageRenderInputsMatchExecutedInputs": true,
+  "assetAndLicenseCopiesVerified": [
+    "workshop.png",
+    "ocean.png",
+    "paper.jpg",
+    "NotoSansSC.ttf",
+    "OFL.txt",
+    "UPSTREAM-LICENSE.txt",
+    "REMOTION-LICENSE.md",
+    "ASSET-GENERATION.json"
+  ],
+  "limits": "Independent still render and typecheck verified; no independent full film or audio review performed.",
+  "latestSourceCorrection": {
+    "file": "src/flagship/paint-018.ts",
+    "change": "bowlAlpha fade denominator .7 to .22",
+    "sourceSha256": "908682b35ab7b4955899f6dc67df68af676790b341152ddf50bcc500a9fa6b4e",
+    "rerenderedFrame": 420,
+    "independentDependenciesRetained": true,
+    "dependencyInstallAndTypecheckProofFrom": "2026-10-22T05:31:33.519351+00:00",
+    "previousArchiveSha256": "502083003c82ef86c6e3dcc08b69ed784492579fc9ea208d86688ecf828a4fda",
+    "latestCommands": [
+      "node scripts/package-director-018.mjs",
+      "Extract latest archive into existing independent proof directory, preserving independently installed node_modules",
+      "CHROME_PATH=<installed Chrome> node render.mjs default-config.json out/portable.jpg --still=420"
+    ]
+  }
+}

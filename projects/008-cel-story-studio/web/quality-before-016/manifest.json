@@ -1,0 +1,238 @@
+[
+  {
+    "file": "3d-custom.json",
+    "sha256": "93888b88ab64fe581650ddbfe24eb297e864cfef29aad76c9032c1e5b52b31c1"
+  },
+  {
+    "file": "3d-custom.mp4",
+    "sha256": "036cd1c3253321a7edf475d345e3580ba5b646e5c9cc78753a5b7844fdfb045a"
+  },
+  {
+    "file": "3d-render.jpg",
+    "sha256": "093ce7c1d7e023fc4b317df1aa74b908093a7f1f97dccdd340aea585e92f4efc"
+  },
+  {
+    "file": "3d-render.json",
+    "sha256": "05ae62e102be4559e3633ad9ba26fdaf4bdc2b197c8f5ec062d7db7898128c96"
+  },
+  {
+    "file": "3d-render.mp4",
+    "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f"
+  },
+  {
+    "file": "after-hours-reel.chapters.json",
+    "sha256": "b523f9989a94bbf02a1859dc0ca6bbb5fd3b60c8228d43b08c691f46071aa7b3"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-016--after-hours-reel.mp4",
+    "sha256": "5ccad439e645ea78bd53920fa0ee79634bb54d14ed0ecf9a96109767d4c54a17"
+  },
+  {
+    "file": "aurora-glass.jpg",
+    "sha256": "2214123becc2048b476d51b7cb8e6fe5ac9a2b721be4b980a7a6cae285cfc564"
+  },
+  {
+    "file": "aurora-glass.json",
+    "sha256": "2c49d63e8ee8ce045990931a95b2b8bb5d28ed9ddd9aaa70cde7cd26406d73ce"
+  },
+  {
+    "file": "aurora-glass.mp4",
+    "sha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848"
+  },
+  {
+    "file": "bauhaus.jpg",
+    "sha256": "ce7536b50492b0764bab491ec24641dddc3989d611395218a63e981627c467c3"
+  },
+  {
+    "file": "bauhaus.json",
+    "sha256": "10bb89adbf31ca9af01a6fe2cef99cb2bf044d515cb9f2ba8dac139d7a3e97b0"
+  },
+  {
+    "file": "bauhaus.mp4",
+    "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6"
+  },
+  {
+    "file": "cel-boil.jpg",
+    "sha256": "8a0e5037fadf13e65ff489a6484ceead5ff4c7a99e16dad88a76fe386b087485"
+  },
+  {
+    "file": "cel-boil.json",
+    "sha256": "2e3e0f71217864af33f8d6a6f91a6b6c61a4a667be8f8019e5957ab20d6efa83"
+  },
+  {
+    "file": "cel-boil.mp4",
+    "sha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38"
+  },
+  {
+    "file": "collage.jpg",
+    "sha256": "7eb045f5729f6dc95265ac9f46a45e3568ca34cc733ac8a93a8fa6e34d310386"
+  },
+  {
+    "file": "collage.json",
+    "sha256": "1d64359b2e5fdddcc65ef4155daa7eea42ecfef6994b16cd6c42b23447c07c76"
+  },
+  {
+    "file": "collage.mp4",
+    "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4"
+  },
+  {
+    "file": "flat-vector.jpg",
+    "sha256": "c3a0efe747660dea75bcbc5e37f054fcb9f0a5e7b277d24accaf39a1f95ad846"
+  },
+  {
+    "file": "flat-vector.json",
+    "sha256": "4a4df0b6e6063604ed8c1f57e2ce16857ffc09487a8a789fbed23adaa34ad7e0"
+  },
+  {
+    "file": "flat-vector.mp4",
+    "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd"
+  },
+  {
+    "file": "hanazi.jpg",
+    "sha256": "14ef9026dae907b2a78ce0f3f60ae9c25fe957fcd42e9f144ef02dd851759641"
+  },
+  {
+    "file": "hanazi.json",
+    "sha256": "12d2b41f93c2c2c19ec0ba397708ea319c16f5a853d77752d3b298e2eb2b7b0c"
+  },
+  {
+    "file": "hanazi.mp4",
+    "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3"
+  },
+  {
+    "file": "hero-reel.chapters.json",
+    "sha256": "ef74b5c1fff5bb2cfbaff53a8b5816ffd9fa3bab78f75cb4cb0795634de284f8"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--hero-reel.mp4",
+    "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c"
+  },
+  {
+    "file": "hud.jpg",
+    "sha256": "cba4f26bad4b58017ebef22b217feac885d5c6ea873c34bcb2cd966faf8d5bcb"
+  },
+  {
+    "file": "hud.json",
+    "sha256": "0812ccd092ad221e39d5c1637b394d4e56513eb767446f9c0af90f1584b0eb7a"
+  },
+  {
+    "file": "hud.mp4",
+    "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965"
+  },
+  {
+    "file": "isometric.jpg",
+    "sha256": "a2a994ae62e410c6df81ffc1fbb2b9272dc21a08baaf2dc0389c57d055b4b356"
+  },
+  {
+    "file": "isometric.json",
+    "sha256": "83a44ded78733b4389ad0eb2b7049c67e7d257e3700eec290917127ccb25339b"
+  },
+  {
+    "file": "isometric.mp4",
+    "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b"
+  },
+  {
+    "file": "line-art.jpg",
+    "sha256": "e70c707dad63a65dae01f19407969460cd4efe9ff8fa9f56555d1bffaedae0fe"
+  },
+  {
+    "file": "line-art.json",
+    "sha256": "61610ee528b6edb2014459f513741ee6e7b978de69bfb9c3cba49e1d32312a76"
+  },
+  {
+    "file": "line-art.mp4",
+    "sha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717"
+  },
+  {
+    "file": "liquid.jpg",
+    "sha256": "6f970d1cda51a7038d7951b4787627206c5de3a8382f3b71125978d75fce0e78"
+  },
+  {
+    "file": "liquid.json",
+    "sha256": "bb6e3967844a138bcceb277770ec18855e66377abb22b74885a778d585ad412e"
+  },
+  {
+    "file": "liquid.mp4",
+    "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e"
+  },
+  {
+    "file": "material-reel-015.chapters.json",
+    "sha256": "619d989cd03f048bd8b093f54c20655bb80336f731ca4b16cd75b8ff903da56d"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--material-reel-015.mp4",
+    "sha256": "eca5bc02fc7c6d7102702a204044a21a54a08b464c2bbbcf86b7356c5a627591"
+  },
+  {
+    "file": "morph.jpg",
+    "sha256": "4a16ffc8db6e465a58a5c2de0206d389d56a3fc338d546065f61f079e78ccd37"
+  },
+  {
+    "file": "morph.json",
+    "sha256": "3f5fc1fa46d35478d37e673d1f3347d39ad990de2bc2ed650b03ecfa6bd994fd"
+  },
+  {
+    "file": "morph.mp4",
+    "sha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6"
+  },
+  {
+    "file": "paperclip.jpg",
+    "sha256": "82886bca34b4413b24c5c1998b9b67efb3c47a6eb93b6275d574e1e8dab07b4e"
+  },
+  {
+    "file": "paperclip.json",
+    "sha256": "9c4ae62ed8dfc1a9e102009d11411e25f4761fa364c4af17d00a69d57dda8b9b"
+  },
+  {
+    "file": "paperclip.mp4",
+    "sha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca"
+  },
+  {
+    "file": "pixel.jpg",
+    "sha256": "ad907ed40fc88b4218b9221e78be95aac9f7e99fd424518cc9c60c235ea75c99"
+  },
+  {
+    "file": "pixel.json",
+    "sha256": "128ff9b8318faf1e8426e00b596104c5bb641342f32dcef032da412e1945c392"
+  },
+  {
+    "file": "pixel.mp4",
+    "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41"
+  },
+  {
+    "file": "quality-reel.chapters.json",
+    "sha256": "bc52472c412d787851529c773188d2b8980c0b4ae4c6afef8074d3d52f579b91"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-016--quality-reel.mp4",
+    "sha256": "bcb09826af34490c42bfa0b9b276b59b58bab1fc2b560847c4b420d352f79f26"
+  },
+  {
+    "file": "recraft-reel.chapters.json",
+    "sha256": "21425955df31cdab2e6a9e552c38ab2f32431d7d64c23138dd739ee8072ffb4f"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--recraft-reel.mp4",
+    "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d"
+  },
+  {
+    "file": "synthwave.jpg",
+    "sha256": "9906cdc26d2fbb33d89dffd68020a3d6a83e16da71153cd51cb260ea6a919a2d"
+  },
+  {
+    "file": "synthwave.json",
+    "sha256": "117aca526fb138b90a7278b7ce6a0264b662b38c82c496e716a74bdde3324b84"
+  },
+  {
+    "file": "synthwave.mp4",
+    "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914"
+  },
+  {
+    "file": "trio-reel-013.chapters.json",
+    "sha256": "34b9c10b0cbd1d0999ad9817ebfb699c0192a8bd8cb25b81097fd1cc8a4f194e"
+  },
+  {
+    "file": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--trio-reel-013.mp4",
+    "sha256": "7b11b2b958d5adfd78fc33e58b41660e4fa56ec2ddde343e012e4e38603fd82d"
+  }
+]

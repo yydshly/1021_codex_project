@@ -1,0 +1,253 @@
+{
+  "films": [
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/flat-vector.mp4?v=012",
+      "style": "flat-vector",
+      "time": 0
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/line-art.mp4?v=012",
+      "style": "line-art",
+      "time": 0.273115
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/cel-boil.mp4?v=012",
+      "style": "cel-boil",
+      "time": 0.264452
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/collage.mp4?v=012",
+      "style": "collage",
+      "time": 0.22764
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/liquid.mp4?v=012",
+      "style": "liquid",
+      "time": 0.301406
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/morph.mp4?v=012",
+      "style": "morph",
+      "time": 0.259757
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/bauhaus.mp4?v=012",
+      "style": "bauhaus",
+      "time": 0.23753
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/synthwave.mp4?v=012",
+      "style": "synthwave",
+      "time": 0.237375
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/aurora-glass.mp4?v=012",
+      "style": "aurora-glass",
+      "time": 0.27287
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/hanazi.mp4?v=012",
+      "style": "hanazi",
+      "time": 0.255896
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/paperclip.mp4?v=012",
+      "style": "paperclip",
+      "time": 0.29048
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/pixel.mp4?v=012",
+      "style": "pixel",
+      "time": 0.255916
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/hud.mp4?v=012",
+      "style": "hud",
+      "time": 0.2682
+    }
+  ],
+  "exports": {
+    "liquid": "/exports/bf034ab0-6c26-46ae-ac0f-bc86a22e30ea.mp4",
+    "aurora-glass": "/exports/094b58a9-5844-4d7a-9f27-c4a8e15d2dbc.mp4",
+    "flat-vector": "/exports/acbf0958-6e09-4f6c-9f0a-da95f4d8bae2.mp4"
+  },
+  "previous": {
+    "duration": 10.005,
+    "error": null,
+    "ready": 4,
+    "src": "http://127.0.0.1:8048/quality-before-012/aurora-glass.mp4?v=012",
+    "time": 10.005
+  },
+  "reel": {
+    "duration": 60,
+    "error": null,
+    "paused": false,
+    "ready": 4,
+    "src": "http://127.0.0.1:8048/effect-examples/recraft-reel.mp4?v=012",
+    "time": 0.044674
+  },
+  "reelEnd": {
+    "duration": 60,
+    "ended": true,
+    "error": null,
+    "ready": 4,
+    "time": 60
+  },
+  "cards": 15,
+  "images": [
+    {
+      "alt": "折光电台 01.0 秒实际关键帧：玻璃近景",
+      "loaded": true
+    },
+    {
+      "alt": "折光电台 05.3 秒实际关键帧：仪表与声球",
+      "loaded": true
+    },
+    {
+      "alt": "折光电台 09.3 秒实际关键帧：光场收束",
+      "loaded": true
+    },
+    {
+      "alt": "橘子有引力 00.7 秒实际关键帧：整果与引力",
+      "loaded": true
+    },
+    {
+      "alt": "橘子有引力 05.8 秒实际关键帧：倾注动作",
+      "loaded": true
+    },
+    {
+      "alt": "橘子有引力 08.5 秒实际关键帧：品牌收束",
+      "loaded": true
+    },
+    {
+      "alt": "一线成鲸 02.2 秒实际关键帧：描线显形",
+      "loaded": true
+    },
+    {
+      "alt": "一线成鲸 04.7 秒实际关键帧：跃出海面",
+      "loaded": true
+    },
+    {
+      "alt": "一线成鲸 08.0 秒实际关键帧：化为星座",
+      "loaded": true
+    },
+    {
+      "alt": "形状的接力 00.7 秒实际关键帧：游鱼",
+      "loaded": true
+    },
+    {
+      "alt": "形状的接力 04.5 秒实际关键帧：飞鸟",
+      "loaded": true
+    },
+    {
+      "alt": "形状的接力 09.0 秒实际关键帧：叶片释放",
+      "loaded": true
+    },
+    {
+      "alt": "夜班也要慢慢来 01.2 秒实际关键帧：认真倒奶",
+      "loaded": true
+    },
+    {
+      "alt": "夜班也要慢慢来 03.7 秒实际关键帧：泡沫事故",
+      "loaded": true
+    },
+    {
+      "alt": "夜班也要慢慢来 08.0 秒实际关键帧：开心释然",
+      "loaded": true
+    },
+    {
+      "alt": "把阳光留到夜里 01.3 秒实际关键帧：光伏收集",
+      "loaded": true
+    },
+    {
+      "alt": "把阳光留到夜里 04.7 秒实际关键帧：储能剖面",
+      "loaded": true
+    },
+    {
+      "alt": "把阳光留到夜里 08.8 秒实际关键帧：夜间亮灯",
+      "loaded": true
+    },
+    {
+      "alt": "磁场花开 00.7 秒实际关键帧：力量出现",
+      "loaded": true
+    },
+    {
+      "alt": "磁场花开 04.8 秒实际关键帧：失衡与悬停",
+      "loaded": true
+    },
+    {
+      "alt": "磁场花开 07.4 秒实际关键帧：花冠展开",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 00.7 秒实际关键帧：声球入轨",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 06.3 秒实际关键帧：全场合奏",
+      "loaded": true
+    },
+    {
+      "alt": "声音制造局 09.0 秒实际关键帧：唱片上的世界",
+      "loaded": true
+    }
+  ],
+  "overflow": false,
+  "consoleErrors": [],
+  "deepLink": {
+    "style": "aurora-glass",
+    "title": "折光电台"
+  }
+}

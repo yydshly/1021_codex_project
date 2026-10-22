@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "paperclip",
+  "title": "声音的旅行",
+  "subtitle": "从一次振动，到一句被听见的话",
+  "words": [
+    "振动",
+    "传播",
+    "听见"
+  ],
+  "primary": "#bd6c4a",
+  "secondary": "#4e7e6b",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

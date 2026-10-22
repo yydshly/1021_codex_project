@@ -1,0 +1,37 @@
+{
+  "name": "cel-story-studio",
+  "version": "0.19.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.mjs",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.tsx CelStory ../web/demo.mp4 --codec=h264 --crf=20 --concurrency=1",
+    "test": "node --test --test-concurrency=1 scripts/input-schema.test.mjs scripts/storyboard.test.mjs scripts/ai-schema.test.mjs scripts/styles.test.mjs scripts/world.test.mjs scripts/capabilities.test.mjs scripts/effects.test.mjs scripts/film-program.test.mjs scripts/flagship-schema.test.mjs",
+    "render:styles": "node scripts/render-styles.mjs",
+    "render:world": "node scripts/render-world-examples.mjs rabbit robot fox water",
+    "render:effects": "node scripts/render-effects.mjs --videos --variants",
+    "render:studio": "node scripts/make-studio-plate.mjs",
+    "render:liquid": "node scripts/make-liquid-plate.mjs",
+    "render:director": "node scripts/render-director-018.mjs --videos"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.537",
+    "@remotion/cli": "4.0.537",
+    "@remotion/player": "4.0.537",
+    "@remotion/renderer": "4.0.537",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.537",
+    "simplex-noise": "4.0.3",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "@types/three": "^0.183.1",
+    "esbuild": "0.25.12",
+    "typescript": "5.8.3"
+  }
+}

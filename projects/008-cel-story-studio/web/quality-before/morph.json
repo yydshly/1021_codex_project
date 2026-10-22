@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "morph",
+  "title": "折叠花园",
+  "subtitle": "形状在变化，生命在其中舒展",
+  "words": [
+    "点",
+    "瓣",
+    "花园"
+  ],
+  "primary": "#e3a35c",
+  "secondary": "#d3d7a2",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

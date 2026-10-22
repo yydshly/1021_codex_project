@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "aurora-glass",
+  "title": "留一首雨夜",
+  "subtitle": "让三种声音，找到同一个夜晚",
+  "words": [
+    "选择",
+    "混合",
+    "成曲"
+  ],
+  "primary": "#8b67cf",
+  "secondary": "#65cbb8",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 6,
+  "sound": false,
+  "storyId": "rainmix"
+}

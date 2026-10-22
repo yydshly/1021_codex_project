@@ -1,0 +1,422 @@
+[
+  {
+    "style": "flat-vector",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\01-flat-vector.mp4",
+    "sha256": "41e3fcc9b0e614a118de0d03d0edee91540299af12f6b2be7bb91d0e78fa2adc",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "flat-vector",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\flat-vector.mp4",
+    "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "line-art",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\02-line-art.mp4",
+    "sha256": "eda54b131945499fbc1dc7cfb45755054e3dbab0e21575dd28da1213b0842c4b",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "line-art",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\line-art.mp4",
+    "sha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "isometric",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\03-isometric.mp4",
+    "sha256": "4639fb378cf5e4e48da8f4b80e2eec40c180c2932a07bbcbb8717d0c45928094",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "isometric",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\isometric.mp4",
+    "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "3d-render",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\04-3d-render.mp4",
+    "sha256": "a9a5999d4f6db4a191562c60d891182a2ff6287e86642d15823158c0773ec88c",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "3d-render",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\3d-render.mp4",
+    "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "cel-boil",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\05-cel-boil.mp4",
+    "sha256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "cel-boil",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\cel-boil.mp4",
+    "sha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "collage",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\06-collage.mp4",
+    "sha256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "collage",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\collage.mp4",
+    "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "liquid",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\07-liquid.mp4",
+    "sha256": "6e9b40dd841589da7df840bd84049e1dc73ae3e2fa5db3d37cbcf081eadb8a9a",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "liquid",
+    "role": "BEFORE 0.15",
+    "file": "web\\effect-examples\\liquid.mp4",
+    "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "morph",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\08-morph.mp4",
+    "sha256": "752c5538cd80f5b2f6f6f29c06d997456e4712c5768292656b3d58654b643bfc",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "morph",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\morph.mp4",
+    "sha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "bauhaus",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\09-bauhaus.mp4",
+    "sha256": "fba3adfd8ddb6452ddd351e19f69647e5bf1e4d7782634d167c7b56e61ff3561",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "bauhaus",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\bauhaus.mp4",
+    "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "synthwave",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\10-synthwave.mp4",
+    "sha256": "11bfdd5e454e2f1d868b733677981734f77300082b97780416b890e08dd0f85e",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "synthwave",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\synthwave.mp4",
+    "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "aurora-glass",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\12-aurora-glass.mp4",
+    "sha256": "3d62ac6aa41d90653be3d627b4b2c78c7d477f5c8c8b3363a7b5ab7e4bfdf7b9",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "aurora-glass",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\aurora-glass.mp4",
+    "sha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "hanazi",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\18-hanazi.mp4",
+    "sha256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "hanazi",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\hanazi.mp4",
+    "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "paperclip",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\19-paperclip.mp4",
+    "sha256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "paperclip",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\paperclip.mp4",
+    "sha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "pixel",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\20-pixel.mp4",
+    "sha256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "pixel",
+    "role": "BEFORE 0.14",
+    "file": "web\\effect-examples\\pixel.mp4",
+    "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "hud",
+    "role": "SOURCE",
+    "file": "web\\reference-effects\\media\\22-hud.mp4",
+    "sha256": "fde04c43024f690040d4d268831b2f43c9d03e32e1c74d398f84c3831360c33f",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  },
+  {
+    "style": "hud",
+    "role": "BEFORE 0.15",
+    "file": "web\\effect-examples\\hud.mp4",
+    "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965",
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ]
+  }
+]

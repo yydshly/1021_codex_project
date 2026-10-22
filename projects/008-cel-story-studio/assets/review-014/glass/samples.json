@@ -1,0 +1,67 @@
+[
+  {
+    "sampleSeconds": 0.4,
+    "disableLens": false,
+    "file": "0.4-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 1.6,
+    "disableLens": false,
+    "file": "1.6-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 2.8,
+    "disableLens": false,
+    "file": "2.8-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 3.2,
+    "disableLens": false,
+    "file": "3.2-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 3.8,
+    "disableLens": false,
+    "file": "3.8-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 4.5,
+    "disableLens": false,
+    "file": "4.5-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 5.3,
+    "disableLens": false,
+    "file": "5.3-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 6.6,
+    "disableLens": false,
+    "file": "6.6-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 8.5,
+    "disableLens": false,
+    "file": "8.5-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 9.6,
+    "disableLens": false,
+    "file": "9.6-with-lens.jpg"
+  },
+  {
+    "sampleSeconds": 3.8,
+    "disableLens": true,
+    "file": "3.8-without-lens.jpg"
+  },
+  {
+    "sampleSeconds": 4.5,
+    "disableLens": true,
+    "file": "4.5-without-lens.jpg"
+  },
+  {
+    "sampleSeconds": 5.3,
+    "disableLens": true,
+    "file": "5.3-without-lens.jpg"
+  }
+]

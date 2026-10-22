@@ -1,0 +1,17 @@
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {readFile,writeFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+import {effectDefaults} from './effects.mjs';
+import {renderStudio} from './studio-render.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),config=effectDefaults('3d-render');
+const source=await readFile(path.join(root,'scripts/magnetic-scene-014.py'),'utf8');const signature=createHash('sha256').update(source+JSON.stringify(config)).digest('hex');
+const supplied=process.argv.find(a=>a.startsWith('--frames-dir='))?.slice(13),folder=supplied?path.resolve(root,supplied):path.join(root,`.cache/studio-${signature.slice(0,12)}`);
+if(!supplied)await renderStudio(config,folder,p=>{if(Math.round(p*300)%30===0)console.log(`Cycles: ${Math.round(p*100)}%`);});
+for(let i=0;i<300;i++)if(!existsSync(path.join(folder,`${String(i).padStart(4,'0')}.jpg`)))throw new Error(`Missing frame ${i}`);
+const dest=path.join(root,'public/effects/studio-magnetic-plate.mp4');
+const r=spawnSync('ffmpeg',['-v','error','-threads','2','-filter_threads','1','-y','-framerate','30','-i',path.join(folder,'%04d.jpg'),'-c:v','libx264','-threads','2','-crf','14','-pix_fmt','yuv420p','-movflags','+faststart',dest],{stdio:'inherit',windowsHide:true});if(r.status!==0)throw new Error('Plate encoding failed');
+await writeFile(path.join(root,'../assets/magnetic-render-metadata.json'),JSON.stringify({engine:'Blender 4.5.14 / Cycles / OPTIX',samples:96,frames:300,fps:30,width:1280,height:720,scriptSha256:createHash('sha256').update(source).digest('hex'),configuration:config,signature,motion:'deterministic choreography, not soft-body physics',plate:'app/public/effects/studio-magnetic-plate.mp4'},null,2));
+console.log('Cycles plate encoded; all 300 source frames present.');

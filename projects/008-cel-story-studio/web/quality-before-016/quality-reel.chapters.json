@@ -1,0 +1,92 @@
+[
+  {
+    "style": "cel-boil",
+    "title": "借一点风",
+    "start": 0,
+    "end": 10
+  },
+  {
+    "style": "liquid",
+    "title": "流动的桥",
+    "start": 10,
+    "end": 20
+  },
+  {
+    "style": "morph",
+    "title": "把晴天放飞",
+    "start": 20,
+    "end": 30
+  },
+  {
+    "style": "collage",
+    "title": "深海电台",
+    "start": 30,
+    "end": 40
+  },
+  {
+    "style": "line-art",
+    "title": "把海写成星空",
+    "start": 40,
+    "end": 50
+  },
+  {
+    "style": "bauhaus",
+    "title": "纸上游乐场",
+    "start": 50,
+    "end": 60
+  },
+  {
+    "style": "hanazi",
+    "title": "别急，先喝一口",
+    "start": 60,
+    "end": 70
+  },
+  {
+    "style": "paperclip",
+    "title": "白天的光，夜里的灯",
+    "start": 70,
+    "end": 80
+  },
+  {
+    "style": "aurora-glass",
+    "title": "折光电台",
+    "start": 80,
+    "end": 90
+  },
+  {
+    "style": "isometric",
+    "title": "声音制造局",
+    "start": 90,
+    "end": 100
+  },
+  {
+    "style": "3d-render",
+    "title": "磁场花开",
+    "start": 100,
+    "end": 110
+  },
+  {
+    "style": "flat-vector",
+    "title": "橘子有引力",
+    "start": 110,
+    "end": 120
+  },
+  {
+    "style": "synthwave",
+    "title": "午夜频率",
+    "start": 120,
+    "end": 130
+  },
+  {
+    "style": "pixel",
+    "title": "月亮修理铺",
+    "start": 130,
+    "end": 140
+  },
+  {
+    "style": "hud",
+    "title": "深蓝回声",
+    "start": 140,
+    "end": 150
+  }
+]

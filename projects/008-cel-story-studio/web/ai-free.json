@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "title": "退一步，也能向前",
+  "signature": "把勇气留给下一跳",
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-1",
+      "caption": "小火苗好奇地望着未亮的星星",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 3.5
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-2",
+      "caption": "它坚定地走到小山前停下",
+      "action": "walk",
+      "emotion": "determined",
+      "duration": 4
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-3",
+      "caption": "它没跳过小山，难过地落回原处",
+      "action": "fail",
+      "emotion": "sad",
+      "duration": 4
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-4",
+      "caption": "它害怕地后倾，退了一步",
+      "action": "hesitate",
+      "emotion": "afraid",
+      "duration": 3
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-5",
+      "caption": "停在退后的位置，它仍想过去",
+      "action": "observe",
+      "emotion": "determined",
+      "duration": 3.5
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-6",
+      "caption": "它重新蓄力，向前跳过小山",
+      "action": "jump",
+      "emotion": "determined",
+      "duration": 4.5
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-7",
+      "caption": "它开心地举起双手，点亮星星",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 4
+    },
+    {
+      "id": "ai-30b9c2b1-cb62-4c34-bce4-74f2a1226921-8",
+      "caption": "它留在原地，笑望亮着的星星",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 3.5
+    }
+  ],
+  "creative": {
+    "brief": "",
+    "logline": "小火苗想点亮山后的星星，失败后退了一步，却在那一步里找回了向前跳的勇气。",
+    "narrative": "纸上的小火苗停下来，望着小山后那颗未亮的星星，好奇地点了点头。它走到山前，坚定地向前起跳，却没能越过小山，落回原处附近。小火苗害怕了，身体后倾，退后一步。它没有接着退，只在退后的地方静静望着星星。星星还暗着，它也还想过去。小火苗重新站稳，蓄力向前一跳，这一次越过了小山，落在另一侧。它开心地举起双手，星星随之亮起。小火苗放下双手，留在原地望着那颗持续发亮的星星；刚才后退的一步，也成了这次抵达的一部分。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T17:02:39.339Z",
+    "provider": "本机 Codex"
+  }
+}

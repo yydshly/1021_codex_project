@@ -1,0 +1,122 @@
+[
+  {
+    "canvas": "扁平矢量故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "flat-vector",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "线条动画故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "line-art",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "等轴 2.5D故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "isometric",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "3D 质感故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "3d-render",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "逐帧手绘故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "cel-boil",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "拼贴剪贴故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "collage",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "液态流动故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "liquid",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "形变动画故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "morph",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "几何包豪斯故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "bauhaus",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "复古霓虹故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "synthwave",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "极光玻璃故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "aurora-glass",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "综艺花字故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "hanazi",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "贴纸科普故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "paperclip",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "像素动画故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "pixel",
+    "title": "阳台上的小花"
+  },
+  {
+    "canvas": "科技 HUD故事画面",
+    "character": "小禾",
+    "frame": "145",
+    "shots": 5,
+    "style": "hud",
+    "title": "阳台上的小花"
+  }
+]

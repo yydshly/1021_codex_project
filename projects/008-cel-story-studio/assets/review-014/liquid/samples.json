@@ -1,0 +1,30 @@
+[
+  {
+    "sampleSeconds": 3.5,
+    "file": "3.50.jpg"
+  },
+  {
+    "sampleSeconds": 5.65,
+    "file": "5.65.jpg"
+  },
+  {
+    "sampleSeconds": 5.98,
+    "file": "5.98.jpg"
+  },
+  {
+    "sampleSeconds": 6.08,
+    "file": "6.08.jpg"
+  },
+  {
+    "sampleSeconds": 6.28,
+    "file": "6.28.jpg"
+  },
+  {
+    "sampleSeconds": 7,
+    "file": "7.00.jpg"
+  },
+  {
+    "sampleSeconds": 9.4,
+    "file": "9.40.jpg"
+  }
+]

@@ -1,0 +1,1105 @@
+{
+  "version": "0.5.0",
+  "schemaVersion": 3,
+  "applicationTests": 39,
+  "genuineAIExamples": 4,
+  "examples": [
+    {
+      "name": "rabbit",
+      "title": "蓝围巾的分享",
+      "frames": 288,
+      "sound": true,
+      "characterNames": [
+        "绒绒",
+        "栗栗"
+      ],
+      "sceneNames": [
+        "小屋外的花园",
+        "有窗户的小屋"
+      ],
+      "objectNames": [
+        "花园胡萝卜"
+      ],
+      "geometryHash": "7e5f9dff33f2f37ef6d9b31723555efa6a7a8851f5cb58a1e8dadbde17b59e05",
+      "stateTrace": [
+        {
+          "scene": "garden",
+          "from": 0,
+          "to": 48,
+          "before": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "",
+              "sceneId": "garden"
+            }
+          },
+          "after": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "",
+              "sceneId": "garden"
+            }
+          }
+        },
+        {
+          "scene": "garden",
+          "from": 48,
+          "to": 96,
+          "before": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "",
+              "sceneId": "garden"
+            }
+          },
+          "after": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "rabbit",
+              "sceneId": "garden"
+            }
+          }
+        },
+        {
+          "scene": "cottage",
+          "from": 96,
+          "to": 168,
+          "before": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "rabbit",
+              "sceneId": "garden"
+            }
+          },
+          "after": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "rabbit",
+              "sceneId": "garden"
+            }
+          }
+        },
+        {
+          "scene": "cottage",
+          "from": 168,
+          "to": 228,
+          "before": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "rabbit",
+              "sceneId": "garden"
+            }
+          },
+          "after": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "bear",
+              "sceneId": "garden"
+            }
+          }
+        },
+        {
+          "scene": "cottage",
+          "from": 228,
+          "to": 288,
+          "before": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "bear",
+              "sceneId": "garden"
+            }
+          },
+          "after": {
+            "carrot": {
+              "x": 470,
+              "y": 550,
+              "holder": "bear",
+              "sceneId": "garden"
+            }
+          }
+        }
+      ],
+      "curves": [],
+      "ai": {
+        "provider": "本机 Codex",
+        "generatedAt": "2026-10-20T18:01:45.118Z"
+      },
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1842047"
+        }
+      },
+      "fullDecode": "passed",
+      "stageHashes": [
+        "80a494b7d1bf28c81d4f42f8bd498ae328cd45bed9c82f492f72dec8b8274f10",
+        "76e63822a9e6ba38db6b203cd1aa623c2b9c0826f7ca2bd8b86191701c719406",
+        "fbc6ef2619456c43e464be9f2a81c614229f16bb197724db96d14f16d007832f"
+      ]
+    },
+    {
+      "name": "robot",
+      "title": "把温暖递给你",
+      "frames": 288,
+      "sound": true,
+      "characterNames": [
+        "圆豆",
+        "麦麦"
+      ],
+      "sceneNames": [
+        "奶油色厨房",
+        "盆栽阳台"
+      ],
+      "objectNames": [
+        "黄色杯子",
+        "阳台盆栽"
+      ],
+      "geometryHash": "632fd2bd09d333e8b30f15c10117e72b36d0aee28354a8383ce5648f76d99463",
+      "stateTrace": [
+        {
+          "scene": "warm-kitchen",
+          "from": 0,
+          "to": 48,
+          "before": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "",
+              "sceneId": "warm-kitchen"
+            }
+          },
+          "after": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            }
+          }
+        },
+        {
+          "scene": "warm-kitchen",
+          "from": 48,
+          "to": 108,
+          "before": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            }
+          },
+          "after": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            }
+          }
+        },
+        {
+          "scene": "plant-balcony",
+          "from": 108,
+          "to": 180,
+          "before": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          },
+          "after": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          }
+        },
+        {
+          "scene": "plant-balcony",
+          "from": 180,
+          "to": 240,
+          "before": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "roundbot",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          },
+          "after": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "kitten",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          }
+        },
+        {
+          "scene": "plant-balcony",
+          "from": 240,
+          "to": 288,
+          "before": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "kitten",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          },
+          "after": {
+            "yellow-cup": {
+              "x": 360,
+              "y": 493,
+              "holder": "kitten",
+              "sceneId": "warm-kitchen"
+            },
+            "balcony-plant": {
+              "x": 1115,
+              "y": 430,
+              "holder": "",
+              "sceneId": "plant-balcony"
+            }
+          }
+        }
+      ],
+      "curves": [],
+      "ai": {
+        "provider": "本机 Codex",
+        "generatedAt": "2026-10-20T18:05:04.168Z"
+      },
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1642507"
+        }
+      },
+      "fullDecode": "passed",
+      "stageHashes": [
+        "1261e92c00c353cc4384262b61e401167d7056426af681e91a5914585cf68724",
+        "c8393a74aa16a0647354ba1d8160144375d7799a63fd0802d03298e80e4f3dc4",
+        "e4f2442cc4674f890165f6b67e9c7434493644c60e1feb6e2df16aab36493a53"
+      ]
+    },
+    {
+      "name": "fox",
+      "title": "小狐狸的窗边午后",
+      "frames": 288,
+      "sound": true,
+      "characterNames": [
+        "阿栗"
+      ],
+      "sceneNames": [
+        "图书馆的窗边角落"
+      ],
+      "objectNames": [
+        "蓝色布面书"
+      ],
+      "geometryHash": "f994ef34662799747013eac2b46d3c76feea5f34e7c5706619d61291b0305165",
+      "stateTrace": [
+        {
+          "scene": "library-window",
+          "from": 0,
+          "to": 48,
+          "before": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          },
+          "after": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          }
+        },
+        {
+          "scene": "library-window",
+          "from": 48,
+          "to": 96,
+          "before": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          },
+          "after": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "fox-ali",
+              "sceneId": "library-window"
+            }
+          }
+        },
+        {
+          "scene": "library-window",
+          "from": 96,
+          "to": 180,
+          "before": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "fox-ali",
+              "sceneId": "library-window"
+            }
+          },
+          "after": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "fox-ali",
+              "sceneId": "library-window"
+            }
+          }
+        },
+        {
+          "scene": "library-window",
+          "from": 180,
+          "to": 228,
+          "before": {
+            "blue-book": {
+              "x": 345,
+              "y": 550,
+              "holder": "fox-ali",
+              "sceneId": "library-window"
+            }
+          },
+          "after": {
+            "blue-book": {
+              "x": 922,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          }
+        },
+        {
+          "scene": "library-window",
+          "from": 228,
+          "to": 288,
+          "before": {
+            "blue-book": {
+              "x": 922,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          },
+          "after": {
+            "blue-book": {
+              "x": 922,
+              "y": 550,
+              "holder": "",
+              "sceneId": "library-window"
+            }
+          }
+        }
+      ],
+      "curves": [],
+      "ai": {
+        "provider": "本机 Codex",
+        "generatedAt": "2026-10-20T18:10:37.305Z"
+      },
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1605577"
+        }
+      },
+      "fullDecode": "passed",
+      "stageHashes": [
+        "39dc499a952e01fe829deac49c9952c0ceeec82ad97938fdc1d9d5162d0afe6b",
+        "b6a0684ea27bf4a28792c3de7042626916e2353f912ebc46a3a47459585f6aee",
+        "ba5124ce2c5aabf817e4169d90368af8b45f804cadbf8775a3a2a917af4ddc93"
+      ]
+    },
+    {
+      "name": "water",
+      "title": "阳台上的小花",
+      "frames": 288,
+      "sound": true,
+      "characterNames": [
+        "小禾"
+      ],
+      "sceneNames": [
+        "午后阳台"
+      ],
+      "objectNames": [
+        "蓝色水壶",
+        "陶盆小花"
+      ],
+      "geometryHash": "40e0da75972c72713c58586695f247dc108aac8fa4b57cc9323a08a5f60d2268",
+      "stateTrace": [
+        {
+          "scene": "balcony",
+          "from": 0,
+          "to": 48,
+          "before": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            }
+          },
+          "after": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            }
+          }
+        },
+        {
+          "scene": "balcony",
+          "from": 48,
+          "to": 108,
+          "before": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            }
+          },
+          "after": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            }
+          }
+        },
+        {
+          "scene": "balcony",
+          "from": 108,
+          "to": 192,
+          "before": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            }
+          },
+          "after": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony",
+              "growth": 1.18
+            }
+          }
+        },
+        {
+          "scene": "balcony",
+          "from": 192,
+          "to": 240,
+          "before": {
+            "watering-can": {
+              "x": 390,
+              "y": 550,
+              "holder": "girl",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony",
+              "growth": 1.18
+            }
+          },
+          "after": {
+            "watering-can": {
+              "x": 672,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony",
+              "growth": 1.18
+            }
+          }
+        },
+        {
+          "scene": "balcony",
+          "from": 240,
+          "to": 288,
+          "before": {
+            "watering-can": {
+              "x": 672,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony",
+              "growth": 1.18
+            }
+          },
+          "after": {
+            "watering-can": {
+              "x": 672,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony"
+            },
+            "flower-pot": {
+              "x": 780,
+              "y": 550,
+              "holder": "",
+              "sceneId": "balcony",
+              "growth": 1.18
+            }
+          }
+        }
+      ],
+      "curves": [
+        {
+          "gesture": "倾壶浇水",
+          "keyframes": 6,
+          "effect": {
+            "kind": "water",
+            "targetId": "flower-pot"
+          },
+          "samples": [
+            {
+              "x": 600,
+              "y": 550,
+              "rotation": 0,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "x": 605.625,
+              "y": 552.3125,
+              "rotation": 0.06625,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.25,
+              "armL": -0.14031249999999998,
+              "armR": -0.596875,
+              "head": 0.129375,
+              "propRotation": 0.22812499999999997
+            },
+            {
+              "x": 609,
+              "y": 554,
+              "rotation": 0.1,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.5,
+              "armL": -0.25,
+              "armR": -0.85,
+              "head": 0.175361328125,
+              "propRotation": 0.6615966796875
+            },
+            {
+              "x": 608.6296296296297,
+              "y": 553.7777777777778,
+              "rotation": 0.09555555555555556,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.75,
+              "armL": -0.23888888888888887,
+              "armR": -0.8203703703703703,
+              "head": 0.15407407407407406,
+              "propRotation": 0.6592592592592592
+            },
+            {
+              "x": 600,
+              "y": 550,
+              "rotation": 0,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 1,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            }
+          ]
+        },
+        {
+          "gesture": "点头微笑",
+          "keyframes": 4,
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          },
+          "samples": [
+            {
+              "x": 600,
+              "y": 550,
+              "rotation": 0,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "x": 601.603498542274,
+              "y": 550,
+              "rotation": 0.016034985422740525,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.25,
+              "armL": 0.0641399416909621,
+              "armR": -0.0641399416909621,
+              "head": 0.1282798833819242,
+              "propRotation": 0
+            },
+            {
+              "x": 602,
+              "y": 551,
+              "rotation": 0.02,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.5,
+              "armL": 0.08,
+              "armR": -0.08,
+              "head": 0.19,
+              "propRotation": 0
+            },
+            {
+              "x": 601.603498542274,
+              "y": 551.603498542274,
+              "rotation": 0.016034985422740525,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 0.75,
+              "armL": 0.0641399416909621,
+              "armR": -0.0641399416909621,
+              "head": 0.19620991253644315,
+              "propRotation": 0
+            },
+            {
+              "x": 600,
+              "y": 550,
+              "rotation": 0,
+              "arms": 0,
+              "stride": 0,
+              "sx": 1,
+              "sy": 1,
+              "direction": 1,
+              "t": 1,
+              "armL": 0,
+              "armR": 0,
+              "head": 0.1,
+              "propRotation": 0
+            }
+          ]
+        }
+      ],
+      "ai": {
+        "provider": "本机 Codex",
+        "generatedAt": "2026-10-20T18:14:55.075Z"
+      },
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1852077"
+        }
+      },
+      "fullDecode": "passed",
+      "stageHashes": [
+        "86ffbb238366088ba3e09498e1a16cd3115204ce39dec72f10b8ab4b0c1f107e",
+        "6e6c33942bd036156c00ade2aab9561126df2809fda2886f301417e64532ae74",
+        "ebbd855865a0ab4b4d864f11af02ff9a95b08104b5aed9a667db67feab226491"
+      ]
+    }
+  ],
+  "worldStyleStills": 15,
+  "mediaChecks": "frames, codec, dimensions, audio, full decode, stage motion and distinct story images",
+  "humanReview": {
+    "signatures": [
+      "rabbit",
+      "robot",
+      "fox"
+    ],
+    "water": [
+      "walk endpoint X 700 to 600",
+      "two action names shortened"
+    ],
+    "geometryAndMotionKeys": "AI generated; no hand replacement"
+  },
+  "limitations": [
+    "2D procedural vector assets",
+    "generic approximate rig and contact",
+    "bounded action/effect grammar",
+    "no general physics or photorealism"
+  ],
+  "browser": {
+    "flow": {
+      "desktop": {
+        "scrollWidth": 1425,
+        "width": 1425
+      },
+      "mobile": {
+        "width": 375,
+        "scrollWidth": 375
+      },
+      "playback": {
+        "startFrame": 145,
+        "end": {
+          "button": "播放预览",
+          "frame": "0",
+          "scrollWidth": 375,
+          "width": 375
+        },
+        "live": {
+          "button": "暂停预览",
+          "frame": "272"
+        }
+      },
+      "exportId": "78da9de2-ad55-4d44-91d8-d56595427b76",
+      "browserAiCreate": "fox / new world / custom protagonist / auto export",
+      "edits": [
+        "change action and emotion",
+        "missing prop blocks export",
+        "add and remove cast",
+        "change scene",
+        "add/delete/reorder shots",
+        "custom gesture label",
+        "walk target affects inherited positions",
+        "reload restores complete world"
+      ]
+    },
+    "styleSwitches": [
+      {
+        "canvas": "扁平矢量故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "flat-vector",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "线条动画故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "line-art",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "等轴 2.5D故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "isometric",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "3D 质感故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "3d-render",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "逐帧手绘故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "cel-boil",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "拼贴剪贴故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "collage",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "液态流动故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "liquid",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "形变动画故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "morph",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "几何包豪斯故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "bauhaus",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "复古霓虹故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "synthwave",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "极光玻璃故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "aurora-glass",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "综艺花字故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "hanazi",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "贴纸科普故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "paperclip",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "像素动画故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "pixel",
+        "title": "阳台上的小花"
+      },
+      {
+        "canvas": "科技 HUD故事画面",
+        "character": "小禾",
+        "frame": "145",
+        "shots": 5,
+        "style": "hud",
+        "title": "阳台上的小花"
+      }
+    ]
+  }
+}

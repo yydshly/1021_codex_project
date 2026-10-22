@@ -1,0 +1,379 @@
+{
+  "comparisons": [
+    {
+      "engine": "world",
+      "component": "aurora-veil",
+      "changedPixels": 75391,
+      "bounds": [
+        26,
+        62,
+        621,
+        237
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "camera-push",
+      "changedPixels": 29474,
+      "bounds": [
+        0,
+        62,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "collage-note",
+      "changedPixels": 4840,
+      "bounds": [
+        471,
+        71,
+        599,
+        121
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "emotion-tag",
+      "changedPixels": 674,
+      "bounds": [
+        362,
+        173,
+        398,
+        195
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "focus-halo",
+      "changedPixels": 20283,
+      "bounds": [
+        233,
+        153,
+        407,
+        308
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "geometric-beat",
+      "changedPixels": 906,
+      "bounds": [
+        24,
+        77,
+        149,
+        94
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "ink-border",
+      "changedPixels": 2188,
+      "bounds": [
+        13,
+        69,
+        640,
+        302
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "iso-grid",
+      "changedPixels": 8222,
+      "bounds": [
+        0,
+        234,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "line-trail",
+      "changedPixels": 102,
+      "bounds": [
+        311,
+        265,
+        326,
+        278
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "neon-scan",
+      "changedPixels": 11590,
+      "bounds": [
+        4,
+        78,
+        636,
+        279
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "paper-grain",
+      "changedPixels": 157440,
+      "bounds": [
+        0,
+        62,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "pixel-sparks",
+      "changedPixels": 248,
+      "bounds": [
+        276,
+        180,
+        348,
+        264
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "ripple",
+      "changedPixels": 886,
+      "bounds": [
+        267,
+        275,
+        373,
+        295
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "shape-echo",
+      "changedPixels": 403,
+      "bounds": [
+        263,
+        170,
+        391,
+        293
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "soft-spotlight",
+      "changedPixels": 113469,
+      "bounds": [
+        0,
+        62,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "step-badge",
+      "changedPixels": 2481,
+      "bounds": [
+        0,
+        78,
+        113,
+        103
+      ]
+    },
+    {
+      "engine": "world",
+      "component": "tracking-frame",
+      "changedPixels": 492,
+      "bounds": [
+        244,
+        167,
+        368,
+        300
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "aurora-veil",
+      "changedPixels": 79988,
+      "bounds": [
+        5,
+        62,
+        640,
+        271
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "camera-push",
+      "changedPixels": 9251,
+      "bounds": [
+        0,
+        62,
+        640,
+        293
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "collage-note",
+      "changedPixels": 4664,
+      "bounds": [
+        482,
+        71,
+        599,
+        121
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "emotion-tag",
+      "changedPixels": 620,
+      "bounds": [
+        323,
+        76,
+        359,
+        98
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "focus-halo",
+      "changedPixels": 15680,
+      "bounds": [
+        194,
+        62,
+        368,
+        186
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "geometric-beat",
+      "changedPixels": 906,
+      "bounds": [
+        32,
+        77,
+        149,
+        94
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "ink-border",
+      "changedPixels": 2190,
+      "bounds": [
+        13,
+        69,
+        640,
+        302
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "iso-grid",
+      "changedPixels": 8369,
+      "bounds": [
+        0,
+        234,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "line-trail",
+      "changedPixels": 391,
+      "bounds": [
+        116,
+        130,
+        249,
+        252
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "neon-scan",
+      "changedPixels": 11807,
+      "bounds": [
+        4,
+        78,
+        636,
+        279
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "paper-grain",
+      "changedPixels": 157440,
+      "bounds": [
+        0,
+        62,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "pixel-sparks",
+      "changedPixels": 121,
+      "bounds": [
+        260,
+        62,
+        324,
+        124
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "ripple",
+      "changedPixels": 1081,
+      "bounds": [
+        219,
+        274,
+        342,
+        296
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "shape-echo",
+      "changedPixels": 246,
+      "bounds": [
+        219,
+        62,
+        349,
+        169
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "soft-spotlight",
+      "changedPixels": 118539,
+      "bounds": [
+        0,
+        62,
+        640,
+        308
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "step-badge",
+      "changedPixels": 2371,
+      "bounds": [
+        17,
+        78,
+        113,
+        103
+      ]
+    },
+    {
+      "engine": "classic",
+      "component": "tracking-frame",
+      "changedPixels": 306,
+      "bounds": [
+        233,
+        72,
+        329,
+        158
+      ]
+    }
+  ],
+  "zeroAmountUnchanged": true
+}

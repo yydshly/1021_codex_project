@@ -1,0 +1,151 @@
+{
+  "before": {
+    "role": "小禾",
+    "shots": 5,
+    "style": "paperclip",
+    "title": "阳台上的小花"
+  },
+  "styles": [
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "扁平矢量"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "线条动画"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "等轴 2.5D"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "3D 质感"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 4,
+      "planned": 2,
+      "title": "逐帧手绘"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "拼贴剪贴"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "液态流动"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "形变动画"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "几何包豪斯"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "复古霓虹"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "极光玻璃"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "综艺花字"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "贴纸科普"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "像素动画"
+    },
+    {
+      "activeStyle": "paperclip",
+      "dna": 3,
+      "modules": 3,
+      "planned": 2,
+      "title": "科技 HUD"
+    }
+  ],
+  "reusedInRobot": {
+    "amounts": [
+      "0.35",
+      "0.5",
+      "0.6",
+      "0.4"
+    ],
+    "role": "圆豆",
+    "selected": [
+      "复用组件：纸感叠印",
+      "复用组件：手绘边饰",
+      "复用组件：聚焦光环",
+      "复用组件：镜头缓推"
+    ],
+    "style": "cel-boil",
+    "title": "把温暖递给你"
+  },
+  "restored": {
+    "components": [
+      "复用组件：纸感叠印",
+      "复用组件：手绘边饰",
+      "复用组件：聚焦光环",
+      "复用组件：镜头缓推"
+    ],
+    "frame": "145",
+    "role": "小禾",
+    "shots": 5,
+    "style": "cel-boil",
+    "title": "阳台上的小花"
+  },
+  "limit": 6,
+  "limitEnforced": true,
+  "savedName": "温暖手作·聚焦",
+  "reloadRestored": true,
+  "robotVideoUrl": "/exports/18712d0d-1fc2-4f9a-b8b5-a7c67791354d.mp4",
+  "waterVideoUrl": "/exports/3badde96-496a-430e-aff4-881dc08c7682.mp4"
+}

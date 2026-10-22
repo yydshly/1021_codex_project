@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "hanazi",
+  "title": "别急，先喝一口",
+  "subtitle": "拉花翻车，快乐照常营业",
+  "words": [
+    "本店招牌",
+    "这杯有点高",
+    "快乐不打烊"
+  ],
+  "primary": "#ffd34c",
+  "secondary": "#f0759e",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

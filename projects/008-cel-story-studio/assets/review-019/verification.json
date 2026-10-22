@@ -1,0 +1,194 @@
+{
+  "version": "0.19.0",
+  "date": "2026-10-22T06:32:43.795Z",
+  "scope": "研究总结、网页信息结构与文档归档；修复空静态文件HTTP响应。未新增风格、AI调用或影片渲染。",
+  "engineering": {
+    "typecheck": "passed",
+    "applicationTests": {
+      "passed": 77
+    },
+    "repositoryTests": {
+      "passed": 8
+    },
+    "catalog": {
+      "passed": true,
+      "projects": 12
+    },
+    "build": "passed",
+    "diffCheck": "passed"
+  },
+  "browser": {
+    "method": "Codex in-app browser / cua_repl",
+    "summary": {
+      "styleCards": 15,
+      "videosMounted": 0,
+      "autoplay": false,
+      "wide": {
+        "viewport": 1280,
+        "document": 1265
+      },
+      "narrow": {
+        "viewport": 733,
+        "document": 718
+      }
+    },
+    "verified": [
+      "总结内容导航定位",
+      "三维空间分类4项、材质光效分类2项",
+      "卡片原理、已有实现、场景与边界展开",
+      "对应原片链接使用真实MP4路径",
+      "进入极光玻璃编辑器并恢复把蓝调留住及原有参数",
+      "风格页作品画廊先于编辑器，历史和逐项质量默认折叠",
+      "旧#effects-performance打开研究档案并定位",
+      "旧#effects-quality展开十五项制作摘要并定位",
+      "旗舰导演草稿给你一片星海恢复",
+      "原有故事工作台阳台上的小花及五镜故事板保留",
+      "总结页无横向溢出，最终用户页停在#overview"
+    ],
+    "console": "修复前记录3次动态模块加载失败；定位空分包响应问题并重启后复验上述路由，无新增error。"
+  },
+  "staticFix": {
+    "reason": "esbuild生成合法0字节共享模块，原服务器以end=-1创建流导致连接中断。",
+    "verified": [
+      {
+        "method": "GET",
+        "file": "chunk-AXBQGUPW.js",
+        "status": 200,
+        "bytes": 0
+      },
+      {
+        "method": "HEAD",
+        "file": "chunk-AXBQGUPW.js",
+        "status": 200,
+        "bytes": 0
+      },
+      {
+        "method": "GET",
+        "file": "chunk-VAJQTCNR.js",
+        "status": 200,
+        "bytes": 0
+      },
+      {
+        "method": "GET",
+        "range": "bytes=0-1",
+        "file": "chunk-AXBQGUPW.js",
+        "status": 416,
+        "bytes": 0
+      },
+      {
+        "method": "GET",
+        "file": "EffectWorkbench-3OG376F2.js",
+        "status": 200,
+        "bytes": 176944
+      }
+    ]
+  },
+  "preservation": {
+    "unchanged": 41,
+    "baseline": "media-before.json",
+    "details": "preservation.json",
+    "sourceFilms": [
+      {
+        "style": "flat-vector",
+        "file": "reference-effects/media/01-flat-vector.mp4",
+        "bytes": 958958,
+        "http": 200
+      },
+      {
+        "style": "line-art",
+        "file": "reference-effects/media/02-line-art.mp4",
+        "bytes": 565488,
+        "http": 200
+      },
+      {
+        "style": "isometric",
+        "file": "reference-effects/media/03-isometric.mp4",
+        "bytes": 2444836,
+        "http": 200
+      },
+      {
+        "style": "3d-render",
+        "file": "reference-effects/media/04-3d-render.mp4",
+        "bytes": 3530829,
+        "http": 200
+      },
+      {
+        "style": "cel-boil",
+        "file": "reference-effects/media/05-cel-boil.mp4",
+        "bytes": 7957024,
+        "http": 200
+      },
+      {
+        "style": "collage",
+        "file": "reference-effects/media/06-collage.mp4",
+        "bytes": 6223595,
+        "http": 200
+      },
+      {
+        "style": "liquid",
+        "file": "reference-effects/media/07-liquid.mp4",
+        "bytes": 1261696,
+        "http": 200
+      },
+      {
+        "style": "morph",
+        "file": "reference-effects/media/08-morph.mp4",
+        "bytes": 1088177,
+        "http": 200
+      },
+      {
+        "style": "bauhaus",
+        "file": "reference-effects/media/09-bauhaus.mp4",
+        "bytes": 791644,
+        "http": 200
+      },
+      {
+        "style": "synthwave",
+        "file": "reference-effects/media/10-synthwave.mp4",
+        "bytes": 5773981,
+        "http": 200
+      },
+      {
+        "style": "aurora-glass",
+        "file": "reference-effects/media/12-aurora-glass.mp4",
+        "bytes": 1207668,
+        "http": 200
+      },
+      {
+        "style": "hanazi",
+        "file": "reference-effects/media/18-hanazi.mp4",
+        "bytes": 1783239,
+        "http": 200
+      },
+      {
+        "style": "paperclip",
+        "file": "reference-effects/media/19-paperclip.mp4",
+        "bytes": 2061564,
+        "http": 200
+      },
+      {
+        "style": "pixel",
+        "file": "reference-effects/media/20-pixel.mp4",
+        "bytes": 3042809,
+        "http": 200
+      },
+      {
+        "style": "hud",
+        "file": "reference-effects/media/22-hud.mp4",
+        "bytes": 2669833,
+        "http": 200
+      }
+    ]
+  },
+  "screenshots": [
+    "../research-summary-019.png",
+    "summary-718.png",
+    "after-styles.png",
+    "before-styles.png"
+  ],
+  "limits": [
+    "网页结构与入口复核不代表十五支影片艺术质量全部达标。",
+    "本轮未逐片重新播放、渲染或重新验收AI生成；既有影片与0.18能力包哈希保持不变。",
+    "原生JSON文件选择器与320px视口未在本轮单独验收。"
+  ]
+}

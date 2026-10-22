@@ -1,0 +1,30 @@
+{
+  "id": "115cfe3c-e406-4d67-9e87-8ebddb6c6cb0",
+  "title": "雨停后，窗边见",
+  "recipe": {
+    "version": 1,
+    "components": [
+      {
+        "id": "paper-grain",
+        "amount": 0.35
+      },
+      {
+        "id": "ink-border",
+        "amount": 0.5
+      },
+      {
+        "id": "camera-push",
+        "amount": 0.4
+      }
+    ]
+  },
+  "characters": [
+    "小猫阿黄",
+    "兔子米米"
+  ],
+  "scenes": [
+    "雨后窗前小院"
+  ],
+  "shots": 5,
+  "genuineAI": true
+}

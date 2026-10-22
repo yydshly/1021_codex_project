@@ -1,0 +1,62 @@
+{
+  "viewed": true,
+  "before": "2.8-with-lens.jpg",
+  "during": "4.5-with-lens.jpg",
+  "after": "6.6-with-lens.jpg",
+  "sameFramePairs": [
+    "3.8",
+    "4.5",
+    "5.3"
+  ],
+  "metrics": [
+    {
+      "seconds": 4.5,
+      "glyphROI": [
+        320,
+        175,
+        525,
+        254
+      ],
+      "meanAbsoluteRGB255": 55.95,
+      "brightGlyphPixelsWithout": 3198,
+      "brightGlyphPixelsWith": 5416,
+      "expandedLensBounds": [
+        250,
+        76,
+        624,
+        390
+      ],
+      "outsideMeanAbsoluteRGB255": 0.0,
+      "interpretation": "相同时间仅切透镜开关；标题/数字字形的尺度和位置改变，透镜外场景几乎相同。数值仅确认真实采样，不是审美评分。"
+    },
+    {
+      "seconds": 5.3,
+      "glyphROI": [
+        770,
+        265,
+        940,
+        343
+      ],
+      "meanAbsoluteRGB255": 25.125,
+      "brightGlyphPixelsWithout": 531,
+      "brightGlyphPixelsWith": 867,
+      "expandedLensBounds": [
+        669,
+        155,
+        1043,
+        469
+      ],
+      "outsideMeanAbsoluteRGB255": 0.0,
+      "interpretation": "相同时间仅切透镜开关；标题/数字字形的尺度和位置改变，透镜外场景几乎相同。数值仅确认真实采样，不是审美评分。"
+    }
+  ],
+  "conclusion": "实际查看穿字前/中/后的画面和同一时点透镜开关对照，确认透镜内的中文标题、副题与频率数字被放大/偏折；离开后原文字形仍完整。",
+  "fixesAfterFirstReview": [
+    "右侧仪表前移留出文字空间，避免被主卡遮成残缺标题/读数。",
+    "透镜读完标题后立即转向真实频率数字，不再在空白区域悬停。",
+    "结尾透镜停靠FM相位图，保持完整主视觉和字版安全区。"
+  ],
+  "boundary": "屏幕空间透镜，从全分辨率已合成场景纹理取样；不称物理体积路径追踪或流体模拟。",
+  "finalVideoRendered": false,
+  "audioListened": false
+}

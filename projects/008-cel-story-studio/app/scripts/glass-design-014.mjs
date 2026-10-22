@@ -1,0 +1,17 @@
+export const glassDesign014={
+ id:'aurora-glass',title:'折光电台',subtitle:'让声音，在光里流动',
+ premise:'近景里读到一张正在调频的磨砂玻璃播放器。透明透镜先放大中文标题，再读出96.8频率和波形细节，最后收回完整主视觉。',
+ beats:[{at:0,event:'有字有材质的近景开场'},{at:2.2,event:'三层仪表布局停靠'},{at:3.1,event:'透镜开始读取真实中文标题'},{at:4.74,event:'透镜转向频率读数'},{at:5.32,event:'96.8被实际放大'},{at:6.6,event:'完成调频，主视觉收束'},{at:8.0,event:'保持完整卡片与品牌字版'}],
+ keyframes:[{seconds:.4,file:'0.4-with-lens.jpg',line:'玻璃边缘与文字已经进入画面'},{seconds:4.5,file:'4.5-with-lens.jpg',line:'同一中文标题在透镜内真正放大和偏折'},{seconds:5.3,file:'5.3-with-lens.jpg',line:'透镜读出实际频率字形'},{seconds:9.6,file:'9.6-with-lens.jpg',line:'主播放器、两级仪表与透镜完整收束'}],
+ implementation:['背景先写入全分辨率FBO','磨砂卡片、动态中文/波形/读数先合成到scene FBO','独立透镜pass从scene纹理进行折射、放大和边缘色散采样','前景字版由overlay独立绘制'],
+ modules:['可读材质近景','动态播放器内容图集','离屏全场景合成','场景纹理凸透镜','受控色散与薄边高光'],
+ controls:['频谱柱数量','波形速度与透镜倍率','磨砂采样与色散强度'],
+ entry:'src/effects/prism-film-014.ts',
+ interface:'createShader(canvas, config, options?) / createOptical同名别称，返回{draw(seconds),dispose(),overlay}。overlay为paintGlassOverlay014；请使用它取代旧aurora overlay。',
+ qaOption:'第三个参数{disableLens:true}仅供同一时刻的光学核验，不需新增工作台控件。',
+ verified:'独立渲染13张帧，实际查看穿字前/中/后及三个同一时点透镜开/关对照；4.5秒标题字形、5.3秒频率数字确实改变位置和尺度。',
+ proof:'assets/review-014/glass/refraction-check.json，refraction-on-off.jpg，story-contact.jpg',
+ boundary:'屏幕空间SDF凸透镜与场景纹理采样，不是多次体积反射/透射的路径追踪；磨砂卡片主要采样背景，透镜采样完整已合成场景。波形和频率是确定性原创演示，不是真实音频分析或电台数据。',
+ sources:'研究固定commit 49052d80bfaf9fa8412cc9710530e5e95a3b8d8c 的玻璃机制；构图、播放器内容、透镜路线和本模块代码独立编写，没有复制上游shader或影片。使用既有本地Noto Sans SC，不新增外部资产。',
+ remaining:['当前是单个编排明确的材料短片，不承诺任意产品界面会自动拥有同样构图','内容经过透镜边缘会局部断开和弯曲，这是折射演示，需要以完整播放判断阅读节奏','未渲染最终MP4，也未试听；最终接入与声画时点由主任务核验'],
+};

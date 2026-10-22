@@ -10,7 +10,7 @@
 | 001 示例 | `https://yydshly.github.io/1021_codex_project/projects/001-example/` |
 | 002 示例 | `https://yydshly.github.io/1021_codex_project/projects/002-example/` |
 
-研究门户已启用 GitHub Pages。以上子项目名称仅说明路径规则，当前没有已登记的研究子项目。
+研究门户已启用 GitHub Pages。以上子项目名称仅说明路径规则，当前项目列表以 `projects.json` 和演示门户为准。
 
 ## 发布方式
 
@@ -38,3 +38,11 @@
 - 如需完整部署路径预览，可将 `_site` 的内容放在临时服务器目录下的 `1021_codex_project/` 子目录，再从该服务器根目录启动预览。
 
 参考：[GitHub Pages 简介](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、[自定义工作流发布](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+## MG 风格研究与工作台
+
+- [004：源库十五种效果与原理](https://yydshly.github.io/1021_codex_project/projects/004-mg-styles-explorer/)。
+- [008：研究总结、能力全景图与工作台](https://yydshly.github.io/1021_codex_project/projects/008-cel-story-studio/#overview)。
+- 线上支持已有作品观看与对比、浏览器编辑预览、配置保存和已有成片下载；AI编排与新MP4输出需要本地Node服务。
+- 全部独立影片和历史逐项对比保留在Pages；完整连播合集按SHA256归并后保存到同仓库的 `mg-styles-research-019` Release，未转码。
+- 该项目构建后执行 `node scripts/prepare-pages.mjs` 整理发布副本，再运行根目录目录索引检查。详见 [发布与素材保留说明](../projects/008-cel-story-studio/PAGES-PUBLICATION-019.md)。

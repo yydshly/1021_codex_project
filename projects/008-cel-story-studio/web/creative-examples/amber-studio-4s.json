@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "3d-render",
+  "title": "光的触感",
+  "subtitle": "陶瓷、金属与一颗不愿停下的琥珀",
+  "words": [
+    "升起",
+    "环绕",
+    "共振"
+  ],
+  "primary": "#e5a855",
+  "secondary": "#7eb7a4",
+  "count": 10,
+  "intensity": 0.65,
+  "detail": 0.8,
+  "seed": 43,
+  "duration": 4,
+  "sound": true
+}

@@ -1,0 +1,108 @@
+{
+  "templates": [
+    {
+      "canvas": "扁平矢量独立效果模板",
+      "errors": [],
+      "style": "flat-vector"
+    },
+    {
+      "canvas": "线条动画独立效果模板",
+      "errors": [],
+      "style": "line-art"
+    },
+    {
+      "canvas": "等轴 2.5D独立效果模板",
+      "errors": [],
+      "style": "isometric"
+    },
+    {
+      "canvas": "3D 质感独立效果模板",
+      "errors": [],
+      "style": "3d-render"
+    },
+    {
+      "canvas": "逐帧手绘独立效果模板",
+      "errors": [],
+      "style": "cel-boil"
+    },
+    {
+      "canvas": "拼贴剪贴独立效果模板",
+      "errors": [],
+      "style": "collage"
+    },
+    {
+      "canvas": "液态流动独立效果模板",
+      "errors": [],
+      "style": "liquid"
+    },
+    {
+      "canvas": "形变动画独立效果模板",
+      "errors": [],
+      "style": "morph"
+    },
+    {
+      "canvas": "几何包豪斯独立效果模板",
+      "errors": [],
+      "style": "bauhaus"
+    },
+    {
+      "canvas": "复古霓虹独立效果模板",
+      "errors": [],
+      "style": "synthwave"
+    },
+    {
+      "canvas": "极光玻璃独立效果模板",
+      "errors": [],
+      "style": "aurora-glass"
+    },
+    {
+      "canvas": "综艺花字独立效果模板",
+      "errors": [],
+      "style": "hanazi"
+    },
+    {
+      "canvas": "贴纸科普独立效果模板",
+      "errors": [],
+      "style": "paperclip"
+    },
+    {
+      "canvas": "像素动画独立效果模板",
+      "errors": [],
+      "style": "pixel"
+    },
+    {
+      "canvas": "科技 HUD独立效果模板",
+      "errors": [],
+      "style": "hud"
+    }
+  ],
+  "imported": {
+    "style": "3d-render",
+    "title": "有形的灵感",
+    "count": 10,
+    "seed": 22
+  },
+  "exportUrl": "/exports/15b942f3-2ce9-4437-83fe-cc092b73c144.mp4",
+  "legacyStoryPreserved": {
+    "title": "阳台上的小花",
+    "character": "小禾",
+    "recipe": [
+      "paper-grain .35",
+      "ink-border .50",
+      "focus-halo .60",
+      "camera-push .40"
+    ]
+  },
+  "entry": "#styles",
+  "gallery": "#effects-gallery",
+  "playback": {
+    "frame": 110,
+    "fps": 30,
+    "referenceTime": 3.738522,
+    "referencePaused": false
+  },
+  "viewport": {
+    "clientWidth": 658,
+    "horizontalOverflow": false
+  }
+}

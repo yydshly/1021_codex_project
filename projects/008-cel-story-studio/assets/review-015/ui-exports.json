@@ -1,0 +1,88 @@
+[
+  {
+    "job": "7bdb10bc-3d72-402f-a7b1-81bce93b8245",
+    "file": "web/material-examples-015/hud-close.mp4",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "hud",
+      "title": "回声，醒来",
+      "subtitle": "在最深的静默里，听见回应",
+      "words": [
+        "寻迹",
+        "解码",
+        "苏醒"
+      ],
+      "primary": "#39d7df",
+      "secondary": "#ffbd63",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 21,
+      "duration": 6,
+      "sound": false,
+      "shots": [
+        {
+          "id": "hud-1",
+          "action": "ping",
+          "seconds": 1.5,
+          "caption": "静默海沟，收到一段回声",
+          "framing": "close"
+        },
+        {
+          "id": "hud-2",
+          "action": "inspect",
+          "seconds": 1.5,
+          "caption": "穿过表象，看见结构",
+          "framing": "close"
+        },
+        {
+          "id": "hud-3",
+          "action": "decode",
+          "seconds": 1.5,
+          "caption": "回声，正在成为回答",
+          "framing": "close"
+        },
+        {
+          "id": "hud-4",
+          "action": "awaken",
+          "seconds": 1.5,
+          "caption": "深蓝之中，生命般的回应",
+          "framing": "close"
+        }
+      ]
+    },
+    "frames": 180,
+    "fullDecode": true,
+    "audio": false,
+    "sha256": "309507b96c0dc2ecc1e86b38443287dd35db735f2c018d822c6855e213f715bc"
+  },
+  {
+    "job": "5edca86c-72d8-4e05-becb-52ce8784e1c3",
+    "file": "web/material-examples-015/liquid-custom.mp4",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "liquid",
+      "title": "柔软的相遇",
+      "subtitle": "柔软，也能连接两端",
+      "words": [
+        "落下",
+        "牵起",
+        "连接"
+      ],
+      "primary": "#ff7b37",
+      "secondary": "#29c9d0",
+      "count": 14,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 22,
+      "duration": 6,
+      "sound": true
+    },
+    "frames": 180,
+    "fullDecode": true,
+    "audio": true,
+    "sha256": "a3f004e8ded8605f0aebe1052f3e39d0ec5d95dc9c593468c935968166c11c4d"
+  }
+]

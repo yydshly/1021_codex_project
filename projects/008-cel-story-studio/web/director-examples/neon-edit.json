@@ -1,0 +1,50 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "synthwave",
+  "title": "频率随想",
+  "subtitle": "让一段旧时光，长成新的频率",
+  "words": [
+    "苏醒",
+    "展开",
+    "穿越"
+  ],
+  "primary": "#ff3ba7",
+  "secondary": "#3fe0ed",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 6,
+  "sound": false,
+  "shots": [
+    {
+      "id": "synthwave-1",
+      "action": "spool",
+      "seconds": 1.5,
+      "caption": "按下播放，听见新的频率",
+      "framing": "wide"
+    },
+    {
+      "id": "synthwave-2",
+      "action": "unspool",
+      "seconds": 1.5,
+      "caption": "把声音，铺成一条路",
+      "framing": "close"
+    },
+    {
+      "id": "synthwave-3",
+      "action": "ride",
+      "seconds": 1.5,
+      "caption": "沿着频率，走进夜色",
+      "framing": "wide"
+    },
+    {
+      "id": "synthwave-4",
+      "action": "resolve",
+      "seconds": 1.5,
+      "caption": "这一夜，有自己的频率",
+      "framing": "wide"
+    }
+  ]
+}

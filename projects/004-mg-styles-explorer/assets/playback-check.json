@@ -1,0 +1,84 @@
+{
+  "media": [
+    {
+      "file": "01-flat-vector.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/958958"
+    },
+    {
+      "file": "02-line-art.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/565488"
+    },
+    {
+      "file": "03-isometric.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/2444836"
+    },
+    {
+      "file": "04-3d-render.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/3530829"
+    },
+    {
+      "file": "05-cel-boil.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/7957024"
+    },
+    {
+      "file": "06-collage.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/6223595"
+    },
+    {
+      "file": "07-liquid.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/1261696"
+    },
+    {
+      "file": "08-morph.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/1088177"
+    },
+    {
+      "file": "09-bauhaus.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/791644"
+    },
+    {
+      "file": "10-synthwave.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/5773981"
+    },
+    {
+      "file": "12-aurora-glass.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/1207668"
+    },
+    {
+      "file": "18-hanazi.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/1783239"
+    },
+    {
+      "file": "19-paperclip.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/2061564"
+    },
+    {
+      "file": "20-pixel.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/3042809"
+    },
+    {
+      "file": "22-hud.mp4",
+      "status": 206,
+      "range": "bytes 0-1023/2669833"
+    }
+  ],
+  "suffixRange": "passed",
+  "seekRange": "passed",
+  "openEndedRange": "passed",
+  "invalidRange": "passed",
+  "head": "passed"
+}

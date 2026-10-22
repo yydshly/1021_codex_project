@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "title": "再试一次的微光",
+  "signature": "微小，也能向前",
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-ab2cfdfa-92a9-42e7-9cea-fc113060178c-1",
+      "caption": "望着暗星，想用微光点亮它",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 2
+    },
+    {
+      "id": "ai-ab2cfdfa-92a9-42e7-9cea-fc113060178c-2",
+      "caption": "害怕地向前走，停在山前",
+      "action": "walk",
+      "emotion": "afraid",
+      "duration": 2
+    },
+    {
+      "id": "ai-ab2cfdfa-92a9-42e7-9cea-fc113060178c-3",
+      "caption": "起跳未越过山，落回后垂下手",
+      "action": "fail",
+      "emotion": "sad",
+      "duration": 3
+    },
+    {
+      "id": "ai-ab2cfdfa-92a9-42e7-9cea-fc113060178c-4",
+      "caption": "再鼓起勇气，漂过山慢慢落地",
+      "action": "float",
+      "emotion": "determined",
+      "duration": 3
+    },
+    {
+      "id": "ai-ab2cfdfa-92a9-42e7-9cea-fc113060178c-5",
+      "caption": "开心地举起双手，点亮星星",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 2
+    }
+  ],
+  "creative": {
+    "brief": "一颗小火苗总觉得自己不够亮，越害怕越想试试。请让它经历一次失败，最终发现坚持带来的微光。",
+    "logline": "觉得自己不够亮的小火苗越山失败后，再次鼓起勇气，终于点亮了等待的星星。",
+    "narrative": "纸上的小火苗停下来望着未亮的星星，总觉得自己的光太微弱，却想靠近它。它害怕地走到小山前，仍决定试一试。它向前起跳，却没能越过小山，落回原处附近，难过地垂下手。失败之后，它依然想点亮那颗星星，于是重新坚定起来，沿着柔和的弧线漂过小山，慢慢落地。小火苗举起双手，星星终于亮了。它开心地发现，自己微小的光，也能在坚持之后迎来回应。",
+    "tone": "brave",
+    "mode": "create",
+    "generatedAt": "2026-10-20T16:40:42.129Z",
+    "provider": "本机 Codex"
+  }
+}

@@ -1,0 +1,10 @@
+type Point = number[];
+type Options = Record<string, unknown>;
+export const PAL: Record<string, string>;
+export const GLOBAL: {ink: number; amp: number};
+export function hs(...values: number[]): number;
+export function spline(points: Point[], closed?: boolean, step?: number): Point[];
+export function circlePts(x: number, y: number, radius: number, count?: number, rx?: number): Point[];
+export function inkStroke(ctx: CanvasRenderingContext2D, points: Point[], options?: Options): Point[];
+export function inkLoop(ctx: CanvasRenderingContext2D, points: Point[], options?: Options): Point[];
+export function fillShape(ctx: CanvasRenderingContext2D, points: Point[], color: string, options?: Options): Point[];

@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "paperclip",
+  "title": "彩虹从哪里来",
+  "subtitle": "棱镜没有染色，它把颜色分开",
+  "words": [
+    "入射",
+    "折射",
+    "色散"
+  ],
+  "primary": "#e5a453",
+  "secondary": "#345591",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 6,
+  "sound": false,
+  "storyId": "prism"
+}

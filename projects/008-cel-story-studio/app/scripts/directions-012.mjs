@@ -1,0 +1,15 @@
+export const directions012={
+ 'flat-vector':{example:['橘子有引力','一口鲜活，把夏天拉近','剖开,倾注,清爽'],primary:'#ff7a25',secondary:'#2838db',features:'整果剖开、橘瓣编舞、果汁倾注与品牌收束',modules:['柑橘切面','果瓣轨道','流线倾注','品牌字版'],controls:['果瓣与射线密度','运动弹性','果肉纹理'],principle:'橘子从整果变为切面，果瓣被引力甩开后沿弧线汇入杯中；蓝橙大色块与完整镜头变化让图形为事件服务。',boundary:'原创 Canvas 柑橘品牌模板，图形与运动可参数化；尚不支持自由品牌插画或任意液体物理。'},
+ 'line-art':{example:['一线成鲸','让一条线，游进星海','落笔,跃起,成星'],primary:'#f1c779',secondary:'#7ccee8',features:'连续描线、鲸鱼跃起、水线溅落与星座生成',modules:['连续鲸形','描线时序','跃起弧线','星座连线'],controls:['浪线与星点','跃起幅度','笔触粗细'],principle:'描线逐步显出鲸形，鲸鱼从海面跃起并带起水线，随后变为星座；金线和深蓝背景保持轮廓清晰。',boundary:'原创鲸形与程序路径，形态及运动确定；没有任意用户 SVG 拓扑规划。'},
+ 'cel-boil':{primary:'#d84332',secondary:'#355d9b',example:['最后一班月亮','风雨再小，也有人认真送达','迎着风出发,接住这份心意,送到你手里'],features:'兔邮差、阵风失衡、信件飞出与投递收束'},
+ collage:{primary:'#ff7550',secondary:'#68cbd5',features:'调频特写、扬声器开海、纸片爆散与深潜回声'},
+ liquid:{modules:['连续融合表面','Cycles透射','体积吸色','成环编舞'],controls:['卫星液滴','流动速度','折光与环厚'],principle:'三组连续等值面从一滴分离为液珠，再聚合并展开成闭合环；Cycles计算玻璃透射、体积吸色、灯箱反射与地面。网页改参数时显示GPU构图预览，导出重跑三维材质。',engine:'Blender / Cycles · 融合材质',primary:'#ff6d35',secondary:'#9b39e2',example:['潮汐实验','把流动，凝成一瞬间的光','一滴,交融,涌现'],features:'有色透射、连颈融合、环形重组与双色光场',boundary:'Blender Cycles 256采样、连续融合表面与透射吸色；修改参数后网页为GPU构图预览，导出重新渲染。几何为预设编舞，不是流体物理求解。'},
+ morph:{primary:'#ff693b',secondary:'#3f46ec',example:['形状的接力','每一次变化，都留下联系','鱼,鸟,叶'],features:'鱼、飞鸟与叶片的连续轮廓交接',controls:['形状回声数量','运动幅度','轮廓舒展度'],modules:['等弧长采样','循环点匹配','形状接力','运动回声'],principle:'具体可识别的鱼、鸟和叶片共享轮廓点，以连续插值完成接力；留出姿态停顿，再以群形释放。'},
+ bauhaus:{primary:'#e63332',secondary:'#2549d9',features:'大幅几何、满幅网格编舞、切分与动态字版'},
+ synthwave:{primary:'#ff3cbb',secondary:'#45ddec',features:'洋红青蓝霓虹、雨夜列车、弧形隧道与速度字版'},
+ 'aurora-glass':{example:['折光电台','让声音，在光里流动','播放,频率,共鸣'],primary:'#8248f5',secondary:'#21c8e8',features:'主播放器、两级仪表、折光声球与收束字版',modules:['多尺度玻璃布局','背景折射与磨砂','色散倒角','仪表纹理'],controls:['频谱密度','光场流速','磨砂强度'],principle:'从玻璃边缘近景拉出主播放器，两个仪表错峰停靠，声球穿过光场后面板收拢，形成具有发展和收尾的材料短片。',boundary:'实时 GPU 背景采样、磨砂和边缘色散；不是物理路径追踪，未支持任意产品截图或声频输入。'},
+ hanazi:{example:['夜班也要慢慢来','咖啡可以等，快乐也是','认真倒,哎呀翻车,慢慢来'],primary:'#ffdb39',secondary:'#ff5e9c',features:'倒奶、泡沫事故、开心释然三种姿态与漫画剪辑'},
+ paperclip:{example:['把阳光留到夜里','从一束光，到一盏灯','收集,储存,点亮'],primary:'#ffae23',secondary:'#3153c5',features:'光伏收集、储能电池、城市亮灯与能量路径',modules:['光伏模块','电池剖面','能量路径','昼夜城市'],controls:['面板与灯点密度','能量脉冲幅度','面板倾斜'],principle:'以太阳能板、储能电池与路灯三幕解释能量从收集到使用；同一条流动路径连接图形和阶段。',boundary:'光伏、储能与照明的原创概念图，不是电力系统仿真；自由改写内容仍需核对图意。'},
+ pixel:{primary:'#ef9252',secondary:'#55c4db',features:'蓝紫雨巷、角色跟拍、跨越水洼与暖窗投递'},
+ hud:{primary:'#42e2d1',secondary:'#ffab4c',features:'月面实景、扫描网格、动态读数、信号锁定与琥珀响应'},
+};

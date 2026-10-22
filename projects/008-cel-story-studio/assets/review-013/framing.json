@@ -1,0 +1,261 @@
+{
+  "version": "0.13",
+  "verifiedAt": "2026-10-21T13:40:32.876Z",
+  "scope": "十二种动作逐一只改变镜头的 wide/close，使用默认四镜时间轴的动作中点。输出24张主体帧，不合成视频，不操作网页。",
+  "textExclusion": "独立核验入口不绘制三维影片HUD/字幕；Canvas fillText/strokeText在构造纹理与绘制像素帧时临时禁用。主体差异另取x=360,y=135,w=620,h=400区域，避开像素MOON招牌字形。主体、相机与动作使用原模块；未改生产源码。",
+  "crop": {
+    "x": 360,
+    "y": 135,
+    "width": 620,
+    "height": 400
+  },
+  "checks": [
+    {
+      "style": "synthwave",
+      "action": "spool",
+      "shotIndex": 0,
+      "targetProgress": 0.5,
+      "renderedFrame": 38,
+      "renderedSeconds": 1.2666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "synthwave-spool-wide.jpg",
+        "close": "synthwave-spool-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 35.779,
+        "changedPixelRatioAbove20": 0.4659,
+        "passed": true
+      }
+    },
+    {
+      "style": "synthwave",
+      "action": "unspool",
+      "shotIndex": 1,
+      "targetProgress": 0.5,
+      "renderedFrame": 113,
+      "renderedSeconds": 3.7666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "synthwave-unspool-wide.jpg",
+        "close": "synthwave-unspool-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 34.345,
+        "changedPixelRatioAbove20": 0.4176,
+        "passed": true
+      }
+    },
+    {
+      "style": "synthwave",
+      "action": "ride",
+      "shotIndex": 2,
+      "targetProgress": 0.5,
+      "renderedFrame": 188,
+      "renderedSeconds": 6.266666666666667,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "synthwave-ride-wide.jpg",
+        "close": "synthwave-ride-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 46.968,
+        "changedPixelRatioAbove20": 0.5658,
+        "passed": true
+      }
+    },
+    {
+      "style": "synthwave",
+      "action": "resolve",
+      "shotIndex": 3,
+      "targetProgress": 0.5,
+      "renderedFrame": 263,
+      "renderedSeconds": 8.766666666666667,
+      "actionProgress": 0.506666666666667,
+      "files": {
+        "wide": "synthwave-resolve-wide.jpg",
+        "close": "synthwave-resolve-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 38.517,
+        "changedPixelRatioAbove20": 0.444,
+        "passed": true
+      }
+    },
+    {
+      "style": "pixel",
+      "action": "catch",
+      "shotIndex": 0,
+      "targetProgress": 0.5,
+      "renderedFrame": 38,
+      "renderedSeconds": 1.2666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "pixel-catch-wide.jpg",
+        "close": "pixel-catch-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 28.506,
+        "changedPixelRatioAbove20": 0.329,
+        "passed": true
+      }
+    },
+    {
+      "style": "pixel",
+      "action": "repair",
+      "shotIndex": 1,
+      "targetProgress": 0.5,
+      "renderedFrame": 113,
+      "renderedSeconds": 3.7666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "pixel-repair-wide.jpg",
+        "close": "pixel-repair-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 68.248,
+        "changedPixelRatioAbove20": 0.684,
+        "passed": true
+      }
+    },
+    {
+      "style": "pixel",
+      "action": "launch",
+      "shotIndex": 2,
+      "targetProgress": 0.5,
+      "renderedFrame": 188,
+      "renderedSeconds": 6.266666666666667,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "pixel-launch-wide.jpg",
+        "close": "pixel-launch-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 70.097,
+        "changedPixelRatioAbove20": 0.6407,
+        "passed": true
+      }
+    },
+    {
+      "style": "pixel",
+      "action": "illuminate",
+      "shotIndex": 3,
+      "targetProgress": 0.5,
+      "renderedFrame": 263,
+      "renderedSeconds": 8.766666666666667,
+      "actionProgress": 0.506666666666667,
+      "files": {
+        "wide": "pixel-illuminate-wide.jpg",
+        "close": "pixel-illuminate-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 66.555,
+        "changedPixelRatioAbove20": 0.6189,
+        "passed": true
+      }
+    },
+    {
+      "style": "hud",
+      "action": "ping",
+      "shotIndex": 0,
+      "targetProgress": 0.5,
+      "renderedFrame": 38,
+      "renderedSeconds": 1.2666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "hud-ping-wide.jpg",
+        "close": "hud-ping-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 10.216,
+        "changedPixelRatioAbove20": 0.1003,
+        "passed": true
+      }
+    },
+    {
+      "style": "hud",
+      "action": "inspect",
+      "shotIndex": 1,
+      "targetProgress": 0.5,
+      "renderedFrame": 113,
+      "renderedSeconds": 3.7666666666666666,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "hud-inspect-wide.jpg",
+        "close": "hud-inspect-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 26.147,
+        "changedPixelRatioAbove20": 0.2688,
+        "passed": true
+      }
+    },
+    {
+      "style": "hud",
+      "action": "decode",
+      "shotIndex": 2,
+      "targetProgress": 0.5,
+      "renderedFrame": 188,
+      "renderedSeconds": 6.266666666666667,
+      "actionProgress": 0.5066666666666666,
+      "files": {
+        "wide": "hud-decode-wide.jpg",
+        "close": "hud-decode-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 31.763,
+        "changedPixelRatioAbove20": 0.4647,
+        "passed": true
+      }
+    },
+    {
+      "style": "hud",
+      "action": "awaken",
+      "shotIndex": 3,
+      "targetProgress": 0.5,
+      "renderedFrame": 263,
+      "renderedSeconds": 8.766666666666667,
+      "actionProgress": 0.506666666666667,
+      "files": {
+        "wide": "hud-awaken-wide.jpg",
+        "close": "hud-awaken-close.jpg"
+      },
+      "bodyDifference": {
+        "meanAbsoluteRGB255": 21.012,
+        "changedPixelRatioAbove20": 0.2642,
+        "passed": true
+      }
+    }
+  ],
+  "visualReviewPending": false,
+  "limits": "这里只验证改变framing会改变主体取景；图像差异数值不代表艺术质量，也不保证任意动作顺序的世界状态连续。",
+  "thresholdExplanation": "主体裁图平均RGB绝对差>2/255、超过20/255的像素比例>5%，仅排除镜头参数完全无效的情况，不是审美评分。",
+  "allBodyDifferencesPassed": true,
+  "visualReview": {
+    "reviewedContacts": [
+      "framing/synthwave-contact.jpg",
+      "framing/pixel-contact.jpg",
+      "framing/hud-contact.jpg"
+    ],
+    "pairsActuallyViewed": 12,
+    "conclusion": "十二种动作切换wide/close都实际改变主体取景。pixel repair的wide现在显示屋顶与工坊，close显示猫机械师和修补工作台，不再忽略framing。",
+    "observations": {
+      "synthwave": "磁芯、展开装置、穿越光门和收束装置在close中均扩大或缩小视场；穿越镜头的门框位置和尺度也有真实变化。",
+      "pixel": "接月、修补、升空、亮灯四段均改变取景。亮灯close集中月亮，wide保留城市与修理铺；主体差异并非字幕变化。",
+      "hud": "声呐、扫描、解码和苏醒四段均随close靠近目标，其中ping的变化比较克制，约为相机距离缩短10%。"
+    },
+    "visibleIssues": [
+      {
+        "style": "hud",
+        "action": "awaken",
+        "framing": "close",
+        "issue": "苏醒近景的高侧翼尖超过画面上缘。wide没有此问题；这是近景放大的取景边界，不能把全部动作的close都描述成保全完整主体。"
+      }
+    ],
+    "scopeLimit": "本次主体帧刻意省略编辑文字与Canvas字标，不能用来判断实际标题、字幕或标牌排版是否被裁切。最终默认影片的字版另见art-review.md。"
+  },
+  "samplingNote": "默认每镜2.5秒，中点为1.25/3.75/6.25/8.75秒，落在30FPS的半帧时点；wide与close使用同一最近整数帧，实际progress均为0.506667，相对目标0.5误差为1/60秒。",
+  "renderNotes": [
+    "初次Three材质编译时ANGLE输出X4122浮点精度告警，全部24张still仍完成；审片未发现对应几何或材质破损。"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "cel-boil",
+  "title": "最后一班月亮",
+  "subtitle": "风雨再小，也有人认真送达",
+  "words": [
+    "迎着风出发",
+    "接住这份心意",
+    "送到你手里"
+  ],
+  "primary": "#d84332",
+  "secondary": "#355d9b",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

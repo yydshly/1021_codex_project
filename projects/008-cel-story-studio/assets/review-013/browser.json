@@ -1,0 +1,202 @@
+{
+  "playback": [
+    {
+      "label": "synthwave/new",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/synthwave.mp4?v=013",
+      "time": 10.005
+    },
+    {
+      "label": "synthwave/before",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/quality-before-013/synthwave.mp4?v=013",
+      "time": 10.005
+    },
+    {
+      "label": "pixel/new",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/pixel.mp4?v=013",
+      "time": 10.005
+    },
+    {
+      "label": "pixel/before",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/quality-before-013/pixel.mp4?v=013",
+      "time": 10.005
+    },
+    {
+      "label": "hud/new",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/hud.mp4?v=013",
+      "time": 10.005
+    },
+    {
+      "label": "hud/before",
+      "duration": 10.005,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/quality-before-013/hud.mp4?v=013",
+      "time": 10.005
+    }
+  ],
+  "manual": {
+    "copyCount": 5,
+    "copyDuration": 12.5,
+    "deleteCount": 4,
+    "reordered": true,
+    "changedAction": "illuminate",
+    "changedDuration": 9,
+    "changedFraming": "wide",
+    "undo": true,
+    "aiReviewBeforeApply": true,
+    "aiAppliedShots": 6,
+    "aiAppliedDuration": 10,
+    "legacyImportDuration": 6.2,
+    "legacySilentPreserved": true,
+    "legacyTimingAligned": 6,
+    "draftSavedAndRestored": true
+  },
+  "reel": {
+    "duration": 30,
+    "ended": true,
+    "error": null,
+    "ready": 4,
+    "src": "http://127.0.0.1:8048/effect-examples/trio-reel-013.mp4?v=013",
+    "time": 30
+  },
+  "customHudHref": "/exports/923a87a8-5c17-4877-a259-9931bb7d3544.mp4",
+  "customExports": [
+    {
+      "style": "pixel",
+      "url": "/exports/bb2bb7e8-4787-4311-a524-f939d882bdea.mp4"
+    },
+    {
+      "style": "synthwave",
+      "url": "/exports/a5cd20fe-58ab-4296-b05a-12b11e1364b6.mp4"
+    },
+    {
+      "style": "hud",
+      "url": "/exports/923a87a8-5c17-4877-a259-9931bb7d3544.mp4"
+    }
+  ],
+  "desktop": {
+    "director": {
+      "top": 20.166667938232425,
+      "width": 547.84375,
+      "x": 666.2396240234375
+    },
+    "horizontalOverflow": false,
+    "preview": {
+      "top": 20.166667938232425,
+      "width": 591.65625,
+      "x": 50.58333587646485
+    },
+    "viewport": [
+      1280,
+      900
+    ]
+  },
+  "images": [
+    {
+      "loaded": true,
+      "src": "effects/trio-synthwave-030.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-synthwave-185.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-synthwave-270.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-pixel-030.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-pixel-110.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-pixel-280.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-hud-030.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-hud-115.jpg?v=013",
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "src": "effects/trio-hud-270.jpg?v=013",
+      "width": 1280
+    }
+  ],
+  "console": [
+    {
+      "level": "warn",
+      "message": "Note: Some companies are required to obtain a license to use Remotion. See: https://remotion.dev/license\nPass the `acknowledgeRemotionLicense` prop to `<Player />` function to make this message disappear.",
+      "timestamp": "2026-10-21T13:30:59.408Z",
+      "url": "http://127.0.0.1:8048/chunks/chunk-7N2LGCNH.js"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision",
+      "timestamp": "2026-10-21T13:38:00.073Z",
+      "url": "http://127.0.0.1:8048/chunks/chunk-GL4FZ6UC.js"
+    },
+    {
+      "level": "warn",
+      "message": "Note: Some companies are required to obtain a license to use Remotion. See: https://remotion.dev/license\nPass the `acknowledgeRemotionLicense` prop to `<Player />` function to make this message disappear.",
+      "timestamp": "2026-10-21T13:45:07.192Z",
+      "url": "http://127.0.0.1:8048/chunks/chunk-7N2LGCNH.js"
+    }
+  ],
+  "story": {
+    "shots": [
+      "选择镜头 1：小禾·拿起",
+      "选择镜头 2：小禾·走动",
+      "选择镜头 3：小禾·倾壶浇水",
+      "选择镜头 4：小禾·放下",
+      "选择镜头 5：小禾·点头微笑"
+    ],
+    "summary": "12 秒 / 5 镜头 / 24 FPS",
+    "title": "阳台上的小花",
+    "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%"
+  },
+  "originalEffectRestored": true,
+  "narrow": {
+    "horizontalOverflow": false,
+    "viewport": [
+      717,
+      871
+    ]
+  }
+}

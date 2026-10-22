@@ -1,0 +1,30 @@
+import {directions012} from './directions-012.mjs';
+import {directions013} from './directions-013.mjs';
+import {directions014} from './directions-014.mjs';
+import {directions015} from './directions-015.mjs';
+import {directions016} from './directions-016.mjs';
+import {directions017} from './directions-017.mjs';
+// Original art direction. Source films inform visual mechanisms, never the topic or storyboard.
+export const artDirections={
+ 'flat-vector':{example:['夜市开场','热气腾腾的夜晚，留给不必匆忙的人','开灯,起锅,开席'],primary:'#ee6c3c',secondary:'#c6d760',features:'落碗组装、食材特写、挑面动作与开席字版',principle:'以开场热碗、食材落下的近景、筷子挑面和结尾品牌构图形成完整编排，错峰弹性和食材运动呼应声音。',modules:['品牌字版','分层插画','弹性组装','蒸汽路径'],controls:['食材数量','运动弹性','面条粗细'],boundary:'原创夜市插画模板，可参数化配色和节奏；未开放任意品牌插画导入。'},
+ 'line-art':{example:['风的来信','让无形的风，留下可以看见的轨迹','启程,掠过,抵达'],primary:'#4a7e79',secondary:'#df8c53',features:'城市线稿、连续风场、飞机路径与邮封落版',principle:'多层建筑线稿与排线形成纸面城市，飞机沿连续风场切线飞行，镜头由局部转全景，结尾汇入邮封构图。',modules:['风场曲线','路径显现','纸飞机轨迹','印刷颗粒'],controls:['风场层数','风场起伏','线条粗细'],boundary:'原创程序风场和纸飞机；尚不支持任意用户 SVG 路径。'},
+ isometric:{useCases:'音乐品牌、机制讲解、唱片发布与展览片头',engine:'Three.js · 机械微缩世界',example:['声音制造局','一个小小的声音，唤醒整座世界','入轨,合奏,揭晓'],primary:'#ef6c51',secondary:'#87c9b4',features:'声球驱动、机械连锁、全场合奏与唱片揭示',principle:'先用声球与传送带近景建立悬念，压机、齿轮、音管与喇叭按经过次第响应；高潮后机械平台收拢，镜头拉远才揭示整座工厂位于黑胶唱片之上。',modules:['唱机与厂区模型','声球路径与压击','机械传动编舞','尺度揭示镜头'],controls:['周边与音符数量','传动与冲击幅度','音管高度'],boundary:'原创 Three.js 三维场景，正交相机、真实投影阴影、环境反射与 SSAA；轨道与机械为确定性编舞，不是工业力学或真实声音分析。',next:'更多有因果关系的工位、可编辑事件表与音乐驱动'},
+ '3d-render':{useCases:'材料品牌、饰品概念、产品发布与主视觉',example:['磁场花开','无形的力，让碎片找到彼此','唤醒,失衡,绽放'],primary:'#f16f54',secondary:'#72c9bd',next:'自由花瓣造型、可编辑力场事件与更精细接触模拟',engine:'Blender / Cycles · 电影材质',features:'陶片吸附、花苞失衡、悬停吸回与三层花冠展开',principle:'三层薄壳陶瓣从地面被吸向镜面核，聚合后失衡散开，两瓣坠出队列并悬停；短暂静默之后吸回展开，以釉面、铜边、灯箱反射和近景到花冠的运镜形成完整事件。',modules:['薄壳釉面与铜边','磁吸与失衡编舞','镜面核与花冠','Cycles 景深与运动模糊'],controls:['花瓣密度','失衡幅度','釉面粗糙度'],boundary:'Blender 4.5 Cycles 成片；默认组合使用成片缓存，修改材料和构成后网页为 Three.js 快速预览，服务重新运行 Cycles。磁吸与悬停为确定性编舞，不是电磁场或通用软体物理求解。'},
+ 'cel-boil':{example:['最后一班月亮','风雨再小，也有人认真送达','出发,穿过雨夜,送达'],primary:'#ba5e49',secondary:'#3e5967',features:'手绘兔邮差、自行车、雨幕与投递动作',principle:'上游墨线引擎绘制原创角色、车轮和邮筒；一拍二运动、递信弧线与亮窗形成完整小情节。',modules:['手绘角色','自行车运动','逐帧雨幕','投递分镜'],controls:['雨丝密度','动作幅度','墨线沸腾'],boundary:'复用 MIT 绘线引擎与纸纹，角色和分镜原创；不自动适配任意角色或复杂手部接触。'},
+ collage:{example:['深海电台','调低世界的音量，听见海底的频率','调频,下潜,听见'],primary:'#ee9f64',secondary:'#6f91b7',features:'收音机近景、下潜转场、深海剪贴与回声',principle:'从收音机调频特写切入海底纸片舞台，潜水员逐步下降，波纹、水母与鹦鹉螺组成结尾；撕边、纸影和离散时间增强材料感。',modules:['原创透明素材图集','撕纸构成','定格视差','广播波纹'],controls:['海中微粒','摆动幅度','定格帧率'],boundary:'使用本项目新生成的透明素材，不沿用原作肖像和题材；暂不支持用户上传与自动抠图。'},
+ liquid:{example:['潮汐实验','把流动，凝成一瞬间的金属','分离,交融,再生'],primary:'#83d9c2',secondary:'#bb91de',features:'分离、连颈融合、环形重组与灯箱反射',principle:'分段距离场把球滴、分离液珠、融合颈部与环形体连成完整过程；表面法线反射矩形灯箱，地面反射和弱虹彩建立金属材料感。',modules:['GPU 距离场','液滴融合','环境反射','虹彩边缘'],controls:['卫星液滴','流动速度','融合强度'],boundary:'真实 GPU 距离场与表面着色；不是 Navier–Stokes 流体求解，也不支持任意字标液化。'},
+ morph:{example:['折叠花园','形状在变化，生命在其中舒展','点,瓣,花园'],primary:'#e3a35c',secondary:'#d3d7a2',features:'种子、叶片、花朵与花环的连续形变',principle:'种子、叶片和花朵按等弧长采样并寻找循环对应，叶脉和轮廓回响突出阶段变化，最后生长为多朵花组成的花环。',modules:['等弧长采样','循环点匹配','轮廓插值','套色回响'],controls:['花瓣密度','轮廓旋转','瓣形圆润度'],boundary:'原创程序轮廓；不包含任意 SVG 多孔拓扑的自动规划。'},
+ bauhaus:{example:['节拍工坊','把秩序打散，再听见新的节奏','切分,转向,合拍'],primary:'#d15d43',secondary:'#bdc788',features:'几何特写、节拍切换、网格编舞与标志落版',principle:'120 BPM 的确定性节拍安排几何特写、网格错峰翻转和结尾标志；四分圆、条带与同心线各有动静停顿，逐拍合成音效与画面节点对应。',modules:['动态字版','几何模块','相位编排','旋转与翻转'],controls:['网格密度','转动速度','线环粗细'],boundary:'确定性节拍编舞；没有分析外部音乐 BPM。'},
+ synthwave:{example:['夜航列车','穿过光的拱廊，驶向还没醒来的城市','进站,夜航,下一站'],primary:'#e79abb',secondary:'#71d3d7',features:'定制列车、雨夜站台、地面反射与跟拍',principle:'专门建模的列车包含车窗、轮组、通风槽、车头灯和装饰条；站台与灯环的相对运动、反射地面、雨线和从前方转侧面的运镜形成夜航段落。',modules:['列车模型','霓虹隧道','相对运动','真实 Bloom 后期'],controls:['灯环密度','运行速度','拱廊半径'],boundary:'原创三维列车场景；运动是相对运动编舞，没有列车物理或完整 VHS 仿真。'},
+ 'aurora-glass':{example:['声波档案','把一段旋律，封存在折射的光里','记录,折射,回响'],primary:'#d18b55',secondary:'#8eacbe',features:'透视玻璃面板、磨砂采样、边缘反射与光场层次',principle:'相机射线与倾斜面板相交，背景以多点模糊采样表达磨砂；倒角反射、色散和内容纹理组成独立材料层。',modules:['程序光场','透视玻璃','磨砂与边缘反射','内容纹理'],controls:['频谱密度','光场流速','磨砂强度'],boundary:'GPU 对程序背景的真实采样偏移；没有任意产品截图导入或完整三维光线追踪。'},
+ hanazi:{example:['夜班也要慢慢来','咖啡可以等，快乐也是','认真倒,放个空,慢慢来'],primary:'#f3c276',secondary:'#b9d2c4',features:'同角色三镜头、倒奶、放空反应与节奏花字',principle:'三个同角色照片镜头按倒奶、反应、闻香剪辑，取景推进与逐字弹跳、描边、反应字和对话框在语义节点出现；不是演员视频或生成式连续表演。',modules:['原创照片舞台','Ken Burns 取景','逐字花字','对话框'],controls:['情绪符号','文字弹性','描边厚度'],boundary:'使用本项目生成的照片；未接入真实语音识别、演员视频或字幕自动对齐。'},
+ paperclip:{example:['声音的旅行','从一次振动，到一句被听见的话','振动,传播,听见'],primary:'#bd6c4a',secondary:'#4e7e6b',features:'声源振动、空气粒子往复、传播与接收',principle:'以声源振膜振动、空气粒子往复和耳朵接收为三幕；粒子仅在平衡位置附近运动，压缩相位向前推进，图形行为直接解释能量传播。',modules:['知识图形','传播波纹','步骤箭头','纸片投影'],controls:['声波层数','振膜幅度','纸片倾斜'],boundary:'原创声音传播概念图，不是声学仿真或事实检索系统；内容需要创作者审阅。'},
+ pixel:{example:['雨巷邮差','夜色里，总有一封信正在赶路','穿过街灯,走进雨里,送到你手里'],primary:'#c5895c',secondary:'#789e9f',features:'雨夜城市、多层视差、狐狸邮差与湿地反光',principle:'320×180 原生像素画面以多层城市、灯窗和雨线建立纵深，12 fps 角色行动与投递形成短片。',modules:['程序像素城市','狐狸精灵','雨夜反光','投递时序'],controls:['雨线数量','步伐幅度','雨线长度'],boundary:'原创程序像素资产，不依赖源作精灵；暂不支持外部精灵表导入。'},
+ hud:{example:['月背回声','在寂静的月面，捕捉一段遥远的回应','扫描,捕捉,回声'],primary:'#96d9ca',secondary:'#e6b575',features:'NASA 月面贴图、探测器、纬度扫描与信号响应',principle:'NASA SVS 的 LROC 颜色图和 LOLA 高程图建立月面材料；自主建模的探测器绕月，扫描环按纬度变化半径，波形和锁定状态按分镜响应。',modules:['LROC / LOLA 材料','纬度扫描','探测器轨道','信号观测界面'],controls:['轨道采样点','轨道速度','月面起伏'],boundary:'月面素材来源 NASA SVS（公开领域）；轨道和读数为演示编排，不是实时天文观测或外部传感器数据。'},
+};
+for(const [id,direction] of Object.entries(directions012))Object.assign(artDirections[id],direction);
+for(const [id,direction] of Object.entries(directions013))Object.assign(artDirections[id],direction);
+for(const [id,direction] of Object.entries(directions014))Object.assign(artDirections[id],direction);
+for(const [id,direction] of Object.entries(directions015))Object.assign(artDirections[id],direction);
+for(const [id,direction] of Object.entries(directions016))Object.assign(artDirections[id],direction);
+for(const [id,direction] of Object.entries(directions017))Object.assign(artDirections[id],direction);

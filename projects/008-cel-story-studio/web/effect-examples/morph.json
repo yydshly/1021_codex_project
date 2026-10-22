@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "morph",
+  "title": "把远方折近",
+  "subtitle": "一封信，也能装下一段远行",
+  "words": [
+    "启封",
+    "出海",
+    "抵达"
+  ],
+  "primary": "#e86842",
+  "secondary": "#1c5660",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "voyage"
+}

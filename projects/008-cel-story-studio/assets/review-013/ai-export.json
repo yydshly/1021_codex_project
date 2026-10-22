@@ -1,0 +1,316 @@
+{
+  "exportId": "bb2bb7e8-4787-4311-a524-f939d882bdea",
+  "config": "ai-applied-config.json",
+  "video": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\app\\exports\\bb2bb7e8-4787-4311-a524-f939d882bdea.mp4",
+  "sha256": "9a173dbf8e2ea42e0b041283ede25ddb102fa57a7db79cd678aea73b0bb3e405",
+  "scope": "浏览器生成并应用、草稿恢复后导出的最终像素成片；本轮只读检查该产物，不另发 AI 请求。",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuvj420p",
+        "level": 31,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 900000,
+        "duration": "10.000000",
+        "bit_rate": "507892",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "300",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 480240,
+        "duration": "10.005000",
+        "bit_rate": "317386",
+        "nb_frames": "471",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\app\\exports\\bb2bb7e8-4787-4311-a524-f939d882bdea.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "10.005000",
+      "size": "1046369",
+      "bit_rate": "836676",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100",
+        "comment": "Made with Remotion 4.0.537"
+      }
+    }
+  },
+  "fullDecode": {
+    "exitCode": 0,
+    "stderr": ""
+  },
+  "requestedSeconds": [
+    2.45,
+    2.55,
+    4.45,
+    4.55,
+    5.45,
+    5.55,
+    9.5
+  ],
+  "sampleFrames": [
+    74,
+    76,
+    134,
+    136,
+    164,
+    166,
+    285
+  ],
+  "contact": "ai-export-contact.jpg",
+  "repairShots": [
+    {
+      "seconds": 1,
+      "framing": "close",
+      "caption": ""
+    },
+    {
+      "seconds": 2,
+      "framing": "close",
+      "caption": "轻轻敲，把裂缝补成光"
+    },
+    {
+      "seconds": 1,
+      "framing": "close",
+      "caption": "再补上最后一点"
+    }
+  ],
+  "artReviewPending": false,
+  "cueSamples": [
+    {
+      "seconds": 2.45,
+      "action": "repair",
+      "index": 1,
+      "progress": 0.23750000000000004,
+      "localSeconds": 0.9500000000000002,
+      "caption": "",
+      "framing": "close"
+    },
+    {
+      "seconds": 2.55,
+      "action": "repair",
+      "index": 2,
+      "progress": 0.26249999999999996,
+      "localSeconds": 1.0499999999999998,
+      "caption": "轻轻敲，把裂缝补成光",
+      "framing": "close"
+    },
+    {
+      "seconds": 4.45,
+      "action": "repair",
+      "index": 2,
+      "progress": 0.7375,
+      "localSeconds": 2.95,
+      "caption": "轻轻敲，把裂缝补成光",
+      "framing": "close"
+    },
+    {
+      "seconds": 4.55,
+      "action": "repair",
+      "index": 3,
+      "progress": 0.7625,
+      "localSeconds": 3.05,
+      "caption": "再补上最后一点",
+      "framing": "close"
+    },
+    {
+      "seconds": 5.45,
+      "action": "repair",
+      "index": 3,
+      "progress": 0.9875,
+      "localSeconds": 3.95,
+      "caption": "再补上最后一点",
+      "framing": "close"
+    },
+    {
+      "seconds": 5.55,
+      "action": "launch",
+      "index": 4,
+      "progress": 0.024999999999999467,
+      "localSeconds": 0.049999999999998934,
+      "caption": "好了，回到天上吧",
+      "framing": "wide"
+    },
+    {
+      "seconds": 9.5,
+      "action": "illuminate",
+      "index": 5,
+      "progress": 0.8,
+      "localSeconds": 2,
+      "caption": "一扇接一扇，夜晚亮了",
+      "framing": "wide"
+    }
+  ],
+  "repairContinuity": {
+    "timeRange": [
+      1.5,
+      5.5
+    ],
+    "duration": 4,
+    "consecutiveShotSeconds": [
+      1,
+      2,
+      1
+    ],
+    "sharedProgress": true,
+    "boundaryChecks": [
+      {
+        "before": 2.45,
+        "after": 2.55,
+        "result": "裂片位置保持连续，字幕从空白切换为轻轻敲，把裂缝补成光；没有回到修补起点。"
+      },
+      {
+        "before": 4.45,
+        "after": 4.55,
+        "result": "裂缝继续收拢，切镜前后的破损程度相近，没有重新炸开；字幕更新为再补上最后一点。"
+      },
+      {
+        "before": 5.45,
+        "after": 5.55,
+        "result": "近景修补结束时月亮完整，切换升空全景后仍完整，未重新碎裂。"
+      }
+    ]
+  },
+  "artReview": {
+    "reviewed": true,
+    "contactViewed": true,
+    "individualSamplesViewed": 7,
+    "conclusion": "该六镜像素导出的相邻三段 repair 保持同一动作进度，所查两处同动作镜头边界没有重置碎裂，repair 到 launch 交接保留完整月亮。9.5秒结尾标题、副题、镜头字幕和城市亮灯均可见。",
+    "observations": [
+      "1、2、1秒的三段连续修补构成总长4秒的共享动作，字幕可分段变化。",
+      "2.45/2.55秒均处于早段修补；4.45/4.55秒均处于后段修补，裂片不会随着镜头编号更新而回到最初分离状态。",
+      "5.45/5.55秒由近景切到全景，月亮尺度发生合理取景变化，形态均保持修复完成。",
+      "结尾沿用当前像素工坊资产；这项检查没有证明AI生成任意新角色或新场景。"
+    ],
+    "limits": [
+      "只验证此导出配置和所列七个时点，不能据此宣称任意动作重排都具有世界状态连续性。",
+      "本轮没有重新发起AI请求，也没有试听音轨，不对声画同步作判断。"
+    ]
+  },
+  "technicalSummary": {
+    "videoCodec": "h264",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "videoFrames": 300,
+    "videoDurationSeconds": 10,
+    "containerDurationSeconds": 10.005,
+    "audioCodec": "aac",
+    "audioChannels": 2,
+    "audioSampleRate": "48000",
+    "audioDurationSeconds": "10.005000",
+    "fullDecodeSucceeded": true
+  }
+}

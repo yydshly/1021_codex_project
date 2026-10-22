@@ -1,0 +1,10 @@
+import {useState} from 'react';
+import {getEffect,validateEffect,type EffectConfig} from '../scripts/effects.mjs';
+type Draft={id:string;at:string;config:EffectConfig};
+const KEY='cel-effect-projects-v1';
+function read():Draft[]{try{const text=localStorage.getItem(KEY);if(!text||text.length>200000)return [];const data=JSON.parse(text);if(!Array.isArray(data))return [];return data.slice(0,12).flatMap(d=>{try{if(typeof d.id!=='string'||typeof d.at!=='string')return [];return [{id:d.id,at:d.at,config:validateEffect(d.config)}];}catch{return [];}});}catch{return [];}}
+export function EffectDraftShelf({config,onLoad}:{config:EffectConfig;onLoad:(config:EffectConfig)=>void}){
+ const [drafts,setDrafts]=useState(read),[message,setMessage]=useState('');
+ const persist=(next:Draft[])=>{try{localStorage.setItem(KEY,JSON.stringify(next));setDrafts(next);setMessage('草稿已保存在本浏览器；下载 JSON 可另行备份。');}catch{setMessage('浏览器存储已满或不可用，请下载 JSON 配置。');}};
+ return <details className="effect-draft-shelf"><summary>作品草稿 <span>{drafts.length} / 12</span></summary><div className="draft-shelf-heading"><p>{drafts.length>=12?'草稿已满，请先备份或删除一份；现有作品会保留。':'为不同创意保留版本，再切回继续编辑。'}</p><button className="outline" disabled={drafts.length>=12} onClick={()=>{if(drafts.length>=12)return;try{persist([{id:crypto.randomUUID(),at:new Date().toISOString(),config:validateEffect(config)},...drafts]);}catch(e){setMessage(String(e));}}}>保存当前作品到草稿</button></div><div className="draft-shelf-grid">{drafts.map(d=><article key={d.id}><small>{getEffect(d.config.style).name} · {d.config.duration}s</small><b>{d.config.title}</b><span>{new Date(d.at).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'})} · {d.config.shots?.length||'模板'} 镜头</span><div><button className="quiet" onClick={()=>{onLoad(d.config);setMessage(`已载入《${d.config.title}》。`);}}>载入草稿</button><button className="quiet" aria-label={`删除草稿：${d.config.title}`} onClick={()=>persist(drafts.filter(x=>x.id!==d.id))}>删除</button></div></article>)}</div>{!drafts.length&&<p className="director-note">还没有保存的作品。镜头、配色、时长与声音会一起保存。</p>}{message&&<p role="status">{message}</p>}</details>;
+}

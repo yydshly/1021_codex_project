@@ -1,0 +1,61 @@
+{
+  "method": "Actual local render API, not browser UI verification",
+  "exports": [
+    {
+      "style": "cel-boil",
+      "storyId": "shelter",
+      "config": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "cel-boil",
+        "title": "把晴天分给你",
+        "subtitle": "把伞，向你倾斜一点",
+        "words": [
+          "看见",
+          "举起",
+          "靠近"
+        ],
+        "primary": "#bd7c41",
+        "secondary": "#4e756c",
+        "count": 8,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 42,
+        "duration": 8,
+        "sound": true,
+        "storyId": "shelter"
+      },
+      "jobId": "c2c09f5f-e64e-4309-bd66-8af3a8074256",
+      "file": "web/story-examples-017/api-shelter-8s.mp4",
+      "rangeStatus": 206
+    },
+    {
+      "style": "aurora-glass",
+      "storyId": "rainmix",
+      "config": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "aurora-glass",
+        "title": "留一首雨夜",
+        "subtitle": "让三种声音，找到同一个夜晚",
+        "words": [
+          "选择",
+          "混合",
+          "成曲"
+        ],
+        "primary": "#8b67cf",
+        "secondary": "#65cbb8",
+        "count": 8,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 42,
+        "duration": 6,
+        "sound": false,
+        "storyId": "rainmix"
+      },
+      "jobId": "f0fe3b6f-c161-4c67-8bca-1041a5384402",
+      "file": "web/story-examples-017/api-rainmix-6s.mp4",
+      "rangeStatus": 206
+    }
+  ]
+}

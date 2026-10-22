@@ -1,0 +1,22 @@
+{
+  "title": "mg-styles-15：从十五种风格，到可复用的创作能力",
+  "size": {
+    "width": 2000,
+    "height": 3852
+  },
+  "source": {
+    "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+    "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+    "posters": "15幅源库原作封面，非本项目原创效果"
+  },
+  "evidence": [
+    "projects/004-mg-styles-explorer/app/styles.json",
+    "projects/008-cel-story-studio/RESEARCH-SUMMARY.md"
+  ],
+  "rendering": "Pillow + SVG；使用嵌入的Noto Sans SC子集。非生成式图像，不使用视频模型。",
+  "checked": {
+    "styleCount": 15,
+    "textLines": 177,
+    "textInsideCanvas": true
+  }
+}

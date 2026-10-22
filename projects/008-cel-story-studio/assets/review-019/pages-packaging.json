@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-22T07:32:39.858Z",
+  "tag": "mg-styles-research-019",
+  "before": {
+    "bytes": 830776524,
+    "files": 808,
+    "MiB": 792.29
+  },
+  "after": {
+    "bytes": 829382737,
+    "files": 790,
+    "MiB": 790.96
+  },
+  "uniqueReels": 16,
+  "reelPaths": 20,
+  "releaseBytes": 554875183,
+  "removedReelFilesThisRun": 0,
+  "changedTextFiles": [
+    "chunks/EffectWorkbench-UM62S33U.js",
+    "production-notes-014.html",
+    "production-notes-015.html",
+    "production-notes-017.html"
+  ],
+  "removedChunks": [
+    {
+      "file": "chunks/chunk-DBTPFB63.js",
+      "bytes": 1709
+    },
+    {
+      "file": "chunks/chunk-ERB6URQE.js",
+      "bytes": 5969
+    },
+    {
+      "file": "chunks/chunk-LFFFF2NO.js",
+      "bytes": 1053
+    },
+    {
+      "file": "chunks/chunk-W4KNNNXB.js",
+      "bytes": 612725
+    },
+    {
+      "file": "chunks/chunk-WP4PV5PJ.js",
+      "bytes": 3918
+    },
+    {
+      "file": "chunks/chunk-WPGZNXVD.js",
+      "bytes": 363731
+    },
+    {
+      "file": "chunks/chunk-YMKW5MFE.js",
+      "bytes": 8549
+    },
+    {
+      "file": "chunks/EffectWorkbench-3OG376F2.js",
+      "bytes": 177038
+    },
+    {
+      "file": "chunks/EffectWorkbench-EB5ZCFZB.css",
+      "bytes": 29163
+    },
+    {
+      "file": "chunks/FlagshipWorkbench-DD2LB6TL.css",
+      "bytes": 19072
+    },
+    {
+      "file": "chunks/FlagshipWorkbench-G4RDWWQQ.js",
+      "bytes": 53016
+    },
+    {
+      "file": "chunks/hud-film-015-3QHANZBZ.js",
+      "bytes": 24257
+    },
+    {
+      "file": "chunks/isometric-film-014-DJJ23CSC.js",
+      "bytes": 17219
+    },
+    {
+      "file": "chunks/magnetic-preview-RYJSBXFE.js",
+      "bytes": 7624
+    },
+    {
+      "file": "chunks/neon-film-014-OB62WRI2.js",
+      "bytes": 15517
+    },
+    {
+      "file": "chunks/ResearchOverview-DRGIIQ3W.js",
+      "bytes": 22510
+    },
+    {
+      "file": "chunks/ResearchOverview-F45ZFCMA.css",
+      "bytes": 20408
+    },
+    {
+      "file": "chunks/three-v3-I5MC3VM3.js",
+      "bytes": 10779
+    }
+  ],
+  "reachableCode": [
+    "app.css",
+    "app.js",
+    "chunks/EffectWorkbench-UM62S33U.js",
+    "chunks/FlagshipWorkbench-6TTIDGTK.js",
+    "chunks/ResearchOverview-2UW7JK7U.js",
+    "chunks/chunk-5NEOEB2V.js",
+    "chunks/chunk-AAHZV5FX.js",
+    "chunks/chunk-AXBQGUPW.js",
+    "chunks/chunk-DNZEGWY4.js",
+    "chunks/chunk-FMIPOXQ4.js",
+    "chunks/chunk-FZG2E2UO.js",
+    "chunks/chunk-L6YMH5X2.js",
+    "chunks/chunk-O33MBEDX.js",
+    "chunks/chunk-QNRWHD26.js",
+    "chunks/chunk-UMSWTJXL.js",
+    "chunks/chunk-V5AQU3XK.js",
+    "chunks/chunk-VAJQTCNR.js",
+    "chunks/chunk-WLIYCQOD.js",
+    "chunks/chunk-Y6SLVHK3.js",
+    "chunks/glass-film-017-SVYZH6VH.js",
+    "chunks/hud-film-015-6ZIX52OI.js",
+    "chunks/isometric-film-014-RCOREDJ4.js",
+    "chunks/liquid-film-015-FYZRKPDB.js",
+    "chunks/magnetic-preview-GUMZ33Q6.js",
+    "chunks/neon-film-014-ARNOLYGS.js",
+    "chunks/three-v3-FD6DB56I.js"
+  ],
+  "dynamicCandidates": [],
+  "checks": {
+    "releaseCopiesSha256": true,
+    "allIndividualFilmsAndPostersRetained": true,
+    "unrewrittenReelPaths": 0
+  },
+  "manifest": "web/pages-media-019.json",
+  "uploadManifest": "发布目录外release-assets/upload-manifest.json"
+}

@@ -1,0 +1,22 @@
+{
+  "revision": "0.17.0",
+  "typecheck": "passed",
+  "appTests": {
+    "passed": 67,
+    "concurrency": 1,
+    "note": "Initial parallel run exhausted host memory; serialized complete suite passed."
+  },
+  "repositoryTests": 8,
+  "catalogProjects": 11,
+  "build": "passed",
+  "media": "6 full 10s films + 60/150/45s reels fully decoded; 12 individual style films unchanged; 14 archived files SHA256 retained",
+  "webUI": "Actual selection, save, cross-style import, undo/redo, 8s sound and 6s silent exports; reel ended at60s; no console errors",
+  "artReview": "art-review.md and actual encoded nine-timepoint boards; no automatic quality score",
+  "reproducibility": "Current source hashes in implementation-manifest.json. Archived MP4s retain original pictures; loading old JSON uses the current renderer, not an editable copy of the old engine.",
+  "limitations": [
+    "有限的两套故事，不是任意内容生成新资产",
+    "手绘骨架、抽象形变和屏幕折射仍有工艺边界",
+    "程序配乐技术测量，不等同专业试听",
+    "未声明十五项全部优秀"
+  ]
+}

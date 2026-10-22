@@ -1,0 +1,11 @@
+import {Composition, registerRoot} from 'remotion';
+import {CelStory} from './Story';
+import {defaults,FPS,getDuration} from './model';
+import {validateStory} from '../scripts/input-schema.mjs';
+import {EffectScene} from './effects/EffectScene';
+import {effectDefaults,validateEffect} from '../scripts/effects.mjs';
+import {FlagshipFilm} from './flagship/FlagshipFilm';
+import {defaultFlagship,validateFlagship,durationFlagship} from '../scripts/flagship-schema.mjs';
+const Root=()=> <><Composition id="CelStory" component={CelStory} width={1280} height={720} fps={FPS} durationInFrames={getDuration(defaults.shots)} defaultProps={defaults} calculateMetadata={({props})=>{const safe=validateStory(props);return {props:safe,durationInFrames:getDuration(safe.shots)};}}/><Composition id="EffectTemplate" component={EffectScene} width={1280} height={720} fps={30} durationInFrames={300} defaultProps={{config:effectDefaults(),studioFrames:undefined as string|undefined}} calculateMetadata={({props})=>{const config=validateEffect(props.config);const studioFrames=props.studioFrames&&/^http:\/\/127\.0\.0\.1:\d+\/exports\/[a-f0-9-]+-frames$/.test(props.studioFrames)?props.studioFrames:undefined;return {props:{config,studioFrames},durationInFrames:Math.round(config.duration*30)};}}/></>;
+const All=()=> <><Root/><Composition id="FlagshipFilm" component={FlagshipFilm} width={1920} height={1080} fps={30} durationInFrames={600} defaultProps={{config:defaultFlagship()}} calculateMetadata={({props})=>{const config=validateFlagship(props.config);return {props:{config},durationInFrames:Math.round(durationFlagship(config)*30)};}}/></>;
+registerRoot(All);

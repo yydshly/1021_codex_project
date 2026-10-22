@@ -1,0 +1,425 @@
+{
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "media": [
+    {
+      "slug": "05-cel-boil",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/05-cel-boil.mp4",
+      "originalBytes": 36915642,
+      "originalSha256": "4f4398983b231d75ceb90847af717cb4298c7f2d6e1c90cbdddef1919fbb2c9f",
+      "preview": "media/05-cel-boil.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "7957024"
+        }
+      }
+    },
+    {
+      "slug": "03-isometric",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/03-isometric.mp4",
+      "originalBytes": 37919056,
+      "originalSha256": "c5db2f47882df17f500622c7079313625b41200d4c5c485577d0b92c8dc50635",
+      "preview": "media/03-isometric.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "2444836"
+        }
+      }
+    },
+    {
+      "slug": "01-flat-vector",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/01-flat-vector.mp4",
+      "originalBytes": 4185753,
+      "originalSha256": "31015b94762c221b3517e97ea3e3a5c870776e763e8a1b0cf14a038a9e0eaf4c",
+      "preview": "media/01-flat-vector.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.005000",
+          "size": "958958"
+        }
+      }
+    },
+    {
+      "slug": "02-line-art",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/02-line-art.mp4",
+      "originalBytes": 22093257,
+      "originalSha256": "b9ec31dc45a6883b156cb19c52301580024058f5dd90bdd9aad0f1b18d245576",
+      "preview": "media/02-line-art.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "565488"
+        }
+      }
+    },
+    {
+      "slug": "04-3d-render",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/04-3d-render.mp4",
+      "originalBytes": 31050573,
+      "originalSha256": "ad0756c4358e56a7e1a5b27772d66506f5b18c9131a73d5a93c932849e8110c0",
+      "preview": "media/04-3d-render.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "3530829"
+        }
+      }
+    },
+    {
+      "slug": "08-morph",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/08-morph.mp4",
+      "originalBytes": 27357300,
+      "originalSha256": "1bff049b1f15ea4d0d06ab9363a97497648a57f644420264f30b08548e3561d5",
+      "preview": "media/08-morph.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.005000",
+          "size": "1088177"
+        }
+      }
+    },
+    {
+      "slug": "19-paperclip",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/19-paperclip.mp4",
+      "originalBytes": 11705444,
+      "originalSha256": "615d1ef7810463861572093e4ab707a42bd996ef060b4f1b7ba85ebd4d77a905",
+      "preview": "media/19-paperclip.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "2061564"
+        }
+      }
+    },
+    {
+      "slug": "22-hud",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/22-hud.mp4",
+      "originalBytes": 37860923,
+      "originalSha256": "9c0a78d0b9f3107a1a59acc3716bf4276692e4c1e883d690c76995d64df543f0",
+      "preview": "media/22-hud.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "2669833"
+        }
+      }
+    },
+    {
+      "slug": "06-collage",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/06-collage.mp4",
+      "originalBytes": 36608562,
+      "originalSha256": "a124a518b426f34f674c681b77f516b43290b2bc2065613ec3643e2c509fb3fc",
+      "preview": "media/06-collage.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "6223595"
+        }
+      }
+    },
+    {
+      "slug": "12-aurora-glass",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/12-aurora-glass.mp4",
+      "originalBytes": 37821095,
+      "originalSha256": "d2575b46549b27f67c4823206caaccedae8cf397be0a351d0989db878c5fe364",
+      "preview": "media/12-aurora-glass.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.005000",
+          "size": "1207668"
+        }
+      }
+    },
+    {
+      "slug": "09-bauhaus",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/09-bauhaus.mp4",
+      "originalBytes": 28620968,
+      "originalSha256": "7938c337896f5ec340a1e133e6ab74b9cac77be615defe6a2db228236465bb26",
+      "preview": "media/09-bauhaus.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "791644"
+        }
+      }
+    },
+    {
+      "slug": "10-synthwave",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/10-synthwave.mp4",
+      "originalBytes": 37700273,
+      "originalSha256": "b8b3f6062a529b5941433b6095ff8be7e96c71c4f4a8efb62c1653165cf0c70f",
+      "preview": "media/10-synthwave.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "5773981"
+        }
+      }
+    },
+    {
+      "slug": "20-pixel",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/20-pixel.mp4",
+      "originalBytes": 13204278,
+      "originalSha256": "30768583c87795d57fd7d0d9a9ae7747d8cfe68b6c1af92a981a2c174798a6c8",
+      "preview": "media/20-pixel.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.005000",
+          "size": "3042809"
+        }
+      }
+    },
+    {
+      "slug": "07-liquid",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/07-liquid.mp4",
+      "originalBytes": 37947945,
+      "originalSha256": "01712cd0a22c91a61aeb7058c148c08bf487c3c87db3cc0fbe5d6d7003709151",
+      "preview": "media/07-liquid.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "1261696"
+        }
+      }
+    },
+    {
+      "slug": "18-hanazi",
+      "source": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/videos/18-hanazi.mp4",
+      "originalBytes": 36922572,
+      "originalSha256": "8ee8cb5f34290058939f2712336dc2e7b0e9fbf1c291d54e1a9fee8bc1b58bd0",
+      "preview": "media/18-hanazi.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 406,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "1783239"
+        }
+      }
+    }
+  ]
+}

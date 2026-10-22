@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "key": "cafe-surprise-012",
+      "prompt": "Use case: identity-preserve. Asset type: a new film still for an original comedy motion graphics short. The reference is ONLY for the identity of the capybara barista, navy denim apron and warm rainy cafe. Create a new dramatic comic reaction shot, wide 16:9 landscape. The SAME photorealistic capybara looks down, mouth slightly ajar and eyes comically wider, at a tiny white cup he is holding while an over-enthusiastic milk pour has made a single enormous beautiful absurd whipped milk foam tower almost up to his nose. Three quarter front view, capybara upper body occupies center right, foam cup clearly foreground center. Fine wet whiskers, real paws gripping cup, rich amber cafe bokeh and deep espresso shadows, cinematic 50 mm lens. Detailed, expressive and believable fur. Plenty of clean dark negative space on left for animated type added later. No text, no logos, no borders, no speech bubbles. Change pose and expression from reference, do not simply return the reference.",
+      "file": "app/public/effects/cafe-surprise-012.png"
+    },
+    {
+      "key": "cafe-laugh-012",
+      "prompt": "Use case: identity-preserve. Asset type: a new original comedy film still. Preserve the SAME brown capybara barista and navy denim apron from the reference, in the same warm rainy cafe. Wide 16:9 landscape, closer intimate portrait. His two eyes are gently closed, head tilted slightly back in a happy contented laugh and broad muzzle smile, a funny tiny dab of white milk foam on the nose; paws resting on counter with a small white coffee cup left foreground. This is the emotional release after a silly foam accident. Large face on right third, cinematic side-lit detailed fur, shallow depth of field, warm amber bulbs versus blue rainy window, dark negative space at left for animated comedy typography. Elegant photographic quality, natural capybara anatomy, not cartoon. No letters, no graphics or typography, no watermark, no borders. An obviously different expression and camera composition from the reference.",
+      "file": "app/public/effects/cafe-laugh-012.png"
+    }
+  ]
+}

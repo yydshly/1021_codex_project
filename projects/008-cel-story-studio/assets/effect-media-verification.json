@@ -1,0 +1,276 @@
+{
+  "verifiedTemplates": 15,
+  "videos": [
+    {
+      "style": "3d-render",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 66.9954,
+        "parameters": 15.9197,
+        "content": 11.6317
+      }
+    },
+    {
+      "style": "aurora-glass",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 8.8555,
+        "parameters": 4.0214,
+        "content": 29.6008
+      }
+    },
+    {
+      "style": "bauhaus",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 79.1635,
+        "parameters": 9.0586,
+        "content": 27.4149
+      }
+    },
+    {
+      "style": "cel-boil",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 22.8514,
+        "parameters": 3.0469,
+        "content": 8.5386
+      }
+    },
+    {
+      "style": "collage",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 33.0005,
+        "parameters": 6.1032,
+        "content": 4.891
+      }
+    },
+    {
+      "style": "flat-vector",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 63.5102,
+        "parameters": 4.2272,
+        "content": 119.1874
+      }
+    },
+    {
+      "style": "hanazi",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 84.5595,
+        "parameters": 2.7582,
+        "content": 15.8065
+      }
+    },
+    {
+      "style": "hud",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 30.2649,
+        "parameters": 4.9451,
+        "content": 5.1712
+      }
+    },
+    {
+      "style": "isometric",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 83.3965,
+        "parameters": 4.7703,
+        "content": 5.4973
+      }
+    },
+    {
+      "style": "line-art",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 7.8895,
+        "parameters": 1.6415,
+        "content": 4.1491
+      }
+    },
+    {
+      "style": "liquid",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 9.42,
+        "parameters": 0.8666,
+        "content": 4.679
+      }
+    },
+    {
+      "style": "morph",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 150.4283,
+        "parameters": 2.142,
+        "content": 10.2088
+      }
+    },
+    {
+      "style": "paperclip",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 86.6911,
+        "parameters": 2.3859,
+        "content": 33.3956
+      }
+    },
+    {
+      "style": "pixel",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 49.7892,
+        "parameters": 11.7942,
+        "content": 4.6078
+      }
+    },
+    {
+      "style": "synthwave",
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "fps": "30/1",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "bodyDifferenceMean": {
+        "motion": 55.4858,
+        "parameters": 7.0249,
+        "content": 21.3138
+      }
+    }
+  ],
+  "note": "差异统计裁掉标题和帧号；参数对比改变数量、幅度、细节和种子；内容对比改变颜色与文字。差异证明画面变化，不作为审美等价证明。"
+}

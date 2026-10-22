@@ -1,0 +1,112 @@
+[
+  {
+    "style": "3d-custom",
+    "file": "3d-custom.mp4",
+    "sha256": "036cd1c3253321a7edf475d345e3580ba5b646e5c9cc78753a5b7844fdfb045a"
+  },
+  {
+    "style": "3d-render",
+    "file": "3d-render.mp4",
+    "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f"
+  },
+  {
+    "style": "after-hours-reel",
+    "file": "after-hours-reel.mp4",
+    "sha256": "fa548403314a80e3b6636900c476409d45efc9d7e022d979c8cf40e7d13ace84"
+  },
+  {
+    "style": "aurora-glass",
+    "file": "aurora-glass.mp4",
+    "sha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848"
+  },
+  {
+    "style": "bauhaus",
+    "file": "bauhaus.mp4",
+    "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6"
+  },
+  {
+    "style": "cel-boil",
+    "file": "cel-boil.mp4",
+    "sha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38"
+  },
+  {
+    "style": "collage",
+    "file": "collage.mp4",
+    "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4"
+  },
+  {
+    "style": "flat-vector",
+    "file": "flat-vector.mp4",
+    "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd"
+  },
+  {
+    "style": "hanazi",
+    "file": "hanazi.mp4",
+    "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3"
+  },
+  {
+    "style": "hero-reel",
+    "file": "hero-reel.mp4",
+    "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c"
+  },
+  {
+    "style": "hud",
+    "file": "hud.mp4",
+    "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965"
+  },
+  {
+    "style": "isometric",
+    "file": "isometric.mp4",
+    "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b"
+  },
+  {
+    "style": "line-art",
+    "file": "line-art.mp4",
+    "sha256": "dc9221fabbcdd168fafb7597588540b6e1d4f9579b613cd9362c03b831e7a5f6"
+  },
+  {
+    "style": "liquid",
+    "file": "liquid.mp4",
+    "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e"
+  },
+  {
+    "style": "material-reel-015",
+    "file": "material-reel-015.mp4",
+    "sha256": "eca5bc02fc7c6d7102702a204044a21a54a08b464c2bbbcf86b7356c5a627591"
+  },
+  {
+    "style": "morph",
+    "file": "morph.mp4",
+    "sha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6"
+  },
+  {
+    "style": "paperclip",
+    "file": "paperclip.mp4",
+    "sha256": "b047d06d50d7a885be9a0a6599b3935069174ed2084150bff4f69a6fd8f250af"
+  },
+  {
+    "style": "pixel",
+    "file": "pixel.mp4",
+    "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41"
+  },
+  {
+    "style": "quality-reel",
+    "file": "quality-reel.mp4",
+    "sha256": "f69d5af59d378239bf861150c6585ed23398c08aa954fab9a2a26e312e7d1a45"
+  },
+  {
+    "style": "recraft-reel",
+    "file": "recraft-reel.mp4",
+    "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d"
+  },
+  {
+    "style": "synthwave",
+    "file": "synthwave.mp4",
+    "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914"
+  },
+  {
+    "style": "trio-reel-013",
+    "file": "trio-reel-013.mp4",
+    "sha256": "7b11b2b958d5adfd78fc33e58b41660e4fa56ec2ddde343e012e4e38603fd82d"
+  }
+]

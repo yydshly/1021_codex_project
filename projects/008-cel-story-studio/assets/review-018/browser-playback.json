@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-22",
+  "method": "Read actual HTML video state after uninterrupted browser playback",
+  "main": {
+    "duration": 20.011,
+    "ended": true,
+    "paused": true,
+    "ready": 4,
+    "time": 20.011
+  },
+  "rewrite": {
+    "duration": 20.011,
+    "ended": true,
+    "paused": true,
+    "ready": 4,
+    "time": 20.011
+  },
+  "legacyStyleOptions": 15,
+  "workbenchScreenshots": [
+    "assets/director-workbench-018.png",
+    "assets/review-018/director-editor.png",
+    "assets/review-018/browser-export-done.png"
+  ],
+  "testedUI": [
+    "real AI rewrite submitted and applied",
+    "separate draft survives reload",
+    "shot selection and framing change",
+    "undo restores framing",
+    "empty title keeps last valid preview and disables export",
+    "actual webpage render job completed",
+    "legacy route retains fifteen styles"
+  ],
+  "limits": [
+    "JSON schema round-trip tested; native JSON file-picker interaction not separately verified",
+    "No subjective professional audio review"
+  ],
+  "browserExport": {
+    "duration": 20.011,
+    "ended": true,
+    "paused": true,
+    "ready": 4,
+    "time": 20.011
+  }
+}

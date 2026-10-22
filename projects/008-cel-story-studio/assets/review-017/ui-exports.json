@@ -1,0 +1,62 @@
+[
+  {
+    "file": "web/story-examples-017/ui-shelter-8s.mp4",
+    "sha256": "714d6b9ee42913a6d16938409eea62e21daa3ab6eae4f36a605549d5cb17c87c",
+    "jobId": "2e6fdbd4-8fcd-403c-8a57-aa5f8f46f581",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "cel-boil",
+      "title": "把晴天分给你",
+      "subtitle": "把伞，向你倾斜一点",
+      "words": [
+        "看见",
+        "举起",
+        "靠近"
+      ],
+      "primary": "#bd7c41",
+      "secondary": "#4e756c",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 21,
+      "duration": 8,
+      "sound": true,
+      "storyId": "shelter"
+    },
+    "frames": 240,
+    "audio": true,
+    "fullDecode": true,
+    "trigger": "actual browser workbench Generate MP4 button"
+  },
+  {
+    "file": "web/story-examples-017/ui-rainmix-6s.mp4",
+    "sha256": "975460a5d654ea7bf36e6da7dddd5a49601e192e84ba5a0b5cdb9fda051c436b",
+    "jobId": "bd56ca1f-d815-4d55-a91d-b9f903abf581",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "aurora-glass",
+      "title": "留一首雨夜",
+      "subtitle": "让三种声音，找到同一个夜晚",
+      "words": [
+        "选择",
+        "混合",
+        "成曲"
+      ],
+      "primary": "#8b67cf",
+      "secondary": "#65cbb8",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 21,
+      "duration": 6,
+      "sound": false,
+      "storyId": "rainmix"
+    },
+    "frames": 180,
+    "audio": false,
+    "fullDecode": true,
+    "trigger": "actual browser workbench Generate MP4 button"
+  }
+]

@@ -1,0 +1,12 @@
+export type FlagshipEvent='notice'|'draw'|'unfold'|'leap'|'farewell';
+export type FlagshipFraming='wide'|'medium'|'close';
+export type FlagshipEmotion='hesitant'|'focused'|'joyful'|'gentle';
+export type FlagshipShot={id:string;event:FlagshipEvent;seconds:number;framing:FlagshipFraming;emotion:FlagshipEmotion;caption:string};
+export type FlagshipConfig={kind:'story-director';version:1;assetPack:'ink-whale-018';title:string;logline:string;heroName:string;companionName:string;ending:'ocean'|'starlight';accent:string;sound:boolean;shots:FlagshipShot[]};
+export const FLAGSHIP_ASSET_PACK:'ink-whale-018';
+export const FLAGSHIP_EVENTS:FlagshipEvent[];
+export const FLAGSHIP_FRAMINGS:FlagshipFraming[];
+export const FLAGSHIP_EMOTIONS:FlagshipEmotion[];
+export function defaultFlagship():FlagshipConfig;
+export function validateFlagship(input:unknown):FlagshipConfig;
+export function durationFlagship(config:FlagshipConfig):number;

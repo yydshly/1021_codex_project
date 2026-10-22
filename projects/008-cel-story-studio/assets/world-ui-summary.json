@@ -1,0 +1,35 @@
+{
+  "desktop": {
+    "scrollWidth": 1425,
+    "width": 1425
+  },
+  "mobile": {
+    "width": 375,
+    "scrollWidth": 375
+  },
+  "playback": {
+    "startFrame": 145,
+    "end": {
+      "button": "播放预览",
+      "frame": "0",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "live": {
+      "button": "暂停预览",
+      "frame": "272"
+    }
+  },
+  "exportId": "78da9de2-ad55-4d44-91d8-d56595427b76",
+  "browserAiCreate": "fox / new world / custom protagonist / auto export",
+  "edits": [
+    "change action and emotion",
+    "missing prop blocks export",
+    "add and remove cast",
+    "change scene",
+    "add/delete/reorder shots",
+    "custom gesture label",
+    "walk target affects inherited positions",
+    "reload restores complete world"
+  ]
+}

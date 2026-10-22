@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "paperclip",
+  "title": "白天的光，夜里的灯",
+  "subtitle": "跟随一条能量路径，看见昼夜之间的联系",
+  "words": [
+    "光变成电",
+    "化学能暂存",
+    "电变成光"
+  ],
+  "primary": "#efb43b",
+  "secondary": "#163858",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

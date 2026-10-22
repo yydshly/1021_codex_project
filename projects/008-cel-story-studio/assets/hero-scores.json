@@ -1,0 +1,123 @@
+{
+  "version": "0.11",
+  "date": "2026-10-21",
+  "generator": "app/scripts/make-hero-scores.py",
+  "scores": [
+    {
+      "name": "magnetic",
+      "title": "磁场花开",
+      "file": "app/public/effects/score-magnetic.wav",
+      "durationSeconds": 10.0,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitDepth": 16,
+      "framesPerChannel": 441000,
+      "source": "原创确定性代码合成，无外部录音、采样、第三方音乐或AI音乐",
+      "integratedLUFS": -16.0,
+      "truePeakDBTP": -1.99,
+      "loudnessRangeLU": 3.6,
+      "samplePeakDBFS": -2.284,
+      "normalization": "FFmpeg loudnorm 两遍测量，目标 -16 LUFS / -1.8 dBTP / LRA 9",
+      "timeline": [
+        {
+          "start": 0,
+          "end": 0.7,
+          "event": "钩子",
+          "sound": "近距离陶瓷触点、磁力颤动与上行气流"
+        },
+        {
+          "start": 0.7,
+          "end": 2.6,
+          "event": "围绕金属核",
+          "sound": "稀疏的陶瓷模态音色沿左右声像移动，保持可辨的单次接触"
+        },
+        {
+          "start": 2.6,
+          "end": 4.1,
+          "event": "收紧与聚合",
+          "sound": "触点间隔从290ms缩至140ms，转子声加速并逐步增加张力"
+        },
+        {
+          "start": 4.1,
+          "end": 5.2,
+          "event": "失衡悬停",
+          "sound": "崩开脆响后保留悬置半音；4.78–5.18秒显著抽空声音"
+        },
+        {
+          "start": 5.2,
+          "end": 6.6,
+          "event": "吸回与展开",
+          "sound": "低频冲击、吸入气流和反向下行陶瓷触点组成一次明确释放"
+        },
+        {
+          "start": 6.6,
+          "end": 8.1,
+          "event": "磁悬浮花高潮",
+          "sound": "展开的加九和弦、四个宽声像高音与较长尾音"
+        },
+        {
+          "start": 8.1,
+          "end": 10,
+          "event": "落版",
+          "sound": "两音收束，让最终雕塑有安静停留的空间"
+        }
+      ],
+      "decode": "passed"
+    },
+    {
+      "name": "soundworks",
+      "title": "声音制造局",
+      "file": "app/public/effects/score-soundworks.wav",
+      "durationSeconds": 10.0,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitDepth": 16,
+      "framesPerChannel": 441000,
+      "source": "原创确定性代码合成，无外部录音、采样、第三方音乐或AI音乐",
+      "integratedLUFS": -16.1,
+      "truePeakDBTP": -1.8,
+      "loudnessRangeLU": 3.0,
+      "samplePeakDBFS": -1.8,
+      "normalization": "FFmpeg loudnorm 两遍测量，目标 -16 LUFS / -1.8 dBTP / LRA 9",
+      "timeline": [
+        {
+          "start": 0,
+          "end": 0.9,
+          "event": "小球进入",
+          "sound": "木质弹跳由左向中，最后变成有音高的落点"
+        },
+        {
+          "start": 0.9,
+          "end": 2.7,
+          "event": "传送与压机",
+          "sound": "干燥转子、低音拨弦与压机节拍，先建立单一机械律动"
+        },
+        {
+          "start": 2.7,
+          "end": 4.8,
+          "event": "工位连锁响应",
+          "sound": "齿轮和音管以不同音高、声像逐一加入"
+        },
+        {
+          "start": 4.8,
+          "end": 6.5,
+          "event": "全厂合奏",
+          "sound": "原先独立的机械声汇成短促、完整的节拍与和声"
+        },
+        {
+          "start": 6.5,
+          "end": 8.3,
+          "event": "唱机揭示",
+          "sound": "径向唱片刷声与声像展开，和声由G转向C形成新的空间感"
+        },
+        {
+          "start": 8.3,
+          "end": 10,
+          "event": "品牌落版",
+          "sound": "四音声音标记，节奏退场，尾音自然收束"
+        }
+      ],
+      "decode": "passed"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {readFile,writeFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+import {effectDefaults} from './effects.mjs';
+import {renderStudio} from './studio-render.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),config=effectDefaults('liquid');
+const source=await readFile(path.join(root,'scripts/liquid-scene.py'),'utf8'),sha=createHash('sha256').update(source).digest('hex');
+const supplied=process.argv.find(a=>a.startsWith('--frames-dir='))?.slice(13),folder=supplied?path.resolve(root,supplied):path.join(root,`.cache/liquid-${sha.slice(0,12)}`);
+if(!supplied)await renderStudio(config,folder,p=>console.log(`Cycles liquid ${Math.round(p*100)}%`));
+for(let i=0;i<300;i++)if(!existsSync(path.join(folder,`${String(i).padStart(4,'0')}.jpg`)))throw new Error(`Missing liquid frame ${i}`);
+const dest=path.join(root,'public/effects/studio-liquid-plate.mp4');
+const r=spawnSync('ffmpeg',['-v','error','-y','-framerate','30','-i',path.join(folder,'%04d.jpg'),'-c:v','libx264','-crf','14','-pix_fmt','yuv420p','-movflags','+faststart',dest],{stdio:'inherit',windowsHide:true});if(r.status!==0)throw new Error('Liquid plate encoding failed');
+await writeFile(path.join(root,'../assets/review-012/liquid-render-metadata.json'),JSON.stringify({engine:'Blender 4.5.14 / Cycles / OPTIX',samples:256,frames:300,width:1280,height:720,fps:30,scriptSha256:sha,configuration:config,motion:'deterministic continuous metaball choreography, not a fluid solver',plate:'app/public/effects/studio-liquid-plate.mp4'},null,2));
+console.log('Liquid plate and reproducibility metadata ready.');

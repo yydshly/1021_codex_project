@@ -1,0 +1,7 @@
+{
+  "file": "app/public/effects/score-liquid-015.wav",
+  "source": "本项目原创合成score-liquid-014，新增4.10–5.55秒薄膜开孔的细音滑升",
+  "normalization": "ffmpeg loudnorm I=-16 TP=-1.8 LRA=7",
+  "externalSamples": false,
+  "professionalListeningClaim": false
+}

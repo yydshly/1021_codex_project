@@ -1,0 +1,152 @@
+[
+  {
+    "style": "flat-vector",
+    "title": "橘子有引力",
+    "start": 0,
+    "end": 10,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "line-art",
+    "title": "一线成鲸",
+    "start": 10,
+    "end": 20,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "isometric",
+    "title": "声音制造局",
+    "start": 20,
+    "end": 30,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "3d-render",
+    "title": "磁场花开",
+    "start": 30,
+    "end": 40,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "cel-boil",
+    "title": "最后一班月亮",
+    "start": 40,
+    "end": 50,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "collage",
+    "title": "深海电台",
+    "start": 50,
+    "end": 60,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "liquid",
+    "title": "潮汐实验",
+    "start": 60,
+    "end": 70,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "morph",
+    "title": "形状的接力",
+    "start": 70,
+    "end": 80,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "bauhaus",
+    "title": "节拍工坊",
+    "start": 80,
+    "end": 90,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "synthwave",
+    "title": "午夜频率",
+    "start": 90,
+    "end": 100,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "aurora-glass",
+    "title": "折光电台",
+    "start": 100,
+    "end": 110,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "hanazi",
+    "title": "夜班也要慢慢来",
+    "start": 110,
+    "end": 120,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "paperclip",
+    "title": "把阳光留到夜里",
+    "start": 120,
+    "end": 130,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "pixel",
+    "title": "月亮修理铺",
+    "start": 130,
+    "end": 140,
+    "sourceRange": [
+      0,
+      10
+    ]
+  },
+  {
+    "style": "hud",
+    "title": "深蓝回声",
+    "start": 140,
+    "end": 150,
+    "sourceRange": [
+      0,
+      10
+    ]
+  }
+]

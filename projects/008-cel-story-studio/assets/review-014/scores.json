@@ -1,0 +1,191 @@
+[
+  {
+    "file": "score-wind-014.wav",
+    "events": [
+      0.2,
+      1.05,
+      1.7,
+      2.18,
+      3.45,
+      4.65,
+      5.55,
+      7.9
+    ],
+    "sequence": "seed / inhale / compress / blow / tumble / reach / grip / title",
+    "LUFS": "-16.03",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-morph-014.wav",
+    "events": [
+      0.2,
+      1.15,
+      2.65,
+      4.15,
+      5.7,
+      7.4,
+      8.6
+    ],
+    "sequence": "drop / umbrella / inflate / balloon / kite / ribbon / poster",
+    "LUFS": "-16.00",
+    "truePeakDBTP": "-2.58",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-bauhaus-014.wav",
+    "events": [
+      0.15,
+      0.75,
+      1.55,
+      2.65,
+      3.45,
+      4.55,
+      5.25,
+      6.75,
+      8.4
+    ],
+    "sequence": "circle / steps / drop / seesaw / pivot / wheel / cabins / reveal / lock",
+    "LUFS": "-16.48",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-prism-014.wav",
+    "events": [
+      0.15,
+      1.35,
+      2.9,
+      4.15,
+      5.7,
+      7.3,
+      8.5
+    ],
+    "sequence": "light / card / lens / magnify / spectrum / release / poster",
+    "LUFS": "-16.00",
+    "truePeakDBTP": "-2.43",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-hanazi-014.wav",
+    "events": [
+      0.1,
+      1.8,
+      2.65,
+      3.8,
+      4.35,
+      7.55
+    ],
+    "sequence": "confidence / doubt / accident / freeze / breakout / poster",
+    "LUFS": "-16.54",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-citrus-014.wav",
+    "events": [
+      0.1,
+      1.3,
+      2.5,
+      4.65,
+      5.15,
+      7.75
+    ],
+    "sequence": "whole / cut / segments / grip / squeeze / poster",
+    "LUFS": "-16.42",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-line-014.wav",
+    "events": [
+      0.1,
+      2.75,
+      3.35,
+      5.0,
+      8.08
+    ],
+    "sequence": "pen / breach / breath / stars / gold fill",
+    "LUFS": "-15.99",
+    "truePeakDBTP": "-2.13",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-solar-014.wav",
+    "events": [
+      0.1,
+      1.15,
+      2.25,
+      4.05,
+      5.85,
+      7.35,
+      8.5
+    ],
+    "sequence": "question / trace back / photovoltaic / chemical storage / night / overview",
+    "LUFS": "-16.00",
+    "truePeakDBTP": "-3.48",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-isometric-014.wav",
+    "events": [
+      0.1,
+      0.75,
+      2.37,
+      3.6,
+      4.85,
+      5.17,
+      5.49,
+      5.9,
+      8.65
+    ],
+    "sequence": "feed / press / contact / gears / organ1 / organ2 / organ3 / choir / record",
+    "LUFS": "-16.41",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-liquid-014.wav",
+    "events": [
+      0.1,
+      1.3,
+      2.5,
+      4.0,
+      6.0,
+      6.3,
+      8.3
+    ],
+    "sequence": "drop / impact / crown / stretch / neck break / recoil / bridge",
+    "LUFS": "-16.57",
+    "truePeakDBTP": "-1.80",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  },
+  {
+    "file": "score-collage-014.wav",
+    "events": [
+      0.1,
+      1.1,
+      2.3,
+      3.8,
+      5.2,
+      6.7,
+      8.1,
+      9.1
+    ],
+    "sequence": "tune / click / cone / ladder / lantern / chorus / close / cover",
+    "LUFS": "-15.99",
+    "truePeakDBTP": "-3.18",
+    "subjectiveListening": "not verified",
+    "source": "Original deterministic synthesis"
+  }
+]

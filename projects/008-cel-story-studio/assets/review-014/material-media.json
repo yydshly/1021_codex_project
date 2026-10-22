@@ -1,0 +1,282 @@
+[
+  {
+    "style": "3d-render",
+    "origin": "source",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\reference-effects\\media\\04-3d-render.mp4",
+    "sha256": "a9a5999d4f6db4a191562c60d891182a2ff6287e86642d15823158c0773ec88c",
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "duration": "10.000000",
+    "frames": "240",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      10,
+      38,
+      82,
+      132,
+      182,
+      230
+    ],
+    "contact": "3d-render-source.jpg"
+  },
+  {
+    "style": "3d-render",
+    "origin": "current",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\effect-examples\\3d-render.mp4",
+    "sha256": "4872053c732bd24eb78d825a9903dbcfa427f983c55d2c87948c1db9888224b2",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "3d-render-current.jpg"
+  },
+  {
+    "style": "isometric",
+    "origin": "source",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\reference-effects\\media\\03-isometric.mp4",
+    "sha256": "4639fb378cf5e4e48da8f4b80e2eec40c180c2932a07bbcbb8717d0c45928094",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "isometric-source.jpg"
+  },
+  {
+    "style": "isometric",
+    "origin": "current",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\effect-examples\\isometric.mp4",
+    "sha256": "f32dca464220de1324dde3d6f85ef8297173afe91a658b65bfcf1103469964b4",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "isometric-current.jpg"
+  },
+  {
+    "style": "liquid",
+    "origin": "source",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\reference-effects\\media\\07-liquid.mp4",
+    "sha256": "6e9b40dd841589da7df840bd84049e1dc73ae3e2fa5db3d37cbcf081eadb8a9a",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "liquid-source.jpg"
+  },
+  {
+    "style": "liquid",
+    "origin": "current",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\effect-examples\\liquid.mp4",
+    "sha256": "891eaf8846a135d2db433053176b2fb0ba2aa7778981576edafe330e2a61137c",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "liquid-current.jpg"
+  },
+  {
+    "style": "aurora-glass",
+    "origin": "source",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\reference-effects\\media\\12-aurora-glass.mp4",
+    "sha256": "3d62ac6aa41d90653be3d627b4b2c78c7d477f5c8c8b3363a7b5ab7e4bfdf7b9",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "aurora-glass-source.jpg"
+  },
+  {
+    "style": "aurora-glass",
+    "origin": "current",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\effect-examples\\aurora-glass.mp4",
+    "sha256": "d93c21ad660bd3de1c6c76692b99d982a64ae51fa03ff4160ef88b2528d29bd0",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "aurora-glass-current.jpg"
+  },
+  {
+    "style": "hud",
+    "origin": "source",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\reference-effects\\media\\22-hud.mp4",
+    "sha256": "fde04c43024f690040d4d268831b2f43c9d03e32e1c74d398f84c3831360c33f",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "hud-source.jpg"
+  },
+  {
+    "style": "hud",
+    "origin": "current",
+    "path": "F:\\codex_project\\1021_codex_project\\projects\\008-cel-story-studio\\web\\effect-examples\\hud.mp4",
+    "sha256": "094aa5e201c80d0b6024b69a0f7809df0c8adf3bfd07de73e7b7131756023b83",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "duration": "10.000000",
+    "frames": "300",
+    "requestedSeconds": [
+      0.4,
+      1.6,
+      3.4,
+      5.5,
+      7.6,
+      9.6
+    ],
+    "sampleFrames": [
+      12,
+      48,
+      102,
+      165,
+      228,
+      288
+    ],
+    "contact": "hud-current.jpg"
+  }
+]

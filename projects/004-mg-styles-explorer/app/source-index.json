@@ -1,0 +1,232 @@
+[
+  {
+    "path": "videos/01-flat-vector.mp4",
+    "sha": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+    "size": 4185753
+  },
+  {
+    "path": "videos/01-flat-vector.jpg",
+    "sha": "bc385581ec0a9a0cde08678398d6d64091cc8812",
+    "size": 49845
+  },
+  {
+    "path": "prompts/01-flat-vector.md",
+    "sha": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+    "size": 8245
+  },
+  {
+    "path": "videos/02-line-art.mp4",
+    "sha": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+    "size": 22093257
+  },
+  {
+    "path": "videos/02-line-art.jpg",
+    "sha": "5efd97962103f2238574e4845b4eba68fea605d7",
+    "size": 48893
+  },
+  {
+    "path": "prompts/02-line-art.md",
+    "sha": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+    "size": 7766
+  },
+  {
+    "path": "videos/03-isometric.mp4",
+    "sha": "0d9eef0222e73bae0f8b530611047cf098d494dd",
+    "size": 37919056
+  },
+  {
+    "path": "videos/03-isometric.jpg",
+    "sha": "aa0226e25aff22bdfe552dd2616c7c986b2ef38d",
+    "size": 211271
+  },
+  {
+    "path": "prompts/03-isometric.md",
+    "sha": "68b8bbcf6b237bd1a4d46f75f60f18c891b5dc90",
+    "size": 7969
+  },
+  {
+    "path": "videos/04-3d-render.mp4",
+    "sha": "3fa76ae0bd58d5f4b63615ff1bffc016bda78ca6",
+    "size": 31050573
+  },
+  {
+    "path": "videos/04-3d-render.jpg",
+    "sha": "d034af9592bd88c6b765870b07f2172191bc0ab5",
+    "size": 186361
+  },
+  {
+    "path": "prompts/04-3d-render.md",
+    "sha": "fe3573befb0c70bbf7b9f0e37cc706d7dd418351",
+    "size": 7877
+  },
+  {
+    "path": "videos/05-cel-boil.mp4",
+    "sha": "26cb8a8ef50e1fde739f441ccd3c75284f106734",
+    "size": 36915642
+  },
+  {
+    "path": "videos/05-cel-boil.jpg",
+    "sha": "315e97e405087da5976876011f5f7d8ffc04893a",
+    "size": 339778
+  },
+  {
+    "path": "prompts/05-cel-boil.md",
+    "sha": "7d435c061e95fd41cacf5062170bb0d4b04e0da1",
+    "size": 7791
+  },
+  {
+    "path": "videos/06-collage.mp4",
+    "sha": "56f52716209b9b677c219a69ed7171ff731883f4",
+    "size": 36608562
+  },
+  {
+    "path": "videos/06-collage.jpg",
+    "sha": "3b8b4a1065aa30561bb54ae9d95cc8c6bbc2295b",
+    "size": 633838
+  },
+  {
+    "path": "prompts/06-collage.md",
+    "sha": "ff223a26faaed295c7c5dd930bb07796365e94f8",
+    "size": 7740
+  },
+  {
+    "path": "videos/07-liquid.mp4",
+    "sha": "4e85e388dcb3d03a3ae29ad01ccb01f5d7e18887",
+    "size": 37947945
+  },
+  {
+    "path": "videos/07-liquid.jpg",
+    "sha": "4e9374a4948a2fe135dafd61e3da082c99ded9fb",
+    "size": 129791
+  },
+  {
+    "path": "prompts/07-liquid.md",
+    "sha": "5320cec82131f82f808f88e937607fec5b1ecd4e",
+    "size": 7615
+  },
+  {
+    "path": "videos/08-morph.mp4",
+    "sha": "75dafc5d55b350a2c07395477178549575aa4413",
+    "size": 27357300
+  },
+  {
+    "path": "videos/08-morph.jpg",
+    "sha": "464812cc718ceeaa7c702d1cf6205b024b71d9e9",
+    "size": 184408
+  },
+  {
+    "path": "prompts/08-morph.md",
+    "sha": "49865613173ddb15bc6cf33504e5b647df55da38",
+    "size": 7432
+  },
+  {
+    "path": "videos/09-bauhaus.mp4",
+    "sha": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+    "size": 28620968
+  },
+  {
+    "path": "videos/09-bauhaus.jpg",
+    "sha": "094b519ff323c10b7998d5439da0eaccee783c00",
+    "size": 151450
+  },
+  {
+    "path": "prompts/09-bauhaus.md",
+    "sha": "3dd39249b00c7c751caac700154305bead6f4ece",
+    "size": 7960
+  },
+  {
+    "path": "videos/10-synthwave.mp4",
+    "sha": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+    "size": 37700273
+  },
+  {
+    "path": "videos/10-synthwave.jpg",
+    "sha": "4aab5bb09d6bc1aed78b2de2c2124e3c266e1878",
+    "size": 342504
+  },
+  {
+    "path": "prompts/10-synthwave.md",
+    "sha": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+    "size": 7933
+  },
+  {
+    "path": "videos/12-aurora-glass.mp4",
+    "sha": "8c1b2a5d30d2d0412910b4112e8b9d9e2861ca5c",
+    "size": 37821095
+  },
+  {
+    "path": "videos/12-aurora-glass.jpg",
+    "sha": "a0531017cbf307df298fbefb3e029fdae04120ae",
+    "size": 133432
+  },
+  {
+    "path": "prompts/12-aurora-glass.md",
+    "sha": "7a6b54e9ca896fea7218c7e6e0cc607f5fcd20c1",
+    "size": 7829
+  },
+  {
+    "path": "videos/18-hanazi.mp4",
+    "sha": "04599262b986dd671ad9f48ba0c5394b95415cd6",
+    "size": 36922572
+  },
+  {
+    "path": "videos/18-hanazi.jpg",
+    "sha": "2894a593abf7ff7713c4251cdfdf4fe7d706809c",
+    "size": 209512
+  },
+  {
+    "path": "prompts/18-hanazi.md",
+    "sha": "ca6ccdf323bd1970edbf4159c38f04ffa74e28d7",
+    "size": 7923
+  },
+  {
+    "path": "videos/19-paperclip.mp4",
+    "sha": "672a43b868a4322b29a6c4d9e05d771bbc2e21d2",
+    "size": 11705444
+  },
+  {
+    "path": "videos/19-paperclip.jpg",
+    "sha": "6b0af1fc7a0db6100a8ddbc68323f2f15b4ed6f1",
+    "size": 90323
+  },
+  {
+    "path": "prompts/19-paperclip.md",
+    "sha": "e247db8d4adb06dcbe53645c4e5302b59b2e504f",
+    "size": 8016
+  },
+  {
+    "path": "videos/20-pixel.mp4",
+    "sha": "edb755f9a919aab7d055ca99563071af86039fbf",
+    "size": 13204278
+  },
+  {
+    "path": "videos/20-pixel.jpg",
+    "sha": "e94273171093f8925375b4127fbecd8891f78402",
+    "size": 407138
+  },
+  {
+    "path": "prompts/20-pixel.md",
+    "sha": "c91ef7bde71f83849260cbf9364469d2027caa43",
+    "size": 7601
+  },
+  {
+    "path": "videos/22-hud.mp4",
+    "sha": "b06ef73da96adedc13602dd58afa2691016d73d2",
+    "size": 37860923
+  },
+  {
+    "path": "videos/22-hud.jpg",
+    "sha": "d70379769c06a3370faaedbf48391a3a0d7d66ea",
+    "size": 277585
+  },
+  {
+    "path": "prompts/22-hud.md",
+    "sha": "c1b77d5f4af95dcd39be40ec5b5f7ab646223b3a",
+    "size": 7756
+  },
+  {
+    "path": "LICENSE",
+    "sha": "e51cbfbfba7627c7d0ee34a152c6b8afaf1d3039",
+    "size": 1071
+  }
+]

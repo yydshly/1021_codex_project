@@ -1,0 +1,834 @@
+{
+  "version": "0.14-audit",
+  "createdAtUTC": "2026-10-21T14:07:04.912806+00:00",
+  "readOnlyProduction": true,
+  "upstream": {
+    "repository": "https://github.com/Vincentwei1021/mg-styles-15",
+    "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+    "license": "MIT",
+    "index": "projects/004-mg-styles-explorer/app/source-index.json",
+    "codeProof": "graphic-upstream-code.json"
+  },
+  "method": {
+    "times": [
+      0.6,
+      2.2,
+      3.8,
+      5.5,
+      7.3,
+      9.4
+    ],
+    "films": 10,
+    "framesActuallyViewed": 60,
+    "imageTool": "functions.view_image",
+    "audioListened": false,
+    "entireFilmsWatchedInRealtime": false,
+    "productionCodeModified": false,
+    "cuaUsed": false
+  },
+  "priorities": [
+    "morph",
+    "bauhaus",
+    "line-art",
+    "flat-vector",
+    "synthwave"
+  ],
+  "judgementBoundary": "相对优先级为艺术判断，不是客观评分。可见事实与代码推断分开；不知道上游完整创作对话、实际模型分工、人工投入或每轮成本，不归因助手身份或提示词长度。",
+  "sharedFindings": [
+    {
+      "kind": "verified-code-and-image",
+      "finding": "阈值切段、单主体整体变换、count阵列、统一页眉和颗粒简化了物件关系与转场。"
+    },
+    {
+      "kind": "verified-source-code",
+      "finding": "源作同样采用确定性Web程序，但将子部件、路径、相机、字形、版印及事件时点分开设计。"
+    },
+    {
+      "kind": "unknown",
+      "finding": "提示词自述两轮AI评审与代码refinement注释不能证明具体模型、人类投入或一次提示词即可复现成片。"
+    },
+    {
+      "kind": "recommendation",
+      "finding": "先审关键画面和过渡中点，失败则改具体镜头，不新增工作台按钮或以技术检查代替美术验收。"
+    }
+  ],
+  "styles": [
+    {
+      "style": "flat-vector",
+      "title": "橘子有引力",
+      "priority": 4,
+      "visibleGaps": [
+        {
+          "times": [
+            0.6,
+            2.2
+          ],
+          "finding": "切面从开头即存在，后续是平移与复制，缺少完整水果被剖开的事件。"
+        },
+        {
+          "times": [
+            3.8,
+            5.5
+          ],
+          "finding": "同一大切片和小切片轨道占据中段，构图与事件发展有限；FRESH被主体遮住。"
+        },
+        {
+          "times": [
+            7.3
+          ],
+          "finding": "倾注用橘片到杯的曲线表达，缺少具体受力、器皿倾斜与接触反应。"
+        }
+      ],
+      "sourceStrengths": [
+        "红点承担太阳、人物反应、泡泡转场、图标与品牌的连续母题",
+        "城市到室内的尺度变化、角色动作、分区图标使信息层级持续变化"
+      ],
+      "implementationEvidence": [
+        {
+          "path": "app/src/effects/graphic-films-012.ts",
+          "symbol": "citrusFilm / citrus",
+          "fact": "act阈值切换；一直绘制切面、循环复制；cut参数未使用；倾注为预画曲线与液位。",
+          "sha256": "d4032a52c233ae0c46c115bd48529d6bfcd7884584764a3a39e34b0bce5713a6"
+        },
+        {
+          "upstream": "demos/01-flat-vector/index.html",
+          "symbols": [
+            "springV",
+            "pop",
+            "camera",
+            "updInterior"
+          ],
+          "fact": "速度驱动弹性、关节角色、镜头推进与泡泡擦场。"
+        }
+      ],
+      "keep": [
+        "柑橘切面原画",
+        "蓝橙色板",
+        "结尾杯体与文字关系"
+      ],
+      "rebuild": [
+        "整果剖切",
+        "中段同质轨道",
+        "倾注来源与接触",
+        "段落硬切"
+      ],
+      "bestPath": {
+        "keyframes": [
+          "完整橘子",
+          "一瓣冲镜带转场",
+          "瓣压入杯沿并变液体",
+          "杯中回弹与品牌结尾"
+        ],
+        "assets": [
+          "整果/剖面/瓣三个独立轮廓",
+          "皮、肉、汁滴子部件"
+        ],
+        "motion": [
+          "同一瓣承担转场",
+          "接触前预备与接触后回弹"
+        ],
+        "craft": [
+          "有设计的矢量原画",
+          "按快速运动需要做时间采样",
+          "局部印刷颗粒不覆盖全部细节"
+        ],
+        "acceptance": [
+          "转场前后和中点的物件身份连续",
+          "无字幕也读得出剖切与倾注",
+          "检查标题遮挡和杯沿接触"
+        ]
+      },
+      "mediaEvidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/01-flat-vector.mp4",
+          "sha256": "41e3fcc9b0e614a118de0d03d0edee91540299af12f6b2be7bb91d0e78fa2adc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "470"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-flat-vector.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/flat-vector.mp4",
+          "sha256": "1e0d07bcbe63d019461f28bc9c508a0fea51a821bdd9a49cb4220c52f240257a",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-flat-vector.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/01-flat-vector.mp4",
+            "gitBlobSHA1": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+            "sourceIndexSHA1": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+            "matches": true
+          },
+          {
+            "path": "prompts/01-flat-vector.md",
+            "gitBlobSHA1": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+            "sourceIndexSHA1": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "line-art",
+      "title": "一线成鲸",
+      "priority": 3,
+      "visibleGaps": [
+        {
+          "times": [
+            2.2,
+            3.8,
+            5.5
+          ],
+          "finding": "同一鲸形主要整体平移旋转，鳍尾缺少相应蓄力与反拍。"
+        },
+        {
+          "times": [
+            7.3,
+            9.4
+          ],
+          "finding": "星座是同一轮廓加点，缺少轮廓生成新意象的第二发展。"
+        },
+        {
+          "times": [
+            5.5
+          ],
+          "finding": "跃出海面的字幕接近鲸背；背景波浪较像装饰纹样。"
+        }
+      ],
+      "sourceStrengths": [
+        "笔尖逐段连接种子、枝叶、建筑、天际线和徽记",
+        "曲率减速、跟随相机、线转面与最终整张海报揭示"
+      ],
+      "implementationEvidence": [
+        {
+          "path": "app/src/effects/graphic-films-012.ts",
+          "symbol": "whale / whaleFilm",
+          "fact": "固定dash总长2400，单Path2D，整体translate/rotate/scale，另列星座坐标，未找到可见笔尖绘制。",
+          "sha256": "d4032a52c233ae0c46c115bd48529d6bfcd7884584764a3a39e34b0bce5713a6"
+        },
+        {
+          "upstream": "demos/02-line-art/film.js",
+          "symbols": [
+            "tauAtS",
+            "sAtTau",
+            "tipAt",
+            "camera",
+            "drawFill"
+          ],
+          "fact": "基于距离与转角密度映射、笔尖位置、相机与填充事件。"
+        }
+      ],
+      "keep": [
+        "深蓝金线",
+        "海洋方向"
+      ],
+      "rebuild": [
+        "身体跳跃动作",
+        "鲸到星图连续路径",
+        "镜头规模变化",
+        "可见笔尖与说明一致"
+      ],
+      "bestPath": {
+        "keyframes": [
+          "水线长出鲸尾",
+          "尾鳍反拍带出整鲸",
+          "鲸跃过镜头水线成星图",
+          "海天整张海报"
+        ],
+        "assets": [
+          "整条手工规划连续路径",
+          "鲸的分段身体曲线"
+        ],
+        "motion": [
+          "弧长/曲率控制速度",
+          "笔尖与相机共享轨迹",
+          "鳍尾有独立余摆"
+        ],
+        "craft": [
+          "路径采样与精确笔宽",
+          "局部线转面",
+          "手机缩小检查"
+        ],
+        "acceptance": [
+          "笔尖领先且在画面内",
+          "转角不停顿突跳",
+          "轮廓接续无无故断线",
+          "720p细线清楚"
+        ]
+      },
+      "mediaEvidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/02-line-art.mp4",
+          "sha256": "eda54b131945499fbc1dc7cfb45755054e3dbab0e21575dd28da1213b0842c4b",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-line-art.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/line-art.mp4",
+          "sha256": "fa819b903ffa72099bafbca83f1614f0a6bb4cf4dd2011119ea47fb16b1f45dc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-line-art.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/02-line-art.mp4",
+            "gitBlobSHA1": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+            "sourceIndexSHA1": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+            "matches": true
+          },
+          {
+            "path": "prompts/02-line-art.md",
+            "gitBlobSHA1": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+            "sourceIndexSHA1": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "morph",
+      "title": "形状的接力",
+      "priority": 1,
+      "visibleGaps": [
+        {
+          "times": [
+            0.6,
+            2.2,
+            3.8,
+            5.5
+          ],
+          "finding": "分别长时间停在粗折线鱼形、鸟形，相邻两个采样时点主体基本相同。"
+        },
+        {
+          "times": [
+            7.3,
+            9.4
+          ],
+          "finding": "叶形近似不规则多边形，结尾同形围圈；多层尾迹替代运动因果与子部件。"
+        }
+      ],
+      "sourceStrengths": [
+        "可读物件链与语义联系",
+        "body/holes/strokes/shade共同变形",
+        "纸飞机飞行俯冲的落点接定位符",
+        "完整字标着陆与统一圆角/纸纹"
+      ],
+      "implementationEvidence": [
+        {
+          "path": "app/src/effects/graphic-films-012.ts",
+          "symbol": "silhouettes / relayFilm",
+          "fact": "3轮廓由12/12/8点原始多边形采样到180点，仅2.2–3.3和5.3–6.4两段转换；六层偏移回声每帧完整绘制。",
+          "sha256": "d4032a52c233ae0c46c115bd48529d6bfcd7884584764a3a39e34b0bce5713a6"
+        },
+        {
+          "upstream": "demos/08-morph/index.html",
+          "symbols": [
+            "state",
+            "blendParts",
+            "heroAt",
+            "makeM"
+          ],
+          "fact": "多子部件、中介形、飞行、预备与冲击状态。"
+        },
+        {
+          "upstream": "demos/08-morph/cues.json",
+          "fact": "列出8段转换、flight、wipes和字标时点。"
+        }
+      ],
+      "keep": [
+        "等弧长采样",
+        "循环点匹配",
+        "确定性时间函数"
+      ],
+      "rebuild": [
+        "主体轮廓与子部件",
+        "尾迹",
+        "三段时间结构",
+        "围圈结尾"
+      ],
+      "bestPath": {
+        "concept": "把晴天放飞",
+        "keyframes": [
+          "雨滴成伞",
+          "伞鼓胀为热气球",
+          "气球受风成为风筝",
+          "飘带牵出晴天海报"
+        ],
+        "assets": [
+          "精修雨滴/伞/气球/风筝曲线原画",
+          "伞骨→吊索、弯钩→吊篮→飘带映射"
+        ],
+        "motion": [
+          "连续轮廓和子部件插值",
+          "预备/受压/展开/余摆",
+          "同一风弧线承担位移与转场"
+        ],
+        "craft": [
+          "手工设计中点控制",
+          "需要时使用简洁中介形",
+          "不使用淡入淡出掩盖换形"
+        ],
+        "acceptance": [
+          "去标题识别物件",
+          "3个形变中点不打结",
+          "子部件不无理由消失",
+          "结尾可独立作为海报"
+        ]
+      },
+      "mediaEvidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/08-morph.mp4",
+          "sha256": "752c5538cd80f5b2f6f6f29c06d997456e4712c5768292656b3d58654b643bfc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "470"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-morph.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/morph.mp4",
+          "sha256": "895d2001a31f11aadb379a2e4aea1166abde491bc94e84f64f625395ed943e96",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-morph.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/08-morph.mp4",
+            "gitBlobSHA1": "75dafc5d55b350a2c07395477178549575aa4413",
+            "sourceIndexSHA1": "75dafc5d55b350a2c07395477178549575aa4413",
+            "matches": true
+          },
+          {
+            "path": "prompts/08-morph.md",
+            "gitBlobSHA1": "49865613173ddb15bc6cf33504e5b647df55da38",
+            "sourceIndexSHA1": "49865613173ddb15bc6cf33504e5b647df55da38",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "bauhaus",
+      "title": "节拍工坊",
+      "priority": 2,
+      "visibleGaps": [
+        {
+          "times": [
+            0.6,
+            2.2
+          ],
+          "finding": "一形旋转，另一个同心圆转动外观不变，关系发展不足。"
+        },
+        {
+          "times": [
+            3.8,
+            5.5,
+            7.3
+          ],
+          "finding": "约5秒保持同一密集模块阵列，缺主次、不同轴心与明确高潮。"
+        },
+        {
+          "times": [
+            9.4
+          ],
+          "finding": "四模块与右侧文字另起构图，阵列到最终海报未建立承接。"
+        }
+      ],
+      "sourceStrengths": [
+        "偏心的大圆/三角/黑梁/方块各有尺度和角色",
+        "中心、顶点、边缘轴心交替",
+        "卡片前后与黑底舞台变化",
+        "版纹、套准、压印和字体属于同一平面设计"
+      ],
+      "implementationEvidence": [
+        {
+          "path": "app/src/effects/film-graphic-stories.ts",
+          "symbol": "module / bauhausFilm",
+          "fact": "4类图元、2.5–7.5秒网格循环，主体主要中心旋转；开中结三套构图；开头结尾有back弹性。",
+          "sha256": "3ffbd26b4f5d48dbc22b07fd43b4a1bb784132aff8735daa3ab612170f4a4d17"
+        },
+        {
+          "upstream": "demos/09-bauhaus/film.js",
+          "symbols": [
+            "drawGroup",
+            "drawOuter",
+            "drawField",
+            "registration",
+            "camera"
+          ],
+          "fact": "多个轴心、版分离、双面卡片cascade、套准与压印锁定。"
+        }
+      ],
+      "keep": [
+        "网格工具",
+        "几何图元",
+        "限定色板"
+      ],
+      "rebuild": [
+        "主次层级",
+        "事件时间表",
+        "轴心与接触",
+        "视觉高潮",
+        "最终海报"
+      ],
+      "bestPath": {
+        "concept": "纸上游乐场",
+        "keyframes": [
+          "圆片落梁",
+          "三角支点平衡",
+          "蓝色重物失衡引发连锁翻转",
+          "收回一张完整活动海报"
+        ],
+        "assets": [
+          "一套完整海报网格与字形",
+          "圆/梁/支点/重物四个主件"
+        ],
+        "motion": [
+          "一拍改变一个关系",
+          "中心/角点/支点轴心",
+          "克制机械缓动"
+        ],
+        "craft": [
+          "先黑白面积后色彩",
+          "印刷纹理比例一致",
+          "压印/套准是事件而非固定滤镜"
+        ],
+        "acceptance": [
+          "每拍前后关系可读",
+          "圆形的动作视觉上真实变化",
+          "落点与轴心准确",
+          "结尾1秒留白和标题完整"
+        ]
+      },
+      "mediaEvidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/09-bauhaus.mp4",
+          "sha256": "fba3adfd8ddb6452ddd351e19f69647e5bf1e4d7782634d167c7b56e61ff3561",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-bauhaus.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/bauhaus.mp4",
+          "sha256": "7bbd553adf811c9d2877585461bbb5903ff4abce151556a9d0513189d20ca51e",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-bauhaus.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/09-bauhaus.mp4",
+            "gitBlobSHA1": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+            "sourceIndexSHA1": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+            "matches": true
+          },
+          {
+            "path": "prompts/09-bauhaus.md",
+            "gitBlobSHA1": "3dd39249b00c7c751caac700154305bead6f4ece",
+            "sourceIndexSHA1": "3dd39249b00c7c751caac700154305bead6f4ece",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "synthwave",
+      "title": "午夜频率",
+      "priority": 5,
+      "visibleGaps": [
+        {
+          "times": [
+            0.6,
+            2.2,
+            3.8
+          ],
+          "finding": "机械主体清楚，暗调材质跨度小；前段铭牌/盘芯强于字幕与字版。"
+        },
+        {
+          "times": [
+            5.5,
+            7.3
+          ],
+          "finding": "相同门框穿越构成，推进清楚但中段意外较少。"
+        },
+        {
+          "times": [
+            9.4
+          ],
+          "finding": "装置与双圈完整，标题偏小；没有源作字版/暖色大面积反差式峰值。"
+        }
+      ],
+      "sourceStrengths": [
+        "地平线/黄橙太阳/深紫天空的大色彩对比",
+        "车辆棕榈提供速度尺度",
+        "铬字与手写字分层进入",
+        "亮斑反光与VHS完整媒介链"
+      ],
+      "implementationEvidence": [
+        {
+          "path": "app/src/effects/neon-film-013.ts",
+          "symbol": "createThree / paintNeonOverlay",
+          "fact": "exterior/chamber直接切换；同形门框与双轨；Canvas渐变标题、少量扫描线。",
+          "sha256": "83e157ca569278a58df3a18f168fc7f3a848ec083ab12559df9e8026f4876017"
+        },
+        {
+          "upstream": "demos/10-synthwave/index.html",
+          "symbols": [
+            "sceneTime",
+            "chromeTex",
+            "drawScript",
+            "drawFlare",
+            "drawSpill"
+          ],
+          "fact": "独立铬字材质、光泽/镜反纹理、手写路径、车辆光迹与VHS后期。"
+        }
+      ],
+      "keep": [
+        "原创机械磁带资产",
+        "实体双边带",
+        "修正后消失点",
+        "四幕方向与反射"
+      ],
+      "rebuild": [
+        "两处硬切的空间接力",
+        "穿越中段单一构成",
+        "字版/暖冷色高潮"
+      ],
+      "bestPath": {
+        "keyframes": [
+          "贴近刻有波纹的磁带表面",
+          "翻折带面露出内部舱",
+          "门框收成盘芯",
+          "盘芯冲击带出大字版"
+        ],
+        "assets": [
+          "保留现有资产",
+          "新增字版发光/高光材质与连续连接帧"
+        ],
+        "motion": [
+          "物件接续摄影机路径",
+          "遮挡驱动转场",
+          "高潮后微动停留"
+        ],
+        "craft": [
+          "字形成为材料",
+          "克制完整媒介后期",
+          "暗部在手机仍可读"
+        ],
+        "acceptance": [
+          "进出舱各8–12帧空间连续",
+          "画面无镜面碎片",
+          "细线不闪烁",
+          "高潮声画需实际试听后评价"
+        ]
+      },
+      "mediaEvidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/10-synthwave.mp4",
+          "sha256": "11bfdd5e454e2f1d868b733677981734f77300082b97780416b890e08dd0f85e",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-synthwave.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/synthwave.mp4",
+          "sha256": "c5a4eb6d567efca1ad2bd258cc674ddb135078d86ce25a7248483f47c9ba1667",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-synthwave.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/10-synthwave.mp4",
+            "gitBlobSHA1": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+            "sourceIndexSHA1": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+            "matches": true
+          },
+          {
+            "path": "prompts/10-synthwave.md",
+            "gitBlobSHA1": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+            "sourceIndexSHA1": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+            "matches": true
+          }
+        ]
+      }
+    }
+  ]
+}

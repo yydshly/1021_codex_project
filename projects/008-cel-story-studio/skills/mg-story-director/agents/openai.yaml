@@ -1,0 +1,4 @@
+interface:
+  display_name: "MG 故事导演"
+  short_description: "把创作意图变成因果分镜、关键画面与完整短片，并通过实际审片持续返修"
+  default_prompt: "使用 $mg-story-director，把我的想法发展成有因果和情绪转折的短片，先设计关键画面，再实现并审看完整作品。"

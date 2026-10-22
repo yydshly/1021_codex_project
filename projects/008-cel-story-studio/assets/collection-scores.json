@@ -1,0 +1,98 @@
+[
+  {
+    "style": "flat-vector",
+    "file": "score-flat-vector.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "line-art",
+    "file": "score-line-art.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "isometric",
+    "file": "score-isometric.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "collage",
+    "file": "score-collage.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "liquid",
+    "file": "score-liquid.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "morph",
+    "file": "score-morph.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "bauhaus",
+    "file": "score-bauhaus.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "synthwave",
+    "file": "score-synthwave.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "hanazi",
+    "file": "score-hanazi.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "paperclip",
+    "file": "score-paperclip.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "pixel",
+    "file": "score-pixel.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  },
+  {
+    "style": "hud",
+    "file": "score-hud.wav",
+    "duration": 10,
+    "sampleRate": 44100,
+    "channels": 2,
+    "source": "原创程序合成，无外部录音、采样或生成音乐"
+  }
+]

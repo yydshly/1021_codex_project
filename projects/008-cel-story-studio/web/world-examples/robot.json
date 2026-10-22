@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 3,
+  "title": "把温暖递给你",
+  "signature": "把温暖，递给身边的人",
+  "world": {
+    "characters": [
+      {
+        "id": "roundbot",
+        "name": "圆豆",
+        "description": "青蓝色圆头机器人，扁圆金属头壳、奶白面板、方形胸舱、铰接手臂和宽脚掌；逐帧线条轻微抖动。",
+        "scale": 1,
+        "face": {
+          "x": 0,
+          "y": -137,
+          "size": 40
+        },
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "legL",
+            "x": -30,
+            "y": -43,
+            "w": 20,
+            "h": 33,
+            "fill": "#438F99",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "legR",
+            "x": 10,
+            "y": -43,
+            "w": 20,
+            "h": 33,
+            "fill": "#438F99",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -23,
+            "y": -8,
+            "w": 43,
+            "h": 16,
+            "fill": "#64C5CD",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 23,
+            "y": -8,
+            "w": 43,
+            "h": 16,
+            "fill": "#64C5CD",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -38,
+            "y": -109,
+            "w": 76,
+            "h": 70,
+            "fill": "#57BFCB",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": -23,
+            "y": -94,
+            "w": 46,
+            "h": 36,
+            "fill": "#F3EBD5",
+            "stroke": "#438F99",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -76,
+            "w": 13,
+            "h": 13,
+            "fill": "#E8B54D",
+            "stroke": "#A57B36",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "head",
+            "x": -13,
+            "y": -121,
+            "w": 26,
+            "h": 15,
+            "fill": "#438F99",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -143,
+            "w": 104,
+            "h": 77,
+            "fill": "#65CCD4",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -137,
+            "w": 77,
+            "h": 51,
+            "fill": "#FFF3D9",
+            "stroke": "#438F99",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "armL",
+            "x": -56,
+            "y": -102,
+            "w": 18,
+            "h": 47,
+            "fill": "#438F99",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -48,
+            "y": -49,
+            "w": 25,
+            "h": 24,
+            "fill": "#78D1D5",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "armR",
+            "x": 38,
+            "y": -102,
+            "w": 18,
+            "h": 47,
+            "fill": "#438F99",
+            "stroke": "#305A63",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 48,
+            "y": -49,
+            "w": 25,
+            "h": 24,
+            "fill": "#78D1D5",
+            "stroke": "#305A63",
+            "points": []
+          }
+        ]
+      },
+      {
+        "id": "kitten",
+        "name": "麦麦",
+        "description": "奶油色小猫，尖耳、长弯尾、圆框眼镜与砖红背带裤；眼镜仅画镜框，五官由系统生成。",
+        "scale": 0.9,
+        "face": {
+          "x": 0,
+          "y": -128,
+          "size": 36
+        },
+        "shapes": [
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 24,
+            "y": -76,
+            "w": 0,
+            "h": 0,
+            "fill": "#E9C28E",
+            "stroke": "#805E46",
+            "points": [
+              {
+                "x": 0,
+                "y": 8
+              },
+              {
+                "x": 34,
+                "y": -5
+              },
+              {
+                "x": 42,
+                "y": -36
+              },
+              {
+                "x": 52,
+                "y": -33
+              },
+              {
+                "x": 49,
+                "y": 3
+              },
+              {
+                "x": 17,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -20,
+            "y": -13,
+            "w": 29,
+            "h": 26,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 20,
+            "y": -13,
+            "w": 29,
+            "h": 26,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -65,
+            "w": 69,
+            "h": 87,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -29,
+            "y": -72,
+            "w": 58,
+            "h": 44,
+            "fill": "#BD725A",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": -22,
+            "y": -96,
+            "w": 9,
+            "h": 36,
+            "fill": "#BD725A",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 13,
+            "y": -96,
+            "w": 9,
+            "h": 36,
+            "fill": "#BD725A",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -43,
+            "y": -177,
+            "w": 0,
+            "h": 0,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 32,
+                "y": 24
+              },
+              {
+                "x": 5,
+                "y": 47
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": 11,
+            "y": -177,
+            "w": 0,
+            "h": 0,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": [
+              {
+                "x": 32,
+                "y": 0
+              },
+              {
+                "x": 27,
+                "y": 47
+              },
+              {
+                "x": 0,
+                "y": 24
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -131,
+            "w": 91,
+            "h": 77,
+            "fill": "#F5DBB4",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -40,
+            "y": -66,
+            "w": 23,
+            "h": 55,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 40,
+            "y": -66,
+            "w": 23,
+            "h": 55,
+            "fill": "#F0D3A5",
+            "stroke": "#805E46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -17,
+            "y": -132,
+            "w": 31,
+            "h": 30,
+            "fill": "none",
+            "stroke": "#63564B",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 17,
+            "y": -132,
+            "w": 31,
+            "h": 30,
+            "fill": "none",
+            "stroke": "#63564B",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": -3,
+            "y": -134,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#63564B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 6,
+                "y": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "yellow-cup",
+        "name": "黄色杯子",
+        "description": "厚实的金黄色空杯，圆把手朝右；由圆豆拿起、携带并递交给麦麦。",
+        "shapes": [
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 28,
+            "y": -31,
+            "w": 31,
+            "h": 34,
+            "fill": "#F2C34F",
+            "stroke": "#956B34",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 29,
+            "y": -31,
+            "w": 15,
+            "h": 19,
+            "fill": "#FFF0D4",
+            "stroke": "#956B34",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -25,
+            "y": -58,
+            "w": 50,
+            "h": 53,
+            "fill": "#F2C34F",
+            "stroke": "#956B34",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -7,
+            "w": 50,
+            "h": 14,
+            "fill": "#F2C34F",
+            "stroke": "#956B34",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -57,
+            "w": 50,
+            "h": 14,
+            "fill": "#FFF0D4",
+            "stroke": "#956B34",
+            "points": []
+          }
+        ]
+      },
+      {
+        "id": "balcony-plant",
+        "name": "阳台盆栽",
+        "description": "陶土盆中的阔叶绿植，位于阳台右侧矮花架上。",
+        "shapes": [
+          {
+            "kind": "line",
+            "part": "body",
+            "x": 0,
+            "y": -35,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#527A53",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -3,
+                "y": -82
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -21,
+            "y": -86,
+            "w": 44,
+            "h": 22,
+            "fill": "#729B63",
+            "stroke": "#527A53",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 20,
+            "y": -105,
+            "w": 43,
+            "h": 24,
+            "fill": "#92B374",
+            "stroke": "#527A53",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -17,
+            "y": -125,
+            "w": 36,
+            "h": 23,
+            "fill": "#729B63",
+            "stroke": "#527A53",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -31,
+            "y": -46,
+            "w": 0,
+            "h": 0,
+            "fill": "#C98160",
+            "stroke": "#8B5E48",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 62,
+                "y": 0
+              },
+              {
+                "x": 52,
+                "y": 46
+              },
+              {
+                "x": 10,
+                "y": 46
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": -34,
+            "y": -49,
+            "w": 68,
+            "h": 10,
+            "fill": "#DFA07B",
+            "stroke": "#8B5E48",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "warm-kitchen",
+        "name": "奶油色厨房",
+        "description": "左侧低矮置杯柜，中间瓷砖料理台，右侧通往阳台的敞开门；温暖木地板与斜落日光。",
+        "sky": "#F7E9CE",
+        "ground": "#D5B18A",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 410,
+            "y": 245,
+            "w": 395,
+            "h": 180,
+            "fill": "#E1E8D8",
+            "stroke": "#ACB5A2",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 410,
+            "y": 303,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#BFCCB8",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 395,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 430,
+            "y": 413,
+            "w": 375,
+            "h": 137,
+            "fill": "#C99470",
+            "stroke": "#946D54",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 420,
+            "y": 402,
+            "w": 395,
+            "h": 18,
+            "fill": "#FFF1D9",
+            "stroke": "#946D54",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 612,
+            "y": 425,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#946D54",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 301,
+            "y": 505,
+            "w": 130,
+            "h": 45,
+            "fill": "#C99470",
+            "stroke": "#946D54",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 291,
+            "y": 493,
+            "w": 150,
+            "h": 13,
+            "fill": "#FFF1D9",
+            "stroke": "#946D54",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 907,
+            "y": 166,
+            "w": 235,
+            "h": 384,
+            "fill": "#A4C5BA",
+            "stroke": "#A47D5D",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 927,
+            "y": 184,
+            "w": 195,
+            "h": 366,
+            "fill": "#FFF1CF",
+            "stroke": "#D4AC7C",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 760,
+            "y": 550,
+            "w": 0,
+            "h": 0,
+            "fill": "#E8C99A",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 345,
+                "y": 0
+              },
+              {
+                "x": 423,
+                "y": 49
+              },
+              {
+                "x": -96,
+                "y": 49
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "objectId": "yellow-cup",
+            "x": 360,
+            "y": 493
+          }
+        ]
+      },
+      {
+        "id": "plant-balcony",
+        "name": "盆栽阳台",
+        "description": "左侧连接厨房的门，后方木栏杆与柔和天空，右侧花架放着盆栽，中央留出递杯空间。",
+        "sky": "#F9E9C5",
+        "ground": "#D6B896",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 50,
+            "y": 155,
+            "w": 230,
+            "h": 395,
+            "fill": "#D7B38B",
+            "stroke": "#9C785C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 77,
+            "y": 182,
+            "w": 174,
+            "h": 368,
+            "fill": "#F4DFC0",
+            "stroke": "#9C785C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 290,
+            "y": 370,
+            "w": 920,
+            "h": 20,
+            "fill": "#C2966E",
+            "stroke": "#967253",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 330,
+            "y": 390,
+            "w": 16,
+            "h": 160,
+            "fill": "#C2966E",
+            "stroke": "#967253",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 530,
+            "y": 390,
+            "w": 16,
+            "h": 160,
+            "fill": "#C2966E",
+            "stroke": "#967253",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 730,
+            "y": 390,
+            "w": 16,
+            "h": 160,
+            "fill": "#C2966E",
+            "stroke": "#967253",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1180,
+            "y": 390,
+            "w": 16,
+            "h": 160,
+            "fill": "#C2966E",
+            "stroke": "#967253",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1055,
+            "y": 430,
+            "w": 120,
+            "h": 15,
+            "fill": "#B48965",
+            "stroke": "#85694F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1065,
+            "y": 445,
+            "w": 13,
+            "h": 105,
+            "fill": "#B48965",
+            "stroke": "#85694F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1152,
+            "y": 445,
+            "w": 13,
+            "h": 105,
+            "fill": "#B48965",
+            "stroke": "#85694F",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 300,
+            "y": 580,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#BE9D7B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 900,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "objectId": "balcony-plant",
+            "x": 1115,
+            "y": 430
+          }
+        ]
+      }
+    ]
+  },
+  "style": "cel-boil",
+  "character": "flame",
+  "palette": "lake",
+  "boil": 1,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-87e3c138-a6d8-4ea1-a91c-d524a72eff17-1",
+      "caption": "圆豆拿起黄色杯子",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "warm-kitchen",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "roundbot",
+          "action": "pickup",
+          "emotion": "happy",
+          "from": {
+            "x": 330,
+            "y": 550
+          },
+          "to": {
+            "x": 330,
+            "y": 550
+          },
+          "propId": "yellow-cup",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-87e3c138-a6d8-4ea1-a91c-d524a72eff17-2",
+      "caption": "托着杯子，走向阳台",
+      "action": "walk",
+      "emotion": "determined",
+      "duration": 2.5,
+      "sceneId": "warm-kitchen",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "roundbot",
+          "action": "walk",
+          "emotion": "determined",
+          "from": {
+            "x": 330,
+            "y": 550
+          },
+          "to": {
+            "x": 1020,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-87e3c138-a6d8-4ea1-a91c-d524a72eff17-3",
+      "caption": "麦麦在盆栽旁等着",
+      "action": "walk",
+      "emotion": "happy",
+      "duration": 3,
+      "sceneId": "plant-balcony",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "roundbot",
+          "action": "walk",
+          "emotion": "happy",
+          "from": {
+            "x": 220,
+            "y": 550
+          },
+          "to": {
+            "x": 865,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        },
+        {
+          "characterId": "kitten",
+          "action": "observe",
+          "emotion": "happy",
+          "from": {
+            "x": 950,
+            "y": 550
+          },
+          "to": {
+            "x": 950,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-87e3c138-a6d8-4ea1-a91c-d524a72eff17-4",
+      "caption": "给你！谢谢你！",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2.5,
+      "sceneId": "plant-balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "roundbot",
+          "action": "give",
+          "emotion": "happy",
+          "from": {
+            "x": 865,
+            "y": 550
+          },
+          "to": {
+            "x": 865,
+            "y": 550
+          },
+          "propId": "yellow-cup",
+          "recipientId": "kitten"
+        },
+        {
+          "characterId": "kitten",
+          "action": "observe",
+          "emotion": "happy",
+          "from": {
+            "x": 950,
+            "y": 550
+          },
+          "to": {
+            "x": 950,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-87e3c138-a6d8-4ea1-a91c-d524a72eff17-5",
+      "caption": "杯子到手，快乐挥挥手",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "plant-balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "roundbot",
+          "action": "wave",
+          "emotion": "happy",
+          "from": {
+            "x": 865,
+            "y": 550
+          },
+          "to": {
+            "x": 865,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        },
+        {
+          "characterId": "kitten",
+          "action": "wave",
+          "emotion": "happy",
+          "from": {
+            "x": 950,
+            "y": 550
+          },
+          "to": {
+            "x": 950,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    }
+  ],
+  "creative": {
+    "brief": "一个青蓝色圆头机器人在温暖的厨房拿起黄色杯子，走到有盆栽的阳台，把杯子递给戴眼镜的小猫，两人开心挥手。两个场景和两个角色都要按故事单独设计，杯子必须实际被拿起、携带和递交。",
+    "logline": "青蓝色圆头机器人拿起厨房的黄色杯子，带到盆栽阳台递给眼镜小猫，两人开心挥手。",
+    "narrative": "午后的厨房里，青蓝色机器人圆豆站在矮柜旁，拿起黄色杯子。它托着杯子走向通往阳台的门，再沿阳台走到朋友身边。戴着圆眼镜的小猫麦麦正等在盆栽旁。圆豆把杯子递给麦麦，麦麦稳稳接住。杯子留在麦麦手中，两位朋友用空着的手开心挥手，让这次小小的递送有了温暖的收尾。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T18:05:04.168Z",
+    "provider": "本机 Codex"
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "version": "0.13",
+  "verifiedAtUTC": "2026-10-21T13:25:32.198764+00:00",
+  "source": "最终工作台模板 MP4；未调用独立设计稿冒充成片",
+  "keyframes": [
+    {
+      "file": "public/effects/trio-synthwave-030.jpg",
+      "source": "web/effect-examples/synthwave.mp4",
+      "frame": 30,
+      "seconds": 1.0,
+      "sha256": "dbecdb8573ee03f93457c43ce88b199bbcf86e49ab59d814de09d9bf927b9c71",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-synthwave-185.jpg",
+      "source": "web/effect-examples/synthwave.mp4",
+      "frame": 185,
+      "seconds": 6.166666666666667,
+      "sha256": "5e58cd06eff102cb28f0605b63ee6b390a392cf69d4a6482bca4d17f557de831",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-synthwave-270.jpg",
+      "source": "web/effect-examples/synthwave.mp4",
+      "frame": 270,
+      "seconds": 9.0,
+      "sha256": "b280c10ec00b4e10206dfd22dcd4da602282fa08fa62e8fa19757b09eb891c3e",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-pixel-030.jpg",
+      "source": "web/effect-examples/pixel.mp4",
+      "frame": 30,
+      "seconds": 1.0,
+      "sha256": "67492036c4d365e8137ffbeca95e76cce3ed63237a63d21e79033387c12170cd",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-pixel-110.jpg",
+      "source": "web/effect-examples/pixel.mp4",
+      "frame": 110,
+      "seconds": 3.6666666666666665,
+      "sha256": "9c591e2f19249cb9e73ddc54a980b07d2a5dc6bb07d6167afa017f3ff0fda1b1",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-pixel-280.jpg",
+      "source": "web/effect-examples/pixel.mp4",
+      "frame": 280,
+      "seconds": 9.333333333333334,
+      "sha256": "eed18046ebf98262de1ad0c2496bd8f4db7fd41ce95d3107601f99100f7e2019",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-hud-030.jpg",
+      "source": "web/effect-examples/hud.mp4",
+      "frame": 30,
+      "seconds": 1.0,
+      "sha256": "848d331419458146b77e0df0d36094a4d5600bbe18267fd20a660594aa8eb303",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-hud-115.jpg",
+      "source": "web/effect-examples/hud.mp4",
+      "frame": 115,
+      "seconds": 3.8333333333333335,
+      "sha256": "12e29272ca0d4afba339384cdcb0d5f89a5778b6d3c56694f821548cf968ce2b",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    },
+    {
+      "file": "public/effects/trio-hud-270.jpg",
+      "source": "web/effect-examples/hud.mp4",
+      "frame": 270,
+      "seconds": 9.0,
+      "sha256": "78a84864dcf7ca5ceec69a074f6f7d4502cd584da403071f80f0115676799b32",
+      "method": "FFmpeg 精确帧选择；提取自最终 MP4，不是独立重画的设计稿"
+    }
+  ],
+  "films": [
+    {
+      "file": "web/effect-examples/synthwave.mp4",
+      "expectedSeconds": 10,
+      "formatSeconds": 10.005,
+      "videoSeconds": 10.0,
+      "frames": 300,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuvj420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 11621419,
+      "style": "synthwave",
+      "sha256": "c5a4eb6d567efca1ad2bd258cc674ddb135078d86ce25a7248483f47c9ba1667",
+      "loudness": {
+        "LUFS": -20.55,
+        "truePeakDBTP": -5.42,
+        "loudnessRangeLU": 1.3,
+        "method": "FFmpeg loudnorm 测量成片现有混音；此步骤不修改原片声音"
+      }
+    },
+    {
+      "file": "web/effect-examples/pixel.mp4",
+      "expectedSeconds": 10,
+      "formatSeconds": 10.005,
+      "videoSeconds": 10.0,
+      "frames": 300,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuvj420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 1174419,
+      "style": "pixel",
+      "sha256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68",
+      "loudness": {
+        "LUFS": -20.72,
+        "truePeakDBTP": -8.26,
+        "loudnessRangeLU": 1.1,
+        "method": "FFmpeg loudnorm 测量成片现有混音；此步骤不修改原片声音"
+      }
+    },
+    {
+      "file": "web/effect-examples/hud.mp4",
+      "expectedSeconds": 10,
+      "formatSeconds": 10.005,
+      "videoSeconds": 10.0,
+      "frames": 300,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuvj420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 9594177,
+      "style": "hud",
+      "sha256": "094aa5e201c80d0b6024b69a0f7809df0c8adf3bfd07de73e7b7131756023b83",
+      "loudness": {
+        "LUFS": -20.73,
+        "truePeakDBTP": -7.59,
+        "loudnessRangeLU": 3.0,
+        "method": "FFmpeg loudnorm 测量成片现有混音；此步骤不修改原片声音"
+      }
+    }
+  ],
+  "reels": [
+    {
+      "file": "web/effect-examples/trio-reel-013.mp4",
+      "expectedSeconds": 30,
+      "formatSeconds": 30.0,
+      "videoSeconds": 30.0,
+      "frames": 900,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuv420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 24971155,
+      "sha256": "7b11b2b958d5adfd78fc33e58b41660e4fa56ec2ddde343e012e4e38603fd82d",
+      "chapters": [
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 0,
+          "end": 10,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 10,
+          "end": 20,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 20,
+          "end": 30,
+          "sourceRange": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "expectedSeconds": 150,
+      "formatSeconds": 150.0,
+      "videoSeconds": 150.0,
+      "frames": 4500,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuv420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 85792265,
+      "sha256": "659678054b11992e4e0f321059c8aaf46e0a7995f4a0814676ca5dbda19adfd6",
+      "chapters": [
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 0,
+          "end": 10,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "line-art",
+          "title": "一线成鲸",
+          "start": 10,
+          "end": 20,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 20,
+          "end": 30,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 30,
+          "end": 40,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "cel-boil",
+          "title": "最后一班月亮",
+          "start": 40,
+          "end": 50,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 50,
+          "end": 60,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "liquid",
+          "title": "潮汐实验",
+          "start": 60,
+          "end": 70,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "morph",
+          "title": "形状的接力",
+          "start": 70,
+          "end": 80,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "bauhaus",
+          "title": "节拍工坊",
+          "start": 80,
+          "end": 90,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 90,
+          "end": 100,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 100,
+          "end": 110,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "hanazi",
+          "title": "夜班也要慢慢来",
+          "start": 110,
+          "end": 120,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "paperclip",
+          "title": "把阳光留到夜里",
+          "start": 120,
+          "end": 130,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 130,
+          "end": 140,
+          "sourceRange": [
+            0,
+            10
+          ]
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 140,
+          "end": 150,
+          "sourceRange": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "expectedSeconds": 45,
+      "formatSeconds": 45.0,
+      "videoSeconds": 45.0,
+      "frames": 1350,
+      "fps": "30/1",
+      "size": [
+        1280,
+        720
+      ],
+      "videoCodec": "h264",
+      "pixelFormat": "yuv420p",
+      "audioCodec": "aac",
+      "audioProfile": "LC",
+      "audioChannels": 2,
+      "audioSampleRate": 48000,
+      "fullVideoAndAudioDecode": "passed",
+      "bytes": 27328302,
+      "sha256": "c43dccb81eb81f0193a65e5ea4ee12ac8e732961c2b4eaca3b26255b420619da",
+      "chapters": [
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 0,
+          "end": 3,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "line-art",
+          "title": "一线成鲸",
+          "start": 3,
+          "end": 6,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 6,
+          "end": 9,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 9,
+          "end": 12,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "cel-boil",
+          "title": "最后一班月亮",
+          "start": 12,
+          "end": 15,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 15,
+          "end": 18,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "liquid",
+          "title": "潮汐实验",
+          "start": 18,
+          "end": 21,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "morph",
+          "title": "形状的接力",
+          "start": 21,
+          "end": 24,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "bauhaus",
+          "title": "节拍工坊",
+          "start": 24,
+          "end": 27,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 27,
+          "end": 30,
+          "sourceRange": [
+            5,
+            8
+          ]
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 30,
+          "end": 33,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "hanazi",
+          "title": "夜班也要慢慢来",
+          "start": 33,
+          "end": 36,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "paperclip",
+          "title": "把阳光留到夜里",
+          "start": 36,
+          "end": 39,
+          "sourceRange": [
+            2,
+            5
+          ]
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 39,
+          "end": 42,
+          "sourceRange": [
+            5,
+            8
+          ]
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 42,
+          "end": 45,
+          "sourceRange": [
+            5,
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "preservedBefore": [
+    {
+      "path": "web/quality-before-013/synthwave.mp4",
+      "sha256": "d642b25055affb2c11298aa602b71c5771e72197391cf3af49308c251eaf6563",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/synthwave.jpg",
+      "sha256": "4f74694d28c27adaee5573a3764cc84c768bc65547e8a2275ae31c64886b3844",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/synthwave.json",
+      "sha256": "3c6f43bd88a1cf5a10753150ee77c7a3a9dba53f03d050a68b1538a922bb3861",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/pixel.mp4",
+      "sha256": "48adad09c5328ddb943c14c524686e9eb77ccbf2426e057dde3c293bae1268f0",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/pixel.jpg",
+      "sha256": "bf9cf76b8aa249ea97e0c6562dd2848f4fbb5f1035e0ec192116905c13f90784",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/pixel.json",
+      "sha256": "93a7f9b7b1853061fdf0702c6d38acb29e4ce0e55b0ab3a125dc87ada3e32abb",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/hud.mp4",
+      "sha256": "2d8cceaeb8734dc3aea54d960fd0227f333c1b13d3b6b56a5518d2b8f0ea87e8",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/hud.jpg",
+      "sha256": "07743464dfe642794f39afb636b1834f4a473621a9680732ce6060d743b683b3",
+      "verified": true
+    },
+    {
+      "path": "web/quality-before-013/hud.json",
+      "sha256": "327fe03b848ff5fd6dd40061a9f3b341129de980717dbff1aff1e6d3113d00d1",
+      "verified": true
+    }
+  ],
+  "protectedReelsUnchanged": [
+    {
+      "file": "web/effect-examples/recraft-reel.mp4",
+      "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d",
+      "verified": true
+    },
+    {
+      "file": "web/effect-examples/hero-reel.mp4",
+      "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c",
+      "verified": true
+    }
+  ],
+  "verifiedSourceFilmsUnchanged": true,
+  "ffmpegThreads": 2,
+  "audioConcat": "每片按 48000 Hz 样本数裁齐，保留各片原混音；精选片段仅加首尾淡化，无替换音乐"
+}

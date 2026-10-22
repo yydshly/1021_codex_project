@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": 3,
+  "title": "蓝围巾的分享",
+  "signature": "分享，让快乐多一份",
+  "world": {
+    "characters": [
+      {
+        "id": "rabbit",
+        "name": "绒绒",
+        "description": "白兔，细长直耳与一只微折耳尖，梨形身体、大脚掌，戴着长尾湖蓝围巾。",
+        "scale": 1,
+        "face": {
+          "x": 0,
+          "y": -115,
+          "size": 36
+        },
+        "shapes": [
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 37,
+            "y": -49,
+            "w": 29,
+            "h": 29,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -23,
+            "y": -9,
+            "w": 43,
+            "h": 18,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 23,
+            "y": -9,
+            "w": 43,
+            "h": 18,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -52,
+            "w": 70,
+            "h": 88,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -48,
+            "w": 41,
+            "h": 51,
+            "fill": "#F1E7D6",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": -19,
+            "y": -164,
+            "w": 21,
+            "h": 68,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -19,
+            "y": -165,
+            "w": 9,
+            "h": 46,
+            "fill": "#EDB6A9",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": 10,
+            "y": -196,
+            "w": 0,
+            "h": 0,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": [
+              {
+                "x": 0,
+                "y": 58
+              },
+              {
+                "x": 0,
+                "y": 12
+              },
+              {
+                "x": 10,
+                "y": 0
+              },
+              {
+                "x": 29,
+                "y": 14
+              },
+              {
+                "x": 20,
+                "y": 24
+              },
+              {
+                "x": 17,
+                "y": 59
+              }
+            ]
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 20,
+            "y": -177,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#EDB6A9",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -1,
+                "y": 30
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -116,
+            "w": 77,
+            "h": 66,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 14,
+            "y": -87,
+            "w": 0,
+            "h": 0,
+            "fill": "#368FAE",
+            "stroke": "#286B87",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 18,
+                "y": 0
+              },
+              {
+                "x": 28,
+                "y": 53
+              },
+              {
+                "x": 10,
+                "y": 48
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -32,
+            "y": -94,
+            "w": 65,
+            "h": 17,
+            "fill": "#409FBC",
+            "stroke": "#286B87",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -34,
+            "y": -60,
+            "w": 22,
+            "h": 46,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 34,
+            "y": -60,
+            "w": 22,
+            "h": 46,
+            "fill": "#FFFDF2",
+            "stroke": "#806D61",
+            "points": []
+          }
+        ]
+      },
+      {
+        "id": "bear",
+        "name": "栗栗",
+        "description": "棕色小熊，圆耳、宽肩短腿，奶油色口鼻与肚皮，穿有两粒扣子的赭红小背心。",
+        "scale": 1.08,
+        "face": {
+          "x": 0,
+          "y": -116,
+          "size": 40
+        },
+        "shapes": [
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -25,
+            "y": -15,
+            "w": 35,
+            "h": 30,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 25,
+            "y": -15,
+            "w": 35,
+            "h": 30,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": 0,
+            "y": -60,
+            "w": 92,
+            "h": 103,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -44,
+            "w": 53,
+            "h": 51,
+            "fill": "#DFC094",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -43,
+            "y": -99,
+            "w": 0,
+            "h": 0,
+            "fill": "#B65F48",
+            "stroke": "#7E4639",
+            "points": [
+              {
+                "x": 0,
+                "y": 8
+              },
+              {
+                "x": 24,
+                "y": 0
+              },
+              {
+                "x": 37,
+                "y": 19
+              },
+              {
+                "x": 32,
+                "y": 60
+              },
+              {
+                "x": 4,
+                "y": 53
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 6,
+            "y": -99,
+            "w": 0,
+            "h": 0,
+            "fill": "#B65F48",
+            "stroke": "#7E4639",
+            "points": [
+              {
+                "x": 0,
+                "y": 19
+              },
+              {
+                "x": 13,
+                "y": 0
+              },
+              {
+                "x": 37,
+                "y": 8
+              },
+              {
+                "x": 33,
+                "y": 53
+              },
+              {
+                "x": 5,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": -32,
+            "y": -151,
+            "w": 32,
+            "h": 33,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 32,
+            "y": -151,
+            "w": 32,
+            "h": 33,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -32,
+            "y": -151,
+            "w": 17,
+            "h": 18,
+            "fill": "#DFC094",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 32,
+            "y": -151,
+            "w": 17,
+            "h": 18,
+            "fill": "#DFC094",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -119,
+            "w": 91,
+            "h": 76,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -106,
+            "w": 49,
+            "h": 30,
+            "fill": "#E8CDAB",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -45,
+            "y": -65,
+            "w": 28,
+            "h": 56,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 45,
+            "y": -65,
+            "w": 28,
+            "h": 56,
+            "fill": "#986443",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 19,
+            "y": -70,
+            "w": 7,
+            "h": 7,
+            "fill": "#F4D58F",
+            "stroke": "#7E4639",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 19,
+            "y": -53,
+            "w": 7,
+            "h": 7,
+            "fill": "#F4D58F",
+            "stroke": "#7E4639",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "carrot",
+        "name": "花园胡萝卜",
+        "description": "一根橙色尖头胡萝卜，带三片绿色叶子，能被拿起、携带和递交。",
+        "shapes": [
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -17,
+            "y": -55,
+            "w": 0,
+            "h": 0,
+            "fill": "#E99242",
+            "stroke": "#AB5E32",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 34,
+                "y": 0
+              },
+              {
+                "x": 28,
+                "y": 26
+              },
+              {
+                "x": 17,
+                "y": 55
+              },
+              {
+                "x": 5,
+                "y": 26
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": -5,
+            "y": -53,
+            "w": 0,
+            "h": 0,
+            "fill": "#729B58",
+            "stroke": "#4F7643",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -19,
+                "y": -23
+              },
+              {
+                "x": -6,
+                "y": -28
+              },
+              {
+                "x": 6,
+                "y": -7
+              },
+              {
+                "x": 5,
+                "y": -35
+              },
+              {
+                "x": 17,
+                "y": -34
+              },
+              {
+                "x": 14,
+                "y": -7
+              },
+              {
+                "x": 28,
+                "y": -24
+              },
+              {
+                "x": 35,
+                "y": -16
+              },
+              {
+                "x": 15,
+                "y": 3
+              }
+            ]
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": -10,
+            "y": -40,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#AB5E32",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 12,
+                "y": 3
+              }
+            ]
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 0,
+            "y": -25,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#AB5E32",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 10,
+                "y": -2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "garden",
+        "name": "小屋外的花园",
+        "description": "奶油色天空下，菜畦与木栅栏围着弯曲小径，右侧露出小屋入口。",
+        "sky": "#F8EBD1",
+        "ground": "#B9CB8C",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 80,
+            "y": 337,
+            "w": 820,
+            "h": 17,
+            "fill": "#C6A77E",
+            "stroke": "#947954",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 80,
+            "y": 389,
+            "w": 820,
+            "h": 16,
+            "fill": "#C6A77E",
+            "stroke": "#947954",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 145,
+            "y": 310,
+            "w": 0,
+            "h": 0,
+            "fill": "#DFC39B",
+            "stroke": "#947954",
+            "points": [
+              {
+                "x": 0,
+                "y": 126
+              },
+              {
+                "x": 0,
+                "y": 15
+              },
+              {
+                "x": 13,
+                "y": 0
+              },
+              {
+                "x": 26,
+                "y": 15
+              },
+              {
+                "x": 26,
+                "y": 126
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 690,
+            "y": 310,
+            "w": 0,
+            "h": 0,
+            "fill": "#DFC39B",
+            "stroke": "#947954",
+            "points": [
+              {
+                "x": 0,
+                "y": 126
+              },
+              {
+                "x": 0,
+                "y": 15
+              },
+              {
+                "x": 13,
+                "y": 0
+              },
+              {
+                "x": 26,
+                "y": 15
+              },
+              {
+                "x": 26,
+                "y": 126
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 280,
+            "y": 457,
+            "w": 320,
+            "h": 75,
+            "fill": "#A67E58",
+            "stroke": "#836344",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 222,
+            "y": 441,
+            "w": 0,
+            "h": 0,
+            "fill": "#638D54",
+            "stroke": "#4F7643",
+            "points": [
+              {
+                "x": 0,
+                "y": 9
+              },
+              {
+                "x": -27,
+                "y": -23
+              },
+              {
+                "x": -8,
+                "y": -20
+              },
+              {
+                "x": 0,
+                "y": -43
+              },
+              {
+                "x": 12,
+                "y": -19
+              },
+              {
+                "x": 35,
+                "y": -26
+              },
+              {
+                "x": 18,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 337,
+            "y": 444,
+            "w": 0,
+            "h": 0,
+            "fill": "#779B59",
+            "stroke": "#4F7643",
+            "points": [
+              {
+                "x": 0,
+                "y": 8
+              },
+              {
+                "x": -32,
+                "y": -20
+              },
+              {
+                "x": -8,
+                "y": -17
+              },
+              {
+                "x": 4,
+                "y": -39
+              },
+              {
+                "x": 15,
+                "y": -14
+              },
+              {
+                "x": 34,
+                "y": -23
+              },
+              {
+                "x": 20,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 360,
+            "y": 490,
+            "w": 0,
+            "h": 0,
+            "fill": "#E6CAA1",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 110
+              },
+              {
+                "x": 65,
+                "y": 0
+              },
+              {
+                "x": 740,
+                "y": -6
+              },
+              {
+                "x": 805,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 948,
+            "y": 215,
+            "w": 255,
+            "h": 305,
+            "fill": "#E2B884",
+            "stroke": "#8D6448",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 920,
+            "y": 223,
+            "w": 0,
+            "h": 0,
+            "fill": "#B76850",
+            "stroke": "#8D503F",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 145,
+                "y": -82
+              },
+              {
+                "x": 295,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1010,
+            "y": 326,
+            "w": 125,
+            "h": 194,
+            "fill": "#795B48",
+            "stroke": "#624832",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 991,
+            "y": 520,
+            "w": 163,
+            "h": 22,
+            "fill": "#C5AA88",
+            "stroke": "#947954",
+            "points": []
+          }
+        ],
+        "items": [
+          {
+            "objectId": "carrot",
+            "x": 470,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "id": "cottage",
+        "name": "有窗户的小屋",
+        "description": "左侧敞开的门连接花园，后墙大窗透入暖光，右侧矮柜与圆地毯围成温暖的会面空间。",
+        "sky": "#F3DEC0",
+        "ground": "#CBA47B",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 70,
+            "y": 170,
+            "w": 1140,
+            "h": 350,
+            "fill": "#F0D8B5",
+            "stroke": "#B48A63",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 95,
+            "y": 231,
+            "w": 190,
+            "h": 289,
+            "fill": "#8DA875",
+            "stroke": "#8D6448",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 110,
+            "y": 449,
+            "w": 0,
+            "h": 0,
+            "fill": "#E6CAA1",
+            "stroke": "none",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 42,
+                "y": 0
+              },
+              {
+                "x": 110,
+                "y": 0
+              },
+              {
+                "x": 158,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 468,
+            "y": 198,
+            "w": 310,
+            "h": 218,
+            "fill": "#ACCDD0",
+            "stroke": "#9D704C",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 703,
+            "y": 251,
+            "w": 49,
+            "h": 49,
+            "fill": "#F8DEA2",
+            "stroke": "none",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 615,
+            "y": 198,
+            "w": 15,
+            "h": 218,
+            "fill": "#AD7E55",
+            "stroke": "#9D704C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 468,
+            "y": 300,
+            "w": 310,
+            "h": 13,
+            "fill": "#AD7E55",
+            "stroke": "#9D704C",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 449,
+            "y": 414,
+            "w": 349,
+            "h": 16,
+            "fill": "#BD9267",
+            "stroke": "#9D704C",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 438,
+            "y": 190,
+            "w": 0,
+            "h": 0,
+            "fill": "#D59173",
+            "stroke": "#AF745B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 73,
+                "y": 0
+              },
+              {
+                "x": 38,
+                "y": 155
+              },
+              {
+                "x": 0,
+                "y": 197
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": 737,
+            "y": 190,
+            "w": 0,
+            "h": 0,
+            "fill": "#D59173",
+            "stroke": "#AF745B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 73,
+                "y": 0
+              },
+              {
+                "x": 73,
+                "y": 197
+              },
+              {
+                "x": 35,
+                "y": 155
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 70,
+            "y": 514,
+            "w": 1140,
+            "h": 12,
+            "fill": "#AD7E55",
+            "stroke": "#9D704C",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 766,
+            "y": 559,
+            "w": 510,
+            "h": 70,
+            "fill": "#D5A477",
+            "stroke": "#AF795B",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1026,
+            "y": 405,
+            "w": 145,
+            "h": 121,
+            "fill": "#B88B60",
+            "stroke": "#865E43",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1015,
+            "y": 394,
+            "w": 167,
+            "h": 17,
+            "fill": "#CCA177",
+            "stroke": "#865E43",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 1098,
+            "y": 456,
+            "w": 11,
+            "h": 11,
+            "fill": "#F0D29B",
+            "stroke": "#865E43",
+            "points": []
+          }
+        ],
+        "items": []
+      }
+    ]
+  },
+  "style": "cel-boil",
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-05e7576d-48e8-45a6-aa7f-dfdc2d2acd68-1",
+      "caption": "花园里，躺着一根胡萝卜。",
+      "action": "walk",
+      "emotion": "curious",
+      "duration": 2,
+      "sceneId": "garden",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "rabbit",
+          "action": "walk",
+          "emotion": "curious",
+          "from": {
+            "x": 300,
+            "y": 550
+          },
+          "to": {
+            "x": 430,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-05e7576d-48e8-45a6-aa7f-dfdc2d2acd68-2",
+      "caption": "绒绒捡起了它。",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "garden",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "rabbit",
+          "action": "pickup",
+          "emotion": "happy",
+          "from": {
+            "x": 430,
+            "y": 550
+          },
+          "to": {
+            "x": 430,
+            "y": 550
+          },
+          "propId": "carrot",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-05e7576d-48e8-45a6-aa7f-dfdc2d2acd68-3",
+      "caption": "抱进小屋，走向栗栗。",
+      "action": "walk",
+      "emotion": "happy",
+      "duration": 3,
+      "sceneId": "cottage",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "rabbit",
+          "action": "walk",
+          "emotion": "happy",
+          "from": {
+            "x": 300,
+            "y": 550
+          },
+          "to": {
+            "x": 760,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        },
+        {
+          "characterId": "bear",
+          "action": "observe",
+          "emotion": "curious",
+          "from": {
+            "x": 850,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-05e7576d-48e8-45a6-aa7f-dfdc2d2acd68-4",
+      "caption": "这根胡萝卜，送给你！",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2.5,
+      "sceneId": "cottage",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "rabbit",
+          "action": "give",
+          "emotion": "happy",
+          "from": {
+            "x": 760,
+            "y": 550
+          },
+          "to": {
+            "x": 760,
+            "y": 550
+          },
+          "propId": "carrot",
+          "recipientId": "bear"
+        },
+        {
+          "characterId": "bear",
+          "action": "observe",
+          "emotion": "happy",
+          "from": {
+            "x": 850,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-05e7576d-48e8-45a6-aa7f-dfdc2d2acd68-5",
+      "caption": "小小分享，双份快乐。",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 2.5,
+      "sceneId": "cottage",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "rabbit",
+          "action": "celebrate",
+          "emotion": "happy",
+          "from": {
+            "x": 760,
+            "y": 550
+          },
+          "to": {
+            "x": 760,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        },
+        {
+          "characterId": "bear",
+          "action": "celebrate",
+          "emotion": "happy",
+          "from": {
+            "x": 850,
+            "y": 550
+          },
+          "to": {
+            "x": 850,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": ""
+        }
+      ]
+    }
+  ],
+  "creative": {
+    "brief": "一只戴蓝围巾的白兔，在花园捡到一根胡萝卜，把它带进有窗户的小屋，递给一只棕色小熊，两人开心庆祝。请设计有辨识度的两个角色和两个不同的场景，拿起、跨场景携带、递交都应真的发生。",
+    "logline": "戴蓝围巾的白兔把花园里捡到的胡萝卜带进小屋，送给棕熊朋友，一起庆祝分享的快乐。",
+    "narrative": "白兔绒绒戴着长尾蓝围巾，在花园小径上发现一根胡萝卜。它走近，弯身将胡萝卜拿到手中，随后带着它进入有明亮窗户的小屋。棕熊栗栗正在屋里等候，绒绒抱着胡萝卜走到朋友面前，亲手递过去。栗栗接住这份礼物，两位朋友开心地举起手，为小小的分享庆祝。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T18:01:45.118Z",
+    "provider": "本机 Codex"
+  }
+}

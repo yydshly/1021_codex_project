@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "morph",
+  "title": "形状的接力",
+  "subtitle": "每一次变化，都留下联系",
+  "words": [
+    "鱼",
+    "鸟",
+    "叶"
+  ],
+  "primary": "#ff693b",
+  "secondary": "#3f46ec",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "title": "小山，大阵仗",
+  "signature": "微小，也能向前",
+  "character": "drop",
+  "palette": "tomato",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-1",
+      "caption": "停在原地，好奇地望着暗星",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 3
+    },
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-2",
+      "caption": "害怕地向前走，停在小山前",
+      "action": "walk",
+      "emotion": "afraid",
+      "duration": 3
+    },
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-3",
+      "caption": "向前跳却没过山，落回原处附近",
+      "action": "fail",
+      "emotion": "sad",
+      "duration": 4
+    },
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-4",
+      "caption": "身体后倾，又害怕地退后一步",
+      "action": "hesitate",
+      "emotion": "afraid",
+      "duration": 2.5
+    },
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-5",
+      "caption": "从退后处坚定漂过山，轻轻落地",
+      "action": "float",
+      "emotion": "determined",
+      "duration": 4.5
+    },
+    {
+      "id": "ai-7a21fc08-8548-49bf-8009-1190b8d8ebac-6",
+      "caption": "双手高举点亮星星，像翻过百座山",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 3
+    }
+  ],
+  "creative": {
+    "brief": "把主角换成小水滴，保留失败后再试的主线，让结尾更幽默。增加一次退缩，再轻轻漂过小山。",
+    "logline": "小水滴想点亮星星，跳山失败又退缩一步，却轻轻漂了过去，最后为这点小事郑重欢呼。",
+    "narrative": "纸上，小水滴望着未亮的星星，想去点亮它。它走到小山前，越看越害怕，试着向前一跳，却没越过山，落回原处附近，满心失落。再面对小山，它身体后倾，又退了一步。但它仍想点亮星星，于是从退后的位置重新尝试，沿着柔和的弧线轻轻漂过小山，慢慢落地。刚才跳得那么费劲，这次竟然轻轻松松！小水滴开心地高举双手，点亮星星；明明只过了一座小山，庆祝的架势却像翻过了一百座。",
+    "tone": "playful",
+    "mode": "rewrite",
+    "generatedAt": "2026-10-20T16:42:29.033Z",
+    "provider": "本机 Codex"
+  }
+}

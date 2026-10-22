@@ -1,0 +1,1113 @@
+{
+  "schemaVersion": 3,
+  "title": "阳台上的小花",
+  "signature": "把关心浇进每一天",
+  "world": {
+    "characters": [
+      {
+        "id": "girl",
+        "name": "小禾",
+        "description": "真实人形比例的小女孩，棕色短辫、宽檐草帽、奶油色短袖和绿色背带裤，穿棕色鞋子。四肢修长，轮廓带温暖的手绘感。",
+        "scale": 1,
+        "face": {
+          "x": 0,
+          "y": -139,
+          "size": 36
+        },
+        "shapes": [
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -30,
+            "y": -155,
+            "w": 0,
+            "h": 0,
+            "fill": "#654332",
+            "stroke": "#4D352B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 58,
+                "y": 0
+              },
+              {
+                "x": 66,
+                "y": 49
+              },
+              {
+                "x": 49,
+                "y": 42
+              },
+              {
+                "x": 9,
+                "y": 43
+              },
+              {
+                "x": -7,
+                "y": 51
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "legL",
+            "x": -23,
+            "y": -49,
+            "w": 17,
+            "h": 36,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "legR",
+            "x": 6,
+            "y": -49,
+            "w": 17,
+            "h": 36,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legL",
+            "x": -17,
+            "y": -8,
+            "w": 30,
+            "h": 16,
+            "fill": "#86563D",
+            "stroke": "#593C2F",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "legR",
+            "x": 18,
+            "y": -8,
+            "w": 30,
+            "h": 16,
+            "fill": "#86563D",
+            "stroke": "#593C2F",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -29,
+            "y": -115,
+            "w": 0,
+            "h": 0,
+            "fill": "#FFF0D5",
+            "stroke": "#B69D7D",
+            "points": [
+              {
+                "x": 9,
+                "y": 0
+              },
+              {
+                "x": 48,
+                "y": 0
+              },
+              {
+                "x": 62,
+                "y": 25
+              },
+              {
+                "x": 48,
+                "y": 32
+              },
+              {
+                "x": 46,
+                "y": 62
+              },
+              {
+                "x": 11,
+                "y": 62
+              },
+              {
+                "x": 8,
+                "y": 32
+              },
+              {
+                "x": -5,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -8,
+            "y": -124,
+            "w": 16,
+            "h": 17,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -25,
+            "y": -92,
+            "w": 0,
+            "h": 0,
+            "fill": "#5D9566",
+            "stroke": "#365E43",
+            "points": [
+              {
+                "x": 6,
+                "y": 0
+              },
+              {
+                "x": 44,
+                "y": 0
+              },
+              {
+                "x": 49,
+                "y": 48
+              },
+              {
+                "x": 29,
+                "y": 48
+              },
+              {
+                "x": 25,
+                "y": 36
+              },
+              {
+                "x": 21,
+                "y": 48
+              },
+              {
+                "x": 0,
+                "y": 48
+              }
+            ]
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -20,
+            "y": -112,
+            "w": 9,
+            "h": 28,
+            "fill": "#5D9566",
+            "stroke": "#365E43",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": 11,
+            "y": -112,
+            "w": 9,
+            "h": 28,
+            "fill": "#5D9566",
+            "stroke": "#365E43",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "body",
+            "x": -10,
+            "y": -82,
+            "w": 20,
+            "h": 16,
+            "fill": "#77AC7B",
+            "stroke": "#365E43",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "armL",
+            "x": -33,
+            "y": -98,
+            "w": 0,
+            "h": 0,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 12,
+                "y": 3
+              },
+              {
+                "x": 6,
+                "y": 43
+              },
+              {
+                "x": -5,
+                "y": 43
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "armL",
+            "x": -33,
+            "y": -52,
+            "w": 15,
+            "h": 18,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "armR",
+            "x": 22,
+            "y": -98,
+            "w": 0,
+            "h": 0,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": [
+              {
+                "x": 0,
+                "y": 3
+              },
+              {
+                "x": 12,
+                "y": 0
+              },
+              {
+                "x": 17,
+                "y": 43
+              },
+              {
+                "x": 6,
+                "y": 43
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "armR",
+            "x": 34,
+            "y": -52,
+            "w": 15,
+            "h": 18,
+            "fill": "#EABD99",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -141,
+            "w": 51,
+            "h": 57,
+            "fill": "#F2C6A3",
+            "stroke": "#956F54",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "head",
+            "x": -26,
+            "y": -163,
+            "w": 0,
+            "h": 0,
+            "fill": "#654332",
+            "stroke": "#4D352B",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 51,
+                "y": 0
+              },
+              {
+                "x": 52,
+                "y": 21
+              },
+              {
+                "x": 32,
+                "y": 11
+              },
+              {
+                "x": 15,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 24
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -174,
+            "w": 62,
+            "h": 42,
+            "fill": "#E4C77E",
+            "stroke": "#A88745",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "head",
+            "x": -30,
+            "y": -173,
+            "w": 60,
+            "h": 9,
+            "fill": "#B67C53",
+            "stroke": "#A06A46",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "head",
+            "x": 0,
+            "y": -162,
+            "w": 100,
+            "h": 17,
+            "fill": "#EBD18D",
+            "stroke": "#A88745",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "watering-can",
+        "name": "蓝色水壶",
+        "description": "带椭圆提把、圆肚和向右伸出的长壶嘴的蓝色园艺水壶。",
+        "shapes": [
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -14,
+            "y": -57,
+            "w": 38,
+            "h": 37,
+            "fill": "none",
+            "stroke": "#356D98",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": 17,
+            "y": -27,
+            "w": 0,
+            "h": 0,
+            "fill": "#70B5D6",
+            "stroke": "#356D98",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 32,
+                "y": -28
+              },
+              {
+                "x": 40,
+                "y": -24
+              },
+              {
+                "x": 12,
+                "y": 14
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "body",
+            "x": -3,
+            "y": -25,
+            "w": 56,
+            "h": 50,
+            "fill": "#62A9D0",
+            "stroke": "#356D98",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -3,
+            "y": -49,
+            "w": 31,
+            "h": 9,
+            "fill": "#356D98",
+            "stroke": "#356D98",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 54,
+            "y": -53,
+            "w": 16,
+            "h": 10,
+            "fill": "#A5D5E6",
+            "stroke": "#356D98",
+            "points": []
+          }
+        ]
+      },
+      {
+        "id": "flower-pot",
+        "name": "陶盆小花",
+        "description": "红陶花盆盛着深色泥土，两片绿叶间开着一朵珊瑚粉小花。",
+        "shapes": [
+          {
+            "kind": "line",
+            "part": "body",
+            "x": 0,
+            "y": -37,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#4E8052",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -3,
+                "y": -28
+              },
+              {
+                "x": 2,
+                "y": -59
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": -3,
+            "y": -65,
+            "w": 0,
+            "h": 0,
+            "fill": "#77A66A",
+            "stroke": "#4E8052",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -27,
+                "y": -17
+              },
+              {
+                "x": -21,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 9
+              }
+            ]
+          },
+          {
+            "kind": "polygon",
+            "part": "detail",
+            "x": -1,
+            "y": -72,
+            "w": 0,
+            "h": 0,
+            "fill": "#86B575",
+            "stroke": "#4E8052",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 26,
+                "y": -15
+              },
+              {
+                "x": 20,
+                "y": 5
+              },
+              {
+                "x": 0,
+                "y": 12
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 2,
+            "y": -107,
+            "w": 19,
+            "h": 24,
+            "fill": "#EC9C96",
+            "stroke": "#BC7772",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": -10,
+            "y": -96,
+            "w": 24,
+            "h": 19,
+            "fill": "#EC9C96",
+            "stroke": "#BC7772",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 14,
+            "y": -96,
+            "w": 24,
+            "h": 19,
+            "fill": "#EC9C96",
+            "stroke": "#BC7772",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 2,
+            "y": -86,
+            "w": 20,
+            "h": 20,
+            "fill": "#EC9C96",
+            "stroke": "#BC7772",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 2,
+            "y": -97,
+            "w": 14,
+            "h": 14,
+            "fill": "#EAC56D",
+            "stroke": "#B7984B",
+            "points": []
+          },
+          {
+            "kind": "polygon",
+            "part": "body",
+            "x": -30,
+            "y": -42,
+            "w": 0,
+            "h": 0,
+            "fill": "#C68160",
+            "stroke": "#925D47",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 60,
+                "y": 0
+              },
+              {
+                "x": 51,
+                "y": 42
+              },
+              {
+                "x": 9,
+                "y": 42
+              }
+            ]
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -42,
+            "w": 65,
+            "h": 16,
+            "fill": "#D79570",
+            "stroke": "#925D47",
+            "points": []
+          },
+          {
+            "kind": "ellipse",
+            "part": "detail",
+            "x": 0,
+            "y": -43,
+            "w": 51,
+            "h": 9,
+            "fill": "#705240",
+            "stroke": "#705240",
+            "points": []
+          }
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "balcony",
+        "name": "午后阳台",
+        "description": "奶油色墙面的家庭阳台，左侧是玻璃门，后方木栏杆透出浅蓝天空，右侧花盆摆在温暖的陶砖地面上。",
+        "sky": "#E4F1EF",
+        "ground": "#DFC4A6",
+        "groundY": 550,
+        "shapes": [
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 40,
+            "y": 140,
+            "w": 230,
+            "h": 410,
+            "fill": "#F4E5CA",
+            "stroke": "#C7AD8F",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 77,
+            "y": 178,
+            "w": 145,
+            "h": 346,
+            "fill": "#ACCED0",
+            "stroke": "#A78B6D",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 145,
+            "y": 179,
+            "w": 9,
+            "h": 345,
+            "fill": "#D0B38C",
+            "stroke": "#A78B6D",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 90,
+            "y": 346,
+            "w": 12,
+            "h": 35,
+            "fill": "#A78B6D",
+            "stroke": "#896F55",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 275,
+            "y": 351,
+            "w": 925,
+            "h": 18,
+            "fill": "#C4A17C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 305,
+            "y": 369,
+            "w": 15,
+            "h": 160,
+            "fill": "#D3B28C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 505,
+            "y": 369,
+            "w": 15,
+            "h": 160,
+            "fill": "#D3B28C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 905,
+            "y": 369,
+            "w": 15,
+            "h": 160,
+            "fill": "#D3B28C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 1155,
+            "y": 369,
+            "w": 15,
+            "h": 160,
+            "fill": "#D3B28C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "rect",
+            "part": "detail",
+            "x": 275,
+            "y": 518,
+            "w": 925,
+            "h": 15,
+            "fill": "#C4A17C",
+            "stroke": "#987657",
+            "points": []
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 60,
+            "y": 585,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#C5A789",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1160,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "kind": "line",
+            "part": "detail",
+            "x": 470,
+            "y": 550,
+            "w": 0,
+            "h": 0,
+            "fill": "none",
+            "stroke": "#C5A789",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": -20,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "objectId": "watering-can",
+            "x": 390,
+            "y": 550
+          },
+          {
+            "objectId": "flower-pot",
+            "x": 780,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  },
+  "style": "cel-boil",
+  "character": "flame",
+  "palette": "lake",
+  "boil": 1,
+  "sound": true,
+  "shots": [
+    {
+      "id": "ai-2fa0ebf6-87f2-4ed3-b91b-d5ce2ce0753b-1",
+      "caption": "小禾提起蓝色水壶",
+      "action": "observe",
+      "emotion": "determined",
+      "duration": 2,
+      "sceneId": "balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "girl",
+          "action": "pickup",
+          "emotion": "determined",
+          "from": {
+            "x": 350,
+            "y": 550
+          },
+          "to": {
+            "x": 350,
+            "y": 550
+          },
+          "propId": "watering-can",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-2fa0ebf6-87f2-4ed3-b91b-d5ce2ce0753b-2",
+      "caption": "走到小花身旁",
+      "action": "walk",
+      "emotion": "happy",
+      "duration": 2.5,
+      "sceneId": "balcony",
+      "framing": "wide",
+      "cast": [
+        {
+          "characterId": "girl",
+          "action": "walk",
+          "emotion": "happy",
+          "from": {
+            "x": 350,
+            "y": 550
+          },
+          "to": {
+            "x": 600,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-2fa0ebf6-87f2-4ed3-b91b-d5ce2ce0753b-3",
+      "caption": "慢慢倾壶，给花喝水",
+      "action": "observe",
+      "emotion": "determined",
+      "duration": 3.5,
+      "sceneId": "balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "girl",
+          "action": "perform",
+          "emotion": "determined",
+          "from": {
+            "x": 700,
+            "y": 550
+          },
+          "to": {
+            "x": 700,
+            "y": 550
+          },
+          "propId": "watering-can",
+          "recipientId": "",
+          "motion": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "t": 0.2,
+              "x": 5,
+              "y": 2,
+              "rotation": 0.06,
+              "armL": -0.12,
+              "armR": -0.55,
+              "head": 0.12,
+              "propRotation": 0.15
+            },
+            {
+              "t": 0.4,
+              "x": 9,
+              "y": 4,
+              "rotation": 0.1,
+              "armL": -0.25,
+              "armR": -0.85,
+              "head": 0.18,
+              "propRotation": 0.65
+            },
+            {
+              "t": 0.72,
+              "x": 9,
+              "y": 4,
+              "rotation": 0.1,
+              "armL": -0.25,
+              "armR": -0.85,
+              "head": 0.16,
+              "propRotation": 0.7
+            },
+            {
+              "t": 0.9,
+              "x": 4,
+              "y": 1,
+              "rotation": 0.04,
+              "armL": -0.1,
+              "armR": -0.45,
+              "head": 0.08,
+              "propRotation": 0.15
+            },
+            {
+              "t": 1,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            }
+          ],
+          "gesture": "倾壶浇水",
+          "effect": {
+            "kind": "water",
+            "targetId": "flower-pot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-2fa0ebf6-87f2-4ed3-b91b-d5ce2ce0753b-4",
+      "caption": "轻轻放好水壶",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "girl",
+          "action": "place",
+          "emotion": "happy",
+          "from": {
+            "x": 700,
+            "y": 550
+          },
+          "to": {
+            "x": 700,
+            "y": 550
+          },
+          "propId": "watering-can",
+          "recipientId": "",
+          "motion": [],
+          "gesture": "",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai-2fa0ebf6-87f2-4ed3-b91b-d5ce2ce0753b-5",
+      "caption": "小花精神了，她也笑了",
+      "action": "observe",
+      "emotion": "happy",
+      "duration": 2,
+      "sceneId": "balcony",
+      "framing": "medium",
+      "cast": [
+        {
+          "characterId": "girl",
+          "action": "perform",
+          "emotion": "happy",
+          "from": {
+            "x": 700,
+            "y": 550
+          },
+          "to": {
+            "x": 700,
+            "y": 550
+          },
+          "propId": "",
+          "recipientId": "",
+          "motion": [
+            {
+              "t": 0,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0,
+              "propRotation": 0
+            },
+            {
+              "t": 0.35,
+              "x": 2,
+              "y": 0,
+              "rotation": 0.02,
+              "armL": 0.08,
+              "armR": -0.08,
+              "head": 0.16,
+              "propRotation": 0
+            },
+            {
+              "t": 0.65,
+              "x": 2,
+              "y": 2,
+              "rotation": 0.02,
+              "armL": 0.08,
+              "armR": -0.08,
+              "head": 0.22,
+              "propRotation": 0
+            },
+            {
+              "t": 1,
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "armL": 0,
+              "armR": 0,
+              "head": 0.1,
+              "propRotation": 0
+            }
+          ],
+          "gesture": "点头微笑",
+          "effect": {
+            "kind": "none",
+            "targetId": ""
+          }
+        }
+      ]
+    }
+  ],
+  "creative": {
+    "brief": "一个戴草帽、穿绿色背带裤的小女孩在阳台拿起蓝色水壶，走到盆栽旁，倾斜水壶给花浇水，放下水壶并开心看花。请设计真实的人形女孩、草帽、水壶和花盆。浇水必须使用perform自由表演，自行编排身体、手臂、头部和propRotation的关节关键帧，以及water效果指向盆栽；不要用其他基础动作冒充。",
+    "logline": "戴草帽的小女孩提起蓝色水壶，走到阳台花盆旁，细心浇水后欣喜地看着花。",
+    "narrative": "午后的阳台上，一个穿绿色背带裤、戴宽檐草帽的小女孩发现盆里的花有些缺水。她弯腰拿起蓝色水壶，提着它走到花盆旁，微微前倾身体，抬起手臂并缓缓倾斜壶身，让水流落入花盆。浇完后，她把水壶放在脚边，歪头看着精神起来的小花，露出开心的笑容。",
+    "tone": "warm",
+    "mode": "create",
+    "generatedAt": "2026-10-20T18:14:55.075Z",
+    "provider": "本机 Codex"
+  }
+}

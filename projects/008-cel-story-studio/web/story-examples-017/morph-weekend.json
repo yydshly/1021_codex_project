@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "morph",
+  "title": "把时间骑慢",
+  "subtitle": "把赶路，换成一次出游",
+  "words": [
+    "计时",
+    "骑行",
+    "游乐"
+  ],
+  "primary": "#da4c3d",
+  "secondary": "#3153aa",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "weekend"
+}

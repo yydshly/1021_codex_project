@@ -1,0 +1,70 @@
+{
+  "revision": "0.15.0",
+  "date": "2026-10-22",
+  "verifiedAtUTC": "2026-10-21T18:10:41.612416+00:00",
+  "technicalChecks": {
+    "typecheck": "passed",
+    "applicationTests": {
+      "passed": 65,
+      "failed": 0
+    },
+    "build": "passed",
+    "rootUnittest": {
+      "passed": 8,
+      "failed": 0
+    },
+    "catalogCheck": {
+      "passed": true,
+      "projects": 11
+    },
+    "defaultFilms": {
+      "updated": 2,
+      "framesEach": 300,
+      "fullDecode": true
+    },
+    "unchangedDefaultFilms": 13,
+    "preservedFiles": 10,
+    "reelsSeconds": [
+      20,
+      150,
+      45
+    ],
+    "realUIExports": {
+      "count": 2,
+      "framesEach": 180,
+      "fullDecode": true,
+      "hud": "6s; four close shots; silent",
+      "liquid": "6s; count14 seed22; AAC"
+    },
+    "browserFullPlayback": [
+      "liquid-015",
+      "liquid-014",
+      "hud-015",
+      "hud-014",
+      "upstream-hud"
+    ],
+    "originalEffectRestored": true,
+    "originalStory": {
+      "character": "小禾",
+      "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%",
+      "timeline": "12 秒 / 5 镜头 / 24 FPS",
+      "title": "阳台上的小花"
+    }
+  },
+  "artisticScore": null,
+  "evidence": [
+    "art-review.md",
+    "media.json",
+    "browser.json",
+    "ui-exports.json",
+    "liquid-before-after.jpg",
+    "hud-before-after.jpg",
+    "final-final/"
+  ],
+  "boundaries": [
+    "液态为SDF编排和近似光学，不保证质量守恒或真实流体解算",
+    "HUD地形、翼膜与观测读数为程序美术，非真实传感或水动力",
+    "首次GPU编译仍可能等待，未宣称所有GPU稳定性问题已根治"
+  ],
+  "scope": "完整影片、关键接帧与同时间前后对照审查；技术检查不代表审美评分。"
+}

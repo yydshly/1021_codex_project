@@ -1,0 +1,64 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "pixel",
+  "title": "月亮修理铺",
+  "subtitle": "赶在天亮前，把夜里的裂缝补成光",
+  "words": [
+    "接月",
+    "补月",
+    "亮灯"
+  ],
+  "primary": "#f3bb64",
+  "secondary": "#79c6bf",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "shots": [
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-1",
+      "action": "catch",
+      "seconds": 1.5,
+      "caption": "天亮前，还来得及",
+      "framing": "wide"
+    },
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-2",
+      "action": "repair",
+      "seconds": 1,
+      "caption": "",
+      "framing": "close"
+    },
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-3",
+      "action": "repair",
+      "seconds": 2,
+      "caption": "轻轻敲，把裂缝补成光",
+      "framing": "close"
+    },
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-4",
+      "action": "repair",
+      "seconds": 1,
+      "caption": "再补上最后一点",
+      "framing": "close"
+    },
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-5",
+      "action": "launch",
+      "seconds": 2,
+      "caption": "好了，回到天上吧",
+      "framing": "wide"
+    },
+    {
+      "id": "plan-c5b96b73-d157-4331-a6c0-92d7f83c7cf9-6",
+      "action": "illuminate",
+      "seconds": 2.5,
+      "caption": "一扇接一扇，夜晚亮了",
+      "framing": "wide"
+    }
+  ]
+}

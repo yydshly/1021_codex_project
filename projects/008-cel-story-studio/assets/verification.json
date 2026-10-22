@@ -1,0 +1,524 @@
+{
+  "sourceCommit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "sourceFilesVerified": 2,
+  "schemaVersion": 2,
+  "automatedTests": 39,
+  "worldReport": "world-verification.json",
+  "renders": [
+    {
+      "tailAudioRMS": 0.04336026976512343,
+      "name": "demo",
+      "framesFromStory": 288,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1739453"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "tailAudioRMS": 0.04330651552725734,
+      "name": "variant",
+      "framesFromStory": 312,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "312",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "610"
+          }
+        ],
+        "format": {
+          "duration": "13.013000",
+          "size": "1964960"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "tailAudioRMS": 0.04336026976512343,
+      "name": "ai-demo",
+      "framesFromStory": 288,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "1746657"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "tailAudioRMS": 0.04336026976512343,
+      "name": "ai-variant",
+      "framesFromStory": 480,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "480",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "938"
+          }
+        ],
+        "format": {
+          "duration": "20.011000",
+          "size": "2510054"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "tailAudioRMS": 0.04334545014810354,
+      "name": "ai-free",
+      "framesFromStory": 720,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "720",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "1407"
+          }
+        ],
+        "format": {
+          "duration": "30.016000",
+          "size": "4070294"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "tailAudioRMS": 0.04336026976512343,
+      "name": "ai-style",
+      "framesFromStory": 288,
+      "video": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "288",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_read_frames": "563"
+          }
+        ],
+        "format": {
+          "duration": "12.011000",
+          "size": "619076"
+        }
+      },
+      "fullDecode": "passed"
+    }
+  ],
+  "aiGeneration": {
+    "provider": "Codex CLI 0.163.0 / existing ChatGPT login",
+    "liveChecks": [
+      "create 12 seconds / 5 shots / auto export",
+      "rewrite 20 seconds / 6 shots / adopt and export",
+      "blank idea / AI chooses character / 30 seconds / 8 shots / auto export",
+      "manual edits preserved until draft adoption",
+      "cancel generation without applying",
+      "creative metadata save and import",
+      "pixel style / specified drop / 12 seconds / same style preserved through real AI and browser auto export"
+    ],
+    "templatesOrMocksUsed": false
+  },
+  "browserChecks": [
+    "add, delete, move up and down",
+    "actions, emotions and half-second duration",
+    "single-shot deletion disabled",
+    "ten-shot add disabled",
+    "V1 migration, V2 roundtrip and invalid input",
+    "390 px layout without horizontal overflow"
+  ],
+  "limitation": "Single character and fixed stage; bounded actions, not arbitrary natural-language animation. 15 visual prototypes; 3D and glass are 2D approximations.",
+  "visualStyles": {
+    "count": 15,
+    "renders": [
+      {
+        "style": "flat-vector",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "08b2df2a4730ebc8c220d14c89e5dc89b4a143f635623019ba2e67ee27c76987",
+          "43328519dba781a4a1d10f5f8aa434d3933adcab5c7b40abb8c9e68bd6fe8899",
+          "6a722ec3a127019a7d3251aaa10df13402e83a6a51ca274c95d9254791c15cb2"
+        ]
+      },
+      {
+        "style": "line-art",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "1f7e7bf86af4cd8fc899c39baa36af2c235516094c350f7eee5fc43d3cd7336c",
+          "44cab825891328c0e2cce249c6b58b2e7096fa6ed94f488c2b5c098f17ae80e2",
+          "eeee3af36aac6288219ddb2e242ee706dc9b9a83c3fcd6114d5f3fe42d6cb3d9"
+        ]
+      },
+      {
+        "style": "isometric",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "a01caf763e0b295eaa3ba26599eeaf6af45025c04fbb67d311f96e4f59a2be63",
+          "2ab5dd3d92a1c8c159cf945c75896baeb89b09f48d27e71a76c53eb8a7b5da1c",
+          "170c9ab28f1f51bdea36bf5bdeac6725f8e6323000d2637f6cb11610ecdb522d"
+        ]
+      },
+      {
+        "style": "3d-render",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "2f0b036ca185a3cad6b9e38023da5016225a490f2efadd718037d0be58b40019",
+          "336113c9011be05d36715b872685fb922a1df4dcaab1154419b7531c3d0cf8ca",
+          "38d862bfd27462e834a5d2df05730d799c59a5e3434f091d58c8fd8328199ddc"
+        ]
+      },
+      {
+        "style": "cel-boil",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "f2ea68092d9ca8a5035d75053a2b57ca91d3101e3b1056f35f3fc57a9f1c198d",
+          "3dd9f6fad4492971e6ef2de1e1378effe3659b180c332ac7d23cd999e8a06503",
+          "9302723ae6c63dc5b5ef52d02db8f862a233791b8f8087194fdce3a6b010cccc"
+        ]
+      },
+      {
+        "style": "collage",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "820df36e9e466733bf3c6e8c92435bda723916da18ae72c0f0ba0dde694f631f",
+          "1753f519ae873f806c8ec4edfe85f7746ba69de6ff8a4b811c20de273b5154d7",
+          "ff40d734977e6cb0340fbcbb0027719d9e96f805ca9a96ae53dd8a7a37055f96"
+        ]
+      },
+      {
+        "style": "liquid",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "61480e3ebe2f69896a287314976ee1d572ebadd17b65ad0f477ed016117059a8",
+          "36841ad0f04ea926470adbbe98c04ec665e2a8f73e5f67cb85743303f0854634",
+          "03c8f2ecaa0d3ffeb28f7670985cdc315ff9e21ee4b7ce700b39a3b58ac76180"
+        ]
+      },
+      {
+        "style": "morph",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "9f1c405bc0c90b0c96604472a2635113dc9064bfe1f8b675cab45e98820c0d28",
+          "3dfbe995ad2f6c52574c669374e7971908c186523470295d94aa29b4d2ccb997",
+          "76c7a979b0835576c45c15d493b4af257e98250796c92c8c26af10f4ac952d99"
+        ]
+      },
+      {
+        "style": "bauhaus",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "400635d27fe8f04eaefa6ace4e4d17bbd329ead37f654b5842ab5a6fdf2f0780",
+          "62ee68de70f58917b5e3014b4cdb59bca6b08bf43890e2eb789c47e154c806a7",
+          "3278b77f2840477ac4f0500d3d9c810211ed961137c1b4a7449394507f9acb9d"
+        ]
+      },
+      {
+        "style": "synthwave",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "859faa923715ba5065924be9c2e98ea91aee9c1d450c9e1d39e6701cb611da70",
+          "6b21d6dc55ec77e35e333672d4bc2afa4b016e90dab10bae38bcd6baf76073e1",
+          "9086f2178def6b37238a142e8b5731ba608c89e1e2b6f752e1a967ce6c48086c"
+        ]
+      },
+      {
+        "style": "aurora-glass",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "1bbad5ba6b674fef3525b1f66d43f4202326fd6a973abc397e0576fb98043548",
+          "f89ea7e86007004055f25958a0e113f8c971f08a46b05cde6cf97529a41bfff1",
+          "3f9f133c402507d66dd3a83d561dcbeaaf62b951dec31d167d27168ee185d814"
+        ]
+      },
+      {
+        "style": "hanazi",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "bc0718d53fce625a318ef7b104183c0517f1bfcc3acc6a5158194a065630ad3b",
+          "0b81b5adf79dcb29c49cca03d36f71b16d0c00d6f5972855558578e20f88a512",
+          "4d03bb1d25b7b1e1fb0f4e1d9366b057655c8b70daaa75af7c5cc12c55c01b47"
+        ]
+      },
+      {
+        "style": "paperclip",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "998b9800e42c1c4bc5246436a86db9b4678725205de20de4adbc3ae0b0f35968",
+          "c1ea4866d69544c1944836281dcca1619e01be182801d037fb7bd33edebbeca7",
+          "02053b3cd871ddbbe53a5a879a3f68687114281ec1fe158a62d2a809915d1d64"
+        ]
+      },
+      {
+        "style": "pixel",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "ebc1c6c32774d611742e8d90b4f13cab10fd5bf8ca6271f3eef549b8e8591cad",
+          "3ec94d21bf14f5488974e2bcfa28fb270b5b6a9c4b7cc03220af50d413203b3e",
+          "a67668709cd3855a515ead5691fa922e736c06aae041cb2315d3d1feb4594a81"
+        ]
+      },
+      {
+        "style": "hud",
+        "frames": 72,
+        "duration": 3,
+        "fullDecode": "passed",
+        "stageFrameHashes": [
+          "b6e26f44b53197c03261f609e6b1ead251d89abccd67d1b42dbea6d3829d01d5",
+          "20cab43f3abd0f21e1a7920b9888872109889b4cb842a29273a3209ecf75882f",
+          "98db66bc52357279b0a289321cd96b729cae8f1fe5f9e0b62004ff951c6a67bb"
+        ]
+      }
+    ],
+    "sameStoryAcrossStyles": true,
+    "posterAndStageMotion": "verified",
+    "reel": {
+      "frames": 1080,
+      "seconds": 45,
+      "fullDecode": "passed"
+    },
+    "browserChecks": [
+      {
+        "canvas": "扁平矢量故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "扁平矢量",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "线条动画故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "线条动画",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "等轴 2.5D故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "等轴 2.5D",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "3D 质感故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "3D 质感",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "逐帧手绘故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "逐帧手绘",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "拼贴剪贴故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "拼贴剪贴",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "液态流动故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "液态流动",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "形变动画故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "形变动画",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "几何包豪斯故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "几何包豪斯",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "复古霓虹故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "复古霓虹",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "极光玻璃故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "极光玻璃",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "综艺花字故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "综艺花字",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "贴纸科普故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "贴纸科普",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "像素动画故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "像素动画",
+        "title": "退一步，也能抵达"
+      },
+      {
+        "canvas": "科技 HUD故事画面",
+        "frame": "211",
+        "shots": 8,
+        "style": "科技 HUD",
+        "title": "退一步，也能抵达"
+      }
+    ],
+    "responsiveChecks": {
+      "desktop": {
+        "clientWidth": 1425,
+        "scrollWidth": 1425
+      },
+      "mobile": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      },
+      "filtersAndDetails": "passed",
+      "reelPlayback": {
+        "duration": 45,
+        "observedTime": 27.423966,
+        "readyState": 4,
+        "error": null
+      }
+    }
+  }
+}

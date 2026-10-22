@@ -1,0 +1,64 @@
+{
+  "version": "0.13.0",
+  "verifiedAtUTC": "2026-10-21T13:55:21.877573+00:00",
+  "scope": "Three new films and executable director workflow; not a claim that all fifteen styles meet one artistic standard.",
+  "checks": {
+    "appTests": {
+      "passed": 64,
+      "command": "npm test"
+    },
+    "typecheck": "passed",
+    "build": "passed",
+    "rootTests": {
+      "passed": 6,
+      "command": "python -m unittest discover -s tests"
+    },
+    "catalog": {
+      "state": "passed",
+      "projects": 9,
+      "command": "python scripts/catalog.py --check"
+    },
+    "allDefaultMedia": {
+      "decoded": 15,
+      "bodyComparisons": 45,
+      "report": "../effect-media-verification.json"
+    },
+    "newMedia": "media.json",
+    "framing": {
+      "actions": 12,
+      "frames": 24,
+      "report": "framing.json"
+    },
+    "browser": "browser.json",
+    "customUiExports": "custom-exports.json",
+    "aiContinuity": "ai-export.json",
+    "artReview": "art-review.md"
+  },
+  "evidence": {
+    "playbacksCompleted": 6,
+    "reelSeconds": 30,
+    "loadedNewKeyframes": 9,
+    "browserRuntimeErrors": 0,
+    "originalStoryPreserved": true,
+    "originalEffectRestored": true
+  },
+  "boundaries": [
+    "AI arranges bounded existing event/assets; no arbitrary 3D model or sprite generation.",
+    "Adjacent identical actions preserve one event; arbitrary action reorder is not general world-state simulation.",
+    "One HUD export initially timed out at the default 33s; web rendering now has a 90s budget and identical-config retry passed. GPU-stall root cause is not established.",
+    "HUD awaken close intentionally crops wing tips; wide includes the complete wings.",
+    "Music and effects are objectively decoded/loudness checked; no human listening review is claimed.",
+    "Artistic improvements still listed in art-review.md."
+  ],
+  "sourceHashes": {
+    "src/effects/neon-film-013.ts": "83e157ca569278a58df3a18f168fc7f3a848ec083ab12559df9e8026f4876017",
+    "src/effects/pixel-film-013.ts": "61dd8ca274ebaacbfcda3f9231121eafcd3b0cdc4078ff9c92af282fbd209e53",
+    "src/effects/hud-film-013.ts": "d9f4a0fd0561eb86d278cfdcedc84d7854d1cee8258e5610d32fae5f7346f828",
+    "scripts/film-program.mjs": "94fa18292da2cef87b6883f3d3c6f1d16d204b5db985c9d2bf0a52e15ae761db",
+    "scripts/effect-ai.mjs": "cea10972465906ff37b0aeeed71caaff1defcf8a1c7a1fb1e9f7f246046db036",
+    "src/EffectWorkbench.tsx": "9a4aa0b3c45436993722fe58618be66f89e5af7f3a2509feab6e476848602e06",
+    "src/EffectDirector.tsx": "a797d69bcd23f2d55139ba02a81a571c07aa5232fd99f252b82ac811fcfa2e24",
+    "server.mjs": "d09d26a4510327d02dd64424d9080d8600d0c6aab2edaef0d381250a0e90421c"
+  },
+  "completedScope": "0.13 three-film recraft and executable director integration"
+}

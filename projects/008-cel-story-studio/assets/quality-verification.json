@@ -1,0 +1,98 @@
+{
+  "version": "0.9.0",
+  "scope": "three recrafted films; other twelve unchanged",
+  "clips": [
+    {
+      "file": "effect-examples/3d-render.mp4",
+      "frames": 300,
+      "fps": 30,
+      "size": [
+        1280,
+        720
+      ],
+      "seconds": 10.005,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    },
+    {
+      "file": "effect-examples/aurora-glass.mp4",
+      "frames": 300,
+      "fps": 30,
+      "size": [
+        1280,
+        720
+      ],
+      "seconds": 10.005,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    },
+    {
+      "file": "effect-examples/cel-boil.mp4",
+      "frames": 300,
+      "fps": 30,
+      "size": [
+        1280,
+        720
+      ],
+      "seconds": 10.005,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    },
+    {
+      "file": "effect-examples/quality-reel.mp4",
+      "frames": 900,
+      "fps": 30,
+      "size": [
+        1280,
+        720
+      ],
+      "seconds": 30.0,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    },
+    {
+      "file": "creative-examples/amber-studio-4s.mp4",
+      "frames": 120,
+      "fps": 30,
+      "size": [
+        1280,
+        720
+      ],
+      "seconds": 4.011,
+      "video": "h264",
+      "audio": "aac",
+      "decode": "passed"
+    }
+  ],
+  "customWebJob": "5f4ee611-0bae-4ce7-9301-b05a44434622",
+  "customConfigurationMatches": true,
+  "customCyclesFrames": 120,
+  "scores": [
+    {
+      "score": "studio",
+      "channels": 2,
+      "sampleRate": 44100,
+      "rms": 0.09889531226863285,
+      "peak": 0.66455078125
+    },
+    {
+      "score": "optical",
+      "channels": 2,
+      "sampleRate": 44100,
+      "rms": 0.10268446845458301,
+      "peak": 0.750213623046875
+    },
+    {
+      "score": "post",
+      "channels": 2,
+      "sampleRate": 44100,
+      "rms": 0.11222069552468869,
+      "peak": 0.820281982421875
+    }
+  ],
+  "qualityAssessment": "Technical checks do not establish aesthetic excellence. See actual films, before/after comparisons and temporal review sheets."
+}

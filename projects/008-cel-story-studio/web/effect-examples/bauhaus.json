@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "bauhaus",
+  "title": "纸上游乐场",
+  "subtitle": "让几何，玩出新的秩序",
+  "words": [
+    "入场",
+    "启动",
+    "一起玩"
+  ],
+  "primary": "#e43c32",
+  "secondary": "#264db5",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

@@ -1,0 +1,14 @@
+import type {VisualStyle,StyleId} from './styles.mjs';
+export type ComponentId='paper-grain'|'ink-border'|'focus-halo'|'line-trail'|'iso-grid'|'soft-spotlight'|'collage-note'|'ripple'|'shape-echo'|'geometric-beat'|'neon-scan'|'aurora-veil'|'emotion-tag'|'step-badge'|'pixel-sparks'|'tracking-frame'|'camera-push';
+export type ComponentSetting={id:ComponentId;amount:number};
+export type StyleRecipe={version:1;components:ComponentSetting[]};
+export type CapabilityComponent={id:ComponentId;name:string;origin:StyleId|'shared';principle:string;value:string;scope:string;amount:number;status:'available';engine:string};
+export type CapabilityStyle=VisualStyle&{dna:string[];expression:string;avoid:string;modules:ComponentId[];recommended:ComponentId[];next:string[];maturity:string;source:{repository:string;commit:string;license:string}};
+export const MAX_COMPONENTS:number;
+export const components:CapabilityComponent[];
+export const capabilityStyles:CapabilityStyle[];
+export function getCapability(id?:string):CapabilityStyle;
+export function getComponent(id:string):CapabilityComponent|undefined;
+export function recommendedRecipe(style:StyleId):StyleRecipe;
+export function validateRecipe(value:unknown):StyleRecipe|undefined;
+export function capabilityPrompt(style:StyleId,recipe?:StyleRecipe):string;

@@ -1,0 +1,106 @@
+{
+  "films": [
+    {
+      "file": "web/director-examples-018/main.mp4",
+      "sha256": "6af716f84a9d483e028b8d15054616a195148672e32a8de625f6a4b16550824c",
+      "frames": 600,
+      "seconds": 20,
+      "width": 1920,
+      "height": 1080,
+      "audio": "aac",
+      "fullDecode": true,
+      "audioStats": [
+        "mean_volume: -26.0 dB",
+        "max_volume: -12.4 dB"
+      ]
+    },
+    {
+      "file": "web/director-examples-018/rewrite.mp4",
+      "sha256": "99b95eda5aed1b3f36e765de8a11df64534bd0913ab2bd4026863f9f84cf77d4",
+      "frames": 600,
+      "seconds": 20,
+      "width": 1920,
+      "height": 1080,
+      "audio": "aac",
+      "fullDecode": true,
+      "audioStats": [
+        "mean_volume: -26.0 dB",
+        "max_volume: -12.4 dB"
+      ]
+    }
+  ],
+  "preservedCurrent15": [
+    {
+      "file": "web/effect-examples/3d-render.mp4",
+      "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f"
+    },
+    {
+      "file": "web/effect-examples/bauhaus.mp4",
+      "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6"
+    },
+    {
+      "file": "web/effect-examples/collage.mp4",
+      "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4"
+    },
+    {
+      "file": "web/effect-examples/flat-vector.mp4",
+      "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd"
+    },
+    {
+      "file": "web/effect-examples/hanazi.mp4",
+      "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3"
+    },
+    {
+      "file": "web/effect-examples/hud.mp4",
+      "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965"
+    },
+    {
+      "file": "web/effect-examples/isometric.mp4",
+      "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b"
+    },
+    {
+      "file": "web/effect-examples/line-art.mp4",
+      "sha256": "dc9221fabbcdd168fafb7597588540b6e1d4f9579b613cd9362c03b831e7a5f6"
+    },
+    {
+      "file": "web/effect-examples/liquid.mp4",
+      "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e"
+    },
+    {
+      "file": "web/effect-examples/paperclip.mp4",
+      "sha256": "b047d06d50d7a885be9a0a6599b3935069174ed2084150bff4f69a6fd8f250af"
+    },
+    {
+      "file": "web/effect-examples/pixel.mp4",
+      "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41"
+    },
+    {
+      "file": "web/effect-examples/synthwave.mp4",
+      "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914"
+    },
+    {
+      "file": "web/effect-examples/cel-boil.mp4",
+      "sha256": "b7e3a4a54d4ed1e0ab013044fcf1b492a6a684abfcd096916e60deb02389d631"
+    },
+    {
+      "file": "web/effect-examples/morph.mp4",
+      "sha256": "95665db70cfb0f0736efdf45a7e8dedb6b8e92a9bddd2417a104b70c4037a179"
+    },
+    {
+      "file": "web/effect-examples/aurora-glass.mp4",
+      "sha256": "170cfea0a19ca6e2acaddb1efd23c5f6d5537ca61f354b20021d0b8a75ec73ce"
+    }
+  ],
+  "preservedArchivedFiles": 73,
+  "scope": "Encoding, audio measurements and preservation only; not an artistic score.",
+  "browserExport": {
+    "file": "web/director-examples-018/browser-export.mp4",
+    "jobId": "96a69622-2f64-4324-9a71-e7ad69918028",
+    "trigger": "Actual browser UI button, not direct render API call",
+    "sha256": "77ea39f163112a029d1e278d124aa1fbba5b640161a9d8baa91e84c0d7745d58",
+    "width": 1920,
+    "height": 1080,
+    "frames": 600,
+    "fullDecode": true
+  }
+}

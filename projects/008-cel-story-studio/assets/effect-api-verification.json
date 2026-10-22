@@ -1,0 +1,27 @@
+{
+  "api": [
+    {
+      "case": "invalid-config",
+      "status": 400
+    },
+    {
+      "case": "invalid-config",
+      "status": 400
+    },
+    {
+      "case": "video-range",
+      "status": 206
+    }
+  ],
+  "uiExport": {
+    "id": "15b942f3-2ce9-4437-83fe-cc092b73c144",
+    "title": "有形的灵感",
+    "count": 10,
+    "seed": 22,
+    "duration": "10.000000",
+    "frames": "300",
+    "codec": "h264",
+    "configMatches": true,
+    "decode": "passed"
+  }
+}

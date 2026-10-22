@@ -1,0 +1,60 @@
+{
+  "revision": "0.14.0",
+  "date": "2026-10-22",
+  "verifiedAtUTC": "2026-10-21T16:58:58.439087+00:00",
+  "technicalChecks": {
+    "typecheck": "passed",
+    "applicationTests": {
+      "passed": 65,
+      "failed": 0
+    },
+    "build": "passed",
+    "rootUnittest": {
+      "passed": 6,
+      "failed": 0
+    },
+    "catalogCheck": {
+      "passed": true,
+      "projects": 9
+    },
+    "verifyEffectMedia": {
+      "decodedFilms": 15,
+      "bodyComparisons": 45
+    },
+    "defaultFilms": 15,
+    "actualMP4Keyframes": 45,
+    "fullReelsSeconds": [
+      150,
+      45
+    ],
+    "realUIExports": {
+      "count": 2,
+      "framesEach": 180,
+      "configAndFullDecode": "passed"
+    },
+    "originalEffectRestored": true,
+    "originalStory": {
+      "character": "小禾",
+      "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%",
+      "summary": "12 秒 / 5 镜头 / 24 FPS",
+      "title": "阳台上的小花"
+    }
+  },
+  "artisticScore": null,
+  "evidence": [
+    "media.json",
+    "browser.json",
+    "ui-exports.json",
+    "art-review.md",
+    "generated-assets.json",
+    "scores.json"
+  ],
+  "remaining": [
+    "液态为确定性SDF曲面，拱膜部分时段仍有柔软固体感，非真实流体解算",
+    "固定角色、既有资产和有限事件；尚非任意故事自动生成全部风格资产",
+    "HUD海沟精度、手绘抓取接镜仍可精修",
+    "合成声音仅做响度测量，未宣称专业试听通过",
+    "霓虹一次无头截图等待卡住，重试成功，根因未确认"
+  ],
+  "scope": "本轮最终十五片全解码和取帧，浏览器完整播放手绘三版；未把技术检查当审美评分。"
+}

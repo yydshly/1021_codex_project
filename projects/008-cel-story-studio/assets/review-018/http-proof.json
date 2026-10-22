@@ -1,0 +1,55 @@
+{
+  "method": "GET checks after actual browser-submitted AI and render tasks; not a browser simulator.",
+  "renderJob": "96a69622-2f64-4324-9a71-e7ad69918028",
+  "renderState": "done",
+  "exportSha256": "77ea39f163112a029d1e278d124aa1fbba5b640161a9d8baa91e84c0d7745d58",
+  "staticChecks": [
+    {
+      "url": "/production-notes-018.html",
+      "status": 200,
+      "bytes": 8250
+    },
+    {
+      "url": "/director-examples-018/main.json",
+      "status": 200,
+      "bytes": 1315
+    },
+    {
+      "url": "/director-examples-018/rewrite.json",
+      "status": 200,
+      "bytes": 1509
+    },
+    {
+      "url": "/director-examples-018/ai-rewrite.json",
+      "status": 200,
+      "bytes": 3045
+    },
+    {
+      "url": "/director-kit-018/SKILL.md",
+      "status": 200,
+      "bytes": 4138
+    }
+  ],
+  "rangeChecks": [
+    {
+      "url": "/director-examples-018/main.mp4",
+      "status": 206,
+      "bytes": 32
+    },
+    {
+      "url": "/director-examples-018/rewrite.mp4",
+      "status": 206,
+      "bytes": 32
+    },
+    {
+      "url": "/director-kit-018.zip",
+      "status": 206,
+      "bytes": 32
+    },
+    {
+      "url": "/exports/96a69622-2f64-4324-9a71-e7ad69918028.mp4",
+      "status": 206,
+      "bytes": 32
+    }
+  ]
+}

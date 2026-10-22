@@ -1,0 +1,76 @@
+import * as T from 'three';
+import {RoundedBoxGeometry} from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
+import {RoomEnvironment} from 'three/examples/jsm/environments/RoomEnvironment.js';
+import {Reflector} from 'three/examples/jsm/objects/Reflector.js';
+import {EffectComposer} from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import {RenderPass} from 'three/examples/jsm/postprocessing/RenderPass.js';
+import {UnrealBloomPass} from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
+import {OutputPass} from 'three/examples/jsm/postprocessing/OutputPass.js';
+import type {EffectAssets} from './canvas';
+import type {EffectConfig} from '../../scripts/effects.mjs';
+import {hash,smooth,TAU,lerp} from './math';
+
+export function createThree(canvas:HTMLCanvasElement,c:EffectConfig,assets:EffectAssets={}){
+ const renderer=new T.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});renderer.setSize(1280,720,false);renderer.setPixelRatio(1);renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=c.style==='isometric'?1.15:1;renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;
+ const scene=new T.Scene(),camera=new T.PerspectiveCamera(c.style==='hud'?34:40,16/9,.05,400),updates:((t:number)=>void)[]=[],extra:(()=>void)[]=[];scene.background=new T.Color(c.style==='isometric'?'#18342f':c.style==='hud'?'#030b10':'#0b1426');
+ const mat=(color:string,roughness=.55,metalness=0)=>new T.MeshPhysicalMaterial({color,roughness,metalness,clearcoat:metalness>.1?.35:.1,clearcoatRoughness:.3});
+ const glow=(color:string,power=1)=>new T.MeshStandardMaterial({color,emissive:color,emissiveIntensity:power,roughness:.4});
+ const mesh=(geo:T.BufferGeometry,material:T.Material,x=0,y=0,z=0,parent:T.Object3D=scene)=>{const o=new T.Mesh(geo,material);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o;};
+ const box=(w:number,h:number,d:number,m:T.Material,x=0,y=0,z=0,p:T.Object3D=scene,r=.03)=>mesh(new RoundedBoxGeometry(w,h,d,2,Math.min(r,w/3,h/3,d/3)),m,x,y,z,p);
+ const tube=(points:T.Vector3[],rad:number,m:T.Material,p:T.Object3D=scene)=>mesh(new T.TubeGeometry(new T.CatmullRomCurve3(points),Math.max(24,points.length*2),rad,6,false),m,0,0,0,p);
+ const line=(points:T.Vector3[],color:string,opacity=.5,p:T.Object3D=scene)=>{const l=new T.Line(new T.BufferGeometry().setFromPoints(points),new T.LineBasicMaterial({color,transparent:true,opacity}));p.add(l);return l;};
+ scene.add(new T.HemisphereLight('#c6dcd1','#192820',c.style==='hud'?.07:.75));const sun=new T.DirectionalLight('#ffe5b1',c.style==='isometric'?3:2.3);sun.position.set(-8,12,10);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-14,right:14,top:14,bottom:-14});sun.shadow.bias=-.0002;sun.shadow.normalBias=.025;scene.add(sun);
+ const rim=new T.DirectionalLight(c.secondary,1.7);rim.position.set(7,6,-10);scene.add(rim);
+ const pm=new T.PMREMGenerator(renderer),room=new RoomEnvironment(),environment=pm.fromScene(room,.06);scene.environment=environment.texture;scene.environmentIntensity=c.style==='hud'?.12:.3;room.dispose();pm.dispose();
+ if(c.style==='isometric'){
+  scene.fog=new T.Fog('#18342f',32,70);const ground=mesh(new T.PlaneGeometry(150,150),mat('#254137',.86),0,-.38,0);ground.rotation.x=-Math.PI/2;
+  const garden=new T.Group();scene.add(garden);const stone=mat('#c4c3a5',.87),dark=mat('#294f45',.55,.18),brass=mat('#af9965',.34,.65),soil=mat('#473f30',1),terra=mat('#b9815b',.9),walk=mat('#aeb29a',.8);box(12,.45,9,stone,0,-.08,0,garden,.16);box(11.85,.09,8.85,dark,0,.19,0,garden);
+  for(let i=0;i<26;i++){box(.45,.06,1.45,walk,-5.6+i*.45,.27,3.48,garden);if(i%3===0)box(.015,.035,.8,brass,-5.6+i*.45,.31,3.5,garden);}
+  // A circulation channel, stepped entrance, louvred service hut and planted beds.
+  box(11.3,.12,.38,mat('#2f6b62',.12,.48),0,.28,2.5,garden);for(let i=0;i<3;i++)box(2.4,.15,1.05,stone,0,-.08-i*.13,4.5+i*.55,garden);
+  box(2.35,1.8,2.65,dark,-4.1,1.15,-1.0,garden,.12);box(2.65,.15,2.9,mat('#96a28a',.4,.3),-4.1,2.13,-1,garden);box(1.78,.65,.028,glow('#f3cc86',.7),-4.1,1.35,.34,garden);for(let k=0;k<12;k++)box(.055,1.55,.07,brass,-5.13+k*.18,1.2,.39,garden);
+  const pavilion=new T.Group();pavilion.position.set(.75,.3,-.7);garden.add(pavilion);box(6.7,.16,5.8,stone,0,.06,0,pavilion);
+  const frame=mat('#a9bd9b',.33,.65),glass=new T.MeshPhysicalMaterial({color:'#c0d6bb',transparent:true,opacity:.11,roughness:.12,metalness:.15,side:T.DoubleSide,depthWrite:false});
+  for(let i=0;i<10;i++){const z=-2.6+i*.58,pts=[new T.Vector3(-3.05,0,z),new T.Vector3(-3.05,2.0,z),new T.Vector3(-2.2,3.0,z),new T.Vector3(0,3.7+c.detail*.3,z),new T.Vector3(2.2,3,z),new T.Vector3(3.05,2,z),new T.Vector3(3.05,0,z)];tube(pts,.032,frame,pavilion);}
+  for(const x of [-3.05,0,3.05])box(.038,.06,5.4,frame,x,x===0?3.8:2,-.02,pavilion);
+  for(let i=0;i<4;i++){const x=-2.3+i*1.53,top=3.7-Math.abs(x)*.37;box(1.5,.025,5.3,glass,x,top,-.02,pavilion);}
+  box(.018,1.98,5.3,glass,-3.05,1,-.02,pavilion);box(.018,1.98,5.3,glass,3.05,1,-.02,pavilion);for(const x of [-2.95,2.95])box(.05,.08,5.3,brass,x,.14,0,pavilion);
+  const leafM=[mat(c.secondary,.67),mat('#426f47',.72),mat('#91a968',.7),mat('#c0bd7a',.72)],stemM=mat('#5f7442',.9);const leafGeo=new T.SphereGeometry(.23,12,8),stemGeo=new T.CylinderGeometry(.014,.022,1,6);
+  for(let row=0;row<3;row++)for(const side of [-1,1]){const z=-1.8+row*1.8;box(1.8,.35,1.3,terra,side*1.64,.35,z,pavilion,.08);box(1.63,.03,1.14,soil,side*1.64,.54,z,pavilion);for(let j=0;j<Math.ceil(c.count/2);j++){const id=row*50+(side+1)*8+j,plant=new T.Group(),h=.75+hash(id,c.seed)*.65;plant.position.set(side*1.64+(j%3-1)*.45,.56,z+(Math.floor(j/3)-.5)*.4);pavilion.add(plant);const stem=mesh(stemGeo,stemM,0,h/2,0,plant);stem.scale.y=h;for(let k=0;k<7;k++){const a=k*2.4+id,l=mesh(leafGeo,leafM[(id+k)%4],Math.cos(a)*.19,h*.28+k*h*.09,Math.sin(a)*.19,plant);l.scale.set(.52,.28,1.9);l.rotation.set(.3,a,-.3);}if(j%3===0){const flower=mesh(new T.SphereGeometry(.09,12,8),mat(c.primary,.65),0,h+.08,0,plant);for(let q=0;q<5;q++){const a=q*TAU/5,p=mesh(leafGeo,mat('#e8cf91',.7),Math.cos(a)*.1,h+.07,Math.sin(a)*.1,plant);p.scale.set(.6,.18,.4);}}updates.push(t=>{const u=smooth(.6+row*.25,2.2+row*.25,t);plant.scale.set(1,.16+u*.84,1);plant.rotation.z=Math.sin(t*.9+id)*.025*c.intensity;});}}
+  for(let i=0;i<8;i++){const x=-5.2+i*1.5;box(.1,.63,.1,dark,x,.6,3.1,garden);mesh(new T.SphereGeometry(.1,12,8),glow('#f4d49b',1.6),x,.94,3.1,garden);const light=new T.PointLight('#ffd29a',1.4,2.5,2);light.position.set(x,1,3.1);garden.add(light);updates.push(t=>light.intensity=1.4*smooth(i*.07,.8+i*.07,t));}
+  for(const z of [-1.6,0,1.6]){mesh(new T.SphereGeometry(.11,12,8),glow('#ffd99a',2),.75,3.45,z-.7,garden);const l=new T.PointLight('#ffd99a',5,7,2);l.position.set(.75,3.3,z-.7);garden.add(l);}
+  for(let i=0;i<30;i++){const o=mesh(new T.SphereGeometry(.016,6,4),glow(c.primary,1.7),0,0,0);updates.push(t=>{o.position.set((hash(i,c.seed)-.5)*10,1.3+hash(i+50,c.seed)*2+Math.sin(t+i)*.14,(hash(i+90,c.seed)-.5)*7);});}
+  updates.push(t=>{const wide=smooth(.3,3,t),end=smooth(6.8,9,t);camera.position.set(lerp(6.4,12,wide)-end*2.3,lerp(3.1,9.5,wide)-end*2.0,lerp(6.3,14.5,wide)-end*1.6);camera.lookAt(.5,1.2,0);garden.rotation.y=-.18+t*.018;});
+ }else if(c.style==='synthwave'){
+  scene.background=new T.Color('#080925');scene.fog=new T.FogExp2('#160b34',.018);sun.color.set('#b59bff');sun.intensity=.5;rim.color.set(c.primary);rim.intensity=2.2;scene.environmentIntensity=.25;
+  const mirror=new Reflector(new T.PlaneGeometry(250,320),{textureWidth:1024,textureHeight:576,color:0x596779,clipBias:.003});mirror.rotation.x=-Math.PI/2;mirror.position.y=-.06;scene.add(mirror);extra.push(()=>mirror.dispose());
+  const railM=mat('#879b9f',.18,.9),bed=mat('#263844',.8),trainM=mat('#a6bfc0',.24,.65),dark=mat('#152b3d',.26,.5),rubber=mat('#15252b',.9),trim=glow(c.secondary,.7);box(3.3,.16,210,bed,0,.05,-70);for(const x of [-1.03,1.03])box(.075,.13,220,railM,x,.22,-70);
+  for(let i=0;i<100;i++){const z=-i*2;box(3.6,.08,.19,mat('#59656a',.7),0,.18,z);}
+  const train=new T.Group();scene.add(train);for(let car=0;car<3;car++){const z=-car*7.2;box(2.3,1.9,6.65,trainM,0,1.55,z,train,.32);box(2.16,.25,5.8,dark,0,2.6,z,train,.1);for(const side of [-1,1]){box(.025,.13,6.2,trim,side*1.159,1.09,z,train);for(let j=0;j<5;j++){box(.03,.62,.7,glow(j%2?'#eed7ad':'#829eaa',.42),side*1.16,1.98,z-2.4+j*1.15,train,.045);box(.06,.78,.052,dark,side*1.17,1.9,z-2.84+j*1.15,train);}for(const dz of [-2.25,2.25]){const wheel=mesh(new T.CylinderGeometry(.34,.34,.22,20),rubber,side*.96,.55,z+dz,train);wheel.rotation.z=Math.PI/2;const bogie=box(.24,.36,1.05,dark,side*.9,.58,z+dz,train);}}
+   for(let j=0;j<9;j++)box(1.55,.065,.19,railM,0,2.76,z-1.5+j*.4,train);
+   if(car===0){box(1.85,.7,.04,dark,0,1.99,z+3.32,train,.1);for(const side of [-1,1]){box(.35,.075,.06,glow('#e4f4ea',3),side*.67,1.21,z+3.36,train);const spot=new T.SpotLight('#d9f4f0',28,38,.12,.6,1);spot.position.set(side*.67,1.2,3.5);spot.target.position.set(side*.8,.1,25);train.add(spot,spot.target);}box(.9,.16,.05,glow(c.primary,.6),0,2.48,z+3.32,train);}
+  }
+  // Motion is in the world, the camera tracks a detailed train. The station passes the lens.
+  const world=new T.Group();scene.add(world);for(let i=0;i<8+c.count;i++){const z=-i*10-5;for(const side of [-1,1]){box(3.8,.75,7.8,mat('#394d56',.75),side*4.9,.25,z,world);box(.14,4.3,.16,railM,side*4.5,2.4,z,world);box(.1,.07,7,glow(i%2?c.primary:c.secondary,1.3),side*3.03,.7,z,world);box(2.3,.12,6.8,dark,side*4.2,4.5,z,world);box(1.8,.04,5.7,glow('#a3c3c0',.65),side*4,4.42,z,world);}
+   const pts=Array.from({length:36},(_,j)=>{const a=j*Math.PI/35;return new T.Vector3(Math.cos(a)*(5+c.detail),Math.sin(a)*(5+c.detail)+.7,z);});tube(pts,.035,glow(i%2?c.primary:c.secondary,1.2),world);
+  }
+  for(let i=0;i<70;i++){const side=i%2?1:-1,x=side*(10+hash(i,c.seed)*48),z=-hash(i+70,c.seed)*150,h=5+hash(i+90,c.seed)*32;box(2+hash(i,c.seed)*5,h,3,mat('#1c2d43',.65,.25),x,h/2,z);for(let j=0;j<Math.min(18,h);j++)box(.8,.2,.025,glow(j%3?c.secondary:c.primary,.25),x-.4,j+1,z+1.52);}
+  mesh(new T.SphereGeometry(3,48,32),glow('#9fabc3',.45),-9,17,-65);
+  const rainGeo=new T.BufferGeometry(),pts:number[]=[];for(let i=0;i<700;i++){const x=(hash(i,c.seed)-.5)*50,y=hash(i+900,c.seed)*24,z=(hash(i+1800,c.seed)-.5)*75;pts.push(x,y,z,x-.035,y-.5,z);}rainGeo.setAttribute('position',new T.Float32BufferAttribute(pts,3));const rain=new T.LineSegments(rainGeo,new T.LineBasicMaterial({color:'#a4cecf',transparent:true,opacity:.18}));scene.add(rain);
+  updates.push(t=>{const move=(t*(5+c.intensity*8))%10;world.position.z=move;rain.position.y=-(t*6%1);train.position.y=Math.sin(t*5)*.012;const u=smooth(0,3,t),v=smooth(5.5,8.3,t);camera.position.set(lerp(3.8,8,u)+v*2,lerp(1.4,3.3,u)+v*.7,lerp(7,13,u)-v*7);camera.lookAt(0,1.25,-3-v*5);});
+ }else{
+  sun.position.set(-8,5,6);sun.color.set('#f1f3ed');sun.intensity=3.0;rim.intensity=.14;scene.environmentIntensity=.04;
+  // NASA SVS / LROC / LOLA public-domain maps; no upstream film pixels are reused.
+  const texture=new T.Texture(assets.moonColor),bumpTexture=new T.Texture(assets.moonHeight);texture.needsUpdate=bumpTexture.needsUpdate=true;texture.colorSpace=T.SRGBColorSpace;texture.anisotropy=bumpTexture.anisotropy=8;const moon=mesh(new T.SphereGeometry(3,192,128),new T.MeshStandardMaterial({map:texture,bumpMap:bumpTexture,bumpScale:.08+c.detail*.15,roughness:1}));moon.rotation.set(0,.8,.15);
+  const wire=new T.Mesh(new T.SphereGeometry(3.015,48,28),new T.MeshBasicMaterial({color:c.primary,wireframe:true,transparent:true,opacity:0}));moon.add(wire);updates.push(t=>{(wire.material as T.MeshBasicMaterial).opacity=smooth(2.0,3.3,t)*(1-smooth(5.0,6.0,t))*.33;});
+  const stars:number[]=[];for(let i=0;i<1600;i++){const v=new T.Vector3((hash(i,c.seed)-.5)*2,(hash(i+2000,c.seed)-.5)*2,(hash(i+4000,c.seed)-.5)*2).normalize().multiplyScalar(60+hash(i,c.seed)*80);stars.push(v.x,v.y,v.z);}const sg=new T.BufferGeometry();sg.setAttribute('position',new T.Float32BufferAttribute(stars,3));scene.add(new T.Points(sg,new T.PointsMaterial({color:'#a7c6cb',size:.065,sizeAttenuation:true})));
+  const orbit=new T.Group();scene.add(orbit);orbit.rotation.z=.45;for(let i=0;i<3;i++)line(Array.from({length:180},(_,j)=>{const a=j*TAU/179;return new T.Vector3(Math.cos(a)*(4+i*.12),Math.sin(a)*(4+i*.12),-.5);}),c.primary,i===0?.35:.08,orbit);
+  for(let i=0;i<c.count;i++){const a=i*TAU/c.count+hash(i,c.seed)*.2;mesh(new T.SphereGeometry(.014,6,4),glow(c.primary,1.2),Math.cos(a)*4.05,Math.sin(a)*4.05,-.5,orbit);}
+  const probe=new T.Group();orbit.add(probe);const gold=mat('#a98843',.42,.8),silver=mat('#8eaaa9',.3,.8),dark=mat('#173141',.3,.5);box(.5,.55,.5,gold,0,0,0,probe);for(const side of [-1,1]){box(1.15,.025,.6,dark,side*.98,0,0,probe);for(let k=0;k<7;k++)box(.012,.03,.57,silver,side*.98-.5+k*.16,.01,0,probe);}const dish=mesh(new T.SphereGeometry(.35,32,16,0,TAU,0,.9),silver,0,.43,0,probe);dish.rotation.x=Math.PI;const antenna=mesh(new T.CylinderGeometry(.012,.012,.6,8),silver,0,.52,0,probe);mesh(new T.SphereGeometry(.035,12,8),glow(c.primary,2),0,.85,0,probe);
+  const scan=mesh(new T.TorusGeometry(3.02,.007,6,200),glow(c.primary,1.4));scan.rotation.x=Math.PI/2;const target=mesh(new T.SphereGeometry(.04,12,8),glow(c.secondary,3),1.7,.1,2.48);
+  const rings:T.Mesh[]=[];for(let i=0;i<4;i++){const o=mesh(new T.TorusGeometry(.2,.007,6,100),glow(c.secondary,.8),1.7,.1,2.52);rings.push(o);}
+  updates.push(t=>{moon.rotation.y=.8+t*.035;const a=-.6+t*(.17+c.intensity*.15);probe.position.set(Math.cos(a)*4.3,Math.sin(a)*4.3,.4);probe.rotation.y=t*.15;const lat=Math.sin(t*.46)*2.8;scan.position.y=lat;scan.scale.setScalar(Math.sqrt(Math.max(.01,1-(lat/3.02)**2)));target.visible=t>5.3;rings.forEach((r,i)=>{const u=((t-5.3)*.6+i*.25)%1;r.visible=t>5.3;r.scale.setScalar(.3+u*8);(r.material as T.MeshStandardMaterial).opacity=1-u;(r.material as T.MeshStandardMaterial).transparent=true;});const wide=smooth(.3,2.5,t);camera.position.set(lerp(2,1,wide),lerp(1.2,.7,wide),lerp(8.2,16,wide)-smooth(6,9,t)*1.2);camera.lookAt(0,0,0);});
+ }
+ const composer=new EffectComposer(renderer);composer.addPass(new RenderPass(scene,camera));composer.addPass(new UnrealBloomPass(new T.Vector2(1280,720),c.style==='synthwave'?.58:.15,.45,.9));composer.addPass(new OutputPass());
+ return {draw(seconds:number){updates.forEach(f=>f(seconds/c.duration*10));composer.render();},dispose(){const geometries=new Set<T.BufferGeometry>(),materials=new Set<T.Material>(),textures=new Set<T.Texture>();scene.traverse(o=>{if(o instanceof T.Mesh||o instanceof T.Line||o instanceof T.Points){geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material]){materials.add(m);for(const v of Object.values(m))if(v instanceof T.Texture)textures.add(v);}}if(o instanceof T.Light&&'shadow' in o)(o as T.DirectionalLight).shadow?.dispose();});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());textures.forEach(t=>t.dispose());environment.dispose();extra.forEach(f=>f());composer.passes.forEach(p=>p.dispose());composer.dispose();renderer.dispose();renderer.forceContextLoss();}};
+}

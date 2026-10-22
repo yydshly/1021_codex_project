@@ -1,0 +1,54 @@
+{
+  "verifiedAtUTC": "2026-10-22T04:04:40.600Z",
+  "completeReel": {
+    "duration": 60,
+    "ended": true,
+    "readyState": 4
+  },
+  "storySwitches": [
+    {
+      "style": "cel-boil",
+      "storyId": "shelter",
+      "title": "把晴天分给你",
+      "duration": 8,
+      "sound": true
+    },
+    {
+      "style": "aurora-glass",
+      "storyId": "rainmix",
+      "title": "留一首雨夜",
+      "duration": 6,
+      "sound": false
+    }
+  ],
+  "exports": [
+    "/exports/2e6fdbd4-8fcd-403c-8a57-aa5f8f46f581.mp4",
+    "/exports/bd56ca1f-d815-4d55-a91d-b9f903abf581.mp4"
+  ],
+  "crossStyleImport": {
+    "from": "aurora-glass/rainmix",
+    "to": "cel-boil/shelter",
+    "preserved": [
+      "title",
+      "duration",
+      "storyId",
+      "style"
+    ]
+  },
+  "undoRestored": "aurora-glass/rainmix / 留一首雨夜 / 6秒",
+  "redoRestored": "cel-boil/shelter / 把晴天分给你 / 8秒",
+  "historyComparison": {
+    "previousTitle": "借一点风",
+    "revision": "0.14",
+    "folder": "quality-before-017",
+    "current": "接住一小片月光 / 0.17"
+  },
+  "draftRestored": {
+    "style": "aurora-glass",
+    "story": "darkroom",
+    "title": "把蓝调留住",
+    "duration": 10
+  },
+  "consoleErrors": [],
+  "limits": "Browser checks establish actual visible behavior and playback; not an artistic score or professional audio review."
+}

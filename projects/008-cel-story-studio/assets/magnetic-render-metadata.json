@@ -1,0 +1,32 @@
+{
+  "engine": "Blender 4.5.14 / Cycles / OPTIX",
+  "samples": 96,
+  "frames": 300,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "scriptSha256": "75fdb5dbe6766eb8af9042e0552a0a598ec8967c70590f1385c13fbdd44f31af",
+  "configuration": {
+    "kind": "effect-template",
+    "version": 1,
+    "style": "3d-render",
+    "title": "磁场花开",
+    "subtitle": "无形的力，让碎片找到彼此",
+    "words": [
+      "唤醒",
+      "失衡",
+      "绽放"
+    ],
+    "primary": "#f16f54",
+    "secondary": "#72c9bd",
+    "count": 8,
+    "intensity": 0.65,
+    "detail": 0.55,
+    "seed": 21,
+    "duration": 10,
+    "sound": true
+  },
+  "signature": "df8706cbc159f030887de2ad16f517ef08df85c2fb6f4bff4b046470019a6d18",
+  "motion": "deterministic choreography, not soft-body physics",
+  "plate": "app/public/effects/studio-magnetic-plate.mp4"
+}

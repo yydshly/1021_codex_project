@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "paperclip",
+  "title": "声音如何被消掉",
+  "subtitle": "多发出一道声，为什么反而更安静？",
+  "words": [
+    "拾音",
+    "反相",
+    "叠加"
+  ],
+  "primary": "#e77648",
+  "secondary": "#216c70",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "anc"
+}

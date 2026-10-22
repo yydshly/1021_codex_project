@@ -1,0 +1,442 @@
+[
+  {
+    "style": "cel-boil",
+    "times": [
+      0.35,
+      1.8,
+      3.3,
+      4.8,
+      6.5,
+      8.8
+    ],
+    "source": "web/reference-effects/media/05-cel-boil.mp4",
+    "current": "web/effect-examples/cel-boil.mp4",
+    "panels": [
+      {
+        "version": "SOURCE",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-0.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-1.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-2.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-3.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-4.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/cel-boil-SOURCE-5.jpg",
+        "sourceSHA256": "06476d9be6efd483c4a2feb8fb76ccb97c194ba0e1f4d18117d1d86096f24c30"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-0.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-1.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-2.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-3.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-4.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/cel-boil-CURRENT-5.jpg",
+        "sourceSHA256": "57acb8e18531533bfa82ddb824d89f6982ffde9ade8f1978726aad070eb2db4a"
+      }
+    ],
+    "contact": "assets/review-014/compare-cel-boil.jpg"
+  },
+  {
+    "style": "collage",
+    "times": [
+      0.35,
+      1.8,
+      3.3,
+      4.8,
+      6.5,
+      8.8
+    ],
+    "source": "web/reference-effects/media/06-collage.mp4",
+    "current": "web/effect-examples/collage.mp4",
+    "panels": [
+      {
+        "version": "SOURCE",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/collage-SOURCE-0.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/collage-SOURCE-1.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/collage-SOURCE-2.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/collage-SOURCE-3.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/collage-SOURCE-4.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/collage-SOURCE-5.jpg",
+        "sourceSHA256": "c46c8e2e5f10ce72d10eee4bb8fe79fd89b1c22b27a79053387e7f8179d1be74"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/collage-CURRENT-0.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/collage-CURRENT-1.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/collage-CURRENT-2.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/collage-CURRENT-3.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/collage-CURRENT-4.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/collage-CURRENT-5.jpg",
+        "sourceSHA256": "094d9ead1b9f0bd7e2988c888412b6e506c11f074d493ddb0929e14d08d83e51"
+      }
+    ],
+    "contact": "assets/review-014/compare-collage.jpg"
+  },
+  {
+    "style": "hanazi",
+    "times": [
+      0.35,
+      1.8,
+      3.3,
+      4.8,
+      6.5,
+      8.8
+    ],
+    "source": "web/reference-effects/media/18-hanazi.mp4",
+    "current": "web/effect-examples/hanazi.mp4",
+    "panels": [
+      {
+        "version": "SOURCE",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-0.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-1.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-2.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-3.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-4.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/hanazi-SOURCE-5.jpg",
+        "sourceSHA256": "7cdaef84efbf84a28b0746199209c8cbae8ad757df943527a5563dc95c08d185"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-0.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-1.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-2.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-3.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-4.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/hanazi-CURRENT-5.jpg",
+        "sourceSHA256": "2aa544cfcdd6c6b71ee48c9d61470b14afdfc83720715243c5b84b57bee6cb10"
+      }
+    ],
+    "contact": "assets/review-014/compare-hanazi.jpg"
+  },
+  {
+    "style": "pixel",
+    "times": [
+      0.35,
+      1.8,
+      3.3,
+      4.8,
+      6.5,
+      8.8
+    ],
+    "source": "web/reference-effects/media/20-pixel.mp4",
+    "current": "web/effect-examples/pixel.mp4",
+    "panels": [
+      {
+        "version": "SOURCE",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-0.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-1.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-2.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-3.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-4.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/pixel-SOURCE-5.jpg",
+        "sourceSHA256": "c5538024a962dd3e3db6b6a3a89122d2daf9843c180b542fdfcf57e9b41a17e3"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-0.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-1.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-2.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-3.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-4.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/pixel-CURRENT-5.jpg",
+        "sourceSHA256": "c150d8a3834e3edf60168fa995a62ab06b0a9ba1cbb8fc64607015af72727d68"
+      }
+    ],
+    "contact": "assets/review-014/compare-pixel.jpg"
+  },
+  {
+    "style": "paperclip",
+    "times": [
+      0.35,
+      1.8,
+      3.3,
+      4.8,
+      6.5,
+      8.8
+    ],
+    "source": "web/reference-effects/media/19-paperclip.mp4",
+    "current": "web/effect-examples/paperclip.mp4",
+    "panels": [
+      {
+        "version": "SOURCE",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-0.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-1.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-2.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-3.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-4.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "SOURCE",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/paperclip-SOURCE-5.jpg",
+        "sourceSHA256": "22d160d62423afae75b4cd8b1b88fb92475c370b7eaaf3ea2542779edfef471f"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 0.35,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-0.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 1.8,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-1.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 3.3,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-2.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 4.8,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-3.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 6.5,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-4.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      },
+      {
+        "version": "CURRENT",
+        "seconds": 8.8,
+        "frameFile": ".cache/audit-014/paperclip-CURRENT-5.jpg",
+        "sourceSHA256": "e3177539d3740fa424c37c0494f02154c939a54a73d9d7acd30cd7a4cb51b873"
+      }
+    ],
+    "contact": "assets/review-014/compare-paperclip.jpg"
+  }
+]

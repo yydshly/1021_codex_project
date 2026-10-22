@@ -1,0 +1,12 @@
+[
+  {
+    "style": "3d-render",
+    "start": 0,
+    "end": 10
+  },
+  {
+    "style": "isometric",
+    "start": 10,
+    "end": 20
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "morph",
+  "title": "把晴天放飞",
+  "subtitle": "雨停以前，让想象先出发",
+  "words": [
+    "撑开",
+    "升起",
+    "放飞"
+  ],
+  "primary": "#e95b43",
+  "secondary": "#164b57",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

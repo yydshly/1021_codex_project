@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-22",
+  "films": {
+    "liquid": [
+      {
+        "duration": 10.005,
+        "ended": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/liquid.mp4?v=015",
+        "time": 10.005
+      }
+    ],
+    "liquidBefore": [
+      {
+        "ended": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/quality-before-015/liquid.mp4?v=015",
+        "time": 10.005
+      }
+    ],
+    "hud": [
+      {
+        "duration": 10.005,
+        "ended": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/effect-examples/hud.mp4?v=015",
+        "time": 10.005
+      }
+    ],
+    "hudBefore": [
+      {
+        "ended": true,
+        "ready": 4,
+        "src": "http://127.0.0.1:8048/quality-before-015/hud.mp4?v=015",
+        "time": 10.005
+      }
+    ]
+  },
+  "referenceHud": [
+    {
+      "ended": true,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/reference-effects/media/22-hud.mp4?v=015",
+      "time": 10
+    },
+    {
+      "ended": false,
+      "ready": 0,
+      "src": "http://127.0.0.1:8048/quality-before-015/hud.mp4?v=015",
+      "time": 0
+    },
+    {
+      "ended": false,
+      "ready": 0,
+      "src": "http://127.0.0.1:8048/effect-examples/hud.mp4?v=015",
+      "time": 0
+    }
+  ],
+  "exports": {
+    "hud": "http://127.0.0.1:8048/exports/7bdb10bc-3d72-402f-a7b1-81bce93b8245.mp4",
+    "liquid": [
+      "http://127.0.0.1:8048/exports/5edca86c-72d8-4e05-becb-52ce8784e1c3.mp4"
+    ],
+    "download": "C:\\Users\\yun68\\Downloads\\5edca86c-72d8-4e05-becb-52ce8784e1c3.mp4"
+  },
+  "restored": [
+    {
+      "label": "选择独立效果模板",
+      "unchanged": true
+    },
+    {
+      "label": "效果标题",
+      "unchanged": true
+    },
+    {
+      "label": "效果短句",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 1",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 2",
+      "unchanged": true
+    },
+    {
+      "label": "效果内容节点 3",
+      "unchanged": true
+    },
+    {
+      "label": "效果主色",
+      "unchanged": true
+    },
+    {
+      "label": "效果辅助色",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：频谱柱数量",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：波形速度与透镜倍率",
+      "unchanged": true
+    },
+    {
+      "label": "效果参数：磨砂采样与色散强度",
+      "unchanged": true
+    },
+    {
+      "label": "效果时长",
+      "unchanged": true
+    },
+    {
+      "label": "加入原创配乐",
+      "unchanged": true
+    }
+  ],
+  "finalFields": [
+    {
+      "checked": false,
+      "label": "选择独立效果模板",
+      "value": "aurora-glass"
+    },
+    {
+      "checked": false,
+      "label": "效果标题",
+      "value": "折光电台"
+    },
+    {
+      "checked": false,
+      "label": "效果时长",
+      "value": "10"
+    },
+    {
+      "checked": false,
+      "label": "角色 1 名字",
+      "value": "小禾"
+    },
+    {
+      "checked": false,
+      "label": "故事标题",
+      "value": "阳台上的小花"
+    }
+  ],
+  "layout": {
+    "allPremiereImagesReady": true,
+    "overflow": false,
+    "seed": "种子 21",
+    "width": 722
+  },
+  "consoleErrors": [],
+  "story": {
+    "character": "小禾",
+    "recipe": "能力组合 · 纸感叠印 35% / 手绘边饰 50% / 聚焦光环 60% / 镜头缓推 40%",
+    "timeline": "12 秒 / 5 镜头 / 24 FPS",
+    "title": "阳台上的小花"
+  }
+}

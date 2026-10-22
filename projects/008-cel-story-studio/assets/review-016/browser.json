@@ -1,0 +1,72 @@
+{
+  "effectDraftRestored": true,
+  "baseline": [
+    {
+      "label": "选择独立效果模板",
+      "value": "aurora-glass"
+    },
+    {
+      "label": "效果对比进度",
+      "value": "0"
+    },
+    {
+      "label": "效果标题",
+      "value": "折光电台"
+    },
+    {
+      "label": "效果短句",
+      "value": "让声音，在光里流动"
+    },
+    {
+      "label": "效果内容节点 1",
+      "value": "播放"
+    },
+    {
+      "label": "效果内容节点 2",
+      "value": "频率"
+    },
+    {
+      "label": "效果内容节点 3",
+      "value": "共鸣"
+    },
+    {
+      "label": "效果主色",
+      "value": "#8248f5"
+    },
+    {
+      "label": "效果辅助色",
+      "value": "#21c8e8"
+    },
+    {
+      "label": "效果参数：频谱柱数量",
+      "value": "8"
+    },
+    {
+      "label": "效果参数：波形速度与透镜倍率",
+      "value": "0.65"
+    },
+    {
+      "label": "效果参数：磨砂采样与色散强度",
+      "value": "0.55"
+    },
+    {
+      "label": "效果时长",
+      "value": "10"
+    },
+    {
+      "checked": true,
+      "label": "加入原创配乐",
+      "value": "on"
+    }
+  ],
+  "import": {
+    "story": "garden",
+    "title": "春天的第一封信",
+    "seconds": 8,
+    "undoTo": "aurora-glass",
+    "redoRetainsStory": true
+  },
+  "finalPrismPlayedToEnd": true,
+  "allFourFilmsPlayedToEnd": true,
+  "consoleErrors": []
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "cel-boil",
+  "title": "把晴天分给你",
+  "subtitle": "把伞，向你倾斜一点",
+  "words": [
+    "看见",
+    "举起",
+    "靠近"
+  ],
+  "primary": "#bd7c41",
+  "secondary": "#4e756c",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 8,
+  "sound": true,
+  "storyId": "shelter"
+}

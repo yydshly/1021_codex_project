@@ -1,0 +1,50 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "hud",
+  "title": "深海观察",
+  "subtitle": "在最深的静默里，听见回应",
+  "words": [
+    "寻迹",
+    "解码",
+    "苏醒"
+  ],
+  "primary": "#39d7df",
+  "secondary": "#ffbd63",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 8,
+  "sound": true,
+  "shots": [
+    {
+      "id": "hud-1",
+      "action": "ping",
+      "seconds": 2,
+      "caption": "静默海沟，收到一段回声",
+      "framing": "close"
+    },
+    {
+      "id": "hud-2",
+      "action": "inspect",
+      "seconds": 2,
+      "caption": "穿过表象，看见结构",
+      "framing": "close"
+    },
+    {
+      "id": "hud-3",
+      "action": "decode",
+      "seconds": 2,
+      "caption": "回声，正在成为回答",
+      "framing": "close"
+    },
+    {
+      "id": "hud-4",
+      "action": "awaken",
+      "seconds": 2,
+      "caption": "深蓝之中，生命般的回应",
+      "framing": "wide"
+    }
+  ]
+}

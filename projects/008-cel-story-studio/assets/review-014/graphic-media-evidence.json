@@ -1,0 +1,399 @@
+{
+  "times": [
+    0.6,
+    2.2,
+    3.8,
+    5.5,
+    7.3,
+    9.4
+  ],
+  "framesViewed": true,
+  "rows": [
+    {
+      "style": "flat-vector",
+      "slug": "01-flat-vector",
+      "times": [
+        0.6,
+        2.2,
+        3.8,
+        5.5,
+        7.3,
+        9.4
+      ],
+      "evidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/01-flat-vector.mp4",
+          "sha256": "41e3fcc9b0e614a118de0d03d0edee91540299af12f6b2be7bb91d0e78fa2adc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "470"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-flat-vector.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/flat-vector.mp4",
+          "sha256": "1e0d07bcbe63d019461f28bc9c508a0fea51a821bdd9a49cb4220c52f240257a",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-flat-vector.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/01-flat-vector.mp4",
+            "gitBlobSHA1": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+            "sourceIndexSHA1": "5e566aa7a716a90619affdceb412b1f4ea154b6e",
+            "matches": true
+          },
+          {
+            "path": "prompts/01-flat-vector.md",
+            "gitBlobSHA1": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+            "sourceIndexSHA1": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "line-art",
+      "slug": "02-line-art",
+      "times": [
+        0.6,
+        2.2,
+        3.8,
+        5.5,
+        7.3,
+        9.4
+      ],
+      "evidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/02-line-art.mp4",
+          "sha256": "eda54b131945499fbc1dc7cfb45755054e3dbab0e21575dd28da1213b0842c4b",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-line-art.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/line-art.mp4",
+          "sha256": "fa819b903ffa72099bafbca83f1614f0a6bb4cf4dd2011119ea47fb16b1f45dc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-line-art.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/02-line-art.mp4",
+            "gitBlobSHA1": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+            "sourceIndexSHA1": "2d93601dee7d4aafaf1030f26e5cb3723632c09e",
+            "matches": true
+          },
+          {
+            "path": "prompts/02-line-art.md",
+            "gitBlobSHA1": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+            "sourceIndexSHA1": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "morph",
+      "slug": "08-morph",
+      "times": [
+        0.6,
+        2.2,
+        3.8,
+        5.5,
+        7.3,
+        9.4
+      ],
+      "evidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/08-morph.mp4",
+          "sha256": "752c5538cd80f5b2f6f6f29c06d997456e4712c5768292656b3d58654b643bfc",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "470"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-morph.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/morph.mp4",
+          "sha256": "895d2001a31f11aadb379a2e4aea1166abde491bc94e84f64f625395ed943e96",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-morph.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/08-morph.mp4",
+            "gitBlobSHA1": "75dafc5d55b350a2c07395477178549575aa4413",
+            "sourceIndexSHA1": "75dafc5d55b350a2c07395477178549575aa4413",
+            "matches": true
+          },
+          {
+            "path": "prompts/08-morph.md",
+            "gitBlobSHA1": "49865613173ddb15bc6cf33504e5b647df55da38",
+            "sourceIndexSHA1": "49865613173ddb15bc6cf33504e5b647df55da38",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "bauhaus",
+      "slug": "09-bauhaus",
+      "times": [
+        0.6,
+        2.2,
+        3.8,
+        5.5,
+        7.3,
+        9.4
+      ],
+      "evidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/09-bauhaus.mp4",
+          "sha256": "fba3adfd8ddb6452ddd351e19f69647e5bf1e4d7782634d167c7b56e61ff3561",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-bauhaus.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/bauhaus.mp4",
+          "sha256": "7bbd553adf811c9d2877585461bbb5903ff4abce151556a9d0513189d20ca51e",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-bauhaus.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/09-bauhaus.mp4",
+            "gitBlobSHA1": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+            "sourceIndexSHA1": "978a5a9286f8b3c16191fe903328922e1fe11e8b",
+            "matches": true
+          },
+          {
+            "path": "prompts/09-bauhaus.md",
+            "gitBlobSHA1": "3dd39249b00c7c751caac700154305bead6f4ece",
+            "sourceIndexSHA1": "3dd39249b00c7c751caac700154305bead6f4ece",
+            "matches": true
+          }
+        ]
+      }
+    },
+    {
+      "style": "synthwave",
+      "slug": "10-synthwave",
+      "times": [
+        0.6,
+        2.2,
+        3.8,
+        5.5,
+        7.3,
+        9.4
+      ],
+      "evidence": {
+        "source": {
+          "file": "projects/008-cel-story-studio/web/reference-effects/media/10-synthwave.mp4",
+          "sha256": "11bfdd5e454e2f1d868b733677981734f77300082b97780416b890e08dd0f85e",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300"
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "469"
+              }
+            ],
+            "format": {
+              "duration": "10.000000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/source-synthwave.jpg"
+        },
+        "current": {
+          "file": "projects/008-cel-story-studio/web/effect-examples/synthwave.mp4",
+          "sha256": "c5a4eb6d567efca1ad2bd258cc674ddb135078d86ce25a7248483f47c9ba1667",
+          "probe": {
+            "programs": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "r_frame_rate": "30/1",
+                "nb_frames": "300",
+                "side_data_list": [
+                  {}
+                ]
+              },
+              {
+                "r_frame_rate": "0/0",
+                "nb_frames": "471"
+              }
+            ],
+            "format": {
+              "duration": "10.005000"
+            }
+          },
+          "contact": "assets/review-014/graphic-contact/current-synthwave.jpg"
+        },
+        "upstreamBlobVerification": [
+          {
+            "path": "videos/10-synthwave.mp4",
+            "gitBlobSHA1": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+            "sourceIndexSHA1": "91fe11d1d8408dfc71794d4779c8a80b225f8638",
+            "matches": true
+          },
+          {
+            "path": "prompts/10-synthwave.md",
+            "gitBlobSHA1": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+            "sourceIndexSHA1": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+            "matches": true
+          }
+        ]
+      }
+    }
+  ],
+  "viewMethod": "functions.view_image：十张六宫格逐张实际查看，共60帧；未试听音轨或逐帧看完整影片"
+}

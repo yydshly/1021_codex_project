@@ -1,0 +1,72 @@
+{
+  "version": "0.9.0",
+  "films": [
+    {
+      "style": "3d-render",
+      "ready": 4,
+      "startedPlayback": true,
+      "duration": 10.005,
+      "error": null,
+      "previousVersionAlsoPlayable": true
+    },
+    {
+      "style": "aurora-glass",
+      "ready": 4,
+      "startedPlayback": true,
+      "duration": 10.005,
+      "error": null,
+      "previousVersionAlsoPlayable": true
+    },
+    {
+      "style": "cel-boil",
+      "ready": 4,
+      "startedPlayback": true,
+      "duration": 10.005,
+      "error": null,
+      "previousVersionAlsoPlayable": true
+    }
+  ],
+  "reel": {
+    "duration": 30,
+    "ready": 4,
+    "startedPlayback": true,
+    "error": null
+  },
+  "defaultMaterialPreview": {
+    "duration": 10,
+    "ready": 4,
+    "startedPlayback": true,
+    "error": null
+  },
+  "singleAudioSource": {
+    "reelStopsComparison": true,
+    "theaterStopsReel": true
+  },
+  "customWebJob": "5f4ee611-0bae-4ce7-9301-b05a44434622",
+  "customDownloadSaved": true,
+  "storyPreserved": {
+    "title": "阳台上的小花",
+    "character": "小禾",
+    "shots": 5,
+    "duration": 12,
+    "components": [
+      "纸感叠印 35%",
+      "手绘边饰 50%",
+      "聚焦光环 60%",
+      "镜头缓推 40%"
+    ]
+  },
+  "finalRoute": {
+    "hash": "#effects-quality",
+    "films": 15,
+    "refined": 3,
+    "clientWidth": 658,
+    "scrollWidth": 658
+  },
+  "screenshots": [
+    "quality-overview.png",
+    "quality-studio-browser.png",
+    "quality-glass-browser.png",
+    "quality-hand-browser.png"
+  ]
+}

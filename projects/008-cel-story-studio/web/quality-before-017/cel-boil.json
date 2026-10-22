@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "cel-boil",
+  "title": "借一点风",
+  "subtitle": "让小小的勇气，吹开新的旅程",
+  "words": [
+    "攒足一口勇气",
+    "抓住一点可能",
+    "借风去远方"
+  ],
+  "primary": "#ce523a",
+  "secondary": "#2c6659",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

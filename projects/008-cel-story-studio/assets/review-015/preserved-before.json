@@ -1,0 +1,42 @@
+[
+  {
+    "file": "web/quality-before-015/liquid.mp4",
+    "sha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b"
+  },
+  {
+    "file": "web/quality-before-015/liquid.jpg",
+    "sha256": "d325bf396893661257ed47da054089ea9bc4626301b1d45d03e77b341ebc26e7"
+  },
+  {
+    "file": "web/quality-before-015/liquid.json",
+    "sha256": "bb6e3967844a138bcceb277770ec18855e66377abb22b74885a778d585ad412e"
+  },
+  {
+    "file": "web/quality-before-015/hud.mp4",
+    "sha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e"
+  },
+  {
+    "file": "web/quality-before-015/hud.jpg",
+    "sha256": "d2260aa1288aa1e7955523fdcaf32c0efd7518e63437a749b0503991eefeb5f5"
+  },
+  {
+    "file": "web/quality-before-015/hud.json",
+    "sha256": "0812ccd092ad221e39d5c1637b394d4e56513eb767446f9c0af90f1584b0eb7a"
+  },
+  {
+    "file": "web/quality-before-015/quality-reel.mp4",
+    "sha256": "55bfe99ff67bc28386b836b9434798b4dbcb30d8690a7d6071b69b7872bcc610"
+  },
+  {
+    "file": "web/quality-before-015/quality-reel.chapters.json",
+    "sha256": "62da0394bdb1f8fde7e75ceecdf1e85000d9c1e9e317eb0359ecb84a5adc3a12"
+  },
+  {
+    "file": "web/quality-before-015/after-hours-reel.mp4",
+    "sha256": "4d79e8716f22c512d95b8d84cc16564da3d07918a875f59177a23a86c2a802b2"
+  },
+  {
+    "file": "web/quality-before-015/after-hours-reel.chapters.json",
+    "sha256": "65dd874a8797f7fe55a6718ad68fbd26f0e70e941a13e9b0bfa0b8592716bc91"
+  }
+]

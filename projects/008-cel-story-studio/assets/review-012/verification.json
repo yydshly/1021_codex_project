@@ -1,0 +1,379 @@
+{
+  "version": "0.12.0",
+  "scope": {
+    "redesigned": 6,
+    "focusedRevisions": 7,
+    "preservedPreviousFilms": 2
+  },
+  "mediaReport": "../effect-media-verification.json",
+  "previous": [
+    {
+      "file": "web/quality-before-012/flat-vector.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "5c3dbd21cd9df49720d5f1de60572dceb4e77c7edbbad5a75d2cb18f03ece4ea"
+    },
+    {
+      "file": "web/quality-before-012/line-art.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "6333bc628179a5c83b9db81b0a3210dbb7f462a35b8e7be3b6f3e05ace681819"
+    },
+    {
+      "file": "web/quality-before-012/cel-boil.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "ab09c1081b35d64ea762dabca693ffc815b49baf515dd9fce8d38474098294ec"
+    },
+    {
+      "file": "web/quality-before-012/collage.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4b2acdbb9f6f31406bc3dd6e1626e07068b20ca24ea212b468d76467bbc3e207"
+    },
+    {
+      "file": "web/quality-before-012/liquid.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "0d7bf1eb8121e4a936d0e3a4de43cde17e2d9aa05cae3c43b509e7ea78c21428"
+    },
+    {
+      "file": "web/quality-before-012/morph.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "8af8f9581ba680a86101bacf232465c460c2330eec9f2bd1555681f0485ded73"
+    },
+    {
+      "file": "web/quality-before-012/bauhaus.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "99bfb15439e7880451d1f7ec0b56af81420f7b32b6bacfb5196a3d6287013001"
+    },
+    {
+      "file": "web/quality-before-012/synthwave.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "9cd2e855a50907beb43b2862d32cb2d018bef457f0783c112f9e0b7b1fdfedb1"
+    },
+    {
+      "file": "web/quality-before-012/aurora-glass.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "d15f35e878adf0ac6aa630e29b6bcd6fe4115522da4af05ab8080aeacbb9e514"
+    },
+    {
+      "file": "web/quality-before-012/hanazi.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "0923f3751d4f85dfb2e0b253fe19bf49745d62fe5b5fb407025ed46bc9ed7524"
+    },
+    {
+      "file": "web/quality-before-012/paperclip.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "00c81634bd246842ce2d994e74168fb76b2874a1a910af02ce192350b0e8ba4f"
+    },
+    {
+      "file": "web/quality-before-012/pixel.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "656ffaf3977b5ec1f1eccf59095298e2eb43e81ab1a494efa572439c75afd9d7"
+    },
+    {
+      "file": "web/quality-before-012/hud.mp4",
+      "frames": 300,
+      "duration": 10.005,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "b76a0f1c723a522d4cde1f09b49b637b08840a03267edc99b50700bb1778d49a"
+    }
+  ],
+  "reels": [
+    {
+      "file": "web/effect-examples/recraft-reel.mp4",
+      "frames": 1800,
+      "duration": 60.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d"
+    },
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "frames": 4500,
+      "duration": 150.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "a511824d18c401673fe23220d260728443945160ae84b7b1ed8066dda60f9b8d"
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "frames": 1350,
+      "duration": 45.0,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "4d5576ce88b1dcfd35229833816dcd1789599a3046f52c5915760f5347673bed"
+    }
+  ],
+  "customExports": [
+    {
+      "file": "app/exports/bf034ab0-6c26-46ae-ac0f-bc86a22e30ea.mp4",
+      "frames": 120,
+      "duration": 4.0,
+      "audio": false,
+      "decode": "passed",
+      "sha256": "d1e6d4768a61c96bbc7ff9ce7ae90626c27ccebd5f42a5bd7302b09f9bcacb81",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "liquid",
+        "title": "光滴的回声",
+        "subtitle": "把流动，凝成一瞬间的光",
+        "words": [
+          "一滴",
+          "交融",
+          "涌现"
+        ],
+        "primary": "#ff6d35",
+        "secondary": "#9b39e2",
+        "count": 3,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 4,
+        "sound": false
+      }
+    },
+    {
+      "file": "app/exports/094b58a9-5844-4d7a-9f27-c4a8e15d2dbc.mp4",
+      "frames": 180,
+      "duration": 6.016,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "b350528026ecdf21c7b1155c408181000e5d78aa99e78566547994bf41c12ff5",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "aurora-glass",
+        "title": "晨光电台",
+        "subtitle": "让声音，在光里流动",
+        "words": [
+          "播放",
+          "频率",
+          "共鸣"
+        ],
+        "primary": "#8248f5",
+        "secondary": "#21c8e8",
+        "count": 14,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 6,
+        "sound": true
+      }
+    },
+    {
+      "file": "app/exports/acbf0958-6e09-4f6c-9f0a-da95f4d8bae2.mp4",
+      "frames": 180,
+      "duration": 6.016,
+      "audio": true,
+      "decode": "passed",
+      "sha256": "7370b3e54870fcfdbb9a9fc017dbfca2162e90a8363cc77897334f9e92ce253e",
+      "submittedConfig": {
+        "kind": "effect-template",
+        "version": 1,
+        "style": "flat-vector",
+        "title": "午后鲜橘",
+        "subtitle": "一口鲜活，把夏天拉近",
+        "words": [
+          "剖开",
+          "倾注",
+          "清爽"
+        ],
+        "primary": "#ff7a25",
+        "secondary": "#2838db",
+        "count": 14,
+        "intensity": 0.65,
+        "detail": 0.55,
+        "seed": 22,
+        "duration": 6,
+        "sound": true
+      }
+    }
+  ],
+  "browserPlayback": [
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/flat-vector.mp4?v=012",
+      "style": "flat-vector",
+      "time": 0
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/line-art.mp4?v=012",
+      "style": "line-art",
+      "time": 0.273115
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/cel-boil.mp4?v=012",
+      "style": "cel-boil",
+      "time": 0.264452
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/collage.mp4?v=012",
+      "style": "collage",
+      "time": 0.22764
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/liquid.mp4?v=012",
+      "style": "liquid",
+      "time": 0.301406
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/morph.mp4?v=012",
+      "style": "morph",
+      "time": 0.259757
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/bauhaus.mp4?v=012",
+      "style": "bauhaus",
+      "time": 0.23753
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/synthwave.mp4?v=012",
+      "style": "synthwave",
+      "time": 0.237375
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/aurora-glass.mp4?v=012",
+      "style": "aurora-glass",
+      "time": 0.27287
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/hanazi.mp4?v=012",
+      "style": "hanazi",
+      "time": 0.255896
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/paperclip.mp4?v=012",
+      "style": "paperclip",
+      "time": 0.29048
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/pixel.mp4?v=012",
+      "style": "pixel",
+      "time": 0.255916
+    },
+    {
+      "duration": 10.005,
+      "error": null,
+      "paused": false,
+      "ready": 4,
+      "src": "http://127.0.0.1:8048/effect-examples/hud.mp4?v=012",
+      "style": "hud",
+      "time": 0.2682
+    }
+  ],
+  "material": {
+    "engine": "Blender 4.5.14 / Cycles / OPTIX",
+    "samples": 256,
+    "frames": 300,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "scriptSha256": "c1ae49b0053acc3b566380cdac8b6f1e977f04a50e55c5b0846b02ef8baf3a89",
+    "configuration": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "liquid",
+      "title": "潮汐实验",
+      "subtitle": "把流动，凝成一瞬间的光",
+      "words": [
+        "一滴",
+        "交融",
+        "涌现"
+      ],
+      "primary": "#ff6d35",
+      "secondary": "#9b39e2",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 21,
+      "duration": 10,
+      "sound": true
+    },
+    "motion": "deterministic continuous metaball choreography, not a fluid solver",
+    "plate": "app/public/effects/studio-liquid-plate.mp4"
+  },
+  "story": "story-retention.json",
+  "visualReview": "final-review-0/1/2.jpg: actual film frames inspected; not an aesthetic score."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "job": "8004d18f-a984-4cc9-96a4-275a0729b8ea",
+    "file": "web/craft-examples/handmade-014.mp4",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "cel-boil",
+      "title": "借风去远方",
+      "subtitle": "让小小的勇气，吹开新的旅程",
+      "words": [
+        "攒足一口勇气",
+        "抓住一点可能",
+        "借风去远方"
+      ],
+      "primary": "#ce523a",
+      "secondary": "#2c6659",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 21,
+      "duration": 6,
+      "sound": true
+    },
+    "frames": 180,
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "audio": true,
+    "fullDecode": true,
+    "sha256": "a22cbf803da98a8a6efe80d47de3de9606025c1aca4809724c8b34dc730250ca"
+  },
+  {
+    "job": "3bc041da-5b99-4e23-839e-77e5fd36320b",
+    "file": "web/craft-examples/liquid-014.mp4",
+    "config": {
+      "kind": "effect-template",
+      "version": 1,
+      "style": "liquid",
+      "title": "相遇，流动成桥",
+      "subtitle": "柔软，也能连接两端",
+      "words": [
+        "落下",
+        "牵起",
+        "连接"
+      ],
+      "primary": "#ff7b37",
+      "secondary": "#29c9d0",
+      "count": 8,
+      "intensity": 0.65,
+      "detail": 0.55,
+      "seed": 22,
+      "duration": 6,
+      "sound": false
+    },
+    "frames": 180,
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "audio": false,
+    "fullDecode": true,
+    "sha256": "edc792368f0fddb6f55eee4566c28298a5138f69281cfd104732abf55ccf4d1d"
+  }
+]

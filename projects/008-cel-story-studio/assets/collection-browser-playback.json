@@ -1,0 +1,93 @@
+{
+  "testedAt": "2026-10-21T10:43:45.835Z",
+  "films": [
+    {
+      "duration": 10.005,
+      "film": "夜市开场扁平矢量 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/flat-vector.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "风的来信线条动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/line-art.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "午夜温室等轴 2.5D · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/isometric.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "深海电台拼贴剪贴 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/collage.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "折叠花园形变动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/morph.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "节拍工坊几何包豪斯 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/bauhaus.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "声音的旅行贴纸科普 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/paperclip.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "雨巷邮差像素动画 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/pixel.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "潮汐实验液态流动 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/liquid.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "夜航列车复古霓虹 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/synthwave.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "夜班也要慢慢来综艺花字 · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/hanazi.mp4"
+    },
+    {
+      "duration": 10.005,
+      "film": "月背回声科技 HUD · 10 秒",
+      "paused": false,
+      "ready": 4,
+      "source": "effect-examples/hud.mp4"
+    }
+  ],
+  "exports": {
+    "pixel": "/exports/6eb8530e-1e22-47eb-a071-e6a0419e9339.mp4",
+    "liquid": "/exports/3e597b0b-5367-490b-a954-db236d2e5cc1.mp4"
+  }
+}

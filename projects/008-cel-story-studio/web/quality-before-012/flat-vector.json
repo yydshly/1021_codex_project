@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "flat-vector",
+  "title": "夜市开场",
+  "subtitle": "热气腾腾的夜晚，留给不必匆忙的人",
+  "words": [
+    "开灯",
+    "起锅",
+    "开席"
+  ],
+  "primary": "#ee6c3c",
+  "secondary": "#c6d760",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

@@ -1,0 +1,40 @@
+{
+  "title": "声音制造局",
+  "primary": "#ef6c51",
+  "secondary": "#87c9b4",
+  "frames": [
+    20,
+    100,
+    190,
+    270
+  ],
+  "size": [
+    1280,
+    720
+  ],
+  "duration": 10,
+  "events": {
+    "press": 2.37,
+    "gearsStart": 2.4,
+    "pipes": [
+      4.3,
+      4.62,
+      4.94
+    ],
+    "musicCrown": 5.9,
+    "floorRetracts": [
+      6.62,
+      7.58
+    ],
+    "tonearmLands": [
+      7.15,
+      8.15
+    ],
+    "reveal": [
+      6.55,
+      8.65
+    ]
+  },
+  "render": "Three.js: PBR, directional PCF shadows, room environment, 4-sample SSAA, controlled bloom; no SSAO",
+  "limits": "deterministic motion, no rigid-body solver or arbitrary machine/story compiler"
+}

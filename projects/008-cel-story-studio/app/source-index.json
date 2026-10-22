@@ -1,0 +1,15 @@
+{
+  "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+  "files": [
+    {
+      "local": "app/src/vendor/engine.js",
+      "upstream": "demos/05-cel-boil/js/engine.js",
+      "sha": "d4dbc79ec30edc448ac9da7533b3411596f70956"
+    },
+    {
+      "local": "app/public/paper.jpg",
+      "upstream": "demos/05-cel-boil/assets/paper_base.jpg",
+      "sha": "59f6e49960ebfa32bbf808911da5e8de58e24b7f"
+    }
+  ]
+}

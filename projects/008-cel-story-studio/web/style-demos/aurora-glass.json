@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "title": "每一步，都有自己的样子",
+  "signature": "小小的勇气，也有光。",
+  "style": "aurora-glass",
+  "character": "flame",
+  "palette": "tomato",
+  "boil": 1.2,
+  "sound": true,
+  "shots": [
+    {
+      "id": "see",
+      "caption": "远方，有一颗等待的星星。",
+      "action": "observe",
+      "emotion": "curious",
+      "duration": 1
+    },
+    {
+      "id": "jump",
+      "caption": "给勇气，一个起跳的机会。",
+      "action": "jump",
+      "emotion": "determined",
+      "duration": 1
+    },
+    {
+      "id": "shine",
+      "caption": "看，小小的我也能带来光。",
+      "action": "celebrate",
+      "emotion": "happy",
+      "duration": 1
+    }
+  ]
+}

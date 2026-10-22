@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "cel-boil",
+  "title": "接住一小片月光",
+  "subtitle": "稳稳接住，再把光送远一点",
+  "words": [
+    "发现",
+    "接住",
+    "点亮"
+  ],
+  "primary": "#d5644e",
+  "secondary": "#2d5660",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "moon"
+}

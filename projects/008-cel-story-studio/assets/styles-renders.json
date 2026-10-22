@@ -1,0 +1,92 @@
+[
+  {
+    "style": "flat-vector",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/flat-vector.mp4"
+  },
+  {
+    "style": "line-art",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/line-art.mp4"
+  },
+  {
+    "style": "isometric",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/isometric.mp4"
+  },
+  {
+    "style": "3d-render",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/3d-render.mp4"
+  },
+  {
+    "style": "cel-boil",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/cel-boil.mp4"
+  },
+  {
+    "style": "collage",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/collage.mp4"
+  },
+  {
+    "style": "liquid",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/liquid.mp4"
+  },
+  {
+    "style": "morph",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/morph.mp4"
+  },
+  {
+    "style": "bauhaus",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/bauhaus.mp4"
+  },
+  {
+    "style": "synthwave",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/synthwave.mp4"
+  },
+  {
+    "style": "aurora-glass",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/aurora-glass.mp4"
+  },
+  {
+    "style": "hanazi",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/hanazi.mp4"
+  },
+  {
+    "style": "paperclip",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/paperclip.mp4"
+  },
+  {
+    "style": "pixel",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/pixel.mp4"
+  },
+  {
+    "style": "hud",
+    "frames": 72,
+    "posterFrame": 36,
+    "video": "style-demos/hud.mp4"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "line-art",
+  "title": "听见线的形状",
+  "subtitle": "从一根琴弦，到一整场共鸣",
+  "words": [
+    "起弦",
+    "共鸣",
+    "合奏"
+  ],
+  "primary": "#e4bd73",
+  "secondary": "#102f39",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true,
+  "storyId": "concert"
+}

@@ -1,0 +1,391 @@
+{
+  "revision": "0.15",
+  "verifiedAtUTC": "2026-10-21T17:43:44.702556+00:00",
+  "artisticScore": null,
+  "films": [
+    {
+      "file": "web/effect-examples/liquid.mp4",
+      "sha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e",
+      "seconds": 10,
+      "frames": 300,
+      "fullDecode": true,
+      "audio": true,
+      "style": "liquid",
+      "beforeSha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b"
+    },
+    {
+      "file": "web/effect-examples/hud.mp4",
+      "sha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965",
+      "seconds": 10,
+      "frames": 300,
+      "fullDecode": true,
+      "audio": true,
+      "style": "hud",
+      "beforeSha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e"
+    }
+  ],
+  "unchanged": [
+    {
+      "style": "cel-boil",
+      "sha256": "194173c9016df4a5a3d1164210d2b874a7061d743c8a866418a8ba4159e95b38"
+    },
+    {
+      "style": "morph",
+      "sha256": "35dc13593f887984a472cb3a1b07feedda558d83590b6f674875a7d4d82289f6"
+    },
+    {
+      "style": "collage",
+      "sha256": "cd630e1c75be255f2daee7cd6b588538f00a0468c8a84e2c8ae43f005e0e93d4"
+    },
+    {
+      "style": "line-art",
+      "sha256": "1d58e2caca8e6a1ec7fb429670c49c7de4cf38ddf29198d5164438f415b31717"
+    },
+    {
+      "style": "bauhaus",
+      "sha256": "a5ec48d45184433bae32b887765988b3b8869a120707891d357a71142cdeddd6"
+    },
+    {
+      "style": "hanazi",
+      "sha256": "a0229f19147a9d3027ea16b3e903debcbdd21940a05642c9f615fdc5ffa77cd3"
+    },
+    {
+      "style": "paperclip",
+      "sha256": "d7d8e2240233ca3a9a169591d9e794c9d39262653eff205eb41d5b96f73312ca"
+    },
+    {
+      "style": "aurora-glass",
+      "sha256": "1aaffdb4268c14a3768f382bdb44f3a174938e7af85ddd928597230ca6efa848"
+    },
+    {
+      "style": "isometric",
+      "sha256": "34f61d4c7ef613712ed8004fa726c806a96b0bc9b8ceb32e641c0d7f1910994b"
+    },
+    {
+      "style": "3d-render",
+      "sha256": "c9fd75c984312aad797bb5cb3f14475aa880a5f05849706f13dbfa18568c4b3f"
+    },
+    {
+      "style": "flat-vector",
+      "sha256": "136f38bda346fe50271f4d68d02d8e0f213e878f83f8257aa36336bf6d5176fd"
+    },
+    {
+      "style": "synthwave",
+      "sha256": "ea4aa0f5caf337ec714c002c9c864c20ffdd7dc14afeff6304161a9588d54914"
+    },
+    {
+      "style": "pixel",
+      "sha256": "bd3ddc1d887a863ce6d8171e1c65eb5dbd3d8e43421190faa268eaf4aa476b41"
+    }
+  ],
+  "frames": [
+    {
+      "file": "public/effects/material-liquid-45-015.jpg",
+      "frame": 45,
+      "sha256": "06ac4e6c660be1646d34c701429f8efd4aaee4c5c3c67c693400ffb5139ee456",
+      "movieSha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e",
+      "method": "extracted from final MP4"
+    },
+    {
+      "file": "public/effects/material-liquid-169-015.jpg",
+      "frame": 169,
+      "sha256": "c5bb34c48f21826e7d9610d70db494b2293d83e0bf4f9dd21373d4b3ca09eaa6",
+      "movieSha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e",
+      "method": "extracted from final MP4"
+    },
+    {
+      "file": "public/effects/material-liquid-183-015.jpg",
+      "frame": 183,
+      "sha256": "96a49b706e3bad8e16dcee1e6fb560532acfe7af054b3eac1c4b2b8e785cc289",
+      "movieSha256": "6f1d490ca6ae09a5643db3ffc6df43036684da1584c224462f59e0098850d15e",
+      "method": "extracted from final MP4"
+    },
+    {
+      "file": "public/effects/material-hud-45-015.jpg",
+      "frame": 45,
+      "sha256": "81b9837e10fbe3ced25e72c6065acbca19551da1ac75a841d48f3137def4531b",
+      "movieSha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965",
+      "method": "extracted from final MP4"
+    },
+    {
+      "file": "public/effects/material-hud-90-015.jpg",
+      "frame": 90,
+      "sha256": "f99323607805db7acf1a18ec0a8b86fda48f9c173630108706fa176fe4218b3e",
+      "movieSha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965",
+      "method": "extracted from final MP4"
+    },
+    {
+      "file": "public/effects/material-hud-270-015.jpg",
+      "frame": 270,
+      "sha256": "cba4f26bad4b58017ebef22b217feac885d5c6ea873c34bcb2cd966faf8d5bcb",
+      "movieSha256": "5334f17716ede0f528271a65802e0b2810a4686bc1b032b158f59c2ddadf8965",
+      "method": "extracted from final MP4"
+    }
+  ],
+  "reels": [
+    {
+      "file": "web/effect-examples/material-reel-015.mp4",
+      "sha256": "eca5bc02fc7c6d7102702a204044a21a54a08b464c2bbbcf86b7356c5a627591",
+      "seconds": 20,
+      "frames": 600,
+      "fullDecode": true,
+      "audio": true,
+      "chapters": [
+        {
+          "style": "liquid",
+          "title": "流动的桥",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 10,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "file": "web/effect-examples/quality-reel.mp4",
+      "sha256": "bcb09826af34490c42bfa0b9b276b59b58bab1fc2b560847c4b420d352f79f26",
+      "seconds": 150,
+      "frames": 4500,
+      "fullDecode": true,
+      "audio": true,
+      "chapters": [
+        {
+          "style": "cel-boil",
+          "title": "借一点风",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "style": "liquid",
+          "title": "流动的桥",
+          "start": 10,
+          "end": 20
+        },
+        {
+          "style": "morph",
+          "title": "把晴天放飞",
+          "start": 20,
+          "end": 30
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 30,
+          "end": 40
+        },
+        {
+          "style": "line-art",
+          "title": "把海写成星空",
+          "start": 40,
+          "end": 50
+        },
+        {
+          "style": "bauhaus",
+          "title": "纸上游乐场",
+          "start": 50,
+          "end": 60
+        },
+        {
+          "style": "hanazi",
+          "title": "别急，先喝一口",
+          "start": 60,
+          "end": 70
+        },
+        {
+          "style": "paperclip",
+          "title": "白天的光，夜里的灯",
+          "start": 70,
+          "end": 80
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 80,
+          "end": 90
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 90,
+          "end": 100
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 100,
+          "end": 110
+        },
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 110,
+          "end": 120
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 120,
+          "end": 130
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 130,
+          "end": 140
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 140,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "file": "web/effect-examples/after-hours-reel.mp4",
+      "sha256": "5ccad439e645ea78bd53920fa0ee79634bb54d14ed0ecf9a96109767d4c54a17",
+      "seconds": 45,
+      "frames": 1350,
+      "fullDecode": true,
+      "audio": true,
+      "chapters": [
+        {
+          "style": "cel-boil",
+          "title": "借一点风",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "style": "liquid",
+          "title": "流动的桥",
+          "start": 3,
+          "end": 6
+        },
+        {
+          "style": "morph",
+          "title": "把晴天放飞",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "style": "collage",
+          "title": "深海电台",
+          "start": 9,
+          "end": 12
+        },
+        {
+          "style": "line-art",
+          "title": "把海写成星空",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "style": "bauhaus",
+          "title": "纸上游乐场",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "style": "hanazi",
+          "title": "别急，先喝一口",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "style": "paperclip",
+          "title": "白天的光，夜里的灯",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "style": "aurora-glass",
+          "title": "折光电台",
+          "start": 24,
+          "end": 27
+        },
+        {
+          "style": "isometric",
+          "title": "声音制造局",
+          "start": 27,
+          "end": 30
+        },
+        {
+          "style": "3d-render",
+          "title": "磁场花开",
+          "start": 30,
+          "end": 33
+        },
+        {
+          "style": "flat-vector",
+          "title": "橘子有引力",
+          "start": 33,
+          "end": 36
+        },
+        {
+          "style": "synthwave",
+          "title": "午夜频率",
+          "start": 36,
+          "end": 39
+        },
+        {
+          "style": "pixel",
+          "title": "月亮修理铺",
+          "start": 39,
+          "end": 42
+        },
+        {
+          "style": "hud",
+          "title": "深蓝回声",
+          "start": 42,
+          "end": 45
+        }
+      ]
+    }
+  ],
+  "preserved": [
+    {
+      "file": "web/quality-before-015/liquid.mp4",
+      "sha256": "9031434c70521fab2deb604aac5a0e11e00e6bc07b89be38de7affb10395925b"
+    },
+    {
+      "file": "web/quality-before-015/liquid.jpg",
+      "sha256": "d325bf396893661257ed47da054089ea9bc4626301b1d45d03e77b341ebc26e7"
+    },
+    {
+      "file": "web/quality-before-015/liquid.json",
+      "sha256": "bb6e3967844a138bcceb277770ec18855e66377abb22b74885a778d585ad412e"
+    },
+    {
+      "file": "web/quality-before-015/hud.mp4",
+      "sha256": "dc9f68916f71582a3ac70e279e26dfae76b22939bc195a9aac9f0f2ea491017e"
+    },
+    {
+      "file": "web/quality-before-015/hud.jpg",
+      "sha256": "d2260aa1288aa1e7955523fdcaf32c0efd7518e63437a749b0503991eefeb5f5"
+    },
+    {
+      "file": "web/quality-before-015/hud.json",
+      "sha256": "0812ccd092ad221e39d5c1637b394d4e56513eb767446f9c0af90f1584b0eb7a"
+    },
+    {
+      "file": "web/quality-before-015/quality-reel.mp4",
+      "sha256": "55bfe99ff67bc28386b836b9434798b4dbcb30d8690a7d6071b69b7872bcc610"
+    },
+    {
+      "file": "web/quality-before-015/quality-reel.chapters.json",
+      "sha256": "62da0394bdb1f8fde7e75ceecdf1e85000d9c1e9e317eb0359ecb84a5adc3a12"
+    },
+    {
+      "file": "web/quality-before-015/after-hours-reel.mp4",
+      "sha256": "4d79e8716f22c512d95b8d84cc16564da3d07918a875f59177a23a86c2a802b2"
+    },
+    {
+      "file": "web/quality-before-015/after-hours-reel.chapters.json",
+      "sha256": "65dd874a8797f7fe55a6718ad68fbd26f0e70e941a13e9b0bfa0b8592716bc91"
+    }
+  ]
+}

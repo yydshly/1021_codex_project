@@ -1,0 +1,32 @@
+{
+  "engine": "Blender 4.5.14 / Cycles / OPTIX",
+  "samples": 48,
+  "frames": 300,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "scriptSha256": "6c81060b04c4996420c43e33e9454f54ab90aab11a58ffd60dbe1632633ca8e6",
+  "configuration": {
+    "kind": "effect-template",
+    "version": 1,
+    "style": "3d-render",
+    "title": "琥珀轨道",
+    "subtitle": "陶瓷、金属与一颗不愿停下的琥珀",
+    "words": [
+      "升起",
+      "环绕",
+      "共振"
+    ],
+    "primary": "#e5a855",
+    "secondary": "#7eb7a4",
+    "count": 8,
+    "intensity": 0.65,
+    "detail": 0.55,
+    "seed": 21,
+    "duration": 10,
+    "sound": true
+  },
+  "signature": "176084b2dce8f01f2786e3ca1b3dc72058e10878a967275f79218fe49c96545a",
+  "motion": "deterministic choreography, not soft-body physics",
+  "plate": "app/public/effects/studio-amber-plate.mp4"
+}

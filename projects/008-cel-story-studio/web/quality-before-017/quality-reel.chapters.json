@@ -1,0 +1,77 @@
+[
+  {
+    "style": "flat-vector",
+    "start": 0,
+    "end": 10
+  },
+  {
+    "style": "line-art",
+    "start": 10,
+    "end": 20
+  },
+  {
+    "style": "isometric",
+    "start": 20,
+    "end": 30
+  },
+  {
+    "style": "3d-render",
+    "start": 30,
+    "end": 40
+  },
+  {
+    "style": "cel-boil",
+    "start": 40,
+    "end": 50
+  },
+  {
+    "style": "collage",
+    "start": 50,
+    "end": 60
+  },
+  {
+    "style": "liquid",
+    "start": 60,
+    "end": 70
+  },
+  {
+    "style": "morph",
+    "start": 70,
+    "end": 80
+  },
+  {
+    "style": "bauhaus",
+    "start": 80,
+    "end": 90
+  },
+  {
+    "style": "synthwave",
+    "start": 90,
+    "end": 100
+  },
+  {
+    "style": "aurora-glass",
+    "start": 100,
+    "end": 110
+  },
+  {
+    "style": "hanazi",
+    "start": 110,
+    "end": 120
+  },
+  {
+    "style": "paperclip",
+    "start": 120,
+    "end": 130
+  },
+  {
+    "style": "pixel",
+    "start": 130,
+    "end": 140
+  },
+  {
+    "style": "hud",
+    "start": 140,
+    "end": 150
+  }
+]

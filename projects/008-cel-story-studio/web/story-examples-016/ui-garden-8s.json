@@ -1,0 +1,21 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "line-art",
+  "title": "春天的第一封信",
+  "subtitle": "把一点耐心，浇成满园回响",
+  "words": [
+    "落水",
+    "生根",
+    "盛放"
+  ],
+  "primary": "#d6c185",
+  "secondary": "#153d38",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 8,
+  "sound": true,
+  "storyId": "garden"
+}

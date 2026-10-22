@@ -1,0 +1,20 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "paperclip",
+  "title": "把阳光留到夜里",
+  "subtitle": "从一束光，到一盏灯",
+  "words": [
+    "收集",
+    "储存",
+    "点亮"
+  ],
+  "primary": "#ffae23",
+  "secondary": "#3153c5",
+  "count": 8,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 21,
+  "duration": 10,
+  "sound": true
+}

@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-21T06:03:26.553Z",
+  "originals": 15,
+  "templates": 15,
+  "rangeChecks": 30,
+  "rows": [
+    {
+      "id": "flat-vector",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/01-flat-vector.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/958958"
+        },
+        {
+          "file": "style-demos/flat-vector.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/256054"
+        }
+      ]
+    },
+    {
+      "id": "line-art",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/02-line-art.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/565488"
+        },
+        {
+          "file": "style-demos/line-art.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/273390"
+        }
+      ]
+    },
+    {
+      "id": "isometric",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/03-isometric.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/2444836"
+        },
+        {
+          "file": "style-demos/isometric.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/258888"
+        }
+      ]
+    },
+    {
+      "id": "3d-render",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/04-3d-render.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/3530829"
+        },
+        {
+          "file": "style-demos/3d-render.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/233730"
+        }
+      ]
+    },
+    {
+      "id": "cel-boil",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/05-cel-boil.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/7957024"
+        },
+        {
+          "file": "style-demos/cel-boil.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/461619"
+        }
+      ]
+    },
+    {
+      "id": "collage",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/06-collage.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/6223595"
+        },
+        {
+          "file": "style-demos/collage.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/342747"
+        }
+      ]
+    },
+    {
+      "id": "liquid",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/07-liquid.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/1261696"
+        },
+        {
+          "file": "style-demos/liquid.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/208791"
+        }
+      ]
+    },
+    {
+      "id": "morph",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/08-morph.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/1088177"
+        },
+        {
+          "file": "style-demos/morph.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/233241"
+        }
+      ]
+    },
+    {
+      "id": "bauhaus",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/09-bauhaus.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/791644"
+        },
+        {
+          "file": "style-demos/bauhaus.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/291971"
+        }
+      ]
+    },
+    {
+      "id": "synthwave",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/10-synthwave.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/5773981"
+        },
+        {
+          "file": "style-demos/synthwave.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/790498"
+        }
+      ]
+    },
+    {
+      "id": "aurora-glass",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/12-aurora-glass.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/1207668"
+        },
+        {
+          "file": "style-demos/aurora-glass.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/451234"
+        }
+      ]
+    },
+    {
+      "id": "hanazi",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/18-hanazi.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/1783239"
+        },
+        {
+          "file": "style-demos/hanazi.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/356456"
+        }
+      ]
+    },
+    {
+      "id": "paperclip",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/19-paperclip.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/2061564"
+        },
+        {
+          "file": "style-demos/paperclip.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/290845"
+        }
+      ]
+    },
+    {
+      "id": "pixel",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/20-pixel.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/3042809"
+        },
+        {
+          "file": "style-demos/pixel.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/173286"
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "originalUnchanged": true,
+      "posterUnchanged": true,
+      "media": [
+        {
+          "file": "reference-effects/media/22-hud.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/2669833"
+        },
+        {
+          "file": "style-demos/hud.mp4",
+          "status": 206,
+          "bytes": 32,
+          "range": "bytes 0-31/356558"
+        }
+      ]
+    }
+  ],
+  "browser": {
+    "before": {
+      "role": "小禾",
+      "shots": 5,
+      "style": "paperclip",
+      "title": "阳台上的小花"
+    },
+    "after": {
+      "cards": 15,
+      "open": true,
+      "role": "小禾",
+      "scrollWidth": 718,
+      "shots": 5,
+      "style": "paperclip",
+      "templateVideos": 0,
+      "title": "阳台上的小花",
+      "width": 718
+    },
+    "storyPreserved": true,
+    "originalPlayback": {
+      "duration": 10,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "time": 10
+    },
+    "templatePlayback": {
+      "duration": 3.008,
+      "ended": true,
+      "error": null,
+      "ready": 4,
+      "time": 3.008
+    },
+    "collapseStopsVideo": true,
+    "reopenSameHashWorks": true
+  }
+}

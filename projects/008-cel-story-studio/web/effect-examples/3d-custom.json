@@ -1,0 +1,19 @@
+{
+  "kind": "effect-template",
+  "version": 1,
+  "style": "3d-render",
+  "title": "有形的灵感",
+  "subtitle": "让想法，拥有可以触摸的形状",
+  "words": [
+    "柔软",
+    "碰撞",
+    "新生"
+  ],
+  "primary": "#ec826f",
+  "secondary": "#7796db",
+  "count": 10,
+  "intensity": 0.65,
+  "detail": 0.55,
+  "seed": 22,
+  "duration": 10
+}

@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "tag": "mg-styles-research-019",
+  "release": "https://github.com/yydshly/1021_codex_project/releases/tag/mg-styles-research-019",
+  "description": "完整合集迁至GitHub Release，字节与SHA256不变；所有单支影片、原作、截图和新旧对比保留在Pages。",
+  "assets": [
+    {
+      "sha256": "55a018e581eb68bfbef3f5d3fccacef99b112542dd53eb2f449cc05f5251bb45",
+      "bytes": 21894550,
+      "originals": [
+        "effect-examples/after-hours-reel.mp4"
+      ],
+      "asset": "mg019-effect-examples--after-hours-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--after-hours-reel.mp4"
+    },
+    {
+      "sha256": "4945b9779fec18727129634a40d2686a875e01c2e8420e49d7193b6b70217d8c",
+      "bytes": 14937272,
+      "originals": [
+        "effect-examples/hero-reel.mp4",
+        "quality-before-016/hero-reel.mp4"
+      ],
+      "asset": "mg019-effect-examples--hero-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--hero-reel.mp4"
+    },
+    {
+      "sha256": "eca5bc02fc7c6d7102702a204044a21a54a08b464c2bbbcf86b7356c5a627591",
+      "bytes": 8895171,
+      "originals": [
+        "effect-examples/material-reel-015.mp4",
+        "quality-before-016/material-reel-015.mp4"
+      ],
+      "asset": "mg019-effect-examples--material-reel-015.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--material-reel-015.mp4"
+    },
+    {
+      "sha256": "7724ba3dde0b01b9b6e1b2d746c9b77d39822a7a4fcc6937b9dece729a9f04d3",
+      "bytes": 61290937,
+      "originals": [
+        "effect-examples/quality-reel.mp4"
+      ],
+      "asset": "mg019-effect-examples--quality-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--quality-reel.mp4"
+    },
+    {
+      "sha256": "67ed048c58f7fbb0a3e29ccece25b38a488b5a981c7b0fea96b3da4449f3df0d",
+      "bytes": 20355329,
+      "originals": [
+        "effect-examples/recraft-reel.mp4",
+        "quality-before-016/recraft-reel.mp4"
+      ],
+      "asset": "mg019-effect-examples--recraft-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--recraft-reel.mp4"
+    },
+    {
+      "sha256": "7b11b2b958d5adfd78fc33e58b41660e4fa56ec2ddde343e012e4e38603fd82d",
+      "bytes": 24971155,
+      "originals": [
+        "effect-examples/trio-reel-013.mp4",
+        "quality-before-016/trio-reel-013.mp4"
+      ],
+      "asset": "mg019-effect-examples--trio-reel-013.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-effect-examples--trio-reel-013.mp4"
+    },
+    {
+      "sha256": "c43dccb81eb81f0193a65e5ea4ee12ac8e732961c2b4eaca3b26255b420619da",
+      "bytes": 27328302,
+      "originals": [
+        "quality-before-014/after-hours-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-014--after-hours-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-014--after-hours-reel.mp4"
+    },
+    {
+      "sha256": "659678054b11992e4e0f321059c8aaf46e0a7995f4a0814676ca5dbda19adfd6",
+      "bytes": 85792265,
+      "originals": [
+        "quality-before-014/quality-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-014--quality-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-014--quality-reel.mp4"
+    },
+    {
+      "sha256": "4d79e8716f22c512d95b8d84cc16564da3d07918a875f59177a23a86c2a802b2",
+      "bytes": 23190852,
+      "originals": [
+        "quality-before-015/after-hours-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-015--after-hours-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-015--after-hours-reel.mp4"
+    },
+    {
+      "sha256": "55bfe99ff67bc28386b836b9434798b4dbcb30d8690a7d6071b69b7872bcc610",
+      "bytes": 64071957,
+      "originals": [
+        "quality-before-015/quality-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-015--quality-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-015--quality-reel.mp4"
+    },
+    {
+      "sha256": "5ccad439e645ea78bd53920fa0ee79634bb54d14ed0ecf9a96109767d4c54a17",
+      "bytes": 23234985,
+      "originals": [
+        "quality-before-016/after-hours-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-016--after-hours-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-016--after-hours-reel.mp4"
+    },
+    {
+      "sha256": "bcb09826af34490c42bfa0b9b276b59b58bab1fc2b560847c4b420d352f79f26",
+      "bytes": 64068746,
+      "originals": [
+        "quality-before-016/quality-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-016--quality-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-016--quality-reel.mp4"
+    },
+    {
+      "sha256": "fa548403314a80e3b6636900c476409d45efc9d7e022d979c8cf40e7d13ace84",
+      "bytes": 19048074,
+      "originals": [
+        "quality-before-017/after-hours-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-017--after-hours-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-017--after-hours-reel.mp4"
+    },
+    {
+      "sha256": "f69d5af59d378239bf861150c6585ed23398c08aa954fab9a2a26e312e7d1a45",
+      "bytes": 74202106,
+      "originals": [
+        "quality-before-017/quality-reel.mp4"
+      ],
+      "asset": "mg019-quality-before-017--quality-reel.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-quality-before-017--quality-reel.mp4"
+    },
+    {
+      "sha256": "5de1a4892b6290b15867f18d9932ffff6331041c0cd05e4b428cca760145b783",
+      "bytes": 7223834,
+      "originals": [
+        "story-examples-016/complete-reel-016.mp4"
+      ],
+      "asset": "mg019-story-examples-016--complete-reel-016.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-story-examples-016--complete-reel-016.mp4"
+    },
+    {
+      "sha256": "a0ed4535138a02abfec60f4ddd63668c384cea065a7632cb5ab946a37bcca12b",
+      "bytes": 14369648,
+      "originals": [
+        "story-examples-017/complete-reel-017.mp4"
+      ],
+      "asset": "mg019-story-examples-017--complete-reel-017.mp4",
+      "url": "https://github.com/yydshly/1021_codex_project/releases/download/mg-styles-research-019/mg019-story-examples-017--complete-reel-017.mp4"
+    }
+  ]
+}
