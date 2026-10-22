@@ -1,0 +1,34 @@
+Create ONE polished Chinese technical infographic, landscape 3:2 aspect ratio, high resolution approximately 2400x1600 or larger. This is a new editorial research summary poster for the open-source Mountain River project. Use the two provided ACTUAL LOCAL RENDER SCREENSHOTS as supporting inserts: image 1 is the mountain river overview and image 2 is the near-water view. Preserve their visual content faithfully as rectangular screenshot panels, do not repaint or beautify the river, do not invent simulation results. No fake graphs, benchmark numbers or fps claims. All other graphics are schematic diagrams, clearly label "原理示意". Contemporary nature-tech editorial design matching an ivory #f5f5ef, deep forest #203c34, muted sage, pale teal palette. Beautiful precise Chinese typography, strong hierarchy, generous whitespace, clear readable text, restrained thin rules and arrows. This must feel like a crafted research one-pager, not generic marketing cards. Full bleed flat artwork only, no device or paper mockup.
+Layout: top title and concise core value statement; middle upper row about 35% height with large actual river screenshot left and waterline inset alongside three compact capability lines right; middle lower row an extremely clear horizontal pipeline with schematic shallow-water grid/cell flux arrows; bottom row reusable technology groups and practical meaning for our work, tiny scope footer. Every section must be legible and have clear reading order. Aim for fewer words at larger type; include exactly the following Chinese phrases with no typos, no additional invented facts:
+Title: "Mountain River"
+Main headline: "实时水流模拟 + 水面视觉效果"
+Subtitle: "核心价值：一套在浏览器 GPU 上运行的河流水效实现"
+Photo label: "效果｜基于本地实机截图"
+Small image caption: "河道与阶梯瀑布 / 贴近水面的折射与泡沫"
+Capabilities heading: "能力｜算出流动，表现水感"
+Three capability lines:
+"水流模拟：水深、流速、地形与岩石响应"
+"水面效果：反射、折射、泡沫、湿岩与飞溅"
+"场景支撑：分段生成、邻段衔接、自由探索"
+Pipeline heading: "原理｜从网格状态到实时画面"
+Four connected nodes:
+"河床与障碍"
+"浅水网格求解"
+"水深 / 流速 / 法线 / 泡沫"
+"材质与粒子绘制"
+Small formula under diagram: "新水量 = 原水量 + 流入量 − 流出量"
+Runtime strip: ".cu → CUDA WebShader → WGSL / WebGPU → Three.js"
+Tech heading: "可沉淀的技术｜建议提取，尚未封装为通用组件"
+Four concise groups in a horizontal row:
+"水流内核" with "网格、通量、边界"
+"水面材质" with "反射、折射、流动纹理"
+"接触效果" with "泡沫、湿润、飞溅"
+"GPU 场景管线" with "共享缓冲、固定步长、区段复用"
+Meaning heading: "对我们的意义"
+Meaning sentence: "为三维自然场景、互动展示与游戏水体积累可复用基础，减少从零实现与联调。"
+Next step callout: "先复用材质与效果，再按需接入模拟。"
+Footer text: "边界：浅水高度场，并非完整三维流体；无证据表明提出了新算法。"
+Source footer tiny but readable: "SamG-Coder/MountainRIver · ed17b13 · MIT · 研究与复用建议"
+Do not claim a ready-made SDK or an engineering prediction product. Distinguish diagram from screenshots. Preserve all Chinese wording accurately.
+
+Revision prompt: Preserve the composition and screenshots. Correct the blue-arrow label to 流入量 and the orange-arrow label to 流出量. Add 原理示意 inside the pipeline section. All other text unchanged.

@@ -89,6 +89,15 @@
       "repository": "https://github.com/hxtnv/three-freecam",
       "status": "已完成",
       "image": "assets/capability-value-summary.png"
+    },
+    {
+      "id": "013",
+      "slug": "mountain-river",
+      "title": "Mountain River：实时水流模拟与水面效果",
+      "summary": "在浏览器 GPU 上实时模拟水深、流速及地形与岩石响应，呈现反射、折射、泡沫、湿岩和飞溅的山间河流水效。可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载技术，后续用于三维自然场景、互动展陈、游戏浅水水体和水流原理教学；模块封装与跨项目适配尚待实施。",
+      "repository": "https://github.com/SamG-Coder/MountainRIver",
+      "status": "已完成",
+      "image": "assets/core-value-summary-v2.png"
     }
   ]
 }

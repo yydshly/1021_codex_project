@@ -21,6 +21,7 @@
 | 009 | [LCM：AI 编程助手的外部项目记忆](projects/009-lcm-memory/README.md) | 为 AI 编程助手提供外部项目记忆：通过 Hooks 捕获与恢复交互，用 SQLite 和分层摘要保留来源，供 AI 经 MCP/CLI 检索和主动保存；适用于跨会话研究、长期排错和决策追溯，预期减少重复说明与排查，实际收益仍需验证。 | 已完成 | [GitHub](https://github.com/lossless-claude/lcm) | [打开](https://yydshly.github.io/1021_codex_project/projects/009-lcm-memory/) |
 | 011 | [AlphaDesk：金融研究工作台的能力、架构与扩展](projects/011-alphadesk-terminal/README.md) | 聚合行情、新闻、公司披露与事件，支持市场观察、公司研究和事件跟踪。通过来源适配、字段整理、缓存与确定性计算，向 React 网页及只读 MCP/REST 输出研究材料；结合架构图与历史实测，研究向 A 股、每日资讯和行业情报扩展的方式与边界。 | 研究中 | [GitHub](https://github.com/vigneshv1cky/alphadesk-terminal) | [打开](https://yydshly.github.io/1021_codex_project/projects/011-alphadesk-terminal/) |
 | 012 | [three-freecam：基础相机交互封装](projects/012-three-freecam/README.md) | 一个 Three.js 基础相机交互封装，提供飞行、转头、环绕、平移、推拉与聚焦，能省下重复开发相机控制的时间；但对我们当前的研究展示和内容创作需求价值不大，保留为备用工具，暂不重点投入。 | 已完成 | [GitHub](https://github.com/hxtnv/three-freecam) | [打开](https://yydshly.github.io/1021_codex_project/projects/012-three-freecam/) |
+| 013 | [Mountain River：实时水流模拟与水面效果](projects/013-mountain-river/README.md) | 在浏览器 GPU 上实时模拟水深、流速及地形与岩石响应，呈现反射、折射、泡沫、湿岩和飞溅的山间河流水效。可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载技术，后续用于三维自然场景、互动展陈、游戏浅水水体和水流原理教学；模块封装与跨项目适配尚待实施。 | 已完成 | [GitHub](https://github.com/SamG-Coder/MountainRIver) | [打开](https://yydshly.github.io/1021_codex_project/projects/013-mountain-river/) |
 
 ### 002 · Lark Agent Bridge 原理研究
 
@@ -81,6 +82,12 @@ Claude 的插件与 Skill 集合，按岗位和业务场景匹配调用工作方
 一个 Three.js 基础相机交互封装，提供飞行、转头、环绕、平移、推拉与聚焦，能省下重复开发相机控制的时间；但对我们当前的研究展示和内容创作需求价值不大，保留为备用工具，暂不重点投入。
 
 [![three-freecam：基础相机交互封装预览](projects/012-three-freecam/assets/capability-value-summary.png)](projects/012-three-freecam/README.md)
+
+### 013 · Mountain River：实时水流模拟与水面效果
+
+在浏览器 GPU 上实时模拟水深、流速及地形与岩石响应，呈现反射、折射、泡沫、湿岩和飞溅的山间河流水效。可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载技术，后续用于三维自然场景、互动展陈、游戏浅水水体和水流原理教学；模块封装与跨项目适配尚待实施。
+
+[![Mountain River：实时水流模拟与水面效果预览](projects/013-mountain-river/assets/core-value-summary-v2.png)](projects/013-mountain-river/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始

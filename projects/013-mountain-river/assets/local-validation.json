@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "revision": "ed17b133ce37f8c97e93262681041d2aded2d8e2",
+  "environment": "Windows / Codex in-app browser / localhost",
+  "kernelCompilation": {
+    "entryPoints": 24,
+    "passed": true
+  },
+  "repositoryUnitTests": {
+    "count": 8,
+    "passed": true
+  },
+  "catalogCheck": true,
+  "localHtmlReferences": true,
+  "vendoredSceneByteIdentical": true,
+  "observedBrowserChecks": [
+    "original scene rendered",
+    "river/overlook/waterline screenshots",
+    "golden hour lighting",
+    "gallery selection",
+    "simulation/rendering explanation selection",
+    "embedded original ready",
+    "pause button state",
+    "exit removes scene",
+    "390px responsive layout"
+  ],
+  "notVerified": [
+    "full upstream physics regression",
+    "performance benchmark",
+    "cross-browser compatibility",
+    "real mobile device",
+    "disabled WebGPU runtime path",
+    "timeout runtime path"
+  ],
+  "coreValueUpdate": {
+    "date": "2026-10-22",
+    "infographic": "core-value-summary-v2.png",
+    "imageGeneration": "built-in imagegen; based on original local screenshots; schematic diagram",
+    "size": [
+      1536,
+      1024
+    ],
+    "visualReview": true,
+    "staticReferencesAndAnchors": true,
+    "sourceOutputParity": true,
+    "repositoryUnitTestsPassed": 8,
+    "originalSceneUnchanged": true,
+    "newBrowserLayoutVerified": false,
+    "browserLimit": "Prior browser security policy rejection; no workaround attempted"
+  }
+}
