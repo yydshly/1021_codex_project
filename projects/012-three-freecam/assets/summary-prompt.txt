@@ -1,0 +1,52 @@
+Create ONE polished Chinese editorial infographic, landscape 3:2, high resolution, with very legible simplified Chinese typography. It is a sober research conclusion, not a marketing poster.
+
+Input images 1 and 2 are supporting screenshot inserts from our actual local demonstration. Preserve the supplied screenshot pixels/content as faithfully as possible in framed image panels, using a crop of the scene region if helpful. Do NOT invent more impressive 3D models, do NOT redraw or upgrade architecture, do NOT imply the models were created by this library. Label them "本地演示截图参考" (not an unaltered photographic proof). Show both wide view and close-up side by side with a small arrow, illustrating the same scene and a changed camera. The gallery close-up should clearly connect to the small gallery in the wide view.
+
+Visual style: clean magazine research sheet, warm ivory, dark forest green, subdued sage, restrained rust-orange conclusion box. Generous whitespace, tidy grid, fine rules, clean vector-like icons of camera movement. Avoid ornamental 3D objects, heavy gradients, clutter, score gauges, invented metrics. No tiny unreadable captions. All main text readable at normal viewing size.
+
+Use exactly this substantive content in well-organized sections, with balanced hierarchy:
+
+Top kicker: "012 / 开源项目研究"
+Large title: "three-freecam"
+Subtitle: "一个封装好的 Three.js 相机控制工具"
+Prominent thesis line: "基础交互封装，价值在于省开发时间。"
+
+LEFT / about 58% of page:
+Heading "效果：同一场景，换个视角"
+Two side-by-side screenshot inserts with labels "全景自由观察" and "靠近并聚焦物体", connected by a small arrow labeled "移动相机".
+Caption "模型与场景由应用提供；本页自动巡游是额外编排。"
+Small unobtrusive label "本地演示截图参考"
+Below images, heading "它提供的能力"
+Arrange 6 compact icon + text entries in a 3-column / 2-row grid:
+"自由飞行" / "WASD + Q/E 移动"
+"转头与环绕" / "右拖转头 · Alt 拖动环绕"
+"平移与推拉" / "中键平移 · 滚轮前后移动"
+"目标取景" / "focus() 聚焦已有物体"
+"位置跳转" / "placeAt() 设置位置与朝向"
+"手感调节" / "速度、加速与移动惯性"
+A bottom small horizontal mechanism flow:
+"鼠标键盘 → 向量与旋转计算 → 更新相机 → Three.js 渲染"
+
+RIGHT / about 38% of page:
+An orange-tinted conclusion panel with large text:
+"对我们当前的价值：不大"
+Then 3 numbered reasons:
+"01 需求匹配低"
+"当前研究展示与内容创作，并不依赖自由飞行相机。"
+"02 新增能力有限"
+"主要是输入事件、向量、旋转与插值等成熟代码的封装。"
+"03 替代方式充足"
+"单模型展示通常用 OrbitControls 即可。"
+Below it a small green heading:
+"什么时候值得用？"
+Body:
+"需要三维场景巡检、编辑器视口或自由漫游时，直接复用可少写相机控制代码。"
+Small boundary block:
+"不提供：建模、画质提升、模型动画、碰撞、录像。"
+Bottom decision strip across the whole image:
+"我们的判断：保留为备用工具，暂不作为重点研究方向。"
+Tiny but readable footer:
+"研究版本 0.2.0 · MIT · github.com/hxtnv/three-freecam"
+"价值判断基于当前需求，并非否定它作为小工具的实用性。"
+
+Ensure no typo especially "three-freecam", "OrbitControls", "focus()", "placeAt()". No invented features. No statement that advanced automatic film-making is built into the library. Make the judgment and screenshots unmistakable at first glance.

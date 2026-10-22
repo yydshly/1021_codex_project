@@ -1,0 +1,9 @@
+{
+  "name": "three-freecam-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs", "verify:controls": "node verify-controls.mjs", "start": "python -m http.server 8012 --bind 127.0.0.1 --directory ../web" },
+  "dependencies": { "three": "0.186.0", "three-freecam": "0.2.0" },
+  "devDependencies": { "esbuild": "0.25.12" }
+}

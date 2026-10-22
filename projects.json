@@ -80,6 +80,15 @@
       "repository": "https://github.com/vigneshv1cky/alphadesk-terminal",
       "status": "研究中",
       "image": "assets/architecture-full.png"
+    },
+    {
+      "id": "012",
+      "slug": "three-freecam",
+      "title": "three-freecam：基础相机交互封装",
+      "summary": "一个 Three.js 基础相机交互封装，提供飞行、转头、环绕、平移、推拉与聚焦，能省下重复开发相机控制的时间；但对我们当前的研究展示和内容创作需求价值不大，保留为备用工具，暂不重点投入。",
+      "repository": "https://github.com/hxtnv/three-freecam",
+      "status": "已完成",
+      "image": "assets/capability-value-summary.png"
     }
   ]
 }

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef1e9">
+  <meta name="description" content="在原创三维建筑小岛中体验 three-freecam：自由飞行、绕物观察、平移与聚焦。">
+  <title>自由视角 · three-freecam 相机实验室</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="自由视角首页"><span class="brand-icon">⌖</span><span>自由视角<span class="brand-en">CAMERA LAB</span></span></a>
+    <div class="project-tag">研究 012 <span>/</span> three-freecam</div>
+    <nav><button id="about" class="text-button">能力与原理 <span>↗</span></button><a href="https://github.com/hxtnv/three-freecam" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  </header>
+  <main class="workspace">
+    <aside class="sidebar">
+      <div class="intro"><div class="eyebrow"><i></i> THREE-FREECAM / 交互实验</div><h1>换个视角，<br>进入场景。</h1><p>像使用游戏编辑器一样，<br>自由飞行，靠近，再绕到背面。</p></div>
+      <section class="experiments" aria-label="相机体验模式">
+        <div class="section-label">从这里开始 <span>03 个体验</span></div>
+        <button class="experiment active" data-mode="fly" aria-pressed="true"><span class="step">01</span><span><strong>自由飞行</strong><small>右键转头 · WASD 移动</small></span><span class="step-icon">↗</span></button>
+        <button class="experiment" data-mode="orbit" aria-pressed="false"><span class="step">02</span><span><strong>围绕物体</strong><small>Alt + 左键拖动 · 观察每一面</small></span><span class="step-icon">⟳</span></button>
+        <button class="experiment" data-mode="focus" aria-pressed="false"><span class="step">03</span><span><strong>一键聚焦</strong><small>点击场景物体 · F 聚焦选中项</small></span><span class="step-icon">⌖</span></button>
+      </section>
+      <section class="settings" aria-label="飞行参数">
+        <div class="section-label">调一调手感 <button id="reset-settings" class="quiet">恢复默认</button></div>
+        <label for="speed">飞行速度 <output id="speed-value" for="speed">16 <em>u/s</em></output></label><input id="speed" type="range" min="2" max="80" value="16" step="1">
+        <label for="damping">滑行惯性 <output id="damping-value" for="damping">0.00</output></label><input id="damping" type="range" min="0" max="0.95" value="0" step="0.05">
+        <p class="setting-note">惯性调高，松开按键后会缓缓停下。</p>
+      </section>
+      <div class="sidebar-bottom"><span class="live-dot"></span><span>真实库驱动 <b>v0.2.0</b></span><span>MIT</span></div>
+    </aside>
+    <section class="scene-panel" aria-label="三维交互演示">
+      <div id="viewport" tabindex="0" aria-label="三维场景。点击后使用 WASD 飞行，右键拖动转头，Q E 升降。"><div id="loading" class="loading">正在构建你的观察空间…</div></div>
+      <div class="scene-heading"><span class="eyebrow">EXPLORATION ISLAND</span><h2>漫游岛 <span>01</span></h2><p>一座小岛，无数个观察角度。</p></div>
+      <div class="scene-actions"><button id="tour" class="primary" aria-pressed="false"><span id="tour-icon">▷</span> <span id="tour-label">自动演示</span></button><button id="reset-view" class="icon-button" aria-label="回到全景" title="回到全景">↺</button></div>
+      <div id="tour-caption" class="tour-caption" hidden>自动巡游 · 演示页编排的相机路径</div>
+      <div id="landmarks" class="landmarks" aria-label="场景物体">
+        <button data-target="tower"><span class="landmark-dot coral"></span>01 观景塔</button><button data-target="gallery"><span class="landmark-dot green"></span>02 连廊</button><button data-target="ring"><span class="landmark-dot gold"></span>03 圆环</button>
+      </div>
+      <div class="scene-bottom"><div class="mode-line"><span class="live-dot"></span><strong id="mode-label">自由飞行</strong><span id="mode-hint">点击场景，用 WASD 出发</span></div><div class="telemetry"><span id="position">X 0.0 · Y 0.0 · Z 0.0</span><span id="fps">— FPS</span></div></div>
+      <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+      <div class="axis" aria-hidden="true"><span>Y</span><i></i><b>X</b><em>Z</em></div>
+    </section>
+  </main>
+  <footer class="controls"><span class="controls-title">操作速查</span><span><kbd>右键</kbd> 转头</span><span><kbd>W A S D</kbd> 飞行</span><span><kbd>Q / E</kbd> 升降</span><span><kbd>Shift</kbd> 加速</span><span><kbd>中键</kbd> 平移</span><span><kbd>滚轮</kbd> 推近 / 拉远</span><span><kbd>Alt + 左键</kbd> 环绕</span><button id="help" class="quiet">完整说明 ↗</button></footer>
+  <dialog id="info"><div class="dialog-head"><div class="eyebrow">BEHIND THE CAMERA</div><button id="close-info" class="icon-button" aria-label="关闭说明">×</button></div><h2>改变的是视角，<br>探索的是整个空间。</h2><p>three-freecam 为 Three.js 提供编辑器式相机操作。这个页面使用 npm 发布的原库 0.2.0，场景是本项目原创的几何建筑小岛。</p><div class="explain-grid"><section><h3>库提供什么</h3><p>自由飞行、鼠标转头、中键平移、Alt 环绕、滚轮推拉、速度与惯性配置，以及 focus() 取景、placeAt() 跳转。</p></section><section><h3>本页额外做了什么</h3><p>建筑小岛、点击拾取、选中高亮、F 聚焦选中物体、预设视角和自动巡游。自动巡游是本页编排，并非库内置录像或路径系统。</p></section></div><div class="flow"><span>鼠标 / 键盘</span><b>→</b><span>FreeCam.update(dt)</span><b>→</b><span>相机位置与朝向</span><b>→</b><span>Three.js 渲染</span></div><h3>试试这些操作</h3><p>点击场景激活键盘。右键拖动转头；WASD 飞行；Q/E 升降；Shift 加速。右键拖动时滚轮调整飞行速度；普通滚轮移动相机。中键平移，Alt + 左键环绕当前中心点。点击任意建筑或上方名称选中，再按 F 聚焦。Esc 退出鼠标锁定。</p><h3>边界也很明确</h3><p>没有碰撞与重力，可以穿过建筑；没有触屏飞行操作；focus() 和 placeAt() 直接跳转。手机可通过预设按钮和自动演示观看。普通左键选中与 F 选中聚焦由本页补充，原库 F 仅作用于当前 pivot。</p><p class="license-links"><a href="https://github.com/hxtnv/three-freecam" target="_blank" rel="noreferrer">上游仓库 ↗</a><a href="https://hxtnv.github.io/three-freecam/" target="_blank" rel="noreferrer">官方示例 ↗</a><a href="./THIRD-PARTY-NOTICES.txt" target="_blank">第三方许可证 ↗</a></p></dialog>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
