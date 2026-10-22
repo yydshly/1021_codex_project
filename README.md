@@ -22,6 +22,7 @@
 | 011 | [AlphaDesk：金融研究工作台的能力、架构与扩展](projects/011-alphadesk-terminal/README.md) | 聚合行情、新闻、公司披露与事件，支持市场观察、公司研究和事件跟踪。通过来源适配、字段整理、缓存与确定性计算，向 React 网页及只读 MCP/REST 输出研究材料；结合架构图与历史实测，研究向 A 股、每日资讯和行业情报扩展的方式与边界。 | 研究中 | [GitHub](https://github.com/vigneshv1cky/alphadesk-terminal) | [打开](https://yydshly.github.io/1021_codex_project/projects/011-alphadesk-terminal/) |
 | 012 | [three-freecam：基础相机交互封装](projects/012-three-freecam/README.md) | 一个 Three.js 基础相机交互封装，提供飞行、转头、环绕、平移、推拉与聚焦，能省下重复开发相机控制的时间；但对我们当前的研究展示和内容创作需求价值不大，保留为备用工具，暂不重点投入。 | 已完成 | [GitHub](https://github.com/hxtnv/three-freecam) | [打开](https://yydshly.github.io/1021_codex_project/projects/012-three-freecam/) |
 | 013 | [Mountain River：实时水流模拟与水面效果](projects/013-mountain-river/README.md) | 在浏览器 GPU 上实时模拟水深、流速及地形与岩石响应，呈现反射、折射、泡沫、湿岩和飞溅的山间河流水效。可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载技术，后续用于三维自然场景、互动展陈、游戏浅水水体和水流原理教学；模块封装与跨项目适配尚待实施。 | 已完成 | [GitHub](https://github.com/SamG-Coder/MountainRIver) | [打开](https://yydshly.github.io/1021_codex_project/projects/013-mountain-river/) |
+| 015 | [Autumn Line：秋日铁路场景与技术沉淀](projects/015-autumn-line/README.md) | 用程序化建模与 Three.js 实时呈现秋日铁路、树林和山谷，提供卡通光影、描边、风动、落叶与漫游。作为自然场景素材，沉淀植物模板、场景配置、实例化绘制、风格渲染和镜头控制，可扩展到游戏环境、动画背景、分镜预演、静帧及交互网页；导出工具与通用组件需另行开发。 | 已完成 | [GitHub](https://github.com/ishuagrawal/autumn-line) | [打开](https://yydshly.github.io/1021_codex_project/projects/015-autumn-line/) |
 
 ### 002 · Lark Agent Bridge 原理研究
 
@@ -88,6 +89,12 @@ Claude 的插件与 Skill 集合，按岗位和业务场景匹配调用工作方
 在浏览器 GPU 上实时模拟水深、流速及地形与岩石响应，呈现反射、折射、泡沫、湿岩和飞溅的山间河流水效。可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载技术，后续用于三维自然场景、互动展陈、游戏浅水水体和水流原理教学；模块封装与跨项目适配尚待实施。
 
 [![Mountain River：实时水流模拟与水面效果预览](projects/013-mountain-river/assets/core-value-summary-v2.png)](projects/013-mountain-river/README.md)
+
+### 015 · Autumn Line：秋日铁路场景与技术沉淀
+
+用程序化建模与 Three.js 实时呈现秋日铁路、树林和山谷，提供卡通光影、描边、风动、落叶与漫游。作为自然场景素材，沉淀植物模板、场景配置、实例化绘制、风格渲染和镜头控制，可扩展到游戏环境、动画背景、分镜预演、静帧及交互网页；导出工具与通用组件需另行开发。
+
+[![Autumn Line：秋日铁路场景与技术沉淀预览](projects/015-autumn-line/assets/natural-scene-overview.png)](projects/015-autumn-line/README.md)
 <!-- PROJECT_INDEX:END -->
 
 ## 从这里开始

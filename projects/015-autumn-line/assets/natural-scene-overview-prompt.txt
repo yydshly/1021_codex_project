@@ -1,0 +1,66 @@
+Create ONE comprehensive, polished Chinese infographic for a technical research website. Landscape 3:2, very high resolution (ideally 3840×2560), dense but carefully structured legible Simplified Chinese text, elegant editorial infographic with cream paper background, forest green headings, burnt orange accents, restrained fine vector-like line icons. No fake browser UI. All text MUST be accurate and readable, no gibberish. Use generous spacing with a strong hierarchy. The attached image is ONLY a reference for the autumn railway scenery; use a modest central miniature scenic illustration inspired by it labeled “秋日铁路 · 场景示意”, NOT a claimed runtime screenshot.
+
+Main title exact: “Autumn Line｜自然场景素材能力总览”
+Main conclusion, prominently underneath: “我们的定位：自然环境类 3D 场景素材 + 可复用的生成与渲染方法”
+Subline: “最大能力：用少量模板与规则，组织出有细节、有统一画风的自然环境。”
+
+Organize into clearly numbered sections arranged in logical reading order with connectors, not a messy mind map. Include ALL following content; wording may wrap but do not change meanings. Make one coherent chart about capability → mechanism → result → integration → our value → boundaries. Integrate small meaningful icons and the scene illustration without sacrificing text size.
+
+Section 01 “能力是什么”
+Three asset levels:
+“现成场景：秋日铁路、树林、山谷、草地、天空与落叶”
+“可变素材：修改代码，调整树形、密度、配色、地形和轨道”
+“制作方法：程序化生成 + 场景布局 + 风格渲染 + 相机交互”
+Small highlight: “相近自然环境可改造；城市、室内、人物需新增资产。”
+
+Section 02 “原理是什么”
+A horizontal flow with 4 steps:
+“照片构图参考” → “布局与程序化建模” → “卡通光照” → “描边与后处理”
+Details below steps:
+“相机、山丘与主景树定点设计”
+“高度场 / 噪声 / 随机种子 / 植物模板”
+“明暗分区 / 阴影 / 远景雾”
+“颜色 + 深度 + 法线 + 物体编号”
+Supporting optimization row: “实例化复用几何 · 叶片面片与图集 · 近中远模板分级”
+Important factual note: “细节级别在生成时选定，不随相机自动切换。”
+
+Section 03 “效果是什么”
+Use miniature scenery and concise list:
+“卡通秋景：色块、轮廓线、层次与空间感”
+“实时变化：植被风动、落叶飘落”
+“交互体验：照片视角、自由探索、原图对照”
+Visually distinct small note:
+“本地研究页新增：描边 / 风力调节，法线 / 深度诊断，暂停与释放。”
+
+Section 04 “能否直接接入效果”
+A 3-row readiness table with clear status:
+“可直接展示｜构建后静态托管；网页链接或 iframe 嵌入”
+“需代码改造｜抽取植被、地形、材质；重设布局与镜头”
+“需另行开发｜视频导出、镜头时间线、GLB 等资产导出与编辑器”
+Extra practical note: “浏览器运行 Three.js / WebGL，无需模型 API。”
+Extra important distinction: “可接入现成网页效果；不是现成通用组件或模型素材包。”
+
+Section 05 “对我们的价值”
+Strong main message: “收进自然场景素材库，作为可反复取景的虚拟外景地。”
+Applications with 6 small icons:
+“游戏：环境原型与背景”
+“动画 / 短片：镜头取景与背景”
+“分镜：机位与镜头预演”
+“插画 / 海报：多角度静帧”
+“网页：交互背景与专题展示”
+“教学：渲染与自然生成实验”
+One note “以上为可扩展用途；部分需要补工具与业务功能。”
+Reuse capsule: “沉淀四件事：自然资产 · 场景配置 · 风格渲染 · 镜头控制”
+Value statement: “搭一次环境，多次取景；改参数与布局，制作相近主题。”
+
+Section 06 “边界与投入判断”
+“没有任意照片转 3D、精确重建或完整游戏能力。”
+“水体、建筑、人物、碰撞与玩法需要新增。”
+“手机性能、长时稳定性与商业收益尚未验证。”
+“固定镜头优先考虑图片 / 视频；需要视角或场景交互时采用实时 3D。”
+“作者用 AI 写代码，不等于运行时具备 AI 生成服务。”
+
+Footer small but readable:
+“来源：ishuagrawal/autumn-line · MIT · 研究版本 c5e84c0”
+“照片素材独立授权待核实；本图为理解总览，实际效果见网页实时演示。”
+Avoid inflated claims about arbitrary world generation, plug-and-play GLB models, export features, dynamic LOD, commercial proven success. No added numbers or performance claims.

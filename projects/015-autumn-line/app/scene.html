@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Autumn Line</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="compare" hidden>
+      <div class="frame">
+        <img id="ref" src="reference.webp" alt="Reference photograph" draggable="false" />
+        <div class="handle"><span></span></div>
+        <div class="tag tag-l">Photo</div>
+        <div class="tag tag-r">Render</div>
+      </div>
+    </div>
+    <header id="title">
+      <h1>Autumn Line</h1>
+      <p>秋日铁路 · 卡通风格三维场景</p>
+    </header>
+    <nav id="bar">
+      <button data-act="photo" class="on">照片视角</button>
+      <button data-act="explore">自由探索</button>
+      <button data-act="compare">原图对照</button>
+      <span class="hint" id="hint">拖动转向 · 滚轮变焦 · WASD 行走</span>
+    </nav>
+    <div id="loading">
+      <div class="ld-inner">
+        <div class="ld-title">Autumn Line</div>
+        <div class="ld-bar"><i></i></div>
+        <div class="ld-msg">laying track</div>
+      </div>
+    </div>
+    <script type="module" src="/src/boot.ts"></script>
+  </body>
+</html>
