@@ -77,3 +77,15 @@ GitHub API 查询 main 为 `ed17b133ce37f8c97e93262681041d2aded2d8e2`，从该�
 摘要统一说明三个层次：在浏览器 GPU 上呈现会响应地形与岩石的实时山间河流；可提取浅水求解器、水面材质、接触效果、共享缓冲与分段加载；后续可用于三维自然场景、互动展陈、游戏浅水环境和原理教学。新增具体适配事项，明确移动障碍更新、教学矢量显示等属于待开发功能。
 
 使用生成的 core-value-summary-v2.png 作为项目索引封面、README 引导图及网页一图总结。发布通过总仓库既有 GitHub Pages 工作流进行；基于 origin/main 创建独立工作树，仅带入 013 子项目与对应索引，不带入其他未提交项目。
+
+### 发布结果与线上验证
+
+- 发布提交：`a23ad341f3b15af3ed4e2d668c0d53d1665b2c54`，已推送至远端 main。
+- 公开网页：https://yydshly.github.io/1021_codex_project/projects/013-mountain-river/
+- 部署记录：https://github.com/yydshly/1021_codex_project/actions/runs/39800099164
+- 远端校验：https://github.com/yydshly/1021_codex_project/actions/runs/39800080051 ，成功。
+- 发布工作树基于远端版本的 6 项测试通过，原工作区的 8 项测试通过；两处索引检查均通过。测试数量不同源于原工作区还有其他项目的未发布校验扩展。
+- 线上说明页、CSS、JS、总结图、原版入口、main.js、river.cu、Three.js WebGPU 模块与 LICENSE 共 9 项资源返回 HTTP 200，并与发布提交内容逐字节一致。
+- 门户含 013 条目，并使用 core-value-summary-v2.png 引导图。完整 HTTP 校验结果见 assets/publication-validation.json。
+- 本次线上验证范围为静态发布与文件完整性；没有在公网重新进行 GPU 运行、帧率或完整物理回归。原版实机运行证据来自之前本地验证。
+- 发布副本位于 E 盘独立工作树，未合入其他本地未提交项目。后续远端更新已保留本次 013 条目。

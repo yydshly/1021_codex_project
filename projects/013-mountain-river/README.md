@@ -114,4 +114,4 @@ python -m http.server 8174 --bind 127.0.0.1
 
 ## 发布方式
 
-通过研究总仓库的 GitHub Pages 工作流发布 `web/` 静态产物。研究门户与网页继续使用 `assets/core-value-summary-v2.png` 作为引导图；保留原始实机截图作为效果依据。发布结果与验证范围记录在 notes.md。
+通过研究总仓库的 GitHub Pages 工作流发布 `web/` 静态产物。研究门户与网页继续使用 `assets/core-value-summary-v2.png` 作为引导图；保留原始实机截图作为效果依据。已发布至上方“发布入口”。页面与 8 项资源已核对 HTTP 200 和提交内容一致，门户采用生成的总结图；本次未复测公网 GPU 性能。详细记录见 [notes.md](notes.md) 与 [发布验证报告](assets/publication-validation.json)。

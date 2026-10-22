@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-22",
+  "url": "https://yydshly.github.io/1021_codex_project/projects/013-mountain-river/",
+  "commit": "a23ad341f3b15af3ed4e2d668c0d53d1665b2c54",
+  "deploymentRun": "https://github.com/yydshly/1021_codex_project/actions/runs/39800099164",
+  "portalEntry": true,
+  "httpChecks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "2ef591e4e4b22d53aaa39bdb20002fc665ad50febcb8f7758233ae285cd5b72e",
+      "matchesCommit": true
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "490341f020bcaf96a7d064d9f274b966797d57ee7764b3c95a584f884e6b44ad",
+      "matchesCommit": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "9d261a4e3dc0e6f781acfa19059a3ec3a2b3db1796a2c72f7d0f4e9655138e81",
+      "matchesCommit": true
+    },
+    {
+      "path": "assets/core-value-summary-v2.png",
+      "status": 200,
+      "contentType": "image/png",
+      "sha256": "007efb9ea49ce89a00d411b9c0b78100c5379d08187890b33ac1e3684c5cc9cd",
+      "matchesCommit": true
+    },
+    {
+      "path": "scene/index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "2a1824d8a9ac37fc9edc7e72cfd01a8ac4bbcd6dacf224947312839cf5895bb3",
+      "matchesCommit": true
+    },
+    {
+      "path": "scene/src/main.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "c63ad9d16633eca99dd94dccaed4c5dbeb42ae215a120e83a2fe4c7164f760d3",
+      "matchesCommit": true
+    },
+    {
+      "path": "scene/src/river.cu",
+      "status": 200,
+      "contentType": "application/cu-seeme",
+      "sha256": "28a0344ac38b33bc04bdbb4c19f394d5d5d72d8a239b0b0c4312935214348b65",
+      "matchesCommit": true
+    },
+    {
+      "path": "scene/vendor/three.webgpu.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "9ae367234314bcb6a2fe3bb369fb2bb2ced79dd8359c1db220f0b6d280c637b8",
+      "matchesCommit": true
+    },
+    {
+      "path": "scene/LICENSE",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "sha256": "cfc86358916d058e558822e4c36a2deed6f313d16ba7e6c28be1fc9f16b10336",
+      "matchesCommit": true
+    }
+  ],
+  "browserGpuRuntimeRechecked": false,
+  "verificationScope": "HTTP availability and byte-for-byte publication match; original GPU rendering was validated locally earlier.",
+  "validationWorkflow": "https://github.com/yydshly/1021_codex_project/actions/runs/39800080051",
+  "validationWorkflowConclusion": "success",
+  "publicationWorktreeTestsPassed": 6,
+  "localWorkspaceTestsPassed": 8,
+  "guideImage": "assets/core-value-summary-v2.png"
+}
